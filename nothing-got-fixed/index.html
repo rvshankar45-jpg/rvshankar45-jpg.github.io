@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Four Indian delivery apps answer nearly every angry review within minutes. Over three months, not one complaint category improved.">
+<meta property="og:title" content="Nothing Got Fixed">
+<meta property="og:description" content="Swiggy replies to 99.7% of its one-star reviews. Zomato replies to 1.9%. Both had identical outcomes.">
+<meta property="og:type" content="article">
+<style>
+  /* Matches the reset the artifact host injects, so the standalone page
+     renders identically. */
+  *,*::before,*::after{ box-sizing:border-box; }
+  html{ color-scheme:light dark; }
+  body{ margin:0; }
+  img{ max-width:100%; }
+  [hidden]{ display:none !important; }
+</style>
+<title>Nothing Got Fixed</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+  :root{
+    --paper:#FAF6EF; --surface:#FFFFFF; --sunk:#F2ECE1;
+    --ink:#17130D; --ink2:#5E564A; --ink3:#8C8274;
+    --rule:#E2D9C9; --rule2:#CFC3AD;
+    --zomato:#D6283A; --swiggy:#E06A0A; --blinkit:#B07D00; --zepto:#6C34D9;
+    --flag:#C2410C;
+    --shadow:0 1px 2px rgba(23,19,13,.05), 0 8px 24px -12px rgba(23,19,13,.18);
+    --display:"Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
+    --body:"Source Serif 4", Georgia, "Times New Roman", serif;
+    --mono:"JetBrains Mono", ui-monospace, "SFMono-Regular", Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --paper:#131110; --surface:#1C1917; --sunk:#232020;
+      --ink:#F7F2E9; --ink2:#BDB3A4; --ink3:#8E8478;
+      --rule:#302B26; --rule2:#453E36;
+      --zomato:#FF6B77; --swiggy:#FFA24D; --blinkit:#E8B33C; --zepto:#A985FF;
+      --flag:#FB923C;
+      --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.6);
+    }
+  }
+  :root[data-theme="dark"]{
+    --paper:#131110; --surface:#1C1917; --sunk:#232020;
+    --ink:#F7F2E9; --ink2:#BDB3A4; --ink3:#8E8478;
+    --rule:#302B26; --rule2:#453E36;
+    --zomato:#FF6B77; --swiggy:#FFA24D; --blinkit:#E8B33C; --zepto:#A985FF;
+    --flag:#FB923C;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -12px rgba(0,0,0,.6);
+  }
+
+  body{ background:var(--paper); color:var(--ink);
+    font-family:var(--body); font-size:18px; line-height:1.62;
+    -webkit-font-smoothing:antialiased; }
+  .wrap{ max-width:1080px; margin:0 auto; padding-inline:20px; padding-block:0 72px; }
+  .col{ max-width:660px; margin-inline:auto; }
+  p{ margin:0 0 1.1em; }
+  strong{ font-weight:600; }
+  code{ font-family:var(--mono); font-size:.86em; background:var(--sunk);
+        padding:.1em .34em; border-radius:4px; }
+  h1,h2,h3{ font-family:var(--display); text-wrap:balance; margin:0; }
+  .num{ font-family:var(--mono); font-variant-numeric:tabular-nums; }
+
+  header.top{ padding-block:44px 8px; }
+  .kicker{ font-family:var(--mono); font-size:11.5px; letter-spacing:.14em;
+           text-transform:uppercase; color:var(--flag); font-weight:700; }
+  h1{ font-size:clamp(38px,7.2vw,72px); line-height:1.02; font-weight:800;
+      letter-spacing:-.024em; margin:16px 0 0; }
+  h1 .hit{ color:var(--zomato); }
+  .standfirst{ font-size:clamp(18px,2.3vw,22px); color:var(--ink2);
+               margin-top:20px; max-width:34em; }
+  .byline{ font-family:var(--mono); font-size:12px; color:var(--ink3);
+           margin-top:24px; padding-top:16px; border-top:1px solid var(--rule);
+           display:flex; flex-wrap:wrap; gap:8px 22px; }
+
+  .thesis{ margin:44px 0; display:grid; grid-template-columns:auto 1fr;
+           gap:0 30px; align-items:center; background:var(--surface);
+           border:1px solid var(--rule); border-radius:3px; padding:28px 30px;
+           box-shadow:var(--shadow); }
+  .thesis .big{ font-family:var(--display); font-weight:800; font-size:clamp(72px,16vw,132px);
+                line-height:.82; color:var(--zomato); letter-spacing:-.05em; }
+  .thesis .say{ font-size:17px; color:var(--ink2); }
+  .thesis .say b{ color:var(--ink); font-weight:600; }
+  @media (max-width:520px){ .thesis{ grid-template-columns:1fr; gap:10px; } }
+
+  .stats{ display:grid; grid-template-columns:repeat(4,1fr); gap:1px;
+          background:var(--rule); border:1px solid var(--rule);
+          border-radius:3px; overflow:hidden; margin:36px 0 8px; }
+  .stat{ background:var(--surface); padding:18px 16px; }
+  .stat .v{ font-family:var(--display); font-weight:700; font-size:clamp(22px,3.4vw,30px);
+            letter-spacing:-.02em; font-variant-numeric:tabular-nums; }
+  .stat .k{ font-family:var(--mono); font-size:10.5px; letter-spacing:.09em;
+            text-transform:uppercase; color:var(--ink3); margin-top:6px; line-height:1.4; }
+  @media (max-width:640px){ .stats{ grid-template-columns:repeat(2,1fr); } }
+
+  section{ margin-top:56px; }
+  h2{ font-size:clamp(25px,3.6vw,34px); font-weight:700; letter-spacing:-.018em;
+      line-height:1.14; margin-bottom:18px; }
+  h2 .rule{ display:block; width:44px; height:4px; background:var(--flag);
+            border-radius:2px; margin-bottom:14px; }
+  h3{ font-size:19px; font-weight:700; margin:28px 0 8px; letter-spacing:-.01em; }
+
+  /* ---------- approach note ---------- */
+  .approach{ background:var(--surface); border:1px solid var(--rule2);
+             border-left:4px solid var(--flag); border-radius:3px;
+             padding:22px 24px 18px; box-shadow:var(--shadow); }
+  .approach .lbl{ font-family:var(--mono); font-size:10.5px; letter-spacing:.12em;
+                  text-transform:uppercase; color:var(--flag); font-weight:700;
+                  display:block; margin-bottom:12px; }
+  .approach p{ font-size:16px; line-height:1.58; margin:0 0 .8em; color:var(--ink2); }
+  .approach p strong{ color:var(--ink); }
+  .approach p.last{ margin:0; font-family:var(--mono); font-size:12px;
+                    color:var(--ink3); padding-top:10px;
+                    border-top:1px solid var(--rule); }
+  .hl{ color:var(--c); font-weight:600; }
+
+  /* ---------- category explainer ---------- */
+  .cats{ display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+         gap:12px; margin-top:22px; }
+  .cat{ background:var(--surface); border:1px solid var(--rule);
+        border-left:4px solid var(--c); border-radius:3px; padding:16px 18px; }
+  .cat .nm{ font-family:var(--display); font-weight:700; font-size:16.5px;
+            color:var(--c); letter-spacing:.01em; }
+  .cat .df{ font-size:15.5px; color:var(--ink); margin-top:6px; line-height:1.5; }
+  .cat .eg{ font-family:var(--mono); font-size:12px; color:var(--ink3);
+            margin-top:9px; line-height:1.55; }
+  .c-price{ --c:var(--zepto); } .c-product{ --c:var(--blinkit); }
+  .c-delivery{ --c:var(--swiggy); } .c-app{ --c:var(--zomato); }
+
+  /* ---------- executive summary ---------- */
+  .exec{ background:var(--surface); border:1px solid var(--rule2);
+         border-radius:3px; padding:30px 28px; box-shadow:var(--shadow); }
+  .exec h2{ margin-bottom:6px; }
+  .exec .sub{ font-family:var(--mono); font-size:11px; letter-spacing:.1em;
+              text-transform:uppercase; color:var(--ink3); margin-bottom:22px; }
+  .finds{ display:grid; gap:2px; background:var(--rule); }
+  .find{ background:var(--surface); display:grid; grid-template-columns:136px 1fr;
+         gap:20px; padding:17px 2px; align-items:start; }
+  .find .fig{ font-family:var(--display); font-weight:800; font-size:26px;
+              line-height:1.05; letter-spacing:-.025em; font-variant-numeric:tabular-nums; }
+  .find .fig small{ display:block; font-family:var(--mono); font-size:10px;
+                    font-weight:500; letter-spacing:.07em; text-transform:uppercase;
+                    color:var(--ink3); margin-top:5px; line-height:1.4; }
+  .find .txt{ font-size:16.5px; line-height:1.55; }
+  .find .txt b{ font-weight:600; }
+  @media (max-width:560px){ .find{ grid-template-columns:1fr; gap:4px; } }
+
+  /* ---------- ranking chart ---------- */
+  .chart{ background:var(--surface); border:1px solid var(--rule);
+          border-radius:3px; padding:26px 26px 20px; box-shadow:var(--shadow); }
+  .chart .cap{ font-family:var(--display); font-weight:700; font-size:20px; }
+  .chart .sub{ font-size:14px; color:var(--ink2); margin:6px 0 20px; }
+  .bgroup{ margin-bottom:20px; }
+  .bgroup > .bl{ font-family:var(--mono); font-size:11px; letter-spacing:.11em;
+                 text-transform:uppercase; color:var(--ink3); margin-bottom:8px; }
+  .bar{ display:grid; grid-template-columns:72px 1fr 52px; gap:10px;
+        align-items:center; margin-bottom:5px; }
+  .bar .nm{ font-family:var(--mono); font-size:12px; color:var(--ink2); text-align:right; }
+  .bar .track{ background:var(--sunk); border-radius:2px; height:19px; overflow:hidden; }
+  .bar .fill{ height:100%; border-radius:2px; }
+  .bar .vv{ font-family:var(--mono); font-size:12.5px; font-weight:700;
+            font-variant-numeric:tabular-nums; }
+  .bar.win .nm{ color:var(--ink); font-weight:700; }
+  .z-zomato{ background:var(--zomato); } .z-swiggy{ background:var(--swiggy); }
+  .z-blinkit{ background:var(--blinkit); } .z-zepto{ background:var(--zepto); }
+  .t-zomato{ color:var(--zomato); } .t-swiggy{ color:var(--swiggy); }
+  .t-blinkit{ color:var(--blinkit); } .t-zepto{ color:var(--zepto); }
+  .axisnote{ font-family:var(--mono); font-size:10.5px; color:var(--ink3);
+             border-top:1px solid var(--rule); padding-top:10px; }
+  @media (max-width:480px){ .bar{ grid-template-columns:60px 1fr 44px; gap:7px; } }
+
+  /* ---------- per-app profiles ---------- */
+  .prof{ background:var(--surface); border:1px solid var(--rule);
+         border-top:4px solid var(--c); border-radius:3px; padding:20px 22px 22px;
+         margin-bottom:16px; box-shadow:var(--shadow); }
+  .prof .hd{ display:flex; flex-wrap:wrap; align-items:baseline; gap:10px 14px; }
+  .prof .who{ font-family:var(--display); font-weight:800; font-size:23px;
+              color:var(--c); letter-spacing:-.015em; }
+  .prof .tag{ font-family:var(--mono); font-size:11px; letter-spacing:.07em;
+              text-transform:uppercase; color:var(--ink3); }
+  .prof .line{ font-size:16.5px; margin:12px 0 0; }
+  .prof .line b{ font-weight:600; }
+  .quotes{ display:flex; flex-wrap:wrap; gap:7px; margin-top:14px; }
+  .q{ font-family:var(--mono); font-size:12px; background:var(--sunk);
+      border:1px solid var(--rule); border-radius:100px; padding:4px 11px;
+      color:var(--ink2); }
+  .q b{ color:var(--c); font-weight:700; }
+  .scorebar{ display:flex; gap:2px; margin-top:16px; border-radius:2px; overflow:hidden; }
+  .scorebar div{ height:7px; }
+  .sclegend{ font-family:var(--mono); font-size:10px; color:var(--ink3);
+             margin-top:7px; display:flex; flex-wrap:wrap; gap:4px 14px; }
+
+  /* ---------- approach steps ---------- */
+  .steps{ counter-reset:st; display:grid; gap:2px; background:var(--rule);
+          border:1px solid var(--rule); border-radius:3px; overflow:hidden; }
+  .step{ background:var(--surface); padding:18px 20px; display:grid;
+         grid-template-columns:34px 1fr; gap:16px; align-items:start; }
+  .step::before{ counter-increment:st; content:counter(st);
+                 font-family:var(--mono); font-size:12px; font-weight:700;
+                 color:var(--flag); border:1.5px solid var(--flag);
+                 border-radius:50%; width:26px; height:26px; display:grid;
+                 place-items:center; margin-top:2px; }
+  .step h4{ font-family:var(--display); font-size:16.5px; font-weight:700;
+            margin:0 0 4px; letter-spacing:-.005em; }
+  .step p{ margin:0; font-size:15.5px; color:var(--ink2); line-height:1.55; }
+
+  /* ---------- versus ---------- */
+  .vs{ display:grid; grid-template-columns:1fr auto 1fr; gap:18px; align-items:center;
+       background:var(--surface); border:1px solid var(--rule); border-radius:3px;
+       padding:26px 24px; box-shadow:var(--shadow); }
+  .vs .side{ text-align:center; }
+  .vs .pct{ font-family:var(--display); font-weight:800; font-size:clamp(34px,6vw,52px);
+            line-height:1; letter-spacing:-.03em; font-variant-numeric:tabular-nums; }
+  .vs .who2{ font-family:var(--mono); font-size:12px; letter-spacing:.08em;
+             text-transform:uppercase; margin-top:8px; color:var(--ink2); }
+  .vs .mid{ font-family:var(--mono); font-size:11px; color:var(--ink3); letter-spacing:.1em; }
+  .vs-out{ text-align:center; font-size:15.5px; color:var(--ink2);
+           margin-top:16px; padding-top:16px; border-top:1px dashed var(--rule2); }
+  .vs-out b{ color:var(--ink); font-weight:600; }
+  @media (max-width:520px){ .vs{ grid-template-columns:1fr; gap:14px; } }
+
+  .flat{ background:var(--surface); border:1px solid var(--rule); border-radius:3px;
+         padding:22px 24px; box-shadow:var(--shadow); }
+  .flat svg{ display:block; width:100%; height:auto; }
+
+  .pull{ font-family:var(--display); font-weight:700; font-size:clamp(21px,3.2vw,27px);
+         line-height:1.28; letter-spacing:-.015em; color:var(--ink);
+         border-left:4px solid var(--flag); padding:4px 0 4px 22px; margin:30px 0; }
+  .caveat{ background:var(--sunk); border:1px solid var(--rule);
+           border-radius:3px; padding:18px 20px; font-size:15.5px; color:var(--ink2); }
+  .caveat b{ color:var(--ink); font-weight:600; }
+  .caveat .lbl{ font-family:var(--mono); font-size:10.5px; letter-spacing:.11em;
+                text-transform:uppercase; color:var(--flag); font-weight:700;
+                display:block; margin-bottom:8px; }
+
+  ul.plain{ margin:0 0 1.1em; padding-left:1.1em; }
+  ul.plain li{ margin-bottom:.5em; }
+
+  footer{ margin-top:64px; padding-top:20px; border-top:1px solid var(--rule);
+          font-family:var(--mono); font-size:11.5px; color:var(--ink3); line-height:1.7; }
+  .backlink{ display:inline-block; font-family:var(--mono); font-size:12px;
+             letter-spacing:.06em; color:var(--ink3); text-decoration:none;
+             padding-block:26px 0; }
+  .backlink:hover, .backlink:focus-visible{ color:var(--flag); }
+  @media (prefers-reduced-motion:no-preference){
+    .bar .fill{ animation:grow .7s cubic-bezier(.22,1,.36,1) both; }
+    @keyframes grow{ from{ transform:scaleX(.04); transform-origin:left; } to{ transform:scaleX(1);} }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="col"><a class="backlink" href="/">&larr; Ravishankar R</a></div>
+
+  <header class="top col" style="padding-block:18px 8px">
+    <div class="kicker">325,715 reviews · four delivery apps · 82 days</div>
+    <h1>They answered 99% of the angry reviews. <span class="hit">Nothing got fixed.</span></h1>
+    <p class="standfirst">Swiggy replies to 99.7% of its one-star reviews. Zomato replies to 1.9%. Over three months, the two had identical outcomes — which tells you what a reply is actually for.</p>
+    <div class="byline">
+      <span>Zomato · Swiggy · Blinkit · Zepto</span>
+      <span>1 Jul – 21 Sep 2026</span>
+      <span>Google Play, public reviews</span>
+      <span>Classification by <b style="color:var(--flag)">Jev AI</b></span>
+    </div>
+  </header>
+
+  <!-- ============ APPROACH IN BRIEF ============ -->
+  <section class="col" style="margin-top:30px">
+    <div class="approach">
+      <span class="lbl">How this works, in one minute</span>
+      <p>Companies don't tell you what they fixed — three of these four describe every update as “bug fixes and improvements”. So this study ignores what they <em>say</em> and asks a different question: <strong>did people stop complaining?</strong></p>
+      <p>I collected 325,715 public Google Play reviews, kept the 43,649 that were complaints, and sorted each into one of four categories — <span class="hl" style="--c:var(--zepto)">price</span>, <span class="hl" style="--c:var(--blinkit)">product</span>, <span class="hl" style="--c:var(--swiggy)">delivery</span>, <span class="hl" style="--c:var(--zomato)">app</span>. <strong>Jev AI</strong> did that sorting for the hardest cases and taught a local classifier to handle the rest, reaching 91.4% accuracy on reviews it had never seen.</p>
+      <p>Then each category was tracked release by release, counted as complaints per 1,000 reviews so a bigger app isn't unfairly penalised. “Fixed” was defined in advance as an arithmetic rule — a 40% drop off a peak, held for two releases — so no AI decides what counts as progress. Separately I measured how often each company replies, how fast, and how much those replies repeat themselves.</p>
+      <p class="last">Full method near the end, including everything that went wrong.</p>
+    </div>
+  </section>
+
+  <!-- ============ WHAT THE CATEGORIES MEAN ============ -->
+  <section class="col" style="margin-top:40px">
+    <h2><span class="rule"></span>First, what people complain about</h2>
+    <p>Every complaint in this study was sorted into one of four categories. They're deliberately broad, because a category has to hold enough reviews for a trend to mean anything. Here is exactly what goes in each one.</p>
+
+    <div class="cats">
+      <div class="cat c-price">
+        <div class="nm">PRICE — what it costs</div>
+        <div class="df">Fees, charges and money owed back.</div>
+        <div class="eg">delivery fees · handling &amp; platform charges · GST · surge pricing · offers that didn't apply · refunds never credited</div>
+      </div>
+      <div class="cat c-product">
+        <div class="nm">PRODUCT — what arrived</div>
+        <div class="df">The goods themselves were wrong or bad.</div>
+        <div class="eg">rotten or expired items · damaged packaging · wrong item sent · items missing · short quantity · cold or stale food</div>
+      </div>
+      <div class="cat c-delivery">
+        <div class="nm">DELIVERY — how it arrived</div>
+        <div class="df">Getting the order to the door.</div>
+        <div class="eg">late or never arrived · no rider assigned · marked delivered when it wasn't · rude delivery partners · area not serviceable</div>
+      </div>
+      <div class="cat c-app">
+        <div class="nm">APP — using the thing</div>
+        <div class="df">The software and what it lets you do.</div>
+        <div class="eg">crashes and freezes · login and OTP failures · wrong address detection · payment failures · no cash-on-delivery · no cancel button</div>
+      </div>
+    </div>
+    <p style="margin-top:18px;font-size:15.5px;color:var(--ink2)">A fifth bucket, <strong>other</strong>, holds complaints about customer support itself and reviews that are just anger with no stated cause (“worst app”). It's kept separate rather than forced into the four, and it's about a quarter of everything — which is a finding in itself.</p>
+  </section>
+
+  <div class="col">
+    <div class="thesis">
+      <div class="big">0</div>
+      <div class="say">
+        <b>Categories that measurably improved.</b> Four apps, four categories, tracked release by release for three months. Not one of those twenty pairings got better by enough to count — and by the strictest measure, seven of them got worse.
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="stats">
+      <div class="stat"><div class="v num">325,715</div><div class="k">reviews collected</div></div>
+      <div class="stat"><div class="v num">43,649</div><div class="k">complaints sorted</div></div>
+      <div class="stat"><div class="v num">98%</div><div class="k">of complaints got a reply</div></div>
+      <div class="stat"><div class="v num">9</div><div class="k">distinct Zepto replies</div></div>
+    </div>
+  </div>
+
+  <!-- ============ EXECUTIVE SUMMARY (plain language) ============ -->
+  <section class="col">
+    <div class="exec">
+      <h2><span class="rule"></span>The short version</h2>
+      <div class="sub">five findings · no statistics required</div>
+      <div class="finds">
+
+        <div class="find">
+          <div class="fig">Nothing<small>improved, anywhere</small></div>
+          <div class="txt">Across every app and every category, complaints did not go down. Counted properly — as complaints per 1,000 reviews, so a growing app isn't unfairly punished — <b>seven of ten categories actually rose</b>.</div>
+        </div>
+
+        <div class="find">
+          <div class="fig">99.7% vs 1.9%<small>same result</small></div>
+          <div class="txt">Swiggy answers almost every angry review. Zomato answers almost none. <b>Their complaint trends are indistinguishable.</b> Whatever a reply does, it does not make the problem go away.</div>
+        </div>
+
+        <div class="find">
+          <div class="fig">2–12 min<small>every hour, all day</small></div>
+          <div class="txt">The replies are automated. A real support team gets slower overnight and faster at lunch. These don't move at all — <b>each app answers at its own fixed speed around the clock</b>. Zepto sent 3,584 replies using nine different sentences.</div>
+        </div>
+
+        <div class="find">
+          <div class="fig t-zepto">Zepto<small>worst on product</small></div>
+          <div class="txt">By a distance — <b>3.5× the next worst app</b>. Its users repeat the same words: <em>received rotten</em>, <em>delivered expired</em>, <em>refused refund</em>. This reads as a stock-freshness problem, not bad luck.</div>
+        </div>
+
+        <div class="find">
+          <div class="fig t-swiggy">Swiggy<small>worst on price &amp; delivery</small></div>
+          <div class="txt">And they are the <b>same complaint</b>. “Cancellation fee” is a top phrase in both categories: people are being charged for cancelling an order that never turned up.</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ RANKING ============ -->
+  <section class="col">
+    <h2><span class="rule"></span>Who gets complained about, and for what</h2>
+    <p>To compare fairly, complaints are counted <strong>per 1,000 reviews</strong>. Raw totals would just punish whichever app has more users, and percentages would mislead — an app can look great on price simply because its delivery is a disaster. Lower is better.</p>
+
+    <div class="chart">
+      <div class="cap">Complaint rate by category</div>
+      <div class="sub">13 Aug – 21 Sep 2026 · complaints per 1,000 reviews · lower is better</div>
+
+      <div class="bgroup">
+        <div class="bl">Price</div>
+        <div class="bar win"><div class="nm">Blinkit</div><div class="track"><div class="fill z-blinkit" style="width:26.8%"></div></div><div class="vv t-blinkit">38</div></div>
+        <div class="bar"><div class="nm">Zomato</div><div class="track"><div class="fill z-zomato" style="width:28.1%"></div></div><div class="vv t-zomato">40</div></div>
+        <div class="bar"><div class="nm">Zepto</div><div class="track"><div class="fill z-zepto" style="width:35.5%"></div></div><div class="vv t-zepto">51</div></div>
+        <div class="bar"><div class="nm">Swiggy</div><div class="track"><div class="fill z-swiggy" style="width:38.7%"></div></div><div class="vv t-swiggy">56</div></div>
+      </div>
+
+      <div class="bgroup">
+        <div class="bl">Product</div>
+        <div class="bar win"><div class="nm">Zomato</div><div class="track"><div class="fill z-zomato" style="width:19.1%"></div></div><div class="vv t-zomato">27</div></div>
+        <div class="bar"><div class="nm">Swiggy</div><div class="track"><div class="fill z-swiggy" style="width:26.6%"></div></div><div class="vv t-swiggy">38</div></div>
+        <div class="bar"><div class="nm">Blinkit</div><div class="track"><div class="fill z-blinkit" style="width:28.8%"></div></div><div class="vv t-blinkit">41</div></div>
+        <div class="bar"><div class="nm">Zepto</div><div class="track"><div class="fill z-zepto" style="width:100%"></div></div><div class="vv t-zepto">143</div></div>
+      </div>
+
+      <div class="bgroup">
+        <div class="bl">Delivery</div>
+        <div class="bar win"><div class="nm">Blinkit</div><div class="track"><div class="fill z-blinkit" style="width:26.3%"></div></div><div class="vv t-blinkit">38</div></div>
+        <div class="bar"><div class="nm">Zomato</div><div class="track"><div class="fill z-zomato" style="width:35.4%"></div></div><div class="vv t-zomato">51</div></div>
+        <div class="bar"><div class="nm">Zepto</div><div class="track"><div class="fill z-zepto" style="width:52.3%"></div></div><div class="vv t-zepto">75</div></div>
+        <div class="bar"><div class="nm">Swiggy</div><div class="track"><div class="fill z-swiggy" style="width:59.9%"></div></div><div class="vv t-swiggy">86</div></div>
+      </div>
+
+      <div class="bgroup">
+        <div class="bl">App</div>
+        <div class="bar win"><div class="nm">Zomato</div><div class="track"><div class="fill z-zomato" style="width:11.9%"></div></div><div class="vv t-zomato">17</div></div>
+        <div class="bar win"><div class="nm">Blinkit</div><div class="track"><div class="fill z-blinkit" style="width:12.1%"></div></div><div class="vv t-blinkit">17</div></div>
+        <div class="bar"><div class="nm">Swiggy</div><div class="track"><div class="fill z-swiggy" style="width:18.9%"></div></div><div class="vv t-swiggy">27</div></div>
+        <div class="bar"><div class="nm">Zepto</div><div class="track"><div class="fill z-zepto" style="width:27.5%"></div></div><div class="vv t-zepto">39</div></div>
+      </div>
+
+      <div class="axisnote">All bars share one scale, 0 to 143. The order comes out identical whether you use the short shared window or the full three months, so it is stable rather than a quirk of the dates chosen.</div>
+    </div>
+
+    <h3>Overall: a tie at the top, and a long way down</h3>
+    <p><strong>Zomato</strong> and <strong>Blinkit</strong> finish level — 135.7 and 134.8 total complaints per 1,000 reviews, a gap far too small to separate them. Then <strong>Swiggy at 206.6</strong>, and <strong>Zepto at 308.7</strong>, more than double the leaders.</p>
+  </section>
+
+  <!-- ============ PER-APP INSIGHTS ============ -->
+  <section class="col">
+    <h2><span class="rule"></span>What each app's users actually complain about</h2>
+    <p>The rankings say who has more complaints. This says what kind. Each app has a recognisable personality in its reviews — and users name the specific thing that annoys them with surprising precision.</p>
+
+    <div class="prof" style="--c:var(--zomato)">
+      <div class="hd"><span class="who">Zomato</span><span class="tag">best on product &amp; app · fees are the sore point</span></div>
+      <p class="line">The food mostly arrives fine — Zomato has the <b>lowest product complaint rate of all four</b>. What its users object to is the bill and the checkout. “Platform fee” appears in complaints nearly six times more often than for anyone else, and the single loudest app-related grievance isn't a bug at all: it's <b>the removal of cash on delivery</b>.</p>
+      <div class="quotes"><span class="q"><b>platform fee</b> ×91</span><span class="q"><b>packing charges</b> ×21</span><span class="q"><b>cash available</b> ×61</span><span class="q">cold food ×32</span><span class="q">food delayed ×19</span></div>
+    </div>
+
+    <div class="prof" style="--c:var(--swiggy)">
+      <div class="hd"><span class="who">Swiggy</span><span class="tag">worst on price and delivery — one problem, not two</span></div>
+      <p class="line">Swiggy's two weakest categories are the same story told twice. “Cancellation fee” is a top phrase in <b>both</b> price and delivery complaints, alongside “rain fee” — charges attached to circumstances the customer didn't choose. The pattern isn't “my food was late”, it's <b>“my food was late and then I was charged for giving up on it.”</b></p>
+      <div class="quotes"><span class="q"><b>cancellation fee</b> ×97</span><span class="q"><b>rain fee</b> ×25</span><span class="q">waiting food ×23</span><span class="q">stale food ×17</span><span class="q">gst charges ×37</span></div>
+    </div>
+
+    <div class="prof" style="--c:var(--blinkit)">
+      <div class="hd"><span class="who">Blinkit</span><span class="tag">best on price &amp; delivery · produce and people let it down</span></div>
+      <p class="line">Blinkit is the <b>fastest and least fee-resented</b> of the four, winning both price and delivery. Its problems are physical: fresh produce, and the person at the door. “Rude behaviour” is 4.5× more characteristic of Blinkit reviews than of the others, and “paper bag” — packaging that fails on the way up the stairs — is almost exclusively its complaint.</p>
+      <div class="quotes"><span class="q"><b>surge charge</b> ×103</span><span class="q"><b>rude behaviour</b> ×19</span><span class="q">paper bag ×27</span><span class="q">fruits vegetables ×23</span><span class="q">send expired ×19</span></div>
+    </div>
+
+    <div class="prof" style="--c:var(--zepto)">
+      <div class="hd"><span class="who">Zepto</span><span class="tag">worst overall · a freshness problem with a refund problem on top</span></div>
+      <p class="line">Zepto's product complaint rate is <b>143 per 1,000 reviews — three and a half times the next worst app</b>, and the largest single signal in the entire dataset. The vocabulary is unusually consistent: <em>received rotten</em>, <em>delivered expired</em>, <em>expiry date</em>. Then a second grievance stacks on the first — <em>refused refund</em> — so the customer is left with both the bad item and the money.</p>
+      <div class="quotes"><span class="q"><b>expiry date</b> ×37</span><span class="q"><b>refused refund</b> ×19</span><span class="q">delivered expired ×16</span><span class="q">received rotten ×13</span><span class="q">handling fees ×16</span></div>
+    </div>
+
+    <h3>Two things that cut across all four</h3>
+    <ul class="plain">
+      <li><strong>Everyone is angry about unbundled fees, but each brand has its own villain.</strong> The shared phrases are “extra charges” and “handling charges”. The distinctive ones are brand-specific: surge for Blinkit, cancellation for Swiggy, platform for Zomato, handling for Zepto. Users have learned the vocabulary of each company's pricing page and are quoting it back.</li>
+      <li><strong>The “app” category is barely about software.</strong> Its top phrases are <em>cash available</em>, <em>cod option</em>, <em>cancel option</em> — payment methods and missing buttons, not crashes. These are product-policy decisions that users experience as the app being broken.</li>
+    </ul>
+  </section>
+
+  <!-- ============ REPLY VS FIX ============ -->
+  <section class="col">
+    <h2><span class="rule"></span>The experiment nobody meant to run</h2>
+    <p>Two of these companies made opposite bets on answering reviews. One replies to essentially everything; the other to essentially nothing. If replying achieved anything measurable, this is where it would show.</p>
+
+    <div class="vs">
+      <div class="side"><div class="pct t-swiggy">99.7%</div><div class="who2">Swiggy replies</div></div>
+      <div class="mid">VS</div>
+      <div class="side"><div class="pct t-zomato">1.9%</div><div class="who2">Zomato replies</div></div>
+      <div class="vs-out" style="grid-column:1/-1">
+        Outcome: <b>the same</b>. Both flat. Measured across all twenty app-and-category pairings, how much a company replies has <b>no detectable relationship</b> with whether its complaints go down.
+      </div>
+    </div>
+
+    <p class="pull">A fiftyfold difference in effort produced a difference too small to see.</p>
+
+    <h3>And the replies are machines</h3>
+    <p>Two-minute reply times made me suspicious, but speed alone proves nothing — a well-staffed team can be fast. What proves it is that the speed <em>never changes</em>. A human team queues: reviews left at 3am wait for the morning shift.</p>
+
+    <div class="flat">
+      <svg viewBox="0 0 640 170" role="img" aria-label="Median reply time stays flat across all 24 hours for Blinkit, Swiggy and Zepto, while review volume swings twenty-two fold.">
+        <g font-family="JetBrains Mono, monospace" font-size="10" fill="currentColor" opacity=".55">
+          <text x="0" y="14">reply time</text><text x="600" y="14">24h</text>
+        </g>
+        <line x1="34" y1="150" x2="620" y2="150" stroke="currentColor" stroke-opacity=".18" stroke-width="1"/>
+        <g stroke-width="3" fill="none" stroke-linecap="round">
+          <line x1="40" y1="44" x2="614" y2="42" stroke="var(--blinkit)"/>
+          <line x1="40" y1="92" x2="614" y2="91" stroke="var(--swiggy)"/>
+          <line x1="40" y1="126" x2="614" y2="125" stroke="var(--zepto)"/>
+        </g>
+        <g font-family="JetBrains Mono, monospace" font-size="11" font-weight="700">
+          <text x="40" y="34" fill="var(--blinkit)">Blinkit · always 12 minutes</text>
+          <text x="40" y="82" fill="var(--swiggy)">Swiggy · always 5 minutes</text>
+          <text x="40" y="116" fill="var(--zepto)">Zepto · always 2 minutes</text>
+        </g>
+        <g font-family="JetBrains Mono, monospace" font-size="10" fill="currentColor" opacity=".5">
+          <text x="34" y="166">5am, quietest</text><text x="520" y="166">9pm, busiest</text>
+        </g>
+      </svg>
+    </div>
+    <p style="font-size:14.5px;color:var(--ink2);margin-top:12px">Twenty-two times as many reviews arrive at 9pm as at 5am. The reply time doesn't budge — under a minute of variation across the entire day, each app locked to its own number. That's a setting, not a shift rota. Blinkit even has a floor: <strong>not one reply faster than five minutes</strong>, then a tight cluster at 10–12, which is what a scheduled job looks like.</p>
+  </section>
+
+  <!-- ============ APPROACH ============ -->
+  <section class="col">
+    <h2><span class="rule"></span>How this was done</h2>
+    <p>The whole approach rests on one idea: <strong>don't ask companies what they fixed — ask whether people stopped complaining.</strong> Release notes were the obvious alternative and they're useless, because three of the four say only “bug fixes and improvements”.</p>
+
+    <div class="steps">
+      <div class="step">
+        <div>
+          <h4>Collect the reviews, politely</h4>
+          <p>325,715 public Google Play reviews for the four apps, newest first, pausing between requests. Reviewer names and profile pictures were discarded on arrival and never stored — the analysis never needed them.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div>
+          <h4>Keep only the complaints</h4>
+          <p>One- and two-star reviews, plus three-star reviews that read as complaints rather than lukewarm praise. That left 43,649 complaints inside the study window.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div>
+          <h4>Sort them into the four categories</h4>
+          <p>A few thousand of the hardest reviews were labelled by <strong>Jev AI</strong>, and those labels trained a classifier that sorted the rest. It was then tested against reviews it had never seen: <strong>it agrees with the reference 91.4% of the time</strong>, against 26% for guessing the most common category.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div>
+          <h4>Decide what counts as “fixed” — before looking</h4>
+          <p>A category counts as fixed if its share of complaints drops at least 40% off a peak and stays down for two or more app releases. It's an arithmetic rule, not a judgement call, so the same data always gives the same verdict. No AI decides what “fixed” means.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div>
+          <h4>Measure as a rate, not a share</h4>
+          <p>Complaints per 1,000 reviews. Shares alone can't tell “nothing improved” apart from “everything got worse together” — a fixed denominator can.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div>
+          <h4>Measure the replies separately</h4>
+          <p>How often each company replies, how fast, how much the replies repeat themselves, and crucially whether reply time changes by hour of day — which is what exposed the automation.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div>
+          <h4>Try to break the result</h4>
+          <p>Every threshold was re-run at looser and tighter settings, and the ranking re-computed on two different date ranges. The conclusions held. Where a check failed, it's in the limitations below rather than quietly dropped.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="caveat" style="margin-top:20px">
+      <span class="lbl">Where Jev AI was used — and where it wasn't</span>
+      <b>Jev AI</b> (TypeSafe AI) is a decision API: you hand it a situation and a fixed set of options, and it picks one and tells you how confident it is. It did exactly two jobs here.
+      <b>One:</b> deciding whether an ambiguous three-star review was really a complaint — 4,080 of those.
+      <b>Two:</b> sorting the hardest complaints into the four categories. Rather than run all 43,649 through it, the local classifier flagged the ones it was least sure about and only those were escalated, twice over. <b>About 13% of complaints were labelled by Jev directly; the other 87% inherited that judgement</b> through the classifier trained on it, which is what lifted accuracy from 62.6% to 91.4%.
+      <br><br>
+      Deliberately <b>not</b> used for two things. It did not invent the four categories — a model's idea of what people complain about is not evidence about what these people complained about. And it never decided whether something was “fixed”: that stays an arithmetic rule on counts, so the central claim of this piece is reproducible without any AI at all. Every reply from Jev was cached, so re-running the analysis costs nothing and returns identical answers.
+    </div>
+
+    <div class="caveat" style="margin-top:14px">
+      <span class="lbl">Where the machine got overruled</span>
+      The original plan was to let an algorithm discover the complaint categories by itself. It failed, and interestingly. It grouped <b>2,391 Zomato reviews</b> together purely because they mentioned Zomato, and built another group entirely out of Hinglish grammar words — filing Hinglish price complaints alongside Hinglish delivery complaints. Five more groups were just intensity (“worst app”, “3rd class service”), which is a mood, not a category. So <b>the four categories here were written by a human</b>, using the algorithm's output as evidence rather than as the answer.
+    </div>
+  </section>
+
+  <!-- ============ LIMITATIONS ============ -->
+  <section class="col">
+    <h2><span class="rule"></span>What would make me wrong</h2>
+    <ul class="plain">
+      <li><strong>This shows association, not cause.</strong> A flat complaint rate after a release doesn't prove the release changed nothing. Seasonality, a change in when the app asks for reviews, or a shift in who reviews would all look identical.</li>
+      <li><strong>Three months is short.</strong> Eight to twelve releases per app. A fix that works slowly would read as no fix here. Google Play would not serve older reviews however long I kept asking.</li>
+      <li><strong>Zepto is only partly included.</strong> It has 39 days of history — too few releases to judge whether anything improved. Its complaint rates and reply figures are in; its fix verdicts are not.</li>
+      <li><strong>Reviewers aren't users.</strong> Angry people write reviews far more often than satisfied ones. This describes the complaining tail, not the typical experience — Zepto's 143 partly reflects who it prompts to review.</li>
+      <li><strong>The sorting is 91.4% accurate</strong>, so roughly one complaint in eleven sits in the wrong category. That matters for the exact numbers; it matters much less for the trends, since a steady error rate largely cancels out when comparing one release to the next.</li>
+      <li><strong>No individual was tracked.</strong> Reviewer names were deliberately discarded, so “did this same person complain again” can't be answered. What I measured is whether the same <em>kind</em> of complaint kept arriving at the same rate.</li>
+    </ul>
+  </section>
+
+  <!-- ============ SO WHAT ============ -->
+  <section class="col">
+    <h2><span class="rule"></span>So what</h2>
+    <p>If you run a product, the uncomfortable reading is that answering reviews and resolving them are two separate systems that don't talk to each other. One is automated and hits 99% coverage in minutes. The other is invisible in the data.</p>
+    <p>The reply is doing something — it's reputation management, aimed at the next person reading the store page, not at the person who complained. But as a measure of how responsive a company is, reply rate tells you nothing about whether problems get solved.</p>
+    <p class="pull">If the line is flat for three months while you reply to 99% of complaints, the replies aren't the intervention you think they are.</p>
+    <p>The more useful instrument is unglamorous: pick a handful of complaint categories, measure each as a rate per 1,000 reviews, and watch them across releases.</p>
+    <p>And check your own pipeline before you trust it. Nearly everything interesting here came from a number that looked wrong — an average reply time of “0.0 hours” that turned out to be minutes, a reply that appeared to arrive three years before the review, a 400-review sample that was quietly only 75, and a night shift that never existed.</p>
+  </section>
+
+  <footer class="col">
+    325,715 reviews collected · 219,460 inside the analysis window · 43,649 complaints sorted into four categories at 91.4% accuracy.
+    No reviewer names were ever stored, and only aggregate counts are published.
+    Every figure here is generated from the analysis output at build time rather than typed by hand.
+  </footer>
+
+</div>
+</body>
+</html>
