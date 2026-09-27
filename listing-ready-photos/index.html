@@ -1,0 +1,1105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Better listing photos, without asking sellers for more · Dabble with AI</title>
+<meta name="description" content="Open models vs GPT on real used-bike and phone listing photos: faithful, private, about ₹5 a photo. Part of the Dabble with AI series by Ravishankar R.">
+<meta name="author" content="Ravishankar R">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Better listing photos, without asking sellers for more">
+<meta property="og:description" content="Open models vs GPT on real used-bike and phone listing photos: faithful, private, about ₹5 a photo. Part of the Dabble with AI series by Ravishankar R.">
+<meta property="og:url" content="https://rvshankar45-jpg.github.io/listing-ready-photos/">
+<meta property="og:image" content="https://rvshankar45-jpg.github.io/listing-ready-photos/card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://rvshankar45-jpg.github.io/listing-ready-photos/card.png">
+</head>
+<body>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+:root{
+  --ground:#F4F6F9; --surface:#FFFFFF; --ink:#15181E; --muted:#596070; --rule:#DFE3EA; --studio:#D6D6D6;
+  --coral:#E5484D; --indigo:#3E4FC9; --teal:#0C8F7E; --gold:#B57800; --goldfill:#F1AE1E;
+  --coral-t:#FDECEC; --indigo-t:#ECEEFB; --teal-t:#E4F5F2; --gold-t:#FDF3DC;
+  --display:"Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --body:"Source Serif 4", Georgia, "Times New Roman", serif;
+  --mono:"IBM Plex Mono", ui-monospace, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){color-scheme:dark;
+    --ground:#0F1216; --surface:#171B21; --ink:#ECEEF2; --muted:#A2A9B6; --rule:#2A3038; --studio:#3A3D42;
+    --coral:#FF6F73; --indigo:#909CFF; --teal:#3FD2BA; --gold:#F4B63A; --goldfill:#F4B63A;
+    --coral-t:#2D1A1C; --indigo-t:#1C2036; --teal-t:#13282A; --gold-t:#2B2414;}
+}
+:root[data-theme="dark"]{color-scheme:dark;
+  --ground:#0F1216; --surface:#171B21; --ink:#ECEEF2; --muted:#A2A9B6; --rule:#2A3038; --studio:#3A3D42;
+  --coral:#FF6F73; --indigo:#909CFF; --teal:#3FD2BA; --gold:#F4B63A; --goldfill:#F4B63A;
+  --coral-t:#2D1A1C; --indigo-t:#1C2036; --teal-t:#13282A; --gold-t:#2B2414;}
+
+*{box-sizing:border-box}
+body{background:var(--ground); color:var(--ink); font:18px/1.62 var(--body); padding-inline:16px; -webkit-font-smoothing:antialiased}
+.page{max-width:1120px; margin:0 auto; padding-block:0 60px}
+.read{max-width:700px; margin-inline:auto}
+h1,h2,h3,h4{font-family:var(--display); text-wrap:balance; line-height:1.08; margin:0}
+p{margin:0 0 16px}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--indigo); outline-offset:3px}
+b,strong{font-weight:600}
+
+.progress{position:fixed; top:0; left:0; right:0; padding-top:env(safe-area-inset-top,0px); z-index:20; pointer-events:none}
+.progress i{display:block; height:4px; width:100%; transform-origin:0 50%; transform:scaleX(var(--p,0));
+  background:linear-gradient(90deg,var(--coral) 0 25%,var(--indigo) 25% 50%,var(--teal) 50% 75%,var(--goldfill) 75%)}
+
+.bars{display:flex; height:10px; gap:4px; margin:34px 0 26px; max-width:340px}
+.bars span{flex:1; border-radius:2px; transform-origin:0 50%; animation:grow .7s cubic-bezier(.2,.8,.2,1) both}
+.bars span:nth-child(1){background:var(--coral)} .bars span:nth-child(2){background:var(--indigo); animation-delay:.08s}
+.bars span:nth-child(3){background:var(--teal); animation-delay:.16s} .bars span:nth-child(4){background:var(--goldfill); animation-delay:.24s}
+.bars span:nth-child(5){background:var(--ink); animation-delay:.32s}
+@keyframes grow{from{transform:scaleX(0)} to{transform:scaleX(1)}}
+@keyframes rise{from{transform:translateY(18px)} to{transform:none}}
+
+.hero{display:grid; grid-template-columns:1.15fr .85fr; gap:48px; align-items:center; padding-block:10px 20px}
+.kicker{font:600 12px/1.4 var(--mono); letter-spacing:.14em; text-transform:uppercase; color:var(--muted); display:flex; flex-wrap:wrap; gap:6px 16px}
+.kicker b{color:var(--coral)}
+.hero h1{font-size:clamp(40px,6.2vw,74px); font-weight:800; letter-spacing:-.025em; margin:18px 0 20px}
+.hero h1 .l{display:block; animation:rise .8s cubic-bezier(.2,.8,.2,1) both}
+.hero h1 .l:nth-child(2){animation-delay:.1s; color:var(--indigo)}
+.hero h1 .hl{background:linear-gradient(transparent 62%, var(--gold-t) 62%)}
+.dek{font-size:20px; color:var(--muted); max-width:560px}
+.dek strong{color:var(--ink)}
+.byline{display:flex; align-items:center; gap:12px; margin-top:22px}
+.byline .av{width:42px; height:42px; border-radius:50%; display:grid; place-items:center; font:700 15px var(--display); color:#fff; background:linear-gradient(135deg,var(--coral),var(--indigo))}
+.byline b{display:block; font:700 17px/1.2 var(--display)}
+.byline small{display:block; font:500 12.5px/1.4 var(--mono); color:var(--muted)}
+
+.cmpwrap{max-width:420px; width:100%; justify-self:center}
+.cmp{position:relative; aspect-ratio:3/4; max-width:100%; border-radius:18px; overflow:hidden; background:var(--studio); --pos:50%;
+  box-shadow:0 24px 60px -24px rgba(30,40,90,.45), 0 0 0 1px var(--rule)}
+.cmp img{position:absolute; inset:0; width:100%; height:100%; object-fit:contain; display:block; max-width:none}
+.cmp .after{clip-path:inset(0 0 0 var(--pos))}
+.cmp.intro img.after{transition:clip-path .9s cubic-bezier(.6,0,.2,1)}
+.cmp .seam{position:absolute; top:0; bottom:0; left:var(--pos); width:3px; margin-left:-1.5px; background:#fff; box-shadow:0 0 0 1px rgba(0,0,0,.15)}
+.cmp.intro .seam,.cmp.intro .knob{transition:left .9s cubic-bezier(.6,0,.2,1)}
+.cmp .knob{position:absolute; top:50%; left:var(--pos); width:46px; height:46px; margin:-23px 0 0 -23px; border-radius:50%; background:var(--indigo); color:#fff; display:grid; place-items:center; font:700 18px var(--mono); box-shadow:0 6px 18px rgba(0,0,0,.3); pointer-events:none}
+.cmp input{position:absolute; inset:0; width:100%; height:100%; opacity:0; cursor:ew-resize; margin:0}
+.cmp input:focus-visible ~ .knob{outline:3px solid var(--goldfill); outline-offset:3px}
+.tag{position:absolute; top:14px; font:600 11px var(--mono); letter-spacing:.1em; text-transform:uppercase; padding:6px 10px; border-radius:99px; pointer-events:none}
+.tag.l{left:14px; background:#16181D; color:#fff} .tag.r{right:14px; background:#0C8F7E; color:#fff}
+.cap{font:500 12.5px/1.5 var(--mono); color:var(--muted); margin-top:12px; display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap}
+
+.stats{display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin:40px 0 0}
+.stat{background:var(--surface); border-radius:14px; padding:18px 18px 16px; border-top:5px solid var(--c)}
+.stat .n{font:800 38px/1 var(--display); color:var(--c); letter-spacing:-.02em; font-variant-numeric:tabular-nums}
+.stat p{margin:8px 0 0; font-size:15px; line-height:1.45; color:var(--muted)}
+
+/* summary box */
+.tldr{margin:40px 0 0; background:var(--ink); color:var(--ground); border-radius:22px; padding:26px 28px 24px; position:relative; overflow:hidden}
+.tldr::before{content:""; position:absolute; inset:0 0 auto 0; height:6px; background:linear-gradient(90deg,var(--coral) 0 25%,var(--indigo) 25% 50%,var(--teal) 50% 75%,var(--goldfill) 75%)}
+.tldr h2{font:600 12px var(--mono); letter-spacing:.16em; text-transform:uppercase; color:var(--goldfill); margin:4px 0 16px}
+.tldr .pts{display:grid; grid-template-columns:repeat(3,1fr); gap:22px}
+.tldr .pt .n{font:800 34px/1 var(--display); letter-spacing:-.02em; color:#fff; font-variant-numeric:tabular-nums}
+.tldr .pt .n small{font:600 15px var(--display); color:var(--studio); letter-spacing:0}
+.tldr .pt h3{font:700 17px/1.3 var(--display); margin:10px 0 6px; color:#fff}
+.tldr .pt p{font-size:15.5px; line-height:1.5; margin:0; color:#C9CDD6}
+.tldr .pt a{color:var(--goldfill)}
+:root[data-theme="dark"] .tldr{background:#232833}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .tldr{background:#232833}}
+
+/* table of contents as a story road */
+.toc{margin:56px 0 0; position:relative}
+.toc .road{position:absolute; left:0; right:0; top:21px; height:6px; border-radius:3px;
+  background:linear-gradient(90deg,var(--coral) 0 25%,var(--indigo) 25% 50%,var(--teal) 50% 75%,var(--goldfill) 75%)}
+.toc .acts{display:grid; grid-template-columns:repeat(4,1fr); gap:22px; position:relative}
+.toc .act{padding-top:0}
+.toc .stop{width:48px; height:48px; border-radius:50%; background:var(--c); color:var(--ground); display:grid; place-items:center;
+  font:800 17px var(--display); box-shadow:0 0 0 6px var(--ground)}
+.toc h4{font:800 22px/1.15 var(--display); color:var(--ink); margin:14px 0 4px}
+.toc .q{font:italic 15px/1.4 var(--body); color:var(--muted); margin:0 0 12px}
+.toc ol{margin:0; padding:0 0 0 14px; list-style:none; border-left:2px dashed var(--c)}
+.toc li{margin:0 0 8px; font-size:15.5px; line-height:1.35}
+.toc a{text-decoration:none}
+.toc a:hover{color:var(--c); text-decoration:underline}
+.toc .no{font:600 12px var(--mono); color:var(--c); margin-right:6px}
+
+/* listing journey strip */
+.journey{display:flex; flex-wrap:wrap; gap:8px; align-items:stretch; margin:18px 0 22px}
+.journey .j{flex:1 1 110px; background:var(--surface); border-radius:12px; padding:10px 12px; box-shadow:0 0 0 1px var(--rule); font-size:14.5px; line-height:1.35}
+.journey .j b{display:block; font:600 11px var(--mono); letter-spacing:.08em; color:var(--muted); margin-bottom:3px}
+.journey .j.hot{background:var(--ct); box-shadow:0 0 0 2px var(--c)}
+.journey .j.hot b{color:var(--c)}
+
+/* pilot gallery */
+.gal{max-width:1120px; margin:22px auto}
+.gal h4{font:600 12px var(--mono); letter-spacing:.12em; text-transform:uppercase; color:var(--c); margin:22px 0 10px}
+.gal .row{display:grid; gap:12px; grid-template-columns:repeat(var(--n),minmax(0,1fr))}
+.gal figure{margin:0; max-width:none}
+.gal .ph{background:var(--surface); border-radius:14px; padding:8px; box-shadow:0 0 0 1px var(--rule); cursor:zoom-in; display:block; width:100%; border:0; font:inherit; color:inherit; text-align:left}
+.gal .ph img{width:100%; height:340px; object-fit:contain; background:var(--studio); border-radius:9px; display:block}
+.gal figcaption{font-size:14.5px; margin:8px 2px 0; line-height:1.4}
+.gal figcaption b{display:block; font:700 15px var(--display); color:var(--ink)}
+
+/* showdown grid */
+.sd{max-width:1120px; margin:26px auto; background:var(--surface); border-radius:18px; padding:16px; box-shadow:0 0 0 1px var(--rule)}
+.sd .hd{display:flex; flex-wrap:wrap; align-items:baseline; gap:6px 14px; margin:0 4px 12px}
+.sd .hd h4{font:800 20px var(--display); margin:0}
+.sd .hd span{font:500 13px var(--mono); color:var(--muted)}
+.sd .cells{display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:10px}
+.sd .cell{position:relative; border:0; padding:0; background:var(--studio); border-radius:10px; overflow:hidden; cursor:zoom-in; display:block; width:100%}
+.sd .cell img{width:100%; height:420px; object-fit:contain; display:block}
+.sd .lab{position:absolute; left:8px; top:8px; font:600 11px var(--mono); letter-spacing:.06em; text-transform:uppercase; background:rgba(22,24,29,.85); color:#fff; padding:4px 8px; border-radius:99px}
+.sd .res{position:absolute; left:8px; bottom:8px; font:600 11.5px var(--mono); padding:4px 9px; border-radius:99px}
+.sd .res.win{background:#0C8F7E; color:#fff} .sd .res.ok{background:#fff; color:#15181E} .sd .res.bad{background:#E5484D; color:#fff}
+.sd.land .cells{grid-template-columns:1fr 1fr}
+.sd.land .cell img{height:430px}
+figure .frame img{cursor:zoom-in}
+.zoomhint{font:500 12.5px var(--mono); color:var(--muted); text-align:center; margin:4px 0 0}
+
+/* executive summary showdown */
+.tldr .exlead{font:600 clamp(18px,2vw,22px)/1.4 var(--display); color:#fff; margin:0 0 18px; max-width:820px}
+.exs{margin:0 0 26px}
+.exh,.exr{display:grid; grid-template-columns:150px repeat(3,minmax(0,1fr)); gap:10px; align-items:stretch}
+.exh{margin-bottom:8px}
+.exh span{font:600 11px var(--mono); letter-spacing:.12em; text-transform:uppercase; color:#C9CDD6}
+.exh span:first-child{grid-column:2}
+.exr{margin-bottom:10px}
+.exn{font:14px/1.4 var(--body); color:#C9CDD6; align-self:center}
+.exn b{display:block; font:700 16px/1.3 var(--display); color:#fff; margin-bottom:2px}
+.exc{position:relative; border:0; padding:0; border-radius:10px; overflow:hidden; background:#D6D6D6; cursor:zoom-in; display:block; width:100%}
+.exc img{width:100%; height:230px; object-fit:contain; display:block}
+.exm{position:absolute; left:6px; bottom:6px; font:600 10.5px var(--mono); background:rgba(12,143,126,.95); color:#fff; padding:3px 8px; border-radius:99px}
+.exc:last-child .exm{background:rgba(22,24,29,.85)}
+.exnote{font:500 12.5px var(--mono); color:#C9CDD6; margin:4px 0 0}
+.exnote a{color:var(--goldfill)}
+@media (max-width:760px){
+  .exh,.exr{grid-template-columns:repeat(3,minmax(0,1fr)); gap:6px}
+  .exh span:first-child{grid-column:1}
+  .exn{grid-column:1/-1; margin-top:6px}
+  .exc img{height:150px}
+  .exc{background:#D6D6D6}
+  .exc img{height:140px}
+  .exm{position:static; display:block; border-radius:0; font-size:9.5px; line-height:1.3; padding:4px 5px; text-align:center}
+}
+
+/* legends */
+.lg{display:flex; flex-wrap:wrap; gap:6px 8px; margin:10px 0 0}
+.lg span{font:500 12.5px/1.4 var(--mono); background:var(--surface); box-shadow:0 0 0 1px var(--rule); border-radius:8px; padding:5px 9px; color:var(--muted)}
+.lg i{font-style:normal; font-weight:600; color:var(--c, var(--ink)); margin-right:6px}
+.lg b{font-weight:600; color:var(--ink); margin-right:5px}
+.lg b::after{content:" ·"; color:var(--muted); font-weight:500}
+.lgnote{font:500 12.5px/1.5 var(--mono); color:var(--muted); margin:8px 0 0}
+
+/* lightbox */
+.lb{position:fixed; inset:0; background:rgba(8,10,14,.92); z-index:50; display:none; place-items:center; padding:16px; cursor:zoom-out}
+.lb.on{display:grid}
+.lb img{max-width:100%; max-height:88vh; border-radius:8px; object-fit:contain}
+.lb p{color:#fff; font:500 13px var(--mono); text-align:center; margin:10px 0 0}
+
+/* simple comparison */
+.vs td.hl,.vs th.hl{background:var(--ct)}
+.fig2{display:grid; grid-template-columns:1fr; gap:34px; max-width:900px; margin:30px auto}
+.fig2 figure{margin:0; max-width:none}
+
+.actbanner{margin:90px 0 10px; display:flex; align-items:center; gap:16px; color:var(--c)}
+.actbanner .chip{font:600 12px var(--mono); letter-spacing:.16em; text-transform:uppercase; background:var(--c); color:var(--ground); padding:7px 12px; border-radius:99px; white-space:nowrap}
+.actbanner .t{font:700 22px var(--display); color:var(--ink)}
+.actbanner::after{content:""; flex:1; height:4px; border-radius:2px; background:var(--c); transform-origin:0 50%}
+.actbanner.in::after{animation:grow 1s cubic-bezier(.2,.8,.2,1) both}
+section{padding-top:46px; scroll-margin-top:20px}
+.sec-head{display:flex; align-items:baseline; gap:14px; margin-bottom:18px}
+.sec-no{font:700 15px var(--mono); color:var(--c)}
+.sec-head h2{font-size:clamp(28px,3.6vw,40px); font-weight:800; letter-spacing:-.02em}
+h3{font-size:23px; font-weight:700; margin:30px 0 12px}
+.sowhat{display:flex; gap:14px; align-items:flex-start; background:var(--ct); border-radius:12px; padding:14px 18px; margin:0 0 22px}
+.sowhat span{font:600 11px/2 var(--mono); letter-spacing:.14em; text-transform:uppercase; color:var(--c); white-space:nowrap}
+.sowhat p{margin:0; font-size:17.5px; font-weight:600; font-family:var(--display); line-height:1.4}
+.bridge{font-style:italic; color:var(--muted); padding-left:16px; border-left:3px solid var(--c); margin:30px 0 0}
+.a1{--c:var(--coral); --ct:var(--coral-t)} .a2{--c:var(--indigo); --ct:var(--indigo-t)}
+.a3{--c:var(--teal); --ct:var(--teal-t)} .a4{--c:var(--gold); --ct:var(--gold-t)}
+
+.rv.in{animation:rise .7s cubic-bezier(.2,.8,.2,1) both}
+
+.tbl{overflow-x:auto; margin:18px 0 22px; background:var(--surface); border-radius:14px; box-shadow:0 0 0 1px var(--rule)}
+.tbl.wide{max-width:1120px; margin-inline:auto}
+table{border-collapse:collapse; width:100%; font-size:15.5px; line-height:1.45}
+th{font:600 11.5px var(--mono); letter-spacing:.08em; text-transform:uppercase; text-align:left; color:var(--muted); padding:12px 14px; border-bottom:2px solid var(--c, var(--rule)); white-space:nowrap}
+td{padding:11px 14px; border-top:1px solid var(--rule); vertical-align:top}
+tbody tr:first-child td{border-top:0}
+tbody tr:hover td{background:var(--ct, transparent)}
+td.n,th.n{text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap}
+.pill{display:inline-block; font:600 11px var(--mono); letter-spacing:.06em; text-transform:uppercase; padding:3px 9px; border-radius:99px; white-space:nowrap}
+.pill.win{background:var(--teal-t); color:var(--teal)} .pill.lose{background:var(--coral-t); color:var(--coral)} .pill.warn{background:var(--gold-t); color:var(--gold)}
+.est{font:600 10.5px var(--mono); letter-spacing:.06em; text-transform:uppercase; color:var(--gold); background:var(--gold-t); padding:2px 7px; border-radius:99px; white-space:nowrap}
+
+figure{margin:26px auto; max-width:1120px}
+figure .frame{background:var(--surface); border-radius:16px; padding:10px; box-shadow:0 0 0 1px var(--rule); overflow:hidden}
+figure img{display:block; width:100%; border-radius:10px; transition:transform .6s cubic-bezier(.2,.8,.2,1)}
+figure .frame:hover img{transform:scale(1.015)}
+figure.narrow{max-width:760px}
+figcaption{font-size:15.5px; color:var(--muted); margin-top:10px; max-width:760px}
+figcaption b{color:var(--ink)}
+.fig-no{font:600 11px var(--mono); letter-spacing:.1em; color:var(--c); margin-right:8px}
+
+.mix{background:var(--surface); border-radius:16px; padding:20px 22px; box-shadow:0 0 0 1px var(--rule); margin:18px auto; max-width:1120px}
+.mixrow{display:grid; grid-template-columns:120px 1fr 90px; gap:14px; align-items:center; margin:10px 0}
+.mixrow .lab{font:600 13px var(--mono); color:var(--muted)}
+.mixbar{display:flex; height:28px; border-radius:8px; overflow:hidden; transform-origin:0 50%}
+.mix.in .mixbar{animation:grow .9s cubic-bezier(.2,.8,.2,1) both}
+.mix.in .mixrow:nth-child(3) .mixbar{animation-delay:.12s} .mix.in .mixrow:nth-child(4) .mixbar{animation-delay:.24s}
+.mixbar i{display:grid; place-items:center; font:600 12px var(--mono); color:#fff; font-style:normal}
+.mixbar .g{background:var(--teal)} .mixbar .b{background:var(--indigo)} .mixbar .c{background:var(--coral)}
+.mixrow .v{font:800 22px var(--display); text-align:right; font-variant-numeric:tabular-nums}
+.legend{display:flex; flex-wrap:wrap; gap:8px 18px; font:500 12.5px var(--mono); color:var(--muted)}
+.legend i{display:inline-block; width:12px; height:12px; border-radius:3px; margin-right:6px; vertical-align:-1px}
+
+.ladder{display:grid; gap:10px; margin:18px auto}
+.rung{display:grid; grid-template-columns:1fr 1.2fr 70px; gap:14px; align-items:center; background:var(--surface); border-radius:12px; padding:12px 16px; box-shadow:0 0 0 1px var(--rule)}
+.rung .nm{font:700 16px/1.3 var(--display)}
+.rung .nm small{display:block; font:400 13.5px/1.4 var(--body); color:var(--muted); margin-top:2px}
+.rung .track{height:14px; background:var(--gold-t); border-radius:7px; overflow:hidden}
+.rung .track i{display:block; height:100%; width:var(--w); background:var(--goldfill); border-radius:7px; transform-origin:0 50%}
+.ladder.in .track i{animation:grow 1s cubic-bezier(.2,.8,.2,1) both}
+.rung .v{font:800 20px var(--display); text-align:right; font-variant-numeric:tabular-nums}
+
+.chart{background:var(--surface); border-radius:16px; padding:18px; box-shadow:0 0 0 1px var(--rule); margin:18px auto; max-width:1120px}
+.chart svg{width:100%; height:auto; display:block}
+.chart .grid line{stroke:var(--rule); stroke-width:1}
+.chart text{fill:var(--muted); font:500 12px var(--mono)}
+.chart .ln{fill:none; stroke-width:3.5; stroke-linecap:round}
+.chart.in .ln.solid{stroke-dasharray:800; animation:draw 1.6s cubic-bezier(.3,.7,.2,1) both}
+@keyframes draw{from{stroke-dashoffset:800} to{stroke-dashoffset:0}}
+
+.path{max-width:880px; margin:26px auto}
+.step{display:grid; grid-template-columns:48px 1fr; gap:16px; align-items:start; background:var(--surface); border-radius:16px; padding:18px 20px; box-shadow:0 0 0 1px var(--rule); transition:transform .25s, box-shadow .25s}
+.step:hover{transform:translateY(-3px); box-shadow:0 0 0 1px var(--rule), 0 14px 30px -18px rgba(30,40,90,.4)}
+.step .num{width:40px; height:40px; border-radius:50%; background:var(--sc); color:var(--ground); display:grid; place-items:center; font:700 16px var(--mono)}
+.step h4{margin:6px 0 6px; font-size:21px; font-weight:700}
+.step p{margin:0 0 6px; font-size:16px}
+.conn{height:34px; width:4px; margin-left:38px; background:repeating-linear-gradient(180deg,var(--muted) 0 6px,transparent 6px 12px); background-size:4px 12px; opacity:.5; animation:flow 1s linear infinite}
+@keyframes flow{to{background-position:0 12px}}
+.branches{display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); gap:10px; margin-top:12px}
+.br{border-radius:10px; padding:10px 12px; font-size:15px; line-height:1.4; background:var(--bt)}
+.br b{display:block; font:600 11px var(--mono); letter-spacing:.08em; text-transform:uppercase; margin-bottom:4px; color:var(--bc)}
+.br.go{--bt:var(--teal-t); --bc:var(--teal)} .br.fix{--bt:var(--indigo-t); --bc:var(--indigo)} .br.stop{--bt:var(--coral-t); --bc:var(--coral)}
+
+.principles{display:grid; grid-template-columns:repeat(3,1fr); gap:14px; margin-top:20px}
+.principles div{background:var(--surface); border-radius:14px; padding:18px 20px; box-shadow:inset 4px 0 0 var(--pc)}
+.principles div:nth-child(4n+1){--pc:var(--coral)} .principles div:nth-child(4n+2){--pc:var(--indigo)}
+.principles div:nth-child(4n+3){--pc:var(--teal)} .principles div:nth-child(4n+4){--pc:var(--goldfill)}
+.principles h4{font-size:19px; margin:0 0 8px}
+.principles p{font-size:15.5px; margin:0; color:var(--muted)}
+
+.big{font:700 clamp(22px,2.6vw,28px)/1.3 var(--display); margin:30px 0; padding:22px 24px; border-radius:16px; background:var(--ct)}
+.big em{font-style:normal; color:var(--c)}
+details.appx{margin-top:80px; background:var(--surface); border-radius:16px; padding:6px 22px; box-shadow:0 0 0 1px var(--rule)}
+details.appx summary{cursor:pointer; list-style:none; display:flex; flex-wrap:wrap; align-items:baseline; gap:14px; padding:16px 0}
+details.appx summary::-webkit-details-marker{display:none}
+details.appx summary h2{font-size:26px}
+details.appx summary .hint{font:500 12px var(--mono); color:var(--muted)}
+details.appx .inner{padding-bottom:18px}
+footer{margin-top:40px; display:flex; flex-wrap:wrap; justify-content:space-between; gap:10px; font:500 12px var(--mono); color:var(--muted)}
+
+@media (max-width:900px){
+  .hero{grid-template-columns:1fr; gap:28px}
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .principles{grid-template-columns:1fr 1fr}
+  .toc .road{display:none}
+  .toc .acts{grid-template-columns:1fr 1fr; gap:28px}
+  .tldr .pts{grid-template-columns:1fr}
+  .sd .cells{grid-template-columns:1fr 1fr}
+  .sd .cell img{height:360px}
+  .sd.land .cell img{height:300px}
+  .gal .row{grid-template-columns:1fr 1fr}
+}
+@media (max-width:560px){
+  body{font-size:17px}
+  .stats,.principles,.toc .acts,.fig2{grid-template-columns:1fr}
+  .sd .cell img{height:240px}
+  .sd.land .cell img{height:180px}
+  .gal .ph img{height:auto; max-height:420px}
+  .sd .res{font-size:10px; padding:3px 7px; left:6px; bottom:6px}
+  .sd .lab{font-size:10px; left:6px; top:6px}
+  figure .frame::after{content:"Tap to enlarge"; display:block; font:600 11px var(--mono); letter-spacing:.06em; text-transform:uppercase; color:var(--muted); text-align:center; padding-top:8px}
+  .mixrow{grid-template-columns:1fr 70px} .mixrow .lab{grid-column:1/-1}
+  /* tables become stacked cards on phones */
+  .tbl{overflow:visible}
+  .tbl table,.tbl tbody,.tbl tr,.tbl td{display:block; width:100%}
+  .tbl thead{position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0)}
+  .tbl tr{padding:12px 16px; border-top:1px solid var(--rule)}
+  .tbl tbody tr:first-child{border-top:0}
+  .tbl td{border:0; padding:2px 0 4px; text-align:left !important; white-space:normal !important; font-size:15.5px}
+  .tbl td::before{content:attr(data-label); display:block; font:600 10.5px/1.6 var(--mono); letter-spacing:.08em; text-transform:uppercase; color:var(--muted)}
+  .tbl td:first-child{font:700 16.5px/1.35 var(--display); padding-bottom:6px}
+  .tbl td:first-child::before,.tbl td[data-label=""]::before{display:none}
+  .tbl td:first-child b{font-weight:700}
+  tbody tr:hover td{background:none}
+  .vs td.hl{background:var(--ct); border-radius:6px; padding:4px 8px; margin:2px 0}
+  .tldr{padding:22px 18px 20px}
+  .tldr .pt .n{font-size:30px}
+  .big{padding:16px 18px}
+  .chart{padding:10px}
+  .chart text{font-size:19px}
+  .sd{padding:10px}
+  .sd .hd h4{font-size:18px}
+  .lg span{font-size:12px}
+  .journey .j{flex-basis:44%}
+  .hero h1{font-size:38px}
+  .dek{font-size:18px}
+  h3{font-size:21px}
+  .rung{grid-template-columns:1fr 60px} .rung .track{grid-column:1/-1; grid-row:2}
+  .sowhat{flex-direction:column; gap:4px}
+}
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{animation:none !important; transition:none !important}
+}
+</style>
+
+<div class="progress" aria-hidden="true"><i id="prog"></i></div>
+
+<div class="page">
+
+<header>
+  <div class="bars" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+  <div class="hero">
+    <div>
+      <div class="kicker"><b>Dabble with AI</b><span>C2C marketplaces</span><span>Listing quality at scale</span><span>Sept 2026</span></div>
+      <h1><span class="l">Better listing photos,</span><span class="l">without asking sellers <span class="hl">for more.</span></span></h1>
+      <p class="dek">Sellers on a C2C marketplace won't shoot studio photos, and making them try is how listings get abandoned. This is the story of a pipeline that fixes their photos after upload: <strong>faithful to the real item, private by default, and about ₹5 a photo</strong>.</p>
+      <div class="byline"><span class="av" aria-hidden="true">RR</span><span><b>Ravishankar R</b><small>Dabble with AI series · Sept 2026</small></span></div>
+    </div>
+    <div class="cmpwrap">
+      <div class="cmp intro" id="cmp">
+        <img src="img/hero_before.jpg" alt="Seller's photo of a used phone held in a hand over a tiled floor, with a thumb over part of the cracked screen.">
+        <img class="after" src="img/hero_after.jpg" alt="The same phone on a plain studio backdrop, with the hand removed and the real cracks and case colour kept.">
+        <div class="seam"></div>
+        <span class="tag l">Seller upload</span><span class="tag r">Listing-ready</span>
+        <input id="cmp-range" type="range" min="0" max="100" value="50" aria-label="Drag to compare the seller's upload with the listing-ready photo">
+        <div class="knob" aria-hidden="true">⇆</div>
+      </div>
+      <div class="cap"><span>Drag to compare · used phone</span><span>Cracks and case colour kept</span></div>
+      <div class="lg" aria-label="Legend: model and job for each panel"><span><i>Left</i><b>Seller photo</b>original</span><span><i>Right</i><b>BiRefNet + SAM 2.1 → Qwen-Image-Edit-2511</b>cut out, fill under the thumb</span></div>
+    </div>
+  </div>
+
+  <section class="tldr rv" aria-labelledby="tldr-h">
+    <h2 id="tldr-h">Executive summary</h2>
+    <p class="exlead">Sellers upload photos like the left column. Open models we run ourselves turned them into the middle column, as good as GPT (right), for ₹4.87 a photo.</p>
+    <div class="exs" aria-label="Before and after: three pilot bike photos">
+      <div class="exh"><span>Seller photo</span><span>Best open model</span><span>GPT</span></div>
+      <div class="exr">
+        <div class="exn"><b>Bullet · side</b>Front cut off, scooter behind</div>
+        <button class="exc" data-full="img/sd_re_bullet_0q_raw.jpg" data-cap="Bullet · side · seller photo"><img src="img/sd_re_bullet_0q_raw.jpg" alt="Bullet · side: seller's original photo, front cut off, scooter behind." loading="lazy"></button>
+        <button class="exc" data-full="img/sd_re_bullet_0q_qwen.jpg" data-cap="Bullet · side · Qwen-Image-Edit-2511 · clean + zoom out"><img src="img/sd_re_bullet_0q_qwen.jpg" alt="Bullet · side: Qwen-Image-Edit-2511 result on a studio backdrop." loading="lazy"><span class="exm">Qwen · clean + zoom out</span></button>
+        <button class="exc" data-full="img/sd_re_bullet_0q_gpt.jpg" data-cap="Bullet · side · GPT image edit"><img src="img/sd_re_bullet_0q_gpt.jpg" alt="Bullet · side: GPT result on a studio backdrop." loading="lazy"><span class="exm">GPT · one edit</span></button>
+      </div>
+      <div class="exr">
+        <div class="exn"><b>Meteor · front ¾</b>Cut off on three sides</div>
+        <button class="exc" data-full="img/sd_sm_k3zspq6i2_raw.jpg" data-cap="Meteor · front ¾ · seller photo"><img src="img/sd_sm_k3zspq6i2_raw.jpg" alt="Meteor · front ¾: seller's original photo, cut off on three sides." loading="lazy"></button>
+        <button class="exc" data-full="img/sd_sm_k3zspq6i2_qwen.jpg" data-cap="Meteor · front ¾ · Qwen-Image-Edit-2511 · clean + zoom out"><img src="img/sd_sm_k3zspq6i2_qwen.jpg" alt="Meteor · front ¾: Qwen-Image-Edit-2511 result on a studio backdrop." loading="lazy"><span class="exm">Qwen · clean + zoom out</span></button>
+        <button class="exc" data-full="img/sd_sm_k3zspq6i2_gpt.jpg" data-cap="Meteor · front ¾ · GPT image edit"><img src="img/sd_sm_k3zspq6i2_gpt.jpg" alt="Meteor · front ¾: GPT result on a studio backdrop." loading="lazy"><span class="exm">GPT · one edit</span></button>
+      </div>
+      <div class="exr">
+        <div class="exn"><b>Bullet · rear</b>Small, crowded, plates in shot</div>
+        <button class="exc" data-full="img/sd_re_bullet_3v_raw.jpg" data-cap="Bullet · rear · seller photo"><img src="img/sd_re_bullet_3v_raw.jpg" alt="Bullet · rear: seller's original photo, small, crowded, plates in shot." loading="lazy"></button>
+        <button class="exc" data-full="img/sd_re_bullet_3v_longcat.jpg" data-cap="Bullet · rear · LongCat-Image-Edit · clean"><img src="img/sd_re_bullet_3v_longcat.jpg" alt="Bullet · rear: LongCat-Image-Edit result on a studio backdrop." loading="lazy"><span class="exm">LongCat · clean</span></button>
+        <button class="exc" data-full="img/sd_re_bullet_3v_gpt.jpg" data-cap="Bullet · rear · GPT image edit"><img src="img/sd_re_bullet_3v_gpt.jpg" alt="Bullet · rear: GPT result on a studio backdrop." loading="lazy"><span class="exm">GPT · one edit</span></button>
+      </div>
+      <p class="exnote">Plates masked in every photo. Tap any photo to enlarge. All five bikes are in <a href="#showdown">the showdown</a>.</p>
+    </div>
+    <div class="pts">
+      <div class="pt"><div class="n">₹4.87 <small>vs ₹5.1–7.5 for GPT</small></div>
+        <h3>Cheaper than GPT, on our own GPUs</h3>
+        <p>Blended cost per uploaded photo with open models on a rented GPU, against an estimate for sending the same photos to GPT. It falls towards ₹1 with known optimisations. <a href="#economics">The numbers</a> · <a href="#calc">how they're calculated</a></p></div>
+      <div class="pt"><div class="n">5 of 5 <small>bike photos</small></div>
+        <h3>Same quality as GPT on bikes</h3>
+        <p>On every pilot bike photo, an open model produced a faithful, listing-ready result as good as GPT's. Phones need one more fix, on both sides. <a href="#showdown">See them side by side</a></p></div>
+      <div class="pt"><div class="n">0 <small>extra seller steps</small></div>
+        <h3>A simple decision tree picks the fix</h3>
+        <p>The listing goes live at once. Each photo then gets only what it needs: nothing, a background clean-up, or missing parts drawn in. It's checked against the original before it's swapped in. <a href="#path">The decision tree</a></p></div>
+    </div>
+  </section>
+
+  <nav class="toc" aria-label="Table of contents">
+    <div class="road" aria-hidden="true"></div>
+    <div class="acts">
+      <div class="act a1"><div class="stop">I</div><h4>The problem</h4><p class="q">Why are listing photos bad?</p><ol>
+        <li><a href="#problem"><span class="no">01</span>Supply vs quality</a></li>
+        <li><a href="#why"><span class="no">02</span>Why sellers don't upload good photos</a></li></ol></div>
+      <div class="act a2"><div class="stop">II</div><h4>The search</h4><p class="q">Can open models fix them?</p><ol>
+        <li><a href="#pilot"><span class="no">03</span>The pilot: nine photos, three flaws</a></li>
+        <li><a href="#gauntlet"><span class="no">04</span>Can open models replace GPT?</a></li>
+        <li><a href="#detour"><span class="no">05</span>The detour we had to take</a></li></ol></div>
+      <div class="act a3"><div class="stop">III</div><h4>The build</h4><p class="q">How does it work?</p><ol>
+        <li><a href="#pipeline"><span class="no">06</span>How the pipeline works</a></li>
+        <li><a href="#showdown"><span class="no">07</span>The showdown: bikes and phones</a></li>
+        <li><a href="#path"><span class="no">08</span>A photo's path, in plain words</a></li></ol></div>
+      <div class="act a4"><div class="stop">IV</div><h4>The business</h4><p class="q">Does it pay?</p><ol>
+        <li><a href="#economics"><span class="no">09</span>Open models vs GPT: the cost</a></li>
+        <li><a href="#better"><span class="no">10</span>Cheaper and better: fine-tuning, buy vs rent</a></li>
+        <li><a href="#proof"><span class="no">11</span>What the pilot shows, and what it doesn't</a></li>
+        <li><a href="#principles"><span class="no">12</span>Principles for shipping this</a></li>
+        <li><a href="#calc"><span class="no">A</span>Appendix: how every number is calculated</a></li></ol></div>
+    </div>
+  </nav>
+</header>
+
+<div class="actbanner a1 rv"><span class="chip">Act I</span><span class="t">The problem</span></div>
+
+<section class="read a1" id="problem">
+  <div class="sec-head"><span class="sec-no">01</span><h2>Supply vs quality</h2></div>
+  <div class="sowhat"><span>So what</span><p>A C2C marketplace grows on listing supply, but buyers decide on photos. You can't trade one for the other.</p></div>
+  <p>Every C2C marketplace lives with the same tension. <b>Supply</b> grows when listing is effortless: open the app, snap, post. <b>Demand</b> converts when listings are trustworthy, and in used goods trust is mostly visual. A buyer can't touch a second-hand bike or phone. The photo <em>is</em> the inspection.</p>
+  <p>It helps to picture how a listing gets made. On a C2C app, the seller does it alone, on their phone, usually in a few minutes:</p>
+  <div class="journey" aria-label="The listing journey">
+    <div class="j"><b>1</b>Pick a category</div>
+    <div class="j hot"><b>2 · PHOTOS</b>Shoot or upload photos of the item</div>
+    <div class="j"><b>3</b>Add title, details, condition</div>
+    <div class="j"><b>4</b>Set a price and location</div>
+    <div class="j"><b>5</b>Post: the listing goes live</div>
+  </div>
+  <p>Step 2 is where quality is won or lost, and it's also the step that asks the most of the seller. Anything a marketplace adds at this point (another rule, another check, another retake) is one more reason to leave before posting. So the levers a marketplace can pull <b>during listing</b> pull against each other:</p>
+  <div class="tbl"><table>
+    <thead><tr><th>Lever, during listing</th><th>Photo quality</th><th>Listing supply</th></tr></thead>
+    <tbody>
+      <tr><td>Photo tips on the upload screen</td><td>Small lift; most sellers skip them</td><td>Neutral</td></tr>
+      <tr><td>Block the upload until the photo passes a check, or ask for a reshoot</td><td>High</td><td><b>Falls</b>: every blocked upload is a listing at risk</td></tr>
+      <tr><td>Send a professional photographer</td><td>Very high</td><td>Doesn't scale to one-time sellers</td></tr>
+      <tr><td><b>Accept any photo, fix it after the listing is posted</b></td><td>High, <em>if it stays faithful</em></td><td><b>Unchanged</b>: no extra seller effort</td></tr>
+    </tbody>
+  </table></div>
+  <p>So the question I set out to answer: <strong>can we raise photo quality on every listing, automatically, without changing what the seller does, at a cost per listing the business can carry?</strong></p>
+</section>
+
+<section class="read a1" id="why">
+  <div class="sec-head"><span class="sec-no">02</span><h2>Why sellers don't upload good photos</h2></div>
+  <div class="sowhat"><span>So what</span><p>Bad photos aren't laziness. They're a rational response to the seller's situation, so asking harder won't fix them.</p></div>
+  <p>It's tempting to call bad listing photos a seller-education problem. The photos in this pilot say otherwise; every flaw has an ordinary, human reason:</p>
+  <div class="tbl"><table>
+    <thead><tr><th>Reason</th><th>What it looks like</th><th>What it means for us</th></tr></thead>
+    <tbody>
+      <tr><td><b>One-shot moment</b></td><td>The bike shot where it's parked: a street, a basement, a crowded lot</td><td>Nobody moves a 200 kg bike for a photo</td></tr>
+      <tr><td><b>No space, no backdrop</b></td><td>Other vehicles, pillars, floor tiles in frame</td><td>Background clean-up must be automatic</td></tr>
+      <tr><td><b>Phone in hand</b></td><td>A thumb over the screen of the phone being sold</td><td>We must handle hidden parts, not just backgrounds</td></tr>
+      <tr><td><b>Framing is hard</b></td><td>Wheels and tails cut off by the frame</td><td>Missing parts must be completed, carefully</td></tr>
+      <tr><td><b>Privacy isn't top of mind</b></td><td>Readable number plates, the seller's and the neighbours'</td><td>Masking plates is our job, every time</td></tr>
+      <tr><td><b>Low payoff for one sale</b></td><td>No reason to learn photography to sell one bike</td><td>Any extra step lowers listing completion</td></tr>
+    </tbody>
+  </table></div>
+  <p>So everything that follows obeys two rules: <strong>add nothing to the seller's workload</strong>, and <strong>never show a buyer something that isn't really there</strong>.</p>
+  <p class="bridge">Rules are easy to write. I needed to see what real photos demanded before building anything.</p>
+</section>
+
+<div class="actbanner a2 rv"><span class="chip">Act II</span><span class="t">The search</span></div>
+
+<section class="read a2" id="pilot">
+  <div class="sec-head"><span class="sec-no">03</span><h2>The pilot: nine photos, three flaws</h2></div>
+  <div class="sowhat"><span>So what</span><p>Two of the three flaws only need things <em>removed</em>. One needs something <em>drawn</em>, and that's where all the risk sits.</p></div>
+  <p>I started small and real: nine listing photos of two used motorcycles and one used phone. None was listing-ready as uploaded.</p>
+</section>
+<div class="gal a2" id="pilot-photos">
+  <h4>Royal Enfield Bullet 350 · 3 photos</h4>
+  <div class="row" style="--n:3">
+    <figure><button class="ph" data-full="img/pilot_re_bullet_0q.jpg"><img src="img/pilot_re_bullet_0q.jpg" alt="Seller photo: black Bullet from the side on a paved lot, front wheel cut off by the frame, a scooter and cars behind." loading="lazy"></button><figcaption><b>Side view</b>Front wheel cut off; scooter and cars behind</figcaption></figure>
+    <figure><button class="ph" data-full="img/pilot_re_bullet_3v.jpg"><img src="img/pilot_re_bullet_3v.jpg" alt="Seller photo: Bullet from the rear, small in the frame, parked between other two-wheelers in front of a shop." loading="lazy"></button><figcaption><b>Rear view</b>Small in the frame, crowded, three plates in shot</figcaption></figure>
+    <figure><button class="ph" data-full="img/pilot_re_bullet_9u.jpg"><img src="img/pilot_re_bullet_9u.jpg" alt="Seller photo: Bullet from the front with crash guards, bollards and parked cars behind." loading="lazy"></button><figcaption><b>Front view</b>Whole bike in frame; bollards and cars behind</figcaption></figure>
+  </div>
+  <h4>Royal Enfield Super Meteor 650 · 4 photos</h4>
+  <div class="row" style="--n:4">
+    <figure><button class="ph" data-full="img/pilot_sm_k3zspq6i2.jpg"><img src="img/pilot_sm_k3zspq6i2.jpg" alt="Seller photo: black Super Meteor from the front three-quarter angle on a road, cut off at the sides and bottom." loading="lazy"></button><figcaption><b>Front ¾</b>Cut off at both sides and the bottom</figcaption></figure>
+    <figure><button class="ph" data-full="img/pilot_sm_l4w7d3u4j.jpg"><img src="img/pilot_sm_l4w7d3u4j.jpg" alt="Seller photo: Super Meteor from the side on a street, cut off at the front wheel and rear, scooters and cars behind." loading="lazy"></button><figcaption><b>Side view</b>Cut off at both ends; street clutter</figcaption></figure>
+    <figure><button class="ph" data-full="img/pilot_sm_ekk5hglc1.jpg"><img src="img/pilot_sm_ekk5hglc1.jpg" alt="Seller photo: Super Meteor from the front on a narrow street with parked cars, a van and a scooter behind." loading="lazy"></button><figcaption><b>Front</b>Mirror touches the top edge; busy street</figcaption></figure>
+    <figure><button class="ph" data-full="img/pilot_sm_yw0sovoq2.jpg"><img src="img/pilot_sm_yw0sovoq2.jpg" alt="Seller photo: Super Meteor from the front, small and low-resolution, in a basement car park with yellow pillars." loading="lazy"></button><figcaption><b>Front, basement</b>Low resolution; pillars and a car behind</figcaption></figure>
+  </div>
+  <h4>Used phone · 2 photos</h4>
+  <div class="row" style="--n:2">
+    <figure><button class="ph" data-full="img/pilot_phone_a.jpg"><img src="img/pilot_phone_a.jpg" alt="Seller photo: phone held in a hand over a tiled floor, top of the phone cut off, thumb across the screen." loading="lazy"></button><figcaption><b>Phone A</b>Top cut off; thumb across the screen</figcaption></figure>
+    <figure><button class="ph" data-full="img/pilot_phone_b.jpg"><img src="img/pilot_phone_b.jpg" alt="Seller photo: whole phone held in a hand over a tiled floor, cracked screen, thumb covering the lower part." loading="lazy"></button><figcaption><b>Phone B</b>Thumb over the cracked screen</figcaption></figure>
+  </div>
+  <p class="lgnote">All nine are the sellers' original photos. Only privacy edits were made: plates and one personal sticker pixelated, marketplace watermarks and phone date stamps removed. Tap any photo to enlarge.</p>
+</div>
+<figure class="narrow a2 rv"><div class="frame"><img src="img/s3b_plates.jpg" alt="Plate detection on a rear-view motorcycle: detector boxes versus human-verified boxes, with the seller's own plate missed by the detector." loading="lazy"></div>
+    <div class="lg" aria-label="Legend: model and job for each panel"><span><i>Red boxes</i><b>YOLO plate detector</b>automatic plate detection</span><span><i>Green boxes</i><b>Human check</b>verified plate boxes</span><span><i>Right panel</i><b>Pixelation</b>plate masked, digits gone</span></div>
+  <figcaption><span class="fig-no">FIG 1</span><b>Privacy is a product requirement, not a model feature.</b> Plates are masked, never erased, and a person verifies the boxes.</figcaption></figure>
+<section class="read a2" style="padding-top:10px">
+  <p>Across the nine photos, three kinds of flaw kept coming up:</p>
+  <div class="tbl"><table>
+    <thead><tr><th>Flaw</th><th class="n">Photos</th><th>Kind of fix</th><th>Risk</th></tr></thead>
+    <tbody>
+      <tr><td>Cluttered background</td><td class="n">9 of 9</td><td>Remove</td><td>Low</td></tr>
+      <tr><td>Readable number plate</td><td class="n">5 of 7 bikes</td><td>Mask</td><td>Privacy, if one is missed</td></tr>
+      <tr><td>Item cut off or covered</td><td class="n">5 (3 bikes, 2 phones)</td><td><b>Generate</b> what's missing</td><td><b>High</b>: it must be the <em>same</em> item</td></tr>
+    </tbody>
+  </table></div>
+  <p>The first version used GPT for the hard part, and 7 of 9 photos came out listing-ready. It also taught me that privacy can't be delegated to a model: the plate detector missed the seller's own plate. But GPT is closed, priced per call, and it quietly changed the phone's case colour. <strong>That set the real question: can open models we run ourselves do the generation, faithfully?</strong></p>
+</section>
+
+
+<section class="a2" id="gauntlet">
+  <div class="read">
+    <div class="sec-head"><span class="sec-no">04</span><h2>Can open models replace GPT?</h2></div>
+    <div class="sowhat"><span>So what</span><p>Most open models draw a convincing bike. Very few draw <em>this</em> bike, and in used goods that's the only thing that matters.</p></div>
+    <p>I tested every commercially usable open editing model I could run on a rented GPU. The bar wasn't "looks good"; it was "the buyer would receive exactly this item".</p>
+  </div>
+  <figure class="narrow rv"><div class="frame"><img src="img/v3_firered.jpg" alt="The seller's Super Meteor next to FireRed's output, which adds saddlebags and a clear windscreen the real bike doesn't have." loading="lazy"></div>
+    <div class="lg" aria-label="Legend: model and job for each panel"><span><i>Left</i><b>Seller photo</b>original, plate masked</span><span><i>Right</i><b>FireRed-Image-Edit 1.1</b>clean-up edit, first pass</span></div>
+    <figcaption><span class="fig-no">FIG 2</span><b>A beautiful, wrong answer.</b> Saddlebags and a clear screen the real bike doesn't have. In used goods, this is worse than a bad photo; it's a misleading one.</figcaption></figure>
+  <div class="read"><p>That was the test every model had to pass. Here is how each one did:</p></div>
+  <div class="tbl wide"><table>
+    <thead><tr><th>Model</th><th>Licence</th><th>What happened</th><th>Verdict</th></tr></thead>
+    <tbody>
+      <tr><td>SDXL inpainting</td><td>Open RAIL</td><td>Filled gaps with the wrong scene and hard seams</td><td><span class="pill lose">Rejected</span></td></tr>
+      <tr><td>FLUX.2-dev</td><td>Non-commercial</td><td>Can't be told which area to fill; can't ship anyway</td><td><span class="pill lose">Rejected</span></td></tr>
+      <tr><td>FireRed-Image-Edit 1.1</td><td>Apache 2.0</td><td>A complete bike, but a <em>different</em> bike</td><td><span class="pill lose">Rejected</span></td></tr>
+      <tr><td><b>Qwen-Image-Edit-2511</b></td><td>Apache 2.0</td><td>Faithful, once used the right way</td><td><span class="pill win">Kept</span></td></tr>
+      <tr><td><b>LongCat-Image-Edit</b></td><td>Apache 2.0</td><td>Faithful, and 35% faster</td><td><span class="pill win">Kept</span></td></tr>
+      <tr><td>Qwen-Image-2.1 · FLUX.2 klein 9B</td><td>Research / non-commercial</td><td>Top of the leaderboard, but not shippable without a separate licence</td><td><span class="pill warn">Skipped</span></td></tr>
+    </tbody>
+  </table></div>
+  <div class="read"><p class="bridge">Two models passed. How I first used them taught the most important lesson of the project.</p></div>
+</section>
+
+<section class="a2" id="detour">
+  <div class="read">
+    <div class="sec-head"><span class="sec-no">05</span><h2>The detour we had to take</h2></div>
+    <div class="sowhat"><span>So what</span><p>Protecting the real pixels by hand made photos worse. Protecting them by measurement made them better.</p></div>
+    <p>My instinct was defensive: cut the bike out with <b>BiRefNet</b> (an open, MIT-licensed cut-out model that outlines the main object in a photo), let the generator fill only the gaps, then paste the real pixels back so nothing real could change. It sounded safe. It produced the one thing GPT never did: visible seams.</p>
+  </div>
+  <figure class="rv"><div class="frame"><img src="img/v3_detour.jpg" alt="Three panels: the seller's photo, the cut-out-and-paste-back result with seams and a halo, and the whole-image result that reads as one coherent photo." loading="lazy"></div>
+    <div class="lg" aria-label="Legend: model and job for each panel"><span><i>Left</i><b>Seller photo</b>original</span><span><i>Middle</i><b>BiRefNet + SAM 2.1 → Qwen-Image-Edit-2511</b>cut out, fill gaps, paste real pixels back</span><span><i>Right</i><b>Qwen-Image-Edit-2511</b>whole-image edit, 2 passes (clean, then zoom out)</span></div>
+    <figcaption><span class="fig-no">FIG 3</span><b>Same model, two ways of using it.</b> Middle: cut-out and paste-back. Right: let the model edit the whole photo, then <em>check</em> it's still the same bike.</figcaption></figure>
+  <div class="read"><p>Look closely at the middle panel and four problems show up:</p></div>
+  <div class="tbl wide"><table>
+    <thead><tr><th>What buyers would have seen</th><th>Why it happened</th></tr></thead>
+    <tbody>
+      <tr><td>A light halo around the bike</td><td>The model's background bleeding through the blend</td></tr>
+      <tr><td>A doubled grab rail</td><td>The model redrew the rail slightly shifted, next to the real one</td></tr>
+      <tr><td>Dark fragments above the tank</td><td>A black scooter behind a black bike; BiRefNet's cut-out couldn't separate them</td></tr>
+      <tr><td>Soft edges, a seam across a wheel</td><td>Blurring to hide seams; the model's wheel didn't meet the real one</td></tr>
+    </tbody>
+  </table></div>
+  <div class="read">
+    <p>BiRefNet didn't go away. It stopped being the thing that builds the final photo and became the thing that <em>measures</em> it: its outline of the item tells us whether the item is cut off, where to look when checking the edit, and where to crop. And on photos that need no generated pixels at all, it does the job on its own (next section).</p>
+    <p class="bridge">That shift, from controlling the model to verifying its output, became the heart of the pipeline.</p>
+  </div>
+</section>
+
+<div class="actbanner a3 rv"><span class="chip">Act III</span><span class="t">The build</span></div>
+
+<section class="a3" id="pipeline">
+  <div class="read">
+    <div class="sec-head"><span class="sec-no">06</span><h2>How the pipeline works</h2></div>
+    <div class="sowhat"><span>So what</span><p>Understand the photo, clean it, complete it only if needed, and check it's still the same item before any buyer sees it.</p></div>
+    <p>The clearest way to explain it is to follow one photo: a Super Meteor shot on a street, cut off at both ends.</p>
+  </div>
+  <figure class="rv"><div class="frame"><img src="img/v3_journey.jpg" alt="Four panels of the same motorcycle: the seller's photo cut off at both ends; the cleaned version on a studio backdrop; the completed version with the rear drawn in; the finished listing photo with the plate masked." loading="lazy"></div>
+    <div class="lg" aria-label="Legend: model and job for each panel"><span><i>1</i><b>Seller photo</b>original</span><span><i>2</i><b>Qwen-Image-Edit-2511</b>pass 1: clean the background</span><span><i>3</i><b>Qwen-Image-Edit-2511</b>pass 2: zoom out, draw the missing rear</span><span><i>4</i><b>Pixelation + Real-ESRGAN</b>plate masked, 2× sharpened, cropped</span></div>
+    <figcaption><span class="fig-no">FIG 4</span><b>One photo, four stages.</b> The bike is never cut out. The model edits the whole picture each time, and a check after each stage confirms it's still this bike.</figcaption></figure>
+  <div class="tbl wide"><table>
+    <thead><tr><th>Step</th><th>What happens, in plain words</th><th>Why it matters</th><th>Under the hood</th></tr></thead>
+    <tbody>
+      <tr><td><b>1 · Understand</b></td><td>Note what the item is, which way it faces, which parts are visible, where plates are, and whether anything is cut off or covered</td><td>This "description of the real item" is what every later step is held to</td><td>BiRefNet outline (does it touch the photo's edge?) + Qwen2.5-VL vision model + plate detector</td></tr>
+      <tr><td><b>2 · Clean</b></td><td>Redraw the whole photo on a plain studio backdrop. The instruction names the view, lists the parts, and says to keep every scratch</td><td>Removes clutter without inventing anything</td><td>Qwen-Image-Edit and LongCat</td></tr>
+      <tr><td><b>3 · Complete</b></td><td>Only if something was cut off: "zoom out" the clean photo so the model can draw the missing part</td><td>Buyers see the whole item. The only step that invents pixels</td><td>Same models, second pass</td></tr>
+      <tr><td><b>4 · Check</b></td><td>Match the result point by point against the seller's original: same angle, same parts, same colour, nothing added</td><td>Nothing reaches a buyer on the model's word alone</td><td>Feature matching (hundreds of points) inside BiRefNet's outline of the item + rotation limit</td></tr>
+      <tr><td><b>5 · Finish</b></td><td>Pixelate plates, sharpen, frame</td><td>Privacy and a consistent catalogue look</td><td>Plate boxes mapped from the original; 2× super-resolution; crop to BiRefNet's outline</td></tr>
+      <tr><td><b>6 · Route</b></td><td>Publish, send to a person, or, as a last resort, ask for another photo</td><td>People only see the exceptions</td><td>Rules on the step 4 scores</td></tr>
+    </tbody>
+  </table></div>
+  <div class="read">
+    <h3>Where no image generation is needed</h3>
+    <p>Most of the work isn't generative at all. Before any big model runs, a set of small, open models reads the photo, and they're light enough to run one at a time on a 4 GB laptop graphics card. For a photo that's already in frame with the item standing clear of its surroundings, this layer is the whole pipeline: cut the item out, place it on a studio backdrop, mask the plates. Nothing is drawn, so nothing about the item can change.</p>
+  </div>
+  <div class="fig2">
+    <figure class="rv"><div class="frame"><img src="img/s3a_bg_before_after.jpg" alt="Seller's Bullet photo next to a BiRefNet cut-out placed on a grey studio backdrop, with the front wheel still cut off." loading="lazy"></div>
+    <div class="lg" aria-label="Legend: model and job for each panel"><span><i>Left</i><b>Seller photo</b>original</span><span><i>Right</i><b>BiRefNet (full)</b>cut-out on a studio backdrop; nothing generated</span></div>
+      <figcaption><span class="fig-no">FIG 5</span><b>BiRefNet alone, no generation.</b> A clean backdrop with nothing generated (the full model takes 7.8 s a photo on a 4 GB laptop GPU). The limits show too: a sliver of the scooter behind stays attached at the front wheel, and a cut-off wheel stays cut off.</figcaption></figure>
+    <figure class="rv"><div class="frame"><img src="img/s3a_bg_failure.jpg" alt="Rear-view Bullet: seller photo, BiRefNet-lite cut-out missing the mirror heads, and full BiRefNet keeping them plus one stray mirror from a neighbouring bike." loading="lazy"></div>
+    <div class="lg" aria-label="Legend: model and job for each panel"><span><i>Left</i><b>Seller photo</b>original, plates masked</span><span><i>Middle</i><b>BiRefNet-lite</b>cut-out</span><span><i>Right</i><b>BiRefNet (full)</b>cut-out</span></div>
+      <figcaption><span class="fig-no">FIG 6</span><b>Thin parts are the weak spot.</b> The lite model loses the mirror heads; the full model keeps them but picks up a neighbour's mirror. Crowded scenes like this go to the generative clean-up instead.</figcaption></figure>
+  </div>
+  <div class="read"><p>The full set of small models behind this layer:</p></div>
+  <div class="tbl wide"><table>
+    <thead><tr><th>Job</th><th>What was used</th><th>Licence</th><th>What it decides</th></tr></thead>
+    <tbody>
+      <tr><td><b>Outline the item</b></td><td>BiRefNet (full model; the lite version dropped thin parts like mirror heads)</td><td>MIT</td><td>Is the item cut off? Where is it? The cut-out for a backdrop swap</td></tr>
+      <tr><td><b>Spot other objects</b></td><td>Mask R-CNN (torchvision)</td><td>BSD-3</td><td>Which cars, scooters or people crowd the item</td></tr>
+      <tr><td><b>Score the background</b></td><td>SigLIP2 image–text model</td><td>Apache 2.0</td><td>Clean or cluttered, in one number</td></tr>
+      <tr><td><b>Find number plates</b></td><td>RT-DETRv2 plate detector, scanned in tiles</td><td>Apache 2.0</td><td>Candidate plate boxes, including tiny ones on background vehicles</td></tr>
+      <tr><td><b>Confirm plates</b></td><td>RapidOCR text reader</td><td>Apache 2.0</td><td>Is it really a plate, or a badge or logo? Also catches plates the detector missed</td></tr>
+      <tr><td><b>Mask, match, sharpen</b></td><td>Pixelation, SIFT point matching, Real-ESRGAN</td><td>Open source · BSD-3</td><td>Privacy, the same-item check, a crisp final photo</td></tr>
+    </tbody>
+  </table></div>
+  <div class="read">
+    <h3>Is the check good enough to trust?</h3>
+    <p>Not on its own, and I'd rather say that here than discover it in production. I first asked a vision model to grade the edits; it confidently repeated my own example words back as "findings". Point matching is duller and more honest. Here's what it actually scored (matched points, across the pilot's attempts):</p>
+  </div>
+  <div class="tbl wide"><table>
+    <thead><tr><th>Photo</th><th>Wrong result</th><th class="n">Its score</th><th>Faithful result</th><th class="n">Its score</th><th>Did the check separate them?</th></tr></thead>
+    <tbody>
+      <tr><td>Meteor · side</td><td>FireRed: different bike</td><td class="n">≤ 23</td><td>LongCat</td><td class="n">646–1,119</td><td><span class="pill win">Clearly</span></td></tr>
+      <tr><td>Bullet · rear</td><td>Qwen: added a 2nd exhaust</td><td class="n">≤ 6</td><td>LongCat</td><td class="n">54–195</td><td><span class="pill win">Clearly</span></td></tr>
+      <tr><td>Meteor · front ¾</td><td>LongCat near-copy that kept the watermark</td><td class="n">523</td><td>Qwen</td><td class="n">237–773</td><td><span class="pill lose">No</span> it rewarded the copy</td></tr>
+      <tr><td>Bullet · side</td><td>—</td><td class="n">—</td><td>Qwen (scooter removed)</td><td class="n">17–30</td><td><span class="pill warn">Unsure</span> good results score low on busy photos</td></tr>
+    </tbody>
+  </table></div>
+  <div class="read">
+    <p>So the check reliably catches a <em>different item</em>, the failure that hurts trust most. It doesn't yet catch leftover watermarks, and it can't vouch for photos where most of the original was clutter. In the pilot, I confirmed every final pick by eye. In production those two blind spots route to a person, and a watermark detector plus a trained edit judge (section 10) shrink that queue.</p>
+    <p class="bridge">With the method settled, the fair test was head-to-head against GPT, on bikes and on the phone.</p>
+  </div>
+</section>
+
+<section class="a3" id="showdown">
+  <div class="read">
+    <div class="sec-head"><span class="sec-no">07</span><h2>The showdown: bikes and phones</h2></div>
+    <div class="sowhat"><span>So what</span><p>On bikes, open models matched GPT on every photo, but no single open model won all five, so we run two. On phones, both sides still have a flaw.</p></div>
+    <h3>The motorcycles</h3>
+  </div>
+  <div class="sd land a3 rv"><div class="hd"><h4>Bullet · side</h4><span>Front cut off, scooter behind</span></div><div class="cells">
+    <button class="cell" data-full="img/sd_re_bullet_0q_raw.jpg" data-cap="Bullet · side · seller photo"><img src="img/sd_re_bullet_0q_raw.jpg" alt="Bullet · side: the seller's original photo." loading="lazy"><span class="lab">Seller photo</span></button>
+    <button class="cell" data-full="img/sd_re_bullet_0q_qwen.jpg" data-cap="Bullet · side · Qwen · Winner"><img src="img/sd_re_bullet_0q_qwen.jpg" alt="Bullet · side: Qwen result, winner." loading="lazy"><span class="lab">Qwen</span><span class="res win">✓ Winner</span></button>
+    <button class="cell" data-full="img/sd_re_bullet_0q_longcat.jpg" data-cap="Bullet · side · LongCat · Good, slightly angled"><img src="img/sd_re_bullet_0q_longcat.jpg" alt="Bullet · side: LongCat result, good, slightly angled." loading="lazy"><span class="lab">LongCat</span><span class="res ok">✓ Good, slightly angled</span></button>
+    <button class="cell" data-full="img/sd_re_bullet_0q_gpt.jpg" data-cap="Bullet · side · GPT · Good"><img src="img/sd_re_bullet_0q_gpt.jpg" alt="Bullet · side: GPT result, good." loading="lazy"><span class="lab">GPT</span><span class="res ok">✓ Good</span></button>
+  </div>
+  <div class="lg" aria-label="Legend: model and job for each panel"><span><i>Seller photo</i><b>Original</b>plates masked</span><span><i>Qwen</i><b>Qwen-Image-Edit-2511</b>clean + zoom out (2 passes)</span><span><i>LongCat</i><b>LongCat-Image-Edit</b>clean (1 pass)</span><span><i>GPT</i><b>GPT image edit (ChatGPT)</b>one edit</span></div></div>
+  <div class="sd a3 rv"><div class="hd"><h4>Bullet · rear</h4><span>Small, crowded</span></div><div class="cells">
+    <button class="cell" data-full="img/sd_re_bullet_3v_raw.jpg" data-cap="Bullet · rear · seller photo"><img src="img/sd_re_bullet_3v_raw.jpg" alt="Bullet · rear: the seller's original photo." loading="lazy"><span class="lab">Seller photo</span></button>
+    <button class="cell" data-full="img/sd_re_bullet_3v_qwen.jpg" data-cap="Bullet · rear · Qwen · Added a 2nd exhaust"><img src="img/sd_re_bullet_3v_qwen.jpg" alt="Bullet · rear: Qwen result, added a 2nd exhaust." loading="lazy"><span class="lab">Qwen</span><span class="res bad">✗ Added a 2nd exhaust</span></button>
+    <button class="cell" data-full="img/sd_re_bullet_3v_longcat.jpg" data-cap="Bullet · rear · LongCat · Winner"><img src="img/sd_re_bullet_3v_longcat.jpg" alt="Bullet · rear: LongCat result, winner." loading="lazy"><span class="lab">LongCat</span><span class="res win">✓ Winner</span></button>
+    <button class="cell" data-full="img/sd_re_bullet_3v_gpt.jpg" data-cap="Bullet · rear · GPT · Good"><img src="img/sd_re_bullet_3v_gpt.jpg" alt="Bullet · rear: GPT result, good." loading="lazy"><span class="lab">GPT</span><span class="res ok">✓ Good</span></button>
+  </div>
+  <div class="lg" aria-label="Legend: model and job for each panel"><span><i>Seller photo</i><b>Original</b>plates masked</span><span><i>Qwen</i><b>Qwen-Image-Edit-2511</b>clean (1 pass)</span><span><i>LongCat</i><b>LongCat-Image-Edit</b>clean (1 pass)</span><span><i>GPT</i><b>GPT image edit (ChatGPT)</b>one edit</span></div></div>
+  <div class="sd a3 rv"><div class="hd"><h4>Meteor · front ¾</h4><span>Cut off both sides and bottom</span></div><div class="cells">
+    <button class="cell" data-full="img/sd_sm_k3zspq6i2_raw.jpg" data-cap="Meteor · front ¾ · seller photo"><img src="img/sd_sm_k3zspq6i2_raw.jpg" alt="Meteor · front ¾: the seller's original photo." loading="lazy"><span class="lab">Seller photo</span></button>
+    <button class="cell" data-full="img/sd_sm_k3zspq6i2_qwen.jpg" data-cap="Meteor · front ¾ · Qwen · Winner"><img src="img/sd_sm_k3zspq6i2_qwen.jpg" alt="Meteor · front ¾: Qwen result, winner." loading="lazy"><span class="lab">Qwen</span><span class="res win">✓ Winner</span></button>
+    <button class="cell" data-full="img/sd_sm_k3zspq6i2_longcat.jpg" data-cap="Meteor · front ¾ · LongCat · Bike turned side-on"><img src="img/sd_sm_k3zspq6i2_longcat.jpg" alt="Meteor · front ¾: LongCat result, bike turned side-on." loading="lazy"><span class="lab">LongCat</span><span class="res bad">✗ Bike turned side-on</span></button>
+    <button class="cell" data-full="img/sd_sm_k3zspq6i2_gpt.jpg" data-cap="Meteor · front ¾ · GPT · Good"><img src="img/sd_sm_k3zspq6i2_gpt.jpg" alt="Meteor · front ¾: GPT result, good." loading="lazy"><span class="lab">GPT</span><span class="res ok">✓ Good</span></button>
+  </div>
+  <div class="lg" aria-label="Legend: model and job for each panel"><span><i>Seller photo</i><b>Original</b>plates masked</span><span><i>Qwen</i><b>Qwen-Image-Edit-2511</b>clean + zoom out (2 passes)</span><span><i>LongCat</i><b>LongCat-Image-Edit</b>clean (1 pass)</span><span><i>GPT</i><b>GPT image edit (ChatGPT)</b>one edit</span></div></div>
+  <div class="sd a3 rv"><div class="hd"><h4>Meteor · front</h4><span>Low-res basement photo</span></div><div class="cells">
+    <button class="cell" data-full="img/sd_sm_yw0sovoq2_raw.jpg" data-cap="Meteor · front · seller photo"><img src="img/sd_sm_yw0sovoq2_raw.jpg" alt="Meteor · front: the seller's original photo." loading="lazy"><span class="lab">Seller photo</span></button>
+    <button class="cell" data-full="img/sd_sm_yw0sovoq2_qwen.jpg" data-cap="Meteor · front · Qwen · Winner"><img src="img/sd_sm_yw0sovoq2_qwen.jpg" alt="Meteor · front: Qwen result, winner." loading="lazy"><span class="lab">Qwen</span><span class="res win">✓ Winner</span></button>
+    <button class="cell" data-full="img/sd_sm_yw0sovoq2_longcat.jpg" data-cap="Meteor · front · LongCat · Good, bike small"><img src="img/sd_sm_yw0sovoq2_longcat.jpg" alt="Meteor · front: LongCat result, good, bike small." loading="lazy"><span class="lab">LongCat</span><span class="res ok">✓ Good, bike small</span></button>
+    <button class="cell" data-full="img/sd_sm_yw0sovoq2_gpt.jpg" data-cap="Meteor · front · GPT · Good"><img src="img/sd_sm_yw0sovoq2_gpt.jpg" alt="Meteor · front: GPT result, good." loading="lazy"><span class="lab">GPT</span><span class="res ok">✓ Good</span></button>
+  </div>
+  <div class="lg" aria-label="Legend: model and job for each panel"><span><i>Seller photo</i><b>Original</b>plates masked</span><span><i>Qwen</i><b>Qwen-Image-Edit-2511</b>clean (1 pass)</span><span><i>LongCat</i><b>LongCat-Image-Edit</b>clean (1 pass)</span><span><i>GPT</i><b>GPT image edit (ChatGPT)</b>one edit</span></div></div>
+  <div class="sd land a3 rv"><div class="hd"><h4>Meteor · side</h4><span>Cut off both ends</span></div><div class="cells">
+    <button class="cell" data-full="img/sd_sm_l4w7d3u4j_raw.jpg" data-cap="Meteor · side · seller photo"><img src="img/sd_sm_l4w7d3u4j_raw.jpg" alt="Meteor · side: the seller's original photo." loading="lazy"><span class="lab">Seller photo</span></button>
+    <button class="cell" data-full="img/sd_sm_l4w7d3u4j_qwen.jpg" data-cap="Meteor · side · Qwen · Good"><img src="img/sd_sm_l4w7d3u4j_qwen.jpg" alt="Meteor · side: Qwen result, good." loading="lazy"><span class="lab">Qwen</span><span class="res ok">✓ Good</span></button>
+    <button class="cell" data-full="img/sd_sm_l4w7d3u4j_longcat.jpg" data-cap="Meteor · side · LongCat · Good, nicer light"><img src="img/sd_sm_l4w7d3u4j_longcat.jpg" alt="Meteor · side: LongCat result, good, nicer light." loading="lazy"><span class="lab">LongCat</span><span class="res ok">✓ Good, nicer light</span></button>
+    <button class="cell" data-full="img/sd_sm_l4w7d3u4j_gpt.jpg" data-cap="Meteor · side · GPT · Good"><img src="img/sd_sm_l4w7d3u4j_gpt.jpg" alt="Meteor · side: GPT result, good." loading="lazy"><span class="lab">GPT</span><span class="res ok">✓ Good</span></button>
+  </div>
+  <div class="lg" aria-label="Legend: model and job for each panel"><span><i>Seller photo</i><b>Original</b>plates masked</span><span><i>Qwen</i><b>Qwen-Image-Edit-2511</b>clean + zoom out (2 passes)</span><span><i>LongCat</i><b>LongCat-Image-Edit</b>clean + zoom out (2 passes)</span><span><i>GPT</i><b>GPT image edit (ChatGPT)</b>one edit</span></div></div>
+  <p class="lgnote">Every open-model result then goes through the same finish: plates pixelated, 2× sharpening with Real-ESRGAN, cropped to the item. Same photo and same instruction for every model. Tap any image to see it full size.</p>
+  <div class="tbl wide"><table>
+    <thead><tr><th>Photo</th><th>Challenge</th><th>Qwen</th><th>LongCat</th><th>GPT</th><th>Best open model</th></tr></thead>
+    <tbody>
+      <tr><td>Bullet · side</td><td>Front cut off, scooter behind</td><td>Same view, every part</td><td>Good, slightly angled</td><td>Good</td><td><span class="pill win">Qwen</span></td></tr>
+      <tr><td>Bullet · rear</td><td>Small, crowded</td><td><b>Added a 2nd exhaust</b></td><td>Faithful</td><td>Good</td><td><span class="pill win">LongCat</span></td></tr>
+      <tr><td>Meteor · front ¾</td><td>Cut off both sides</td><td>Complete, same angle</td><td><b>Bike turned side-on</b></td><td>Good</td><td><span class="pill win">Qwen</span></td></tr>
+      <tr><td>Meteor · front</td><td>Low-res basement photo</td><td>Complete</td><td>Good, bike small</td><td>Good</td><td><span class="pill win">Qwen</span></td></tr>
+      <tr><td>Meteor · side</td><td>Cut off both sides</td><td>Good</td><td>Good, nicer light</td><td>Good</td><td><span class="pill warn">Tie</span></td></tr>
+    </tbody>
+  </table></div>
+  <div class="read">
+    <h3>The phones</h3>
+    <p>Phones are where fidelity really shows. Both photos had a thumb over the screen, and one was cut off at the top. A used-phone buyer looks hardest at exactly what the thumb hides: cracks, scratches, the true colour of the case. Phones took a simpler route than bikes (cut the phone out, then fill only the area under the thumb), because a phone's straight edges make a clean cut-out easy.</p>
+  </div>
+  <figure class="rv"><div class="frame"><img src="img/v3_phones.jpg" alt="Two used-phone photos: seller photo; our pipeline's result with the real case colour and cracks but a faint thumb outline; GPT's result with a clean shape but a noticeably brighter blue case." loading="lazy"></div>
+    <div class="lg" aria-label="Legend: model and job for each panel"><span><i>Left</i><b>Seller photo</b>original</span><span><i>Middle</i><b>BiRefNet + SAM 2.1 → Qwen-Image-Edit-2511</b>cut the phone out, fill only under the thumb</span><span><i>Right</i><b>GPT image edit (ChatGPT)</b>one edit of the whole photo</span></div>
+    <figcaption><span class="fig-no">FIG 7</span><b>Two different failures.</b> Ours keeps the real teal case and every crack but leaves a faint outline where the thumb was. GPT's shape is cleaner, but its case is about twice as saturated, so the buyer would unbox a different-looking phone.</figcaption></figure>
+  <div class="tbl wide"><table>
+    <thead><tr><th>Phone</th><th>Problem</th><th>Our pipeline</th><th>GPT</th><th>Shippable?</th></tr></thead>
+    <tbody>
+      <tr><td>Phone A</td><td>Top cut off + thumb</td><td>Colour and cracks kept; <b>faint thumb outline, slightly warped edge</b></td><td>Clean shape; <b>case colour ~2× more saturated</b></td><td><span class="pill warn">Neither, yet</span></td></tr>
+      <tr><td>Phone B</td><td>Thumb over the screen</td><td>Colour and cracks kept; <b>faint thumb outline</b></td><td>Clean shape; <b>case colour ~2× more saturated</b></td><td><span class="pill warn">Neither, yet</span></td></tr>
+    </tbody>
+  </table></div>
+  <div class="read">
+    <p>I'd take our failure over GPT's. A faint outline is visible, detectable and fixable: run the whole-image bike method on phones, which never cuts anything out. A colour shift misrepresents the item while looking perfectly plausible. Until the fix lands, phone photos with a covered screen go to review.</p>
+    <p><b>The verdict:</b> each open model has one blind spot (rear views for Qwen, ¾ angles for LongCat) and they don't overlap, so the pipeline runs both and lets the check choose. GPT stays as a fallback for photos both fail.</p>
+    <p class="bridge">Here's what that looks like from a single photo's point of view.</p>
+  </div>
+</section>
+
+<section class="a3" id="path">
+  <div class="read">
+    <div class="sec-head"><span class="sec-no">08</span><h2>A photo's path, in plain words</h2></div>
+    <div class="sowhat"><span>So what</span><p>The listing goes live instantly. Photos improve in the background, only where needed, and only if we can show it's still the seller's own item.</p></div>
+  </div>
+  <div class="path">
+    <div class="step" style="--sc:var(--coral)"><div class="num">1</div><div><h4>The seller takes the photo, and posts</h4><p>The camera shows a gentle hint: "fit the whole bike in the frame". It's a hint, never a block. The listing goes live straight away with the original photos.</p></div></div>
+    <div class="conn" aria-hidden="true"></div>
+    <div class="step" style="--sc:var(--indigo)"><div class="num">2</div><div><h4>Is the photo usable at all?</h4><p>Blurry, too dark, or not the item being sold?</p>
+      <div class="branches"><div class="br go"><b>Usable</b>Carry on in the background</div><div class="br stop"><b>Not usable</b>Ask for one more photo (at most twice)</div></div></div></div>
+    <div class="conn" aria-hidden="true"></div>
+    <div class="step" style="--sc:var(--teal)"><div class="num">3</div><div><h4>What does it need?</h4>
+      <div class="branches"><div class="br go"><b>Nothing big</b>Mask plates. If the item stands clear, cut it out onto a studio backdrop. Nothing is generated</div><div class="br fix"><b>Busy background</b>Clean it</div><div class="br fix"><b>Cut off or covered</b>Clean it, then complete it</div></div></div></div>
+    <div class="conn" aria-hidden="true"></div>
+    <div class="step" style="--sc:var(--goldfill)"><div class="num">4</div><div><h4>Is it still exactly the seller's item?</h4><p>Compared with the original: same item, same angle, same parts, same colour, nothing left over.</p>
+      <div class="branches"><div class="br go"><b>Yes</b>Swap it in, marked "AI-enhanced", with the original one tap away</div><div class="br fix"><b>No</b>Try the other model's version</div><div class="br stop"><b>Still no</b>A person reviews it; the original stays live meanwhile</div></div></div></div>
+    <div class="conn" aria-hidden="true"></div>
+    <div class="step" style="--sc:var(--ink)"><div class="num">5</div><div><h4>The seller stays in control</h4><p>A notification: "We polished your photos". The seller can keep the originals with one tap. No approval is needed to go live.</p></div></div>
+  </div>
+  <div class="read">
+    <div class="tbl"><table>
+      <thead><tr><th>Design choice</th><th>Why</th></tr></thead>
+      <tbody>
+        <tr><td>Go live first, improve later</td><td>A fix takes 1–5 minutes of GPU time. The seller should never wait for it</td></tr>
+        <tr><td>Hints, not blocks</td><td>Every blocked upload risks a lost listing. Guidance is free; friction isn't</td></tr>
+        <tr><td>Fix only what's broken</td><td>Keeps cost near zero on good photos; less generated means less can go wrong</td></tr>
+        <tr><td>Original one tap away for buyers</td><td>The strongest answer to "did AI change my item?" is letting buyers check</td></tr>
+        <tr><td>Two models before a person</td><td>Their failures don't overlap, so people see only true exceptions</td></tr>
+      </tbody>
+    </table></div>
+    <p class="bridge">Going live first has a second benefit: fixes can wait in a queue. That matters a lot for the economics.</p>
+  </div>
+</section>
+
+<div class="actbanner a4 rv"><span class="chip">Act IV</span><span class="t">The business</span></div>
+
+<section class="a4" id="economics">
+  <div class="read">
+    <div class="sec-head"><span class="sec-no">09</span><h2>Open models vs GPT: the cost</h2></div>
+    <div class="sowhat"><span>So what</span><p>Running both open models costs ₹4.87 per uploaded photo, less than GPT's ₹5.1–7.5, with bike quality on par. Running LongCat alone costs less than half of that.</p></div>
+    <p>One table says most of it. Every open-model number is <b>seconds of GPU time × ₹0.0423</b>, the price of one second on the A100 we rented ($1.59 an hour × ₹95.8 per dollar ÷ 3,600). GPT's price is an estimate for one medium-quality edit. The <a href="#calc">appendix</a> shows every calculation step by step.</p>
+    <div class="tbl"><table>
+      <thead><tr><th>Building block</th><th class="n">GPU time</th><th class="n">Cost</th><th>Where the time comes from</th></tr></thead>
+      <tbody>
+        <tr><td><b>Checks on every photo</b>: outline, plates, cut-off test, parts list</td><td class="n">10 s</td><td class="n">₹0.42</td><td>10 × ₹0.0423. An <span class="est">estimate</span>: these small models weren't timed on the A100</td></tr>
+        <tr><td><b>One Qwen edit</b></td><td class="n">85.3 s</td><td class="n">₹3.61</td><td>Median of 24 timed edits (82–87 s)</td></tr>
+        <tr><td><b>One LongCat edit</b></td><td class="n">55.0 s</td><td class="n">₹2.33</td><td>Median of 24 timed edits (55–56 s)</td></tr>
+        <tr><td><b>One GPT edit</b></td><td class="n">—</td><td class="n">₹7.86–11.79</td><td>OpenAI's $0.041 medium image (₹3.93) × 2–3 for sending a photo in. An <span class="est">estimate</span></td></tr>
+      </tbody>
+    </table></div>
+    <p>A photo that's already good only pays for the checks. A busy background adds one edit per model. A cut-off photo adds two (clean, then zoom out).</p>
+  </div>
+  <div class="tbl wide vs"><table>
+    <thead><tr><th></th><th class="n">Qwen only</th><th class="n">LongCat only</th><th class="n hl">Both, best one kept</th><th class="n">GPT</th></tr></thead>
+    <tbody>
+      <tr><td>Photo already good: checks only, no edit</td><td class="n">₹0.42</td><td class="n">₹0.42</td><td class="n hl">₹0.42</td><td class="n">₹0.42</td></tr>
+      <tr><td>Photo with a busy background: checks + one clean-up</td><td class="n">₹4.03</td><td class="n">₹2.75</td><td class="n hl">₹6.36</td><td class="n">₹8.28–12.21 <span class="est">estimate</span></td></tr>
+      <tr><td>Photo cut off or covered: checks + clean-up + completion</td><td class="n">₹7.64</td><td class="n">₹5.08</td><td class="n hl">₹12.29</td><td class="n">₹8.28–12.21 <span class="est">estimate</span></td></tr>
+      <tr><td><b>Average per uploaded photo</b> (mix below)</td><td class="n"><b>₹3.13</b></td><td class="n"><b>₹2.17</b></td><td class="n hl"><b>₹4.87</b></td><td class="n"><b>₹5.14–7.50</b></td></tr>
+      <tr><td>Average per listing (5 photos)</td><td class="n">₹16</td><td class="n">₹11</td><td class="n hl">₹24</td><td class="n">₹26–37</td></tr>
+      <tr><td>Quality on the 5 pilot bike photos</td><td class="n">Best on 3; added an exhaust on 1</td><td class="n">Best on 1; turned 1 bike side-on</td><td class="n hl"><b>Faithful on 5 of 5</b></td><td class="n">Good on 5 of 5</td></tr>
+      <tr><td>Time on the GPU per edit</td><td class="n">85 s</td><td class="n">55 s</td><td class="n hl">140 s</td><td class="n">Not measured</td></tr>
+      <tr><td>Photos leave our systems?</td><td class="n">No</td><td class="n">No</td><td class="n hl">No</td><td class="n">Yes</td></tr>
+    </tbody>
+  </table></div>
+  <div class="read">
+    <p>Two things stand out. Running both models is the safe choice today, because each covers the other's blind spot. And on a cut-off photo, running both (₹12.29) actually costs <em>more</em> than GPT (₹8.28–12.21). The open models win on average only because most photos need less than the full treatment, so the mix matters.</p>
+    <h3>The mix: not every photo needs AI</h3>
+    <p>The shares below are <b>assumptions</b>, not measurements. They assume a gentle "fit the whole item in the frame" hint on the camera screen.</p>
+  </div>
+  <div class="mix rv" role="img" aria-label="Photo mix per scenario, both open models. Optimistic: 60% already good, 35% busy background, 5% cut off, ₹3.09 a photo. Base case: 40%, 45%, 15%, ₹4.87. Pessimistic: 20%, 50%, 30%, ₹6.95.">
+    <div class="legend"><span><i style="background:var(--teal)"></i>Already good · ₹0.42</span><span><i style="background:var(--indigo)"></i>Busy background · ₹6.36</span><span><i style="background:var(--coral)"></i>Cut off or covered · ₹12.29</span></div>
+    <div class="mixrow"><span class="lab">Optimistic</span><div class="mixbar"><i class="g" style="width:60%">60%</i><i class="b" style="width:35%">35%</i><i class="c" style="width:5%"></i></div><span class="v">₹3.09</span></div>
+    <div class="mixrow"><span class="lab">Base case</span><div class="mixbar"><i class="g" style="width:40%">40%</i><i class="b" style="width:45%">45%</i><i class="c" style="width:15%">15%</i></div><span class="v">₹4.87</span></div>
+    <div class="mixrow"><span class="lab">Pessimistic</span><div class="mixbar"><i class="g" style="width:20%">20%</i><i class="b" style="width:50%">50%</i><i class="c" style="width:30%">30%</i></div><span class="v">₹6.95</span></div>
+  </div>
+  <div class="read"><p>Against GPT per uploaded photo: optimistic ₹3.09 vs ₹3.57–5.14, base case ₹4.87 vs ₹5.14–7.50, pessimistic ₹6.95 vs ₹6.71–9.86. Both open models win in the first two. In the pessimistic mix, where many photos are cut off, GPT at its lowest price is slightly cheaper. LongCat alone stays cheapest in every mix.</p>
+  <h3>At marketplace scale (base case)</h3></div>
+  <div class="tbl wide"><table>
+    <thead><tr><th class="n">Listings a month</th><th class="n">Both open models</th><th class="n">LongCat only</th><th class="n">GPT</th></tr></thead>
+    <tbody>
+      <tr><td class="n">10,000</td><td class="n">₹2.4 lakh</td><td class="n">₹1.1 lakh</td><td class="n">₹2.6–3.7 lakh</td></tr>
+      <tr><td class="n">1,00,000</td><td class="n">₹24 lakh</td><td class="n">₹11 lakh</td><td class="n">₹26–37 lakh</td></tr>
+    </tbody>
+  </table></div>
+  <div class="read">
+    <p>Human review time sits on top and is <b>not yet measured</b>; a review rate from nine hand-picked hard photos would mislead.</p>
+    <p class="bridge">₹24 a listing works. But it's the price of a first version, not a finished one.</p>
+  </div>
+</section>
+
+<section class="a4" id="better">
+  <div class="read">
+    <div class="sec-head"><span class="sec-no">10</span><h2>Cheaper and better: fine-tuning, buy vs rent</h2></div>
+    <div class="sowhat"><span>So what</span><p>Four known levers take the cost from ₹4.87 to under ₹1 a photo. Their order matters: optimise the software first, then decide whether to buy hardware.</p></div>
+    <h3>The cost ladder</h3>
+    <p>Each rung builds on the one above, on the base-case mix. Everything below the first rung is modelled, not yet measured.</p>
+  </div>
+  <div class="ladder rv read">
+    <div class="rung"><div class="nm">Today<small>Rented A100, both models on every fix</small></div><div class="track"><i style="--w:100%"></i></div><div class="v">₹4.87</div></div>
+    <div class="rung"><div class="nm">Stop at the first pass<small>LongCat first; Qwen only if the check fails (assume 30%)</small></div><div class="track"><i style="--w:61%"></i></div><div class="v">₹2.98</div></div>
+    <div class="rung"><div class="nm">4-step Qwen<small>Distilled "Lightning" version, ~12 s instead of 85 s; Qwen first, LongCat on 30%</small></div><div class="track"><i style="--w:27%"></i></div><div class="v">₹1.33</div></div>
+    <div class="rung"><div class="nm">Own the GPUs<small>Bought, kept 70% busy by the background queue</small></div><div class="track"><i style="--w:17%"></i></div><div class="v">₹0.85</div></div>
+  </div>
+
+  <div class="read">
+    <h3>Fine-tuning Qwen on real listing photos</h3>
+    <p>Qwen's failures were specific and repeatable: an extra exhaust on a rear view, a slight angle drift. That's exactly what a small fine-tune (a LoRA adapter, not a new model) fixes well. It's also where quality can go past GPT's, because a general-purpose model is never tuned on one marketplace's own photos.</p>
+  </div>
+  <div class="tbl wide"><table>
+    <thead><tr><th>Question</th><th>Answer</th></tr></thead>
+    <tbody>
+      <tr><td>What to train on</td><td>Pairs of seller photo → human-approved listing photo. A review step produces these anyway, at no extra cost. Not GPT outputs: building on another provider's outputs is risky, and their terms restrict it</td></tr>
+      <tr><td>How much data</td><td>~1,000–2,000 approved pairs to start, across bikes, scooters and phones <span class="est">estimate</span></td></tr>
+      <tr><td>Compute cost</td><td>~8–12 A100-hours per training run ≈ <b>₹1,200–1,800</b> <span class="est">estimate</span></td></tr>
+      <tr><td>What it should fix</td><td>Added and missing parts, angle drift, inconsistent backdrop and shadow. Fewer retries also make "stop at the first pass" cheaper</td></tr>
+      <tr><td>The risk</td><td>Training on polished photos can teach the model to make items look new. Every new version must pass a held-out set of heavily worn items and the same-item check before it ships</td></tr>
+      <tr><td>Related quick win</td><td>A published 4-step distilled version of this exact Qwen model claims ~10× faster editing. It's untested on our photos and must clear the same bar</td></tr>
+    </tbody>
+  </table></div>
+
+  <div class="read">
+    <h3>Buy an A100 or keep renting?</h3>
+    <p>Renting is right while volume is uncertain. The real question is when owning pays, and the answer hangs on one number: <b>how busy the GPU is kept</b>. Because listings go live first and photos are fixed from a queue, we can keep GPUs far busier than a real-time feature could.</p>
+  </div>
+  <div class="tbl wide"><table>
+    <thead><tr><th>Input</th><th class="n">Value</th><th>Source</th></tr></thead>
+    <tbody>
+      <tr><td>Rent</td><td class="n">₹152 per hour</td><td>What we paid ($1.59/h). Indian clouds list ₹187–189/h</td></tr>
+      <tr><td>Buy, per GPU</td><td class="n">₹16 lakh (₹12–20 lakh)</td><td>A100 80GB ~$10–13k new globally, +25–30% landed in India, plus a share of the server <span class="est">estimate</span></td></tr>
+      <tr><td>Running cost when owned</td><td class="n">≈ ₹10 per busy hour</td><td>Power, cooling, colocation, ops share <span class="est">assumption</span></td></tr>
+      <tr><td>Useful life</td><td class="n">3 years</td><td>Straight-line <span class="est">assumption</span></td></tr>
+    </tbody>
+  </table></div>
+  <div class="chart rv">
+    <svg viewBox="0 0 640 340" role="img" aria-label="Cumulative cost of one GPU over 36 months. Buying starts at ₹16 lakh and reaches ₹17.8 lakh. Renting at 70% busy reaches ₹28 lakh and crosses the buy line at month 22. Renting at 40% busy reaches ₹16 lakh at month 36 and never crosses it.">
+      <g class="grid">
+        <line x1="60" y1="290" x2="610" y2="290"/><line x1="60" y1="200" x2="610" y2="200"/><line x1="60" y1="110" x2="610" y2="110"/><line x1="60" y1="20" x2="610" y2="20"/>
+      </g>
+      <text x="50" y="294" text-anchor="end">₹0</text><text x="50" y="204" text-anchor="end">10 L</text><text x="50" y="114" text-anchor="end">20 L</text><text x="50" y="24" text-anchor="end">30 L</text>
+      <text x="60" y="312" text-anchor="middle">0</text><text x="243" y="312" text-anchor="middle">12</text><text x="427" y="312" text-anchor="middle">24</text><text x="610" y="312" text-anchor="middle">36</text>
+      <text x="335" y="334" text-anchor="middle">months</text>
+      <path class="ln solid" d="M60 290 L610 37.8" stroke="var(--coral)"/>
+      <path class="ln" d="M60 290 L610 145.9" stroke="var(--indigo)" stroke-dasharray="7 7"/>
+      <path class="ln solid" d="M60 146 L610 129.4" stroke="var(--teal)"/>
+      <circle cx="396.2" cy="135.9" r="7" fill="var(--goldfill)" stroke="var(--surface)" stroke-width="3"/>
+      <text x="396" y="116" text-anchor="middle" style="fill:var(--ink); font-weight:600">breakeven · month 22</text>
+      <text x="630" y="96" text-anchor="end" style="fill:var(--coral); font-weight:600">rent, 70% busy</text>
+      <text x="468" y="216" style="fill:var(--indigo); font-weight:600">rent, 40% busy</text>
+      <text x="80" y="134" style="fill:var(--teal); font-weight:600">buy (₹16 L + running)</text>
+    </svg>
+  </div>
+  <div class="tbl wide"><table>
+    <thead><tr><th>How busy the GPU is</th><th class="n">Breakeven</th><th class="n">₹ per photo, owned</th><th class="n">₹ per photo, rented</th><th>Call</th></tr></thead>
+    <tbody>
+      <tr><td>100% (theoretical)</td><td class="n">15 months</td><td class="n">₹2.27</td><td class="n">₹4.87</td><td><span class="pill win">Buy</span></td></tr>
+      <tr><td><b>70% (background queue)</b></td><td class="n"><b>22 months</b></td><td class="n"><b>₹3.10</b></td><td class="n">₹4.87</td><td><span class="pill win">Buy the base load</span></td></tr>
+      <tr><td>40% (follows daily traffic)</td><td class="n">38 months, past its life</td><td class="n">₹5.19</td><td class="n">₹4.87</td><td><span class="pill lose">Rent</span></td></tr>
+    </tbody>
+  </table></div>
+  <div class="read">
+    <p><b>How many GPUs?</b> At the base case, a photo takes ~115 GPU-seconds today. 10,000 listings a month is ~1,600 GPU-hours, about 3 GPUs at 70% busy; 1 lakh listings is ~31 GPUs. The first rung of the ladder alone cuts that by about 40%, and the second by about 3.7× in total.</p>
+    <p><b>My call:</b> don't buy first. Optimise the software (first pass, 4-step model, fine-tune) on rented GPUs, then measure real volume and utilisation. After that, buy only the steady base load the queue can keep 70% busy, and rent for peaks. Buying before optimising would size the fleet for a cost structure that's about to shrink.</p>
+  </div>
+  <div class="read"><h3>Other improvements worth testing</h3></div>
+  <div class="tbl wide"><table>
+    <thead><tr><th>Improvement</th><th>What it fixes</th><th>Effect</th></tr></thead>
+    <tbody>
+      <tr><td>Use the seller's other photos as reference</td><td>A listing has ~5 photos; the part cut off in one is often visible in another. Guessing becomes copying</td><td>Fidelity on completed parts</td></tr>
+      <tr><td>Send more simple scenes to the BiRefNet cut-out</td><td>A plain wall or a phone on a table doesn't need a 20B model; the cost model above sends every busy background to one</td><td>Cost on the "busy background" share</td></tr>
+      <tr><td>Watermark and text detector</td><td>The check's known blind spot</td><td>Fewer human reviews</td></tr>
+      <tr><td>Trained edit judge (EditReward, MIT)</td><td>Scores quality, not just sameness</td><td>Automatic picking; fewer reviews</td></tr>
+      <tr><td>Whole-image method for phones</td><td>The faint thumb outline</td><td>Phones become shippable</td></tr>
+      <tr><td>Cheaper GPU class (L40S-type) with 8-bit weights</td><td>A100s are more than these models need</td><td>Cost <span class="est">untested</span></td></tr>
+    </tbody>
+  </table></div>
+  <div class="read"><p class="bridge">None of this matters unless the pilot's result holds beyond nine photos. So what does it actually show?</p></div>
+</section>
+
+<section class="a4" id="proof">
+  <div class="read">
+    <div class="sec-head"><span class="sec-no">11</span><h2>What the pilot shows, and what it doesn't</h2></div>
+    <div class="sowhat"><span>So what</span><p>Nine photos show the approach is feasible and affordable. They don't show it changes buyer behaviour; that needs a proper test on real traffic.</p></div>
+  </div>
+  <div class="tbl wide"><table>
+    <thead><tr><th>Claim</th><th>Shown by this pilot?</th><th>What would confirm it</th></tr></thead>
+    <tbody>
+      <tr><td>Open, commercially licensed models can fix these photos faithfully</td><td><span class="pill win">Yes, 5 of 5 bikes</span></td><td>A larger held-out test set per category</td></tr>
+      <tr><td>It's affordable per listing</td><td><span class="pill win">Yes, from real GPU bills</span></td><td>The real share of photos that need each fix</td></tr>
+      <tr><td>It works on phones</td><td><span class="pill warn">Not yet</span></td><td>The whole-image method applied to phones, re-tested</td></tr>
+      <tr><td>It runs end to end with no one in the loop</td><td><span class="pill warn">Partly</span></td><td>In the pilot, I wrote each photo's parts description with the vision model's help and confirmed picks by eye. Automating both, and measuring the gap, is the next step</td></tr>
+      <tr><td>Checks can replace people</td><td><span class="pill warn">Partly</span></td><td>How often a person has to step in, on a large sample</td></tr>
+      <tr><td>Better photos lift buyer contacts and sales</td><td><span class="pill lose">Not tested</span></td><td>A controlled comparison of listings with and without fixed photos</td></tr>
+    </tbody>
+  </table></div>
+  <div class="read"><p class="bridge">Whatever the model or the price, a handful of principles hold.</p></div>
+</section>
+
+<section class="a4" id="principles">
+  <div class="read">
+    <div class="sec-head"><span class="sec-no">12</span><h2>Principles for shipping this</h2></div>
+    <div class="sowhat"><span>So what</span><p>The model was the easy part. Trust rules, measurement, licences and seller friction decide whether this ships.</p></div>
+  </div>
+  <div class="principles">
+    <div><h4>Fidelity beats beauty</h4><p>In used goods, a gorgeous photo of a slightly different item is a liability. Hold every image to "same item, same angle", and measure it.</p></div>
+    <div><h4>Don't tax the seller</h4><p>Supply is the marketplace's oxygen. Put the work on the platform, not the person listing, and let them opt out in one tap.</p></div>
+    <div><h4>Verify, don't trust</h4><p>Let models do the creative work and plain, measurable checks decide what ships. Know where the checks are blind, and route those cases to people.</p></div>
+    <div><h4>Read the licence before the leaderboard</h4><p>The top-scoring open editor couldn't ship in a commercial product. Apache and MIT alternatives could.</p></div>
+    <div><h4>Optimise, then buy</h4><p>Software levers cut the cost several times over. Size the hardware after that, not before.</p></div>
+    <div><h4>Show the original</h4><p>Label AI-enhanced photos and keep the original one tap away. Transparency is cheaper than disputes.</p></div>
+  </div>
+</section>
+
+<section class="a4 calc" id="calc">
+  <div class="read">
+    <div class="sec-head"><span class="sec-no">A</span><h2>Appendix: how every number is calculated</h2></div>
+    <p>Every cost in this blog comes from the inputs in step 1 and the arithmetic below. Items marked <span class="est">estimate</span> or <span class="est">assumption</span> are not measured.</p>
+    <h3>1 · Inputs</h3>
+  </div>
+  <div class="tbl wide"><table>
+    <thead><tr><th>Input</th><th class="n">Value</th><th>Source</th></tr></thead>
+    <tbody>
+      <tr><td>GPU rent</td><td class="n">$1.59 per hour</td><td>RunPod A100 SXM 80GB (secure cloud), the price shown when the pod was deployed</td></tr>
+      <tr><td>Exchange rate</td><td class="n">₹95.8 per $</td><td>Wise, Sept 2026 (₹95.78 that day)</td></tr>
+      <tr><td>Qwen, one edit</td><td class="n">85.25 s</td><td>Median of 24 timed edits in the pilot logs (range 82.1–86.6 s)</td></tr>
+      <tr><td>LongCat, one edit</td><td class="n">55.0 s</td><td>Median of 24 timed edits (range 54.8–56.2 s)</td></tr>
+      <tr><td>Checks on every photo</td><td class="n">10 s</td><td>Outline, plate detection, cut-off test and parts list. <span class="est">estimate</span>: not timed on the A100</td></tr>
+      <tr><td>Same-item check and finish</td><td class="n">≈ ₹0</td><td>Runs on the CPU in under 30 s</td></tr>
+      <tr><td>GPT medium image, output only</td><td class="n">$0.041</td><td>OpenAI API price for a medium 1536×1024 image, checked Sept 2026</td></tr>
+      <tr><td>Extra cost of an edit (photo sent in)</td><td class="n">× 2 to 3</td><td>Third-party guides; OpenAI doesn't publish the input-photo token count. <span class="est">estimate</span></td></tr>
+      <tr><td>Photos per listing</td><td class="n">5</td><td><span class="est">assumption</span></td></tr>
+      <tr><td>Photo mix (good / busy / cut off)</td><td class="n">40 / 45 / 15 %</td><td>Base case. Optimistic 60/35/5, pessimistic 20/50/30. <span class="est">assumption</span></td></tr>
+    </tbody>
+  </table></div>
+  <div class="read"><h3>2 · Price of one GPU second</h3></div>
+  <div class="tbl wide"><table>
+    <thead><tr><th>Step</th><th>Calculation</th><th class="n">Result</th></tr></thead>
+    <tbody>
+      <tr><td>Rent in rupees per hour</td><td>$1.59 × ₹95.8</td><td class="n">₹152.32 / hour</td></tr>
+      <tr><td>Rupees per GPU second</td><td>₹152.32 ÷ 3,600</td><td class="n">₹0.0423 / second</td></tr>
+    </tbody>
+  </table></div>
+  <div class="read"><h3>3 · Building blocks</h3></div>
+  <div class="tbl wide"><table>
+    <thead><tr><th>Block</th><th>Calculation</th><th class="n">Result</th></tr></thead>
+    <tbody>
+      <tr><td>Checks on every photo</td><td>10 s × ₹0.0423</td><td class="n">₹0.42</td></tr>
+      <tr><td>One Qwen edit</td><td>85.25 s × ₹0.0423</td><td class="n">₹3.61</td></tr>
+      <tr><td>One LongCat edit</td><td>55.0 s × ₹0.0423</td><td class="n">₹2.33</td></tr>
+      <tr><td>One GPT edit, low</td><td>$0.041 × ₹95.8 = ₹3.93; × 2</td><td class="n">₹7.86</td></tr>
+      <tr><td>One GPT edit, high</td><td>₹3.93 × 3</td><td class="n">₹11.79</td></tr>
+    </tbody>
+  </table></div>
+  <div class="read"><h3>4 · Cost of each kind of photo</h3>
+    <p>Busy background = checks + one edit. Cut off = checks + two edits (clean, then zoom out). "Both" runs Qwen and LongCat and keeps the better result, so it pays for both. GPT is assumed to fix a photo in one edit.</p></div>
+  <div class="tbl wide"><table>
+    <thead><tr><th>Option</th><th>Already good</th><th>Busy background</th><th>Cut off or covered</th></tr></thead>
+    <tbody>
+      <tr><td>Qwen only</td><td>₹0.42</td><td>0.42 + 3.61 = <b>₹4.03</b></td><td>0.42 + 2 × 3.61 = <b>₹7.64</b></td></tr>
+      <tr><td>LongCat only</td><td>₹0.42</td><td>0.42 + 2.33 = <b>₹2.75</b></td><td>0.42 + 2 × 2.33 = <b>₹5.08</b></td></tr>
+      <tr><td>Both, best kept</td><td>₹0.42</td><td>0.42 + 3.61 + 2.33 = <b>₹6.36</b></td><td>0.42 + 2 × (3.61 + 2.33) = <b>₹12.29</b></td></tr>
+      <tr><td>GPT</td><td>₹0.42</td><td>0.42 + (7.86 to 11.79) = <b>₹8.28–12.21</b></td><td>same as busy: <b>₹8.28–12.21</b></td></tr>
+    </tbody>
+  </table></div>
+  <div class="read"><h3>5 · Average per uploaded photo</h3>
+    <p>Average = (share already good × its cost) + (share busy × its cost) + (share cut off × its cost). Base case, both models:</p>
+    <div class="big" style="font-size:clamp(17px,2.2vw,22px)">0.40 × ₹0.42 + 0.45 × ₹6.36 + 0.15 × ₹12.29<br>= ₹0.17 + ₹2.86 + ₹1.84 = <em>₹4.87</em></div></div>
+  <div class="tbl wide"><table>
+    <thead><tr><th>Option</th><th class="n">Optimistic</th><th class="n">Base case</th><th class="n">Pessimistic</th></tr></thead>
+    <tbody>
+      <tr><td>Qwen only</td><td class="n">₹2.05</td><td class="n">₹3.13</td><td class="n">₹4.39</td></tr>
+      <tr><td>LongCat only</td><td class="n">₹1.47</td><td class="n">₹2.17</td><td class="n">₹2.98</td></tr>
+      <tr><td><b>Both, best kept</b></td><td class="n">₹3.09</td><td class="n"><b>₹4.87</b></td><td class="n">₹6.95</td></tr>
+      <tr><td>GPT (0.42 + share needing a fix × edit price)</td><td class="n">₹3.57–5.14</td><td class="n">₹5.14–7.50</td><td class="n">₹6.71–9.86</td></tr>
+    </tbody>
+  </table></div>
+  <div class="read"><h3>6 · Per listing and at scale</h3></div>
+  <div class="tbl wide"><table>
+    <thead><tr><th>Figure</th><th>Calculation</th><th class="n">Result</th></tr></thead>
+    <tbody>
+      <tr><td>Per listing, both models</td><td>₹4.87 × 5 photos</td><td class="n">₹24</td></tr>
+      <tr><td>Per listing, GPT</td><td>₹5.14–7.50 × 5</td><td class="n">₹26–37</td></tr>
+      <tr><td>10,000 listings, both models</td><td>10,000 × 5 × ₹4.87</td><td class="n">₹2.4 lakh</td></tr>
+      <tr><td>10,000 listings, LongCat only</td><td>10,000 × 5 × ₹2.17</td><td class="n">₹1.1 lakh</td></tr>
+      <tr><td>10,000 listings, GPT</td><td>10,000 × 5 × ₹5.14–7.50</td><td class="n">₹2.6–3.7 lakh</td></tr>
+      <tr><td>1,00,000 listings</td><td>ten times the three rows above</td><td class="n">₹24 · ₹11 · ₹26–37 lakh</td></tr>
+    </tbody>
+  </table></div>
+  <div class="read"><h3>7 · The cost ladder (base case)</h3></div>
+  <div class="tbl wide"><table>
+    <thead><tr><th>Rung</th><th>Calculation</th><th class="n">Result</th></tr></thead>
+    <tbody>
+      <tr><td>Stop at the first pass</td><td>Each edit step = LongCat ₹2.33 + 30% × Qwen ₹3.61 = ₹3.41. Busy 0.42 + 3.41 = ₹3.83; cut off 0.42 + 2 × 3.41 = ₹7.24. Then 0.40 × 0.42 + 0.45 × 3.83 + 0.15 × 7.24</td><td class="n">₹2.98</td></tr>
+      <tr><td>4-step Qwen</td><td>Qwen at ~12 s = ₹0.51 <span class="est">estimate</span>, plus LongCat on 30% = ₹0.70, so ₹1.21 per edit step. Busy ₹1.63; cut off ₹2.84. Same averaging</td><td class="n">₹1.33</td></tr>
+      <tr><td>Own the GPUs, 70% busy</td><td>₹1.33 × (owned cost per hour ₹96.98 ÷ rent ₹152.32)</td><td class="n">₹0.85</td></tr>
+    </tbody>
+  </table></div>
+  <div class="read"><h3>8 · Buy vs rent</h3></div>
+  <div class="tbl wide"><table>
+    <thead><tr><th>Figure</th><th>Calculation</th><th class="n">Result</th></tr></thead>
+    <tbody>
+      <tr><td>Owned cost per busy hour</td><td>₹16,00,000 ÷ (26,280 hours in 3 years × share busy) + ₹10 running</td><td class="n">₹70.88 at 100% · ₹96.98 at 70% · ₹162.21 at 40%</td></tr>
+      <tr><td>Busy hours to break even</td><td>₹16,00,000 ÷ (₹152.32 rent − ₹10 running)</td><td class="n">11,243 hours</td></tr>
+      <tr><td>Months to break even</td><td>11,243 ÷ (730 hours a month × share busy)</td><td class="n">15.4 · 22.0 · 38.5 months</td></tr>
+      <tr><td>₹ per photo when owned</td><td>₹4.87 × owned cost per hour ÷ ₹152.32</td><td class="n">₹2.27 · ₹3.10 · ₹5.19</td></tr>
+      <tr><td>GPU seconds per photo today</td><td>0.40 × 10 + 0.45 × (10 + 85.25 + 55) + 0.15 × (10 + 2 × 140.25)</td><td class="n">115 s</td></tr>
+      <tr><td>GPUs for 10,000 listings a month</td><td>50,000 photos × 115 s ÷ 3,600 = 1,600 GPU-hours; ÷ (730 × 70%)</td><td class="n">3.1 GPUs</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<details class="appx a4" id="appendix">
+  <summary><h2>Appendix B: models and settings</h2><span class="hint">models · settings · sources · tap to open</span></summary>
+  <div class="inner">
+  <div class="tbl"><table>
+    <thead><tr><th>Role</th><th>Model</th><th>Licence</th></tr></thead>
+    <tbody>
+      <tr><td>Photo editing</td><td>Qwen-Image-Edit-2511 (20B) · LongCat-Image-Edit</td><td>Apache 2.0</td></tr>
+      <tr><td>Understanding, plates</td><td>Qwen2.5-VL-7B</td><td>Apache 2.0</td></tr>
+      <tr><td>Item outline, frame check, backdrop swap</td><td>BiRefNet (full)</td><td>MIT</td></tr>
+      <tr><td>Other objects · clutter score</td><td>Mask R-CNN v2 · SigLIP2 base</td><td>BSD-3 · Apache 2.0</td></tr>
+      <tr><td>Plate detection · plate confirmation</td><td>RT-DETRv2 · RapidOCR</td><td>Apache 2.0</td></tr>
+      <tr><td>Phone cut-out and fill</td><td>BiRefNet · SAM 2.1 · Qwen-Image-Edit</td><td>MIT · Apache 2.0</td></tr>
+      <tr><td>Sharpening</td><td>Real-ESRGAN x2plus</td><td>BSD-3</td></tr>
+      <tr><td>Next critic candidates</td><td>EditReward · Qwen3-VL-30B-A3B · DINOv2</td><td>MIT · Apache 2.0</td></tr>
+    </tbody>
+  </table></div>
+  <div class="read">
+    <h3>Settings and timings</h3>
+    <p>Qwen: 40 steps, true CFG 4.0, 82–86 s per image. LongCat: 50 steps, guidance 4.5, ~55 s. About 1 MP output, bf16, one A100 80GB. The pilot ran four attempts per pass to study variance; the cost model assumes one attempt per model.</p>
+    <h3>The same-item check</h3>
+    <p>SIFT features matched between the seller's original (item area only) and the output, fitted with a RANSAC similarity transform; rotation must stay under 6°. The score is the number of matched points. Plate boxes are hand-verified on the original and mapped through the same transform.</p>
+    <h3>Formulas</h3>
+    <p>All cost formulas and worked numbers are in <a href="#calc">Appendix A</a>.</p>
+    <h3>Price sources (Sept 2026)</h3>
+    <p><a href="https://jarvislabs.ai/blog/a100-price">JarvisLabs: A100 price guide</a> · <a href="https://www.e2enetworks.com/gpus/nvidia-a100-80gb">E2E Networks: A100 80GB in India</a> · <a href="https://cyfuture.ai/blog/nvidia-a100-price-in-india">Cyfuture: A100 price in India</a> · <a href="https://huggingface.co/lightx2v/Qwen-Image-Edit-2511-Lightning">lightx2v: Qwen-Image-Edit-2511-Lightning</a></p>
+  </div>
+  </div>
+</details>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Enlarged image"><div><img id="lb-img" alt=""><p id="lb-cap"></p></div></div>
+
+<footer><span><b>Dabble with AI</b> · Ravishankar R · <a href="/">More writing</a></span><span>Pilot on real listing photos · plates masked throughout · marketplace watermarks removed from shown photos</span><span>Qwen-Image-Edit-2511 · LongCat-Image-Edit · GPT</span></footer>
+</div>
+
+<script>
+(function(){
+  var cmp=document.getElementById('cmp'), r=document.getElementById('cmp-range');
+  function set(v){cmp.style.setProperty('--pos',v+'%');}
+  r.addEventListener('input',function(){cmp.classList.remove('intro'); set(r.value);});
+  var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(!reduce){ setTimeout(function(){set(82);},500); setTimeout(function(){set(18);},1500); setTimeout(function(){set(50); r.value=50; setTimeout(function(){cmp.classList.remove('intro');},950);},2500); }
+
+  var lb=document.getElementById('lb'), li=document.getElementById('lb-img'), lc=document.getElementById('lb-cap'), last=null;
+  document.querySelectorAll('figure .frame').forEach(function(f){var im=f.querySelector('img'); if(im&&!f.hasAttribute('data-full')){f.setAttribute('data-full',im.getAttribute('src')); f.setAttribute('role','button'); f.tabIndex=0; var c=f.parentNode.querySelector('figcaption b'); if(c) f.setAttribute('data-cap',c.textContent); f.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault(); f.click();}});}});
+  document.querySelectorAll('[data-full]').forEach(function(b){b.addEventListener('click',function(){
+    last=b; var im=b.querySelector('img'); li.src=b.getAttribute('data-full'); li.alt=im?im.alt:'';
+    lc.textContent=b.getAttribute('data-cap')||(b.parentNode.querySelector('figcaption b')||{}).textContent||''; lb.classList.add('on'); lb.tabIndex=-1; lb.focus();});});
+  function closeLb(){lb.classList.remove('on'); if(last) last.focus();}
+  lb.addEventListener('click',closeLb);
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape'&&lb.classList.contains('on')) closeLb(); });
+
+  document.querySelectorAll('.tbl table').forEach(function(t){
+    var hs=[].map.call(t.querySelectorAll('thead th'),function(h){return h.textContent.trim();});
+    t.querySelectorAll('tbody tr').forEach(function(r){[].forEach.call(r.children,function(c,i){c.setAttribute('data-label',hs[i]||'');});});
+  });
+  var bar=document.getElementById('prog');
+  function prog(){var h=document.documentElement; var m=h.scrollHeight-h.clientHeight; bar.style.setProperty('--p', m>0? Math.min(1,h.scrollTop/m):0);}
+  window.addEventListener('scroll',prog,{passive:true}); prog();
+
+  if(!reduce && 'IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){ if(e.isIntersecting){e.target.classList.add('in'); io.unobserve(e.target);} });},{threshold:.2});
+    document.querySelectorAll('.rv').forEach(function(el){io.observe(el);});
+  }
+})();
+</script>
+
+</body>
+</html>
