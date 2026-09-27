@@ -189,14 +189,15 @@ figure .frame img{cursor:zoom-in}
 .exm.open{background:rgba(12,143,126,.95)}
 .exnote{font:500 12.5px var(--mono); color:#C9CDD6; margin:4px 0 0}
 .exnote a{color:var(--goldfill)}
-.exnote .swipe{display:none}
 .exb.land .exc img{height:270px}
 @media (max-width:760px){
-  .exr{display:flex; overflow-x:auto; scroll-snap-type:x mandatory; gap:10px; padding-bottom:6px; margin-right:-18px; padding-right:18px; scrollbar-width:thin}
-  .exc{flex:0 0 84%; scroll-snap-align:start}
-  .exc img{height:300px}
-  .exb.land .exc img{height:210px}
-  .exnote .swipe{display:inline}
+  .exr{grid-template-columns:1fr 1fr; gap:8px}
+  .exc:first-child{grid-column:1/-1}
+  .exc img{height:190px}
+  .exc:first-child img{height:250px}
+  .exb.land .exc img{height:120px}
+  .exb.land .exc:first-child img{height:200px}
+  .exm{font-size:10.5px; padding:3px 8px; left:6px; top:6px}
 }
 
 /* legends */
@@ -414,7 +415,7 @@ footer{margin-top:40px; display:flex; flex-wrap:wrap; justify-content:space-betw
 
   <section class="tldr rv" aria-labelledby="tldr-h">
     <h2 id="tldr-h">Executive summary</h2>
-    <p class="exlead">Sellers upload photos like the left column. Open models we run ourselves turned them into the middle column, as good as GPT (right), for ₹4.87 a photo.</p>
+    <p class="exlead">Sellers upload photos like these. Open models we run ourselves turned them into the <span style="color:#3FD2BA">teal-tagged</span> results, as good as GPT, for ₹4.87 a photo.</p>
     <div class="exs" aria-label="Before and after: three pilot bike photos">
       <div class="exb land">
         <div class="exn"><b>Bullet · side</b><span>Front cut off, scooter behind</span></div>
@@ -440,7 +441,7 @@ footer{margin-top:40px; display:flex; flex-wrap:wrap; justify-content:space-betw
           <button class="exc" data-full="img/sd_re_bullet_3v_gpt.jpg" data-cap="Bullet · rear · GPT image edit"><img src="img/sd_re_bullet_3v_gpt.jpg" alt="Bullet · rear: GPT result on a studio backdrop." loading="lazy"><span class="exm gpt">GPT · one edit</span></button>
         </div>
       </div>
-      <p class="exnote">Plates masked in every photo. Tap any photo to enlarge<span class="swipe">; swipe each row to compare</span>. All five bikes are in <a href="#showdown">the showdown</a>.</p>
+      <p class="exnote">Plates masked in every photo. Tap any photo to enlarge. All five bikes are in <a href="#showdown">the showdown</a>.</p>
     </div>
     <div class="pts">
       <div class="pt"><div class="n">₹4.87 <small>vs ₹5.1–7.5 for GPT</small></div>
