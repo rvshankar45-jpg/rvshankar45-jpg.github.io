@@ -50,9 +50,26 @@ a{color:inherit}
 :focus-visible{outline:3px solid var(--indigo); outline-offset:3px}
 b,strong{font-weight:600}
 
-.progress{position:fixed; top:0; left:0; right:0; padding-top:env(safe-area-inset-top,0px); z-index:20; pointer-events:none}
-.progress i{display:block; height:4px; width:100%; transform-origin:0 50%; transform:scaleX(var(--p,0));
-  background:linear-gradient(90deg,var(--coral) 0 25%,var(--indigo) 25% 50%,var(--teal) 50% 75%,var(--goldfill) 75%)}
+.secbar{position:fixed; top:0; left:0; right:0; z-index:30; padding-top:env(safe-area-inset-top,0px);
+  background:color-mix(in srgb, var(--ground) 92%, transparent); -webkit-backdrop-filter:blur(8px); backdrop-filter:blur(8px);
+  box-shadow:0 1px 0 var(--rule); transform:translateY(-110%); transition:transform .25s ease}
+.secbar.on{transform:none}
+.sb-in{max-width:1120px; margin:0 auto; padding:8px 16px 7px}
+.sb-segs{display:flex; gap:3px}
+.sb-seg{flex:1; height:8px; border:0; padding:0; border-radius:4px; background:var(--rule); position:relative; overflow:hidden; cursor:pointer}
+.sb-seg i{position:absolute; inset:0; background:var(--sc); transform-origin:0 50%; transform:scaleX(var(--f,0))}
+.sb-seg:hover{outline:2px solid var(--sc); outline-offset:1px}
+.sb-row{display:flex; justify-content:space-between; align-items:center; gap:12px; margin-top:6px}
+.sb-cur{font:600 12.5px var(--mono); color:var(--ink); white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.sb-menu{position:relative; flex:none}
+.sb-menu summary{list-style:none; cursor:pointer; font:600 12px var(--mono); color:var(--muted); padding:3px 10px; border-radius:99px; box-shadow:0 0 0 1px var(--rule); background:var(--surface)}
+.sb-menu summary::-webkit-details-marker{display:none}
+.sb-menu summary::after{content:" ▾"}
+.sb-menu ol{position:absolute; right:0; top:calc(100% + 8px); margin:0; padding:8px; list-style:none; background:var(--surface); border-radius:12px;
+  box-shadow:0 0 0 1px var(--rule), 0 18px 40px -16px rgba(20,30,60,.4); width:min(320px, calc(100vw - 32px)); max-height:70vh; overflow:auto}
+.sb-menu li a{display:flex; gap:10px; padding:7px 10px; border-radius:8px; text-decoration:none; font-size:15px; line-height:1.3}
+.sb-menu li a:hover,.sb-menu li a.cur{background:var(--ct)}
+.sb-menu li a span{font:600 12px/1.6 var(--mono); color:var(--c); flex:none; width:22px}
 
 .bars{display:flex; height:10px; gap:4px; margin:34px 0 26px; max-width:340px}
 .bars span{flex:1; border-radius:2px; transform-origin:0 50%; animation:grow .7s cubic-bezier(.2,.8,.2,1) both}
@@ -135,7 +152,7 @@ b,strong{font-weight:600}
 /* pilot gallery */
 .gal{max-width:1120px; margin:22px auto}
 .gal h4{font:600 12px var(--mono); letter-spacing:.12em; text-transform:uppercase; color:var(--c); margin:22px 0 10px}
-.gal .row{display:grid; gap:12px; grid-template-columns:repeat(var(--n),minmax(0,1fr))}
+.gal .row{display:grid; gap:12px; grid-template-columns:repeat(var(--n),minmax(0,1fr)); align-items:start}
 .gal figure{margin:0; max-width:none}
 .gal .ph{background:var(--surface); border-radius:14px; padding:8px; box-shadow:0 0 0 1px var(--rule); cursor:zoom-in; display:block; width:100%; border:0; font:inherit; color:inherit; text-align:left}
 .gal .ph img{width:100%; height:340px; object-fit:contain; background:var(--studio); border-radius:9px; display:block}
@@ -160,28 +177,26 @@ figure .frame img{cursor:zoom-in}
 
 /* executive summary showdown */
 .tldr .exlead{font:600 clamp(18px,2vw,22px)/1.4 var(--display); color:#fff; margin:0 0 18px; max-width:820px}
-.exs{margin:0 0 26px}
-.exh,.exr{display:grid; grid-template-columns:150px repeat(3,minmax(0,1fr)); gap:10px; align-items:stretch}
-.exh{margin-bottom:8px}
-.exh span{font:600 11px var(--mono); letter-spacing:.12em; text-transform:uppercase; color:#C9CDD6}
-.exh span:first-child{grid-column:2}
-.exr{margin-bottom:10px}
-.exn{font:14px/1.4 var(--body); color:#C9CDD6; align-self:center}
-.exn b{display:block; font:700 16px/1.3 var(--display); color:#fff; margin-bottom:2px}
-.exc{position:relative; border:0; padding:0; border-radius:10px; overflow:hidden; background:#D6D6D6; cursor:zoom-in; display:block; width:100%}
-.exc img{width:100%; height:230px; object-fit:contain; display:block}
-.exm{position:absolute; left:6px; bottom:6px; font:600 10.5px var(--mono); background:rgba(12,143,126,.95); color:#fff; padding:3px 8px; border-radius:99px}
-.exc:last-child .exm{background:rgba(22,24,29,.85)}
+.exs{margin:0 0 30px}
+.exb{margin:0 0 22px}
+.exn{display:flex; flex-wrap:wrap; align-items:baseline; gap:4px 12px; margin:0 0 10px}
+.exn b{font:700 19px/1.3 var(--display); color:#fff}
+.exn span{font:500 13px var(--mono); color:#C9CDD6}
+.exr{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px}
+.exc{position:relative; border:0; padding:0; border-radius:12px; overflow:hidden; background:#D6D6D6; cursor:zoom-in; display:block; width:100%}
+.exc img{width:100%; height:360px; object-fit:contain; display:block}
+.exm{position:absolute; left:8px; top:8px; font:600 11.5px var(--mono); color:#fff; padding:4px 10px; border-radius:99px; background:rgba(22,24,29,.88)}
+.exm.open{background:rgba(12,143,126,.95)}
 .exnote{font:500 12.5px var(--mono); color:#C9CDD6; margin:4px 0 0}
 .exnote a{color:var(--goldfill)}
+.exnote .swipe{display:none}
+.exb.land .exc img{height:270px}
 @media (max-width:760px){
-  .exh,.exr{grid-template-columns:repeat(3,minmax(0,1fr)); gap:6px}
-  .exh span:first-child{grid-column:1}
-  .exn{grid-column:1/-1; margin-top:6px}
-  .exc img{height:150px}
-  .exc{background:#D6D6D6}
-  .exc img{height:140px}
-  .exm{position:static; display:block; border-radius:0; font-size:9.5px; line-height:1.3; padding:4px 5px; text-align:center}
+  .exr{display:flex; overflow-x:auto; scroll-snap-type:x mandatory; gap:10px; padding-bottom:6px; margin-right:-18px; padding-right:18px; scrollbar-width:thin}
+  .exc{flex:0 0 84%; scroll-snap-align:start}
+  .exc img{height:300px}
+  .exb.land .exc img{height:210px}
+  .exnote .swipe{display:inline}
 }
 
 /* legends */
@@ -208,7 +223,7 @@ figure .frame img{cursor:zoom-in}
 .actbanner .t{font:700 22px var(--display); color:var(--ink)}
 .actbanner::after{content:""; flex:1; height:4px; border-radius:2px; background:var(--c); transform-origin:0 50%}
 .actbanner.in::after{animation:grow 1s cubic-bezier(.2,.8,.2,1) both}
-section{padding-top:46px; scroll-margin-top:20px}
+section{padding-top:46px; scroll-margin-top:64px}
 .sec-head{display:flex; align-items:baseline; gap:14px; margin-bottom:18px}
 .sec-no{font:700 15px var(--mono); color:var(--c)}
 .sec-head h2{font-size:clamp(28px,3.6vw,40px); font-weight:800; letter-spacing:-.02em}
@@ -319,7 +334,12 @@ footer{margin-top:40px; display:flex; flex-wrap:wrap; justify-content:space-betw
   .stats,.principles,.toc .acts,.fig2{grid-template-columns:1fr}
   .sd .cell img{height:240px}
   .sd.land .cell img{height:180px}
-  .gal .ph img{height:auto; max-height:420px}
+  .gal .row{display:flex; overflow-x:auto; scroll-snap-type:x mandatory; gap:10px; margin-right:-16px; padding:0 16px 6px 0}
+  .gal figure{flex:0 0 auto; width:min-content; scroll-snap-align:start}
+  .gal .ph{width:auto}
+  .gal .row{align-items:flex-start}
+  .gal .ph img{height:280px; width:auto; max-width:calc(100vw - 64px); object-fit:contain}
+  .gal h4::after{content:" · swipe →"; color:var(--muted)}
   .sd .res{font-size:10px; padding:3px 7px; left:6px; bottom:6px}
   .sd .lab{font-size:10px; left:6px; top:6px}
   figure .frame::after{content:"Tap to enlarge"; display:block; font:600 11px var(--mono); letter-spacing:.06em; text-transform:uppercase; color:var(--muted); text-align:center; padding-top:8px}
@@ -357,7 +377,15 @@ footer{margin-top:40px; display:flex; flex-wrap:wrap; justify-content:space-betw
 }
 </style>
 
-<div class="progress" aria-hidden="true"><i id="prog"></i></div>
+<nav class="secbar" id="secbar" aria-label="Sections">
+  <div class="sb-in">
+    <div class="sb-segs" id="sb-segs"></div>
+    <div class="sb-row">
+      <span class="sb-cur" id="sb-cur">01 · Supply vs quality</span>
+      <details class="sb-menu" id="sb-menu"><summary>All sections</summary><ol id="sb-list"></ol></details>
+    </div>
+  </div>
+</nav>
 
 <div class="page">
 
@@ -388,26 +416,31 @@ footer{margin-top:40px; display:flex; flex-wrap:wrap; justify-content:space-betw
     <h2 id="tldr-h">Executive summary</h2>
     <p class="exlead">Sellers upload photos like the left column. Open models we run ourselves turned them into the middle column, as good as GPT (right), for ₹4.87 a photo.</p>
     <div class="exs" aria-label="Before and after: three pilot bike photos">
-      <div class="exh"><span>Seller photo</span><span>Best open model</span><span>GPT</span></div>
-      <div class="exr">
-        <div class="exn"><b>Bullet · side</b>Front cut off, scooter behind</div>
-        <button class="exc" data-full="img/sd_re_bullet_0q_raw.jpg" data-cap="Bullet · side · seller photo"><img src="img/sd_re_bullet_0q_raw.jpg" alt="Bullet · side: seller's original photo, front cut off, scooter behind." loading="lazy"></button>
-        <button class="exc" data-full="img/sd_re_bullet_0q_qwen.jpg" data-cap="Bullet · side · Qwen-Image-Edit-2511 · clean + zoom out"><img src="img/sd_re_bullet_0q_qwen.jpg" alt="Bullet · side: Qwen-Image-Edit-2511 result on a studio backdrop." loading="lazy"><span class="exm">Qwen · clean + zoom out</span></button>
-        <button class="exc" data-full="img/sd_re_bullet_0q_gpt.jpg" data-cap="Bullet · side · GPT image edit"><img src="img/sd_re_bullet_0q_gpt.jpg" alt="Bullet · side: GPT result on a studio backdrop." loading="lazy"><span class="exm">GPT · one edit</span></button>
+      <div class="exb land">
+        <div class="exn"><b>Bullet · side</b><span>Front cut off, scooter behind</span></div>
+        <div class="exr">
+          <button class="exc" data-full="img/sd_re_bullet_0q_raw.jpg" data-cap="Bullet · side · seller photo"><img src="img/sd_re_bullet_0q_raw.jpg" alt="Bullet · side: seller's original photo, front cut off, scooter behind." loading="lazy"><span class="exm seller">Seller photo</span></button>
+          <button class="exc" data-full="img/sd_re_bullet_0q_qwen.jpg" data-cap="Bullet · side · Qwen-Image-Edit-2511"><img src="img/sd_re_bullet_0q_qwen.jpg" alt="Bullet · side: Qwen-Image-Edit-2511 result on a studio backdrop." loading="lazy"><span class="exm open">Qwen · clean + zoom out</span></button>
+          <button class="exc" data-full="img/sd_re_bullet_0q_gpt.jpg" data-cap="Bullet · side · GPT image edit"><img src="img/sd_re_bullet_0q_gpt.jpg" alt="Bullet · side: GPT result on a studio backdrop." loading="lazy"><span class="exm gpt">GPT · one edit</span></button>
+        </div>
       </div>
-      <div class="exr">
-        <div class="exn"><b>Meteor · front ¾</b>Cut off on three sides</div>
-        <button class="exc" data-full="img/sd_sm_k3zspq6i2_raw.jpg" data-cap="Meteor · front ¾ · seller photo"><img src="img/sd_sm_k3zspq6i2_raw.jpg" alt="Meteor · front ¾: seller's original photo, cut off on three sides." loading="lazy"></button>
-        <button class="exc" data-full="img/sd_sm_k3zspq6i2_qwen.jpg" data-cap="Meteor · front ¾ · Qwen-Image-Edit-2511 · clean + zoom out"><img src="img/sd_sm_k3zspq6i2_qwen.jpg" alt="Meteor · front ¾: Qwen-Image-Edit-2511 result on a studio backdrop." loading="lazy"><span class="exm">Qwen · clean + zoom out</span></button>
-        <button class="exc" data-full="img/sd_sm_k3zspq6i2_gpt.jpg" data-cap="Meteor · front ¾ · GPT image edit"><img src="img/sd_sm_k3zspq6i2_gpt.jpg" alt="Meteor · front ¾: GPT result on a studio backdrop." loading="lazy"><span class="exm">GPT · one edit</span></button>
+      <div class="exb">
+        <div class="exn"><b>Meteor · front ¾</b><span>Cut off on three sides</span></div>
+        <div class="exr">
+          <button class="exc" data-full="img/sd_sm_k3zspq6i2_raw.jpg" data-cap="Meteor · front ¾ · seller photo"><img src="img/sd_sm_k3zspq6i2_raw.jpg" alt="Meteor · front ¾: seller's original photo, cut off on three sides." loading="lazy"><span class="exm seller">Seller photo</span></button>
+          <button class="exc" data-full="img/sd_sm_k3zspq6i2_qwen.jpg" data-cap="Meteor · front ¾ · Qwen-Image-Edit-2511"><img src="img/sd_sm_k3zspq6i2_qwen.jpg" alt="Meteor · front ¾: Qwen-Image-Edit-2511 result on a studio backdrop." loading="lazy"><span class="exm open">Qwen · clean + zoom out</span></button>
+          <button class="exc" data-full="img/sd_sm_k3zspq6i2_gpt.jpg" data-cap="Meteor · front ¾ · GPT image edit"><img src="img/sd_sm_k3zspq6i2_gpt.jpg" alt="Meteor · front ¾: GPT result on a studio backdrop." loading="lazy"><span class="exm gpt">GPT · one edit</span></button>
+        </div>
       </div>
-      <div class="exr">
-        <div class="exn"><b>Bullet · rear</b>Small, crowded, plates in shot</div>
-        <button class="exc" data-full="img/sd_re_bullet_3v_raw.jpg" data-cap="Bullet · rear · seller photo"><img src="img/sd_re_bullet_3v_raw.jpg" alt="Bullet · rear: seller's original photo, small, crowded, plates in shot." loading="lazy"></button>
-        <button class="exc" data-full="img/sd_re_bullet_3v_longcat.jpg" data-cap="Bullet · rear · LongCat-Image-Edit · clean"><img src="img/sd_re_bullet_3v_longcat.jpg" alt="Bullet · rear: LongCat-Image-Edit result on a studio backdrop." loading="lazy"><span class="exm">LongCat · clean</span></button>
-        <button class="exc" data-full="img/sd_re_bullet_3v_gpt.jpg" data-cap="Bullet · rear · GPT image edit"><img src="img/sd_re_bullet_3v_gpt.jpg" alt="Bullet · rear: GPT result on a studio backdrop." loading="lazy"><span class="exm">GPT · one edit</span></button>
+      <div class="exb">
+        <div class="exn"><b>Bullet · rear</b><span>Small, crowded, plates in shot</span></div>
+        <div class="exr">
+          <button class="exc" data-full="img/sd_re_bullet_3v_raw.jpg" data-cap="Bullet · rear · seller photo"><img src="img/sd_re_bullet_3v_raw.jpg" alt="Bullet · rear: seller's original photo, small, crowded, plates in shot." loading="lazy"><span class="exm seller">Seller photo</span></button>
+          <button class="exc" data-full="img/sd_re_bullet_3v_longcat.jpg" data-cap="Bullet · rear · LongCat-Image-Edit"><img src="img/sd_re_bullet_3v_longcat.jpg" alt="Bullet · rear: LongCat-Image-Edit result on a studio backdrop." loading="lazy"><span class="exm open">LongCat · clean</span></button>
+          <button class="exc" data-full="img/sd_re_bullet_3v_gpt.jpg" data-cap="Bullet · rear · GPT image edit"><img src="img/sd_re_bullet_3v_gpt.jpg" alt="Bullet · rear: GPT result on a studio backdrop." loading="lazy"><span class="exm gpt">GPT · one edit</span></button>
+        </div>
       </div>
-      <p class="exnote">Plates masked in every photo. Tap any photo to enlarge. All five bikes are in <a href="#showdown">the showdown</a>.</p>
+      <p class="exnote">Plates masked in every photo. Tap any photo to enlarge<span class="swipe">; swipe each row to compare</span>. All five bikes are in <a href="#showdown">the showdown</a>.</p>
     </div>
     <div class="pts">
       <div class="pt"><div class="n">₹4.87 <small>vs ₹5.1–7.5 for GPT</small></div>
@@ -1090,9 +1123,36 @@ footer{margin-top:40px; display:flex; flex-wrap:wrap; justify-content:space-betw
     var hs=[].map.call(t.querySelectorAll('thead th'),function(h){return h.textContent.trim();});
     t.querySelectorAll('tbody tr').forEach(function(r){[].forEach.call(r.children,function(c,i){c.setAttribute('data-label',hs[i]||'');});});
   });
-  var bar=document.getElementById('prog');
-  function prog(){var h=document.documentElement; var m=h.scrollHeight-h.clientHeight; bar.style.setProperty('--p', m>0? Math.min(1,h.scrollTop/m):0);}
-  window.addEventListener('scroll',prog,{passive:true}); prog();
+  var SECS=[['problem','01','Supply vs quality','a1'],['why','02','Why sellers don\'t upload good photos','a1'],
+    ['pilot','03','The pilot: nine photos','a2'],['gauntlet','04','Can open models replace GPT?','a2'],['detour','05','The detour','a2'],
+    ['pipeline','06','How the pipeline works','a3'],['showdown','07','The showdown','a3'],['path','08','A photo\'s path','a3'],
+    ['economics','09','Open models vs GPT: the cost','a4'],['better','10','Cheaper and better','a4'],['proof','11','What the pilot shows','a4'],
+    ['principles','12','Principles','a4'],['calc','A','How every number is calculated','a4']];
+  var CV={a1:'var(--coral)',a2:'var(--indigo)',a3:'var(--teal)',a4:'var(--goldfill)'};
+  var sb=document.getElementById('secbar'), segs=document.getElementById('sb-segs'), cur=document.getElementById('sb-cur'), list=document.getElementById('sb-list'), menu=document.getElementById('sb-menu');
+  var els=[], segEls=[], linkEls=[];
+  SECS.forEach(function(x){
+    var el=document.getElementById(x[0]); if(!el) return; els.push(el);
+    var b=document.createElement('button'); b.className='sb-seg'; b.style.setProperty('--sc',CV[x[3]]); b.title=x[1]+' · '+x[2]; b.setAttribute('aria-label','Go to section '+x[1]+': '+x[2]);
+    b.appendChild(document.createElement('i')); b.addEventListener('click',function(){el.scrollIntoView({behavior:reduce?'auto':'smooth'});}); segs.appendChild(b); segEls.push(b);
+    var li=document.createElement('li'); li.className=x[3]; var a=document.createElement('a'); a.href='#'+x[0]; a.innerHTML='<span>'+x[1]+'</span>'+x[2];
+    a.addEventListener('click',function(){menu.open=false;}); li.appendChild(a); list.appendChild(li); linkEls.push(a);
+  });
+  var head=document.querySelector('header');
+  function prog(){
+    var y=window.scrollY, vh=window.innerHeight, probe=y+vh*0.3, idx=-1;
+    sb.classList.toggle('on', y > head.offsetTop+head.offsetHeight-80);
+    els.forEach(function(el,i){
+      var top=el.getBoundingClientRect().top+y, end=(i+1<els.length? els[i+1].getBoundingClientRect().top+y : document.documentElement.scrollHeight-vh*0.3);
+      var f=Math.max(0,Math.min(1,(probe-top)/Math.max(1,end-top))); segEls[i].style.setProperty('--f',f);
+      if(probe>=top) idx=i;
+    });
+    if(idx<0) idx=0; var x=SECS.filter(function(s){return document.getElementById(s[0]);})[idx];
+    cur.textContent=x[1]+' · '+x[2]; cur.style.color=CV[x[3]].replace('goldfill','gold');
+    linkEls.forEach(function(a,i){a.classList.toggle('cur',i===idx);});
+  }
+  document.addEventListener('click',function(e){ if(menu.open && !menu.contains(e.target)) menu.open=false; });
+  window.addEventListener('scroll',prog,{passive:true}); window.addEventListener('resize',prog); prog();
 
   if(!reduce && 'IntersectionObserver' in window){
     var io=new IntersectionObserver(function(es){es.forEach(function(e){ if(e.isIntersecting){e.target.classList.add('in'); io.unobserve(e.target);} });},{threshold:.2});
