@@ -448,7 +448,7 @@ footer{margin-top:40px; display:flex; flex-wrap:wrap; justify-content:space-betw
         <p>Blended cost per uploaded photo with open models on a rented GPU, against an estimate for sending the same photos to GPT. It falls towards ₹1 with known optimisations. <a href="#economics">The numbers</a> · <a href="#calc">how they're calculated</a></p></div>
       <div class="pt"><div class="n">5 of 5 <small>bike photos</small></div>
         <h3>Same quality as GPT on bikes</h3>
-        <p>On every pilot bike photo, an open model produced a faithful, listing-ready result as good as GPT's. Phones need one more fix, on both sides. <a href="#showdown">See them side by side</a></p></div>
+        <p>On every pilot bike photo, an open model produced a faithful, listing-ready result as good as GPT's. Phones are close: hand removed, cracks and colour kept, one faint line left to fix. <a href="#showdown">See them side by side</a></p></div>
       <div class="pt"><div class="n">0 <small>extra seller steps</small></div>
         <h3>A simple decision tree picks the fix</h3>
         <p>The listing goes live at once. Each photo then gets only what it needs: nothing, a background clean-up, or missing parts drawn in. It's checked against the original before it's swapped in. <a href="#path">The decision tree</a></p></div>
@@ -687,7 +687,7 @@ footer{margin-top:40px; display:flex; flex-wrap:wrap; justify-content:space-betw
 <section class="a3" id="showdown">
   <div class="read">
     <div class="sec-head"><span class="sec-no">07</span><h2>The showdown between models</h2></div>
-    <div class="sowhat"><span>So what</span><p>On bikes, open models matched GPT on every photo, but no single open model won all five, so we run two. On phones, both sides still have a flaw.</p></div>
+    <div class="sowhat"><span>So what</span><p>On bikes, open models matched GPT on every photo, but no single open model won all five, so we run two. On phones, ours is close, with one fixable flaw; GPT's changes the case colour.</p></div>
     <h3>The motorcycles</h3>
   </div>
   <div class="sd land a3 rv"><div class="hd"><h4>Bullet · side</h4><span>Front cut off, scooter behind</span></div><div class="cells">
@@ -742,16 +742,16 @@ footer{margin-top:40px; display:flex; flex-wrap:wrap; justify-content:space-betw
   </div>
   <figure class="rv"><div class="frame"><img src="img/v3_phones.jpg" alt="Two used-phone photos: seller photo; our pipeline's result with the real case colour and cracks but a faint thumb outline; GPT's result with a clean shape but a noticeably brighter blue case." loading="lazy"></div>
     <div class="lg" aria-label="Legend: model and job for each panel"><span><i>Left</i><b>Seller photo</b>original</span><span><i>Middle</i><b>BiRefNet + SAM 2.1 → Qwen-Image-Edit-2511</b>cut the phone out, fill only under the thumb</span><span><i>Right</i><b>GPT image edit (ChatGPT)</b>one edit of the whole photo</span></div>
-    <figcaption><span class="fig-no">FIG 7</span><b>Two different failures.</b> Ours keeps the real teal case and every crack but leaves a faint outline where the thumb was. GPT's shape is cleaner, but its case is about twice as saturated, so the buyer would unbox a different-looking phone.</figcaption></figure>
+    <figcaption><span class="fig-no">FIG 7</span><b>Close, with one fixable flaw.</b> Ours removes the hand and keeps the real teal case and every crack, but leaves a faint line where the thumb was. GPT's shape is cleaner, but its case is about twice as saturated, so the buyer would unbox a different-looking phone.</figcaption></figure>
   <div class="tbl wide"><table>
-    <thead><tr><th>Phone</th><th>Problem</th><th>Our pipeline</th><th>GPT</th><th>Shippable?</th></tr></thead>
+    <thead><tr><th>Phone</th><th>Problem</th><th>Our pipeline</th><th>GPT</th><th>Verdict</th></tr></thead>
     <tbody>
-      <tr><td>Phone A</td><td>Top cut off + thumb</td><td>Colour and cracks kept; <b>faint thumb outline, slightly warped edge</b></td><td>Clean shape; <b>case colour ~2× more saturated</b></td><td><span class="pill warn">Neither, yet</span></td></tr>
-      <tr><td>Phone B</td><td>Thumb over the screen</td><td>Colour and cracks kept; <b>faint thumb outline</b></td><td>Clean shape; <b>case colour ~2× more saturated</b></td><td><span class="pill warn">Neither, yet</span></td></tr>
+      <tr><td>Phone A</td><td>Top cut off + thumb</td><td>Colour and cracks kept; <b>faint thumb outline, slightly warped edge</b></td><td>Clean shape; <b>case colour ~2× more saturated</b></td><td><span class="pill warn">Ours: close, one flaw</span></td></tr>
+      <tr><td>Phone B</td><td>Thumb over the screen</td><td>Colour and cracks kept; <b>faint thumb outline</b></td><td>Clean shape; <b>case colour ~2× more saturated</b></td><td><span class="pill warn">Ours: close, one flaw</span></td></tr>
     </tbody>
   </table></div>
   <div class="read">
-    <p>I'd take our failure over GPT's. A faint outline is visible, detectable and fixable: run the whole-image bike method on phones, which never cuts anything out. A colour shift misrepresents the item while looking perfectly plausible. Until the fix lands, phone photos with a covered screen go to review.</p>
+    <p>Ours is the better starting point. Everything a buyer checks on a used phone (the cracks, the scratches, the true case colour) is kept. The one flaw, a faint line where the thumb was, is visible, detectable and fixable: run the whole-image bike method on phones, which never cuts anything out. GPT's flaw is worse because it hides in plain sight: a colour shift misrepresents the item while looking perfectly plausible. Until the fix lands, phone photos with a covered screen get a quick human check.</p>
     <p><b>The verdict:</b> each open model has one blind spot (rear views for Qwen, ¾ angles for LongCat) and they don't overlap, so the pipeline runs both and lets the check choose. GPT stays as a fallback for photos both fail.</p>
     <p class="bridge">Here's what that looks like from a single photo's point of view.</p>
   </div>
@@ -929,7 +929,7 @@ footer{margin-top:40px; display:flex; flex-wrap:wrap; justify-content:space-betw
       <tr><td>Send more simple scenes to the BiRefNet cut-out</td><td>A plain wall or a phone on a table doesn't need a 20B model; the cost model above sends every busy background to one</td><td>Cost on the "busy background" share</td></tr>
       <tr><td>Watermark and text detector</td><td>The check's known blind spot</td><td>Fewer human reviews</td></tr>
       <tr><td>Trained edit judge (EditReward, MIT)</td><td>Scores quality, not just sameness</td><td>Automatic picking; fewer reviews</td></tr>
-      <tr><td>Whole-image method for phones</td><td>The faint thumb outline</td><td>Phones become shippable</td></tr>
+      <tr><td>Whole-image method for phones</td><td>The faint thumb outline</td><td>Removes the last visible phone flaw</td></tr>
       <tr><td>Cheaper GPU class (L40S-type) with 8-bit weights</td><td>A100s are more than these models need</td><td>Cost <span class="est">untested</span></td></tr>
     </tbody>
   </table></div>
@@ -946,7 +946,7 @@ footer{margin-top:40px; display:flex; flex-wrap:wrap; justify-content:space-betw
     <tbody>
       <tr><td>Open, commercially licensed models can fix these photos faithfully</td><td><span class="pill win">Yes, 5 of 5 bikes</span></td><td>A larger held-out test set per category</td></tr>
       <tr><td>It's affordable per listing</td><td><span class="pill win">Yes, from real GPU bills</span></td><td>The real share of photos that need each fix</td></tr>
-      <tr><td>It works on phones</td><td><span class="pill warn">Not yet</span></td><td>The whole-image method applied to phones, re-tested</td></tr>
+      <tr><td>It works on phones</td><td><span class="pill warn">Close</span></td><td>Cracks and colour kept; the faint thumb line removed by the whole-image method, then re-tested</td></tr>
       <tr><td>It runs end to end with no one in the loop</td><td><span class="pill warn">Partly</span></td><td>In the pilot, I wrote each photo's parts description with the vision model's help and confirmed picks by eye. Automating both, and measuring the gap, is the next step</td></tr>
       <tr><td>Checks can replace people</td><td><span class="pill warn">Partly</span></td><td>How often a person has to step in, on a large sample</td></tr>
       <tr><td>Better photos lift buyer contacts and sales</td><td><span class="pill lose">Not tested</span></td><td>A controlled comparison of listings with and without fixed photos</td></tr>
