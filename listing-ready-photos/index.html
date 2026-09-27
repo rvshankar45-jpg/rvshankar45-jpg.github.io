@@ -54,6 +54,7 @@ b,strong{font-weight:600}
   background:color-mix(in srgb, var(--ground) 92%, transparent); -webkit-backdrop-filter:blur(8px); backdrop-filter:blur(8px);
   box-shadow:0 1px 0 var(--rule); transform:translateY(-110%); transition:transform .25s ease}
 .secbar.on{transform:none}
+body{padding-top:52px}
 .sb-in{max-width:1120px; margin:0 auto; padding:8px 16px 7px}
 .sb-segs{display:flex; gap:3px}
 .sb-seg{flex:1; height:8px; border:0; padding:0; border-radius:4px; background:var(--rule); position:relative; overflow:hidden; cursor:pointer}
@@ -182,22 +183,20 @@ figure .frame img{cursor:zoom-in}
 .exn{display:flex; flex-wrap:wrap; align-items:baseline; gap:4px 12px; margin:0 0 10px}
 .exn b{font:700 19px/1.3 var(--display); color:#fff}
 .exn span{font:500 13px var(--mono); color:#C9CDD6}
-.exr{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px}
-.exc{position:relative; border:0; padding:0; border-radius:12px; overflow:hidden; background:#D6D6D6; cursor:zoom-in; display:block; width:100%}
+.exr{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px}
+.exc{position:relative; border:0; padding:0; border-radius:12px; overflow:hidden; background:#D6D6D6; cursor:zoom-in; display:flex; flex-direction:column; width:100%}
 .exc img{width:100%; height:360px; object-fit:contain; display:block}
-.exm{position:absolute; left:8px; top:8px; font:600 11.5px var(--mono); color:#fff; padding:4px 10px; border-radius:99px; background:rgba(22,24,29,.88)}
-.exm.open{background:rgba(12,143,126,.95)}
+.exm{display:block; font:600 12.5px/1.3 var(--mono); color:#fff; padding:9px 12px; text-align:left; background:#2A2F3A}
+.exm.open{background:#0C8F7E}
+.exb.land .exc img{height:270px}
 .exnote{font:500 12.5px var(--mono); color:#C9CDD6; margin:4px 0 0}
 .exnote a{color:var(--goldfill)}
 .exb.land .exc img{height:270px}
 @media (max-width:760px){
-  .exr{grid-template-columns:1fr 1fr; gap:8px}
-  .exc:first-child{grid-column:1/-1}
-  .exc img{height:190px}
-  .exc:first-child img{height:250px}
-  .exb.land .exc img{height:120px}
-  .exb.land .exc:first-child img{height:200px}
-  .exm{font-size:10.5px; padding:3px 8px; left:6px; top:6px}
+  .exr{grid-template-columns:1fr; gap:12px}
+  .exc img,.exb.land .exc img{height:auto; max-height:420px}
+  .exc:not(:first-child) img{max-height:460px}
+  .exm{font-size:12px; padding:8px 12px}
 }
 
 /* legends */
@@ -441,7 +440,7 @@ footer{margin-top:40px; display:flex; flex-wrap:wrap; justify-content:space-betw
           <button class="exc" data-full="img/sd_re_bullet_3v_gpt.jpg" data-cap="Bullet · rear · GPT image edit"><img src="img/sd_re_bullet_3v_gpt.jpg" alt="Bullet · rear: GPT result on a studio backdrop." loading="lazy"><span class="exm gpt">GPT · one edit</span></button>
         </div>
       </div>
-      <p class="exnote">Plates masked in every photo. Tap any photo to enlarge. All five bikes are in <a href="#showdown">the showdown</a>.</p>
+      <p class="exnote">Plates masked in every photo. Tap any photo to enlarge. All five bikes are in <a href="#showdown">the showdown between models</a>.</p>
     </div>
     <div class="pts">
       <div class="pt"><div class="n">₹4.87 <small>vs ₹5.1–7.5 for GPT</small></div>
@@ -468,7 +467,7 @@ footer{margin-top:40px; display:flex; flex-wrap:wrap; justify-content:space-betw
         <li><a href="#detour"><span class="no">05</span>The detour we had to take</a></li></ol></div>
       <div class="act a3"><div class="stop">III</div><h4>The build</h4><p class="q">How does it work?</p><ol>
         <li><a href="#pipeline"><span class="no">06</span>How the pipeline works</a></li>
-        <li><a href="#showdown"><span class="no">07</span>The showdown: bikes and phones</a></li>
+        <li><a href="#showdown"><span class="no">07</span>The showdown between models</a></li>
         <li><a href="#path"><span class="no">08</span>A photo's path, in plain words</a></li></ol></div>
       <div class="act a4"><div class="stop">IV</div><h4>The business</h4><p class="q">Does it pay?</p><ol>
         <li><a href="#economics"><span class="no">09</span>Open models vs GPT: the cost</a></li>
@@ -687,7 +686,7 @@ footer{margin-top:40px; display:flex; flex-wrap:wrap; justify-content:space-betw
 
 <section class="a3" id="showdown">
   <div class="read">
-    <div class="sec-head"><span class="sec-no">07</span><h2>The showdown: bikes and phones</h2></div>
+    <div class="sec-head"><span class="sec-no">07</span><h2>The showdown between models</h2></div>
     <div class="sowhat"><span>So what</span><p>On bikes, open models matched GPT on every photo, but no single open model won all five, so we run two. On phones, both sides still have a flaw.</p></div>
     <h3>The motorcycles</h3>
   </div>
@@ -1126,7 +1125,7 @@ footer{margin-top:40px; display:flex; flex-wrap:wrap; justify-content:space-betw
   });
   var SECS=[['problem','01','Supply vs quality','a1'],['why','02','Why sellers don\'t upload good photos','a1'],
     ['pilot','03','The pilot: nine photos','a2'],['gauntlet','04','Can open models replace GPT?','a2'],['detour','05','The detour','a2'],
-    ['pipeline','06','How the pipeline works','a3'],['showdown','07','The showdown','a3'],['path','08','A photo\'s path','a3'],
+    ['pipeline','06','How the pipeline works','a3'],['showdown','07','The showdown between models','a3'],['path','08','A photo\'s path','a3'],
     ['economics','09','Open models vs GPT: the cost','a4'],['better','10','Cheaper and better','a4'],['proof','11','What the pilot shows','a4'],
     ['principles','12','Principles','a4'],['calc','A','How every number is calculated','a4']];
   var CV={a1:'var(--coral)',a2:'var(--indigo)',a3:'var(--teal)',a4:'var(--goldfill)'};
@@ -1142,13 +1141,14 @@ footer{margin-top:40px; display:flex; flex-wrap:wrap; justify-content:space-betw
   var head=document.querySelector('header');
   function prog(){
     var y=window.scrollY, vh=window.innerHeight, probe=y+vh*0.3, idx=-1;
-    sb.classList.toggle('on', y > head.offsetTop+head.offsetHeight-80);
+    sb.classList.add('on');
     els.forEach(function(el,i){
       var top=el.getBoundingClientRect().top+y, end=(i+1<els.length? els[i+1].getBoundingClientRect().top+y : document.documentElement.scrollHeight-vh*0.3);
       var f=Math.max(0,Math.min(1,(probe-top)/Math.max(1,end-top))); segEls[i].style.setProperty('--f',f);
       if(probe>=top) idx=i;
     });
-    if(idx<0) idx=0; var x=SECS.filter(function(s){return document.getElementById(s[0]);})[idx];
+    if(idx<0){ cur.textContent='Start · Executive summary'; cur.style.color='var(--ink)'; linkEls.forEach(function(a){a.classList.remove('cur');}); return; }
+    var x=SECS.filter(function(s){return document.getElementById(s[0]);})[idx];
     cur.textContent=x[1]+' · '+x[2]; cur.style.color=CV[x[3]].replace('goldfill','gold');
     linkEls.forEach(function(a,i){a.classList.toggle('cur',i===idx);});
   }
