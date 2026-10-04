@@ -285,7 +285,7 @@ def main():
     <div class="kicker">{n} answers · two builds · every token counted</div>
     <h1>{html.escape(head_hit[0])}. <span class="hit">{html.escape(head_hit[1])}</span></h1>
     <div class="standfirst">{render(intro_paras[0])[3:-4]}</div>
-    <div class="author"><span class="av" aria-hidden="true">RR</span><span><b>Ravishankar R</b><small>Product leader in Bengaluru, dabbling with AI: real experiments, measured end to end.</small></span></div>
+    <div class="author"><span class="av" aria-hidden="true">RR</span><span><b>Ravishankar R</b><small>Product Guy in Bengaluru. I test AI ideas on real questions and measure what they cost.</small></span></div>
     <div class="byline"><span>Leafy, a fictional plant shop</span><span>Claude Sonnet 5.5 · Haiku 4.5 · Laya</span>
       <span>{date.today():%B %Y}</span><span>open code &amp; data</span></div>
   </header>
@@ -297,7 +297,7 @@ def main():
   <div class="col"><div class="stats">{stat_html}</div></div>
   {short_html}
   {"".join(body)}
-  <div class="col"><aside class="aboutme" id="about" aria-label="About the author"><span class="av" aria-hidden="true">RR</span><div><div class="lbl">About me</div><h3>Ravishankar R</h3><p>I'm a product leader based in Bengaluru, India. I dabble with AI: I pick a question a product team actually faces, build the experiment end to end, measure what it costs and how well it works, and write it up with the mistakes left in.</p><div class="links"><a href="https://github.com/rvshankar45-jpg">GitHub</a><a href="mailto:rvshankar45@gmail.com">Email</a><a href="/">More writing</a></div></div></aside></div>
+  <div class="col"><aside class="aboutme" id="about" aria-label="About the author"><span class="av" aria-hidden="true">RR</span><div><div class="lbl">About me</div><h3>Ravishankar R</h3><p>I'm a Product Guy based in Bengaluru, India. I like taking a question product teams argue about, like &ldquo;is this AI feature worth what it costs?&rdquo;, and settling it with a working experiment instead of an opinion. I build it end to end, measure cost and quality, and publish the code and the mistakes.</p><div class="links"><a href="https://github.com/rvshankar45-jpg">GitHub</a><a href="mailto:rvshankar45@gmail.com">Email</a><a href="/">More writing</a></div></div></aside></div>
   <footer class="col">
     {n} answers · 100 test questions + 10 conversations · 270 separate training questions for the router.
     All data is synthetic; no real customer or company appears. Every figure on this page is generated from the analysis output at build time rather than typed by hand.
