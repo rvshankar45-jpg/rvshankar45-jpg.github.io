@@ -8,7 +8,7 @@ What I found:
 
 - The bill dropped from $1.95 to $0.69. That's 64% cheaper. Answer quality dipped only slightly: 4.63 to 4.49 out of 5.
 - The biggest win: give the AI only the relevant part of the manual, not all of it. That did half the work.
-- A tool that sends easy questions to a cheaper AI saved 12%. After I trained it on 270 examples, 20%.
+- Laya, a tool that sends easy questions to a cheaper AI, saved 12%. Trained on 270 examples, it saved 20%.
 
 The surprise: in one setup, giving the AI the whole manual, stored so it's cheap to reuse, gave the best answers of all, at 62% below the original cost.
 
