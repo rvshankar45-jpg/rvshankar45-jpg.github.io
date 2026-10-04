@@ -200,11 +200,14 @@ laya_ok = "saves cost, not tokens" in blog.lower() and "off the shelf" in blog.l
 check("Laya described accurately (cost not tokens; limits stated)", laya_ok,
       "states 'Laya saves cost, not tokens', reports zero-shot vs trained honestly, and lists its new-domain limitation")
 route_share = (v1 - s.loc["plus_route", "total_cost_usd"]) / (v1 - v2)
-dirn = [("v2 quality below v1", s.loc["v2_full", "mean_quality"] < s.loc["v1_naive", "mean_quality"], "4.49 against 4.63"),
-        ("retrieval cost quality", s.loc["plus_retrieve", "mean_quality"] < s.loc["plus_route", "mean_quality"], "most of the quality drop"),
+dirn = [("v2 quality below v1", s.loc["v2_full", "mean_quality"] < s.loc["v1_naive", "mean_quality"], "4.49 out of 5, against 4.63"),
+        ("retrieval cost quality", s.loc["plus_retrieve", "mean_quality"] < s.loc["plus_route", "mean_quality"], "most of the drop in quality"),
         ("cache_full_kb above v1 (stated with caveat)", s.loc["cache_full_kb", "mean_quality"] > s.loc["v1_naive", "mean_quality"],
          "at least as good as version 1"),
         ("routing ~ a sixth of the saving", 1 / 7 < route_share < 1 / 5, "a sixth"),
+        ("cached token costs a tenth (both models)", all(abs(CFG["pricing"][m]["cache_read"] / CFG["pricing"][m]["input"] - 0.1) < 1e-9
+                                                       for m in (CFG["models"]["strong"], CFG["models"]["cheap"])), "costs a tenth of a normal one"),
+        ("retrieval sent a third of the manual", abs(CFG["retrieval"]["top_k"] / len(_chunks()) - 1 / 3) < 1e-9, "Retrieval sent a third"),
         ("trim smaller than routing", s.loc["plus_retrieve", "total_cost_usd"] - s.loc["plus_trim", "total_cost_usd"]
          < v1 - s.loc["plus_route", "total_cost_usd"], "barely mattered")]
 bad = [k for k, cond, phrase in dirn if not (cond and phrase in blog)]

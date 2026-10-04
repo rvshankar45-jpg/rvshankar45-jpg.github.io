@@ -26,15 +26,14 @@
 | blog | 17 | `5` | quality scale top (rubric) |
 | blog | 17 | `3` | config retrieval.top_k |
 | blog | 21 | `64%` | 1 - v2_full/v1_naive total_cost_usd |
-| blog | 21 | `2` | config history.keep_last_turns |
 | blog | 21 | `140` | 100 queries + conversation turns (data files) |
 | blog | 21 | `$0.69` | summary.csv v2_full total_cost_usd |
 | blog | 21 | `$1.95` | summary.csv v1_naive total_cost_usd |
 | blog | 21 | `4.49` | summary.csv v2_full mean_quality |
-| blog | 21 | `4.63` | summary.csv v1_naive mean_quality; routing_summary always_strong mean_quality |
 | blog | 21 | `5` | quality scale top (rubric) |
+| blog | 21 | `4.63` | summary.csv v1_naive mean_quality; routing_summary always_strong mean_quality |
+| blog | 22 | `3` | config retrieval.top_k |
 | blog | 23 | `62%` | 1 - cache_full_kb/v1 cost |
-| blog | 23 | `1` | quality scale bottom (rubric) |
 | blog | 23 | `4.80` | summary.csv cache_full_kb mean_quality |
 | blog | 24 | `12%` | routing_summary laya vs always_strong cost; router_head_summary zero-shot saving |
 | blog | 24 | `270` | data/router_train.csv rows |
@@ -123,9 +122,7 @@
 | blog | 98 | `3.5` | effort_summary sonnet_high p50 latency (s) |
 | blog | 100 | `9%` | effort: low vs thinking off |
 | blog | 100 | `28%` | effort: high vs low cost |
-| blog | 100 | `20` | per_answer_eval: answers improving >=2 v2_full -> cache_full_kb; judge_handcheck.md answers checked |
 | blog | 102 | `26%` | effort_combo laya_head + sonnet_low saving |
-| blog | 102 | `50` | effort_summary sample size; effort sample size (config effort_eval.sample) |
 | blog | 106 | `8%` | cache_full_kb vs v2_full cost |
 | blog | 106 | `2` | config history.keep_last_turns |
 | blog | 106 | `140` | 100 queries + conversation turns (data files) |
@@ -133,12 +130,12 @@
 | blog | 106 | `$5,368` | cache_full_kb cost per answer x 1M |
 | blog | 106 | `1` | quality scale bottom (rubric) |
 | blog | 106 | `$13,946` | v1 cost per answer x 1M |
-| blog | 128 | `78%` | variance.csv judge re-score identical share |
-| blog | 128 | `17` | judge_handcheck.md AGREE count |
-| blog | 128 | `20` | per_answer_eval: answers improving >=2 v2_full -> cache_full_kb; judge_handcheck.md answers checked |
-| blog | 128 | `100` | test_queries.csv rows |
-| blog | 128 | `0.1` | noise floor stated from judge variance (mean |diff| 0.23 per answer) |
-| blog | 128 | `140` | 100 queries + conversation turns (data files) |
+| blog | 125 | `78%` | variance.csv judge re-score identical share |
+| blog | 125 | `17` | judge_handcheck.md AGREE count |
+| blog | 125 | `20` | per_answer_eval: answers improving >=2 v2_full -> cache_full_kb; judge_handcheck.md answers checked |
+| blog | 125 | `100` | test_queries.csv rows |
+| blog | 125 | `0.1` | noise floor stated from judge variance (mean |diff| 0.23 per answer) |
+| blog | 125 | `140` | 100 queries + conversation turns (data files) |
 | linkedin | 1 | `64%` | 1 - v2_full/v1_naive total_cost_usd |
 | linkedin | 3 | `140` | 100 queries + conversation turns (data files) |
 | linkedin | 7 | `$1.95` | summary.csv v1_naive total_cost_usd |
@@ -194,15 +191,14 @@
 | web page | 17 | `4.63` | summary.csv v1_naive mean_quality; routing_summary always_strong mean_quality |
 | web page | 18 | `20%` | router_head_summary laya_head saving |
 | web page | 19 | `64%` | 1 - v2_full/v1_naive total_cost_usd |
-| web page | 19 | `2` | config history.keep_last_turns |
 | web page | 19 | `140` | 100 queries + conversation turns (data files) |
 | web page | 19 | `$0.69` | summary.csv v2_full total_cost_usd |
 | web page | 19 | `$1.95` | summary.csv v1_naive total_cost_usd |
 | web page | 19 | `4.49` | summary.csv v2_full mean_quality |
-| web page | 19 | `4.63` | summary.csv v1_naive mean_quality; routing_summary always_strong mean_quality |
 | web page | 19 | `5` | quality scale top (rubric) |
+| web page | 19 | `4.63` | summary.csv v1_naive mean_quality; routing_summary always_strong mean_quality |
+| web page | 19 | `3` | config retrieval.top_k |
 | web page | 19 | `62%` | 1 - cache_full_kb/v1 cost |
-| web page | 19 | `1` | quality scale bottom (rubric) |
 | web page | 19 | `4.80` | summary.csv cache_full_kb mean_quality |
 | web page | 19 | `12%` | routing_summary laya vs always_strong cost; router_head_summary zero-shot saving |
 | web page | 19 | `270` | data/router_train.csv rows |
@@ -320,9 +316,7 @@
 | web page | 176 | `3.5` | effort_summary sonnet_high p50 latency (s) |
 | web page | 180 | `9%` | effort: low vs thinking off |
 | web page | 180 | `28%` | effort: high vs low cost |
-| web page | 180 | `20` | per_answer_eval: answers improving >=2 v2_full -> cache_full_kb; judge_handcheck.md answers checked |
 | web page | 181 | `26%` | effort_combo laya_head + sonnet_low saving |
-| web page | 181 | `50` | effort_summary sample size; effort sample size (config effort_eval.sample) |
 | web page | 181 | `50` | effort_summary sample size; effort sample size (config effort_eval.sample) |
 | web page | 182 | `$0.264` | effort_summary always_strong total_cost_usd |
 | web page | 182 | `4.62` | effort_summary always_strong mean_quality; effort_summary sonnet_medium mean_quality |
@@ -341,9 +335,9 @@
 | web page | 186 | `$5,368` | cache_full_kb cost per answer x 1M |
 | web page | 186 | `1` | quality scale bottom (rubric) |
 | web page | 186 | `$13,946` | v1 cost per answer x 1M |
-| web page | 200 | `78%` | variance.csv judge re-score identical share |
-| web page | 200 | `17` | judge_handcheck.md AGREE count |
-| web page | 200 | `20` | per_answer_eval: answers improving >=2 v2_full -> cache_full_kb; judge_handcheck.md answers checked |
-| web page | 200 | `100` | test_queries.csv rows |
-| web page | 200 | `0.1` | noise floor stated from judge variance (mean |diff| 0.23 per answer) |
-| web page | 200 | `140` | 100 queries + conversation turns (data files) |
+| web page | 198 | `78%` | variance.csv judge re-score identical share |
+| web page | 198 | `17` | judge_handcheck.md AGREE count |
+| web page | 198 | `20` | per_answer_eval: answers improving >=2 v2_full -> cache_full_kb; judge_handcheck.md answers checked |
+| web page | 198 | `100` | test_queries.csv rows |
+| web page | 198 | `0.1` | noise floor stated from judge variance (mean |diff| 0.23 per answer) |
+| web page | 198 | `140` | 100 queries + conversation turns (data files) |
