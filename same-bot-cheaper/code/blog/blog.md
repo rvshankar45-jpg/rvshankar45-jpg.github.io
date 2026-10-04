@@ -57,14 +57,14 @@ flowchart LR
 
 Each row adds one fix and re-runs the whole test:
 
-| Step | Cost (140 answers) | Quality |
-|---|---|---|
-| Version 1 | $1.95 | 4.63 |
-| + routing | $1.75 | 4.56 |
-| + retrieval | $1.12 | 4.34 |
-| + history trimming | $1.12 | 4.39 |
-| + short prompt and prompt cache | $0.91 | 4.40 |
-| + concise answers and answer cache = version 2 | $0.69 | 4.49 |
+| Step | Cost (140 answers) | Tokens (140 answers) | Quality |
+|---|---|---|---|
+| Version 1 | $1.95 | 700,263 | 4.63 |
+| + routing | $1.75 | 666,257 | 4.56 |
+| + retrieval | $1.12 | 340,018 | 4.34 |
+| + history trimming | $1.12 | 340,217 | 4.39 |
+| + short prompt and prompt cache | $0.91 | 264,266 | 4.40 |
+| + concise answers and answer cache = version 2 | $0.69 | 239,713 | 4.49 |
 
 **Retrieval (RAG) gave the biggest saving, and the biggest quality drop.**
 
@@ -76,12 +76,14 @@ Each row adds one fix and re-runs the whole test:
 
 **Some fixes barely mattered.** Trimming history saved 0.5% of version 1's cost. The prompt cache saved nothing: the short prompt left only 203 repeatable tokens, under the 512 it needs. No test question repeated, so the answer cache never fired; shorter answers drove the last step.
 
+**Tokens fell 66%, but tokens and cost are different targets.** Retrieval removed almost half of version 1's tokens on its own. Routing cut only 5%: it sends the same text to a cheaper model rather than sending less. Trimming history even added 199 tokens, because the summary it writes uses about what it saves; the summary runs on the cheap model, so the bill still fell. And the cached build below used more tokens than RAG while costing less.
+
 **The surprise was a build I added myself:** the short prompt plus the *whole* manual, cached. It scored 4.80, against version 1's 4.63, at 62% below version 1's cost. Compared with the same setup using RAG, it was cheaper and better:
 
-| Same setup, except | Cost (140 answers) | Quality |
-|---|---|---|
-| RAG: 3 sections per question | $0.91 | 4.40 |
-| Whole manual, cached | $0.75 | 4.80 |
+| Same setup, except | Cost (140 answers) | Tokens (140 answers) | Quality |
+|---|---|---|---|
+| RAG: 3 sections per question | $0.91 | 264,266 | 4.40 |
+| Whole manual, cached | $0.75 | 588,461 | 4.80 |
 
 Retrieved sections change with every question, so they're billed at full price every time. The whole manual is identical on every call, so after the first one it's billed at a tenth of the price. Caching was 17% cheaper, fixed 20 answers by two points or more and made none worse.
 

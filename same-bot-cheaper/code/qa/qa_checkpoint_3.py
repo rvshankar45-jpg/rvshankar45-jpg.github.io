@@ -141,6 +141,10 @@ for k in ["laya_zero_shot@0.50", "laya_head", "length_rule"]:
 for k in ["laya_zero_shot@0.50", "length_rule", "minilm_head", "laya_head", "hindsight_ceiling"]:
     reg(pct(rh.loc[k, "share_to_haiku"]), f"router_head_summary {k} share_to_haiku")
 reg("0.5", "AUC of a coin flip (definition)")
+for _v in ["v1_naive", "plus_route", "plus_retrieve", "plus_trim", "plus_tight_cache", "v2_full", "cache_full_kb"]:
+    reg(f"{int(tok[_v]):,}", f"summary {_v} total_input_tokens + output_tokens")
+reg(pct(1 - tok["plus_route"] / tok["v1_naive"]), "routing step token reduction (plus_route vs v1_naive)")
+reg(str(int(tok["plus_trim"] - tok["plus_retrieve"])), "tokens added by history trimming (plus_trim - plus_retrieve)")
 for _k in ["always_sonnet", "laya_head"]:
     reg(f"${rh.loc[_k, 'cost_usd']:.3f}", f"router_head_summary {_k} cost_usd (100 test questions)")
 reg(pct(1 - s.loc["cache_full_kb", "total_cost_usd"] / s.loc["plus_tight_cache", "total_cost_usd"]), "cache_full_kb vs plus_tight_cache cost (same setup, RAG vs cache)")
@@ -249,6 +253,11 @@ dirn = [("v2 quality below v1", s.loc["v2_full", "mean_quality"] < s.loc["v1_nai
         ("meaning model named = model used", CFG["qa"]["embedding_model"] == "sentence-transformers/all-MiniLM-L6-v2", "all-MiniLM-L6-v2"),
         ("effort runs were Sonnet; Haiku had thinking off", (calls[calls.variant.str.startswith("sonnet_")].model == CFG["models"]["strong"]).all()
          and not CFG["generation"]["thinking"], "Haiku 4.5, ran with thinking off throughout"),
+        ("trimming added tokens but cut cost", tok["plus_trim"] > tok["plus_retrieve"] and s.loc["plus_trim", "total_cost_usd"] < s.loc["plus_retrieve", "total_cost_usd"],
+         "so the bill still fell"),
+        ("cached build: more tokens than RAG, lower cost", tok["cache_full_kb"] > tok["plus_tight_cache"] and s.loc["cache_full_kb", "total_cost_usd"] < s.loc["plus_tight_cache", "total_cost_usd"],
+         "used more tokens than RAG while costing less"),
+        ("retrieval removed almost half of v1 tokens", 0.40 <= (tok["plus_route"] - tok["plus_retrieve"]) / tok["v1_naive"] < 0.50, "almost half"),
         ("trim smaller than routing", s.loc["plus_retrieve", "total_cost_usd"] - s.loc["plus_trim", "total_cost_usd"]
          < v1 - s.loc["plus_route", "total_cost_usd"], "barely mattered")]
 bad = [k for k, cond, phrase in dirn if not (cond and phrase in blog)]

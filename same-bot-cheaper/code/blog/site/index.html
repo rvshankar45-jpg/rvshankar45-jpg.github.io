@@ -218,6 +218,7 @@
 <tr>
 <th>Step</th>
 <th>Cost (140 answers)</th>
+<th>Tokens (140 answers)</th>
 <th>Quality</th>
 </tr>
 </thead>
@@ -225,31 +226,37 @@
 <tr>
 <td>Version 1</td>
 <td>$1.95</td>
+<td>700,263</td>
 <td>4.63</td>
 </tr>
 <tr>
 <td>+ routing</td>
 <td>$1.75</td>
+<td>666,257</td>
 <td>4.56</td>
 </tr>
 <tr>
 <td>+ retrieval</td>
 <td>$1.12</td>
+<td>340,018</td>
 <td>4.34</td>
 </tr>
 <tr>
 <td>+ history trimming</td>
 <td>$1.12</td>
+<td>340,217</td>
 <td>4.39</td>
 </tr>
 <tr>
 <td>+ short prompt and prompt cache</td>
 <td>$0.91</td>
+<td>264,266</td>
 <td>4.40</td>
 </tr>
 <tr>
 <td>+ concise answers and answer cache = version 2</td>
 <td>$0.69</td>
+<td>239,713</td>
 <td>4.49</td>
 </tr>
 </tbody>
@@ -259,12 +266,14 @@
 <p><em>The saving.</em> Sending a third of the manual means far fewer tokens on every call. That one change cut $0.63, half of the $1.26 saved in total.</p>
 <p><em>The catch.</em> If the search picks the wrong sections, the model never sees the answer. Asked "What's your price adjustment policy?", the bot was sent the Orders, Returns and Contact sections, not Payments and Refunds, where the policy lives. It replied that no such policy existed, and its grade fell from 5 to 1. When retrieval was switched on, 14 of the 140 answers lost two or more points.</p>
 <p><strong>Some fixes barely mattered.</strong> Trimming history saved 0.5% of version 1's cost. The prompt cache saved nothing: the short prompt left only 203 repeatable tokens, under the 512 it needs. No test question repeated, so the answer cache never fired; shorter answers drove the last step.</p>
+<p><strong>Tokens fell 66%, but tokens and cost are different targets.</strong> Retrieval removed almost half of version 1's tokens on its own. Routing cut only 5%: it sends the same text to a cheaper model rather than sending less. Trimming history even added 199 tokens, because the summary it writes uses about what it saves; the summary runs on the cheap model, so the bill still fell. And the cached build below used more tokens than RAG while costing less.</p>
 <p><strong>The surprise was a build I added myself:</strong> the short prompt plus the <em>whole</em> manual, cached. It scored 4.80, against version 1's 4.63, at 62% below version 1's cost. Compared with the same setup using RAG, it was cheaper and better:</p>
 <div class="tablewrap"><table>
 <thead>
 <tr>
 <th>Same setup, except</th>
 <th>Cost (140 answers)</th>
+<th>Tokens (140 answers)</th>
 <th>Quality</th>
 </tr>
 </thead>
@@ -272,11 +281,13 @@
 <tr>
 <td>RAG: 3 sections per question</td>
 <td>$0.91</td>
+<td>264,266</td>
 <td>4.40</td>
 </tr>
 <tr>
 <td>Whole manual, cached</td>
 <td>$0.75</td>
+<td>588,461</td>
 <td>4.80</td>
 </tr>
 </tbody>

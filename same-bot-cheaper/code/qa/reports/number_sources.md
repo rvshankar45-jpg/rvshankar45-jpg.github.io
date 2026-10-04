@@ -49,19 +49,26 @@
 | blog | 51 | `3` | config retrieval.top_k; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
 | blog | 51 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
 | blog | 60 | `140` | 100 queries + conversation turns (data files) |
+| blog | 60 | `140` | 100 queries + conversation turns (data files) |
 | blog | 62 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
 | blog | 62 | `$1.95` | summary.csv v1_naive total_cost_usd |
+| blog | 62 | `700,263` | summary v1_naive total_input_tokens + output_tokens |
 | blog | 62 | `4.63` | summary.csv v1_naive mean_quality; routing_summary always_strong mean_quality |
 | blog | 63 | `$1.75` | summary.csv plus_route total_cost_usd |
+| blog | 63 | `666,257` | summary plus_route total_input_tokens + output_tokens |
 | blog | 63 | `4.56` | summary.csv plus_route mean_quality; summary.csv plus_route mean_quality |
 | blog | 64 | `$1.12` | summary.csv plus_retrieve total_cost_usd; summary.csv plus_trim total_cost_usd |
+| blog | 64 | `340,018` | summary plus_retrieve total_input_tokens + output_tokens |
 | blog | 64 | `4.34` | summary.csv plus_retrieve mean_quality; summary.csv plus_retrieve mean_quality |
 | blog | 65 | `$1.12` | summary.csv plus_retrieve total_cost_usd; summary.csv plus_trim total_cost_usd |
+| blog | 65 | `340,217` | summary plus_trim total_input_tokens + output_tokens |
 | blog | 65 | `4.39` | summary.csv plus_trim mean_quality |
 | blog | 66 | `$0.91` | summary.csv plus_tight_cache total_cost_usd |
+| blog | 66 | `264,266` | summary plus_tight_cache total_input_tokens + output_tokens |
 | blog | 66 | `4.40` | summary.csv plus_tight_cache mean_quality |
 | blog | 67 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
 | blog | 67 | `$0.69` | summary.csv v2_full total_cost_usd |
+| blog | 67 | `239,713` | summary v2_full total_input_tokens + output_tokens |
 | blog | 67 | `4.49` | summary.csv v2_full mean_quality |
 | blog | 71 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
 | blog | 71 | `9` | retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank; kb.md sections (retriever chunks) |
@@ -77,170 +84,177 @@
 | blog | 77 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
 | blog | 77 | `203` | calls_eval v2_full Sonnet static_prefix_tokens |
 | blog | 77 | `512` | config cache.min_tokens strong |
-| blog | 79 | `4.80` | summary.csv cache_full_kb mean_quality |
+| blog | 79 | `66%` | 1 - v2/v1 (total_input_tokens + output_tokens) |
 | blog | 79 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| blog | 79 | `4.63` | summary.csv v1_naive mean_quality; routing_summary always_strong mean_quality |
-| blog | 79 | `62%` | 1 - cache_full_kb/v1 cost |
-| blog | 79 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| blog | 81 | `140` | 100 queries + conversation turns (data files) |
-| blog | 83 | `3` | config retrieval.top_k; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| blog | 83 | `$0.91` | summary.csv plus_tight_cache total_cost_usd |
-| blog | 83 | `4.40` | summary.csv plus_tight_cache mean_quality |
-| blog | 84 | `$0.75` | summary.csv cache_full_kb total_cost_usd |
-| blog | 84 | `4.80` | summary.csv cache_full_kb mean_quality |
-| blog | 86 | `17%` | cache_full_kb vs plus_tight_cache cost (same setup, RAG vs cache) |
-| blog | 86 | `20` | per_answer_eval: answers improving >=2 v2_full -> cache_full_kb; judge_handcheck.md answers checked |
-| blog | 88 | `5` | quality scale top (rubric); config cache.ttl_seconds in minutes; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| blog | 94 | `9` | retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank; kb.md sections (retriever chunks) |
-| blog | 96 | `384` | MiniLM embedding dimensions |
-| blog | 97 | `9` | retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank; kb.md sections (retriever chunks) |
-| blog | 97 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| blog | 97 | `60` | config retrieval.rrf_k (fusion constant) |
-| blog | 97 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| blog | 97 | `60` | config retrieval.rrf_k (fusion constant) |
-| blog | 98 | `3` | config retrieval.top_k; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| blog | 79 | `5%` | routing step token reduction (plus_route vs v1_naive) |
+| blog | 79 | `199` | tokens added by history trimming (plus_trim - plus_retrieve) |
+| blog | 81 | `4.80` | summary.csv cache_full_kb mean_quality |
+| blog | 81 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| blog | 81 | `4.63` | summary.csv v1_naive mean_quality; routing_summary always_strong mean_quality |
+| blog | 81 | `62%` | 1 - cache_full_kb/v1 cost |
+| blog | 81 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| blog | 83 | `140` | 100 queries + conversation turns (data files) |
+| blog | 83 | `140` | 100 queries + conversation turns (data files) |
+| blog | 85 | `3` | config retrieval.top_k; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| blog | 85 | `$0.91` | summary.csv plus_tight_cache total_cost_usd |
+| blog | 85 | `264,266` | summary plus_tight_cache total_input_tokens + output_tokens |
+| blog | 85 | `4.40` | summary.csv plus_tight_cache mean_quality |
+| blog | 86 | `$0.75` | summary.csv cache_full_kb total_cost_usd |
+| blog | 86 | `588,461` | summary cache_full_kb total_input_tokens + output_tokens |
+| blog | 86 | `4.80` | summary.csv cache_full_kb mean_quality |
+| blog | 88 | `17%` | cache_full_kb vs plus_tight_cache cost (same setup, RAG vs cache) |
+| blog | 88 | `20` | per_answer_eval: answers improving >=2 v2_full -> cache_full_kb; judge_handcheck.md answers checked |
+| blog | 90 | `5` | quality scale top (rubric); config cache.ttl_seconds in minutes; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| blog | 96 | `9` | retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank; kb.md sections (retriever chunks) |
+| blog | 98 | `384` | MiniLM embedding dimensions |
+| blog | 99 | `9` | retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank; kb.md sections (retriever chunks) |
+| blog | 99 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| blog | 99 | `60` | config retrieval.rrf_k (fusion constant) |
+| blog | 99 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| blog | 99 | `60` | config retrieval.rrf_k (fusion constant) |
 | blog | 100 | `3` | config retrieval.top_k; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| blog | 104 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| blog | 104 | `74%` | retrieval_recall right section found at k=1 |
-| blog | 104 | `11%` | retrieval_recall share of manual sent at k=1 |
-| blog | 105 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| blog | 105 | `89%` | retrieval_recall right section found at k=2 |
-| blog | 105 | `22%` | retrieval_recall share of manual sent at k=2 |
-| blog | 106 | `3` | config retrieval.top_k; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| blog | 106 | `95%` | retrieval_recall right section found at k=3 |
-| blog | 106 | `33%` | retrieval_recall share of manual sent at k=3 |
-| blog | 107 | `4` | retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| blog | 107 | `96%` | retrieval_recall right section found at k=4 |
-| blog | 107 | `44%` | retrieval_recall share of manual sent at k=4 |
-| blog | 108 | `5` | quality scale top (rubric); config cache.ttl_seconds in minutes; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| blog | 108 | `97%` | retrieval_recall right section found at k=5 |
-| blog | 108 | `56%` | retrieval_recall share of manual sent at k=5 |
-| blog | 110 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| blog | 110 | `3` | config retrieval.top_k; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| blog | 110 | `3` | config retrieval.top_k; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| blog | 116 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| blog | 116 | `4` | retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| blog | 116 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| blog | 117 | `4` | retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| blog | 117 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| blog | 117 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| blog | 118 | `3` | config retrieval.top_k; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| blog | 118 | `5` | quality scale top (rubric); config cache.ttl_seconds in minutes; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| blog | 118 | `3` | config retrieval.top_k; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| blog | 119 | `5` | quality scale top (rubric); config cache.ttl_seconds in minutes; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| blog | 119 | `3` | config retrieval.top_k; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| blog | 102 | `3` | config retrieval.top_k; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| blog | 106 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| blog | 106 | `74%` | retrieval_recall right section found at k=1 |
+| blog | 106 | `11%` | retrieval_recall share of manual sent at k=1 |
+| blog | 107 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| blog | 107 | `89%` | retrieval_recall right section found at k=2 |
+| blog | 107 | `22%` | retrieval_recall share of manual sent at k=2 |
+| blog | 108 | `3` | config retrieval.top_k; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| blog | 108 | `95%` | retrieval_recall right section found at k=3 |
+| blog | 108 | `33%` | retrieval_recall share of manual sent at k=3 |
+| blog | 109 | `4` | retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| blog | 109 | `96%` | retrieval_recall right section found at k=4 |
+| blog | 109 | `44%` | retrieval_recall share of manual sent at k=4 |
+| blog | 110 | `5` | quality scale top (rubric); config cache.ttl_seconds in minutes; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| blog | 110 | `97%` | retrieval_recall right section found at k=5 |
+| blog | 110 | `56%` | retrieval_recall share of manual sent at k=5 |
+| blog | 112 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| blog | 112 | `3` | config retrieval.top_k; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| blog | 112 | `3` | config retrieval.top_k; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| blog | 118 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| blog | 118 | `4` | retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| blog | 118 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
 | blog | 119 | `4` | retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| blog | 120 | `8` | retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| blog | 120 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| blog | 119 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| blog | 119 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| blog | 120 | `3` | config retrieval.top_k; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
 | blog | 120 | `5` | quality scale top (rubric); config cache.ttl_seconds in minutes; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| blog | 121 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| blog | 121 | `7` | retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| blog | 121 | `6` | retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| blog | 120 | `3` | config retrieval.top_k; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| blog | 121 | `5` | quality scale top (rubric); config cache.ttl_seconds in minutes; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| blog | 121 | `3` | config retrieval.top_k; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| blog | 121 | `4` | retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| blog | 122 | `8` | retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| blog | 122 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| blog | 122 | `5` | quality scale top (rubric); config cache.ttl_seconds in minutes; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
 | blog | 123 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
 | blog | 123 | `7` | retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
 | blog | 123 | `6` | retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| blog | 131 | `12%` | routing_summary laya vs always_strong cost; router_head_summary zero-shot saving |
-| blog | 131 | `4.60` | routing_summary laya mean_quality; effort_summary sonnet_low quality_complex |
-| blog | 131 | `4.63` | summary.csv v1_naive mean_quality; routing_summary always_strong mean_quality |
-| blog | 131 | `45` | routing_confusion laya simple->strong |
-| blog | 131 | `62` | test_queries.csv label=simple |
-| blog | 133 | `136` | llm_router tokens per query |
-| blog | 133 | `1,176` | routing_summary llm_router p50_router_ms |
-| blog | 133 | `194` | routing_summary laya p50_router_ms |
-| blog | 135 | `0.2` | rule fixed in eval/run_routing_eval.py (complex gap <= 0.2) |
-| blog | 135 | `0.50` | threshold_sweep recommended |
-| blog | 135 | `4.32` | threshold_sweep quality_complex at recommended |
-| blog | 135 | `4.00` | threshold_sweep quality_complex at next threshold |
-| blog | 139 | `0.63` | router_head_summary laya_zero_shot@0.50 auc_haiku_ok |
-| blog | 139 | `0.5` | AUC of a coin flip (definition) |
-| blog | 139 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| blog | 143 | `270` | data/router_train.csv rows |
-| blog | 144 | `37%` | router_head_qa train_haiku_ok_rate |
-| blog | 146 | `100` | test_queries.csv rows |
-| blog | 148 | `5` | quality scale top (rubric); config cache.ttl_seconds in minutes; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| blog | 125 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| blog | 125 | `7` | retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| blog | 125 | `6` | retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| blog | 133 | `12%` | routing_summary laya vs always_strong cost; router_head_summary zero-shot saving |
+| blog | 133 | `4.60` | routing_summary laya mean_quality; effort_summary sonnet_low quality_complex |
+| blog | 133 | `4.63` | summary.csv v1_naive mean_quality; routing_summary always_strong mean_quality |
+| blog | 133 | `45` | routing_confusion laya simple->strong |
+| blog | 133 | `62` | test_queries.csv label=simple |
+| blog | 135 | `136` | llm_router tokens per query |
+| blog | 135 | `1,176` | routing_summary llm_router p50_router_ms |
+| blog | 135 | `194` | routing_summary laya p50_router_ms |
+| blog | 137 | `0.2` | rule fixed in eval/run_routing_eval.py (complex gap <= 0.2) |
+| blog | 137 | `0.50` | threshold_sweep recommended |
+| blog | 137 | `4.32` | threshold_sweep quality_complex at recommended |
+| blog | 137 | `4.00` | threshold_sweep quality_complex at next threshold |
+| blog | 141 | `0.63` | router_head_summary laya_zero_shot@0.50 auc_haiku_ok |
+| blog | 141 | `0.5` | AUC of a coin flip (definition) |
+| blog | 141 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| blog | 145 | `270` | data/router_train.csv rows |
+| blog | 146 | `37%` | router_head_qa train_haiku_ok_rate |
 | blog | 148 | `100` | test_queries.csv rows |
-| blog | 152 | `12%` | routing_summary laya vs always_strong cost; router_head_summary zero-shot saving |
-| blog | 152 | `4.60` | routing_summary laya mean_quality; effort_summary sonnet_low quality_complex |
-| blog | 152 | `20%` | router_head_summary laya_head saving; router_head_summary laya_zero_shot@0.50 share_to_haiku |
-| blog | 153 | `13%` | router_head_summary length_rule saving |
-| blog | 153 | `4.59` | router_head_summary length_rule quality |
-| blog | 153 | `23%` | router_head_summary length_rule share_to_haiku |
-| blog | 154 | `15%` | router_head_summary minilm_head saving |
-| blog | 154 | `4.58` | router_head_summary minilm_head quality |
-| blog | 154 | `27%` | router_head_summary minilm_head share_to_haiku |
-| blog | 155 | `20%` | router_head_summary laya_head saving; router_head_summary laya_zero_shot@0.50 share_to_haiku |
-| blog | 155 | `4.54` | router_head_summary laya_head quality |
-| blog | 155 | `36%` | router_head_summary laya_head share_to_haiku |
-| blog | 156 | `38%` | router_head_summary hindsight ceiling saving; router_head_summary hindsight_ceiling saving |
-| blog | 156 | `4.68` | router_head_summary hindsight_ceiling quality |
-| blog | 156 | `60%` | router_head_summary hindsight_ceiling share_to_haiku |
-| blog | 158 | `20%` | router_head_summary laya_head saving; router_head_summary laya_zero_shot@0.50 share_to_haiku |
-| blog | 158 | `100` | test_queries.csv rows |
-| blog | 158 | `$0.517` | router_head_summary always_sonnet cost_usd (100 test questions) |
-| blog | 158 | `$0.415` | router_head_summary laya_head cost_usd (100 test questions) |
-| blog | 158 | `20%` | router_head_summary laya_head saving; router_head_summary laya_zero_shot@0.50 share_to_haiku |
-| blog | 158 | `36%` | router_head_summary laya_head share_to_haiku |
-| blog | 158 | `20%` | router_head_summary laya_head saving; router_head_summary laya_zero_shot@0.50 share_to_haiku |
-| blog | 158 | `4.63` | summary.csv v1_naive mean_quality; routing_summary always_strong mean_quality |
-| blog | 158 | `4.54` | router_head_summary laya_head quality |
-| blog | 158 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| blog | 160 | `60%` | router_head_summary hindsight_ceiling share_to_haiku |
-| blog | 160 | `38%` | router_head_summary hindsight ceiling saving; router_head_summary hindsight_ceiling saving |
-| blog | 160 | `4.68` | router_head_summary hindsight_ceiling quality |
-| blog | 162 | `0.63` | router_head_summary laya_zero_shot@0.50 auc_haiku_ok |
-| blog | 162 | `0.75` | router_head_summary laya_head auc_haiku_ok |
-| blog | 162 | `2,000` | router_head_bootstrap resamples |
-| blog | 162 | `1,991` | router_head_bootstrap resamples with extra saving > 0 |
-| blog | 162 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| blog | 162 | `15` | router_head_bootstrap extra saving 95% CI high (points) |
-| blog | 162 | `0.76` | router_head_summary length_rule auc_haiku_ok |
-| blog | 162 | `13%` | router_head_summary length_rule saving |
-| blog | 164 | `4.42` | routing_summary always_cheap quality_simple |
-| blog | 164 | `4.79` | routing_summary always_strong quality_simple |
-| blog | 164 | `38%` | router_head_summary hindsight ceiling saving; router_head_summary hindsight_ceiling saving |
-| blog | 168 | `5.5` | model name: Claude Sonnet 5.5 |
-| blog | 168 | `4.5` | model name: Claude Haiku 4.5 |
-| blog | 168 | `50` | effort_summary sample size; effort sample size (config effort_eval.sample) |
-| blog | 168 | `30` | effort sample: simple questions (config) |
-| blog | 168 | `20` | per_answer_eval: answers improving >=2 v2_full -> cache_full_kb; judge_handcheck.md answers checked |
+| blog | 150 | `5` | quality scale top (rubric); config cache.ttl_seconds in minutes; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| blog | 150 | `100` | test_queries.csv rows |
+| blog | 154 | `12%` | routing_summary laya vs always_strong cost; router_head_summary zero-shot saving |
+| blog | 154 | `4.60` | routing_summary laya mean_quality; effort_summary sonnet_low quality_complex |
+| blog | 154 | `20%` | router_head_summary laya_head saving; router_head_summary laya_zero_shot@0.50 share_to_haiku |
+| blog | 155 | `13%` | router_head_summary length_rule saving |
+| blog | 155 | `4.59` | router_head_summary length_rule quality |
+| blog | 155 | `23%` | router_head_summary length_rule share_to_haiku |
+| blog | 156 | `15%` | router_head_summary minilm_head saving |
+| blog | 156 | `4.58` | router_head_summary minilm_head quality |
+| blog | 156 | `27%` | router_head_summary minilm_head share_to_haiku |
+| blog | 157 | `20%` | router_head_summary laya_head saving; router_head_summary laya_zero_shot@0.50 share_to_haiku |
+| blog | 157 | `4.54` | router_head_summary laya_head quality |
+| blog | 157 | `36%` | router_head_summary laya_head share_to_haiku |
+| blog | 158 | `38%` | router_head_summary hindsight ceiling saving; router_head_summary hindsight_ceiling saving |
+| blog | 158 | `4.68` | router_head_summary hindsight_ceiling quality |
+| blog | 158 | `60%` | router_head_summary hindsight_ceiling share_to_haiku |
+| blog | 160 | `20%` | router_head_summary laya_head saving; router_head_summary laya_zero_shot@0.50 share_to_haiku |
+| blog | 160 | `100` | test_queries.csv rows |
+| blog | 160 | `$0.517` | router_head_summary always_sonnet cost_usd (100 test questions) |
+| blog | 160 | `$0.415` | router_head_summary laya_head cost_usd (100 test questions) |
+| blog | 160 | `20%` | router_head_summary laya_head saving; router_head_summary laya_zero_shot@0.50 share_to_haiku |
+| blog | 160 | `36%` | router_head_summary laya_head share_to_haiku |
+| blog | 160 | `20%` | router_head_summary laya_head saving; router_head_summary laya_zero_shot@0.50 share_to_haiku |
+| blog | 160 | `4.63` | summary.csv v1_naive mean_quality; routing_summary always_strong mean_quality |
+| blog | 160 | `4.54` | router_head_summary laya_head quality |
+| blog | 160 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| blog | 162 | `60%` | router_head_summary hindsight_ceiling share_to_haiku |
+| blog | 162 | `38%` | router_head_summary hindsight ceiling saving; router_head_summary hindsight_ceiling saving |
+| blog | 162 | `4.68` | router_head_summary hindsight_ceiling quality |
+| blog | 164 | `0.63` | router_head_summary laya_zero_shot@0.50 auc_haiku_ok |
+| blog | 164 | `0.75` | router_head_summary laya_head auc_haiku_ok |
+| blog | 164 | `2,000` | router_head_bootstrap resamples |
+| blog | 164 | `1,991` | router_head_bootstrap resamples with extra saving > 0 |
+| blog | 164 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| blog | 164 | `15` | router_head_bootstrap extra saving 95% CI high (points) |
+| blog | 164 | `0.76` | router_head_summary length_rule auc_haiku_ok |
+| blog | 164 | `13%` | router_head_summary length_rule saving |
+| blog | 166 | `4.42` | routing_summary always_cheap quality_simple |
+| blog | 166 | `4.79` | routing_summary always_strong quality_simple |
+| blog | 166 | `38%` | router_head_summary hindsight ceiling saving; router_head_summary hindsight_ceiling saving |
 | blog | 170 | `5.5` | model name: Claude Sonnet 5.5 |
+| blog | 170 | `4.5` | model name: Claude Haiku 4.5 |
 | blog | 170 | `50` | effort_summary sample size; effort sample size (config effort_eval.sample) |
-| blog | 172 | `$0.264` | effort_summary always_strong total_cost_usd |
-| blog | 172 | `0` | effort_summary thinking-off thinking_tokens |
-| blog | 172 | `4.62` | effort_summary always_strong mean_quality; effort_summary sonnet_medium mean_quality |
-| blog | 172 | `4.45` | effort_summary always_strong quality_complex |
-| blog | 172 | `2.5` | effort_summary always_strong p50 latency (s) |
-| blog | 173 | `$0.241` | effort_summary sonnet_low total_cost_usd |
-| blog | 173 | `1,683` | effort_summary sonnet_low thinking_tokens |
-| blog | 173 | `4.66` | effort_summary sonnet_low mean_quality; effort_summary sonnet_high mean_quality |
-| blog | 173 | `4.60` | routing_summary laya mean_quality; effort_summary sonnet_low quality_complex |
-| blog | 173 | `2.3` | effort_summary sonnet_low p50 latency (s) |
-| blog | 174 | `$0.259` | effort_summary sonnet_medium total_cost_usd |
-| blog | 174 | `3,433` | effort_summary sonnet_medium thinking_tokens |
+| blog | 170 | `30` | effort sample: simple questions (config) |
+| blog | 170 | `20` | per_answer_eval: answers improving >=2 v2_full -> cache_full_kb; judge_handcheck.md answers checked |
+| blog | 172 | `5.5` | model name: Claude Sonnet 5.5 |
+| blog | 172 | `50` | effort_summary sample size; effort sample size (config effort_eval.sample) |
+| blog | 174 | `$0.264` | effort_summary always_strong total_cost_usd |
+| blog | 174 | `0` | effort_summary thinking-off thinking_tokens |
 | blog | 174 | `4.62` | effort_summary always_strong mean_quality; effort_summary sonnet_medium mean_quality |
-| blog | 174 | `4.50` | effort_summary sonnet_medium quality_complex |
-| blog | 174 | `2.6` | effort_summary sonnet_medium p50 latency (s) |
-| blog | 175 | `$0.307` | effort_summary sonnet_high total_cost_usd |
-| blog | 175 | `8,335` | effort_summary sonnet_high thinking_tokens |
+| blog | 174 | `4.45` | effort_summary always_strong quality_complex |
+| blog | 174 | `2.5` | effort_summary always_strong p50 latency (s) |
+| blog | 175 | `$0.241` | effort_summary sonnet_low total_cost_usd |
+| blog | 175 | `1,683` | effort_summary sonnet_low thinking_tokens |
 | blog | 175 | `4.66` | effort_summary sonnet_low mean_quality; effort_summary sonnet_high mean_quality |
-| blog | 175 | `4.65` | effort_summary sonnet_high quality_complex |
-| blog | 175 | `3.5` | effort_summary sonnet_high p50 latency (s) |
-| blog | 177 | `9%` | effort: low vs thinking off |
-| blog | 177 | `28%` | effort: high vs low cost |
-| blog | 179 | `26%` | effort_combo laya_head + sonnet_low saving |
-| blog | 183 | `8%` | cache_full_kb vs v2_full cost |
-| blog | 183 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| blog | 183 | `140` | 100 queries + conversation turns (data files) |
-| blog | 183 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| blog | 183 | `$5,368` | cache_full_kb cost per answer x 1M |
-| blog | 183 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| blog | 183 | `$13,946` | v1 cost per answer x 1M |
-| blog | 201 | `78%` | variance.csv judge re-score identical share |
-| blog | 201 | `17` | judge_handcheck.md AGREE count |
-| blog | 201 | `20` | per_answer_eval: answers improving >=2 v2_full -> cache_full_kb; judge_handcheck.md answers checked |
-| blog | 201 | `100` | test_queries.csv rows |
-| blog | 201 | `0.1` | noise floor stated from judge variance (mean |diff| 0.23 per answer) |
-| blog | 201 | `140` | 100 queries + conversation turns (data files) |
+| blog | 175 | `4.60` | routing_summary laya mean_quality; effort_summary sonnet_low quality_complex |
+| blog | 175 | `2.3` | effort_summary sonnet_low p50 latency (s) |
+| blog | 176 | `$0.259` | effort_summary sonnet_medium total_cost_usd |
+| blog | 176 | `3,433` | effort_summary sonnet_medium thinking_tokens |
+| blog | 176 | `4.62` | effort_summary always_strong mean_quality; effort_summary sonnet_medium mean_quality |
+| blog | 176 | `4.50` | effort_summary sonnet_medium quality_complex |
+| blog | 176 | `2.6` | effort_summary sonnet_medium p50 latency (s) |
+| blog | 177 | `$0.307` | effort_summary sonnet_high total_cost_usd |
+| blog | 177 | `8,335` | effort_summary sonnet_high thinking_tokens |
+| blog | 177 | `4.66` | effort_summary sonnet_low mean_quality; effort_summary sonnet_high mean_quality |
+| blog | 177 | `4.65` | effort_summary sonnet_high quality_complex |
+| blog | 177 | `3.5` | effort_summary sonnet_high p50 latency (s) |
+| blog | 179 | `9%` | effort: low vs thinking off |
+| blog | 179 | `28%` | effort: high vs low cost |
+| blog | 181 | `26%` | effort_combo laya_head + sonnet_low saving |
+| blog | 185 | `8%` | cache_full_kb vs v2_full cost |
+| blog | 185 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| blog | 185 | `140` | 100 queries + conversation turns (data files) |
+| blog | 185 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| blog | 185 | `$5,368` | cache_full_kb cost per answer x 1M |
+| blog | 185 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| blog | 185 | `$13,946` | v1 cost per answer x 1M |
+| blog | 203 | `78%` | variance.csv judge re-score identical share |
+| blog | 203 | `17` | judge_handcheck.md AGREE count |
+| blog | 203 | `20` | per_answer_eval: answers improving >=2 v2_full -> cache_full_kb; judge_handcheck.md answers checked |
+| blog | 203 | `100` | test_queries.csv rows |
+| blog | 203 | `0.1` | noise floor stated from judge variance (mean |diff| 0.23 per answer) |
+| blog | 203 | `140` | 100 queries + conversation turns (data files) |
 | linkedin | 5 | `140` | 100 queries + conversation turns (data files) |
 | linkedin | 9 | `$1.95` | summary.csv v1_naive total_cost_usd |
 | linkedin | 9 | `$0.69` | summary.csv v2_full total_cost_usd |
@@ -315,235 +329,249 @@
 | web page | 65 | `3` | config retrieval.top_k; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
 | web page | 65 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
 | web page | 77 | `140` | 100 queries + conversation turns (data files) |
-| web page | 83 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 84 | `$1.95` | summary.csv v1_naive total_cost_usd |
-| web page | 85 | `4.63` | summary.csv v1_naive mean_quality; routing_summary always_strong mean_quality |
-| web page | 89 | `$1.75` | summary.csv plus_route total_cost_usd |
-| web page | 90 | `4.56` | summary.csv plus_route mean_quality; summary.csv plus_route mean_quality |
-| web page | 94 | `$1.12` | summary.csv plus_retrieve total_cost_usd; summary.csv plus_trim total_cost_usd |
-| web page | 95 | `4.34` | summary.csv plus_retrieve mean_quality; summary.csv plus_retrieve mean_quality |
-| web page | 99 | `$1.12` | summary.csv plus_retrieve total_cost_usd; summary.csv plus_trim total_cost_usd |
-| web page | 100 | `4.39` | summary.csv plus_trim mean_quality |
-| web page | 104 | `$0.91` | summary.csv plus_tight_cache total_cost_usd |
-| web page | 105 | `4.40` | summary.csv plus_tight_cache mean_quality |
-| web page | 108 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 109 | `$0.69` | summary.csv v2_full total_cost_usd |
-| web page | 110 | `4.49` | summary.csv v2_full mean_quality |
-| web page | 115 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 115 | `9` | retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank; kb.md sections (retriever chunks) |
-| web page | 115 | `3` | config retrieval.top_k; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 115 | `3` | config retrieval.top_k; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 116 | `$0.63` | retrieval step: plus_route - plus_retrieve cost |
-| web page | 116 | `$1.26` | total saving v1 - v2 |
-| web page | 117 | `5` | quality scale top (rubric); config cache.ttl_seconds in minutes; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 117 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 117 | `14` | per_answer_eval: answers dropping >=2 from plus_route to plus_retrieve |
-| web page | 117 | `140` | 100 queries + conversation turns (data files) |
-| web page | 118 | `0.5%` | trim step / v1 cost |
-| web page | 118 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 118 | `203` | calls_eval v2_full Sonnet static_prefix_tokens |
-| web page | 118 | `512` | config cache.min_tokens strong |
-| web page | 119 | `4.80` | summary.csv cache_full_kb mean_quality |
-| web page | 119 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 119 | `4.63` | summary.csv v1_naive mean_quality; routing_summary always_strong mean_quality |
-| web page | 119 | `62%` | 1 - cache_full_kb/v1 cost |
-| web page | 119 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 78 | `140` | 100 queries + conversation turns (data files) |
+| web page | 84 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 85 | `$1.95` | summary.csv v1_naive total_cost_usd |
+| web page | 86 | `700,263` | summary v1_naive total_input_tokens + output_tokens |
+| web page | 87 | `4.63` | summary.csv v1_naive mean_quality; routing_summary always_strong mean_quality |
+| web page | 91 | `$1.75` | summary.csv plus_route total_cost_usd |
+| web page | 92 | `666,257` | summary plus_route total_input_tokens + output_tokens |
+| web page | 93 | `4.56` | summary.csv plus_route mean_quality; summary.csv plus_route mean_quality |
+| web page | 97 | `$1.12` | summary.csv plus_retrieve total_cost_usd; summary.csv plus_trim total_cost_usd |
+| web page | 98 | `340,018` | summary plus_retrieve total_input_tokens + output_tokens |
+| web page | 99 | `4.34` | summary.csv plus_retrieve mean_quality; summary.csv plus_retrieve mean_quality |
+| web page | 103 | `$1.12` | summary.csv plus_retrieve total_cost_usd; summary.csv plus_trim total_cost_usd |
+| web page | 104 | `340,217` | summary plus_trim total_input_tokens + output_tokens |
+| web page | 105 | `4.39` | summary.csv plus_trim mean_quality |
+| web page | 109 | `$0.91` | summary.csv plus_tight_cache total_cost_usd |
+| web page | 110 | `264,266` | summary plus_tight_cache total_input_tokens + output_tokens |
+| web page | 111 | `4.40` | summary.csv plus_tight_cache mean_quality |
+| web page | 114 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 115 | `$0.69` | summary.csv v2_full total_cost_usd |
+| web page | 116 | `239,713` | summary v2_full total_input_tokens + output_tokens |
+| web page | 117 | `4.49` | summary.csv v2_full mean_quality |
+| web page | 122 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 122 | `9` | retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank; kb.md sections (retriever chunks) |
+| web page | 122 | `3` | config retrieval.top_k; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 122 | `3` | config retrieval.top_k; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 123 | `$0.63` | retrieval step: plus_route - plus_retrieve cost |
+| web page | 123 | `$1.26` | total saving v1 - v2 |
+| web page | 124 | `5` | quality scale top (rubric); config cache.ttl_seconds in minutes; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 124 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 124 | `14` | per_answer_eval: answers dropping >=2 from plus_route to plus_retrieve |
 | web page | 124 | `140` | 100 queries + conversation turns (data files) |
-| web page | 130 | `3` | config retrieval.top_k; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 131 | `$0.91` | summary.csv plus_tight_cache total_cost_usd |
-| web page | 132 | `4.40` | summary.csv plus_tight_cache mean_quality |
-| web page | 136 | `$0.75` | summary.csv cache_full_kb total_cost_usd |
-| web page | 137 | `4.80` | summary.csv cache_full_kb mean_quality |
-| web page | 141 | `17%` | cache_full_kb vs plus_tight_cache cost (same setup, RAG vs cache) |
-| web page | 141 | `20` | per_answer_eval: answers improving >=2 v2_full -> cache_full_kb; judge_handcheck.md answers checked |
-| web page | 142 | `5` | quality scale top (rubric); config cache.ttl_seconds in minutes; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 142 | `140` | 100 queries + conversation turns (data files) |
-| web page | 142 | `5` | quality scale top (rubric); config cache.ttl_seconds in minutes; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 143 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 143 | `$1.95` | summary.csv v1_naive total_cost_usd |
-| web page | 143 | `4.63` | summary.csv v1_naive mean_quality; routing_summary always_strong mean_quality |
-| web page | 144 | `$1.75` | summary.csv plus_route total_cost_usd |
-| web page | 144 | `4.56` | summary.csv plus_route mean_quality; summary.csv plus_route mean_quality |
-| web page | 145 | `$1.12` | summary.csv plus_retrieve total_cost_usd; summary.csv plus_trim total_cost_usd |
-| web page | 145 | `4.34` | summary.csv plus_retrieve mean_quality; summary.csv plus_retrieve mean_quality |
-| web page | 146 | `$1.12` | summary.csv plus_retrieve total_cost_usd; summary.csv plus_trim total_cost_usd |
-| web page | 146 | `4.39` | summary.csv plus_trim mean_quality |
-| web page | 147 | `$0.91` | summary.csv plus_tight_cache total_cost_usd |
-| web page | 147 | `4.40` | summary.csv plus_tight_cache mean_quality |
-| web page | 148 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 148 | `$0.69` | summary.csv v2_full total_cost_usd |
-| web page | 148 | `4.49` | summary.csv v2_full mean_quality |
-| web page | 149 | `$0.75` | summary.csv cache_full_kb total_cost_usd |
-| web page | 149 | `4.80` | summary.csv cache_full_kb mean_quality |
-| web page | 152 | `9` | retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank; kb.md sections (retriever chunks) |
-| web page | 154 | `384` | MiniLM embedding dimensions |
-| web page | 155 | `9` | retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank; kb.md sections (retriever chunks) |
-| web page | 155 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 155 | `60` | config retrieval.rrf_k (fusion constant) |
-| web page | 155 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 155 | `60` | config retrieval.rrf_k (fusion constant) |
-| web page | 156 | `3` | config retrieval.top_k; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 158 | `3` | config retrieval.top_k; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 169 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 170 | `74%` | retrieval_recall right section found at k=1 |
-| web page | 171 | `11%` | retrieval_recall share of manual sent at k=1 |
-| web page | 174 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 175 | `89%` | retrieval_recall right section found at k=2 |
-| web page | 176 | `22%` | retrieval_recall share of manual sent at k=2 |
-| web page | 179 | `3` | config retrieval.top_k; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 180 | `95%` | retrieval_recall right section found at k=3 |
-| web page | 181 | `33%` | retrieval_recall share of manual sent at k=3 |
-| web page | 184 | `4` | retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 185 | `96%` | retrieval_recall right section found at k=4 |
-| web page | 186 | `44%` | retrieval_recall share of manual sent at k=4 |
-| web page | 189 | `5` | quality scale top (rubric); config cache.ttl_seconds in minutes; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 190 | `97%` | retrieval_recall right section found at k=5 |
-| web page | 191 | `56%` | retrieval_recall share of manual sent at k=5 |
-| web page | 195 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 195 | `3` | config retrieval.top_k; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 195 | `3` | config retrieval.top_k; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 209 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 210 | `4` | retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 211 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 215 | `4` | retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 216 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 217 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 221 | `3` | config retrieval.top_k; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 222 | `5` | quality scale top (rubric); config cache.ttl_seconds in minutes; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 223 | `3` | config retrieval.top_k; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 227 | `5` | quality scale top (rubric); config cache.ttl_seconds in minutes; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 228 | `3` | config retrieval.top_k; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 229 | `4` | retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 233 | `8` | retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 234 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 235 | `5` | quality scale top (rubric); config cache.ttl_seconds in minutes; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 239 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 240 | `7` | retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 241 | `6` | retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 245 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 245 | `7` | retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 245 | `6` | retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 247 | `12%` | routing_summary laya vs always_strong cost; router_head_summary zero-shot saving |
-| web page | 247 | `4.60` | routing_summary laya mean_quality; effort_summary sonnet_low quality_complex |
-| web page | 247 | `4.63` | summary.csv v1_naive mean_quality; routing_summary always_strong mean_quality |
-| web page | 247 | `45` | routing_confusion laya simple->strong |
-| web page | 247 | `62` | test_queries.csv label=simple |
-| web page | 248 | `136` | llm_router tokens per query |
-| web page | 248 | `1,176` | routing_summary llm_router p50_router_ms |
-| web page | 248 | `194` | routing_summary laya p50_router_ms |
-| web page | 249 | `0.2` | rule fixed in eval/run_routing_eval.py (complex gap <= 0.2) |
-| web page | 249 | `0.50` | threshold_sweep recommended |
-| web page | 249 | `4.32` | threshold_sweep quality_complex at recommended |
-| web page | 249 | `4.00` | threshold_sweep quality_complex at next threshold |
-| web page | 249 | `0.63` | router_head_summary laya_zero_shot@0.50 auc_haiku_ok |
-| web page | 249 | `0.5` | AUC of a coin flip (definition) |
-| web page | 249 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 252 | `270` | data/router_train.csv rows |
-| web page | 253 | `37%` | router_head_qa train_haiku_ok_rate |
-| web page | 255 | `100` | test_queries.csv rows |
-| web page | 257 | `5` | quality scale top (rubric); config cache.ttl_seconds in minutes; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 257 | `100` | test_queries.csv rows |
-| web page | 270 | `12%` | routing_summary laya vs always_strong cost; router_head_summary zero-shot saving |
-| web page | 271 | `4.60` | routing_summary laya mean_quality; effort_summary sonnet_low quality_complex |
-| web page | 272 | `20%` | router_head_summary laya_head saving; router_head_summary laya_zero_shot@0.50 share_to_haiku |
-| web page | 276 | `13%` | router_head_summary length_rule saving |
-| web page | 277 | `4.59` | router_head_summary length_rule quality |
-| web page | 278 | `23%` | router_head_summary length_rule share_to_haiku |
-| web page | 282 | `15%` | router_head_summary minilm_head saving |
-| web page | 283 | `4.58` | router_head_summary minilm_head quality |
-| web page | 284 | `27%` | router_head_summary minilm_head share_to_haiku |
-| web page | 288 | `20%` | router_head_summary laya_head saving; router_head_summary laya_zero_shot@0.50 share_to_haiku |
-| web page | 289 | `4.54` | router_head_summary laya_head quality |
-| web page | 290 | `36%` | router_head_summary laya_head share_to_haiku |
-| web page | 294 | `38%` | router_head_summary hindsight ceiling saving; router_head_summary hindsight_ceiling saving |
-| web page | 295 | `4.68` | router_head_summary hindsight_ceiling quality |
-| web page | 296 | `60%` | router_head_summary hindsight_ceiling share_to_haiku |
-| web page | 300 | `20%` | router_head_summary laya_head saving; router_head_summary laya_zero_shot@0.50 share_to_haiku |
-| web page | 300 | `100` | test_queries.csv rows |
-| web page | 300 | `$0.517` | router_head_summary always_sonnet cost_usd (100 test questions) |
-| web page | 300 | `$0.415` | router_head_summary laya_head cost_usd (100 test questions) |
-| web page | 300 | `20%` | router_head_summary laya_head saving; router_head_summary laya_zero_shot@0.50 share_to_haiku |
-| web page | 300 | `36%` | router_head_summary laya_head share_to_haiku |
-| web page | 300 | `20%` | router_head_summary laya_head saving; router_head_summary laya_zero_shot@0.50 share_to_haiku |
-| web page | 300 | `4.63` | summary.csv v1_naive mean_quality; routing_summary always_strong mean_quality |
+| web page | 125 | `0.5%` | trim step / v1 cost |
+| web page | 125 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 125 | `203` | calls_eval v2_full Sonnet static_prefix_tokens |
+| web page | 125 | `512` | config cache.min_tokens strong |
+| web page | 126 | `66%` | 1 - v2/v1 (total_input_tokens + output_tokens) |
+| web page | 126 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 126 | `5%` | routing step token reduction (plus_route vs v1_naive) |
+| web page | 126 | `199` | tokens added by history trimming (plus_trim - plus_retrieve) |
+| web page | 127 | `4.80` | summary.csv cache_full_kb mean_quality |
+| web page | 127 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 127 | `4.63` | summary.csv v1_naive mean_quality; routing_summary always_strong mean_quality |
+| web page | 127 | `62%` | 1 - cache_full_kb/v1 cost |
+| web page | 127 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 132 | `140` | 100 queries + conversation turns (data files) |
+| web page | 133 | `140` | 100 queries + conversation turns (data files) |
+| web page | 139 | `3` | config retrieval.top_k; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 140 | `$0.91` | summary.csv plus_tight_cache total_cost_usd |
+| web page | 141 | `264,266` | summary plus_tight_cache total_input_tokens + output_tokens |
+| web page | 142 | `4.40` | summary.csv plus_tight_cache mean_quality |
+| web page | 146 | `$0.75` | summary.csv cache_full_kb total_cost_usd |
+| web page | 147 | `588,461` | summary cache_full_kb total_input_tokens + output_tokens |
+| web page | 148 | `4.80` | summary.csv cache_full_kb mean_quality |
+| web page | 152 | `17%` | cache_full_kb vs plus_tight_cache cost (same setup, RAG vs cache) |
+| web page | 152 | `20` | per_answer_eval: answers improving >=2 v2_full -> cache_full_kb; judge_handcheck.md answers checked |
+| web page | 153 | `5` | quality scale top (rubric); config cache.ttl_seconds in minutes; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 153 | `140` | 100 queries + conversation turns (data files) |
+| web page | 153 | `5` | quality scale top (rubric); config cache.ttl_seconds in minutes; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 154 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 154 | `$1.95` | summary.csv v1_naive total_cost_usd |
+| web page | 154 | `4.63` | summary.csv v1_naive mean_quality; routing_summary always_strong mean_quality |
+| web page | 155 | `$1.75` | summary.csv plus_route total_cost_usd |
+| web page | 155 | `4.56` | summary.csv plus_route mean_quality; summary.csv plus_route mean_quality |
+| web page | 156 | `$1.12` | summary.csv plus_retrieve total_cost_usd; summary.csv plus_trim total_cost_usd |
+| web page | 156 | `4.34` | summary.csv plus_retrieve mean_quality; summary.csv plus_retrieve mean_quality |
+| web page | 157 | `$1.12` | summary.csv plus_retrieve total_cost_usd; summary.csv plus_trim total_cost_usd |
+| web page | 157 | `4.39` | summary.csv plus_trim mean_quality |
+| web page | 158 | `$0.91` | summary.csv plus_tight_cache total_cost_usd |
+| web page | 158 | `4.40` | summary.csv plus_tight_cache mean_quality |
+| web page | 159 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 159 | `$0.69` | summary.csv v2_full total_cost_usd |
+| web page | 159 | `4.49` | summary.csv v2_full mean_quality |
+| web page | 160 | `$0.75` | summary.csv cache_full_kb total_cost_usd |
+| web page | 160 | `4.80` | summary.csv cache_full_kb mean_quality |
+| web page | 163 | `9` | retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank; kb.md sections (retriever chunks) |
+| web page | 165 | `384` | MiniLM embedding dimensions |
+| web page | 166 | `9` | retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank; kb.md sections (retriever chunks) |
+| web page | 166 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 166 | `60` | config retrieval.rrf_k (fusion constant) |
+| web page | 166 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 166 | `60` | config retrieval.rrf_k (fusion constant) |
+| web page | 167 | `3` | config retrieval.top_k; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 169 | `3` | config retrieval.top_k; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 180 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 181 | `74%` | retrieval_recall right section found at k=1 |
+| web page | 182 | `11%` | retrieval_recall share of manual sent at k=1 |
+| web page | 185 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 186 | `89%` | retrieval_recall right section found at k=2 |
+| web page | 187 | `22%` | retrieval_recall share of manual sent at k=2 |
+| web page | 190 | `3` | config retrieval.top_k; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 191 | `95%` | retrieval_recall right section found at k=3 |
+| web page | 192 | `33%` | retrieval_recall share of manual sent at k=3 |
+| web page | 195 | `4` | retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 196 | `96%` | retrieval_recall right section found at k=4 |
+| web page | 197 | `44%` | retrieval_recall share of manual sent at k=4 |
+| web page | 200 | `5` | quality scale top (rubric); config cache.ttl_seconds in minutes; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 201 | `97%` | retrieval_recall right section found at k=5 |
+| web page | 202 | `56%` | retrieval_recall share of manual sent at k=5 |
+| web page | 206 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 206 | `3` | config retrieval.top_k; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 206 | `3` | config retrieval.top_k; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 220 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 221 | `4` | retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 222 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 226 | `4` | retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 227 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 228 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 232 | `3` | config retrieval.top_k; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 233 | `5` | quality scale top (rubric); config cache.ttl_seconds in minutes; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 234 | `3` | config retrieval.top_k; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 238 | `5` | quality scale top (rubric); config cache.ttl_seconds in minutes; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 239 | `3` | config retrieval.top_k; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 240 | `4` | retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 244 | `8` | retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 245 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 246 | `5` | quality scale top (rubric); config cache.ttl_seconds in minutes; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 250 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 251 | `7` | retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 252 | `6` | retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 256 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 256 | `7` | retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 256 | `6` | retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 258 | `12%` | routing_summary laya vs always_strong cost; router_head_summary zero-shot saving |
+| web page | 258 | `4.60` | routing_summary laya mean_quality; effort_summary sonnet_low quality_complex |
+| web page | 258 | `4.63` | summary.csv v1_naive mean_quality; routing_summary always_strong mean_quality |
+| web page | 258 | `45` | routing_confusion laya simple->strong |
+| web page | 258 | `62` | test_queries.csv label=simple |
+| web page | 259 | `136` | llm_router tokens per query |
+| web page | 259 | `1,176` | routing_summary llm_router p50_router_ms |
+| web page | 259 | `194` | routing_summary laya p50_router_ms |
+| web page | 260 | `0.2` | rule fixed in eval/run_routing_eval.py (complex gap <= 0.2) |
+| web page | 260 | `0.50` | threshold_sweep recommended |
+| web page | 260 | `4.32` | threshold_sweep quality_complex at recommended |
+| web page | 260 | `4.00` | threshold_sweep quality_complex at next threshold |
+| web page | 260 | `0.63` | router_head_summary laya_zero_shot@0.50 auc_haiku_ok |
+| web page | 260 | `0.5` | AUC of a coin flip (definition) |
+| web page | 260 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 263 | `270` | data/router_train.csv rows |
+| web page | 264 | `37%` | router_head_qa train_haiku_ok_rate |
+| web page | 266 | `100` | test_queries.csv rows |
+| web page | 268 | `5` | quality scale top (rubric); config cache.ttl_seconds in minutes; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 268 | `100` | test_queries.csv rows |
+| web page | 281 | `12%` | routing_summary laya vs always_strong cost; router_head_summary zero-shot saving |
+| web page | 282 | `4.60` | routing_summary laya mean_quality; effort_summary sonnet_low quality_complex |
+| web page | 283 | `20%` | router_head_summary laya_head saving; router_head_summary laya_zero_shot@0.50 share_to_haiku |
+| web page | 287 | `13%` | router_head_summary length_rule saving |
+| web page | 288 | `4.59` | router_head_summary length_rule quality |
+| web page | 289 | `23%` | router_head_summary length_rule share_to_haiku |
+| web page | 293 | `15%` | router_head_summary minilm_head saving |
+| web page | 294 | `4.58` | router_head_summary minilm_head quality |
+| web page | 295 | `27%` | router_head_summary minilm_head share_to_haiku |
+| web page | 299 | `20%` | router_head_summary laya_head saving; router_head_summary laya_zero_shot@0.50 share_to_haiku |
 | web page | 300 | `4.54` | router_head_summary laya_head quality |
-| web page | 300 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 301 | `60%` | router_head_summary hindsight_ceiling share_to_haiku |
-| web page | 301 | `38%` | router_head_summary hindsight ceiling saving; router_head_summary hindsight_ceiling saving |
-| web page | 301 | `4.68` | router_head_summary hindsight_ceiling quality |
-| web page | 302 | `0.63` | router_head_summary laya_zero_shot@0.50 auc_haiku_ok |
-| web page | 302 | `0.75` | router_head_summary laya_head auc_haiku_ok |
-| web page | 302 | `2,000` | router_head_bootstrap resamples |
-| web page | 302 | `1,991` | router_head_bootstrap resamples with extra saving > 0 |
-| web page | 302 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 302 | `15` | router_head_bootstrap extra saving 95% CI high (points) |
-| web page | 302 | `0.76` | router_head_summary length_rule auc_haiku_ok |
-| web page | 302 | `13%` | router_head_summary length_rule saving |
-| web page | 303 | `4.42` | routing_summary always_cheap quality_simple |
-| web page | 303 | `4.79` | routing_summary always_strong quality_simple |
-| web page | 303 | `38%` | router_head_summary hindsight ceiling saving; router_head_summary hindsight_ceiling saving |
-| web page | 303 | `100` | test_queries.csv rows |
-| web page | 304 | `12%` | routing_summary laya vs always_strong cost; router_head_summary zero-shot saving |
-| web page | 304 | `4.60` | routing_summary laya mean_quality; effort_summary sonnet_low quality_complex |
-| web page | 305 | `13%` | router_head_summary length_rule saving |
-| web page | 305 | `4.59` | router_head_summary length_rule quality |
-| web page | 306 | `15%` | router_head_summary minilm_head saving |
-| web page | 306 | `4.58` | router_head_summary minilm_head quality |
-| web page | 307 | `20%` | router_head_summary laya_head saving; router_head_summary laya_zero_shot@0.50 share_to_haiku |
-| web page | 307 | `4.54` | router_head_summary laya_head quality |
-| web page | 308 | `38%` | router_head_summary hindsight ceiling saving; router_head_summary hindsight_ceiling saving |
-| web page | 308 | `4.68` | router_head_summary hindsight_ceiling quality |
-| web page | 309 | `5.5` | model name: Claude Sonnet 5.5 |
-| web page | 309 | `4.5` | model name: Claude Haiku 4.5 |
-| web page | 309 | `50` | effort_summary sample size; effort sample size (config effort_eval.sample) |
-| web page | 309 | `30` | effort sample: simple questions (config) |
-| web page | 309 | `20` | per_answer_eval: answers improving >=2 v2_full -> cache_full_kb; judge_handcheck.md answers checked |
-| web page | 313 | `5.5` | model name: Claude Sonnet 5.5 |
-| web page | 314 | `50` | effort_summary sample size; effort sample size (config effort_eval.sample) |
-| web page | 324 | `$0.264` | effort_summary always_strong total_cost_usd |
-| web page | 325 | `0` | effort_summary thinking-off thinking_tokens |
-| web page | 326 | `4.62` | effort_summary always_strong mean_quality; effort_summary sonnet_medium mean_quality |
-| web page | 327 | `4.45` | effort_summary always_strong quality_complex |
-| web page | 328 | `2.5` | effort_summary always_strong p50 latency (s) |
-| web page | 332 | `$0.241` | effort_summary sonnet_low total_cost_usd |
-| web page | 333 | `1,683` | effort_summary sonnet_low thinking_tokens |
-| web page | 334 | `4.66` | effort_summary sonnet_low mean_quality; effort_summary sonnet_high mean_quality |
-| web page | 335 | `4.60` | routing_summary laya mean_quality; effort_summary sonnet_low quality_complex |
-| web page | 336 | `2.3` | effort_summary sonnet_low p50 latency (s) |
-| web page | 340 | `$0.259` | effort_summary sonnet_medium total_cost_usd |
-| web page | 341 | `3,433` | effort_summary sonnet_medium thinking_tokens |
-| web page | 342 | `4.62` | effort_summary always_strong mean_quality; effort_summary sonnet_medium mean_quality |
-| web page | 343 | `4.50` | effort_summary sonnet_medium quality_complex |
-| web page | 344 | `2.6` | effort_summary sonnet_medium p50 latency (s) |
-| web page | 348 | `$0.307` | effort_summary sonnet_high total_cost_usd |
-| web page | 349 | `8,335` | effort_summary sonnet_high thinking_tokens |
-| web page | 350 | `4.66` | effort_summary sonnet_low mean_quality; effort_summary sonnet_high mean_quality |
-| web page | 351 | `4.65` | effort_summary sonnet_high quality_complex |
-| web page | 352 | `3.5` | effort_summary sonnet_high p50 latency (s) |
-| web page | 356 | `9%` | effort: low vs thinking off |
-| web page | 356 | `28%` | effort: high vs low cost |
-| web page | 357 | `26%` | effort_combo laya_head + sonnet_low saving |
-| web page | 357 | `50` | effort_summary sample size; effort sample size (config effort_eval.sample) |
-| web page | 358 | `$0.264` | effort_summary always_strong total_cost_usd |
-| web page | 358 | `4.62` | effort_summary always_strong mean_quality; effort_summary sonnet_medium mean_quality |
-| web page | 359 | `$0.241` | effort_summary sonnet_low total_cost_usd |
-| web page | 359 | `4.66` | effort_summary sonnet_low mean_quality; effort_summary sonnet_high mean_quality |
-| web page | 360 | `$0.259` | effort_summary sonnet_medium total_cost_usd |
-| web page | 360 | `4.62` | effort_summary always_strong mean_quality; effort_summary sonnet_medium mean_quality |
-| web page | 361 | `$0.307` | effort_summary sonnet_high total_cost_usd |
+| web page | 301 | `36%` | router_head_summary laya_head share_to_haiku |
+| web page | 305 | `38%` | router_head_summary hindsight ceiling saving; router_head_summary hindsight_ceiling saving |
+| web page | 306 | `4.68` | router_head_summary hindsight_ceiling quality |
+| web page | 307 | `60%` | router_head_summary hindsight_ceiling share_to_haiku |
+| web page | 311 | `20%` | router_head_summary laya_head saving; router_head_summary laya_zero_shot@0.50 share_to_haiku |
+| web page | 311 | `100` | test_queries.csv rows |
+| web page | 311 | `$0.517` | router_head_summary always_sonnet cost_usd (100 test questions) |
+| web page | 311 | `$0.415` | router_head_summary laya_head cost_usd (100 test questions) |
+| web page | 311 | `20%` | router_head_summary laya_head saving; router_head_summary laya_zero_shot@0.50 share_to_haiku |
+| web page | 311 | `36%` | router_head_summary laya_head share_to_haiku |
+| web page | 311 | `20%` | router_head_summary laya_head saving; router_head_summary laya_zero_shot@0.50 share_to_haiku |
+| web page | 311 | `4.63` | summary.csv v1_naive mean_quality; routing_summary always_strong mean_quality |
+| web page | 311 | `4.54` | router_head_summary laya_head quality |
+| web page | 311 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 312 | `60%` | router_head_summary hindsight_ceiling share_to_haiku |
+| web page | 312 | `38%` | router_head_summary hindsight ceiling saving; router_head_summary hindsight_ceiling saving |
+| web page | 312 | `4.68` | router_head_summary hindsight_ceiling quality |
+| web page | 313 | `0.63` | router_head_summary laya_zero_shot@0.50 auc_haiku_ok |
+| web page | 313 | `0.75` | router_head_summary laya_head auc_haiku_ok |
+| web page | 313 | `2,000` | router_head_bootstrap resamples |
+| web page | 313 | `1,991` | router_head_bootstrap resamples with extra saving > 0 |
+| web page | 313 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 313 | `15` | router_head_bootstrap extra saving 95% CI high (points) |
+| web page | 313 | `0.76` | router_head_summary length_rule auc_haiku_ok |
+| web page | 313 | `13%` | router_head_summary length_rule saving |
+| web page | 314 | `4.42` | routing_summary always_cheap quality_simple |
+| web page | 314 | `4.79` | routing_summary always_strong quality_simple |
+| web page | 314 | `38%` | router_head_summary hindsight ceiling saving; router_head_summary hindsight_ceiling saving |
+| web page | 314 | `100` | test_queries.csv rows |
+| web page | 315 | `12%` | routing_summary laya vs always_strong cost; router_head_summary zero-shot saving |
+| web page | 315 | `4.60` | routing_summary laya mean_quality; effort_summary sonnet_low quality_complex |
+| web page | 316 | `13%` | router_head_summary length_rule saving |
+| web page | 316 | `4.59` | router_head_summary length_rule quality |
+| web page | 317 | `15%` | router_head_summary minilm_head saving |
+| web page | 317 | `4.58` | router_head_summary minilm_head quality |
+| web page | 318 | `20%` | router_head_summary laya_head saving; router_head_summary laya_zero_shot@0.50 share_to_haiku |
+| web page | 318 | `4.54` | router_head_summary laya_head quality |
+| web page | 319 | `38%` | router_head_summary hindsight ceiling saving; router_head_summary hindsight_ceiling saving |
+| web page | 319 | `4.68` | router_head_summary hindsight_ceiling quality |
+| web page | 320 | `5.5` | model name: Claude Sonnet 5.5 |
+| web page | 320 | `4.5` | model name: Claude Haiku 4.5 |
+| web page | 320 | `50` | effort_summary sample size; effort sample size (config effort_eval.sample) |
+| web page | 320 | `30` | effort sample: simple questions (config) |
+| web page | 320 | `20` | per_answer_eval: answers improving >=2 v2_full -> cache_full_kb; judge_handcheck.md answers checked |
+| web page | 324 | `5.5` | model name: Claude Sonnet 5.5 |
+| web page | 325 | `50` | effort_summary sample size; effort sample size (config effort_eval.sample) |
+| web page | 335 | `$0.264` | effort_summary always_strong total_cost_usd |
+| web page | 336 | `0` | effort_summary thinking-off thinking_tokens |
+| web page | 337 | `4.62` | effort_summary always_strong mean_quality; effort_summary sonnet_medium mean_quality |
+| web page | 338 | `4.45` | effort_summary always_strong quality_complex |
+| web page | 339 | `2.5` | effort_summary always_strong p50 latency (s) |
+| web page | 343 | `$0.241` | effort_summary sonnet_low total_cost_usd |
+| web page | 344 | `1,683` | effort_summary sonnet_low thinking_tokens |
+| web page | 345 | `4.66` | effort_summary sonnet_low mean_quality; effort_summary sonnet_high mean_quality |
+| web page | 346 | `4.60` | routing_summary laya mean_quality; effort_summary sonnet_low quality_complex |
+| web page | 347 | `2.3` | effort_summary sonnet_low p50 latency (s) |
+| web page | 351 | `$0.259` | effort_summary sonnet_medium total_cost_usd |
+| web page | 352 | `3,433` | effort_summary sonnet_medium thinking_tokens |
+| web page | 353 | `4.62` | effort_summary always_strong mean_quality; effort_summary sonnet_medium mean_quality |
+| web page | 354 | `4.50` | effort_summary sonnet_medium quality_complex |
+| web page | 355 | `2.6` | effort_summary sonnet_medium p50 latency (s) |
+| web page | 359 | `$0.307` | effort_summary sonnet_high total_cost_usd |
+| web page | 360 | `8,335` | effort_summary sonnet_high thinking_tokens |
 | web page | 361 | `4.66` | effort_summary sonnet_low mean_quality; effort_summary sonnet_high mean_quality |
-| web page | 362 | `1,683` | effort_summary sonnet_low thinking_tokens |
-| web page | 362 | `8,335` | effort_summary sonnet_high thinking_tokens |
-| web page | 362 | `8%` | cache_full_kb vs v2_full cost |
-| web page | 362 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 362 | `140` | 100 queries + conversation turns (data files) |
-| web page | 362 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 362 | `$5,368` | cache_full_kb cost per answer x 1M |
-| web page | 362 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| web page | 362 | `$13,946` | v1 cost per answer x 1M |
-| web page | 373 | `78%` | variance.csv judge re-score identical share |
-| web page | 373 | `17` | judge_handcheck.md AGREE count |
-| web page | 373 | `20` | per_answer_eval: answers improving >=2 v2_full -> cache_full_kb; judge_handcheck.md answers checked |
-| web page | 373 | `100` | test_queries.csv rows |
-| web page | 373 | `0.1` | noise floor stated from judge variance (mean |diff| 0.23 per answer) |
+| web page | 362 | `4.65` | effort_summary sonnet_high quality_complex |
+| web page | 363 | `3.5` | effort_summary sonnet_high p50 latency (s) |
+| web page | 367 | `9%` | effort: low vs thinking off |
+| web page | 367 | `28%` | effort: high vs low cost |
+| web page | 368 | `26%` | effort_combo laya_head + sonnet_low saving |
+| web page | 368 | `50` | effort_summary sample size; effort sample size (config effort_eval.sample) |
+| web page | 369 | `$0.264` | effort_summary always_strong total_cost_usd |
+| web page | 369 | `4.62` | effort_summary always_strong mean_quality; effort_summary sonnet_medium mean_quality |
+| web page | 370 | `$0.241` | effort_summary sonnet_low total_cost_usd |
+| web page | 370 | `4.66` | effort_summary sonnet_low mean_quality; effort_summary sonnet_high mean_quality |
+| web page | 371 | `$0.259` | effort_summary sonnet_medium total_cost_usd |
+| web page | 371 | `4.62` | effort_summary always_strong mean_quality; effort_summary sonnet_medium mean_quality |
+| web page | 372 | `$0.307` | effort_summary sonnet_high total_cost_usd |
+| web page | 372 | `4.66` | effort_summary sonnet_low mean_quality; effort_summary sonnet_high mean_quality |
+| web page | 373 | `1,683` | effort_summary sonnet_low thinking_tokens |
+| web page | 373 | `8,335` | effort_summary sonnet_high thinking_tokens |
+| web page | 373 | `8%` | cache_full_kb vs v2_full cost |
+| web page | 373 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
 | web page | 373 | `140` | 100 queries + conversation turns (data files) |
+| web page | 373 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 373 | `$5,368` | cache_full_kb cost per answer x 1M |
+| web page | 373 | `1` | quality scale bottom (rubric); retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| web page | 373 | `$13,946` | v1 cost per answer x 1M |
+| web page | 384 | `78%` | variance.csv judge re-score identical share |
+| web page | 384 | `17` | judge_handcheck.md AGREE count |
+| web page | 384 | `20` | per_answer_eval: answers improving >=2 v2_full -> cache_full_kb; judge_handcheck.md answers checked |
+| web page | 384 | `100` | test_queries.csv rows |
+| web page | 384 | `0.1` | noise floor stated from judge variance (mean |diff| 0.23 per answer) |
+| web page | 384 | `140` | 100 queries + conversation turns (data files) |
