@@ -165,9 +165,9 @@ The lesson: "simple" to a human isn't "safe for the cheap model" (the cheap mode
 
 ## Should the expensive model think harder?
 
-You choose how much the model reasons with an "effort" setting, and pay for that hidden thinking as output tokens. I ran the expensive model at each setting on 50 of the questions (30 simple, 20 complex):
+You choose how much the model reasons with an "effort" setting, and pay for that hidden thinking as output tokens. **Low, medium and high are settings of the expensive model, Sonnet 5.5;** the cheap model, Haiku 4.5, ran with thinking off throughout. I ran Sonnet at each setting on 50 of the questions (30 simple, 20 complex):
 
-| Thinking setting | Cost (50 questions) | Hidden thinking tokens | Quality | Complex questions | Typical wait |
+| Sonnet 5.5 thinking setting | Cost (50 questions) | Hidden thinking tokens | Quality | Complex questions | Typical wait |
 |---|---|---|---|---|---|
 | Off | $0.264 | 0 | 4.62 | 4.45 | 2.5 s |
 | Low | $0.241 | 1,683 | 4.66 | 4.60 | 2.3 s |

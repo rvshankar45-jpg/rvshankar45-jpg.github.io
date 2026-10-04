@@ -198,9 +198,12 @@
 | blog | 164 | `4.42` | routing_summary always_cheap quality_simple |
 | blog | 164 | `4.79` | routing_summary always_strong quality_simple |
 | blog | 164 | `38%` | router_head_summary hindsight ceiling saving; router_head_summary hindsight_ceiling saving |
+| blog | 168 | `5.5` | model name: Claude Sonnet 5.5 |
+| blog | 168 | `4.5` | model name: Claude Haiku 4.5 |
 | blog | 168 | `50` | effort_summary sample size; effort sample size (config effort_eval.sample) |
 | blog | 168 | `30` | effort sample: simple questions (config) |
 | blog | 168 | `20` | per_answer_eval: answers improving >=2 v2_full -> cache_full_kb; judge_handcheck.md answers checked |
+| blog | 170 | `5.5` | model name: Claude Sonnet 5.5 |
 | blog | 170 | `50` | effort_summary sample size; effort sample size (config effort_eval.sample) |
 | blog | 172 | `$0.264` | effort_summary always_strong total_cost_usd |
 | blog | 172 | `0` | effort_summary thinking-off thinking_tokens |
@@ -494,9 +497,12 @@
 | web page | 306 | `4.54` | router_head_summary laya_head quality |
 | web page | 307 | `38%` | router_head_summary hindsight ceiling saving; router_head_summary hindsight_ceiling saving |
 | web page | 307 | `4.68` | router_head_summary hindsight_ceiling quality |
+| web page | 308 | `5.5` | model name: Claude Sonnet 5.5 |
+| web page | 308 | `4.5` | model name: Claude Haiku 4.5 |
 | web page | 308 | `50` | effort_summary sample size; effort sample size (config effort_eval.sample) |
 | web page | 308 | `30` | effort sample: simple questions (config) |
 | web page | 308 | `20` | per_answer_eval: answers improving >=2 v2_full -> cache_full_kb; judge_handcheck.md answers checked |
+| web page | 312 | `5.5` | model name: Claude Sonnet 5.5 |
 | web page | 313 | `50` | effort_summary sample size; effort sample size (config effort_eval.sample) |
 | web page | 323 | `$0.264` | effort_summary always_strong total_cost_usd |
 | web page | 324 | `0` | effort_summary thinking-off thinking_tokens |

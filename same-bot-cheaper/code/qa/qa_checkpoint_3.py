@@ -226,8 +226,9 @@ wb, wl = words(blog), words(li)
 # 2026-10-04 (later): author asked for a section on how the search picks sections, with no trims elsewhere;
 # limit raised to 2,200 at their request.
 # 2026-10-04 (later): author asked for the 20% saving, perfect hindsight and cache-vs-RAG to be explained, no trims; limit 2,400.
-check("word counts", 900 <= wb <= 2400 and 150 <= wl <= 200,
-      f"blog {wb} words (900-2,400, raised from 1,200 at the author's request; tables, diagram code and placeholders excluded); LinkedIn {wl} (150-200)")
+# 2026-10-04 (later): author asked to note that the effort levels are Sonnet settings; limit 2,500 at their request.
+check("word counts", 900 <= wb <= 2500 and 150 <= wl <= 200,
+      f"blog {wb} words (900-2,500, raised from 1,200 at the author's request; tables, diagram code and placeholders excluded); LinkedIn {wl} (150-200)")
 
 laya_ok = "saves cost, not tokens" in blog.lower() and "off the shelf" in blog.lower() and "not a finished router" in blog
 check("Laya described accurately (cost not tokens; limits stated)", laya_ok,
@@ -246,6 +247,8 @@ dirn = [("v2 quality below v1", s.loc["v2_full", "mean_quality"] < s.loc["v1_nai
         ("hindsight ceiling above trained Laya", rh.loc["hindsight_ceiling", "saving_vs_always_sonnet"] > rh.loc["laya_head", "saving_vs_always_sonnet"],
          "it's the ceiling"),
         ("meaning model named = model used", CFG["qa"]["embedding_model"] == "sentence-transformers/all-MiniLM-L6-v2", "all-MiniLM-L6-v2"),
+        ("effort runs were Sonnet; Haiku had thinking off", (calls[calls.variant.str.startswith("sonnet_")].model == CFG["models"]["strong"]).all()
+         and not CFG["generation"]["thinking"], "Haiku 4.5, ran with thinking off throughout"),
         ("trim smaller than routing", s.loc["plus_retrieve", "total_cost_usd"] - s.loc["plus_trim", "total_cost_usd"]
          < v1 - s.loc["plus_route", "total_cost_usd"], "barely mattered")]
 bad = [k for k, cond, phrase in dirn if not (cond and phrase in blog)]

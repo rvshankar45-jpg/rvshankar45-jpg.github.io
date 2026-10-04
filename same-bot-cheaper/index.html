@@ -427,11 +427,11 @@
 <div class="bar"><div class="nm">Small model + trained head</div><div class="track"><div class="fill" style="width:38.5%;background:var(--mute)"></div></div><div class="vv">15% <small>q 4.58</small></div></div>
 <div class="bar win"><div class="nm">Laya + trained head</div><div class="track"><div class="fill" style="width:51.6%;background:var(--v2)"></div></div><div class="vv">20% <small>q 4.54</small></div></div>
 <div class="bar"><div class="nm">Perfect hindsight</div><div class="track"><div class="fill" style="width:100.0%;background:var(--good)"></div></div><div class="vv">38% <small>q 4.68</small></div></div>
-<div class="axisnote">Trained heads learn one thing: will the cheap model's answer hold up? The hindsight bar uses the answers' grades, so it can't be built.</div></div></section><section class="col"><h2><span class="rule"></span>Should the expensive model think harder?</h2><p>You choose how much the model reasons with an "effort" setting, and pay for that hidden thinking as output tokens. I ran the expensive model at each setting on 50 of the questions (30 simple, 20 complex):</p>
+<div class="axisnote">Trained heads learn one thing: will the cheap model's answer hold up? The hindsight bar uses the answers' grades, so it can't be built.</div></div></section><section class="col"><h2><span class="rule"></span>Should the expensive model think harder?</h2><p>You choose how much the model reasons with an "effort" setting, and pay for that hidden thinking as output tokens. <strong>Low, medium and high are settings of the expensive model, Sonnet 5.5;</strong> the cheap model, Haiku 4.5, ran with thinking off throughout. I ran Sonnet at each setting on 50 of the questions (30 simple, 20 complex):</p>
 <table>
 <thead>
 <tr>
-<th>Thinking setting</th>
+<th>Sonnet 5.5 thinking setting</th>
 <th>Cost (50 questions)</th>
 <th>Hidden thinking tokens</th>
 <th>Quality</th>
