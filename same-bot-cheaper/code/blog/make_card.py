@@ -31,7 +31,7 @@ def main():
     v1, v2 = s.loc["v1_naive", "total_cost_usd"], s.loc["v2_full", "total_cost_usd"]
     steps = ["v1_naive", "plus_route", "plus_retrieve", "plus_trim", "plus_tight_cache", "v2_full"]
     d = -s.loc[steps, "total_cost_usd"].diff().iloc[1:]
-    names = {"plus_route": "Laya routing", "plus_retrieve": "Retrieval", "plus_trim": "Trim history",
+    names = {"plus_route": "Laya AI routing", "plus_retrieve": "Retrieval", "plus_trim": "Trim history",
              "plus_tight_cache": "Tight prompt", "v2_full": "Concise answers"}
     d = d.sort_values(ascending=False)
     n_units = int(s.loc["v1_naive", "answers"])
@@ -64,26 +64,28 @@ def main():
     top = d.iloc[0]
     for i, (k, val) in enumerate(d.items()):
         y = 500 + i * 56
-        bold = i == 0
-        g.text((RX, y), names[k], font=(BOLD if bold else SEMI)(27), fill=INK if bold else INK2)
+        bold, laya = i == 0, k == "plus_route"  # top saver in orange; Laya highlighted in blue
+        col = FLAG if bold else (BLUE if laya else "#C9BFAE")
+        g.text((RX, y), names[k], font=(BOLD if bold or laya else SEMI)(27), fill=INK if bold else (BLUE if laya else INK2))
         bx = RX + 250
         g.rectangle([bx, y + 10, bx + 170, y + 32], fill=TRACK)
-        g.rectangle([bx, y + 10, bx + max(3, int(170 * val / top)), y + 32], fill=FLAG if bold else "#C9BFAE")
-        g.text((bx + 180, y), f"-${val:.2f}", font=BOLD(26), fill=FLAG if bold else INK2)
+        g.rectangle([bx, y + 10, bx + max(3, int(170 * val / top)), y + 32], fill=col)
+        g.text((bx + 180, y), f"-${val:.2f}", font=BOLD(26), fill=FLAG if bold else (BLUE if laya else INK2))
     g.line([(X, 800), (1120, 800)], fill=RULE, width=3)
 
     # quote box
     g.rectangle([X, 828, 1120, 1004], fill=SURF, outline=RULE, width=3)
     g.rectangle([X, 828, X + 8, 1004], fill=FLAG)
-    g.text((X + 42, 852), "The famous router did a sixth of it:", font=BOLD(37), fill=INK)
+    g.text((X + 42, 852), "Laya", font=BLACK(37), fill=FLAG)
+    g.text((X + 42 + g.textlength("Laya", font=BLACK(37)), 852), ", the famous router, did a sixth of it:", font=BOLD(37), fill=INK)
     g.text((X + 42, 898), f"{zs:.0f}% off the shelf, {tr:.0f}% once trained.", font=BOLD(37), fill=INK)
     g.text((X + 42, 952), f"Caching the whole manual scored best: {qc:.2f} vs v1's {q1:.2f}.", font=REG(29), fill=INK2)
 
     g.text((X, 1052), f"rvshankar45-jpg.github.io/{SLUG}", font=BOLD(27), fill=INK2)
-    pill = "Routing by Laya AI · runs on a laptop"
-    pw = g.textlength(pill, font=BOLD(22)) + 56
-    g.rounded_rectangle([1120 - pw, 1040, 1120, 1094], radius=27, fill=FLAG)
-    g.text((1120 - pw + 28, 1052), pill, font=BOLD(22), fill="white")
+    pill = "Routing by Laya AI"
+    pw = g.textlength(pill, font=BLACK(30)) + 64
+    g.rounded_rectangle([1120 - pw, 1032, 1120, 1100], radius=34, fill=FLAG)
+    g.text((1120 - pw + 32, 1043), pill, font=BLACK(30), fill="white")
     OUT.mkdir(parents=True, exist_ok=True)
     im.save(OUT / "card.png", optimize=True)
     print("card.png written:", OUT / "card.png")
