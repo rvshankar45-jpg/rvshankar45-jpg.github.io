@@ -97,6 +97,7 @@ CSS = """
   .approach p{ font-size:16px; line-height:1.58; margin:0 0 .8em; color:var(--ink2); }
   .approach p strong{ color:var(--ink); }
   section p a, section li a{ color:var(--flag); text-underline-offset:3px; }
+  .hero{ max-width:900px; margin:30px auto 0; } .hero img{ display:block; width:100%; height:auto; border-radius:4px; }
   table.words td{ font-family:var(--body); font-size:15.5px; white-space:normal; }
   table.words td:first-child{ width:38%; color:var(--ink2); }
   .takes{ display:grid; gap:2px; background:var(--rule); }
@@ -265,6 +266,7 @@ def main():
     <div class="byline"><span>Leafy, a fictional plant shop</span><span>Claude Sonnet 5.5 · Haiku 4.5 · Laya</span>
       <span>{date.today():%B %Y}</span><span>open code &amp; data</span></div>
   </header>
+  <div class="hero"><img src="hero.png" width="1600" height="780" alt="Two receipts for the same 140 answers: version 1 totals ${v1:.2f}; version 2 itemises the savings from routing, retrieval, history trimming, a short prompt and concise answers, totalling ${v2:.2f}, under a stamp reading {pct(1 - v2 / v1)} cheaper."></div>
   {approach_html}
   <section class="col">{"".join(render(p) for p in intro_paras[1:])}</section>
   <div class="col"><div class="thesis"><div class="big">{pct(1 - v2 / v1)}</div><div class="say"><b>Cheaper, for the same {n} answers.</b>

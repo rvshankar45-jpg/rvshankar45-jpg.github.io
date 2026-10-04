@@ -6,15 +6,15 @@ Token cost is one of the biggest brakes on LLM adoption. Before accepting it as 
 
 ## How this works, in one minute
 
-**The app.** A customer-support chatbot for Leafy, a made-up online plant shop. A customer asks something like "What's your return window?" or "My plant arrived dead and I was charged twice", and the bot answers from Leafy's policy manual, a document of about 3,600 tokens in 9 sections. It runs on Anthropic's Claude models; everything is invented.
+**The app.** A customer-support chatbot for Leafy, a made-up online plant shop. A customer asks something like "What's your return window?" and the bot answers from Leafy's policy manual, a document of about 3,600 tokens in 9 sections. It runs on Claude models; all data is invented.
 
 **Two versions.** Version 1 is built the quick way: every question goes to the strongest, most expensive model (Sonnet 5.5), with the whole manual and the whole chat attached. Version 2 adds six cost-saving fixes, one at a time.
 
 **The test.** Both versions answer the same 100 customer questions (62 simple, 38 complex) and 10 back-and-forth conversations: 140 answers each.
 
-**Counting tokens and cost.** AI models bill per token (about three-quarters of a word), for text sent and text written back. For every answer I recorded the token counts reported by the model provider, not estimates, and multiplied them by the published prices: Sonnet 5.5 costs $2 per million tokens sent and $10 per million written; the cheaper Haiku 4.5 costs $1 and $5. Adding up 140 answers gives each version's bill.
+**Counting tokens and cost.** AI models bill per token (about three-quarters of a word), for text sent and text written back. For every answer I recorded the token counts reported by the model provider, not estimates, and multiplied them by the published prices: Sonnet 5.5 costs $2 per million tokens sent and $10 per million written; the cheaper Haiku 4.5 costs $1 and $5.
 
-**Checking quality.** Cheaper is worthless if answers get worse. A separate AI grader scored every answer from 1 to 5 against a reference answer written from the manual: 5 means send it as is, 3 means acceptable but flawed.
+**Checking quality.** A separate AI grader scored every answer from 1 to 5 against a reference answer written from the manual: 5 means send it as is, 3 means acceptable but flawed.
 
 ## The short version
 
@@ -66,7 +66,7 @@ Each row adds one fix and re-runs the whole test:
 | + short prompt and prompt cache | $0.91 | 4.40 |
 | + concise answers and answer cache = version 2 | $0.69 | 4.49 |
 
-**Retrieval (RAG) did half the work.** Sending three sections instead of all nine saved $0.63 of the $1.26. It also cost the most quality: 14 answers dropped two points or more, usually because the right section was missed and the model honestly said it didn't know.
+**Retrieval (RAG) did half the work.** To pick sections, the manual was split at its 9 headings and each section scored against the question twice, for shared keywords and for meaning; the top 3 were sent. Sending three sections instead of all nine saved $0.63 of the $1.26. It also cost the most quality: 14 answers dropped two points or more, usually because the right section was missed and the model honestly said it didn't know.
 
 **Some fixes barely mattered.** Trimming history saved 0.5% of version 1's cost. The prompt cache saved nothing: the short prompt left only 203 repeatable tokens, under the 512 it needs. No test question repeated, so the answer cache never fired; shorter answers drove the last step.
 
@@ -74,7 +74,7 @@ Each row adds one fix and re-runs the whole test:
 
 ## Does a smarter router help?
 
-Laya is a small open-source decision model that runs on a laptop GPU. It scores each question for difficulty; above a cut-off, the question goes to the expensive model.
+Laya is a small open-source model that runs on a laptop GPU. It scores each question for difficulty; above a cut-off, the question goes to the expensive model.
 
 Out of the box, it saved **12%** against always using the expensive model, at the same quality (4.60 vs 4.63): about a sixth of the total saving. It still sent 45 of the 62 simple questions to the expensive model.
 
@@ -99,7 +99,7 @@ You choose how much the model reasons with an "effort" setting, and pay for that
 
 **Low effort was the cheapest and fastest setting**, 9% below thinking off at the same quality, because its visible answers were shorter. High effort used five times the hidden tokens of low and cost 28% more for no measurable gain; its edge on complex questions is within noise.
 
-Routing and effort stack: the trained Laya router plus low-effort thinking saved 26% at equal quality.
+Combined with the trained Laya router, low-effort thinking saved 26% at equal quality.
 
 ## What I'd ship
 
@@ -110,7 +110,7 @@ I'd ship the cached whole-manual build, and test it with low-effort thinking, a 
 - **Per-intent rules**: billing disputes and safety questions never go to the cheap model.
 - **Cost per resolved ticket** as the north-star metric, not cost per call.
 
-Not worth optimising here: history trimming and high effort.
+Not worth optimising: history trimming and high effort.
 
 ## A reusable checklist
 
