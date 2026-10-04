@@ -259,6 +259,7 @@
 | linkedin | 9 | `$1.95` | summary.csv v1_naive total_cost_usd |
 | linkedin | 9 | `$0.69` | summary.csv v2_full total_cost_usd |
 | linkedin | 9 | `64%` | 1 - v2_full/v1_naive total_cost_usd |
+| linkedin | 9 | `66%` | 1 - v2/v1 (total_input_tokens + output_tokens) |
 | linkedin | 9 | `4.63` | summary.csv v1_naive mean_quality; routing_summary always_strong mean_quality |
 | linkedin | 9 | `4.49` | summary.csv v2_full mean_quality |
 | linkedin | 9 | `5` | quality scale top (rubric); config cache.ttl_seconds in minutes; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
