@@ -251,10 +251,7 @@
 | linkedin | 11 | `12%` | routing_summary laya vs always_strong cost; router_head_summary zero-shot saving |
 | linkedin | 11 | `270` | data/router_train.csv rows |
 | linkedin | 11 | `20%` | router_head_summary laya_head saving; router_head_summary laya_zero_shot@0.50 share_to_haiku |
-| linkedin | 13 | `4.42` | routing_summary always_cheap quality_simple |
-| linkedin | 13 | `4.79` | routing_summary always_strong quality_simple |
-| linkedin | 15 | `4.80` | summary.csv cache_full_kb mean_quality |
-| linkedin | 15 | `62%` | 1 - cache_full_kb/v1 cost |
+| linkedin | 13 | `62%` | 1 - cache_full_kb/v1 cost |
 | web page | 5 | `140` | 100 queries + conversation turns (data files) |
 | web page | 6 | `64%` | 1 - v2_full/v1_naive total_cost_usd |
 | web page | 9 | `5.5` | model name: Claude Sonnet 5.5 |
