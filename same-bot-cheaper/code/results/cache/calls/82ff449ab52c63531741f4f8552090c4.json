@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! I'm so sorry your bird of paradise is struggling. That's worrying to see, especially when you've followed the care card closely.\n\n**Good news: this may be covered by our Plant Care Guarantee.**\n\nLosing more than a third of its leaves counts as significant decline under the guarantee, and almost half is well past that mark. Every live plant has a **30-day guarantee from delivery** (90 days for Leafy Plus members, on plants ordered while the membership was active). At about 3 weeks in, you should still be within the window, but I'd file soon so you don't run out of time.\n\n**How to make a claim:**\n- Go to **My Orders** and start a claim for the plant.\n- Attach **at least two photos**: one of the whole plant and one close-up of the affected leaves.\n- A Plant Care Specialist will review it within **2 business days**.\n- You **don't need to send the plant back**.\n\n**If approved:** we send **one free replacement** of the same plant, or store credit if it's out of stock. The replacement gets its own new 30-day guarantee.\n\nA few things the guarantee doesn't cover are repotting into non-Leafy soil in the first 14 days, pests introduced after delivery, and deliberate neglect. Since you've followed the care card, that sounds like it doesn't apply to you, but the specialist will make the final decision on the claim.\n\nYou can also chat or email a Plant Care Specialist for free advice on helping your plant recover while the claim is reviewed.\n\nThanks again for your patience. Please reach out any time if you have more questions. \ud83c\udf3f",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 450,
+  "cache_read_input_tokens": 1553,
+  "output_tokens": 1006,
+  "output_tokens_details": {
+   "thinking_tokens": 483
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 450,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1006,
+    "cache_read_input_tokens": 1553,
+    "cache_creation_input_tokens": 450,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 450
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2005,
+ "output_tokens": 1006,
+ "thinking_tokens": 483,
+ "latency_ms": 8541,
+ "wall_ms": 11548,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880266.2909145
+}

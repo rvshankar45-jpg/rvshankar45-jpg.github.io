@@ -1,0 +1,50 @@
+{
+ "text": "You can waive the weather hold by replying to that email. However, please note: **if you waive it, the Plant Care Guarantee won't cover cold or heat damage during transit, and we can't accept DOA (dead on arrival) claims for cold or heat damage.**\n\nIf you still want to proceed, reply to confirm. Otherwise, the plant will ship once temperatures are safe again (the hold lasts up to 7 days).",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1534,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 98,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1534,
+    "output_tokens": 98,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1534,
+ "output_tokens": 98,
+ "thinking_tokens": 0,
+ "latency_ms": 3098,
+ "wall_ms": 5920,
+ "overhead": 379,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791006826.9150898
+}

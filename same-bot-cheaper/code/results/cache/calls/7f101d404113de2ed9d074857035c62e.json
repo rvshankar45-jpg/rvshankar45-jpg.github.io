@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry your delivery was two weeks late. That's a frustrating experience, and I understand why you're upset.\n\nI can offer a one-time goodwill store credit of up to $15 myself. A $200 credit is beyond what I can approve, and it's over the $150 threshold that needs a Support Lead. Since you're asking for something outside policy, I'll escalate this to a Support Lead for review. Would you like me to do that, and would you also like the $15 credit applied in the meantime?\n\nTo help the Support Lead, please send your order number. I can't give you a timeframe for their response, as our policy doesn't specify one for escalations.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 452,
+  "cache_read_input_tokens": 1700,
+  "output_tokens": 205,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 452,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 205,
+    "cache_read_input_tokens": 1700,
+    "cache_creation_input_tokens": 452,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 452
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2154,
+ "output_tokens": 205,
+ "thinking_tokens": 0,
+ "latency_ms": 2528,
+ "wall_ms": 5846,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791101077.289845
+}

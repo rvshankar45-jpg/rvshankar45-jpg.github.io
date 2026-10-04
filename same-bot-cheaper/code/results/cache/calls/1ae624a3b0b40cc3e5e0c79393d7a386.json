@@ -1,0 +1,50 @@
+{
+ "text": "If the courier can't find your package and it's confirmed lost, you can choose either:\n\n- **A free replacement**, or\n- **A full refund.**\n\nIf you choose the refund, it goes back to your original payment method. Once issued, it takes **5-10 business days** for cards or **3-5 business days** for digital wallets. If you'd rather have **Leafy store credit**, it's issued instantly and never expires. If you paid with buy-now-pay-later, the refund goes to the instalment provider, which adjusts your remaining payments.\n\nThe policy information I have doesn't say what happens if the investigation ends without a clear answer, and I don't want to guess. I can escalate that to a Support Lead if you'd like.\n\nTo get the investigation started, please send your order number (LF- followed by six digits). Please don't send any card details.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 994,
+  "cache_read_input_tokens": 1522,
+  "output_tokens": 651,
+  "output_tokens_details": {
+   "thinking_tokens": 389
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 994,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 651,
+    "cache_read_input_tokens": 1522,
+    "cache_creation_input_tokens": 994,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 994
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2518,
+ "output_tokens": 651,
+ "thinking_tokens": 389,
+ "latency_ms": 6512,
+ "wall_ms": 9500,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004984.0175848
+}

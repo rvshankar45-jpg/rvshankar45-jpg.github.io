@@ -1,0 +1,50 @@
+{
+ "text": "When an order ships in multiple parcels, each parcel can generate a separate charge on your card\u2014that's normal and expected.\n\nHowever, if both charges have *posted* (not just pending), please confirm your order number (format: `LF-` plus six digits) and the last four digits of your card, and I'll check for a duplicate. If confirmed as a duplicate, we'll refund it within **3 business days**.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1461,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 97,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1461,
+    "output_tokens": 97,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1461,
+ "output_tokens": 97,
+ "thinking_tokens": 0,
+ "latency_ms": 2444,
+ "wall_ms": 6541,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791100875.3882887
+}

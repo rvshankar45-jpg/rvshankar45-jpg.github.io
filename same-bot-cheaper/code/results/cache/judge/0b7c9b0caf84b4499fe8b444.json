@@ -1,0 +1,148 @@
+{
+ "items": [
+  {
+   "answer_id": "t208#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct: contact support, investigation up to 5 business days, replacement or refund. Sunday chat closed (Oct 4 2026 is a Sunday) \u2013 accurate."
+  },
+  {
+   "answer_id": "t208#2",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 4,
+   "score": 3,
+   "note": "Tells customer to wait, contrary to KB guidance that delivered-not-arrived means contact support. Details otherwise right."
+  },
+  {
+   "answer_id": "t209#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "All facts correct and complete."
+  },
+  {
+   "answer_id": "t209#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and complete, clear steps."
+  },
+  {
+   "answer_id": "t210#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct: normal stress, care tips, claim criteria, specialist advice."
+  },
+  {
+   "answer_id": "t210#2",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct overall; omits Plus 90-day and slightly narrows decline definition (only leaves), minor."
+  },
+  {
+   "answer_id": "t211#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct specialist hours, email option, care tips, guarantee. Omits pet safety, not needed."
+  },
+  {
+   "answer_id": "t211#2",
+   "correctness": 2,
+   "completeness": 3,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Wrongly says general chat is 8am\u20138pm Sat\u2013Sun; actually Mon\u2013Sat, so no chat Sunday. Misleading."
+  },
+  {
+   "answer_id": "t212#1",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Wrongly claims no policy on deletion; KB says deletion cancels subscriptions. Cautious advice not to delete is helpful but misses key fact."
+  },
+  {
+   "answer_id": "t212#2",
+   "correctness": 1,
+   "completeness": 2,
+   "policy": 2,
+   "tone": 3,
+   "score": 1,
+   "note": "Says cancelling account wouldn't cancel subscription; KB says deletion cancels subscriptions. Wrong main point."
+  },
+  {
+   "answer_id": "t213#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate and concise."
+  },
+  {
+   "answer_id": "t213#2",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct timing; doesn't explain charge happens at shipping; duplicate refund wording slightly off."
+  },
+  {
+   "answer_id": "t214#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct ships Monday, arrives following Wednesday, mentions weather holds."
+  },
+  {
+   "answer_id": "t214#2",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Dates correct (Oct 4 2026 Sunday, so Oct 5 Monday... actually next Monday is Oct 5; Oct 6 is Tuesday). Date error."
+  },
+  {
+   "answer_id": "t215#1",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Escalates, but claims no policy on wrong item handling, which exists (free Express correct item, keep plant). Misses goodwill."
+  },
+  {
+   "answer_id": "t215#2",
+   "correctness": 2,
+   "completeness": 3,
+   "policy": 2,
+   "tone": 4,
+   "score": 2,
+   "note": "Says wrong plant should qualify for full refund incl. shipping \u2013 wrong; invents policy and implies promises. Misses correct wrong-item remedy."
+  }
+ ]
+}

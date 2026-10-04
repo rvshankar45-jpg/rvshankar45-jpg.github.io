@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry your monstera arrived like that. Snapped main stems count as damaged on arrival, but that has to be reported within 48 hours of delivery, and at 3 days you're past that window. Plant issues after 48 hours go through our Plant Care Guarantee instead, which runs 30 days from delivery (90 days for Leafy Plus members).\n\nTo start a claim, go to \"My Orders\" and upload at least two photos (the whole plant and a close-up of the break). A Plant Care Specialist will review it within 2 business days, and you don't need to send the plant back. The guarantee's criteria don't explicitly mention a snapped stem, so I can't promise the outcome. If you'd like, I can escalate your case to a Support Lead to look at the timing.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 446,
+  "cache_read_input_tokens": 1104,
+  "output_tokens": 528,
+  "output_tokens_details": {
+   "thinking_tokens": 279
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 446,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 528,
+    "cache_read_input_tokens": 1104,
+    "cache_creation_input_tokens": 446,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 446
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1552,
+ "output_tokens": 528,
+ "thinking_tokens": 279,
+ "latency_ms": 4779,
+ "wall_ms": 7181,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100468.0723753
+}

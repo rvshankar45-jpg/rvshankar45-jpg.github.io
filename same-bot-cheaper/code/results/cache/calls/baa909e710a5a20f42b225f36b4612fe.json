@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry about your plant. Unfortunately, repotting into non-Leafy soil in the first 14 days isn't covered by the Plant Care Guarantee. Since you repotted on day 7 into other soil, a replacement likely isn't available, even though the plant died within the 30-day window.\n\nIf the soil was actually Leafy soil, you can submit a claim from \"My Orders\" with at least two photos (whole plant and close-up). A Plant Care Specialist will review it within 2 business days. If you'd like someone to look at your situation, I can escalate it. A Plant Care Specialist can also give you free care advice by chat or email for future plants.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 446,
+  "cache_read_input_tokens": 1271,
+  "output_tokens": 449,
+  "output_tokens_details": {
+   "thinking_tokens": 237
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 446,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 449,
+    "cache_read_input_tokens": 1271,
+    "cache_creation_input_tokens": 446,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 446
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1719,
+ "output_tokens": 449,
+ "thinking_tokens": 237,
+ "latency_ms": 4552,
+ "wall_ms": 7125,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100504.4948242
+}

@@ -1,0 +1,49 @@
+{
+ "text": "Hi there! Thanks for being a Leafy Plus member! \ud83c\udf3f\n\nGreat question about your shipping cost. Here's how it works:\n\n**Express shipping is $14.95** \u2014 and this is one of the few things that's never free, even for Plus members. Plus membership gives you free *Standard* shipping with no minimum order, but Express always has the flat fee.\n\nSo for your $60 order with Express, you'd pay **$14.95 for shipping** on top of your order total.\n\nIf you'd prefer to save on shipping, Standard shipping is completely free on your order (since it's over $75 after any discounts would apply, or even without \u2014 Plus gets free Standard with no minimum). Standard typically takes **2\u20135 business days** depending on your location, while Express gets there in **1\u20132 business days**.\n\nIs there anything else I can help you with? \ud83d\ude0a",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1822,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 203,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1822,
+    "output_tokens": 203,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1822,
+ "output_tokens": 203,
+ "thinking_tokens": 0,
+ "latency_ms": 3461,
+ "wall_ms": 6467,
+ "overhead": 379,
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1790880010.8223011
+}

@@ -1,0 +1,50 @@
+{
+ "text": "Before I answer, I need to fix my last message: the policy does cover this. With no tracking movement for 4 business days, we open a courier investigation (up to 5 business days). If the package is lost, you choose a free replacement or a full refund. The refund timeframes I quoted aren't in my policy information, so please disregard them. I'm sorry for the back-and-forth.\n\nI can't confirm that the replacement would ship Express. The policy doesn't say what shipping method a lost-package replacement gets. Regular Express is $14.95, is never free, and isn't available to Zone 3 addresses. If your replacement is a live plant, it would also ship Monday-Wednesday only.\n\nPlease send your order number (LF- plus six digits) so I can open the investigation. If you'd like, I can also escalate to a Support Lead to confirm the shipping method for your replacement.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 967,
+  "cache_read_input_tokens": 1514,
+  "output_tokens": 736,
+  "output_tokens_details": {
+   "thinking_tokens": 457
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 967,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 736,
+    "cache_read_input_tokens": 1514,
+    "cache_creation_input_tokens": 967,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 967
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2483,
+ "output_tokens": 736,
+ "thinking_tokens": 457,
+ "latency_ms": 6411,
+ "wall_ms": 9097,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005430.9121916
+}

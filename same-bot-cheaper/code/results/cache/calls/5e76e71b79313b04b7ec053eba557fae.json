@@ -1,0 +1,49 @@
+{
+ "text": "Thank you for letting me know, and I'm really sorry. Six business days with no tracking movement is well past our 4-business-day mark, and I know how worrying that is when a live plant is on its way.\n\n**What happens next**\n- Once I have your order number, we open a courier investigation. It takes up to **5 business days**.\n- If the package is confirmed lost, you choose between a **free replacement** or a **full refund**.\n\n**What I need from you**\n- Your order number (`LF-` followed by six digits, e.g. LF-204518).\n\nPlease don't send any full card numbers, security codes, or passwords. I don't need them.\n\nI can't promise exactly when the courier will find the package, but we will keep it moving. If you'd like, you can also check your inbox and spam folder for a weather hold email, since live plants can be held for up to 7 days in very cold or hot forecasts.\n\nSend over your order number and we'll get the investigation started. Thanks so much for your patience, and please reach out any time you need us!",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 863,
+  "cache_read_input_tokens": 2187,
+  "output_tokens": 319,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 863,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 319,
+    "cache_read_input_tokens": 2187,
+    "cache_creation_input_tokens": 863,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 863
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 3052,
+ "output_tokens": 319,
+ "thinking_tokens": 0,
+ "latency_ms": 3251,
+ "wall_ms": 6406,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880248.355051
+}

@@ -1,0 +1,49 @@
+{
+ "text": "Thanks for bearing with me, and I'm sorry this has been such a hassle. \ud83c\udf3f Here's the timeline for the refund to your original card (ending 7712):\n\n- **Step 1:** Once the duplicate charge is confirmed, the $64.50 refund is issued within **3 business days**.\n- **Step 2:** After it's issued, a card refund usually takes **5-10 business days** to show up. If the original payment was through a digital wallet, it's **3-5 business days**.\n\nSo in total, expect roughly **8-13 business days** from confirmation for a card payment.\n\nSince that card is closed, the bank normally passes the refund on to your replacement card, but I can't guarantee how your bank will handle it. It's worth giving them a quick call to confirm they'll forward it.\n\nIf you'd rather not wait, **Leafy store credit** is still available. It's issued instantly and never expires. Just say the word and we can switch to that.\n\nIf the refund hasn't arrived within those timeframes, reach out with your order number (**LF-381204**) and we'll look into it right away.\n\nThanks so much for your patience, and happy planting! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1291,
+  "cache_read_input_tokens": 2246,
+  "output_tokens": 607,
+  "output_tokens_details": {
+   "thinking_tokens": 237
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1291,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 607,
+    "cache_read_input_tokens": 2246,
+    "cache_creation_input_tokens": 1291,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1291
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 3539,
+ "output_tokens": 607,
+ "thinking_tokens": 237,
+ "latency_ms": 5682,
+ "wall_ms": 8266,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880331.136606
+}

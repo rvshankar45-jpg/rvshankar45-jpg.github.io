@@ -1,0 +1,50 @@
+{
+ "text": "Sorry about the mix-up, that's frustrating when you ordered a specific plant. The policy I have says incorrect items are returned free of charge, but it doesn't say whether a wrong live plant has to be sent back or how it's resolved (for example, a replacement pothos or a refund). I don't want to guess, so I can escalate this to a Support Lead to confirm the right outcome for you.\n\nIf a return is needed, you'd start it from \"My Orders\" and get a prepaid label by email. The label expires after 7 days, and refunds are issued within 5 business days of the parcel reaching our warehouse. Would you like me to escalate this?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 444,
+  "cache_read_input_tokens": 1154,
+  "output_tokens": 566,
+  "output_tokens_details": {
+   "thinking_tokens": 359
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 444,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 566,
+    "cache_read_input_tokens": 1154,
+    "cache_creation_input_tokens": 444,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 444
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1600,
+ "output_tokens": 566,
+ "thinking_tokens": 359,
+ "latency_ms": 5814,
+ "wall_ms": 8848,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791101397.7124143
+}

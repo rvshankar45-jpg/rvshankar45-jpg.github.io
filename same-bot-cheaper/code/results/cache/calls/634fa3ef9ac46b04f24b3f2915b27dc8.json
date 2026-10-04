@@ -1,0 +1,49 @@
+{
+ "text": "Hi there! \ud83c\udf31 Great question\u2014your puppy's safety is what matters most!\n\n**Go with the parlour palm.** It's pet-safe, so if your puppy nibbles on it, there's no worry. Snake plants, on the other hand, are **not pet-safe** and can cause problems if your pup eats part of it.\n\nThe parlour palm is a lovely choice anyway\u2014it's a graceful plant that can add a tropical feel to your home, and it's quite forgiving for newer plant parents too.\n\n**Quick tip:** Even with pet-safe plants, it's still good to keep an eye on curious puppies and discourage munching where you can\u2014more out of habit-training than toxicity!\n\nIf you'd like care advice for whichever plant you choose, our Plant Care Specialists are here to help anytime. Feel free to reach out again if you have any other questions! \ud83d\udc15",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 3519,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 210,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 3519,
+    "output_tokens": 210,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 3519,
+ "output_tokens": 210,
+ "thinking_tokens": 0,
+ "latency_ms": 3154,
+ "wall_ms": 5995,
+ "overhead": 379,
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1790879664.8329353
+}

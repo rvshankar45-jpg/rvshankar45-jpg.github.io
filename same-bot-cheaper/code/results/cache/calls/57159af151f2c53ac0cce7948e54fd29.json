@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry about this, I understand it's frustrating to be charged for a box you don't want.\n\nPlant Club is billed on the 25th for the following month's box. Your cancellation on the 26th came after that billing date, so:\n\n- **Your cancellation is in effect.** It applies from the following month's box, so you won't be charged again.\n- **The $49 box has already been billed.** Under our policy, an already-billed box isn't refunded on cancellation and is still sent. It will ship in the first full week of the month.\n- **The plant is covered by the normal 30-day Plant Care Guarantee** from delivery.\n\nI can't approve a refund for this charge myself, because it falls outside policy. Since you'd like a refund, I can escalate your request to a Support Lead, who can review whether an exception is possible. I can't promise the outcome. Would you like me to do that? If so, please send your Plant Club order number or the date of the charge so the Lead has what they need. Please don't send full card details.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 452,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 732,
+  "output_tokens_details": {
+   "thinking_tokens": 415
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 452,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 732,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 452,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 452
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4310,
+ "output_tokens": 732,
+ "thinking_tokens": 415,
+ "latency_ms": 6581,
+ "wall_ms": 9397,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005818.4257507
+}

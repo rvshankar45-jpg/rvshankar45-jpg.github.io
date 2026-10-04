@@ -1,0 +1,50 @@
+{
+ "text": "Sorry about that, a cracked pot is a poor way to start with a new plant. This counts as damaged on arrival, and you're covered as long as you report it within **48 hours of delivery**. Since it arrived this morning, you're well within that window.\n\n**What I need from you:**\n- Photos of the plant, the cracked pot, and the box it came in.\n- Your order number (it looks like LF-123456).\n\n**Your options:**\n- **Free replacement**, sent on the next plant shipping day. Live plants ship Monday to Wednesday.\n- **Refund** to your original payment method.\n\nIf the cracked pot is a separate decorative pot rather than the plastic nursery pot the plant came in, it's treated as a non-living item. You'd get a replacement or a refund, and items under $40 usually don't need to be sent back.\n\nPlease don't repot or discard anything until the claim is sorted. Do you know whether the cracked pot is the nursery pot or a decorative one you ordered with the plant?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 441,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 1041,
+  "output_tokens_details": {
+   "thinking_tokens": 721
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 441,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1041,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 441,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 441
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4299,
+ "output_tokens": 1041,
+ "thinking_tokens": 721,
+ "latency_ms": 8731,
+ "wall_ms": 13074,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005843.0803752
+}

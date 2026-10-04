@@ -1,0 +1,49 @@
+{
+ "text": "# Standard Shipping Cost\n\nStandard shipping is **$7.95**.\n\nHowever, **standard shipping is free on orders of $75 or more** (after discounts, before tax).\n\nThe delivery timeframe depends on your zone:\n\n| Zone | Distance | Timeframe |\n|---|---|---|\n| **1** | Under 300 miles | 2\u20133 business days |\n| **2** | 300\u20131,000 miles | 3\u20135 business days |\n| **3** | Over 1,000 miles, remote/island | 5\u20138 business days |\n\nIs there anything else you'd like to know about shipping?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1498,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 150,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1498,
+    "output_tokens": 150,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1498,
+ "output_tokens": 150,
+ "thinking_tokens": 0,
+ "latency_ms": 2010,
+ "wall_ms": 5799,
+ "overhead": 379,
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1790880376.404303
+}

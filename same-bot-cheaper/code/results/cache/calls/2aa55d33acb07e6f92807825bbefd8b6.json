@@ -1,0 +1,50 @@
+{
+ "text": "Because the order includes a live plant and was placed after 12 noon on Wednesday, it will ship the following Monday. The ceramic pot is a non-living item, but mixed orders ship together on a plant day, so both items go out together on that Monday.\n\nOnce it ships, you'll get a tracking email. Delivery then takes 2-3 business days (Zone 1) to 5-8 business days (Zone 3) with Standard shipping, depending on your distance from our nearest greenhouse. Express is available in Zones 1 and 2 (next business day and 2 business days, respectively). If a weather hold applies, live plants can be held up to 7 days, and we'll email you.\n\nYou can also still change or cancel the order free from \"My Orders\" within 2 hours of placing it. Since it's past that window, support can try to intercept it before it ships, but that isn't guaranteed.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 451,
+  "cache_read_input_tokens": 1588,
+  "output_tokens": 280,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 451,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 280,
+    "cache_read_input_tokens": 1588,
+    "cache_creation_input_tokens": 451,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 451
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2041,
+ "output_tokens": 280,
+ "thinking_tokens": 0,
+ "latency_ms": 8931,
+ "wall_ms": 12353,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005193.6478271
+}

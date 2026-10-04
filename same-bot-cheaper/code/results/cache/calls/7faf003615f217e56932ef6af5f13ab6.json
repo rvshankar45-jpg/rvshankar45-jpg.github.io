@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry, that's frustrating, especially with a live plant sitting outside somewhere. When tracking shows delivered but nothing arrived, please contact support so we can open a courier investigation, which takes up to 5 business days. If the package is found to be lost, you can choose either a free replacement or a full refund.\n\nTo get this started, please send me your order number (it looks like LF-123456). In the meantime, it's worth checking around your property, with neighbors, and with anyone else in your household who might have taken it in.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 438,
+  "cache_read_input_tokens": 1651,
+  "output_tokens": 164,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 438,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 164,
+    "cache_read_input_tokens": 1651,
+    "cache_creation_input_tokens": 438,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 438
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2091,
+ "output_tokens": 164,
+ "thinking_tokens": 0,
+ "latency_ms": 2725,
+ "wall_ms": 5847,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005214.0208113
+}

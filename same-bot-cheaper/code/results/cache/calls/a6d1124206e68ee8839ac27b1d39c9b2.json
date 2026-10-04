@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thanks for contacting Leafy! I'm sorry about your string of pearls. Mushy at the base is worrying, but thank you for the full backstory. \ud83c\udf31\n\n**Your Leafy Plus guarantee**\n- Plus membership includes a **90-day guarantee**, and at about 5 weeks (roughly 35 days) you're well within that window.\n- I don't have the details of what the guarantee covers, including whether it applies when a plant has been overwatered. So I can't promise a replacement or refund, and I don't want to give you the wrong answer.\n\n**What I'd suggest**\n- **Plant Care Specialists** can look at what's happening with the plant and tell you whether it can be saved. They're on chat **9am-5pm Mon-Fri** (your local time).\n- **Email** help@leafy.example, which is answered within **1 business day**, if you'd like the guarantee question looked at.\n\nIf you'd like, I can pass your case to a Support Lead so a person can review it, including your Plus membership and the purchase date.\n\nIs there anything else I can help with? I hope your string of pearls pulls through. Please reach out any time. \ud83d\udc9a",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2650,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 947,
+  "output_tokens_details": {
+   "thinking_tokens": 571
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2650,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 947,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2650,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2650
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2652,
+ "output_tokens": 947,
+ "thinking_tokens": 571,
+ "latency_ms": 8501,
+ "wall_ms": 11045,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880078.6506271
+}

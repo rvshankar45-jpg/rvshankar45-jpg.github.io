@@ -1,0 +1,148 @@
+{
+ "items": [
+  {
+   "answer_id": "t152#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate: under $40, no return needed, 48h, photos."
+  },
+  {
+   "answer_id": "t152#2",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct, but says 'a photo' rather than photos and promises 'right away'; minor."
+  },
+  {
+   "answer_id": "t153#1",
+   "correctness": 2,
+   "completeness": 1,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "KB covers wrong item (Express reship, free return label, keep plant). Claims not covered; unnecessary escalation."
+  },
+  {
+   "answer_id": "t153#2",
+   "correctness": 2,
+   "completeness": 2,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Misses the correct remedy (free Express shipping of the correct item, keep wrong plant); vaguely promises replacement or refund."
+  },
+  {
+   "answer_id": "t154#1",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Covers pending auth, multiple parcels, last four digits, 3 days, no card data. Doesn't mention dispute escalation but fine."
+  },
+  {
+   "answer_id": "t154#2",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and follows the process; omits the multi-parcel explanation but not required."
+  },
+  {
+   "answer_id": "t155#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct; escalation offer after 7 days is reasonable, a bit blunt opening."
+  },
+  {
+   "answer_id": "t155#2",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct on the main point, but 'controlled by your bank' and advising to contact the bank are slight extras."
+  },
+  {
+   "answer_id": "t156#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate explanation and follow-up steps, safe on card data."
+  },
+  {
+   "answer_id": "t156#2",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct and concise; omits that charge occurs on shipping."
+  },
+  {
+   "answer_id": "t157#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, with alternative payment options."
+  },
+  {
+   "answer_id": "t157#2",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct and concise; no alternatives for the $40 order."
+  },
+  {
+   "answer_id": "t158#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct. Says BNPL 'spreads payments over time', reasonable."
+  },
+  {
+   "answer_id": "t158#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Fully correct and complete."
+  },
+  {
+   "answer_id": "t159#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct: original method only, bank passes it on, instant store credit."
+  },
+  {
+   "answer_id": "t159#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, includes refund timings."
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "text": "Hey there! \ud83d\udc4b Thanks for asking about our Plant Club!\n\nThe **Starter plan is $29/month**. You'll get one surprise plant each month in a 4-inch pot, picked based on your light level. It's a fun way to grow your plant collection!\n\nHere's how it works:\n- You're charged on the **25th** of the previous month\n- Your box ships in the first full week of the month\n- You can list up to 3 plants you already own to avoid duplicates\n- Every plant comes with our standard 30-day Plant Care Guarantee\n\nYou can skip, pause, or cancel anytime from your Account settings\u2014no fees or minimum commitment!\n\nIs there anything else you'd like to know about Plant Club or our other subscription options? \ud83c\udf3f",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1871,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 179,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1871,
+    "output_tokens": 179,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1871,
+ "output_tokens": 179,
+ "thinking_tokens": 0,
+ "latency_ms": 2312,
+ "wall_ms": 5787,
+ "overhead": 379,
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1790879789.1951742
+}

@@ -1,0 +1,283 @@
+{
+ "items": [
+  {
+   "answer_id": "q041#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "q041#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Accurate but long with much unrequested detail."
+  },
+  {
+   "answer_id": "q041#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, with relevant extras."
+  },
+  {
+   "answer_id": "q041#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "q041#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct; some padding."
+  },
+  {
+   "answer_id": "q041#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and well scoped."
+  },
+  {
+   "answer_id": "q042#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q042#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct, friendly."
+  },
+  {
+   "answer_id": "q042#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, concise."
+  },
+  {
+   "answer_id": "q042#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q042#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q042#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q042#7",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct; slightly chatty."
+  },
+  {
+   "answer_id": "q042#8",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q043#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q043#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q043#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q043#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, helpful alternatives."
+  },
+  {
+   "answer_id": "q043#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q043#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct, a bit wordy."
+  },
+  {
+   "answer_id": "q043#7",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct but padded."
+  },
+  {
+   "answer_id": "q043#8",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, concise."
+  },
+  {
+   "answer_id": "q043#9",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q044#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, with proper escalation."
+  },
+  {
+   "answer_id": "q044#2",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Adds an invented 'security measure' reason and vague steps; otherwise right."
+  },
+  {
+   "answer_id": "q044#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q044#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct; 'account settings' is vague but harmless."
+  },
+  {
+   "answer_id": "q044#5",
+   "correctness": 2,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Invents the path Account > Privacy, which the KB uses for data download and deletion, so it could misdirect the customer."
+  },
+  {
+   "answer_id": "q044#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct and honest about missing steps; slightly awkward."
+  },
+  {
+   "answer_id": "q044#7",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct; 'for security' is a minor invented reason."
+  },
+  {
+   "answer_id": "q044#8",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, with accurate contact info."
+  }
+ ]
+}

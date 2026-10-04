@@ -1,0 +1,50 @@
+{
+ "text": "Yes, the peace lily is on our not pet-safe list, so keep it out of your dog's reach. If your dog may have chewed or eaten any of it, contact a vet or an animal poison control service right away, before anything else.\n\nIf you'd like a pet-friendly alternative, our pet-safe plants are calathea, spider plant, parlour palm, Boston fern and peperomia. A Plant Care Specialist can also give you free advice by chat or email.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1607,
+  "output_tokens": 251,
+  "output_tokens_details": {
+   "thinking_tokens": 103
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 251,
+    "cache_read_input_tokens": 1607,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1609,
+ "output_tokens": 251,
+ "thinking_tokens": 103,
+ "latency_ms": 2763,
+ "wall_ms": 5885,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791007232.3656456
+}

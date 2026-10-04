@@ -1,0 +1,50 @@
+{
+ "text": "Since your order was placed 3 hours ago, it's past the 2-hour window for free changes, so it's now in the packing queue and I can't change it online. Support can try to intercept it before it ships, but that isn't guaranteed. If it ships first, the address can't be changed and couriers won't accept redirection requests from Leafy.\n\n- **Address:** This is the most time-sensitive change, so I'd start the intercept request now.\n- **Extra plant:** I can't add it to the existing order. You could place a separate new order, which would have its own shipping charge, and standard shipping is free on orders of $75+.\n- **Promo code:** Our policy doesn't say whether a code can be applied after an order is placed, so I can't promise it. I can escalate that question.\n\nIf you send me your order number (LF- plus six digits) and the new address, I'll pass the intercept request on. Do you also want me to escalate the promo code question?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 454,
+  "cache_read_input_tokens": 1505,
+  "output_tokens": 612,
+  "output_tokens_details": {
+   "thinking_tokens": 317
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 454,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 612,
+    "cache_read_input_tokens": 1505,
+    "cache_creation_input_tokens": 454,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 454
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1961,
+ "output_tokens": 612,
+ "thinking_tokens": 317,
+ "latency_ms": 5938,
+ "wall_ms": 8278,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791007498.9647133
+}

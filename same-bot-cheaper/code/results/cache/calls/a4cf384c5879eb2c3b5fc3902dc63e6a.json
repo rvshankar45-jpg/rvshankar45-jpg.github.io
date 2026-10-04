@@ -1,0 +1,49 @@
+{
+ "text": "Great question, and thanks for checking! \ud83c\udf3f\n\n**Yes, there's a small cost for a change-of-mind return:**\n- A flat **$6.95** return fee is deducted from your refund.\n- If you're a **Leafy Plus member**, this fee is waived and the return is free.\n\n**When it would be free:**\n- If the watering can is faulty or you received the wrong item, the return costs nothing.\n\n**What you won't pay:**\n- The prepaid return label is emailed to you, so there's no separate postage to pay. Just drop it off within **7 days** of receiving the label.\n\n**One more thing to know:**\n- Your original shipping cost isn't refunded for a change-of-mind return. It's only refunded if the whole order is returned because of our error.\n\nSo for an unused watering can you've changed your mind about, you'd get back the item price minus $6.95, within **5 business days** of the parcel reaching our warehouse.\n\nAnything else I can help with? We're always happy to help. \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 934,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 318,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 934,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 318,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 934,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 934
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 5274,
+ "output_tokens": 318,
+ "thinking_tokens": 0,
+ "latency_ms": 3023,
+ "wall_ms": 6013,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879538.9124146
+}

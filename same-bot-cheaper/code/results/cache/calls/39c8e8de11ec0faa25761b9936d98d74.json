@@ -1,0 +1,50 @@
+{
+ "text": "No, you shouldn't have to pay for Standard shipping on that order. $40 + $45 = $85, and after the $10 code your total is **$75**. Standard shipping is free on orders of $75 or more (after discounts, before tax), so you just meet the threshold.\n\n- **Express** isn't free. It costs $14.95 and isn't available in Zone 3 (over 1,000 miles, plus remote and island addresses).\n- **XL plants** (usually over 4 ft) add a $20 handling fee and ship Standard only. That fee is separate from the shipping charge.\n- **Standard delivery times** are 2-3 business days in Zone 1, 3-5 in Zone 2 and 5-8 in Zone 3.\n- **Dispatch day:** live plants ship Monday to Wednesday only. A plant order placed after 12 noon on Wednesday ships the following Monday, and mixed orders ship together on a plant day.\n\nThe $75 is exact, so if the discounted total drops below that, shipping will cost $7.95.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 451,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 582,
+  "output_tokens_details": {
+   "thinking_tokens": 243
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 451,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 582,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 451,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 451
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4309,
+ "output_tokens": 582,
+ "thinking_tokens": 243,
+ "latency_ms": 5171,
+ "wall_ms": 7896,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005559.5900087
+}

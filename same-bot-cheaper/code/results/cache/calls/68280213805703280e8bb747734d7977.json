@@ -1,0 +1,50 @@
+{
+ "text": "No, a promo code can't be added to an order after it's been placed. That applies even within your 2-hour change window, and to the ZZ plant or any pot you add to that order.\n\nIf you want to use a promo code on the pot, you could place it as a **new, separate order** and enter the code at checkout. Here's what to keep in mind:\n- **One code per order**, so the code would apply only to that new order.\n- **Shipping:** the pot would ship separately from your ZZ plant. Standard shipping is $7.95, or free if the new order is $75 or more after discounts and before tax.\n- **Leafy Plus:** if you're a member, a promo code can't be combined with member pricing on the same item. The better discount applies automatically.\n- **Eligibility:** I don't have the terms of specific promo codes, so I can't confirm a particular code will work on pots.\n\nIf you'd rather have the pot on the same order, you can add it from \"My Orders\" within your 2-hour window, but without a promo code.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1160,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 657,
+  "output_tokens_details": {
+   "thinking_tokens": 341
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1160,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 657,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 1160,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1160
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 5018,
+ "output_tokens": 657,
+ "thinking_tokens": 341,
+ "latency_ms": 6287,
+ "wall_ms": 8640,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005923.7986112
+}

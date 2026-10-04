@@ -1,0 +1,49 @@
+{
+ "text": "Thanks for letting me know, and I'm sorry you're still waiting on your plant. A replacement is a great choice.\n\nI don't have anything that says a replacement for a lost package ships Express, so I can't promise that. I'd rather be upfront than set the wrong expectation.\n\n**What I can tell you**\n- If the courier confirms the package is lost, you can choose a **free replacement**.\n- Express is only available in Zones 1 and 2 (next business day in Zone 1, 2 business days in Zone 2). It isn't available in Zone 3, which covers areas over 1,000 miles away, plus remote and island addresses.\n- Live plants ship **Monday to Wednesday only**. Orders placed after 12 noon Wednesday ship the following Monday.\n- Standard Express is normally **$14.95**. I don't know whether it would be waived for a replacement, so I can't say either way.\n\n**What happens next**\n- Once I have your order number, we open the courier investigation, which takes up to **5 business days**.\n- I can also ask a Support Lead to look at whether your replacement can go Express, given how long you've already waited. I can't promise the outcome, but I'm happy to ask.\n\nCould you send your **order number** (`LF-` followed by six digits)? Please don't share any full card numbers, security codes, or passwords.\n\nThank you for your patience. We'll do our best to get your plant to you, and please reach out any time!",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1268,
+  "cache_read_input_tokens": 1963,
+  "output_tokens": 819,
+  "output_tokens_details": {
+   "thinking_tokens": 357
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1268,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 819,
+    "cache_read_input_tokens": 1963,
+    "cache_creation_input_tokens": 1268,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1268
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 3233,
+ "output_tokens": 819,
+ "thinking_tokens": 357,
+ "latency_ms": 7468,
+ "wall_ms": 10554,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880360.4659986
+}

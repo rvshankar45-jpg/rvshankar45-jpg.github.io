@@ -1,0 +1,50 @@
+{
+ "text": "Yes, you can waive the hold by replying to the weather hold email. The risk is that if the plant is damaged by cold or heat in transit, that damage isn't covered, and DOA claims for it won't be accepted. The Plant Care Guarantee still applies to everything else.\n\nI can't promise a Friday arrival. Delivery depends on your shipping zone and method (Standard is 2-8 business days by zone, Express is next business day to 2 business days where available), and live plants only ship Monday-Wednesday. Tell me your order number (LF- plus six digits) and shipping method, and I can help work out the likely timing or pass it to a Support Lead to confirm the ship date.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 448,
+  "cache_read_input_tokens": 1587,
+  "output_tokens": 611,
+  "output_tokens_details": {
+   "thinking_tokens": 390
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 448,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 611,
+    "cache_read_input_tokens": 1587,
+    "cache_creation_input_tokens": 448,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 448
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2037,
+ "output_tokens": 611,
+ "thinking_tokens": 390,
+ "latency_ms": 5636,
+ "wall_ms": 8022,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791007155.5444176
+}

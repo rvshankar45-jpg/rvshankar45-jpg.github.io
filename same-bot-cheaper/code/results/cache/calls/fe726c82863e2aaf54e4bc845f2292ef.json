@@ -1,0 +1,50 @@
+{
+ "text": "You can send the photos through either of these:\n\n- **Chat:** 8am-8pm Mon-Sat (your local time). Today is Saturday, so it's open now if you're within those hours.\n- **Email:** help@leafy.example. Replies come within 1 business day.\n\nInclude your order number (LF- plus six digits) and photos of the plant, the cracked pot, and the box. Reporting now keeps you inside the 48-hour window, so I'd send the photos today rather than waiting for a reply.\n\nI don't have a specific upload form for damaged-on-arrival reports in the information I have, so chat or email is the route I can confirm.\n\nAlso, was the cracked pot the plastic nursery pot or a decorative pot you ordered? Mention that in your message, as it affects whether the replacement or refund covers the plant, the pot, or both.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 798,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 696,
+  "output_tokens_details": {
+   "thinking_tokens": 426
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 798,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 696,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 798,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 798
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4656,
+ "output_tokens": 696,
+ "thinking_tokens": 426,
+ "latency_ms": 6605,
+ "wall_ms": 9494,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005852.5786781
+}

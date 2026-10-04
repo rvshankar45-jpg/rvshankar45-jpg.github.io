@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry, typing is a pain. I can't place calls, and the policy information I have doesn't say whether Leafy offers phone support or callbacks, so I can't promise one. I can escalate your request to a Support Lead and ask for a call, though I can't confirm they'll be able to.\n\nTo keep typing to a minimum, just send your order number (LF- plus six digits) and a short note on what's wrong, and I'll try to answer it here or pass it along.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 430,
+  "cache_read_input_tokens": 1738,
+  "output_tokens": 312,
+  "output_tokens_details": {
+   "thinking_tokens": 163
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 430,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 312,
+    "cache_read_input_tokens": 1738,
+    "cache_creation_input_tokens": 430,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 430
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2170,
+ "output_tokens": 312,
+ "thinking_tokens": 163,
+ "latency_ms": 3786,
+ "wall_ms": 6935,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791101028.126627
+}

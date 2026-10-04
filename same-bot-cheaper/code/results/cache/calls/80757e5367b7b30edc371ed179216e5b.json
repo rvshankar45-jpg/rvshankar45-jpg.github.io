@@ -1,0 +1,49 @@
+{
+ "text": "Live plants ship **Monday through Wednesday only**.\n\n- Plant orders placed after **12 noon on Wednesday** ship the following Monday.\n- Non-living items (like pots and accessories) ship Monday through Friday. If an order has both plants and non-living items, everything ships together on a plant shipping day.\n- If the transit forecast is below 35\u00b0F or above 95\u00b0F, live plants may be held for up to 7 days, and we'll email you if that happens.\n\nOnce your order ships, tracking is emailed to you, and it can take up to 24 hours to update. Is there anything else I can help with?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1792,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 194,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1792,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 194,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1792,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1792
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1794,
+ "output_tokens": 194,
+ "thinking_tokens": 0,
+ "latency_ms": 2340,
+ "wall_ms": 5243,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880415.8349948
+}

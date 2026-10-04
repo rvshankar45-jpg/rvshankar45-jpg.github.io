@@ -1,0 +1,50 @@
+{
+ "text": "That's most likely not a mistake. Leafy charges your card when an order ships, so an order sent in several parcels can show one charge per parcel. Two boxes and two charges is what we'd expect.\n\nTo check that it's normal, see whether each charge roughly matches the items in one box. Together, the charges should add up to your order total.\n\nIf the charges look wrong, for example both are for the full order amount, or there are more charges than boxes, it may be a duplicate. In that case, send me:\n- your order number (it looks like LF-123456)\n- the last four digits of the card used\n\nPlease don't send the full card number, security code or any passwords. Once we confirm a duplicate, it's refunded within **3 business days**. After that, the refund takes **5-10 business days** to reach a card, or **3-5 business days** for a digital wallet.\n\nIf you'd like, share your order number and the two charge amounts and I can help you work out whether they line up.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 439,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 429,
+  "output_tokens_details": {
+   "thinking_tokens": 135
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 439,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 429,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 439,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 439
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4297,
+ "output_tokens": 429,
+ "thinking_tokens": 135,
+ "latency_ms": 5540,
+ "wall_ms": 9377,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005744.0881252
+}

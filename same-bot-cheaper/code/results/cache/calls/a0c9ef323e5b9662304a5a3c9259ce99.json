@@ -1,0 +1,50 @@
+{
+ "text": "I need to correct my earlier messages. The 4-business-day threshold, the 5-business-day investigation, and the replacement-or-refund outcome aren't in the policy information I have, so I shouldn't have stated them as fact. I'm sorry for the confusion, especially after this long a wait.\n\nI can't confirm what happens if the courier can't find your package. If a refund is issued, it goes to your original payment method, and card refunds take 5-10 business days after issue (digital wallets 3-5 business days). Store credit is instant.\n\nI'd recommend escalating this to a Support Lead, who can confirm your options. If you'd like that, please send your order number (LF- plus six digits).",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 820,
+  "cache_read_input_tokens": 1555,
+  "output_tokens": 563,
+  "output_tokens_details": {
+   "thinking_tokens": 342
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 820,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 563,
+    "cache_read_input_tokens": 1555,
+    "cache_creation_input_tokens": 820,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 820
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2377,
+ "output_tokens": 563,
+ "thinking_tokens": 342,
+ "latency_ms": 5216,
+ "wall_ms": 8072,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005416.4715338
+}

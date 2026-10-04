@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry your fig arrived like this, and that you've felt ignored. A snapped main stem counts as damage on arrival, but those reports have to be made within 48 hours of delivery, so at 3 days you're past that window. A refund is only available through the DOA route, so I can't promise one.\n\nYou can still file a Plant Care Guarantee claim, since the 30-day guarantee (90 days for Leafy Plus members) is still open. Go to \"My Orders\" and upload at least two photos, one of the whole plant and one close-up. A Plant Care Specialist will review it within 2 business days. If approved, the remedy is one free replacement (or store credit if it's out of stock), not a refund, and you don't need to send the plant back.\n\nIf you'd like to ask for a refund anyway, I can escalate your case to a Support Lead. The policy I have doesn't say whether they can make an exception, so I can't promise the outcome. Would you like me to do that?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 459,
+  "cache_read_input_tokens": 1104,
+  "output_tokens": 585,
+  "output_tokens_details": {
+   "thinking_tokens": 276
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 459,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 585,
+    "cache_read_input_tokens": 1104,
+    "cache_creation_input_tokens": 459,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 459
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1565,
+ "output_tokens": 585,
+ "thinking_tokens": 276,
+ "latency_ms": 5682,
+ "wall_ms": 8279,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100989.158937
+}

@@ -1,0 +1,50 @@
+{
+ "text": "No, express shipping isn't available for that plant. XL plants (usually over 4 ft) ship Standard only, so a 5 ft bird of paradise would go Standard.\n\nHere's what to expect:\n\n- **Handling fee:** XL plants add a **$20** handling fee.\n- **Standard shipping:** $7.95, or free on orders of **$75+** (after discounts, before tax). Leafy Plus members get free Standard shipping with no minimum.\n- **Delivery time** depends on your zone (distance from the nearest greenhouse):\n  - Zone 1 (under 300 miles): 2-3 business days\n  - Zone 2 (300-1,000 miles): 3-5 business days\n  - Zone 3 (over 1,000 miles, remote and island addresses): 5-8 business days\n- **Ship days:** Live plants ship Monday-Wednesday only. Orders placed after 12 noon Wednesday ship the next Monday.\n\nIf you tell me roughly where you're located, I can help work out which zone applies. I can also pass this to a Support Lead if you're looking for an exception, though I can't promise one would be possible.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 438,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 373,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 438,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 373,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 438,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 438
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4296,
+ "output_tokens": 373,
+ "thinking_tokens": 0,
+ "latency_ms": 3755,
+ "wall_ms": 8538,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005699.5862372
+}

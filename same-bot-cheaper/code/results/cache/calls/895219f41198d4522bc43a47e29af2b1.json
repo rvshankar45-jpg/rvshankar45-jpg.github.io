@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! I'm so sorry your three plants arrived dead. That's really disappointing, and I want to help get this sorted.\n\n**Your claim**\nDead plants on arrival fall under our Damaged on Arrival (DOA) policy. To report it, we need:\n- A report within **48 hours of delivery**\n- Photos of each plant **and** the box\n\nFor DOA plants, you can choose a **free replacement** (sent on the next plant shipping day, Monday to Wednesday) or a **refund**. If it's been more than 48 hours since delivery, the claim goes through our 30-day Plant Care Guarantee instead, which provides a free replacement rather than a refund.\n\n**Your expired card**\nRefunds can only go back to the original payment method, never to a different card, even if it has expired. Banks normally pass the refund on to your replacement card. Once a refund is issued, cards take **5-10 business days**. If you'd rather not wait, you can take **Leafy store credit** instead. It's issued instantly and never expires.\n\n**Next step**\nBecause the refund is $180, which is over $150, I need to pass it to a human Support Lead to review. I can't promise a specific timeline for their reply, but I'll make sure they have everything.\n\nTo get that started, could you tell me:\n- Your order number (it looks like LF-123456)\n- The date the order was delivered\n- Whether you can share photos of the plants and the box\n\nPlease don't send a full card number or security code. We never need those.\n\nThanks for your patience, and we'll do our best to get your plant family back on track!",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 450,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 851,
+  "output_tokens_details": {
+   "thinking_tokens": 335
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 450,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 851,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 450,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 450
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4790,
+ "output_tokens": 851,
+ "thinking_tokens": 335,
+ "latency_ms": 7600,
+ "wall_ms": 10271,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879399.759432
+}

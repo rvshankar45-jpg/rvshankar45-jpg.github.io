@@ -1,0 +1,148 @@
+{
+ "items": [
+  {
+   "answer_id": "t000#1",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 4,
+   "score": 3,
+   "note": "Format right and My Orders is fine, but claims a confirmation email (not in KB) and asks for email to look up/escalate without need."
+  },
+  {
+   "answer_id": "t000#2",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct format, honest about KB limits, points to My Orders, offers escalation."
+  },
+  {
+   "answer_id": "t001#1",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Correct no, but then suggests Support Lead might change address before delivery, implying a possibility the KB rules out."
+  },
+  {
+   "answer_id": "t001#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate, mentions no cancellation, offers escalation without false promise."
+  },
+  {
+   "answer_id": "t002#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, honest about not knowing exceptions, offers escalation."
+  },
+  {
+   "answer_id": "t002#2",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "t003#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "All facts correct."
+  },
+  {
+   "answer_id": "t003#2",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Facts right; 'separate gift slip' is an invented detail."
+  },
+  {
+   "answer_id": "t004#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "t004#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct, with relevant extras on fee and DOA."
+  },
+  {
+   "answer_id": "t005#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct, with options and escalation offer."
+  },
+  {
+   "answer_id": "t005#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and clear."
+  },
+  {
+   "answer_id": "t006#1",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 4,
+   "note": "7 days is right; 'from when emailed' is a reasonable inference."
+  },
+  {
+   "answer_id": "t006#2",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct, adds how to start a return."
+  },
+  {
+   "answer_id": "t007#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, notes living plants excluded."
+  },
+  {
+   "answer_id": "t007#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "All facts correct; slightly long but relevant."
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "text": "Yes, you can waive the weather hold by replying to that email. Here's what you need to know:\n\n**If you waive it:**\n- Your plants will ship in the cold (20\u00b0F is below the 35\u00b0F threshold).\n- The Plant Care Guarantee **still applies** for most issues, BUT you won't be covered for cold damage that occurs in transit\u2014that's the trade-off for waiving the hold.\n- DOA (dead on arrival) claims for cold damage are not accepted if you waive.\n\n**My recommendation:** Cold damage in transit can kill or severely harm plants before they even arrive. Unless you're confident about that risk, it's usually safer to let them wait up to 7 days for warmer weather. But it's entirely your choice\u2014just reply to the email if you want to proceed now.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1550,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 185,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1550,
+    "output_tokens": 185,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1550,
+ "output_tokens": 185,
+ "thinking_tokens": 0,
+ "latency_ms": 2694,
+ "wall_ms": 6040,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791100772.055278
+}

@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry your delivery was late. I can offer a one-time store credit of up to **$15** as goodwill, and it's store credit only, never cash. Anything higher needs a Support Lead's approval, so if you'd like more than $15, I can escalate your request to one.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1888,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 182,
+  "output_tokens_details": {
+   "thinking_tokens": 93
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1888,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 182,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1888,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1888
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1890,
+ "output_tokens": 182,
+ "thinking_tokens": 93,
+ "latency_ms": 2198,
+ "wall_ms": 5336,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100155.5695336
+}

@@ -1,0 +1,50 @@
+{
+ "text": "```json\n{\"label\": \"complex\"}\n```\n\nThis requires:\n- Multiple policy facts (account security, fraud procedures, order cancellation, payment protection)\n- Rules applied to the customer's specific situation (unauthorized access, fraudulent charge)\n- An upset customer (security breach, financial concern)",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 488,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 67,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 488,
+    "output_tokens": 67,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 488,
+ "output_tokens": 67,
+ "thinking_tokens": 0,
+ "latency_ms": 1462,
+ "wall_ms": 4496,
+ "overhead": 379,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791006896.8791351
+}

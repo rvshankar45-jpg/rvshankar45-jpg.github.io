@@ -1,0 +1,49 @@
+{
+ "text": "Hi again! \ud83c\udf3f Good news: since today is the 22nd, you're in time.\n\n**If you upgrade today, it applies to your next box.**\n- Changes made **before the 25th** affect the next box.\n- You'd be charged the Collector price of **$49** on the **25th**, three days from now.\n- That box ships in the **first full week** of next month, with a medium or rare plant in a 6-inch pot.\n\nTo make the change, go to **Account > Subscriptions** and switch your plan.\n\nPlease make the change before the 25th. If you switch on or after the 25th, the upgrade wouldn't start until the following month's box, and you'd get another Starter box first.\n\nIs there anything else I can help with? Happy upgrading! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 746,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 502,
+  "output_tokens_details": {
+   "thinking_tokens": 264
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 746,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 502,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 746,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 746
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 5086,
+ "output_tokens": 502,
+ "thinking_tokens": 264,
+ "latency_ms": 5611,
+ "wall_ms": 8475,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879683.9698327
+}

@@ -1,0 +1,301 @@
+{
+ "items": [
+  {
+   "answer_id": "q057#1",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 4,
+   "note": "Accurate; says pot can be escalated. Slightly odd advice about repotting but fine."
+  },
+  {
+   "answer_id": "q057#2",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct; offers escalation. Somewhat long."
+  },
+  {
+   "answer_id": "q057#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Concise, correct, offers escalation."
+  },
+  {
+   "answer_id": "q057#4",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct and concise; slightly less on pot next steps."
+  },
+  {
+   "answer_id": "q057#5",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct, long but fine."
+  },
+  {
+   "answer_id": "q057#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Concise and correct."
+  },
+  {
+   "answer_id": "q057#7",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Complete, correct, offers escalation."
+  },
+  {
+   "answer_id": "q057#8",
+   "correctness": 2,
+   "completeness": 3,
+   "policy": 2,
+   "tone": 4,
+   "score": 2,
+   "note": "Implies the cracked pot can be handled in the claim and that it needn't be returned; doesn't offer escalation; invented coverage."
+  },
+  {
+   "answer_id": "q057#9",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "q058#1",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct; minor: says guarantee applies as normal when waiting, fine."
+  },
+  {
+   "answer_id": "q058#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Concise and accurate."
+  },
+  {
+   "answer_id": "q058#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate and complete."
+  },
+  {
+   "answer_id": "q058#4",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Says guarantee excludes cold damage even when waiting; exclusion applies only when waived."
+  },
+  {
+   "answer_id": "q058#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate."
+  },
+  {
+   "answer_id": "q058#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate, a bit chatty."
+  },
+  {
+   "answer_id": "q059#1",
+   "correctness": 2,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 2,
+   "note": "Opens with Yes, which is misleading; details then correct-ish but the 'wrong product' etc. is invented."
+  },
+  {
+   "answer_id": "q059#2",
+   "correctness": 2,
+   "completeness": 3,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Yes-framing, invents 48-hour requirement for faulty soil."
+  },
+  {
+   "answer_id": "q059#3",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct no unless faulty; unopened return detail is correct, though the KB doesn't state fee for unopened exactly (it does: change of mind $6.95)."
+  },
+  {
+   "answer_id": "q059#4",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Main point correct, but wrongly implies unopened is the only condition."
+  },
+  {
+   "answer_id": "q059#5",
+   "correctness": 2,
+   "completeness": 3,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Yes-framing and invented 48-hour rule."
+  },
+  {
+   "answer_id": "q059#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct and complete."
+  },
+  {
+   "answer_id": "q059#7",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "q060#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q060#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct with useful context."
+  },
+  {
+   "answer_id": "q060#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct; a bit verbose."
+  },
+  {
+   "answer_id": "q060#4",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct; adds Mon-Wed and weather detail, reasonable inference."
+  },
+  {
+   "answer_id": "q060#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q060#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, concise."
+  },
+  {
+   "answer_id": "q060#7",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q060#8",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, honest about gaps."
+  },
+  {
+   "answer_id": "q060#9",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q060#10",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q060#11",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  }
+ ]
+}

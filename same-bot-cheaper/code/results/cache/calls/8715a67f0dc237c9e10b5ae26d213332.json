@@ -1,0 +1,50 @@
+{
+ "text": "No, Plant Club plants are a surprise, so you can't choose a specific one, including a rare calathea. Collector boxes ($49/month) do include a medium or rare plant in a 6-inch pot, matched to your light level, so a rare plant is possible but not guaranteed to be a calathea. You can list up to 3 plants you already own so you don't get duplicates.\n\nIf you'd like to pick a specific plant, I don't have information in my policy excerpts about buying one individually, but I can escalate that question to a Support Lead if you'd like.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 442,
+  "cache_read_input_tokens": 1179,
+  "output_tokens": 177,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 442,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 177,
+    "cache_read_input_tokens": 1179,
+    "cache_creation_input_tokens": 442,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 442
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1623,
+ "output_tokens": 177,
+ "thinking_tokens": 0,
+ "latency_ms": 2551,
+ "wall_ms": 5655,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791101453.7576292
+}

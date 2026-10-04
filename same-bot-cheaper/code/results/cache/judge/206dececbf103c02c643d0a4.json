@@ -1,0 +1,292 @@
+{
+ "items": [
+  {
+   "answer_id": "q053#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and complete; extra details accurate."
+  },
+  {
+   "answer_id": "q053#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, friendly."
+  },
+  {
+   "answer_id": "q053#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct; Account > Subscriptions for preferences is slightly inferred but fine."
+  },
+  {
+   "answer_id": "q053#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Concise and correct."
+  },
+  {
+   "answer_id": "q053#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q053#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Concise and correct."
+  },
+  {
+   "answer_id": "q053#7",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct; 'small 4-inch plants' and 'preferences' slightly loose."
+  },
+  {
+   "answer_id": "q054#1",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct 5 days; 'update within 5 business days' slightly invented but minor."
+  },
+  {
+   "answer_id": "q054#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q054#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, concise."
+  },
+  {
+   "answer_id": "q054#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, concise."
+  },
+  {
+   "answer_id": "q054#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q054#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q054#7",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and empathetic."
+  },
+  {
+   "answer_id": "q054#8",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q054#9",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q054#10",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q055#1",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Correct on main point, but 'cancel and reorder' phrasing is muddled and implies cancellation beyond 2h is possible."
+  },
+  {
+   "answer_id": "q055#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct, a bit long."
+  },
+  {
+   "answer_id": "q055#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct and thorough."
+  },
+  {
+   "answer_id": "q055#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct; offers escalation appropriately."
+  },
+  {
+   "answer_id": "q055#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "q055#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q056#1",
+   "correctness": 1,
+   "completeness": 2,
+   "policy": 3,
+   "tone": 4,
+   "score": 1,
+   "note": "Wrongly claims no price adjustment policy exists; KB has 7-day price drop credit."
+  },
+  {
+   "answer_id": "q056#2",
+   "correctness": 1,
+   "completeness": 1,
+   "policy": 3,
+   "tone": 4,
+   "score": 1,
+   "note": "Says no policy; wrong."
+  },
+  {
+   "answer_id": "q056#3",
+   "correctness": 1,
+   "completeness": 1,
+   "policy": 3,
+   "tone": 4,
+   "score": 1,
+   "note": "Says no policy; wrong."
+  },
+  {
+   "answer_id": "q056#4",
+   "correctness": 1,
+   "completeness": 1,
+   "policy": 3,
+   "tone": 4,
+   "score": 1,
+   "note": "Says no policy; wrong."
+  },
+  {
+   "answer_id": "q056#5",
+   "correctness": 1,
+   "completeness": 1,
+   "policy": 3,
+   "tone": 4,
+   "score": 1,
+   "note": "Says no policy; wrong."
+  },
+  {
+   "answer_id": "q056#6",
+   "correctness": 1,
+   "completeness": 1,
+   "policy": 3,
+   "tone": 4,
+   "score": 1,
+   "note": "Says no policy; wrong."
+  },
+  {
+   "answer_id": "q056#7",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct price drop policy."
+  },
+  {
+   "answer_id": "q056#8",
+   "correctness": 1,
+   "completeness": 1,
+   "policy": 3,
+   "tone": 4,
+   "score": 1,
+   "note": "Says no policy; wrong."
+  },
+  {
+   "answer_id": "q056#9",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, concise, honest about gaps."
+  }
+ ]
+}

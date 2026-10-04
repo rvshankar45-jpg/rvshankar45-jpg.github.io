@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for reaching out to Leafy! \ud83c\udf3f\n\nGreat question. Unfortunately, with your promo code applied your cart would come to $70, and free Standard shipping applies to orders of **$75 or more after discounts** (before tax). That means your order wouldn't qualify for free shipping at that total.\n\nHere's what you'd pay for shipping:\n- **Standard:** $7.95\n- **Express:** $14.95 (never free)\n\nA couple of ways you could get free shipping:\n- **Add a little more to your cart.** If your total after the promo code reaches $75 or more, Standard shipping is free. You'd need to add at least $5 more.\n- **Leafy Plus:** This membership ($59/year) includes free Standard shipping with no minimum. Just note that promo codes can't be combined with Leafy Plus member pricing on the same item (the better discount applies automatically).\n\nAlso, a quick heads-up: if your order includes an XL plant (usually over 4 ft), there's an extra $20 handling fee, and those ship Standard only.\n\nIf you'd like help with anything else, I'm happy to help. Happy planting! \ud83e\udeb4",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 443,
+  "cache_read_input_tokens": 4679,
+  "output_tokens": 376,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 443,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 376,
+    "cache_read_input_tokens": 4679,
+    "cache_creation_input_tokens": 443,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 443
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 5124,
+ "output_tokens": 376,
+ "thinking_tokens": 0,
+ "latency_ms": 3709,
+ "wall_ms": 8012,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790786988.779021
+}

@@ -1,0 +1,49 @@
+{
+ "text": "",
+ "capped": true,
+ "stop_reason": "stop_sequence",
+ "raw_usage": {
+  "input_tokens": 8,
+  "cache_creation_input_tokens": 3497,
+  "cache_read_input_tokens": 3999,
+  "output_tokens": 1600,
+  "output_tokens_details": {
+   "thinking_tokens": 1600
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 3497,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 400,
+    "cache_read_input_tokens": 1333,
+    "cache_creation_input_tokens": 634,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 634
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 7504,
+ "output_tokens": 1600,
+ "thinking_tokens": 1600,
+ "latency_ms": 18931,
+ "wall_ms": 22161,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 400,
+ "recorded_at": 1790787087.7578716
+}

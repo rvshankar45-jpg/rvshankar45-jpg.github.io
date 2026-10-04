@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! \ud83c\udf3f\n\nI'm sorry about that. It's so easy to forget a promo code in the checkout rush. Unfortunately, promo codes can't be added to an order after it has been placed.\n\nHere's what you can do, depending on where your order stands:\n\n- **Within 2 hours of ordering:** You can change or cancel your order for free from \"My Orders\". If you cancel, you could place a new order with your promo code applied. A pending authorisation on the cancelled order usually drops off your card within 3-7 business days, depending on your bank.\n- **After 2 hours:** The order is in our packing queue and can't be changed online. Support can try to intercept it before it ships, but that isn't guaranteed. Once it has shipped, it can't be cancelled.\n\nA couple of other things to keep in mind:\n\n- Only one promo code can be used per order.\n- Promo codes can't be combined with Leafy Plus member pricing on the same item. The better discount is applied automatically.\n\nIf you tell me your order number (it looks like LF- followed by six digits), I can help you work out the best next step. Please don't share any full card numbers or passwords with me.\n\nThanks for shopping with Leafy, and please reach out any time. Happy planting! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 438,
+  "cache_read_input_tokens": 2187,
+  "output_tokens": 412,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 438,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 412,
+    "cache_read_input_tokens": 2187,
+    "cache_creation_input_tokens": 438,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 438
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2627,
+ "output_tokens": 412,
+ "thinking_tokens": 0,
+ "latency_ms": 4150,
+ "wall_ms": 7557,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879930.6854105
+}

@@ -1,0 +1,50 @@
+{
+ "text": "Thanks for your patience, and I'm sorry this has dragged on. Six business days with no tracking movement is past the 4-business-day threshold, so you qualify for a courier investigation, which takes up to 5 business days. If the package is found to be lost, you can choose a free replacement or a full refund.\n\nTo open it, please send me your order number (LF-plus six digits). I don't have a way to speed up the investigation beyond that, but if you'd like me to escalate this to a Support Lead, just say so.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 639,
+  "cache_read_input_tokens": 1738,
+  "output_tokens": 162,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 639,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 162,
+    "cache_read_input_tokens": 1738,
+    "cache_creation_input_tokens": 639,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 639
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2379,
+ "output_tokens": 162,
+ "thinking_tokens": 0,
+ "latency_ms": 2384,
+ "wall_ms": 5369,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005408.3771403
+}

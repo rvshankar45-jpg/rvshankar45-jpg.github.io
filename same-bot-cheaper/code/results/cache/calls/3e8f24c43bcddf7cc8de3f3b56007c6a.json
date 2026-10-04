@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! \ud83c\udf3f Sorry for the wait and for any confusion about your fern. Here's what happens next.\n\n**Your item is automatically refunded.** When a plant goes out of stock after ordering, we email within 24 hours with three options:\n- A similar plant of equal or higher value\n- A wait of up to 14 days\n- A refund for that item\n\nIf we don't hear back within **3 days**, the item is refunded automatically. Since it's been 4 days with no reply, that refund should already have been triggered.\n\n**When you'll see the money:** Refunds go back to your original payment method. Once issued, timing is:\n- Credit or debit cards: **5-10 business days**\n- Digital wallets: **3-5 business days**\n\nIf you'd rather have **Leafy store credit**, that's issued instantly and never expires. I can't confirm from here whether the refund has already been processed, so if you'd prefer credit or can't see any sign of the refund, please let me know.\n\n**If you still want a fern:** Your order has already moved to the refund path, so the simplest route is to place a new order for a fern or a similar plant on the website or app.\n\nIf you share your order number (it looks like LF- plus six digits), I can point you to the next best step. Please don't send any full card numbers or security codes.\n\nThanks again for your patience, and I hope we can get a happy green friend to you soon! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 446,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 454,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 446,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 454,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 446,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 446
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4786,
+ "output_tokens": 454,
+ "thinking_tokens": 0,
+ "latency_ms": 6030,
+ "wall_ms": 11003,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790868651.6537516
+}

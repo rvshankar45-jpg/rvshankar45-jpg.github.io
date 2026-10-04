@@ -1,0 +1,50 @@
+{
+ "text": "Unfortunately, **live plants cannot be returned for change of mind** \u2014 that's not covered by our returns policy. However, if the plant arrived damaged or dead, that would go through our Plant Care Guarantee instead; you'd need to report it within 48 hours of delivery with photos.\n\nRegarding shipping: **original shipping is only refunded if the whole order is returned because of *our* error** (like sending the wrong item). Since this is a change-of-mind situation, shipping wouldn't be refunded.\n\nIs there an issue with the plant itself \u2014 like damage or poor condition when it arrived?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1262,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 132,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1262,
+    "output_tokens": 132,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1262,
+ "output_tokens": 132,
+ "thinking_tokens": 0,
+ "latency_ms": 2101,
+ "wall_ms": 5083,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791101009.7605479
+}

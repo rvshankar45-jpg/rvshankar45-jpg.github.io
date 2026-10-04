@@ -1,0 +1,50 @@
+{
+ "text": "That's most likely not a mistake. Your card is charged when an order ships, so an order sent in two parcels can show one charge per parcel.\n\nTo check, see whether the two charges add up to your order total. If they do, nothing is wrong. If it looks like you were charged twice for the same thing, reply with your order number and the last four digits of your card (never the full number or security code). Once we confirm a duplicate, it's refunded within 3 business days.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2076,
+  "output_tokens": 317,
+  "output_tokens_details": {
+   "thinking_tokens": 177
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 317,
+    "cache_read_input_tokens": 2076,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2078,
+ "output_tokens": 317,
+ "thinking_tokens": 177,
+ "latency_ms": 3383,
+ "wall_ms": 6916,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791007290.301463
+}

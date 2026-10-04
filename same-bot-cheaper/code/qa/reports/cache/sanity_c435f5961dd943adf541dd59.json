@@ -1,0 +1,89 @@
+{
+ "items": [
+  {
+   "id": "a25",
+   "addresses": true,
+   "reason": "Answers what Leafy Plus offers (partially, 90-day guarantee) and offers escalation."
+  },
+  {
+   "id": "a26",
+   "addresses": false,
+   "reason": "Answer is truncated ('drops.') and never answers whether the longer guarantee applies to earlier purchases; talks about refunds instead."
+  },
+  {
+   "id": "a27",
+   "addresses": true,
+   "reason": "Answers the refund-in-a-week question and lists the benefits."
+  },
+  {
+   "id": "a28",
+   "addresses": true,
+   "reason": "Addresses what happens if free shipping was used: no full refund if benefits used, offers escalation."
+  },
+  {
+   "id": "a29",
+   "addresses": true,
+   "reason": "Answers that Express is not free with Plus, despite truncated start."
+  },
+  {
+   "id": "a30",
+   "addresses": true,
+   "reason": "Explains return window fully."
+  },
+  {
+   "id": "a31",
+   "addresses": true,
+   "reason": "Explains return window fully."
+  },
+  {
+   "id": "a32",
+   "addresses": true,
+   "reason": "Addresses the free shipping question, says it cannot confirm the threshold, and offers next steps."
+  },
+  {
+   "id": "a33",
+   "addresses": true,
+   "reason": "Covers all three parts: yellow leaves, double charge and refund to a different card."
+  },
+  {
+   "id": "a34",
+   "addresses": true,
+   "reason": "Answers what happens if free shipping was already used."
+  },
+  {
+   "id": "a35",
+   "addresses": true,
+   "reason": "Directly answers that Express is not free."
+  },
+  {
+   "id": "a36",
+   "addresses": true,
+   "reason": "Explains return window."
+  },
+  {
+   "id": "a37",
+   "addresses": true,
+   "reason": "Directly answers that free shipping does not apply at $70."
+  },
+  {
+   "id": "a38",
+   "addresses": true,
+   "reason": "Covers all three parts."
+  },
+  {
+   "id": "a39",
+   "addresses": true,
+   "reason": "Gives the return window."
+  },
+  {
+   "id": "a40",
+   "addresses": true,
+   "reason": "Answers the free shipping question."
+  },
+  {
+   "id": "a41",
+   "addresses": false,
+   "reason": "Answer is truncated and the yellow-leaves part is missing; it starts mid-sentence and only asks for details about the leaves."
+  }
+ ]
+}

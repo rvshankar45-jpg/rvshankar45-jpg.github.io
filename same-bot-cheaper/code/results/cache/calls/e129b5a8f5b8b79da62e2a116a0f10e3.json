@@ -1,0 +1,50 @@
+{
+ "text": "Yes, you can avoid duplicates: Plant Club lets you list up to 3 plants you already own, so your pothos, ZZ plant and snake plant fit exactly. You can't choose the plant itself, though. Each month's plant is a surprise matched to your light level.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 464,
+  "cache_read_input_tokens": 1179,
+  "output_tokens": 90,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 464,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 90,
+    "cache_read_input_tokens": 1179,
+    "cache_creation_input_tokens": 464,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 464
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1645,
+ "output_tokens": 90,
+ "thinking_tokens": 0,
+ "latency_ms": 1589,
+ "wall_ms": 4748,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100922.028877
+}

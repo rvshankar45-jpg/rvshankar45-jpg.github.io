@@ -1,0 +1,257 @@
+[
+ {
+  "query": "I ordered a $68 plant and a $10 pot. Do I get free shipping?",
+  "reference_answer": "Yes. Total is $78, which is over the $75 threshold, so Standard shipping is free (after discounts, before tax).",
+  "category": "shipping"
+ },
+ {
+  "query": "My order is $80 but I have a $10 promo code. Will shipping still be free?",
+  "reference_answer": "No. Free Standard shipping requires $75+ after discounts; $70 after the code means $7.95 Standard shipping applies.",
+  "category": "shipping"
+ },
+ {
+  "query": "I placed an order 3 hours ago and want to cancel. Can I do it in My Orders?",
+  "reference_answer": "No, the free online change/cancel window is 2 hours. Support can try to intercept it before it ships, but that isn't guaranteed.",
+  "category": "orders"
+ },
+ {
+  "query": "I ordered a plant on Wednesday at 3pm. When will it ship?",
+  "reference_answer": "Live plants ship Mon\u2013Wed, and orders after 12 noon Wednesday ship the next Monday.",
+  "category": "shipping"
+ },
+ {
+  "query": "I live 1,200 miles from your greenhouse. Can I get express shipping on a plant?",
+  "reference_answer": "No. Over 1,000 miles is Zone 3, where Express isn't available. Standard takes 5\u20138 business days.",
+  "category": "shipping"
+ },
+ {
+  "query": "I'm a Leafy Plus member. Can I get free Express shipping on my order?",
+  "reference_answer": "No. Plus gives free Standard shipping with no minimum, but Express is $14.95 and never free.",
+  "category": "membership"
+ },
+ {
+  "query": "I want an XL 5 ft fiddle leaf fig with Express shipping. How much extra will that cost?",
+  "reference_answer": "XL plants ship Standard only, so Express isn't possible. XL adds a $20 handling fee.",
+  "category": "shipping"
+ },
+ {
+  "query": "I bought a bag of soil 10 days ago, opened it, and changed my mind. Can I return it?",
+  "reference_answer": "No. Opened soil can't be returned unless it's faulty, even within the 30-day window.",
+  "category": "returns"
+ },
+ {
+  "query": "I got a ceramic pot 25 days ago and don't like the color. It's unused and in the box. What will the return cost me?",
+  "reference_answer": "It's within 30 days, so it's returnable. Change-of-mind returns cost a flat $6.95 deducted from the refund (free for Leafy Plus members).",
+  "category": "returns"
+ },
+ {
+  "query": "I got my return label 9 days ago and haven't dropped off the parcel yet. Is it still OK?",
+  "reference_answer": "No. Labels expire after 7 days. Start a new return from My Orders if still within the 30-day window.",
+  "category": "returns"
+ },
+ {
+  "query": "My monstera arrived 3 days ago with a snapped main stem. Can I get a replacement?",
+  "reference_answer": "DOA must be reported within 48 hours of delivery. At 3 days, it goes through the Plant Care Guarantee, with photos, within 30 days, reviewed in 2 business days.",
+  "category": "damaged"
+ },
+ {
+  "query": "My plant was delivered yesterday and the pot is cracked and the roots are exposed. What do I do?",
+  "reference_answer": "Report it within 48 hours with photos of the plant and box. You get a free replacement on the next plant shipping day or a refund.",
+  "category": "damaged"
+ },
+ {
+  "query": "A $30 glass pot arrived smashed. Do I have to send it back?",
+  "reference_answer": "Report within 48 hours with photos. Replacement or refund; items under $40 usually don't need to be sent back.",
+  "category": "damaged"
+ },
+ {
+  "query": "You sent me a pothos but I ordered a peperomia. Can I keep it, and when do I get the right one?",
+  "reference_answer": "A wrong live plant can be kept at no charge. The correct item ships free by Express where the zone allows.",
+  "category": "damaged"
+ },
+ {
+  "query": "My plant was delivered 35 days ago and is now dying. Can I claim under the guarantee?",
+  "reference_answer": "Not on a standard 30-day guarantee. If you're a Leafy Plus member and the plant was ordered while active, the guarantee is 90 days.",
+  "category": "guarantee"
+ },
+ {
+  "query": "I'm Leafy Plus and my plant arrived 60 days ago and now has root rot. Am I covered?",
+  "reference_answer": "Yes, if the plant was ordered while the membership was active, since the guarantee is 90 days. Submit a claim in My Orders with two photos.",
+  "category": "guarantee"
+ },
+ {
+  "query": "One older leaf on my new calathea turned yellow after 5 days. Can I get a replacement?",
+  "reference_answer": "Probably not. Yellowing of one or two older leaves in the first two weeks is normal transplant stress and not covered on its own.",
+  "category": "guarantee"
+ },
+ {
+  "query": "I repotted my plant into other soil on day 7 and it died on day 20. Will you replace it?",
+  "reference_answer": "Not covered: repotting into non-Leafy soil in the first 14 days is excluded. Escalation might be possible if you insist.",
+  "category": "guarantee"
+ },
+ {
+  "query": "My replacement plant died too after 20 days. Will you replace it again?",
+  "reference_answer": "Yes. A replacement has its own new 30-day guarantee, so it can be replaced once more. That second replacement has no guarantee.",
+  "category": "guarantee"
+ },
+ {
+  "query": "What do I need to include in a plant guarantee claim and how long until I hear back?",
+  "reference_answer": "Claim from My Orders with at least two photos (whole plant and close-up). A specialist reviews within 2 business days. The plant doesn't need to be returned.",
+  "category": "guarantee"
+ },
+ {
+  "query": "A weather hold was emailed to me and I waived it. My plant arrived frozen. Can I claim?",
+  "reference_answer": "No. Cold or heat damage in transit isn't covered once the hold is waived, and DOA claims for it aren't accepted.",
+  "category": "guarantee"
+ },
+ {
+  "query": "My tracking hasn't moved in 5 business days. What happens now?",
+  "reference_answer": "Contact support: the 4-business-day threshold is met. We open a courier investigation of up to 5 business days. If lost, you choose a free replacement or full refund.",
+  "category": "shipping"
+ },
+ {
+  "query": "Item out of stock after I ordered. I didn't reply to your email for 3 days. What happened?",
+  "reference_answer": "With no reply within 3 days, the item is automatically refunded.",
+  "category": "orders"
+ },
+ {
+  "query": "I canceled an order an hour after placing it but my bank still shows a charge. Is that a double charge?",
+  "reference_answer": "Likely a pending authorisation, which drops off in 3\u20137 business days depending on the bank. Leafy can't release it faster.",
+  "category": "payments"
+ },
+ {
+  "query": "I see two charges for order LF-204518 and both have posted. What do you need from me?",
+  "reference_answer": "Send the order number and last four card digits only (never full number, CVV or password). The duplicate is refunded within 3 business days of confirmation. Suspected disputes may be escalated.",
+  "category": "payments"
+ },
+ {
+  "query": "My card was replaced after my refund was issued. Can you send it to my new card?",
+  "reference_answer": "No. Refunds go only to the original payment method; the bank normally passes it to the replacement card. Store credit is an instant alternative.",
+  "category": "refunds"
+ },
+ {
+  "query": "How long will a refund take if I paid with a digital wallet versus a card?",
+  "reference_answer": "Digital wallets take 3\u20135 business days; cards take 5\u201310 business days, once issued. Store credit is instant.",
+  "category": "refunds"
+ },
+ {
+  "query": "I returned a pot and it reached your warehouse Monday. When will I get my refund?",
+  "reference_answer": "Refunds are issued within 5 business days of arrival, then card timing of 5\u201310 business days (3\u20135 for wallets) applies.",
+  "category": "refunds"
+ },
+ {
+  "query": "I bought a $40 plant 5 days ago and it's now $32. Can I get the difference?",
+  "reference_answer": "Yes, within 7 days: $8 as store credit, once per item, unless it was a flash sale or clearance item.",
+  "category": "payments"
+ },
+ {
+  "query": "Can I use a promo code and my Leafy Plus discount on the same pot?",
+  "reference_answer": "No. They can't be combined on the same item; the better discount applies automatically. Only one promo code per order.",
+  "category": "payments"
+ },
+ {
+  "query": "I forgot my promo code. Can I add it to my order from this morning?",
+  "reference_answer": "No. Promo codes can't be added after ordering.",
+  "category": "payments"
+ },
+ {
+  "query": "Can I use buy-now-pay-later on a $40 order? What about $600?",
+  "reference_answer": "BNPL is available on orders of $50\u2013$1,000, so not $40 but yes for $600.",
+  "category": "payments"
+ },
+ {
+  "query": "I have a Collector plan and want to cancel today, the 26th. Will I be charged next month?",
+  "reference_answer": "Changes on or after the 25th apply to the following month's box. The already-billed box ($49) is not refunded and is still sent. There's no cancellation fee.",
+  "category": "subscriptions"
+ },
+ {
+  "query": "If I switch from Starter to Collector on the 20th, which box is affected?",
+  "reference_answer": "Changes before the 25th affect the next box, so next month's box will be Collector at $49.",
+  "category": "subscriptions"
+ },
+ {
+  "query": "What's the longest I can pause Plant Club and where do I do it?",
+  "reference_answer": "Up to 3 months, from Account > Subscriptions.",
+  "category": "subscriptions"
+ },
+ {
+  "query": "I bought Leafy Plus 10 days ago and used free shipping once. Can I get a refund?",
+  "reference_answer": "No. A full refund needs cancellation within 14 days and no benefits used. Benefits continue to the end of the paid year.",
+  "category": "membership"
+ },
+ {
+  "query": "I bought Leafy Plus 5 days ago and haven't used anything. Can I get my $59 back?",
+  "reference_answer": "Yes, a full refund if cancelled within 14 days with no benefits used.",
+  "category": "membership"
+ },
+ {
+  "query": "I have a cat. Is a ZZ plant OK, or should I get a spider plant?",
+  "reference_answer": "ZZ plant is not pet-safe; spider plant is pet-safe.",
+  "category": "plant_safety"
+ },
+ {
+  "query": "My dog just chewed a pothos leaf. What should I do?",
+  "reference_answer": "Contact your vet or local poison control immediately. We will then escalate to a human Support Lead.",
+  "category": "escalation"
+ },
+ {
+  "query": "I want a $200 refund for a damaged order and I'm really upset. Who handles this?",
+  "reference_answer": "A refund over $150 requires escalation to a human Support Lead. We'll escalate.",
+  "category": "escalation"
+ },
+ {
+  "query": "My delivery was late. Can you give me a $25 credit as an apology?",
+  "reference_answer": "Agents can offer one-time goodwill store credit up to $15; more needs a Support Lead. Goodwill is never cash.",
+  "category": "contact"
+ },
+ {
+  "query": "What are your chat hours, and can I call someone on Sunday?",
+  "reference_answer": "Chat is 8am\u20138pm Mon\u2013Sat. There's no phone support. Email help@leafy.example is answered within 1 business day.",
+  "category": "contact"
+ },
+ {
+  "query": "I'm trying to reach a plant specialist on Saturday at 10am. Are they available?",
+  "reference_answer": "No. Plant Care Specialists chat 9am\u20135pm Mon\u2013Fri. Email is an option, or the general chat is open Saturday.",
+  "category": "contact"
+ },
+ {
+  "query": "Can you change the email on my account? I'm in chat right now.",
+  "reference_answer": "Support can't change an account email over chat. Log in and change it yourself.",
+  "category": "account"
+ },
+ {
+  "query": "I think someone logged into my account and placed an order. What now?",
+  "reference_answer": "Reset your password immediately; support escalates the possible unauthorised access.",
+  "category": "account"
+ },
+ {
+  "query": "I'm 17 and want to open an account to buy succulents. Is that fine?",
+  "reference_answer": "No. Customers must be 18 or older to hold an account.",
+  "category": "account"
+ },
+ {
+  "query": "I want a plant delivered to my PO box with a $20 pot.",
+  "reference_answer": "Live plants can't ship to PO boxes; only non-living items can. The pot alone could go there.",
+  "category": "shipping"
+ },
+ {
+  "query": "My gift card code is lost. How can I get it back, and can I cash it out instead?",
+  "reference_answer": "The purchaser can give the gift card order number to have it reissued. Gift cards are not refundable for cash.",
+  "category": "payments"
+ },
+ {
+  "query": "I ordered a gift and want to write a 250-character note. Will the price be on the slip?",
+  "reference_answer": "Gift notes are up to 200 characters, so it needs shortening. Prices are never printed on gift packing slips.",
+  "category": "orders"
+ },
+ {
+  "query": "I ordered the wrong address and it already shipped. Can you redirect the courier?",
+  "reference_answer": "No. The address can't be changed after shipping and couriers don't accept redirection requests from Leafy.",
+  "category": "multi_issue"
+ },
+ {
+  "query": "This is the third time I've asked about my missing refund and nobody fixed it. Also can you ship internationally to my sister in Canada?",
+  "reference_answer": "The same issue raised three or more times is escalated to a Support Lead. There's no international shipping.",
+  "category": "multi_issue"
+ }
+]

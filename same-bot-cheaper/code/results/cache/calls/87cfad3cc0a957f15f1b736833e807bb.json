@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry your plants arrived dead. That's frustrating, especially with three at once.\n\n**Eligibility**\n- Dead or severely wilted plants on arrival count as Damaged on Arrival (DOA). You need to report within **48 hours of delivery**, with photos of the plants and the box, from \"My Orders\".\n- If you're still inside that 48 hours, report it now. If you're past it, these go through the Plant Care Guarantee instead. That gives one free replacement per plant (store credit if the plant is out of stock) rather than a refund, and I'd need to escalate if you want a refund anyway.\n- When did the order arrive? Please also send the order number (LF- plus six digits).\n\n**Your options for a DOA claim**\n1. **Free replacements** on the next plant shipping day (plants ship Monday to Wednesday).\n2. **A refund** to the original payment method.\n3. **Leafy store credit**, issued instantly and never expiring.\n\n**The expired card**\nRefunds can only go back to the original payment method, never a different card, even if it has expired or closed. Banks normally pass the refund on to your replacement card. Once a refund is issued, cards take **5-10 business days** (digital wallets 3-5 business days). If you'd rather not depend on that, store credit is instant.\n\n**Next step**\nBecause the refund is over $150, I need to pass this to a Support Lead to approve it. I don't have a confirmed response time for them, so I can't promise one. Please send me the delivery date and order number, and confirm whether you want a refund, store credit or replacements. Make sure your photos are attached to the claim in \"My Orders\" so the Lead can review them. Please don't send me any card numbers or security codes.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 450,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 925,
+  "output_tokens_details": {
+   "thinking_tokens": 368
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 450,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 925,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 450,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 450
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4308,
+ "output_tokens": 925,
+ "thinking_tokens": 368,
+ "latency_ms": 8359,
+ "wall_ms": 10722,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005800.0048122
+}

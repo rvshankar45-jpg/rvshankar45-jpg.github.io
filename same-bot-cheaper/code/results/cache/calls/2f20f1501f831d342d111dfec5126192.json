@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thanks for contacting Leafy! \ud83c\udf3f\n\nThe fee for a change-of-mind return is a flat **$6.95**, which is deducted from your refund. If you're a **Leafy Plus member**, it's free.\n\nA few things that may help:\n\n- **Eligible items:** Non-living items (pots, tools, soil, fertiliser, grow lights, accessories) can be returned within **30 days** of delivery, unused and in original packaging. Opened soil or fertiliser can't be returned unless faulty.\n- **Live plants:** These can't be returned for change of mind. If there's a problem with a plant, our Plant Care Guarantee or Damaged on Arrival process can help instead.\n- **Starting a return:** Go to \"My Orders\", and we'll email you a prepaid label. The label expires after **7 days**, so please drop the parcel off within that time.\n- **Refund timing:** Refunds are issued within **5 business days** of the return reaching our warehouse, to your original payment method.\n\nIf the item is faulty or we sent the wrong one, the return is completely free.\n\nIs there a specific item you're thinking of returning? I'm happy to help. Thanks for being part of the Leafy family! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 427,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 398,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 427,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 398,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 427,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 427
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4767,
+ "output_tokens": 398,
+ "thinking_tokens": 0,
+ "latency_ms": 3246,
+ "wall_ms": 7182,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879149.7716942
+}

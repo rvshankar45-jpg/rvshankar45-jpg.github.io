@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! \ud83c\udf3f Your pothos and pot sound like a lovely combo.\n\n**Your order should ship next Monday.**\n\n- Live plants only ship Monday through Wednesday.\n- Plant orders placed after 12 noon on Wednesday go out the following Monday.\n- Your order has both a plant and a non-living item (the ceramic pot). Mixed orders ship together on a plant shipping day, so the pot will travel with your pothos on Monday rather than going out separately.\n\n**Delivery time after it ships** depends on your shipping zone:\n- Zone 1 (under 300 miles from our nearest greenhouse): Standard 2-3 business days, Express next business day\n- Zone 2 (300-1,000 miles): Standard 3-5 business days, Express 2 business days\n- Zone 3 (over 1,000 miles, remote and island addresses): Standard 5-8 business days, Express not available\n\n**Good to know:**\n- We'll email your tracking details when your order ships. It can take up to 24 hours to update.\n- If the transit forecast is below 35\u00b0F or above 95\u00b0F, live plants may be held for up to 7 days. We'd email you if that happens.\n- If you need to change or cancel your order, you can do it free from \"My Orders\" within 2 hours of ordering. After that, it goes into the packing queue and can't be changed online. Support can try to intercept it before it ships, but that isn't guaranteed.\n\nIf you tell me your order number (it looks like LF-123456) or your zone, I'm happy to help further. Enjoy your new plant, and please reach out any time! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 451,
+  "cache_read_input_tokens": 2037,
+  "output_tokens": 738,
+  "output_tokens_details": {
+   "thinking_tokens": 203
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 451,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 738,
+    "cache_read_input_tokens": 2037,
+    "cache_creation_input_tokens": 451,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 451
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2490,
+ "output_tokens": 738,
+ "thinking_tokens": 203,
+ "latency_ms": 5924,
+ "wall_ms": 8855,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879959.5320203
+}

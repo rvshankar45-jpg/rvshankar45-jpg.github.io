@@ -1,0 +1,50 @@
+{
+ "text": "No, that's not covered\u2014a few bent leaves and loose soil are normal and not considered damage. \n\nIf the plant itself is otherwise healthy, there's no issue. However, if you notice the plant declining significantly over the next 30 days (losing more than a third of its leaves, stem rot, or collapse), you can claim under our Plant Care Guarantee with photos. Is there anything else going on with the plant?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1285,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 93,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1285,
+    "output_tokens": 93,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1285,
+ "output_tokens": 93,
+ "thinking_tokens": 0,
+ "latency_ms": 1620,
+ "wall_ms": 4705,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791101393.134448
+}

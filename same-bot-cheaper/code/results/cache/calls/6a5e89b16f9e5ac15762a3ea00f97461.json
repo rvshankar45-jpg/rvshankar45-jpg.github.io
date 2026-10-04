@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry, I know that's frustrating. Plant Club is charged on the 25th for the next month's box, so your $49 was billed a day before you cancelled. Under our policy, an already-billed box isn't refunded on cancellation and is still sent. It will ship in the first full week of the month, and your cancellation stops any further charges.\n\nThe policy doesn't cover making an exception here. If you'd like, I can escalate your case to a Support Lead to review it. Would you like me to do that?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 452,
+  "cache_read_input_tokens": 1272,
+  "output_tokens": 406,
+  "output_tokens_details": {
+   "thinking_tokens": 247
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 452,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 406,
+    "cache_read_input_tokens": 1272,
+    "cache_creation_input_tokens": 452,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 452
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1726,
+ "output_tokens": 406,
+ "thinking_tokens": 247,
+ "latency_ms": 3995,
+ "wall_ms": 7185,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791007169.4523687
+}

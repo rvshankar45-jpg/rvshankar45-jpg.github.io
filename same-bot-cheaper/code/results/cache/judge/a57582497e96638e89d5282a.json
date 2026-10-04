@@ -1,0 +1,274 @@
+{
+ "items": [
+  {
+   "answer_id": "q081#1",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct main point; pending auth mention is fine, slightly muddled but OK."
+  },
+  {
+   "answer_id": "q081#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate and concise."
+  },
+  {
+   "answer_id": "q081#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct; a bit long but fine."
+  },
+  {
+   "answer_id": "q081#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate and concise."
+  },
+  {
+   "answer_id": "q081#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct; pending check is useful."
+  },
+  {
+   "answer_id": "q081#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct, slightly chatty."
+  },
+  {
+   "answer_id": "q081#7",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct; 'plus any shipping' is a minor unsupported detail."
+  },
+  {
+   "answer_id": "q081#8",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "q081#9",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "q082#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct with timing and pause option."
+  },
+  {
+   "answer_id": "q082#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and complete."
+  },
+  {
+   "answer_id": "q082#3",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 3,
+   "note": "Core yes correct but omits cutoff consequence; 'skip up to 3 months' is wrong (pause is up to 3 months)."
+  },
+  {
+   "answer_id": "q082#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct, a bit chatty."
+  },
+  {
+   "answer_id": "q082#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and clear."
+  },
+  {
+   "answer_id": "q082#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct; escalation offer reasonable."
+  },
+  {
+   "answer_id": "q083#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q083#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct; different-item note is reasonable inference."
+  },
+  {
+   "answer_id": "q083#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and honest about limits."
+  },
+  {
+   "answer_id": "q083#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct, somewhat chatty."
+  },
+  {
+   "answer_id": "q083#5",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Core correct; extra claim about member price on other items and offer to compare is slightly speculative."
+  },
+  {
+   "answer_id": "q083#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "q084#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct; wordy."
+  },
+  {
+   "answer_id": "q084#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct with contact info."
+  },
+  {
+   "answer_id": "q084#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "q084#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q084#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "q084#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q084#7",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct; slightly long."
+  },
+  {
+   "answer_id": "q084#8",
+   "correctness": 5,
+   "completeness": 3,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct but thin; doesn't say where to find the number or confirm reissue."
+  },
+  {
+   "answer_id": "q084#9",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct; lacks where to find number but fine."
+  }
+ ]
+}

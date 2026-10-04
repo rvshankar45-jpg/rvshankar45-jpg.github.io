@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry to hear that\u2014that's frustrating. Here's what we can do:\n\n**To help investigate:**\n1. Check your shipping address on the order confirmation and make sure it's correct.\n2. Look around your delivery area (porch, mailbox, side door, with neighbours) in case it was left nearby.\n3. Give me your **order number** (looks like `LF-` plus six digits) and I can open a courier investigation.\n\nOnce I have your order number, we'll contact the courier and track it down. If it's confirmed lost, you can choose a **free replacement plant or a full refund**\u2014no cost to you.\n\nWhat's your order number?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1634,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 155,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1634,
+    "output_tokens": 155,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1634,
+ "output_tokens": 155,
+ "thinking_tokens": 0,
+ "latency_ms": 2750,
+ "wall_ms": 5855,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791100291.127777
+}

@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry. Chasing this three times with no answer is not acceptable, and your frustration is fair. Because this is the third time you've raised it, I'm escalating it to a Support Lead.\n\n**To pass it on, please send me:**\n- Your **order number**\n- Whether the claim shows as submitted in \"My Orders\", and roughly what date you filed it\n\nI'll flag that you filed within your guarantee window and that the **2 business day** review time has long passed. I can't see the claim myself, and I can't give you a firm time for the Support Lead's reply because my policy information doesn't specify one. The claim still needs a specialist's review and approval.\n\n**For the delay:** I can offer a one-time goodwill store credit of up to **$15**. It's store credit, not cash, and it's separate from your claim, so it doesn't affect the replacement. Tell me if you'd like it added to the escalation.\n\n**A correction to my earlier message:** The specific watering, sun and repotting timings I gave aren't in the policy information I have, so please don't rely on them. A Plant Care Specialist can give you proper advice for your bird of paradise, free, by chat (9am-5pm Mon-Fri) or email, with no claim needed. They can look at the leaf loss now while the claim is sorted out.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2994,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 941,
+  "output_tokens_details": {
+   "thinking_tokens": 525
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2994,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 941,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2994,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2994
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2996,
+ "output_tokens": 941,
+ "thinking_tokens": 525,
+ "latency_ms": 8219,
+ "wall_ms": 11575,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005015.0759346
+}

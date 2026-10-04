@@ -1,0 +1,50 @@
+{
+ "text": "Sorry about the hassle. You're right: once an order has shipped, we can't change the shipping address, and couriers don't accept redirection requests from Leafy. Shipped orders also can't be cancelled.\n\nMy policy info doesn't cover any other way to reroute a shipped parcel, so I can't promise a workaround. If you'd like, I can escalate this to a Support Lead to look at your options. If you share your order number (it looks like LF-123456), I'll include it in the escalation.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 424,
+  "cache_read_input_tokens": 1346,
+  "output_tokens": 404,
+  "output_tokens_details": {
+   "thinking_tokens": 246
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 424,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 404,
+    "cache_read_input_tokens": 1346,
+    "cache_creation_input_tokens": 424,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 424
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1772,
+ "output_tokens": 404,
+ "thinking_tokens": 246,
+ "latency_ms": 3944,
+ "wall_ms": 6749,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100187.6206045
+}

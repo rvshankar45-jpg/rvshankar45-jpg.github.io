@@ -1,0 +1,148 @@
+{
+ "items": [
+  {
+   "answer_id": "t256#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, offers specialist advice and honest escalation."
+  },
+  {
+   "answer_id": "t256#2",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct; slightly redundant explanation, no empathy."
+  },
+  {
+   "answer_id": "t257#1",
+   "correctness": 3,
+   "completeness": 2,
+   "policy": 4,
+   "tone": 4,
+   "score": 2,
+   "note": "Says no phone support but omits email/chat hours; offers escalation vaguely."
+  },
+  {
+   "answer_id": "t257#2",
+   "correctness": 2,
+   "completeness": 2,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Wrongly claims KB is silent on phone; KB says no phone support. Omits email and chat options."
+  },
+  {
+   "answer_id": "t258#1",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct hours and alternatives; claims general chat can offer guidance and says calathea hardy (unsupported minor)."
+  },
+  {
+   "answer_id": "t258#2",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct hours; claims general chat can't give plant advice (unsupported), otherwise helpful."
+  },
+  {
+   "answer_id": "t259#1",
+   "correctness": 4,
+   "completeness": 3,
+   "policy": 3,
+   "tone": 4,
+   "score": 3,
+   "note": "Safety first, but defers escalation until after vet contact rather than escalating now; mentions doctor oddly."
+  },
+  {
+   "answer_id": "t259#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Safety advice first, then escalates."
+  },
+  {
+   "answer_id": "t260#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and adds safety tip."
+  },
+  {
+   "answer_id": "t260#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct; opening line slightly misleading but clarified."
+  },
+  {
+   "answer_id": "t261#1",
+   "correctness": 1,
+   "completeness": 2,
+   "policy": 3,
+   "tone": 3,
+   "score": 1,
+   "note": "Claims KB lacks age rule; it says 18+. Main point wrong."
+  },
+  {
+   "answer_id": "t261#2",
+   "correctness": 1,
+   "completeness": 2,
+   "policy": 3,
+   "tone": 3,
+   "score": 1,
+   "note": "Same error: says KB silent on age; customer should be told 18+ required."
+  },
+  {
+   "answer_id": "t262#1",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 2,
+   "tone": 3,
+   "score": 2,
+   "note": "Doesn't state customers change email themselves after login; invents identity verification/security questions."
+  },
+  {
+   "answer_id": "t262#2",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Says KB doesn't cover email change, though it says support can't change over chat; escalation offer is appropriate."
+  },
+  {
+   "answer_id": "t263#1",
+   "correctness": 2,
+   "completeness": 3,
+   "policy": 2,
+   "tone": 4,
+   "score": 2,
+   "note": "Escalates but invents 1 business day commitment and full-access claims; uses email from context."
+  },
+  {
+   "answer_id": "t263#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Apologises, escalates, no invented promises, useful info requested."
+  }
+ ]
+}

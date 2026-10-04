@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! \ud83c\udf3f Enjoy your July trip!\n\n**Yes, you can skip July's box, and since today is June 20th, you're in time.**\n\nYour July box is charged on **June 25th**. Any change made *before* the 25th applies to your next box, which is July's. To skip it:\n\n- Go to **\"Account\" > \"Subscriptions\"**\n- Choose **Skip**\n- Do this by **June 24th** to be safe\n\nA few helpful notes:\n- If you miss the 25th, the change would apply to August's box instead. July's box would be billed and sent as usual (it ships in the first full week of July).\n- If you'd like a longer break, you can **pause** for up to 3 months instead.\n- There's no fee for skipping, pausing or cancelling.\n\nIf anything looks different on your Subscriptions page, just let me know and I can help or pass it to our team. Have a wonderful trip, and we'll be here when you're back! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2408,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 769,
+  "output_tokens_details": {
+   "thinking_tokens": 451
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2408,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 769,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2408,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2408
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2410,
+ "output_tokens": 769,
+ "thinking_tokens": 451,
+ "latency_ms": 7845,
+ "wall_ms": 10436,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880036.7030942
+}

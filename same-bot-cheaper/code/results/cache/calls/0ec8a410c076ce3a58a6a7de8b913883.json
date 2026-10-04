@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry to hear your replacement plant didn't survive\u2014that's frustrating.\n\nHere's what we can do: You can claim through the Plant Care Guarantee again, since your replacement gets its own new 30-day guarantee. Submit a claim from \"My Orders\" with **two photos** (whole plant + close-up) within **30 days of delivery**. A Plant Care Specialist will review within **2 business days**.\n\nHowever, I'd need to know: **did the original plant also die under the guarantee, or is this a different situation?** That affects whether we can help with a second replacement.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1145,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 135,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1145,
+    "output_tokens": 135,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1145,
+ "output_tokens": 135,
+ "thinking_tokens": 0,
+ "latency_ms": 2195,
+ "wall_ms": 5641,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791100321.4141994
+}

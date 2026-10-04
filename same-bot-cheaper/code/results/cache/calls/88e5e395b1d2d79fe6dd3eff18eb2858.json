@@ -1,0 +1,50 @@
+{
+ "text": "Sorry about the hassle. Return labels expire after 7 days, but our policy doesn't say whether an expired label can be reissued, so I can't promise a new one. I can escalate this to a Support Lead to review. If you send me your order number (LF- followed by six digits) and tell me which item you're returning, I'll pass it along.\n\nFor non-living items, returns must be started within 30 days of delivery, so it's worth acting soon.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 420,
+  "cache_read_input_tokens": 1213,
+  "output_tokens": 341,
+  "output_tokens_details": {
+   "thinking_tokens": 201
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 420,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 341,
+    "cache_read_input_tokens": 1213,
+    "cache_creation_input_tokens": 420,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 420
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1635,
+ "output_tokens": 341,
+ "thinking_tokens": 201,
+ "latency_ms": 3844,
+ "wall_ms": 7051,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100228.4901934
+}

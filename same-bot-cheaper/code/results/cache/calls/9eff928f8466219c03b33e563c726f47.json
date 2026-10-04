@@ -1,0 +1,50 @@
+{
+ "text": "No, that's not DOA. Bent leaves and loose soil are normal and expected\u2014they're not considered damage.\n\nHowever, if your plant has **snapped main stems, a cracked/smashed pot, exposed roots, or is dead/severely wilted**, that would qualify as DOA. If you see any of those issues, report them within **48 hours** of delivery with photos and we'll send a free replacement or refund.\n\nOtherwise, your plant should be fine! Let me know if you have care questions.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1351,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 116,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1351,
+    "output_tokens": 116,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1351,
+ "output_tokens": 116,
+ "thinking_tokens": 0,
+ "latency_ms": 5298,
+ "wall_ms": 8348,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791100842.029866
+}

@@ -1,0 +1,10 @@
+{
+ "items": [
+  {
+   "id": "q001",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  }
+ ]
+}

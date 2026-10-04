@@ -1,0 +1,50 @@
+{
+ "text": "Not on a $35 pot by itself. Buy-now-pay-later is only available on orders of **$50\u2013$1,000**, so the order total needs to reach at least $50.\n\nIf you'd like to use it, you could add more items to bring the order to $50 or above. Otherwise, you can pay with a credit or debit card, a digital wallet, or a Leafy gift card.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 436,
+  "cache_read_input_tokens": 1555,
+  "output_tokens": 119,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 436,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 119,
+    "cache_read_input_tokens": 1555,
+    "cache_creation_input_tokens": 436,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 436
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1993,
+ "output_tokens": 119,
+ "thinking_tokens": 0,
+ "latency_ms": 2050,
+ "wall_ms": 5881,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791101420.6352398
+}

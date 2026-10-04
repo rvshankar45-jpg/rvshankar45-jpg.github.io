@@ -1,0 +1,50 @@
+{
+ "text": "I don't have a price adjustment policy in the information available to me, so I can't say whether Leafy refunds the difference if a price drops after you order. I don't want to guess and give you the wrong answer.\n\nIf you tell me your order number (it looks like LF- plus six digits), I can pass the question to a Support Lead. You can also email help@leafy.example, which is answered within 1 business day.\n\nIf you haven't ordered yet, or ordered within the last 2 hours, you can change or cancel the order for free from \"My Orders\".",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 426,
+  "cache_read_input_tokens": 1409,
+  "output_tokens": 220,
+  "output_tokens_details": {
+   "thinking_tokens": 53
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 426,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 220,
+    "cache_read_input_tokens": 1409,
+    "cache_creation_input_tokens": 426,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 426
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1837,
+ "output_tokens": 220,
+ "thinking_tokens": 53,
+ "latency_ms": 3107,
+ "wall_ms": 6177,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791007104.6465898
+}

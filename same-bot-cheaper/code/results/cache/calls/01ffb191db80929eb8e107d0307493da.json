@@ -1,0 +1,50 @@
+{
+ "text": "No. A damaged-on-arrival replacement doesn't count as the Plant Care Guarantee's one free replacement. That applies whether the replacement is for the pot or the plant. If the plant itself fails later, you can still claim under the guarantee.\n\nTwo points to keep in mind:\n- **Report within 48 hours of delivery.** The DOA route only applies inside that window, so send your photos and order number today.\n- **Guarantee window:** the 30 days (90 for Leafy Plus) run from delivery. I don't have information on whether a DOA replacement plant starts a new guarantee period, so I can't promise that. If it matters to you, ask in chat or email when you report the damage, and I can escalate it to a Support Lead.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1605,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 550,
+  "output_tokens_details": {
+   "thinking_tokens": 312
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1605,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 550,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 1605,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1605
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 5463,
+ "output_tokens": 550,
+ "thinking_tokens": 312,
+ "latency_ms": 5217,
+ "wall_ms": 7742,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005870.1766658
+}

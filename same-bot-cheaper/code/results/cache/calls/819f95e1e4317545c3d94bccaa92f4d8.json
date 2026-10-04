@@ -1,0 +1,50 @@
+{
+ "text": "Express shipping is **$14.95**, and it's never free, even for Leafy Plus members. Delivery time depends on your zone:\n\n- **Zone 1** (under 300 miles from the nearest greenhouse): next business day\n- **Zone 2** (300-1,000 miles): 2 business days\n- **Zone 3** (over 1,000 miles, remote and island addresses): Express isn't available\n\nLive plants ship Monday-Wednesday only, so those days count from the ship date. XL plants (usually over 4 ft) ship Standard only.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 424,
+  "cache_read_input_tokens": 1564,
+  "output_tokens": 282,
+  "output_tokens_details": {
+   "thinking_tokens": 102
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 424,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 282,
+    "cache_read_input_tokens": 1564,
+    "cache_creation_input_tokens": 424,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 424
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1990,
+ "output_tokens": 282,
+ "thinking_tokens": 102,
+ "latency_ms": 7191,
+ "wall_ms": 11312,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791007341.8553925
+}

@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry to hear your plant is dying. Unfortunately, you're outside the coverage window\u2014the **30-day guarantee** for standard plans expired about a week ago (your plant was delivered 5 weeks ago, and the guarantee runs from delivery date).\n\nSince you're past 30 days, claims go through the Plant Care Guarantee and aren't eligible for a replacement. However, you can still get **free care advice** from a Plant Care Specialist by chat or email if you'd like to try to save it. Would that help, or would you like me to escalate this to a Support Lead?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1355,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 131,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1355,
+    "output_tokens": 131,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1355,
+ "output_tokens": 131,
+ "thinking_tokens": 0,
+ "latency_ms": 2039,
+ "wall_ms": 5024,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791101361.625643
+}

@@ -1,0 +1,50 @@
+{
+ "text": "Based on your location (over 1,000 miles from our nearest greenhouse), you're in **Zone 3**.\n\nHere are your delivery timeframes:\n\n- **Standard Shipping:** **5\u20138 business days** \u2014 $7.95, or free on orders of $75+ (after discounts, before tax)\n- **Express Shipping:** Not available for Zone 3\n\nPlease note that **live plants ship Monday\u2013Wednesday only**. If you order after 12 noon on Wednesday, your plant order will ship the following Monday.\n\nAlso, if there's a weather hold (transit forecast below 35\u00b0F or above 95\u00b0F), your plants may be held up to 7 days, and you'll be emailed about it.\n\nIs there anything else you'd like to know about shipping or placing an order?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 3188,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 182,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 3188,
+    "output_tokens": 182,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 3188,
+ "output_tokens": 182,
+ "thinking_tokens": 0,
+ "latency_ms": 2975,
+ "wall_ms": 6274,
+ "overhead": 379,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791005876.455756
+}

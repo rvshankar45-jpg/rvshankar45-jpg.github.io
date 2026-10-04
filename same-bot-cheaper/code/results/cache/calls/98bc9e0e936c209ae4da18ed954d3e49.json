@@ -1,0 +1,49 @@
+{
+ "text": "Unfortunately, no. Free Standard shipping applies to orders of **$75 or more after discounts (and before tax)**. With your promo code, your total is $70, which is $5 under the threshold, so Standard shipping would be **$7.95**.\n\n- **Reaching the threshold:** if you add items so your order is $75 or more *after* the promo discount, Standard shipping becomes free.\n- **Leafy Plus:** membership is $59/year and includes free Standard shipping with no minimum. Express ($14.95) is never free, even for members.\n\nPromo codes can't be added after an order is placed, so check your total at checkout before you confirm.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 4377,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 367,
+  "output_tokens_details": {
+   "thinking_tokens": 157
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4377,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 367,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 4377,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4377
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4379,
+ "output_tokens": 367,
+ "thinking_tokens": 157,
+ "latency_ms": 4399,
+ "wall_ms": 8154,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790787208.67758
+}

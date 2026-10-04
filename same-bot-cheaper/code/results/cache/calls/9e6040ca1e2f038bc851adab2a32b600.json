@@ -1,0 +1,50 @@
+{
+ "text": "Yes. Plant Club is billed on the 25th for the following month's box, so a cancellation on the 26th applies to the box after that. The box you've already been billed for will still ship, in the first full week of the month, and it isn't refunded.\n\nThere's no cancellation fee or minimum term, and you can cancel from \"Account\" > \"Subscriptions\". If you'd rather not receive the box at all, I can't promise that's possible. The policy doesn't cover stopping an already-billed box, but I can escalate it to a Support Lead if you'd like.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 432,
+  "cache_read_input_tokens": 1588,
+  "output_tokens": 350,
+  "output_tokens_details": {
+   "thinking_tokens": 174
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 432,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 350,
+    "cache_read_input_tokens": 1588,
+    "cache_creation_input_tokens": 432,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 432
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2022,
+ "output_tokens": 350,
+ "thinking_tokens": 174,
+ "latency_ms": 3761,
+ "wall_ms": 7037,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100389.2162058
+}

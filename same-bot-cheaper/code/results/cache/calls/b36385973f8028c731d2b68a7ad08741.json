@@ -1,0 +1,50 @@
+{
+ "text": "I don't have information on Plant Care Specialist hours, so I can't confirm whether someone is available Saturday at 10am. What I can tell you is that specialists offer free care advice by chat or email, and you don't need to be a customer to use it. If you're planning a claim, specialists review those within 2 business days.\n\nI can escalate your question to a Support Lead to confirm weekend availability if you'd like.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 444,
+  "cache_read_input_tokens": 1646,
+  "output_tokens": 209,
+  "output_tokens_details": {
+   "thinking_tokens": 79
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 444,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 209,
+    "cache_read_input_tokens": 1646,
+    "cache_creation_input_tokens": 444,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 444
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2092,
+ "output_tokens": 209,
+ "thinking_tokens": 79,
+ "latency_ms": 2647,
+ "wall_ms": 6587,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100636.0325818
+}

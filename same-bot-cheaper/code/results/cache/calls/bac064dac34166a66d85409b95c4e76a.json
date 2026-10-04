@@ -1,0 +1,49 @@
+{
+ "text": "Thanks for asking! \ud83c\udf3f\n\nIf you've already used the free shipping, you would **no longer qualify for the full refund**. The refund is only available when you cancel within 14 days of purchase or renewal **and** haven't used any benefits.\n\nIf you cancel after using a benefit:\n\n- **No refund** is issued for the membership.\n- **Your benefits continue** until the end of the paid year, so you'd still get free Standard shipping, the 90-day guarantee on eligible plants, and the other perks.\n\nIf you think your situation might be a special case, for example if you used a benefit by accident, I can't promise an exception, but I can escalate it to a Support Lead to take a look.\n\nIs there anything else I can help you with? Happy planting! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1396,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 239,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1396,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 239,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 1396,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1396
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 5736,
+ "output_tokens": 239,
+ "thinking_tokens": 0,
+ "latency_ms": 2643,
+ "wall_ms": 6009,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790868701.07761
+}

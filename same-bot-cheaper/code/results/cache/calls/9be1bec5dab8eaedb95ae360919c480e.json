@@ -1,0 +1,50 @@
+{
+ "text": "Unfortunately, **XL plants (usually over 4 ft) ship Standard only\u2014Express isn't available for them**. A 5 ft rubber plant would qualify as XL.\n\nHere's what you'd pay with Standard shipping to Zone 2:\n- **Shipping:** $7.95 (free if your order total is $75+ after discounts, before tax)\n- **XL handling fee:** $20\n\nSo the extra fees total **$27.95** (or just $20 if you qualify for free shipping). Delivery would take **3\u20135 business days**.\n\nWould Standard shipping work for you, or would you like to explore other options?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1480,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 149,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1480,
+    "output_tokens": 149,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1480,
+ "output_tokens": 149,
+ "thinking_tokens": 0,
+ "latency_ms": 3320,
+ "wall_ms": 7478,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791100759.956935
+}

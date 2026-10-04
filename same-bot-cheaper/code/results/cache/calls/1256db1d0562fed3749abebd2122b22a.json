@@ -1,0 +1,49 @@
+{
+ "text": "Thanks for asking, that's a good thing to check before you join! \ud83c\udf3f\n\nIf you've already used free shipping, you'd **no longer qualify for the full refund**, even if you cancel within the 14 days. The refund only applies when no benefits have been used.\n\nYou could still cancel, but:\n- There would be **no refund** of the $59.\n- Your benefits would **continue until the end of your paid year**.\n\nIf you're not sure yet, you could hold off on using any benefits until you're comfortable with the membership. Just remember the refund window is **14 days** from purchase or renewal.\n\nI also need to correct something from earlier. I listed a few examples of what counts as \"using a benefit,\" but my knowledge base doesn't give a full list. Free shipping is clearly a benefit, but for anything less clear-cut, I can escalate to a Support Lead to confirm.\n\nIs there anything else I can help with? Happy planting! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1483,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 690,
+  "output_tokens_details": {
+   "thinking_tokens": 394
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1483,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 690,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 1483,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1483
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 5823,
+ "output_tokens": 690,
+ "thinking_tokens": 394,
+ "latency_ms": 6840,
+ "wall_ms": 10111,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879731.3805892
+}

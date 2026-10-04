@@ -1,0 +1,50 @@
+{
+ "text": "Your order qualifies for **Zone 2** shipping (300\u20131,000 miles). Here's what applies:\n\n- **Shipping cost:** $7.95 Standard (your order is $72 total, which doesn't reach the $75+ free threshold)\n- **Delivery time:** 3\u20135 business days via Standard shipping\n- **Ship date:** Since you ordered on a Tuesday and live plants ship Monday\u2013Wednesday only, your order ships the next Monday, and tracking arrives within 24 hours of that\n\nNote: Your pothos ships in a nursery pot; the decorative pot ships together in the same box.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1558,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 140,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1558,
+    "output_tokens": 140,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1558,
+ "output_tokens": 140,
+ "thinking_tokens": 0,
+ "latency_ms": 2466,
+ "wall_ms": 6131,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791100744.7725449
+}

@@ -1,0 +1,50 @@
+{
+ "text": "You can cancel or change an order for free within **2 hours** of placing it, from \"My Orders\" on the website or app.\n\nAfter that, your order is in the packing queue and can't be changed online. Support can try to intercept it before it ships, but that isn't guaranteed. Once an order has shipped, it can't be cancelled.\n\nIf you cancel and see a pending charge on your card, it should drop off within 3-7 business days, depending on your bank.\n\nIf your 2 hours have passed, send me your order number (it looks like LF-123456) and I can pass it to support to try to intercept it.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 427,
+  "cache_read_input_tokens": 1579,
+  "output_tokens": 293,
+  "output_tokens_details": {
+   "thinking_tokens": 109
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 427,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 293,
+    "cache_read_input_tokens": 1579,
+    "cache_creation_input_tokens": 427,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 427
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2008,
+ "output_tokens": 293,
+ "thinking_tokens": 109,
+ "latency_ms": 2730,
+ "wall_ms": 6450,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791007369.0561829
+}

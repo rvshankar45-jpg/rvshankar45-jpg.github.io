@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry to see your new calathea looking unwell. Unfortunately, yellowing on one or two older, lower leaves in the first two weeks is considered normal transplant stress, so it isn't covered for a replacement on its own.\n\n**What would qualify:** if the plant declines significantly, meaning it loses more than a third of its leaves, develops stem or root rot, or collapses, you can make a claim.\n- **Window:** 30 days from delivery (90 days if you're a Leafy Plus member and ordered while your membership was active).\n- **How:** go to \"My Orders\" and submit at least two photos, one of the whole plant and one close-up.\n- **Review:** a Plant Care Specialist reviews it within 2 business days. You don't need to send the plant back.\n\n**In the meantime:**\n- Keep it out of direct sun for the first week.\n- Don't repot for 2-3 weeks. Repotting into non-Leafy soil in the first 14 days isn't covered by the guarantee.\n- Water only when the top inch of soil is dry, since overwatering is the most common cause of early problems.\n\nYou can also chat or email a Plant Care Specialist for free care advice. If you tell me when it was delivered, I can help you work out how long your claim window runs.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1518,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 631,
+  "output_tokens_details": {
+   "thinking_tokens": 222
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1518,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 631,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1518,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1518
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1520,
+ "output_tokens": 631,
+ "thinking_tokens": 222,
+ "latency_ms": 5782,
+ "wall_ms": 8221,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004681.2868457
+}

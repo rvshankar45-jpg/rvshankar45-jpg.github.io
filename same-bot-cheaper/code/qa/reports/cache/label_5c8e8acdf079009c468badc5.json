@@ -1,0 +1,129 @@
+{
+ "items": [
+  {
+   "id": "q051",
+   "label": "simple",
+   "reason": "Single policy lookup on heat packs."
+  },
+  {
+   "id": "q052",
+   "label": "simple",
+   "reason": "Single fact: refund processing time after return received."
+  },
+  {
+   "id": "q053",
+   "label": "simple",
+   "reason": "Single policy fact about plant choice in club box."
+  },
+  {
+   "id": "q054",
+   "label": "simple",
+   "reason": "Single fact: lost parcel investigation duration."
+  },
+  {
+   "id": "q055",
+   "label": "simple",
+   "reason": "Single policy lookup on adding promo codes after ordering."
+  },
+  {
+   "id": "q056",
+   "label": "simple",
+   "reason": "Asks for the price adjustment policy, a direct lookup."
+  },
+  {
+   "id": "q057",
+   "label": "complex",
+   "reason": "Combines a plant guarantee window, a late damage report, and multiple issues needing judgment."
+  },
+  {
+   "id": "q058",
+   "label": "simple",
+   "reason": "Single policy lookup on freezing-weather shipping."
+  },
+  {
+   "id": "q059",
+   "label": "simple",
+   "reason": "Single lookup on returns of opened soil."
+  },
+  {
+   "id": "q060",
+   "label": "simple",
+   "reason": "Single fact: club box ship dates."
+  },
+  {
+   "id": "q061",
+   "label": "complex",
+   "reason": "Requires applying cutoff times and possibly different shipping rules for plants versus pots to the specific order time."
+  },
+  {
+   "id": "q062",
+   "label": "complex",
+   "reason": "Combines membership benefits with return fee rules for change-of-mind returns."
+  },
+  {
+   "id": "q063",
+   "label": "complex",
+   "reason": "Requires applying the free shipping threshold to pre- versus post-discount amounts."
+  },
+  {
+   "id": "q064",
+   "label": "complex",
+   "reason": "Needs an explanation of authorization holds versus charges combined with cancellation timing."
+  },
+  {
+   "id": "q065",
+   "label": "complex",
+   "reason": "Applies the damage claim rule and window to the customer's timing and situation."
+  },
+  {
+   "id": "q066",
+   "label": "complex",
+   "reason": "Requires judging whether minor yellowing counts as covered under the guarantee."
+  },
+  {
+   "id": "q067",
+   "label": "complex",
+   "reason": "Requires applying the plan-switch cutoff date to the customer's specific date."
+  },
+  {
+   "id": "q068",
+   "label": "complex",
+   "reason": "Combines the membership cancellation window with the benefit already used, so refund terms may be adjusted."
+  },
+  {
+   "id": "q069",
+   "label": "complex",
+   "reason": "Delivered-but-missing package is a lost-parcel edge case with multiple steps and a worried customer."
+  },
+  {
+   "id": "q070",
+   "label": "complex",
+   "reason": "Applies a tracking-stall rule to the customer's timeline, likely spanning several policy steps."
+  },
+  {
+   "id": "q071",
+   "label": "complex",
+   "reason": "Combines express shipping rules with an oversized-plant exception."
+  },
+  {
+   "id": "q072",
+   "label": "complex",
+   "reason": "Policy exception: customer-caused issue (repotting) versus guarantee coverage."
+  },
+  {
+   "id": "q073",
+   "label": "complex",
+   "reason": "Edge case of a replacement dying, which may require a second-replacement rule or escalation."
+  },
+  {
+   "id": "q074",
+   "label": "complex",
+   "reason": "Applies the price adjustment window and whether flash sales qualify to the customer's timing."
+  },
+  {
+   "id": "q075",
+   "label": "complex",
+   "reason": "Two distinct policy questions (price visibility and gift message) that need combining."
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "text": "Hi there! \ud83d\udc4b Thanks for asking about Leafy Plus!\n\nHere's what you get with a **Leafy Plus membership** for **$59/year**:\n\n- **Free Standard shipping** with no minimum order amount (usually $7.95)\n- **Free change-of-mind returns** on non-living items like pots, soil, and tools (normally $6.95)\n- **90-day Plant Care Guarantee** instead of the standard 30 days (on plants ordered while your membership is active)\n- **10% member pricing** on pots and accessories\n- **Early access** to rare plant drops before the general public\n\nOne thing to note: Express shipping is never free, even with Leafy Plus membership.\n\n**Membership details:**\n- Auto-renews yearly\n- If you cancel within **14 days** of purchase or renewal *and* haven't used any benefits, you get a full refund. Otherwise, your membership continues through the end of your paid year.\n\nIs there anything else you'd like to know about Leafy Plus or any of our other services? \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 3510,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 251,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 3510,
+    "output_tokens": 251,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 3510,
+ "output_tokens": 251,
+ "thinking_tokens": 0,
+ "latency_ms": 3173,
+ "wall_ms": 6140,
+ "overhead": 379,
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1790879702.8444037
+}

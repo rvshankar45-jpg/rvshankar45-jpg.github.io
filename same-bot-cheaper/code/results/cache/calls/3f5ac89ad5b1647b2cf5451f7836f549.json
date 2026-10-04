@@ -1,0 +1,50 @@
+{
+ "text": "I appreciate you reaching out! A couple of yellow older leaves in the first two weeks is normal transplant stress, so that alone wouldn't qualify for a replacement under our Plant Care Guarantee.\n\nHowever, if the plant is also showing other signs of significant decline\u2014like losing more than a third of its leaves total, stem or root rot, or overall collapse\u2014then it would be covered. Could you let me know if you're seeing anything beyond just those two yellow leaves? If so, you can claim through \"My Orders\" with two photos (whole plant + close-up) and our Plant Care Specialist will review within 2 business days.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1166,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 137,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1166,
+    "output_tokens": 137,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1166,
+ "output_tokens": 137,
+ "thinking_tokens": 0,
+ "latency_ms": 2199,
+ "wall_ms": 5410,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791100801.9705925
+}

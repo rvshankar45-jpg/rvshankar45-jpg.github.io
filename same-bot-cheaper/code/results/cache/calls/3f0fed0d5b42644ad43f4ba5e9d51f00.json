@@ -1,0 +1,50 @@
+{
+ "text": "Refunds are issued within **5 business days** of the return reaching our warehouse, to your original payment method. Since yours arrived Monday, that means it should be refunded by the following Monday at the latest. Your bank may take extra time to show it, but I can't give a timeframe for that.\n\nIf nothing has arrived after that window, let me know and I can escalate it to a Support Lead. Also, if you chose a change-of-mind return, the flat $6.95 return fee is deducted from the refund (unless you're a Leafy Plus member).",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 442,
+  "cache_read_input_tokens": 1346,
+  "output_tokens": 172,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 442,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 172,
+    "cache_read_input_tokens": 1346,
+    "cache_creation_input_tokens": 442,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 442
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1790,
+ "output_tokens": 172,
+ "thinking_tokens": 0,
+ "latency_ms": 4867,
+ "wall_ms": 7965,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100561.1271005
+}

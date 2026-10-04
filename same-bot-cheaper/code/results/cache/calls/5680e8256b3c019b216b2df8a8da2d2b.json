@@ -1,0 +1,50 @@
+{
+ "text": "Plant Club boxes ship in the **first full week of the month**.\n\nBilling happens earlier: you're charged on the **25th of the previous month**. For example, the box that ships in the first full week of November is billed on October 25th.\n\nA few related timing details:\n- If you skip, pause, change your plan, or cancel **before the 25th**, it affects your next box. On or after the 25th, the change applies to the following month's box.\n- An already-billed box isn't refunded if you cancel, and it will still be sent.\n\nYou can manage all of this under \"Account\" > \"Subscriptions.\"\n\nThe policy doesn't give an exact shipping day within that first full week, or a delivery timeframe for Plant Club boxes. If you need that, I can escalate it for you.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1981,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 239,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1981,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 239,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1981,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1981
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1983,
+ "output_tokens": 239,
+ "thinking_tokens": 0,
+ "latency_ms": 3080,
+ "wall_ms": 5757,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004661.568448
+}

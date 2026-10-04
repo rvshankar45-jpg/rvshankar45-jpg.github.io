@@ -1,0 +1,50 @@
+{
+ "text": "I understand your frustration\u2014a snapped main stem is definitely damage, and you should have received help right away.\n\nHere's the issue: **you're just outside the 48-hour DOA reporting window** (you reported on day 3). After 48 hours, plant damage claims move to our Plant Care Guarantee instead, which has a 30-day window and offers a free replacement rather than a refund.\n\nHowever, given the timing and that this is a structural defect on arrival, **I'd like to escalate this to a Support Lead** who can review your case and may be able to make an exception. They'll also have access to your order details.\n\nCan you confirm you have photos of the snapped stem and the box from delivery? That will help move this forward.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1170,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 172,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1170,
+    "output_tokens": 172,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1170,
+ "output_tokens": 172,
+ "thinking_tokens": 0,
+ "latency_ms": 2884,
+ "wall_ms": 6126,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791100995.305075
+}

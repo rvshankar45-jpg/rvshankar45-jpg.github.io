@@ -1,0 +1,50 @@
+{
+ "text": "Yes, if you're returning it because you changed your mind, it costs a flat $6.95, which is deducted from your refund. That fee is waived if you're a Leafy Plus member. If the watering can is faulty or we sent the wrong item, the return is free.\n\nBeyond that, there's no other charge for the return, since the label is prepaid. Original shipping isn't refunded unless the whole order is returned because of our error.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 735,
+  "cache_read_input_tokens": 1271,
+  "output_tokens": 135,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 735,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 135,
+    "cache_read_input_tokens": 1271,
+    "cache_creation_input_tokens": 735,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 735
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2008,
+ "output_tokens": 135,
+ "thinking_tokens": 0,
+ "latency_ms": 2257,
+ "wall_ms": 5050,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005404.2622602
+}

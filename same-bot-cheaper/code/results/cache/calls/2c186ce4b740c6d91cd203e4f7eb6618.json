@@ -1,0 +1,50 @@
+{
+ "text": "# Leafy Plus Membership\n\nWith **Leafy Plus** ($59/year, auto-renewing), you get:\n\n1. **Free Standard shipping** \u2013 with no minimum order amount (normally $7.95, or free on orders $75+)\n2. **Free change-of-mind returns** \u2013 normally $6.95 per return\n3. **90-day Plant Care Guarantee** \u2013 instead of the standard 30 days (applies to plants ordered while your membership is active)\n4. **10% member pricing** on pots and accessories\n5. **Early access** to rare plant drops\n\n**Note:** Express shipping ($14.95) is never free, even for Leafy Plus members.\n\n---\n\n**Cancellation:** You can cancel anytime from \"Account\" > \"Subscriptions\". If you cancel within **14 days** of purchase or renewal *and* haven't used any benefits, you get a full refund. Otherwise, there's no refund, but your benefits continue until the end of your paid year.\n\nIs there anything else you'd like to know about Leafy Plus?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 3176,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 249,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 3176,
+    "output_tokens": 249,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 3176,
+ "output_tokens": 249,
+ "thinking_tokens": 0,
+ "latency_ms": 3125,
+ "wall_ms": 6441,
+ "overhead": 379,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791005893.1461413
+}

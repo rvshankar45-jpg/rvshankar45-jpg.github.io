@@ -1,0 +1,50 @@
+{
+ "text": "Yes, you may qualify. Since you bought it 5 days ago, you're within the 7-day price drop window, and we'd give you the $8 difference as Leafy store credit (once per item). The exception is that flash sales and clearance items aren't eligible, so if the $32 price is from either of those, it wouldn't apply.\n\nIf you share your order number (LF- plus six digits), I can help with next steps.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 445,
+  "cache_read_input_tokens": 1579,
+  "output_tokens": 131,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 445,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 131,
+    "cache_read_input_tokens": 1579,
+    "cache_creation_input_tokens": 445,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 445
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2026,
+ "output_tokens": 131,
+ "thinking_tokens": 0,
+ "latency_ms": 2588,
+ "wall_ms": 5982,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100563.0345705
+}

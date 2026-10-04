@@ -1,0 +1,49 @@
+{
+ "text": "Thank you for telling me, and I'm sorry. I should have asked whether you'd already filed a claim. A review is meant to take **2 business days**, so hearing nothing after a week is not the experience we want you to have, especially with a plant you're worried about.\n\nI can't see the status of your claim from here, and I don't want to guess what happened. I'm **escalating this to a Support Lead** so they can look into your claim and follow up with you. I don't have a set timeframe for their reply, but I'll flag that the claim is already past the usual 2-business-day review.\n\nTo help them find it quickly, please:\n- Check **My Orders** to see whether the claim shows as submitted, and note any status shown.\n- Look in your spam or junk folder for an email from Leafy.\n- Have your **order number** and the **two photos** (whole plant and close-up) ready in case they're needed again.\n\nWhile you wait, a Plant Care Specialist can give you **free care advice** by chat or email to help your plant recover. In the meantime, water only when the top inch of soil is dry, since overwatering is the most common cause of early problems. Please also hold off on repotting.\n\nThanks for your patience, and please reach out any time. \ud83c\udf3f",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1015,
+  "cache_read_input_tokens": 1686,
+  "output_tokens": 944,
+  "output_tokens_details": {
+   "thinking_tokens": 557
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1015,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 944,
+    "cache_read_input_tokens": 1686,
+    "cache_creation_input_tokens": 1015,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1015
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2703,
+ "output_tokens": 944,
+ "thinking_tokens": 557,
+ "latency_ms": 9814,
+ "wall_ms": 14355,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880280.6692464
+}

@@ -1,0 +1,50 @@
+{
+ "text": "The policies I have don't cover exchanging a pot for a different size, so I can't confirm that's possible. Here's what I can say:\n\n- **Cracked or smashed pot, or the wrong item:** report it within **48 hours** of delivery with photos of the item and the box. We'll replace or refund a damaged pot (items under $40 usually don't need to be sent back). For a wrong item, we ship the correct one free by Express (where the zone allows) with a free return label.\n- **Just want a different size:** Leafy Plus members get free change-of-mind returns, but I don't have details on exchanges.\n\nWould you like me to escalate this to a Support Lead? If so, please share your order number (LF- plus six digits) and tell me whether the pot is damaged or you simply want a different size.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 427,
+  "cache_read_input_tokens": 1296,
+  "output_tokens": 462,
+  "output_tokens_details": {
+   "thinking_tokens": 210
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 427,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 462,
+    "cache_read_input_tokens": 1296,
+    "cache_creation_input_tokens": 427,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 427
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1725,
+ "output_tokens": 462,
+ "thinking_tokens": 210,
+ "latency_ms": 4826,
+ "wall_ms": 7238,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100240.503745
+}

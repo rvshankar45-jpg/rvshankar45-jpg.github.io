@@ -1,0 +1,50 @@
+{
+ "text": "No, you can't return a live plant for change of mind. **Live plants cannot be returned** just because you don't like how they look.\n\nHowever, if there's an issue with the plant itself, you have options:\n\n1. **Plant Care Guarantee** \u2013 If the plant dies or declines significantly despite reasonable care within **30 days** of delivery (or **90 days** if you're a Leafy Plus member), you can claim a free replacement. \"Significant decline\" means losing more than a third of its leaves, stem or root rot, or collapse.\n\n2. **Damaged on Arrival (DOA)** \u2013 If the plant arrived dead, severely wilted, or with snapped stems or exposed roots, report it within **48 hours** with photos for a free replacement or refund.\n\n3. **Plant Care Advice** \u2013 If you're unsure how to care for it, our Plant Care Specialists offer free advice by chat (9am\u20135pm Mon\u2013Fri) or email.\n\nIs there a specific concern about your plant, or would you like care advice?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 3182,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 241,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 3182,
+    "output_tokens": 241,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 3182,
+ "output_tokens": 241,
+ "thinking_tokens": 0,
+ "latency_ms": 3445,
+ "wall_ms": 6178,
+ "overhead": 379,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791005511.5607328
+}

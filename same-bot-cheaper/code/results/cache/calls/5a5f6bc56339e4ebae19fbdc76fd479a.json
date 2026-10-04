@@ -1,0 +1,49 @@
+{
+ "text": "Hi, and thank you for contacting Leafy. I'm so sorry this happened. That sounds scary, and the first priority is your little one.\n\n**Please do this right now:**\n- Contact your doctor or poison control immediately and tell them your toddler chewed part of a peace lily leaf. They can tell you exactly what to watch for and what to do.\n- Keep the plant, and any bits of leaf or soil, well out of reach of your toddler (and any pets, as peace lilies aren't pet-safe).\n- If your toddler seems unwell or has trouble breathing, call your local emergency number straight away.\n\n**Escalation:** Because this is a safety issue, I'm escalating your case to a Support Lead so a person on our team can follow up with you. I don't have an exact timeframe for their reply, so I don't want to guess, but they'll have the details of what you've told me.\n\n**The smashed pot:** A smashed pot counts as damaged on arrival, so you're covered. Once your toddler is taken care of, here's what to do:\n- Report it within **48 hours** of delivery. Since the plant arrived today, you have time.\n- Include photos of the plant and the box.\n- You can choose a **free replacement** on the next plant shipping day, or a **refund**.\n\nThere's no rush on the photos while you're sorting out your toddler. Please take care of them first.\n\nI hope your little one is totally fine. Please reach out any time if you need anything else.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2006,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 956,
+  "output_tokens_details": {
+   "thinking_tokens": 491
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2006,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 956,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2006,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2006
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2008,
+ "output_tokens": 956,
+ "thinking_tokens": 491,
+ "latency_ms": 8712,
+ "wall_ms": 11074,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880089.7467005
+}

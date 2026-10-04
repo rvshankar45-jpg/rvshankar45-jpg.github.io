@@ -1,0 +1,49 @@
+{
+ "text": "If you've already used free shipping, you wouldn't be eligible for the refund, even within the 14 days. Your membership would stay active and the benefits would continue until the end of the paid year. You can still cancel, which would stop it auto-renewing, but the $59 wouldn't be returned.\n\nOne correction to my earlier answer: I don't have the standard guarantee details in front of me, so please don't rely on the \"30-day\" figure I gave for plants bought before joining. I can escalate that to a Support Lead to confirm if you'd like.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2222,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 486,
+  "output_tokens_details": {
+   "thinking_tokens": 314
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2222,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 486,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2222,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2222
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2224,
+ "output_tokens": 486,
+ "thinking_tokens": 314,
+ "latency_ms": 4567,
+ "wall_ms": 7006,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790868787.9151523
+}

@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! \ud83c\udf3f\n\nA Plant Care Guarantee claim is reviewed by a Plant Care Specialist within **2 business days**.\n\nHere's how to get your claim started:\n- Go to \"My Orders\" and submit your claim within your guarantee window (30 days from delivery, or 90 days for Leafy Plus members on plants ordered while the membership is active).\n- Include at least **two photos**: one of the whole plant and one close-up.\n- You don't need to send the plant back.\n\nIf you'd like some care tips while you wait, a Plant Care Specialist can also help by chat or email, free of charge.\n\nIs there anything else I can help you with? Please reach out anytime, and I hope your plant bounces back soon! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 438,
+  "cache_read_input_tokens": 1720,
+  "output_tokens": 251,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 438,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 251,
+    "cache_read_input_tokens": 1720,
+    "cache_creation_input_tokens": 438,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 438
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2160,
+ "output_tokens": 251,
+ "thinking_tokens": 0,
+ "latency_ms": 2765,
+ "wall_ms": 6449,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879856.9217043
+}

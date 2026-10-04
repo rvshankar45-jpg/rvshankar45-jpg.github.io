@@ -1,0 +1,49 @@
+{
+ "text": "Exactly right! Since it's a live plant, yes \u2014 the replacement will ship **Monday to Wednesday only**.\n\nSo once the courier investigation wraps up (up to **5 business days**), the replacement will go out on the next available plant shipping day, which could be as soon as Monday if the timing lines up, or a bit later if it lands on a Thursday or beyond.\n\nI know you've been waiting a while already, so I really appreciate your patience. \n\nTo get that investigation started and moving, I just need your **order number** (`LF-` followed by six digits). Please don't share any full card numbers, security codes, or passwords.\n\nThanks again, and I'm here if you need anything else! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2521,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 163,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2521,
+    "output_tokens": 163,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2521,
+ "output_tokens": 163,
+ "thinking_tokens": 0,
+ "latency_ms": 2506,
+ "wall_ms": 5847,
+ "overhead": 379,
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1790880370.4985123
+}

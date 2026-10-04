@@ -1,0 +1,50 @@
+{
+ "text": "Yes, you're still inside the free 2-hour change window, so you can fix it yourself right now. Go to \"My Orders\" on the website or app, open LF-310442, and update the shipping address. Since you're at about 90 minutes, I'd do it straight away, because after 2 hours the order goes into the packing queue and can't be changed online. Support could then try to intercept it before it ships, but that isn't guaranteed.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 463,
+  "cache_read_input_tokens": 1046,
+  "output_tokens": 136,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 463,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 136,
+    "cache_read_input_tokens": 1046,
+    "cache_creation_input_tokens": 463,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 463
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1511,
+ "output_tokens": 136,
+ "thinking_tokens": 0,
+ "latency_ms": 2315,
+ "wall_ms": 5418,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100689.5020707
+}

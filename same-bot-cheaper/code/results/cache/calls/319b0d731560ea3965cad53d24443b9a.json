@@ -1,0 +1,50 @@
+{
+ "text": "I can help you with that. Since your monstera arrived with a snapped main stem, that's **Damaged on Arrival (DOA)** and qualifies for a free replacement.\n\nHere's what to do: **Report it within 48 hours of delivery** (you're at 3 days, so you've passed the window). However, since plant damage after 48 hours goes through our **Plant Care Guarantee** instead, I'll need to escalate this to a Support Lead who can review your specific situation and authorize an exception\u2014snapped stems are clear damage, and they should be able to help.\n\nCan you provide **two photos** (whole plant and close-up of the snapped stem)? That will speed up the review.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1162,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 164,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1162,
+    "output_tokens": 164,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1162,
+ "output_tokens": 164,
+ "thinking_tokens": 0,
+ "latency_ms": 2577,
+ "wall_ms": 5950,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791100474.0378373
+}

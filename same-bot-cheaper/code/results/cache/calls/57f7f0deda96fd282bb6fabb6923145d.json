@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! \ud83c\udf3f I'm happy to help clear this up.\n\nGood news: two charges for an order that came in two boxes is most likely **not a mistake**. Your card is charged when each order ships, so an order sent in several parcels can show **one charge per parcel**. Two boxes with two charges is exactly what we'd expect.\n\nHere's a quick way to check:\n- Compare the two charge amounts with the items in each box. Together they should add up to your order total.\n\nIf the amounts don't add up, or you see a charge that doesn't match either box, let me know. In that case, please send me:\n- Your **order number**\n- The **last four digits** of your card (please don't share the full card number, security code or any passwords)\n\nIf a duplicate charge has genuinely posted twice, it's refunded within **3 business days** of us confirming it.\n\nDoes that match what you're seeing? If you'd like, tell me the two amounts and what was in each box, and I'll help you work out whether they line up.\n\nThanks again for reaching out, and happy planting! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 439,
+  "cache_read_input_tokens": 2086,
+  "output_tokens": 345,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 439,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 345,
+    "cache_read_input_tokens": 2086,
+    "cache_creation_input_tokens": 439,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 439
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2527,
+ "output_tokens": 345,
+ "thinking_tokens": 0,
+ "latency_ms": 3823,
+ "wall_ms": 6899,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880028.544362
+}

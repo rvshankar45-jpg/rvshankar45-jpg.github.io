@@ -1,0 +1,50 @@
+{
+ "text": "Since you didn't reply within 3 days of our email, the fern should have been **automatically refunded**. Our policy is that no reply within 3 days of the out-of-stock notice means an automatic refund for that item.\n\nOnce a refund is issued, it goes back to your **original payment method** and takes:\n- **Cards:** 5-10 business days\n- **Digital wallets:** 3-5 business days\n\nIf you paid by buy-now-pay-later, the refund goes to your instalment provider, which adjusts your remaining payments.\n\nI can't see your order or refund status from here, so I can't confirm the exact date it was issued. If the refund hasn't shown up after the timeframe above, or you'd rather have a similar plant or wait instead, reply with your order number (it looks like LF-123456) and I can escalate this to a Support Lead. I can't promise the original options are still available, since the 3-day window has passed.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 446,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 291,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 446,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 291,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 446,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 446
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4304,
+ "output_tokens": 291,
+ "thinking_tokens": 0,
+ "latency_ms": 3321,
+ "wall_ms": 8102,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005727.3376088
+}

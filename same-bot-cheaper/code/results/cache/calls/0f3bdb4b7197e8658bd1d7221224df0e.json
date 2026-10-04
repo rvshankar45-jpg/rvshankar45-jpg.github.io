@@ -1,0 +1,50 @@
+{
+ "text": "Our chat hours are 8am\u20138pm Monday to Saturday, in your local time. We don't offer phone support at all, so there's no one to call on Sunday (or any other day), and chat isn't available on Sundays either.\n\nYou can email help@leafy.example any day, and we answer within 1 business day. If your question is about plant care, our Plant Care Specialists are on chat 9am\u20135pm Monday to Friday.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 435,
+  "cache_read_input_tokens": 1651,
+  "output_tokens": 136,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 435,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 136,
+    "cache_read_input_tokens": 1651,
+    "cache_creation_input_tokens": 435,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 435
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2088,
+ "output_tokens": 136,
+ "thinking_tokens": 0,
+ "latency_ms": 2382,
+ "wall_ms": 6356,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100635.597549
+}

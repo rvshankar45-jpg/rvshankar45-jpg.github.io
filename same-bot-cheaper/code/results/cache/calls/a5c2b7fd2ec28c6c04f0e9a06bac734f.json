@@ -1,0 +1,50 @@
+{
+ "text": "XL plants are still available to you, with a few differences from regular plants:\n\n- **Delivery time:** XL plants (usually over 4 ft) ship Standard only, so you'd get the same **5-8 business days** as any other Zone 3 order. Express isn't available to you either way, so nothing changes there.\n- **Extra fee:** There's a **$20 handling fee** on XL plants.\n- **Shipping cost:** Standard shipping is $7.95, or free if your order is **$75 or more** (after discounts, before tax). I can't say whether the handling fee counts toward that $75 threshold, so I can't promise how it would apply to your order.\n- **Shipping days:** Like all live plants, XL plants ship **Monday-Wednesday only**. Orders placed after 12 noon on Wednesday ship the following Monday.\n- **Weather holds:** The same rules apply. If the transit forecast is below 35\u00b0F or above 95\u00b0F, your plant may be held for up to 7 days, and you'll be emailed.\n\nIf you tell me which plant you have in mind, I can help with anything else about ordering it. For plant-specific questions like size or care, a Plant Care Specialist can help by chat (9am-5pm Mon-Fri, your local time) or email.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1113,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 410,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1113,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 410,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 1113,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1113
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4971,
+ "output_tokens": 410,
+ "thinking_tokens": 0,
+ "latency_ms": 4322,
+ "wall_ms": 7141,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005890.5865996
+}

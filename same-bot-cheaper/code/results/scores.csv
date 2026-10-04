@@ -1,0 +1,1073 @@
+answer_id,correctness,completeness,policy,tone,score,note,unit_id,answer_hash,replicate
+c01.t1#1,5,4,5,4,4,"Correct 48h, photos, replacement/refund, and the DOA vs guarantee point. Slightly hedgy about where to submit.",c01.t1,312e48f5921449a5,0
+c01.t1#2,5,5,5,5,5,"Concise and accurate, with all the key facts.",c01.t1,b86e86a5fdf35d44,0
+c01.t1#3,5,5,5,4,4,"Accurate, and the care tips are in the KB. A bit wordy.",c01.t1,68adcc2ecdacf206,0
+c01.t1#4,4,5,3,4,3,"Says to report via 'My Orders' or by replying here. The KB doesn't give a DOA submission route, so this is mildly invented.",c01.t1,42c82020d6f84f96,0
+c01.t1#5,4,5,4,4,4,Correct core facts. The nursery vs decorative pot distinction is a reasonable inference from the KB.,c01.t1,fcbdf5ac6d3c7fce,0
+c01.t2#1,4,2,4,4,3,Fails to give the available channels (chat or help@leafy.example). Escalating instead is overcautious.,c01.t2,0f7934a2a090d372,0
+c01.t2#2,4,2,4,4,3,"Doesn't name chat or email as the way to send photos, and defers to escalation instead.",c01.t2,ec0de6167a6aad94,0
+c01.t2#3,4,2,4,4,3,"Doesn't give the contact channels. Offers escalation to a Support Lead, which isn't needed here.",c01.t2,373cbc79a7a35712,0
+c01.t2#4,4,5,4,4,4,Gives the email address and the 48h deadline. 'My Orders' is hedged and not confirmed by the KB for DOA.,c01.t2,ac33004621f7bc89,0
+c01.t2#5,5,5,5,4,5,"Gives chat and email with correct hours and the 48h window, and honestly says there is no upload form.",c01.t2,8c909244d6afb6dc,0
+c01.t3#1,5,5,5,4,4,Accurate guarantee details. The escalation offer is unnecessary but harmless.,c01.t3,93eb22e46fc239e6,0
+c01.t3#2,5,5,5,4,4,"All facts are correct, but the answer is long.",c01.t3,595727fe9cc2aa85,0
+c01.t3#3,5,5,5,5,5,"Clear, correct and complete. Useful point about not repotting.",c01.t3,8c1c69a958d6880f,0
+c01.t3#4,5,5,5,5,5,"Correct, and links the 48h DOA window to the guarantee.",c01.t3,c61ebb5eb64ff73b,0
+c01.t3#5,5,5,5,4,5,Accurate and complete.,c01.t3,051ecc7b9724b9ac,0
+c01.t4#1,2,4,3,4,2,"Right answer of No. But it wrongly retracts the care tips, which are in KB section 9, and tells the customer not to trust them.",c01.t4,7bedf96ec0724fbe,0
+c01.t4#2,5,5,5,5,5,"Correct, concise, and reminds the customer of the 48h window.",c01.t4,57da07d5e1f2e589,0
+c01.t4#3,5,5,5,4,4,Correct. Honest about the unknown on whether a DOA replacement gets a new guarantee.,c01.t4,1912a8561989b91b,0
+c01.t4#4,2,4,3,4,2,"Right answer of No. But it falsely says the 2-3 week repot advice isn't from policy, when the KB care card says it.",c01.t4,09152437254440db,0
+c01.t4#5,5,5,5,5,5,Correct and honest about what is unknown. Gives a contact route.,c01.t4,a04576ec7720d664,0
+c01.t4#6,2,4,3,4,2,"Right answer of No. But it wrongly 'corrects' the 2-3 week repot guidance, which is in the KB.",c01.t4,66d98e6f02697aa0,0
+c02.t1#1,5,5,5,5,5,Accurate and concise.,c02.t1,8973008245fc38b8,0
+c02.t1#2,5,5,5,4,5,"Accurate, with extra correct detail. Slightly long.",c02.t1,37b472c9a0ace8f5,0
+c02.t1#3,5,5,5,5,5,Accurate and brief.,c02.t1,ba5916d4c410f668,0
+c02.t1#4,5,5,5,4,5,"Correct, with a little extra detail.",c02.t1,2781096f57d79f29,0
+c02.t1#5,5,5,5,5,5,Correct and concise.,c02.t1,b37edbc1d7cc72a5,0
+c02.t1#6,5,5,5,4,5,"Correct, with extra detail that is all accurate.",c02.t1,34eb90a45c72b2d1,0
+c02.t2#1,5,5,5,5,5,Correct timing and price. Notes the consequence of waiting.,c02.t2,b71bf5d405c0f403,0
+c02.t2#2,5,5,5,5,5,Correct and concise.,c02.t2,4e1ac11e9fe26f34,0
+c02.t2#3,2,4,3,3,2,"The upgrade timing is right. It then wrongly retracts the 30-day guarantee, which the KB confirms, and suggests escalating something that doesn't need it.",c02.t2,d2f8b6a23d2af656,0
+c02.t2#4,5,5,5,5,5,Correct and clear.,c02.t2,e4b82bc9bd1a934d,0
+c02.t2#5,5,5,5,5,5,"Correct, including the 24th cutoff.",c02.t2,33ba638454ad9be6,0
+c02.t2#6,5,5,5,5,5,Correct.,c02.t2,4551a5f0f3614a32,0
+c02.t3#1,5,5,5,5,5,Correct and concise.,c02.t3,ececd586d6793a62,0
+c02.t3#2,5,5,5,5,5,"Correct, with a clear comparison of the two dates.",c02.t3,05be226467ced944,0
+c02.t3#3,5,5,5,5,5,"Correct, and notes that an already-billed box is not refunded.",c02.t3,01811ce6698431e7,0
+c02.t3#4,5,5,5,5,5,Correct.,c02.t3,6026ac80e5e4ae25,0
+c02.t3#5,5,5,4,3,3,"The main answer is correct. It refers to a retraction in a 'last message' that isn't in the conversation, which is confusing, though the guarantee facts it states are right.",c02.t3,f0dd5bf476e03eaa,0
+c02.t3#6,5,5,5,5,5,Correct.,c02.t3,fe00c89ce43749ef,0
+c02.t4#1,5,5,5,4,5,Says it works on both plans and is honest about what is unknown. Offers escalation. A bit wordy.,c02.t4,5c91cda6c5e04dd6,0
+c02.t4#2,5,5,5,5,5,Correct and honest about the gap in the KB.,c02.t4,5ab379a14c8e09ab,0
+c02.t4#3,5,5,5,5,5,Correct. Gives a sensible next step through email.,c02.t4,1e83d6df3ba9f0df,0
+c02.t4#4,5,5,5,5,5,Correct.,c02.t4,3543c97f5d80c173,0
+c02.t4#5,4,5,4,5,4,"Correct overall. It names a location for the list under Account > Subscriptions, which the KB doesn't state.",c02.t4,c8b42358d4766efe,0
+c02.t4#6,4,5,4,4,4,Correct overall. It doesn't say 'yes' directly and assumes where the list is edited.,c02.t4,a73f893f1f7176be,0
+c02.t4#7,5,5,5,5,5,Correct and honest.,c02.t4,02b18879fa167aac,0
+c03.t1#1,4,5,5,5,4,"Accurate and concise. Says the pending authorisation is on a cancelled order, which is a minor mismatch with the customer's situation.",c03.t1,359ee16320a4f127,0
+c03.t1#2,5,5,5,4,5,"Correct and complete. Covers the pending check, multi-parcel charges, and the order number plus last four digits. A bit long.",c03.t1,d740abde9018be9e,0
+c03.t1#3,5,5,5,5,5,"Fully correct. Offers dispute escalation to a Support Lead, which is appropriate.",c03.t1,9c9f5b718a976039,0
+c03.t1#4,4,5,5,5,4,"Correct overall. Refers to a cancelled order, which is a slight stretch.",c03.t1,91ddde49e7b78c75,0
+c03.t1#5,5,5,5,5,5,"Correct, clear and well structured.",c03.t1,1e7ca7dbcd7d932d,0
+c03.t2#1,5,5,5,5,5,"Gives the 3-business-day refund, original-card rule and timing. Offers store credit and a dispute. Good.",c03.t2,5352d04dca78c8ff,0
+c03.t2#2,5,4,4,4,4,Correct. Honestly says it can't confirm the duplicate itself and offers escalation. Escalating isn't strictly required here.,c03.t2,0d5e35fb051cb95b,0
+c03.t2#3,4,4,5,4,4,"Correct. Re-raises the multi-parcel check even though the customer said both charges posted, which is slightly redundant.",c03.t2,21bb8418b913e0cc,0
+c03.t2#4,4,3,4,3,3,"Correct facts, but it asks a multi-parcel question the customer didn't need to answer and delays the resolution. It also says it lacks a confirmation timeframe.",c03.t2,70b73888355f9c57,0
+c03.t2#5,5,5,5,4,5,Correct and complete. It's a bit effusive but fine.,c03.t2,73bac1bca583dd9c,0
+c03.t3#1,5,5,5,5,5,"Clearly declines, explains that the bank normally forwards the refund, and offers store credit. Correct.",c03.t3,479c021dd03306f2,0
+c03.t3#2,5,4,5,4,4,Correct refusal and options. The multi-parcel question is unnecessary at this point.,c03.t3,4d80efcf9c14303d,0
+c03.t3#3,5,5,5,5,5,"Matches the reference: refuses, explains the bank forwarding, and offers store credit.",c03.t3,4f00a6b9faadba4b,0
+c03.t3#4,5,5,5,5,5,Concise and correct.,c03.t3,a788db6644db0cc9,0
+c03.t3#5,5,5,5,5,5,"Correct, clear options.",c03.t3,3fea136ca0cd38bc,0
+c03.t4#1,5,5,5,5,5,"Correct timeline of 3 days plus 5-10 days, and mentions instant store credit.",c03.t4,2b47477bcbac5bab,0
+c03.t4#2,5,5,5,5,5,"Correct 8-13 day estimate, with the bank caveat and store credit offered.",c03.t4,338b7b82eec491a4,0
+c03.t4#3,5,5,5,5,5,Correct and clear.,c03.t4,6b44d56f134a0cb9,0
+c03.t4#4,5,5,5,5,5,Concise and correct.,c03.t4,52246185b8472d64,0
+c03.t4#5,4,4,4,3,3,"The timeline is correct, but it reopens the multi-parcel question and stalls on confirmation. This is confusing for a customer who already said both charges posted.",c03.t4,a12224ecaa0aa754,0
+c03.t4#6,3,4,4,4,3,"The timeline is correct. It implies store credit is issued within 3 days of confirmation, which is not stated in the policy, and it adds an unnecessary escalation.",c03.t4,c7380c25afd5935a,0
+c04.t1#1,5,5,5,5,5,Correct Zone 3 and Express unavailable.,c04.t1,9f8281eb3a494d84,0
+c04.t1#2,5,5,5,4,5,Correct and concise.,c04.t1,14a84b5f1073bf52,0
+c04.t1#3,5,5,5,5,5,Correct with relevant extras.,c04.t1,777fe99482b0d6f2,0
+c04.t1#4,5,5,5,4,4,Correct but padded with tangential details.,c04.t1,214a81b6dde1d151,0
+c04.t1#5,5,5,5,5,5,Correct and clear.,c04.t1,abbb7644a6aecceb,0
+c04.t1#6,5,5,5,5,5,Correct.,c04.t1,294bf2edb7d55321,0
+c04.t2#1,5,5,4,4,4,Correct no; unnecessary escalation offer and extra detail.,c04.t2,a894597548655cc9,0
+c04.t2#2,5,5,5,5,5,Direct and correct.,c04.t2,d0c59a5663a69cc0,0
+c04.t2#3,5,5,5,5,5,"Correct, helpful.",c04.t2,a8a4dfbfc5466bef,0
+c04.t2#4,5,5,5,4,5,Correct; accurate waiver details.,c04.t2,83d3d0b7bea5fb67,0
+c04.t2#5,5,5,5,5,5,Correct and empathetic.,c04.t2,e41005d7bdf004b2,0
+c04.t2#6,5,5,5,5,5,Correct.,c04.t2,7710faf33018967a,0
+c04.t3#1,4,5,4,4,4,Correct core; 'per XL plant' assumed and needless escalation offer.,c04.t3,6aa025beffb74223,0
+c04.t3#2,5,5,5,4,5,Correct.,c04.t3,2367b5d7e52c8ef8,0
+c04.t3#3,5,5,5,5,5,"Concise and correct, notes fee applies regardless.",c04.t3,83a9462851b2ef63,0
+c04.t3#4,4,5,5,4,4,"Correct; 'each XL plant' assumed, slight hedging.",c04.t3,8e9b475cb650ffc6,0
+c04.t3#5,5,5,5,4,4,Correct but hedges unnecessarily on the fee.,c04.t3,da345f468cd8d85f,0
+c04.t3#6,5,5,5,5,5,Correct.,c04.t3,a7a8e74afbdda47b,0
+c04.t4#1,5,5,5,4,4,Correct; slightly odd apology for earlier message.,c04.t4,11f0f705660decac,0
+c04.t4#2,5,5,5,4,4,Correct; references an earlier statement that may not match.,c04.t4,99bfe3f14df11f8b,0
+c04.t4#3,5,5,5,5,5,Correct and clear.,c04.t4,22c17cbf1da086a0,0
+c04.t4#4,5,5,5,5,4,Correct; unnecessary escalation offer.,c04.t4,6eb823f39b40cb51,0
+c04.t4#5,5,5,5,5,5,Correct with clear breakdown.,c04.t4,1e7a7e3e8b8adc34,0
+c04.t4#6,5,5,5,5,5,Correct and concise.,c04.t4,fef96962fa8c1df0,0
+c04.t4#7,5,5,4,4,4,Correct; raises needless uncertainty and escalation.,c04.t4,b0f643d604a0797e,0
+c05.t1#1,4,5,5,5,4,"Accurate. Says 'cancel anytime' loosely, but no fee/min term is a Plant Club statement; minor. Doesn't specify non-living returns.",c05.t1,203d9a57a427eff3,0
+c05.t1#2,5,5,5,5,5,"All correct, includes non-living clarification.",c05.t1,a0b912c837dec1ae,0
+c05.t1#3,3,5,4,4,3,"Claims 'cancel anytime with no fee or minimum term' for Leafy Plus, which is a Plant Club rule; invented.",c05.t1,d5e3f6896fa705fe,0
+c05.t1#4,3,5,4,5,2,Says returns apply to plants (live plants can't be returned) and 'no minimum term' cancel anytime; errors.,c05.t1,3f77fde4e9a8edb1,0
+c05.t1#5,5,5,5,5,5,Accurate and complete.,c05.t1,0e29cb7eac5219ed,0
+c05.t1#6,5,5,5,5,4,Accurate; cancellation path 'Account > Subscriptions' is reasonable. Slightly extra.,c05.t1,3957b6562ff0a0d5,0
+c05.t2#1,5,5,5,4,5,"Correct, and corrects earlier return misstatement properly.",c05.t2,04e202661e6e2c07,0
+c05.t2#2,5,5,5,5,5,Correct and concise.,c05.t2,c216833953bb6947,0
+c05.t2#3,5,5,5,4,5,Correct; valid correction of earlier Plant Club confusion.,c05.t2,eaba81fd9ec2ebbc,0
+c05.t2#4,5,5,5,5,5,Correct and concise.,c05.t2,9706b0aa7ef122f9,0
+c05.t2#5,5,5,5,4,5,Correct with valid correction.,c05.t2,7ec558cefb01b0e3,0
+c05.t2#6,5,5,5,5,5,Correct.,c05.t2,c6c713f64e6165df,0
+c05.t3#1,5,5,5,5,5,Correct and concise.,c05.t3,3498e458fbecf010,0
+c05.t3#2,5,5,5,5,5,"Correct, honest about gaps.",c05.t3,b0cf11760a61cbfd,0
+c05.t3#3,5,5,5,5,5,Correct; cancel path plausible.,c05.t3,da63c5d7695e2b8c,0
+c05.t3#4,5,5,5,5,5,Correct and helpful.,c05.t3,7571c7135ec198d6,0
+c05.t3#5,4,5,5,4,4,"Correct; guarantee claim as 'benefit' is speculative, and says KB lacks cancel method though it exists.",c05.t3,3e870a8d9fce8a24,0
+c05.t3#6,5,4,5,5,4,Correct; says cancel method unknown though KB has Account > Subscriptions.,c05.t3,f3879a21a11f322a,0
+c05.t4#1,5,5,5,5,5,Correct and complete.,c05.t4,987c10f1a958f579,0
+c05.t4#2,5,5,5,5,5,Correct.,c05.t4,c136d0de9031cc82,0
+c05.t4#3,5,5,5,5,5,Correct.,c05.t4,0d5d3adc46ba6061,0
+c05.t4#4,5,5,5,5,5,Correct main point.,c05.t4,de7867391f08e49d,0
+c05.t4#5,2,4,4,4,2,"Main point right, but wrongly retracts correct 30/90-day guarantee info, misleading.",c05.t4,92d2f6022aa3d0ed,0
+c05.t4#6,2,4,4,4,2,"Main point right, but wrongly retracts the correct 30-day figure.",c05.t4,1813df093b2c82c7,0
+c05.t4#7,5,5,5,5,5,"Correct, honest.",c05.t4,bf05eb8f64a90517,0
+c05.t5#1,5,5,5,4,5,"Correct: Express stays $14.95, Plus gives free Standard. Extra zone detail accurate.",c05.t5,4744bee5767112e3,0
+c05.t5#2,5,5,5,5,5,Correct and concise.,c05.t5,f8daabb6271b3088,0
+c05.t5#3,5,5,5,4,5,"Correct, a bit long but fine.",c05.t5,567143844da5cc1b,0
+c05.t5#4,5,5,5,5,5,"Correct, adds accurate non-member Standard pricing.",c05.t5,8d9675cc3b7686da,0
+c05.t5#5,5,5,5,5,5,Correct and concise.,c05.t5,5a3e5bc1ef5cc323,0
+c05.t5#6,5,4,3,3,3,"Main answer is correct. But it adds a confusing 'correction' that disclaims the 90-day guarantee, which the KB does cover. The 90-day guarantee applies to plants ordered while the membership is active. This is misleading and refers to messages we can't see.",c05.t5,045a3452ca8d3102,0
+c05.t5#7,5,5,5,5,5,Correct. The Standard price mention is accurate.,c05.t5,003d8189b2c618a5,0
+c06.t1#1,5,5,5,5,5,"Correct 2-hour window, honest about uncertainty, offers escalation.",c06.t1,a349b560a44f8c66,0
+c06.t1#2,5,5,5,3,4,Accurate but long. Promo and shipping details are extra.,c06.t1,ae9134dcca5e93c7,0
+c06.t1#3,5,5,5,5,5,"Correct, clear, and appropriately hedged. Leafy Plus 10% off is accurate.",c06.t1,6a9470d35b3544a0,0
+c06.t1#4,5,5,5,4,5,Correct and complete.,c06.t1,c27cb4b26ecc500e,0
+c06.t1#5,5,5,5,4,5,Correct and complete.,c06.t1,d642da1486347cf1,0
+c06.t2#1,5,5,5,5,5,Correct. Offers a separate order and escalation. Does not promise the outcome.,c06.t2,85f84a3bc603af85,0
+c06.t2#2,5,5,5,4,5,"Correct, with helpful chat hours caveat. Slightly long.",c06.t2,9283ade209be7579,0
+c06.t2#3,4,5,4,4,4,"Mostly right. Says support can intercept 'and add the pot', which the KB doesn't confirm. Otherwise hedged properly.",c06.t2,6780850a8b58918c,0
+c06.t2#4,3,3,3,3,2,"Core answer is right, but it wrongly retracts the care-card advice, which is in the KB (Section 9). Doesn't mention a separate order.",c06.t2,3cedfbfa86bd8537,0
+c06.t2#5,5,4,5,4,4,"Correct, though it doesn't mention a separate order.",c06.t2,30c92cdf7a651442,0
+c06.t3#1,5,5,5,4,5,Correct: no promo code after ordering. Suggests a new order and offers escalation.,c06.t3,a72302d1bcacfcae,0
+c06.t3#2,5,4,5,4,4,"Correct, but doesn't suggest using the code on a new order.",c06.t3,263f8576df78b9c3,0
+c06.t3#3,5,5,5,4,5,"Correct, with a practical cancel-and-reorder option and sensible caveats.",c06.t3,6da40fdfd92d5cba,0
+c06.t3#4,3,5,3,3,2,"Main answer is right. But it wrongly retracts the Leafy Plus 10% pots discount, which is in the KB. This is a false correction.",c06.t3,4a4de2e521483419,0
+c06.t3#5,5,5,5,5,5,"Correct, complete, and clear.",c06.t3,7888d63ecf66a346,0
+c07.t1#1,5,5,5,5,5,"Correct, safety advice included.",c07.t1,ab503e53df2b2bce,0
+c07.t1#2,5,5,5,5,5,Correct and honest about limits.,c07.t1,1cb11f43e8fb0a82,0
+c07.t1#3,5,5,5,4,5,Correct; offers escalation conditionally. Slightly chatty.,c07.t1,37125c9b0321adff,0
+c07.t1#4,5,5,5,5,5,"Correct, concise, specialist hours right.",c07.t1,3f7f261f9c578329,0
+c07.t1#5,5,5,4,4,4,"Correct; says escalate after they call, slightly delayed but fine. Wordy.",c07.t1,aa74da75bda268e6,0
+c07.t2#1,4,5,4,4,4,Vet first then escalates. Quotes email and promises follow-up by email; a bit long and symptom list is outside the KB.,c07.t2,de550663abcce1ba,0
+c07.t2#2,5,5,5,5,5,"Vet first, escalates, no invented info.",c07.t2,1e2f20f5f2b542f1,0
+c07.t2#3,5,3,2,5,2,"Safety advice good but fails to escalate, which is required for a safety issue.",c07.t2,4827c2ce97bcc243,0
+c07.t2#4,5,3,2,5,2,No escalation to Support Lead despite safety issue.,c07.t2,0d43e4e7449ca316,0
+c07.t2#5,5,5,5,4,5,"Vet first, escalates, honest about timing. Somewhat long.",c07.t2,da91981955bac8c1,0
+c07.t3#1,5,4,3,4,3,"Right list and vet advice, but never confirms escalation was done earlier; offers to escalate only vaguely.",c07.t3,e7c1be1f0fc83dfa,0
+c07.t3#2,5,4,4,4,4,"Correct list, vet advice, escalation noted. Adds extra unrequested shipping details.",c07.t3,37c40d48a937aa54,0
+c07.t3#3,1,2,2,3,1,Wrongly retracts the correct pet-safe list; misleading and unhelpful.,c07.t3,171f991151a3298f,0
+c07.t3#4,4,4,4,4,4,Correct list and vet advice. Adds invented descriptors and an unrelated guarantee section; wordy.,c07.t3,955d5fedfa750acc,0
+c07.t3#5,5,4,4,4,4,"Correct, concise, vet advice. Doesn't mention existing escalation.",c07.t3,9aa03d26c3581d26,0
+c08.t1#1,5,5,5,5,5,All facts correct.,c08.t1,8cf38dbae20ccd08,0
+c08.t1#2,5,5,5,5,5,All facts correct and clearly formatted.,c08.t1,b7bb8ba2a539c5be,0
+c08.t1#3,5,5,5,5,5,"Correct, includes refund timing and store credit option.",c08.t1,9614853db95f31fd,0
+c08.t1#4,5,5,5,4,5,Correct but longer than needed.,c08.t1,4e29c142b6bf95f5,0
+c08.t1#5,5,5,5,5,5,Correct and complete.,c08.t1,756b705615e637cd,0
+c08.t2#1,5,5,5,5,5,Accurate and complete.,c08.t2,bd88edbf9edf006d,0
+c08.t2#2,5,5,5,5,5,"Accurate, concise.",c08.t2,4dccd4458a0e1158,0
+c08.t2#3,5,5,5,4,5,Correct; a bit chirpy and long.,c08.t2,3e4b05934c519057,0
+c08.t2#4,5,5,5,5,5,Correct; 'probably' slightly vague but fine.,c08.t2,99cf1c4cf2e99880,0
+c08.t2#5,5,5,5,4,5,Correct; slightly padded.,c08.t2,8e7916e27b54127c,0
+c08.t3#1,3,3,3,4,3,Says label expired but tells to contact support instead of restarting from My Orders; offers unnecessary escalation.,c08.t3,7a8a0920cb42473a,0
+c08.t3#2,5,5,5,4,5,Correct: restart return for a new label; drop within 7 days.,c08.t3,e44b0c086d93531a,0
+c08.t3#3,5,5,5,4,4,Correct; a bit emoji-heavy.,c08.t3,e604bd12955f1b12,0
+c08.t3#4,5,5,5,4,4,"Correct, honest fallback; somewhat long.",c08.t3,7861903203edb0db,0
+c08.t3#5,5,5,5,5,5,Correct and concise.,c08.t3,d88a58a1bdffb4f5,0
+c08.t3#6,4,5,5,5,4,Correct; 'after emailed' vs printed minor.,c08.t3,af46298728d7a38f,0
+c08.t4#1,4,3,5,4,3,"Says no info on bank timing, but KB gives card 5-10 business days; incomplete.",c08.t4,b7bec23f4f77897f,0
+c08.t4#2,4,2,5,4,3,Omits card/wallet timing after issue.,c08.t4,dc03d2efcd59454e,0
+c08.t4#3,3,2,4,4,2,Wrongly claims no information on payout timing.,c08.t4,19119ccd39140f97,0
+c08.t4#4,5,5,5,4,5,Covers both steps correctly; arithmetic fine.,c08.t4,8cdc109519cb6a21,0
+c08.t4#5,5,5,5,5,5,"Correct, clear two-step timeline.",c08.t4,81f5e3e6b08c2db0,0
+c08.t4#6,3,2,4,4,2,Claims no timeframe for bank part despite KB.,c08.t4,8bee17597cf22817,0
+c08.t4#7,5,5,5,4,5,Correct timeline.,c08.t4,e39f066877de0e5a,0
+c09.t1#1,5,5,5,5,5,Accurate and concise.,c09.t1,d22bbcfced5d78af,0
+c09.t1#2,5,5,5,5,5,"Accurate, safe, helpful weather-hold note.",c09.t1,88567d2511f2996d,0
+c09.t1#3,5,5,5,5,5,Accurate; goodwill up to $15 offered within policy.,c09.t1,aabc9624bc036b9a,0
+c09.t1#4,5,5,5,4,5,Correct; a bit long.,c09.t1,0d9a9d64aaaf643c,0
+c09.t1#5,5,5,4,4,4,"Correct; proactively gives $15 goodwill, allowed but before investigation; fine.",c09.t1,b087246735cd4282,0
+c09.t2#1,5,5,5,5,5,"Accurate threshold, 5-day investigation, lost outcome; weather-hold check is relevant and no promises.",c09.t2,c98d303d982793e8,0
+c09.t2#2,3,4,3,4,2,"Refers to a $15 credit 'mentioned earlier' that was never offered, and wrongly says a Support Lead will be brought in if the order is over $150 (that is a refund/credit threshold, loosely applied). Core facts are right.",c09.t2,c2f1e5a2a94f4bd2,0
+c09.t2#3,5,4,5,5,5,Concise and correct; offers escalation.,c09.t2,749d3a70e3766113,0
+c09.t2#4,5,5,5,5,5,"Correct facts, empathetic, weather hold mention is accurate.",c09.t2,a49437616760b73b,0
+c09.t2#5,5,5,5,4,5,"Correct, with accurate refund timings and a valid goodwill credit offer within the $15 limit.",c09.t2,1d52232a18f81443,0
+c09.t3#1,5,5,5,4,5,Correct outcome and refund details; honest about unknowns.,c09.t3,182ccdf56a2f72ca,0
+c09.t3#2,5,5,5,4,5,Correct; goodwill offer is permitted.,c09.t3,765496cc8fa3e70a,0
+c09.t3#3,5,5,5,5,5,"Correct and thorough, with honest limits.",c09.t3,5c4d3a8a013231c2,0
+c09.t3#4,1,2,2,3,1,"Wrongly retracts correct KB facts, claiming they are not in policy, and fails to answer the question.",c09.t3,6d14e4b0ec5a17a6,0
+c09.t3#5,4,5,3,4,3,"Says a replacement 'sends the order again', and refers to a $15 credit as if previously offered; mostly correct otherwise.",c09.t3,981663f045950fa3,0
+c09.t4#1,5,5,5,4,5,"Declines to promise Express, gives accurate Express details, and offers escalation.",c09.t4,d177d40745869233,0
+c09.t4#2,5,5,5,5,5,Correct and honest; offers escalation.,c09.t4,80ff62fd8de12590,0
+c09.t4#3,5,5,5,4,5,"Correct, and its Express-in-wrong-item note is accurate. Concise.",c09.t4,7afbf479581f4762,0
+c09.t4#4,3,4,3,3,2,"Wrongly says the refund timeframes were not in policy and tells the customer to disregard them, when they are in the KB. The Express answer itself is right.",c09.t4,e22769e8de4a4bcc,0
+c09.t4#5,3,4,3,3,2,"Express answer is right, but it wrongly retracts valid refund and store credit info.",c09.t4,1439d7ab2fe5c8f5,0
+c09.t4#6,5,5,4,5,4,"Good Express answer. The $15 credit is presented as already offered, a minor issue.",c09.t4,d04e2f4a2e64629d,0
+c09.t5#1,4,4,5,4,4,Correct Monday-Wednesday answer; timing speculation is slightly vague.,c09.t5,f35762770747aa61,0
+c09.t5#2,5,4,5,5,5,Correct and clear.,c09.t5,dc77f9d2763ff59c,0
+c09.t5#3,5,4,5,5,5,Correct and concise; offers escalation.,c09.t5,7e4bf2e84bdc6141,0
+c09.t5#4,5,5,5,4,5,"Correct, with relevant weather hold and mixed-order details; no promises.",c09.t5,1b29e0bd048b4426,0
+c09.t5#5,4,4,4,4,4,"Correct core answer, but the ship-timing speculation ('the following Monday') is guesswork. Transit times are accurate.",c09.t5,0b14358d73bdf6ba,0
+c09.t5#6,4,4,4,4,4,"Correct core answer. It presents the $15 credit as already established, and the reply's sequencing is slightly off.",c09.t5,397671ffc45f67b0,0
+c09.t5#7,5,4,5,4,5,Correct and very concise.,c09.t5,e7329c6f5e2a99e8,0
+c10.t1#1,5,5,5,4,5,Accurate claim steps; slightly long but fine.,c10.t1,f33f0945d54ef5d6,0
+c10.t1#2,5,5,5,5,5,Correct and complete.,c10.t1,a165ce28d8db68d5,0
+c10.t1#3,5,5,5,5,5,Concise and accurate.,c10.t1,527d793e92a05ff9,0
+c10.t1#4,5,5,5,5,5,"Correct; includes weather-hold check, valid.",c10.t1,fc5915dfd0857b01,0
+c10.t1#5,4,5,4,4,4,"Correct overall; asserts it's Saturday and about a week left, assumptions. Today 2026-10-03 is Saturday, so fine.",c10.t1,57742e318e405be7,0
+c10.t2#1,4,3,4,4,3,"Apologises and offers escalation, but omits the goodwill credit up to $15.",c10.t2,732384f9cb72bd6d,0
+c10.t2#2,5,5,5,5,5,"Apology, $15 goodwill credit, escalation; all within policy.",c10.t2,b1268e06e662ac80,0
+c10.t2#3,5,5,5,4,5,Offers goodwill credit and escalation; good.,c10.t2,d9a9821be93e94c2,0
+c10.t2#4,5,3,4,4,3,Escalates but no goodwill credit offered.,c10.t2,66ef999c83449b67,0
+c10.t2#5,4,3,4,4,3,"Escalates, no goodwill credit; odd apology for not asking.",c10.t2,b75a658340a43666,0
+c10.t3#1,5,5,5,4,5,Escalates and offers credit.,c10.t3,4e2f96e81344503c,0
+c10.t3#2,5,5,5,5,5,Excellent.,c10.t3,ab33cb86635a8911,0
+c10.t3#3,5,5,5,5,5,"Escalates, credit, safe.",c10.t3,73737223840f376d,0
+c10.t3#4,3,5,4,4,3,Wrongly retracts watering/sun/repotting advice which is in the KB.,c10.t3,1d6ba890c0a0b73d,0
+c10.t3#5,4,5,5,5,4,"Escalates, credit referenced as already mentioned though not in this thread necessarily; fine.",c10.t3,070fe4da5b2dce34,0
+c10.t4#1,5,4,5,4,4,Correct; 'Likely yes' slightly confident but hedged.,c10.t4,d24765774f1509e2,0
+c10.t4#2,5,5,5,5,5,Correct and empathetic.,c10.t4,4563d1b04c4a6b9e,0
+c10.t4#3,5,5,5,4,5,"Correct, mentions second replacement no guarantee.",c10.t4,5dfd003448a3dce7,0
+c10.t4#4,5,5,5,5,5,Correct and clear.,c10.t4,e94e39a7ee702bd9,0
+c10.t4#5,5,5,5,5,5,Correct and complete.,c10.t4,1f1d2c4ad1923bfc,0
+c10.t4#6,5,5,5,4,5,Correct; escalates.,c10.t4,bfd4c84380ddc4f8,0
+q001#1,5,5,5,4,4,Accurate; a bit chatty.,q001,308cb341a750346c,0
+q001#2,5,5,5,5,5,Accurate and complete.,q001,9fcbc531c2666cd2,0
+q001#3,5,5,5,5,5,Concise and correct.,q001,7569d385a75e637e,0
+q001#4,5,5,5,4,5,Correct; heavy formatting.,q001,8d411d91664df4ba,0
+q001#5,5,5,5,5,5,Accurate and complete.,q001,089654bc79640d93,0
+q001#6,5,5,5,4,4,Correct; somewhat chatty.,q001,dcb15d0bcdf207d1,0
+q001#7,5,5,5,4,4,Correct but longer than needed.,q001,bd1d2b23e92de5ec,0
+q001#8,5,5,5,5,5,Accurate and concise.,q001,a13588ce633e0062,0
+q001#9,5,5,5,5,5,Accurate and concise.,q001,b0998503ea6104f5,0
+q001#10,5,5,5,4,5,Correct; formatting heavy.,q001,1e02203a0afae5ab,0
+q002#1,5,5,5,5,5,Correct with useful extras.,q002,ee7ed119c0557a6e,0
+q002#2,5,5,5,4,5,"Correct, a little long.",q002,5e9cb77eee854ef7,0
+q002#3,5,5,5,5,5,Correct.,q002,6eabaa59199cb6ff,0
+q002#4,5,5,5,4,5,Correct.,q002,ca797290898fca7e,0
+q002#5,5,5,5,4,5,Correct.,q002,a05160f1378d96ae,0
+q002#6,5,5,5,5,5,Correct and friendly.,q002,c279e980a0396385,0
+q002#7,5,5,5,4,5,Correct.,q002,702f21aa04954b95,0
+q003#1,5,5,4,4,4,Correct; offering escalation is unnecessary.,q003,1441650386aee56f,0
+q003#2,4,4,4,4,4,Correct no; 'United States' not stated in KB.,q003,cfc3d1fef1fac866,0
+q003#3,5,5,4,4,4,Correct; 'at the moment' and passing along for updates is slightly speculative.,q003,98968f5cac60ac40,0
+q003#4,5,5,5,5,5,Correct and concise.,q003,b34db520018910e5,0
+q003#5,4,4,4,4,4,Asserts US only (not in KB); suggests competitors.,q003,1dc8b8598dbfc337,0
+q003#6,5,5,4,4,4,Correct; 'at the moment' hints at change; wordy.,q003,145fc4a3e191d6d7,0
+q003#7,5,5,5,5,5,Correct and concise.,q003,c152639844334505,0
+q003#8,5,5,5,5,5,Correct and concise.,q003,cafac577b81ab44d,0
+q004#1,3,4,4,4,3,"Core facts right, but the claim that Express is only for non-living items and non-XL plants is confusing and unsupported.",q004,c44b25350a8d85fb,0
+q004#2,5,5,5,5,5,Correct.,q004,2e8cecc93561c119,0
+q004#3,5,5,5,5,5,Correct.,q004,db7d8f34ebf37429,0
+q004#4,5,5,5,5,5,Correct and concise.,q004,7c8eea57bffaa3b1,0
+q004#5,5,5,5,5,5,Correct.,q004,a4fad0ba07295e7d,0
+q004#6,4,5,5,4,4,"'No matter your location' contradicts Zone 3 unavailability, though clarified below.",q004,4a25f93b44dd5461,0
+q004#7,5,5,5,5,5,Correct.,q004,0d2e057dd6b3bcdc,0
+q004#8,5,5,5,5,5,Correct.,q004,92b8e35ddc1b7e46,0
+q004#9,5,5,5,5,5,Correct.,q004,8cebc0d6aafa1319,0
+q004#10,5,5,5,4,5,Correct; slightly long.,q004,a949a388407f712d,0
+q005#1,5,5,5,5,5,Correct and concise.,q005,5842c76ee12a716b,0
+q005#2,5,5,5,5,5,Correct with relevant extras.,q005,668293e0add0234a,0
+q005#3,5,5,5,5,5,"Correct, concise.",q005,c28fa773ac9a5119,0
+q005#4,4,5,5,4,4,Correct; says specialist advice 'anytime' though they have set hours; a bit long.,q005,c204d989ca54a464,0
+q005#5,5,5,5,5,5,Correct.,q005,0b0ab67b08b4b858,0
+q005#6,5,5,5,5,5,Correct.,q005,4cc8f722fda9a4c6,0
+q005#7,5,5,5,4,4,Accurate but wordy for a simple question.,q005,53169c7ef69e2fe4,0
+q005#8,5,5,5,4,4,Accurate; somewhat long.,q005,675af13a4e73f378,0
+q005#9,5,5,5,5,5,Correct.,q005,4e96cabd85ab7cb9,0
+q006#1,5,5,5,5,5,Correct.,q006,e42d2714e930ed2c,0
+q006#2,5,5,5,5,5,Correct.,q006,9e8b11daf37e6718,0
+q006#3,5,5,5,5,5,Correct.,q006,b7e608a49edd80f8,0
+q006#4,5,5,5,5,5,Correct and concise.,q006,4b588282405a949f,0
+q006#5,5,5,5,4,5,"Correct, friendly, slightly long.",q006,005268452b02d838,0
+q006#6,5,5,5,5,5,Correct.,q006,27a124f43a98da3d,0
+q006#7,5,5,5,4,4,Correct; the 'pay without using a card directly' suggestion is slightly odd.,q006,e6e9c5a5435ce275,0
+q006#8,5,5,5,5,5,Correct.,q006,8b987d92ac37f7fc,0
+q006#9,5,5,5,5,5,Correct.,q006,119ba8eac56b3d88,0
+q007#1,5,5,5,5,5,Correct.,q007,23e742c50a59e7e0,0
+q007#2,5,5,5,5,5,Correct.,q007,c7e8e37ee23525d4,0
+q007#3,5,5,5,5,5,"Correct, concise.",q007,e2e3894cfe78cc73,0
+q007#4,5,5,5,4,5,Correct and complete; emoji-heavy.,q007,38329ec078e09df3,0
+q007#5,4,5,5,4,4,'Cancel anytime' is loosely phrased though the refund conditions are then stated correctly.,q007,7f1593817a7c5856,0
+q007#6,5,5,5,5,5,Correct.,q007,3fac7551e71bb840,0
+q007#7,5,5,5,5,5,Correct.,q007,ea420153f84f5aed,0
+q007#8,5,5,5,5,5,Correct.,q007,d1b282ce1d0422db,0
+q007#9,4,5,4,5,4,"Says cancel via Account > Subscriptions; the KB gives that path for Plant Club, not Leafy Plus, so this is an unsupported detail.",q007,f470caba110c86bc,0
+q007#10,5,5,5,5,5,Correct.,q007,bab3c7d3051a6bf8,0
+q008#1,5,5,5,5,5,Correct.,q008,2242062c7ab263cc,0
+q008#2,5,5,5,5,5,Correct.,q008,8e2c39f85ebf4072,0
+q008#3,5,5,5,5,5,Correct.,q008,f3bb169dd1470773,0
+q008#4,5,5,5,4,5,Correct.,q008,6768df15f8665c0b,0
+q008#5,5,5,5,5,5,Correct.,q008,2962b6e67434d11a,0
+q008#6,5,5,5,5,5,Correct.,q008,a8fb0dc476a0f807,0
+q008#7,5,5,5,5,5,Correct.,q008,809f1bd1cbac1fed,0
+q008#8,4,5,4,5,4,"Hours are correct, but it assumes today is Saturday and that it is open now in the customer's unknown local time.",q008,bf8f1da6105b54c9,0
+q008#9,5,5,5,5,5,Correct.,q008,7a5cd0091c5eef55,0
+q009#1,5,5,5,5,5,"Correct: no phone, lists all channels and hours.",q009,1ee72ad2c55edc83,0
+q009#2,5,5,5,5,5,Correct and concise.,q009,78f237947077316a,0
+q009#3,5,5,5,5,5,Correct and concise.,q009,35c2bc8a39296443,0
+q009#4,5,5,5,5,5,Correct and brief.,q009,40fd2c5d0ad70492,0
+q009#5,5,5,5,5,5,"Correct, friendly.",q009,9d70bcae17bcdfd8,0
+q009#6,5,5,5,5,5,Correct and concise.,q009,e8658bf895e72a85,0
+q010#1,5,5,5,5,5,Correct email and response time.,q010,73e12012e28d6ea1,0
+q010#2,5,5,5,5,5,Correct; a bit long but fine.,q010,b46472e0651e00df,0
+q010#3,5,5,5,5,5,Correct.,q010,a1374e3922fb1541,0
+q010#4,5,5,5,5,5,Correct. 'Aim to reply' is fine.,q010,bd7a1ef85fc914b3,0
+q010#5,5,5,5,5,5,Correct.,q010,bc05f9d3d7683e2e,0
+q010#6,5,5,5,5,5,Correct.,q010,aec722f06fb33952,0
+q010#7,5,5,5,5,5,Correct.,q010,f805ffa8f4e1e2a1,0
+q011#1,5,5,5,4,5,All facts correct; somewhat long.,q011,dce4f2e81d7b75e2,0
+q011#2,5,5,5,5,5,Correct and well-sized.,q011,7f8af8c4c240ac87,0
+q011#3,5,5,5,4,5,"Correct, includes useful Collector comparison; slightly long.",q011,b5b9eefd03f3acb1,0
+q011#4,5,5,5,5,5,Correct and concise.,q011,6c21ef227378223e,0
+q011#5,5,5,5,5,5,Correct and concise.,q011,bec0050597c840d1,0
+q011#6,5,5,5,4,5,Correct; header formatting and length slightly much.,q011,85e046f0997101ce,0
+q011#7,5,5,5,5,5,Correct.,q011,61548ee4c8c9dfe0,0
+q012#1,5,5,5,5,5,Correct; 'delivered' vs ships is trivial.,q012,a3e4c43ac4123e7f,0
+q012#2,5,5,5,4,5,Correct; more detail than asked.,q012,04efffff1bc7fa5b,0
+q012#3,5,5,5,5,5,Correct and concise.,q012,bd2b18ede4acac5a,0
+q012#4,5,5,5,5,5,Correct.,q012,b295d9acb642eff6,0
+q012#5,5,5,5,5,5,Correct and concise.,q012,d28b9249cea98a16,0
+q012#6,5,5,5,4,4,Price correct; 'delivered' wording and odd 'plenty of time' remark are minor.,q012,3dfd72386be044d7,0
+q012#7,5,5,5,5,5,Correct.,q012,1b0525b3459ef200,0
+q013#1,5,5,5,5,5,Correct; extra zone transit info accurate. Slightly long.,q013,78a2fc20bbb69a58,0
+q013#2,5,5,5,5,5,Correct and concise.,q013,78dc60b56abf440c,0
+q013#3,5,5,5,5,5,Correct and concise.,q013,f03b0d5d9ff2e29e,0
+q013#4,5,5,5,5,5,Correct.,q013,0d17a55e894625ae,0
+q013#5,5,5,5,5,5,Correct.,q013,3e3c156e4f0fcb57,0
+q013#6,5,5,5,5,5,Correct; tracking extra is accurate.,q013,d3c7db38cc4a5fca,0
+q013#7,5,5,5,5,5,Correct.,q013,58914ac09537874b,0
+q013#8,5,5,5,5,5,Correct; transit ranges accurate.,q013,b03682d45092d8a0,0
+q013#9,5,5,5,5,5,Correct and brief.,q013,94704297251bc7c3,0
+q014#1,5,5,5,5,5,"Correct, concise, offers alternatives.",q014,4bb3a25106f9c710,0
+q014#2,5,5,5,4,5,All facts accurate; a bit long but helpful.,q014,ef1d5ba338011f73,0
+q014#3,5,5,5,5,5,Accurate and clear.,q014,7a0e90fa47616e2b,0
+q014#4,5,4,5,4,4,Correct; omits Plant Care Guarantee but fine. Rehome suggestion is harmless.,q014,094cf136f0107b6d,0
+q014#5,4,3,4,4,3,Correct main answer but claims lacking guarantee details when KB has them; unnecessary escalation.,q014,8a84688c3e96856e,0
+q014#6,5,5,5,4,5,Accurate; minor omission of collapse is fine.,q014,92adc8b177e42ced,0
+q014#7,5,3,4,4,3,Correct main point but says it lacks guarantee details that are in KB; unnecessary escalation.,q014,e4fdf03b06a81e18,0
+q015#1,5,5,5,5,5,Correct with safety advice.,q015,53d3cd4117f975fb,0
+q015#2,5,5,5,4,5,"Correct, safety first then escalation.",q015,9d2437c6b8419ebe,0
+q015#3,5,5,5,5,5,Correct.,q015,5c147b292847384c,0
+q015#4,5,5,5,5,5,Correct.,q015,7b01125bd00464bf,0
+q015#5,5,5,5,5,5,Correct.,q015,22f502ccac2f5952,0
+q015#6,5,5,5,5,5,"Correct, with proper safety then escalation.",q015,d2cc7182892fe1d8,0
+q015#7,4,4,4,5,4,Says 'toxic' which KB does not state exactly; otherwise fine.,q015,a4d799a1a0478c56,0
+q015#8,5,5,5,5,5,Correct.,q015,9375d05024152a4c,0
+q015#9,5,5,5,5,5,Correct.,q015,3b6488b885da4a44,0
+q016#1,5,5,5,5,5,Correct.,q016,3f67627259907a45,0
+q016#2,5,5,5,5,5,Correct.,q016,d3dbea3fa9de15c3,0
+q016#3,5,5,5,5,5,Correct.,q016,c8e85659615169ae,0
+q016#4,5,5,5,4,5,Correct; a bit long.,q016,0b22ad80935b20a5,0
+q016#5,5,5,5,5,5,Correct.,q016,1309f7e7f3a5a2cd,0
+q016#6,5,5,5,5,5,Correct.,q016,f7a30ad72514f84b,0
+q016#7,5,5,5,5,5,Correct.,q016,edbcaf1a450fd4ed,0
+q016#8,5,5,5,4,5,Correct; longer than needed.,q016,9f5eafa470d47da2,0
+q016#9,4,5,4,5,4,"Correct main answer; adds unsupported claim about cats being attracted to foliage, not in KB.",q016,eb15c84159522287,0
+q017#1,5,5,5,4,5,Accurate and thorough; minor typo 'a authorisation'. Slightly long.,q017,e53036dc485abfdc,0
+q017#2,5,4,5,4,4,"Correct timings; a bit verbose, and doesn't mention returns' 5-day issue time.",q017,2700416d05f39727,0
+q017#3,5,4,5,5,5,Correct key fact and return timing. 'Timing varies by type' is vague but not wrong. Offering to 'check status' is slight overreach but minor.,q017,775c683f6732ce0e,0
+q017#4,5,4,5,5,5,Correct and concise; sensible escalation offer.,q017,0bc2353662662bcb,0
+q017#5,5,5,5,5,5,"Concise, accurate, covers return timing.",q017,982c8ab8d58b2091,0
+q017#6,5,4,5,5,5,Correct and concise; minimal extra.,q017,30b4ece74c0fd402,0
+q017#7,5,4,5,4,4,Correct. Odd wording 'issued to us'. Offers to check refund status.,q017,b131c5b3c7c4ad03,0
+q018#1,5,5,5,5,5,Correct and concise.,q018,8ec2f525a241ee9f,0
+q018#2,5,5,5,5,5,"Correct, helpful.",q018,c787edad795ce63c,0
+q018#3,5,5,5,4,5,Correct; a bit wordy.,q018,59295a0bdf03afb4,0
+q018#4,3,4,3,4,2,"Suggests cancel and reorder to apply different code, which is not in the KB and ignores the 2-hour limit; invented advice.",q018,937ff5844ffe1498,0
+q018#5,5,5,5,5,5,Correct.,q018,e8117d41f27ed853,0
+q018#6,5,5,5,5,5,Correct.,q018,3487a897ec369a5f,0
+q018#7,5,5,5,5,5,Correct.,q018,a23133a8a487574d,0
+q018#8,5,5,5,5,5,Correct.,q018,6cae8fe57f27c69c,0
+q018#9,5,5,5,4,5,Correct; price-drop addition is accurate though tangential.,q018,ef8b101c90a0d46a,0
+q019#1,5,5,5,5,5,Correct with relevant extras.,q019,c1e01d4360d2fac8,0
+q019#2,5,5,5,5,5,Correct and concise.,q019,23d96cd3059a0343,0
+q019#3,5,5,5,5,5,Correct.,q019,a8fca64f6d137d64,0
+q019#4,5,5,5,5,5,Correct.,q019,21d87fc5ce4b84b7,0
+q019#5,5,5,5,5,5,Correct.,q019,b3ccf18d35536ab6,0
+q019#6,5,5,5,5,5,Correct.,q019,0514335219ad7633,0
+q020#1,5,5,5,4,5,"Correct, thorough; a bit long for a simple question.",q020,9ce251acc2747ad6,0
+q020#2,5,5,5,5,5,Correct and concise.,q020,09239e7adbd67e27,0
+q020#3,5,4,5,5,5,Correct and concise.,q020,00d1a2c8f2f0075b,0
+q020#4,5,5,5,4,5,Correct and complete.,q020,3fc5e38fb2c4fa74,0
+q020#5,5,5,5,5,5,"Correct, concise.",q020,04658972766e90d0,0
+q020#6,5,5,5,5,5,Correct and empathetic.,q020,4be6ddf4057b72a1,0
+q020#7,4,4,5,5,4,"Correct 48h; 'through My Orders' is not stated for DOA in KB, minor.",q020,0481969737937d6b,0
+q020#8,5,5,5,4,5,Correct and thorough; slightly long.,q020,f735dbe37fd303cf,0
+q021#1,5,5,4,5,4,Correct. Offering to escalate to a Support Lead for an intercept is a slight stretch of the rules.,q021,70e94fbe44df012f,0
+q021#2,5,5,5,5,5,"Accurate and concise, with a sensible next step.",q021,5f7675be0a3ff28c,0
+q021#3,5,4,5,4,4,"Correct. It doesn't say shipped orders can't be cancelled, and the emojis and chatter are a bit much.",q021,14e12a5173cc4330,0
+q021#4,5,4,5,5,5,"Correct and clear. It leaves out that shipped orders can't be cancelled, which is minor.",q021,47c6350537442ca5,0
+q021#5,5,5,5,4,4,Correct. The pending-charge detail is accurate but wasn't asked for.,q021,4b8aa18a9eb89c7a,0
+q021#6,5,5,5,4,5,"Correct, and the contact details match the knowledge base.",q021,368c652e4ccd2d12,0
+q021#7,5,5,4,5,4,Correct. Escalating to a Support Lead for an intercept is slightly beyond the stated rules.,q021,3b39b5c74cb0fcf7,0
+q021#8,5,4,5,4,4,Correct. It's chatty and leaves out that shipped orders can't be cancelled.,q021,93cdc2c893e1d736,0
+q021#9,5,5,5,5,5,Correct and well structured.,q021,41be6f332b4b75ea,0
+q021#10,5,5,5,4,4,"Correct. It's a little long, but the extra details are accurate.",q021,f9a9e811b7f70df8,0
+q022#1,5,4,5,5,5,Correct and concise.,q022,1c17c87ce4c55eba,0
+q022#2,5,5,5,5,5,"Correct, with useful detail on mixed orders.",q022,1410a46a7aea746b,0
+q022#3,5,5,5,4,5,"Correct, and a bit long.",q022,2a977e9c482ac8aa,0
+q022#4,4,4,4,4,4,Correct on the main point. The comment about splitting orders is hedgy and unnecessary.,q022,3018c166625ea545,0
+q022#5,5,4,5,4,4,Correct but brief. It doesn't mention mixed orders.,q022,f251c9577e3c07c2,0
+q022#6,5,5,5,5,5,Correct and concise.,q022,d7fd38f8d0f9b88a,0
+q022#7,5,5,5,5,5,Correct and concise.,q022,2a48359554bf4ed2,0
+q022#8,5,5,5,4,5,Correct and friendly.,q022,1f1be9d676ffba2a,0
+q023#1,5,5,5,4,5,Correct. It adds relevant extras but is somewhat long.,q023,f935f79ea65730a5,0
+q023#2,5,5,5,5,5,Correct and concise.,q023,778a9ac001f49350,0
+q023#3,5,5,5,5,5,"Correct, and the note about the Monday–Wednesday plant shipping days is useful.",q023,746f16f05c9d8c5b,0
+q023#4,5,5,5,5,5,"Correct, and the Express price is right.",q023,13bac1b8a12b639e,0
+q023#5,5,5,5,4,5,Correct. The heading is slightly odd for a chat reply.,q023,1c53b75a1464e5be,0
+q023#6,5,5,5,5,5,Correct.,q023,44dc07df0eeaf43e,0
+q023#7,5,5,5,5,5,Correct.,q023,533a550b148bd32d,0
+q023#8,5,5,5,5,5,"Correct, and the shipping-day note is useful.",q023,64943e1e2ef8d414,0
+q024#1,5,5,5,5,5,Correct and concise.,q024,f31dda975f292e39,0
+q024#2,5,5,5,4,5,"Correct, if a little long.",q024,5f99b8efbc33995a,0
+q024#3,5,5,5,4,5,"Correct, if a little long.",q024,71003eeaee92dd1c,0
+q024#4,5,5,5,5,5,"Correct, including the Leafy Plus free Standard shipping detail.",q024,47430542de7cc26d,0
+q024#5,5,4,5,5,5,Correct and brief.,q024,c085ead7a3281d72,0
+q024#6,5,5,5,5,5,Correct and concise.,q024,4c3899b5f65b0016,0
+q024#7,5,5,5,5,5,Correct.,q024,c1f8a10d9e4292c2,0
+q024#8,5,5,5,5,5,Correct.,q024,d9ffd3cd54ea373c,0
+q024#9,5,5,5,5,5,Correct.,q024,37ef8a5891eb1ea5,0
+q025#1,5,5,5,5,5,"Accurate fee, Plus exemption and extra relevant details.",q025,570e3d19354942bf,0
+q025#2,5,5,5,5,5,Correct and friendly; slightly padded.,q025,1297dbc01c8d14d1,0
+q025#3,5,5,5,5,5,Concise and correct.,q025,d9314f882c11e55c,0
+q025#4,5,5,5,5,5,Correct and complete.,q025,d729cb12b416e5a8,0
+q025#5,5,5,5,5,5,Concise and correct.,q025,751a1135ec3b89c4,0
+q025#6,5,5,5,4,5,Correct; somewhat long for a simple question.,q025,30ead67aa3761699,0
+q026#1,5,5,5,4,5,States no exchanges and the return plus reorder route; correct details.,q026,1501407d5d060128,0
+q026#2,5,5,5,4,5,"Correct, and usefully covers the wrong-item case; long.",q026,c65b0331a4e1061b,0
+q026#3,5,5,5,4,5,Correct two-step process.,q026,e2c53d9f6a3814d0,0
+q026#4,5,5,5,5,5,Correct and concise.,q026,dc75760c355196a2,0
+q026#5,5,4,5,5,5,Concise and correct; omits the 30-day window.,q026,413a2d20e97a1daa,0
+q026#6,5,5,5,4,5,Correct; verbose.,q026,bff354505ccc8809,0
+q027#1,5,5,5,5,5,Correct with a helpful example.,q027,630fcf140703f6b9,0
+q027#2,5,5,5,5,5,Correct.,q027,937a929ce43c9f3b,0
+q027#3,5,5,5,5,5,Correct and concise.,q027,e97f2d5bb9b47490,0
+q027#4,5,5,5,4,5,"Correct, with extra detail.",q027,ad22040e56822ba8,0
+q027#5,5,5,5,5,5,Correct.,q027,3d09245ab3f02bf8,0
+q027#6,5,5,5,5,5,Correct.,q027,1e3ee52926f796aa,0
+q027#7,5,5,5,5,5,Correct and concise.,q027,2a4aa0499c7155a3,0
+q028#1,5,5,5,5,5,"Correct, and the date matches today's date (Oct 3).",q028,780b9dcfedd73640,0
+q028#2,5,5,5,5,5,"Correct, and honestly flags that the KB doesn't cover a billed box when pausing.",q028,f81b57a5a3672cfb,0
+q028#3,4,5,4,5,4,Applies the cancellation rule about an already-billed box to pausing as if it were stated policy.,q028,542d6195ab271067,0
+q028#4,3,5,4,4,3,Says today is Oct 2 (wrong) and extends the billed-box rule to pausing.,q028,c6c7d751a09d20e3,0
+q028#5,4,5,4,5,4,Core facts correct; the billed-box rule for pausing is extrapolated.,q028,d3f513ee39a6b8ad,0
+q028#6,4,5,4,5,4,Core facts correct; the billed-box rule for pausing is extrapolated.,q028,56fd9d8e0de8026d,0
+q028#7,3,5,4,4,3,Says today is Oct 1 (wrong) and extrapolates the billed-box rule.,q028,79cefff6e7432352,0
+q028#8,4,4,4,5,4,Core facts correct; 'resume whenever' is not in the KB.,q028,1429329729d4c2fc,0
+q028#9,4,5,4,5,4,Core facts correct; the billed-box rule for pausing is extrapolated.,q028,ca920866e8c5b86b,0
+q029#1,5,5,5,4,5,Correct; extra detail is fine.,q029,c943189e00995886,0
+q029#2,3,4,4,2,2,"Opens with a contradictory 'Yes, you'd pay' and then corrects itself. That is confusing.",q029,4e8992dcbe867699,0
+q029#3,5,5,5,5,5,Correct and concise.,q029,03adf5d7d8bcdfa2,0
+q029#4,5,5,5,4,5,Correct. It is a bit long but clear.,q029,b9b8a903a7963c12,0
+q029#5,3,4,4,2,2,"Opens with 'Yes, you'd pay', which contradicts the conclusion. That is confusing.",q029,04c852b5c0541a78,0
+q029#6,5,5,5,5,5,Correct and concise.,q029,17af28509c427d95,0
+q029#7,3,4,4,2,2,"Starts with the wrong 'Yes' and then self-corrects, which is confusing.",q029,126df28c03f7d6a9,0
+q029#8,3,4,4,2,2,"Says 'Yes, likely pay' and then reverses itself, which is confusing.",q029,0eada4e1098c290b,0
+q029#9,4,5,5,3,4,"'Yes, standard shipping would be free' is ambiguous. It also assumes today is Friday, which is fine since today is 2026-10-03, a Saturday. Mostly good.",q029,49da269c8f985a3f,0
+q030#1,5,5,5,5,5,Correct.,q030,7d747f8656881547,0
+q030#2,5,5,5,4,5,Correct. Standard delivery of 2-8 days is accurate.,q030,0d09412d7945cd00,0
+q030#3,4,5,4,4,4,"Correct, but the line about what the fee covers is an unsupported embellishment.",q030,37c740b95a2fc96d,0
+q030#4,5,5,5,5,5,Correct and concise.,q030,a68b60ccaa4f45c4,0
+q030#5,5,5,5,5,5,Correct.,q030,0a436e4698aa8b88,0
+q030#6,5,5,5,4,5,Correct.,q030,6ff8d35210f7aab9,0
+q030#7,5,5,5,5,5,Correct.,q030,1eaa7767e1f3bc61,0
+q031#1,5,5,5,5,5,Correct.,q031,790fa92ff5f52792,0
+q031#2,5,5,5,5,5,Correct and honest about what it doesn't know.,q031,e5918ee73d85adca,0
+q031#3,5,5,5,4,5,Correct.,q031,1a8cc5c27e50c21d,0
+q031#4,5,5,5,5,5,Correct.,q031,8af4137b85e909c2,0
+q031#5,5,5,5,5,5,Correct.,q031,326e578422b27fd9,0
+q031#6,5,5,5,5,5,Correct.,q031,1b9de2c356ce7583,0
+q031#7,5,5,5,5,5,Correct.,q031,7800f484e50387a2,0
+q031#8,5,5,5,5,5,Correct.,q031,0a3f5a87363209be,0
+q031#9,5,5,5,5,5,Correct.,q031,d5555e0ac174306c,0
+q031#10,5,5,5,5,5,Correct.,q031,f34e3e8c731371fb,0
+q031#11,5,5,5,4,5,Correct.,q031,39f691bc923d2980,0
+q031#12,5,5,5,5,5,Correct.,q031,bbf2487f2fedbea6,0
+q032#1,5,5,5,5,5,Correct.,q032,8e4c776de525e946,0
+q032#2,5,5,5,5,5,Correct.,q032,e542356c95c765e8,0
+q032#3,5,5,5,5,5,Correct.,q032,784b0ccf666b64ed,0
+q032#4,5,5,5,4,5,Correct. It is a little long.,q032,1efac8361b8cb032,0
+q032#5,5,5,5,5,5,Correct.,q032,845b92205c2e81fa,0
+q032#6,5,5,5,5,5,Correct.,q032,734d892153248448,0
+q032#7,5,5,5,4,5,Correct.,q032,2a2096e67d951c4a,0
+q032#8,5,5,5,5,5,Correct.,q032,6c6b69e49bf9cd74,0
+q032#9,5,5,5,5,5,Correct and direct.,q032,abe539b79db58c77,0
+q033#1,5,5,5,5,5,Accurate and complete; slightly long.,q033,6b4e92d101ea8fe8,0
+q033#2,5,5,5,5,5,Concise and correct.,q033,8253e39deb0b911b,0
+q033#3,5,5,5,5,5,"Correct, clear.",q033,e0fc844973ed255d,0
+q033#4,5,5,5,5,5,"Correct, concise.",q033,0c0d7508c17c9f58,0
+q033#5,5,5,5,5,5,"Correct, brief.",q033,bb7244a8f1265fca,0
+q033#6,5,5,5,5,5,Correct.,q033,7f8486869ca15136,0
+q033#7,5,5,5,5,5,Correct.,q033,c7e244b2f6fe4915,0
+q033#8,5,5,5,5,5,Correct.,q033,01735b15622b6889,0
+q033#9,5,5,5,5,5,Correct; a bit long but fine.,q033,74de5320bda2e1e6,0
+q034#1,5,5,5,4,5,Correct $23.05; long but thorough.,q034,8a829d0b2d4311f8,0
+q034#2,5,5,5,5,5,Correct and concise.,q034,1606d9a65e6e9bd4,0
+q034#3,5,5,5,5,5,"Correct, includes store credit option.",q034,4875e1d7a75d1b43,0
+q034#4,5,5,5,5,5,Correct.,q034,d78c44227171fea8,0
+q034#5,5,5,5,5,5,Correct.,q034,e096b65246554819,0
+q034#6,5,5,5,4,5,Correct; wordy.,q034,b7498bdd69fcde99,0
+q034#7,5,5,5,5,5,Correct.,q034,7e32854d0cf24d79,0
+q034#8,5,5,5,5,5,Correct.,q034,a38aa82781863c50,0
+q034#9,5,5,5,5,5,Correct.,q034,8d4d707a0cce17db,0
+q035#1,5,5,5,5,5,Correct.,q035,68647a4f30c36bc1,0
+q035#2,5,5,5,5,5,"Correct, honest about limits.",q035,14edb4b2695cf1d2,0
+q035#3,5,5,5,5,5,Correct; extra details accurate.,q035,872f41202b9af6a2,0
+q035#4,5,5,5,5,5,Correct.,q035,d2681f6ac26b07d4,0
+q035#5,5,5,5,5,5,Correct.,q035,def9af9120423c32,0
+q035#6,5,5,5,5,5,Correct.,q035,894ad4888aa54f95,0
+q036#1,5,5,5,4,5,Correct; slightly awkward 'no further action' phrasing.,q036,2214e23dc5be7a80,0
+q036#2,5,5,5,5,5,Correct.,q036,c0e1f69ebbb8d000,0
+q036#3,5,5,5,4,5,Correct; verbose.,q036,1d45d746923141b2,0
+q036#4,5,5,5,4,5,Correct; verbose.,q036,5e44b04550eb619c,0
+q036#5,5,5,5,5,5,"Correct, concise.",q036,017c8cb933ee6f79,0
+q036#6,5,5,5,5,5,Correct.,q036,0ae94ab148553642,0
+q036#7,5,5,5,5,5,Correct.,q036,d5371da895d839be,0
+q036#8,5,4,5,5,5,Correct and concise.,q036,84c1ebd2dcc88a12,0
+q036#9,5,5,5,5,5,Correct.,q036,52e634857d62d725,0
+q037#1,5,5,5,4,5,Correct; honest about missing cancel steps.,q037,be9045f827fea888,0
+q037#2,5,5,5,5,5,"Correct and clear, offers escalation.",q037,ade24c8520e28781,0
+q037#3,5,4,5,4,5,"Correct; says refund timing unknown yet then gives it, slightly odd.",q037,3235826d98df7ed3,0
+q037#4,5,4,4,4,4,Correct; says refund timing is unknown though KB has it; a bit wordy.,q037,c22346b2b672cac7,0
+q037#5,1,2,4,3,1,"Says No, contradicting the reference.",q037,6cbf9f8101962e1c,0
+q037#6,5,5,5,5,5,"Correct, complete, honest.",q037,aae3b29b40fb9893,0
+q038#1,5,5,5,5,5,Correct.,q038,a16728eab21aafde,0
+q038#2,5,5,5,4,5,"Correct, a bit chatty.",q038,dd128c345e1eded6,0
+q038#3,5,5,5,5,5,Concise and correct.,q038,33f2db193a688399,0
+q038#4,5,5,5,5,5,Correct.,q038,dd01c5be562ed044,0
+q038#5,5,5,5,4,5,"Correct, somewhat long.",q038,79e213101abf7cea,0
+q038#6,5,5,5,5,5,Correct.,q038,ef3012bce6308b03,0
+q039#1,5,5,5,5,5,Correct.,q039,b672580b9dc3bf15,0
+q039#2,5,5,5,5,5,Correct.,q039,1b8c67bf4501cf94,0
+q039#3,5,5,5,5,5,"Correct, honest on expiry.",q039,04388037ffee114a,0
+q039#4,5,5,5,5,5,Correct.,q039,ace68fb183f2cff3,0
+q039#5,5,5,5,4,5,"Correct, a bit padded.",q039,bb32c9815d760543,0
+q039#6,5,5,5,5,5,Correct.,q039,84d12538f0f599e0,0
+q039#7,5,5,5,4,5,"Correct, a bit padded.",q039,017db49f2ba52488,0
+q039#8,5,5,5,5,5,Correct.,q039,9e67af34a7dec59b,0
+q040#1,5,5,5,5,5,Correct.,q040,9e3935337bfc3a13,0
+q040#2,5,5,5,4,5,Correct; confirmation email is reasonable addition.,q040,12e26f77a599fac7,0
+q040#3,5,5,5,4,5,Correct.,q040,778dad0db47aa2d6,0
+q040#4,5,5,5,5,5,Correct.,q040,69d4e1d187f93804,0
+q040#5,5,5,5,5,5,Correct.,q040,c41cb55e3237ecf9,0
+q040#6,5,5,5,5,5,Correct.,q040,b6ee7c82b7e77e34,0
+q041#1,5,5,5,5,5,Correct and concise.,q041,d2a768df0288e72d,0
+q041#2,5,5,5,4,4,Accurate but long with much unrequested detail.,q041,bd2270960d62169a,0
+q041#3,5,5,5,5,5,"Correct, with relevant extras.",q041,c4a3af662a753089,0
+q041#4,5,5,5,5,5,Correct and concise.,q041,1859713055ebee53,0
+q041#5,5,5,5,4,4,Correct; some padding.,q041,72e6d1de89cf70b8,0
+q041#6,5,5,5,5,5,Correct and well scoped.,q041,36e2c5a2ce6f4238,0
+q042#1,5,5,5,5,5,Correct.,q042,5390dab0bc51d695,0
+q042#2,5,5,5,4,5,"Correct, friendly.",q042,fcc2cd9b0da73d72,0
+q042#3,5,5,5,5,5,"Correct, concise.",q042,1c1058eba0bc9d94,0
+q042#4,5,5,5,5,5,Correct.,q042,1849bc8747047e51,0
+q042#5,5,5,5,5,5,Correct.,q042,6d819bfc37bff175,0
+q042#6,5,5,5,5,5,Correct.,q042,816b77f340c7979a,0
+q042#7,5,5,5,4,5,Correct; slightly chatty.,q042,b458ce2dfabb3f22,0
+q042#8,5,5,5,5,5,Correct.,q042,622619f990250e8f,0
+q043#1,5,5,5,5,5,Correct.,q043,1df8682274689989,0
+q043#2,5,5,5,4,5,Correct.,q043,0e1ef03503bc4659,0
+q043#3,5,5,5,5,5,Correct.,q043,745f813d96ad0bba,0
+q043#4,5,5,5,5,5,"Correct, helpful alternatives.",q043,6e37293aa1922b32,0
+q043#5,5,5,5,5,5,Correct.,q043,1d65b6fbd31792bc,0
+q043#6,5,5,5,4,5,"Correct, a bit wordy.",q043,0571ad21a84e6135,0
+q043#7,5,5,5,4,4,Correct but padded.,q043,413c4094c3e791c3,0
+q043#8,5,5,5,5,5,"Correct, concise.",q043,91a5f39c7ebcd955,0
+q043#9,5,5,5,5,5,Correct.,q043,8a01d91a1d521b7a,0
+q044#1,5,5,5,5,5,"Correct, with proper escalation.",q044,54b045f56e5abad6,0
+q044#2,4,5,4,4,4,Adds an invented 'security measure' reason and vague steps; otherwise right.,q044,57527a7d3bd59661,0
+q044#3,5,5,5,5,5,Correct.,q044,834e66755725e5b4,0
+q044#4,5,5,5,5,4,Correct; 'account settings' is vague but harmless.,q044,262240f8f4d306ad,0
+q044#5,2,4,3,4,2,"Invents the path Account > Privacy, which the KB uses for data download and deletion, so it could misdirect the customer.",q044,ecb6ec594a4c329f,0
+q044#6,5,5,5,4,4,Correct and honest about missing steps; slightly awkward.,q044,0e5d72c80879e38a,0
+q044#7,4,5,4,5,4,Correct; 'for security' is a minor invented reason.,q044,85f0c5f1caf042c6,0
+q044#8,5,5,5,5,5,"Correct, with accurate contact info.",q044,add2de8a4e607181,0
+q045#1,5,5,5,5,5,"Correct: up to 30 days, cancels subscriptions, path given.",q045,b2be8735ab755eec,0
+q045#2,5,5,5,5,5,Accurate and concise.,q045,55b1b7a6784f32c1,0
+q045#3,5,5,5,5,5,Accurate and concise.,q045,d038ec4eaf819e76,0
+q045#4,5,5,5,5,5,Accurate; the billed-box note matches the KB.,q045,148ba3952a9ce650,0
+q045#5,5,5,5,4,4,Correct but longer than needed. 'Choose the delete option' is a small embellishment.,q045,ae517fa0ab44fefd,0
+q045#6,5,5,5,5,5,"Correct, with accurate contact details.",q045,7a7eea24a1d3e721,0
+q045#7,5,5,5,5,5,Correct and brief.,q045,06cd96896b845926,0
+q045#8,5,5,5,5,5,Correct and clear.,q045,5c642d0b0b46232d,0
+q046#1,5,5,5,4,5,"Correct. Safety advice comes first, then an escalation offer. A bit long.",q046,51d6587b2c84485f,0
+q046#2,5,5,5,4,5,"Correct; vet first, then escalation.",q046,0ddc213640d86ce9,0
+q046#3,5,5,5,5,5,"Concise and correct, with safety advice.",q046,2490bb643d237dbb,0
+q046#4,5,5,5,5,5,Correct and honest about the KB limits.,q046,02fde30fe3629970,0
+q046#5,5,5,5,5,5,Correct and concise.,q046,f3d7579b7bfcd655,0
+q046#6,4,4,3,4,3,"Says 'toxic to dogs', which goes beyond the KB's 'not pet-safe'. It also doesn't offer to escalate.",q046,ebeee7d9f9587b90,0
+q046#7,5,5,5,5,5,"Correct, with safety advice then escalation.",q046,d98b20e8ac6c0c75,0
+q046#8,5,5,5,5,5,Correct and honest.,q046,b0be87af5aab9fc5,0
+q046#9,5,5,5,5,5,Correct and concise.,q046,f3afb40d0bf512b2,0
+q047#1,5,5,5,5,5,Correct.,q047,4fd11d9fb7bf7057,0
+q047#2,5,5,5,5,5,Correct.,q047,3b72a6c0c9f387c5,0
+q047#3,5,5,5,5,5,Correct.,q047,8c47ee789a3ba96e,0
+q047#4,5,5,5,5,5,Correct.,q047,730f77b30dd30d0e,0
+q047#5,5,5,5,5,5,Correct.,q047,901653cad0f3607f,0
+q047#6,5,5,5,5,5,Correct.,q047,1c4c7114ced96232,0
+q047#7,5,5,5,4,5,Correct; slightly chatty.,q047,b6a72c35eb7fe343,0
+q047#8,5,5,5,4,5,Correct; slightly chatty.,q047,76a5312ad042d72c,0
+q048#1,5,5,5,5,5,"Correct 90 days, active-membership condition and claim process.",q048,531f333827cc30ef,0
+q048#2,5,5,5,5,5,Correct and concise.,q048,c3d04c230282296e,0
+q048#3,5,5,5,5,5,"Correct, with accurate claim details.",q048,3d5c5e012e3ffe13,0
+q048#4,5,5,5,5,5,Correct.,q048,7ef2cfbb1b949e38,0
+q048#5,5,5,5,5,5,Correct and concise.,q048,3b67fbee8a4f1319,0
+q048#6,5,5,5,5,5,"Correct and brief, with the active-membership condition.",q048,1698fc27e87f7e7f,0
+q049#1,4,5,4,5,4,"Correct range. Adds an unsupported claim that gift cards can pay for plants, pots, soil and accessories. The KB says gift cards are an accepted payment but doesn't list what they can buy.",q049,c4ca2cf89c9e2e92,0
+q049#2,5,5,5,4,5,"Correct, concise, and honest about what the KB doesn't cover.",q049,c10a8360b393d1a3,0
+q049#3,5,5,5,5,5,"Correct and friendly, with an honest note on the missing detail.",q049,bacbb6768bd561b9,0
+q049#4,5,5,5,4,5,Correct and concise.,q049,9e197eb5abbbf8fc,0
+q049#5,5,5,5,5,5,Correct and clear.,q049,93be221c5b44cac2,0
+q049#6,5,5,5,5,5,Correct and honest.,q049,63d96a3300eed33e,0
+q049#7,5,5,5,5,5,Correct and honest.,q049,269a92e1defaaed5,0
+q049#8,5,5,5,5,5,Correct and well organised.,q049,4881263dddf816ff,0
+q049#9,5,5,5,5,5,Correct and concise.,q049,8fd3904b97e67188,0
+q050#1,5,5,5,5,5,"Correct on PO boxes, Express zones and shipping days.",q050,9ea01ea3bc3ccbac,0
+q050#2,5,5,5,5,5,"Correct, and it includes the XL plant Standard-only rule.",q050,f8b19cb71cac2d35,0
+q050#3,3,3,4,4,3,Correct that PO boxes are not allowed. But it says Express arrives in 1–2 business days without mentioning that Zone 3 has no Express. That omission is misleading.,q050,05c99f82624127e3,0
+q050#4,5,5,5,4,5,Accurate and thorough.,q050,5d223edc31e961d5,0
+q050#5,5,5,5,4,4,"Correct. It is a bit wordy, and the 'share your street address zone' line is clumsy.",q050,16d3f3cb18fc9d59,0
+q050#6,5,4,5,5,5,Correct and concise.,q050,a8db0c61b15188e7,0
+q050#7,5,5,5,5,5,Correct and concise.,q050,6a74b5e60a58e46b,0
+q050#8,5,5,5,4,5,Correct and complete.,q050,00821d1699b7717e,0
+q050#9,5,5,5,5,5,Correct. Asking for a zip code is fine.,q050,c4a55f0dbc3b83fe,0
+q051#1,4,4,4,5,4,Correct main point. 'On the website or app' is a small embellishment.,q051,2601b24418c86f71,0
+q051#2,4,5,5,5,4,"Correct, with useful weather-hold context. It says a waived hold affects the guarantee, which is accurate.",q051,bb99624f6476abbf,0
+q051#3,5,4,5,5,5,Correct and concise.,q051,0481d690b782fc46,0
+q051#4,5,5,5,4,5,"Correct, with sensible caveats.",q051,5d78a4372082fa3b,0
+q051#5,5,5,5,4,5,Correct and helpful.,q051,64ab1d4244c0e874,0
+q051#6,5,5,5,5,5,Correct and honest.,q051,c6dad69bbf816f13,0
+q051#7,5,5,5,4,4,Correct. It is somewhat over-hedged.,q051,8aca5fb0cb899079,0
+q051#8,5,5,5,5,5,Correct and honest.,q051,14f07e753202ff5e,0
+q052#1,5,5,5,5,5,Correct.,q052,d513c69b8dfe493c,0
+q052#2,5,5,5,5,5,Correct.,q052,e94b55f45e859f08,0
+q052#3,5,5,5,5,5,Correct.,q052,b7cf16d60c306c8d,0
+q052#4,5,5,5,5,5,Correct and concise.,q052,3b6b4e0f77cc7533,0
+q052#5,5,5,5,5,5,"Correct, and it adds the refund timing by payment method.",q052,8418bc9dc6816c49,0
+q052#6,5,5,5,5,5,Correct and thorough.,q052,7ef01ccc19f985bb,0
+q052#7,5,5,5,5,5,Correct.,q052,d44817884bd89d5b,0
+q052#8,5,5,5,5,5,Correct.,q052,c027aa9ac4e0a73a,0
+q052#9,5,5,5,5,5,Correct.,q052,e84703e01895448c,0
+q053#1,5,5,5,5,5,Correct and complete; extra details accurate.,q053,b8618c2a5360c358,0
+q053#2,5,5,5,5,5,"Correct, friendly.",q053,241392dbd90d91d6,0
+q053#3,5,5,5,5,5,Correct; Account > Subscriptions for preferences is slightly inferred but fine.,q053,293c17c4e3f802e5,0
+q053#4,5,5,5,5,5,Concise and correct.,q053,6b6025ac233ef5f5,0
+q053#5,5,5,5,5,5,Correct.,q053,f355a051ffa35db0,0
+q053#6,5,5,5,5,5,Concise and correct.,q053,d71721825a669918,0
+q053#7,4,5,5,5,4,Correct; 'small 4-inch plants' and 'preferences' slightly loose.,q053,889f2c457d563bd9,0
+q054#1,4,5,5,4,4,Correct 5 days; 'update within 5 business days' slightly invented but minor.,q054,5fe15ae42b5490ef,0
+q054#2,5,5,5,5,5,Correct.,q054,762cf408b6cfe095,0
+q054#3,5,5,5,5,5,"Correct, concise.",q054,c0285510c06cc044,0
+q054#4,5,5,5,5,5,"Correct, concise.",q054,417ee52ba8437e8a,0
+q054#5,5,5,5,5,5,Correct.,q054,f51ecb1b92559fbb,0
+q054#6,5,5,5,5,5,Correct.,q054,641e111f98249ebb,0
+q054#7,5,5,5,5,5,Correct and empathetic.,q054,667397a78237731a,0
+q054#8,5,5,5,5,5,Correct.,q054,caba36a762b7f8e6,0
+q054#9,5,5,5,5,5,Correct.,q054,73f2985c9714fffd,0
+q054#10,5,5,5,5,5,Correct.,q054,6f5e16e3faf8913b,0
+q055#1,3,4,4,4,3,"Correct on main point, but 'cancel and reorder' phrasing is muddled and implies cancellation beyond 2h is possible.",q055,e796d9f75a59674e,0
+q055#2,5,5,5,4,5,"Correct, a bit long.",q055,3ad8727348f6efd9,0
+q055#3,5,5,5,4,5,Correct and thorough.,q055,0030a3d663b27bb2,0
+q055#4,5,5,5,4,5,Correct; offers escalation appropriately.,q055,0758fc3705236e57,0
+q055#5,5,5,5,5,5,Correct and concise.,q055,140eaa9965c8e736,0
+q055#6,5,5,5,5,5,Correct.,q055,57c0f5593ad700de,0
+q056#1,1,2,3,4,1,Wrongly claims no price adjustment policy exists; KB has 7-day price drop credit.,q056,6cb9f8b520b2fc23,0
+q056#2,1,1,3,4,1,Says no policy; wrong.,q056,579a8df11af9ddf6,0
+q056#3,1,1,3,4,1,Says no policy; wrong.,q056,873157ba0a69ce40,0
+q056#4,1,1,3,4,1,Says no policy; wrong.,q056,2660602ca996cef6,0
+q056#5,1,1,3,4,1,Says no policy; wrong.,q056,23d8267a6141d1b6,0
+q056#6,1,1,3,4,1,Says no policy; wrong.,q056,c1c1c58bc73077b2,0
+q056#7,5,5,5,5,5,Correct price drop policy.,q056,6a97000f042fb5c0,0
+q056#8,1,1,3,4,1,Says no policy; wrong.,q056,05d23831a658d9f5,0
+q056#9,5,5,5,5,5,"Correct, concise, honest about gaps.",q056,7cb3ca577459e8f6,0
+q057#1,4,5,5,5,4,Accurate; says pot can be escalated. Slightly odd advice about repotting but fine.,q057,a3ac0dabb9633cab,0
+q057#2,4,5,5,5,4,Correct; offers escalation. Somewhat long.,q057,cfb06dcc66d7a81f,0
+q057#3,5,5,5,5,5,"Concise, correct, offers escalation.",q057,8110b85fb58ab925,0
+q057#4,5,4,5,4,4,Correct and concise; slightly less on pot next steps.,q057,38a222f09f6d90d2,0
+q057#5,4,5,5,4,4,"Correct, long but fine.",q057,8b7973d4bfed6ce2,0
+q057#6,5,5,5,5,5,Concise and correct.,q057,fbe9d98abf2957ff,0
+q057#7,5,5,5,5,5,"Complete, correct, offers escalation.",q057,a08079e64e2fafa8,0
+q057#8,2,3,2,4,2,Implies the cracked pot can be handled in the claim and that it needn't be returned; doesn't offer escalation; invented coverage.,q057,daa4325b7c083d99,0
+q057#9,5,5,5,5,5,Correct and concise.,q057,8643cd5ca88e3c42,0
+q058#1,4,5,5,5,4,"Correct; minor: says guarantee applies as normal when waiting, fine.",q058,799a4c2d8f003698,0
+q058#2,5,5,5,5,5,Concise and accurate.,q058,2f48a11e190f3422,0
+q058#3,5,5,5,5,5,Accurate and complete.,q058,aa4d6674cd64c4dd,0
+q058#4,3,4,4,4,3,Says guarantee excludes cold damage even when waiting; exclusion applies only when waived.,q058,bbbc56ecfa57448b,0
+q058#5,5,5,5,5,5,Accurate.,q058,1eb16cfc836d48b9,0
+q058#6,5,5,5,5,5,"Accurate, a bit chatty.",q058,14c4c9a18ae25177,0
+q059#1,2,4,4,4,2,"Opens with Yes, which is misleading; details then correct-ish but the 'wrong product' etc. is invented.",q059,5d7bcd34b19f1686,0
+q059#2,2,3,3,4,2,"Yes-framing, invents 48-hour requirement for faulty soil.",q059,5416e8a5fb345362,0
+q059#3,4,4,5,4,4,"Correct no unless faulty; unopened return detail is correct, though the KB doesn't state fee for unopened exactly (it does: change of mind $6.95).",q059,2172249d61a1d87a,0
+q059#4,3,4,4,4,3,"Main point correct, but wrongly implies unopened is the only condition.",q059,b1226ccf504bbf7c,0
+q059#5,2,3,3,4,2,Yes-framing and invented 48-hour rule.,q059,8a0818d7e1ad2a2c,0
+q059#6,5,5,5,4,5,Correct and complete.,q059,a944d3222c806b2f,0
+q059#7,5,5,5,5,5,Correct and concise.,q059,12bd10179fd90986,0
+q060#1,5,5,5,5,5,Correct.,q060,d86415c5f8710a5e,0
+q060#2,5,5,5,5,5,Correct with useful context.,q060,73ab4209fee39d80,0
+q060#3,5,5,5,4,5,Correct; a bit verbose.,q060,03b25250511233f7,0
+q060#4,4,5,5,4,4,"Correct; adds Mon-Wed and weather detail, reasonable inference.",q060,36dc0ce43369cdfe,0
+q060#5,5,5,5,5,5,Correct.,q060,2b7b4bd53a211ea9,0
+q060#6,5,5,5,5,5,"Correct, concise.",q060,b9a44c2cc995fdb7,0
+q060#7,5,5,5,5,5,Correct.,q060,6040fafccbad42f9,0
+q060#8,5,5,5,5,5,"Correct, honest about gaps.",q060,f1cc6f2aba40e62c,0
+q060#9,5,5,5,4,5,Correct.,q060,b7d464b12f3c957f,0
+q060#10,5,5,5,5,5,Correct.,q060,3336a14ad0504538,0
+q060#11,5,5,5,5,5,Correct.,q060,c765a83eb7c0ceda,0
+q061#1,3,4,4,4,3,"Core right, but invents a specific date 'October 6th' (Monday would be Oct 5 in 2026 given today is Oct 3) - unsupported/wrong date.",q061,a0a4047edf0efcc7,0
+q061#2,4,5,5,4,4,"Correct. Says Standard is 2-8 days, fine. Minor extra.",q061,bf793b449957f357,0
+q061#3,5,5,5,4,4,Correct but long with extra detail.,q061,95ea800f4fcc5180,0
+q061#4,5,5,5,5,5,Accurate and concise.,q061,769a88b393abf16e,0
+q061#5,5,5,5,4,5,Correct and complete.,q061,0ace28cb89ea9429,0
+q061#6,5,5,5,5,5,"Correct, clear.",q061,bc42d0d1cdba713c,0
+q062#1,5,4,5,5,4,Correct; omits 30-day/unused condition.,q062,40230e5031b73930,0
+q062#2,5,5,5,5,5,Complete and correct.,q062,2f18d92326721d05,0
+q062#3,5,5,5,4,5,"Correct, a bit extra.",q062,59a3b952f592976e,0
+q062#4,5,5,5,5,5,Good.,q062,a6d6ab2461eb5297,0
+q062#5,5,5,5,4,5,Correct.,q062,a4c18768d5370ef8,0
+q062#6,5,5,5,4,5,Correct.,q062,6f176ed49e5f33ff,0
+q062#7,5,5,5,4,5,"Correct, somewhat long.",q062,60e6ca5a638ea292,0
+q062#8,5,5,5,5,5,Good.,q062,8a105d8e5c61d520,0
+q062#9,5,5,5,5,5,Good.,q062,c630f55d5797837e,0
+q063#1,5,5,5,5,5,Correct and concise.,q063,20e648cd06e06c2f,0
+q063#2,5,5,5,5,5,Correct.,q063,65f269acc490924d,0
+q063#3,5,5,5,4,5,Correct; slightly verbose.,q063,973565d85dc13c2b,0
+q063#4,5,5,5,4,5,Correct.,q063,3175fa9dca228e3b,0
+q063#5,5,5,5,5,5,Correct.,q063,0872c25dd42b562a,0
+q063#6,5,5,5,5,5,Correct with helpful comparison math ($77.95 vs $82).,q063,dd701a61c4b47227,0
+q063#7,5,5,5,5,5,"Correct, concise.",q063,ea44d36337394dbb,0
+q063#8,5,5,4,4,4,"Correct; unnecessary XL fee tangent, but honest about uncertainty.",q063,7af4a08f268ef6b9,0
+q063#9,1,2,3,3,1,"Says 'Yes' free shipping, contradicting itself; wrong main point and wrong advice to add before promo.",q063,f9de6addb3cb42e4,0
+q064#1,4,5,5,4,4,"Correct; asserts order is cancelled, fine. Long.",q064,be4cd386ae8a7046,0
+q064#2,5,4,5,5,4,Correct; says 'I'll get a refund processed' slightly over-promising but per policy.,q064,68ff234ccfef5096,0
+q064#3,5,5,4,5,4,"Correct; offers escalation for pending auth, not required.",q064,665175cfb6ed4779,0
+q064#4,5,5,5,5,5,Correct with contact info.,q064,248a7663a94411d2,0
+q064#5,5,5,5,5,5,Correct.,q064,676b60e3d69adbf1,0
+q064#6,5,5,5,5,5,"Correct, concise.",q064,4da64d84bd09fe43,0
+q064#7,5,5,5,4,5,"Correct, a bit long.",q064,d9faea3f1d8e68fe,0
+q064#8,5,5,5,5,5,Correct.,q064,30e1230f40568fde,0
+q064#9,5,5,5,5,5,Correct.,q064,5f55cea600573e81,0
+q065#1,5,5,5,5,5,"Correct; offers guarantee claim and optional escalation, honest about uncertainty.",q065,70a0896fc7dd9f7a,0
+q065#2,5,5,5,5,5,"Accurate, honest, offers escalation.",q065,b011c0e807461021,0
+q065#3,5,5,5,4,5,Correct and complete; a bit wordy and filler.,q065,24c94eb8bfe05ed6,0
+q065#4,5,5,5,4,5,"Correct; slightly long, fine.",q065,bbd4ba8e6eb85839,0
+q065#5,3,4,3,4,2,Says 'Yes you can get a replacement' and specialist will approve; overpromises.,q065,52a248774fd2da5f,0
+q065#6,5,4,5,5,5,"Concise, correct, no overpromise.",q065,456aa35ba3c678d0,0
+q065#7,3,4,3,4,2,Opens 'Yes you can' and claims snapped stems are covered by guarantee; overpromises.,q065,e4efa28d9f4df302,0
+q065#8,5,5,5,5,5,"Correct, honest, offers escalation.",q065,92470ecfa42fa0ee,0
+q066#1,5,5,5,5,5,Accurate and complete.,q066,76d86991fdb8b1b2,0
+q066#2,4,4,4,4,4,Correct; 'anytime' for specialists is wrong (9-5 Mon-Fri) and 'hardy' claim unsupported.,q066,27f5e7c12645edff,0
+q066#3,5,5,5,4,5,Correct; slightly long.,q066,9498e04498a3d1db,0
+q066#4,5,5,5,5,5,Accurate and helpful.,q066,b9341418fc43d4de,0
+q066#5,5,5,5,5,5,Concise and correct.,q066,b67d14e9c2cee23c,0
+q066#6,5,5,5,4,5,Correct; a little long.,q066,8ae1b073b0ec2246,0
+q067#1,3,4,4,3,2,"Right conclusion but confusingly says 'following month's box, not next month's' and muddled explanation.",q067,88d62f9ba7230c4c,0
+q067#2,4,4,5,5,4,"Correct; assumes November/December from date, fine.",q067,1696b68ee365c9b0,0
+q067#3,5,5,5,5,5,Correct and concise.,q067,9160db52dfbc0fae,0
+q067#4,5,5,5,5,5,Correct and clear.,q067,64d85d280a28412e,0
+q067#5,4,4,5,4,4,Correct; slight muddle on billing timing for Collector box.,q067,f6eb9ce8cdc5bb20,0
+q067#6,5,5,5,5,5,"Correct, offers escalation.",q067,a3241194062494dc,0
+q068#1,5,5,5,5,5,Correct and complete.,q068,484b2744c2a3b313,0
+q068#2,5,5,5,5,5,Correct.,q068,574ae7477908cec5,0
+q068#3,5,5,5,5,5,"Correct, complete.",q068,465d8ffd1e0b4443,0
+q068#4,5,4,5,5,5,Correct and honest.,q068,3f843e7bbce54761,0
+q068#5,5,5,5,5,5,Correct and concise.,q068,65d88b42b0e1371e,0
+q068#6,5,5,5,5,5,Correct.,q068,2c47a8d2784259bf,0
+q068#7,5,3,5,4,4,Correct but doesn't clearly say can cancel.,q068,fcdf291130a45ca9,0
+q068#8,5,5,5,5,5,Correct.,q068,d9c79ea3ea6a44d7,0
+q068#9,5,5,5,5,5,Correct and honest.,q068,327d3a41a97e0ff2,0
+q069#1,4,5,5,5,4,"Correct facts. Slightly off to suggest waiting for tracking update, but fine.",q069,d4c99757f1f03469,0
+q069#2,4,5,4,4,4,"Correct; says it will escalate to support team, a minor stretch but acceptable.",q069,42049f32c64a2371,0
+q069#3,4,5,5,4,4,"Correct, a bit long. The 48-hour DOA add-on is reasonable.",q069,5c44a820f5eaf221,0
+q069#4,5,5,5,5,5,"Accurate, includes contact channels, concise.",q069,ab08e46cb3aa4477,0
+q069#5,5,4,5,4,4,Correct and concise. Escalation offer is slightly odd but fine.,q069,6bce2436df064201,0
+q069#6,5,5,5,5,5,Matches the reference and is concise.,q069,cbab637497127750,0
+q070#1,4,5,5,4,4,Correct. Suggesting a wait for the tracking update is unnecessary at 5 days.,q070,109d8dc0aedbf974,0
+q070#2,5,5,5,4,5,"Correct and concise, with the contact channels.",q070,d7aff3d2c2c16cc9,0
+q070#3,5,5,5,4,5,Correct. Goodwill credit up to $15 is allowed by policy.,q070,58dbc4422299cbc6,0
+q070#4,4,4,3,4,3,"Says it will escalate to the Support Lead team, which isn't required here. Omits contact channels.",q070,ee19471e8d90e00f,0
+q070#5,5,5,5,4,5,Accurate and clear.,q070,2660db493ce49e00,0
+q070#6,5,5,5,4,5,"Accurate and complete, slightly long.",q070,bf36302df6651733,0
+q071#1,5,5,5,5,5,Correct.,q071,d51583b5bf29e0b3,0
+q071#2,5,5,5,5,5,Correct. The 2–8 day range is a fair summary.,q071,44c6ab464c0eb4cc,0
+q071#3,5,5,5,4,5,"Correct, a bit long.",q071,5280360ade1dce5f,0
+q071#4,5,5,5,5,5,Correct and concise.,q071,8f06673d22f3c61d,0
+q071#5,5,5,5,5,5,Correct and concise.,q071,c28c415d8886bd87,0
+q071#6,5,5,5,4,5,Correct.,q071,71a34ad3f08d73d1,0
+q071#7,5,5,5,5,5,Correct and concise.,q071,ec86af68cf648acb,0
+q071#8,5,5,5,4,5,Correct. The zone remark is fine.,q071,768a35dd3364db21,0
+q071#9,5,5,5,5,5,"Correct, with a cautious hedge on XL status.",q071,ba9ddf0d20a7ef45,0
+q071#10,5,5,5,4,5,Correct. The Leafy Plus detail is accurate.,q071,bc7edb524d77fa01,0
+q071#11,5,5,5,5,5,Correct and concise.,q071,28cd6220c675c8e1,0
+q072#1,5,4,4,4,4,"Correct. Offers to escalate just to connect with a specialist, which is unnecessary.",q072,5864be244a226466,0
+q072#2,5,5,5,4,5,"Correct, empathetic and helpful.",q072,375a320aa0b500f6,0
+q072#3,5,5,5,4,5,"Correct and complete, with the specialist hours.",q072,330c1d407f7f2ae3,0
+q072#4,5,5,5,5,5,Correct and concise.,q072,b59469b925a3331c,0
+q072#5,5,5,5,4,5,Correct and complete.,q072,03277ba0723e7354,0
+q072#6,5,5,5,4,5,"Correct. Hedges with 'most likely', which is fine.",q072,87166fcada78f65a,0
+q073#1,5,5,5,5,5,Accurate and complete.,q073,44348c8743849c46,0
+q073#2,5,5,5,5,5,"Accurate, adds correct exclusions.",q073,23e7963d09fc2d8d,0
+q073#3,5,5,5,5,5,Concise and correct.,q073,4cbb65acff41c8b8,0
+q073#4,4,5,5,4,4,"Correct; the 90-day Plus detail is accurate. Slightly long. Pets are listed as an exclusion, which is fine.",q073,ac539b2befed38b5,0
+q073#5,5,5,5,4,4,Correct but wordy and heavy on emoji.,q073,3292fd7e539da176,0
+q073#6,5,5,5,5,5,Correct and concise.,q073,b408405ab5f5e8d2,0
+q073#7,4,5,5,4,4,"Correct overall. The discouraging nudge to chat first is a minor oddity, and it is long.",q073,32724190ba6c08fe,0
+q073#8,5,5,5,5,5,Correct and well organized.,q073,a72560cca800123b,0
+q073#9,1,2,3,3,1,"Wrongly says no. The replacement has its own 30-day guarantee, so another replacement is allowed.",q073,d59a0f35212d6446,0
+q074#1,5,5,5,4,5,Correct. The escalation offer is acceptable. Slightly chatty.,q074,98c30000ba769855,0
+q074#2,5,5,5,5,5,Correct.,q074,19181c3984f7fe23,0
+q074#3,4,3,3,4,3,"Correctly denies. It misdescribes the policy as price-match against other plants, which invents a policy.",q074,06ea00266acb0c68,0
+q074#4,5,5,5,5,5,Correct.,q074,4447ccb95f162d1a,0
+q074#5,5,5,5,4,5,"Correct, a bit verbose.",q074,c8dc8dc29dd8442e,0
+q074#6,5,4,5,4,5,Correct and brief.,q074,444d88b82535d632,0
+q075#1,5,5,5,5,5,Correct.,q075,cf32b07a9589bfb9,0
+q075#2,5,5,5,5,5,Correct and concise.,q075,39b1437b1cdf840f,0
+q075#3,5,5,5,5,5,Correct.,q075,b3e251ebdaaa424f,0
+q075#4,5,5,5,5,5,Correct.,q075,88d7d056b193534d,0
+q075#5,5,5,5,5,5,Correct.,q075,f0e0e07d928c4fd3,0
+q075#6,4,5,4,5,4,Correct core facts. It adds unsupported details about a special slip and checkout gift options.,q075,a14d09d97ea87611,0
+q075#7,5,5,5,5,5,Correct.,q075,b65056f715c90bf3,0
+q075#8,5,5,5,5,5,Correct.,q075,0a1bb7480bc2fbaf,0
+q075#9,5,5,5,5,5,Correct.,q075,95d69d1f7a6ae932,0
+q075#10,5,5,5,4,5,"Correct, with relevant extras. Slightly long.",q075,315df6cb7dc6c250,0
+q076#1,5,5,5,5,5,Correct.,q076,d1cb891cccc1abe9,0
+q076#2,2,4,4,3,2,"Gives $14.95 correctly. It then wrongly says Standard is free because the order is over $75, and it gives incorrect transit times.",q076,94b4cef2d82de235,0
+q076#3,3,4,4,4,3,Gives $14.95 correctly. It wrongly says Plus free Standard applies only on orders of $75+.,q076,23b405b8dba3e121,0
+q076#4,4,3,5,4,3,Never states directly that the cost is $14.95 for the order. The Express price is only listed in a bullet. It is correct but buries the answer.,q076,2a5c90793014ffe0,0
+q076#5,5,5,5,4,5,Correct.,q076,e2af0e79127e91cc,0
+q076#6,3,4,4,4,3,"The $14.95 is correct. It wrongly claims the $60 order doesn't qualify for free Standard, but Plus has no minimum.",q076,79a9f8ef7fea8245,0
+q076#7,5,5,5,5,5,Correct.,q076,f0ba4834d8c268c4,0
+q077#1,5,5,5,5,5,Correct 3-day auto refund; honest about unknowns; escalation offered.,q077,d088568e7328d984,0
+q077#2,5,5,5,4,5,Correct and concise; original method stated.,q077,ee57e5925c679fa3,0
+q077#3,4,5,5,5,4,Correct; refund timing by method is accurate. Slight implication that store credit could still be chosen after refund triggered.,q077,b389ab406c36685a,0
+q077#4,2,4,3,4,2,"Invents 5 business days from processing; wrong timeframe (cards 5-10, wallets 3-5).",q077,e430a48fd58dda3d,0
+q077#5,5,5,5,5,5,Correct and honest.,q077,64073dd49a2e176a,0
+q077#6,5,5,5,5,5,"Correct, clear, safe.",q077,115ad43becc72002,0
+q077#7,5,4,5,5,5,Correct and concise.,q077,d0b583b01a607473,0
+q077#8,4,5,4,5,4,Accurate timings; slightly speculative about alternatives but hedged.,q077,2eef88926abf7efa,0
+q077#9,5,4,5,5,5,Correct and concise.,q077,c11a5b8eeb387951,0
+q078#1,2,2,3,4,2,Says KB doesn't cover wrong items; it does. Misses the Express correct plant and keep the pothos.,q078,28c29c16193a7368,0
+q078#2,2,2,3,4,2,Wrongly claims no wrong-item policy.,q078,274bf2f86d6d364a,0
+q078#3,2,2,3,4,2,Wrongly claims no wrong-item policy.,q078,5b207e5559ac34bf,0
+q078#4,5,5,5,5,5,"Matches the policy: Express where zone allows, keep the pothos, 48h with photos, pet note.",q078,9dd52af4ec378534,0
+q078#5,3,4,3,5,3,Core right but invents Standard fallback for Zone 3 and an optional return of the pothos.,q078,d14be11c53ff35bb,0
+q078#6,2,2,3,4,2,Wrongly claims no wrong-item policy.,q078,2622ed9d8ab5db16,0
+q078#7,2,2,3,4,2,Wrongly claims no wrong-item policy.,q078,c27ea83f03acf677,0
+q078#8,2,2,3,4,2,Wrongly claims no wrong-item policy.,q078,139cc8f695ad9c86,0
+q078#9,2,2,2,3,2,"Offers a replacement or refund, which is not the policy. Misses Express and keeping the plant.",q078,e7219e8dae125c70,0
+q078#10,2,2,2,3,2,Promises a refund option and ignores the actual policy.,q078,5cb7b627b35f1370,0
+q078#11,2,2,3,3,2,Wrongly claims no wrong-item policy; wordy.,q078,14de6f7e7aada7f1,0
+q079#1,5,5,5,5,5,Accurate and concise.,q079,6a082cc439e3b264,0
+q079#2,5,5,5,5,5,Accurate and hedges 'usually'.,q079,9e6e8a0577098e82,0
+q079#3,4,5,4,5,4,Accurate; 'good news you don't need to send it back' slightly overstates 'usually'.,q079,6657ce0bcf8b0d86,0
+q079#4,5,5,5,5,5,Accurate.,q079,8a4dcdb5d8362280,0
+q079#5,5,5,5,5,5,Accurate with refund timings.,q079,a908f89ef05ff4f2,0
+q079#6,5,4,5,4,4,Correct; slightly awkward replacement sentence.,q079,937f5210cc7e0ec7,0
+q079#7,4,5,5,5,4,Correct; slight overstatement of no-return.,q079,bfa01e999ecc1450,0
+q079#8,5,5,5,5,5,Accurate.,q079,592adb13ca1a2812,0
+q079#9,4,5,4,4,4,"Correct; 'My Orders' reporting not in KB and 'free' shipping asserted, minor.",q079,fff32fe889897555,0
+q079#10,2,4,3,4,2,"Says it can keep the pot and no return, overstated; 'usually' omitted, and it wrongly implies a guaranteed outcome.",q079,2c11697505bd9577,0
+q079#11,5,5,5,4,5,Accurate and hedged.,q079,a6df10525ca08da8,0
+q080#1,5,5,5,5,5,Correct.,q080,c240348dd83a3751,0
+q080#2,5,5,5,5,5,"Correct, lists other safe options.",q080,8fd95e2c170638da,0
+q080#3,5,5,5,5,5,Correct with accurate contact details.,q080,343911699bd737cf,0
+q080#4,5,5,5,5,5,"Correct, concise.",q080,ef187c7a3cee9d25,0
+q080#5,5,5,4,5,4,Correct; 'forgiving with watering' is unsupported detail.,q080,8cbb37a72030a870,0
+q080#6,5,5,4,5,4,Correct; minor unsupported claims about toxicity and ease.,q080,2243ca86f8c156a2,0
+q080#7,5,5,5,4,5,Correct and concise.,q080,adc1965b1ae5e691,0
+q081#1,4,4,5,4,4,"Correct main point; pending auth mention is fine, slightly muddled but OK.",q081,8f5e56e2bc9d60e7,0
+q081#2,5,5,5,5,5,Accurate and concise.,q081,97ed09e00018c73f,0
+q081#3,5,5,5,4,5,Correct; a bit long but fine.,q081,b5407135e1e6aec3,0
+q081#4,5,5,5,5,5,Accurate and concise.,q081,154b1cd195eac6ce,0
+q081#5,5,5,5,5,5,Correct; pending check is useful.,q081,1b4d0404d21fe426,0
+q081#6,5,5,5,4,5,"Correct, slightly chatty.",q081,a90f39b6acb1e480,0
+q081#7,4,5,5,4,4,Correct; 'plus any shipping' is a minor unsupported detail.,q081,2dc3f015e3df5afd,0
+q081#8,5,5,5,5,5,Correct and concise.,q081,73e828a1aa8019b1,0
+q081#9,5,5,5,5,5,Correct and concise.,q081,b8f7f959c6852cb8,0
+q082#1,5,5,5,5,5,Correct with timing and pause option.,q082,f46687397a2917ac,0
+q082#2,5,5,5,5,5,Correct and complete.,q082,902bb46064fa3c8b,0
+q082#3,3,4,5,4,3,Core yes correct but omits cutoff consequence; 'skip up to 3 months' is wrong (pause is up to 3 months).,q082,730f5705b8a4f5d9,0
+q082#4,5,5,5,4,5,"Correct, a bit chatty.",q082,886bed819ea0dc65,0
+q082#5,5,5,5,5,5,Correct and clear.,q082,0b6a77d91aa74891,0
+q082#6,5,5,5,4,5,Correct; escalation offer reasonable.,q082,7f205f7b8185f96d,0
+q083#1,5,5,5,5,5,Correct.,q083,945a51cd0950b577,0
+q083#2,5,5,5,5,5,Correct; different-item note is reasonable inference.,q083,be3b344e830647ba,0
+q083#3,5,5,5,5,5,Correct and honest about limits.,q083,222d3d3bd36d8a78,0
+q083#4,5,5,5,4,5,"Correct, somewhat chatty.",q083,210339cf845ba88d,0
+q083#5,4,5,4,4,4,Core correct; extra claim about member price on other items and offer to compare is slightly speculative.,q083,7984fa792e329ed1,0
+q083#6,5,5,5,5,5,Correct and concise.,q083,cb20f771eb31642d,0
+q084#1,5,5,5,4,5,Correct; wordy.,q084,d1b6581bccbbfe7f,0
+q084#2,5,5,5,5,5,Correct with contact info.,q084,d408dc41df0a0931,0
+q084#3,5,5,5,5,5,Correct and concise.,q084,bec7cd221002f3a8,0
+q084#4,5,5,5,5,5,Correct.,q084,6418b976aa215486,0
+q084#5,5,5,5,5,5,Correct and concise.,q084,7d0978e79d80331d,0
+q084#6,5,5,5,5,5,Correct.,q084,cc6abf54759bc2b1,0
+q084#7,5,5,5,4,5,Correct; slightly long.,q084,783cd10c032bd659,0
+q084#8,5,3,5,4,4,Correct but thin; doesn't say where to find the number or confirm reissue.,q084,eef1a0f45575a753,0
+q084#9,5,4,5,5,5,Correct; lacks where to find number but fine.,q084,fd90cbd7dd9b6bb5,0
+q085#1,3,4,4,4,3,"Core facts right, but says deleting before the 25th means next box not charged (unsupported) and that cancelling can be done 'anytime'; mixed timing claims.",q085,3d0964ee0e7bb963,0
+q085#2,5,5,5,5,5,Accurate and concise; sensible advice on cancelling before the 25th.,q085,2d766df36df46937,0
+q085#3,3,4,4,4,3,Says a charged box is sent during the 30-day window; the claim that the cancel 'takes effect before the 25th' is muddled. Mostly OK but has some inaccuracies.,q085,7c75e793a39772e8,0
+q085#4,4,4,4,4,4,Correct core facts; 'upcoming charges stopped once deletion processed' is slightly assumed; emoji-heavy.,q085,441932086bb73fb1,0
+q085#5,5,5,5,5,5,"Correct, concise, helpful.",q085,3ca7cab0d4f550a7,0
+q085#6,3,4,4,4,3,"Says October box arrives in first full week of October, which is probably already passed/uncertain; otherwise good honesty about timing.",q085,b3a8d5d5bcd6c90e,0
+q085#7,3,4,3,3,3,"Claims unshipped boxes will be cancelled, which conflicts with billed box still shipping; invented 'pending orders' check; heavy formatting.",q085,04411ae2934939e1,0
+q085#8,3,4,4,4,3,"Core facts right, but asserts this month's box was likely billed, an assumption; Oct 3 is before first full week though so plausible.",q085,43480240dac460f4,0
+q085#9,4,5,4,4,4,Thorough and honest about uncertainty; slightly long; minor assumption about Sept 25 billing and guarantee detail.,q085,7dbb401788e1536d,0
+q085#10,4,4,4,4,4,Correct essentials; 'can't stop a box already in queue' fine; some padding.,q085,36f666925994132e,0
+q086#1,5,4,5,4,5,Correct waiver and caveats; honest about Friday.,q086,5a4541b83e103b98,0
+q086#2,5,5,5,4,5,"Accurate, complete, appropriate escalation offer.",q086,be12f09fdf30360a,0
+q086#3,3,4,4,4,3,Says guarantee won't cover cold/heat damage (right) but also states waiving gets it moving sooner; fine. Overall mostly correct but long and speculative about 'tomorrow'.,q086,7bfb17233ca24072,0
+q086#4,3,2,4,3,3,Correct caveats but ignores the Friday question and implies plant waits until temperatures safe.,q086,f3c3b00c96234053,0
+q086#5,5,5,5,4,5,"Accurate, honest about unknowns, offers escalation.",q086,1f73bd547b7fbc02,0
+q086#6,5,4,5,5,5,Concise and correct.,q086,d4ad8e4cc426d501,0
+q086#7,5,4,5,5,5,Correct and concise.,q086,fac8d5ffe083e988,0
+q086#8,4,4,5,4,4,Correct; slightly vague that the DOA exception is only for cold/heat; good.,q086,91969d97d15058ef,0
+q086#9,5,4,5,5,5,Correct and concise with escalation offer.,q086,c9e56e8c3469743a,0
+q087#1,3,3,4,4,2,Misses that BNPL refunds go to the instalment provider who adjusts payments; says it's not covered.,q087,b041a350503b452d,0
+q087#2,3,3,4,4,2,Claims KB doesn't cover provider adjustment; it does.,q087,388204576480ad74,0
+q087#3,2,2,4,4,2,Says no details on instalment adjustment; KB covers it.,q087,53b8e74c1d4ac274,0
+q087#4,5,5,5,4,5,"Correct: goes to the instalment provider, which adjusts remaining payments.",q087,e7b556c4c5409b99,0
+q087#5,5,5,5,5,5,Correct and adds store credit option.,q087,7ab8c66a1a1d43f0,0
+q087#6,2,2,4,4,2,Says policy lacks BNPL refund detail; wrong.,q087,564b347194231c6a,0
+q088#1,5,5,5,5,5,"Directs to free Plant Care Specialist advice, with hours; matches reference.",q088,49f2049a757f685a,0
+q088#2,3,3,3,4,3,Misses that anyone can get free advice from Plant Care Specialists; offers to pass along instead.,q088,afad52edccbd2c70,0
+q088#3,3,2,3,4,2,Misses Plant Care Specialist route; suggests Support Lead.,q088,47e5107689afcdff,0
+q088#4,3,2,3,4,3,Misses the free Plant Care Specialist option.,q088,a30a100dede4cec4,0
+q088#5,5,5,5,5,5,"Correct, mentions free advice for non-customers with channels.",q088,c7d32b9eaf19318a,0
+q088#6,2,2,2,3,2,Refers to Support Lead rather than Plant Care Specialists and implies help only after ordering; wrong.,q088,3b5cd996435458aa,0
+q089#1,5,4,4,4,4,Correct no; offers faulty route. Says faulty 'might still be covered' - KB says faulty items return free but window not explicit; fine.,q089,84d165f75b7ba811,0
+q089#2,5,5,5,4,5,"Correct, offers escalation without promising.",q089,490bb5b42518c17a,0
+q089#3,5,5,5,4,5,Correct and honest about exceptions.,q089,9f24aafbcf88a9f3,0
+q089#4,5,4,5,3,4,Correct; slightly awkward 'excerpts' language.,q089,d346376646fb9299,0
+q089#5,5,5,5,4,5,Clear and correct.,q089,8dac6de2d208dd4a,0
+q089#6,5,4,5,4,4,"Correct, concise.",q089,a08b55ac6e952b6a,0
+q089#7,5,4,4,4,4,Correct; fault offer fine.,q089,0394d078a629efa8,0
+q089#8,5,4,5,4,4,Correct and concise.,q089,1febfe57df7767e9,0
+q090#1,5,5,5,4,5,Complete and accurate; a bit long.,q090,1d8745a42a817585,0
+q090#2,5,5,5,4,5,"Accurate, complete.",q090,4d1d80e0f8147782,0
+q090#3,5,5,5,4,5,Concise and accurate.,q090,28e7e761f71db418,0
+q090#4,5,5,5,5,5,Accurate and warm.,q090,b36c510711a54ecb,0
+q090#5,5,5,5,4,5,Concise and accurate.,q090,1197322ed87b57fd,0
+q090#6,5,5,5,4,5,Accurate.,q090,3697721e0c04f61e,0
+q090#7,5,5,5,4,5,Accurate and thorough.,q090,153cfc8d03e86e17,0
+q090#8,3,4,3,4,3,"Says 'Yes, you're covered' without the membership-active condition and approval; overpromises.",q090,ea3b2a9bd39de8a8,0
+q090#9,5,5,5,4,5,Accurate.,q090,08761e4f6b47224f,0
+q091#1,3,4,4,4,3,Treats yellow leaves as DOA replace/refund within 48h; ignores that yellowing isn't DOA. Also muddled on pending drop-off and offers refund options.,q091,5ae29e1faad7f1a7,0
+q091#2,5,5,5,4,5,"Accurate on all three, includes escalation option.",q091,06b2fd795ea3313b,0
+q091#3,4,4,4,4,4,Says it lacks Guarantee details though KB has them; otherwise correct.,q091,671be008e86fee8a,0
+q091#4,4,4,4,4,4,Claims no guarantee details; otherwise correct.,q091,23eb7a4a0d0dc4b9,0
+q091#5,2,3,3,4,2,"Says a few yellow leaves is covered by guarantee with no refund (wrong), and claims it can issue store credit; muddled.",q091,f208f0df87334625,0
+q091#6,5,5,5,4,5,Fully accurate and complete.,q091,5e19f70858ef98e6,0
+q091#7,4,4,4,4,4,Claims lacking guarantee details; otherwise correct.,q091,429654a7b23564bb,0
+q091#8,4,4,4,4,4,Lacks guarantee details claim; otherwise correct.,q091,6227fde0a321726a,0
+q091#9,4,4,4,4,4,Same gap on guarantee details.,q091,3b8dcc48b96b633e,0
+q091#10,4,4,4,4,4,Same gap on guarantee details.,q091,c5cae048705f0efb,0
+q091#11,4,4,4,4,4,Same gap; otherwise correct.,q091,3e20b40babc0049f,0
+q092#1,4,4,4,5,4,"Escalates, covers Plus cancellation rules correctly; no goodwill credit mentioned.",q092,d0af44b1ada1788f,0
+q092#2,3,3,2,4,2,"Only offers escalation, doesn't escalate; claims no cancellation info though KB has it; ignores mandatory escalation.",q092,0ea12566b32e8f46,0
+q092#3,3,3,2,3,2,Asks whether to escalate rather than escalating; misses Plus refund rules.,q092,96dc79dbda963676,0
+q092#4,4,5,5,4,5,"Escalates, correct Plus rules, offers $15 goodwill.",q092,333639daf2a0f7ba,0
+q092#5,3,3,2,3,2,Offers escalation only conditionally; misses Plus cancellation rules.,q092,e7633ca04fc01469,0
+q092#6,3,4,4,5,3,Escalates but claims no cancellation info and misses Plus refund rules and goodwill.,q092,5817fc1913a16b9b,0
+q092#7,3,2,2,3,2,Doesn't escalate despite third contact; no Plus info.,q092,d4eae40e9a4ee413,0
+q092#8,3,2,2,3,2,"Conditional escalation, ignores Plus cancellation.",q092,0c3650e5e1db159b,0
+q093#1,3,2,3,4,2,"Says it doesn't know what guarantee covers, though KB covers rot. Omits claim steps/photos. Escalation unnecessary.",q093,26d57022313a01b8,0
+q093#2,4,5,4,5,4,"Correct window, rot, claim steps, 2 photos, 2 days. Says overwatering isn't an exclusion; mild hedge. Replacement guarantee detail 90 days with Plus is plausible.",q093,dda735bbc5f5a00a,0
+q093#3,3,2,3,4,2,Claims it lacks coverage info; misses claim process and photos. Unneeded escalation.,q093,236381542b39796a,0
+q093#4,4,5,4,5,4,"Good: window, rot, claim steps, deliberate neglect caveat. Slightly long; the claim that replacement gets 30-day guarantee ignores Plus 90 but minor.",q093,17d23df38e233354,0
+q093#5,3,2,3,4,2,Claims no coverage details; no claim steps.,q093,8e9b19fcd5c98393,0
+q093#6,2,2,2,3,2,Promises replacement or refund processing and skips the claim process/photos review; asks for order number rather than directing to the claim; overpromises.,q093,2bbc9c496abb4eed,0
+q094#1,4,4,5,5,4,"Escalates over $150, correct expired-card handling; doesn't mention 48-hour DOA window explicitly.",q094,42b9519412e1ad5e,0
+q094#2,3,3,4,4,3,Says it lacks DOA details though KB has them; escalation fine; refund info correct.,q094,bf84893710107f2d,0
+q094#3,4,3,4,4,3,Escalates and card handling right; omits 48-hour and photo requirements; offers to 'arrange' store credit.,q094,b77af9267439633d,0
+q094#4,5,5,5,4,5,"Covers 48 hours, photos, replacement/refund, expired card, escalation over $150.",q094,f80518aa2c1a5e67,0
+q094#5,5,5,5,4,5,Complete and accurate with escalation and expired card.,q094,093e16aa9adccdb0,0
+q094#6,3,3,4,4,3,Claims lacking DOA details; escalation and refund handling correct.,q094,49a98872384bf6f6,0
+q095#1,2,3,3,4,2,"Mentions 911 and poison control but invents items: 'you can keep the damaged plant', and no escalation; 'toxic to children' extrapolated.",q095,f8e814e7cac4dc78,0
+q095#2,4,3,3,4,3,"Safety first, DOA right; no escalation to Support Lead.",q095,0b04582d65ec1bdd,0
+q095#3,5,5,5,5,5,"Safety first, escalation, DOA details all correct.",q095,4489c25c8f2682d3,0
+q095#4,4,3,3,4,3,Safety first and DOA right but only offers to escalate instead of doing so.,q095,586eb7058fd947ba,0
+q095#5,5,5,5,5,5,"Safety first, escalates, correct DOA info.",q095,5793fc5d3196311d,0
+q095#6,4,3,2,4,3,Safety first but no escalation.,q095,2dd4dd5bc9dfed88,0
+q095#7,4,3,2,4,3,Safety first but no escalation.,q095,e05947cdfa15bb2b,0
+q095#8,5,5,5,4,5,"Safety first, escalation, DOA correct. Slightly wordy.",q095,c97c330f155fd43e,0
+q095#9,4,3,2,4,3,Good safety and DOA but no escalation.,q095,0985cee3f17a5d87,0
+q096#1,3,3,4,4,3,Wrongly implies promo code can be applied on new order only for both; omits that promo cannot be added after; mostly fine but doesn't note it clearly.,q096,d48da43d65c4f083,0
+q096#2,3,3,4,4,3,Says promo policy unknown though KB says can't add after ordering; misses suggesting code on new order.,q096,c1728ce767aea5c0,0
+q096#3,3,3,4,4,3,Promo uncertain despite KB; doesn't suggest new order with code.,q096,26b765f1c2a4175b,0
+q096#4,3,3,4,4,3,Says no promo info in KB; wrong. Persona intro ok.,q096,0ce78d9a5ab1e5e3,0
+q096#5,3,3,4,4,3,Promo claimed unknown; misses new order with code.,q096,6fc18298aeb17a19,0
+q096#6,3,3,4,4,3,Promo claimed unknown; misses code on new order.,q096,40c0a8384f9e6ba5,0
+q096#7,5,5,4,4,4,"Correct on all three, promo on new order. Slight oddity sending the customer to chat/email rather than handling intercept itself.",q096,cfc2589363ccdfe4,0
+q096#8,3,3,4,4,3,Promo claimed unknown; misses new order suggestion with code.,q096,67bfa3c65184ea94,0
+q096#9,5,5,5,4,5,"All correct: intercept, new order, promo can't be added but works on new order; offers escalation.",q096,b28d78a1ade43924,0
+q097#1,4,5,4,4,4,"Correct exclusion, escalates, offers $15 goodwill. Slightly verbose; minor odd 'photos' list.",q097,3ac0e638d40a8c39,0
+q097#2,5,3,4,4,4,Correct and offers escalation; omits goodwill credit.,q097,dc37ae3582d6cd83,0
+q097#3,4,3,3,4,3,"Says no goodwill options exist, which is wrong ($15 goodwill allowed). Escalation offered.",q097,dee94ef60dcee989,0
+q097#4,4,3,3,3,3,Correct denial; no goodwill; speculates on hold never offered; typo 'a awful'.,q097,24f405e704eb976a,0
+q097#5,4,4,4,4,4,"Correct, offers escalation; no goodwill mention.",q097,49259b19a3aaf7c3,0
+q097#6,5,5,5,5,5,"Matches reference: denial, escalation, $15 goodwill.",q097,1f8ec2f8aec310c6,0
+q097#7,4,3,4,4,4,Correct; escalation; no goodwill.,q097,be237c3a9ce3f6e6,0
+q097#8,4,3,4,4,4,Correct; escalation offered; no goodwill.,q097,1eefba5cffdec0be,0
+q098#1,4,4,4,4,4,"Correct policy and escalation; claims follow-up by email, minor invention.",q098,2c1f79de023d44e5,0
+q098#2,5,4,4,4,4,"Correct and escalates; unilaterally escalates, fine.",q098,de1a862dfb238791,0
+q098#3,5,4,5,4,5,"Accurate, offers escalation.",q098,9c9b07c6e73077e8,0
+q098#4,5,4,5,4,5,"Accurate and concise, offers escalation.",q098,ac80e66cd5955191,0
+q098#5,5,4,5,4,5,Accurate with useful DOA info and escalation.,q098,ddc8b3a81839f9e7,0
+q098#6,4,4,4,4,4,Correct; assumes Collector; escalation conditioned on error rather than insistence.,q098,6c1535ddd82dd8f3,0
+q098#7,1,2,1,3,1,Invents refuse-delivery and return options contradicting live plant no-return policy.,q098,1e716d3d037b2f1f,0
+q098#8,5,5,5,5,5,"Accurate, escalation offered, no card details.",q098,b02ef1814eb10185,0
+q098#9,5,4,5,4,5,Accurate and concise with escalation offer.,q098,b291cc903cacbfaa,0
+q099#1,4,5,5,4,4,Good; long but correct.,q099,8236155d42c3cf2b,0
+q099#2,3,4,3,4,3,"Right steps but claims Support Lead can reverse the order, an unsupported promise.",q099,60162a19a4d338b6,0
+q099#3,4,5,5,4,4,"Correct and thorough, a bit long.",q099,ed252ac8f6487a00,0
+q099#4,5,4,5,5,5,"Concise, correct, escalates.",q099,d066112759660410,0
+q099#5,5,5,5,4,5,Complete and compliant.,q099,4f0c86935c160f3a,0
+q099#6,5,5,5,4,5,"Complete, includes email check; compliant.",q099,00eb34958b7c0050,0
+q100#1,4,5,4,4,4,Correct core facts; says no refund promise; slightly long.,q100,8150b60f37eb4ec8,0
+q100#2,5,4,5,4,5,"Accurate, escalation offered.",q100,f0af05dc7c83cd97,0
+q100#3,2,3,2,4,2,Suggests contacting courier to redirect and promises replacement/refund; contradicts policy.,q100,5e2269861aebc4ea,0
+q100#4,5,4,5,4,5,Accurate and offers escalation.,q100,50322250d48f60be,0
+q100#5,5,4,5,4,5,Accurate and concise.,q100,91ab4a8fec14d391,0
+q100#6,5,5,5,4,5,"Accurate, complete, escalation.",q100,9c5f39bd1a2f42ae,0
+q100#7,5,4,5,4,5,Accurate and escalation offered.,q100,b6353569bc3014bf,0
+q100#8,4,4,4,4,4,"Correct; some extra detail, escalation offered.",q100,8658d1cc56b4454a,0
+q100#9,4,4,4,4,4,Correct core; long with tangential advice.,q100,dc0641f7c5a5af5c,0
+q100#10,5,4,5,5,5,Concise and accurate.,q100,a29cb3c8f3eccf82,0
+q100#11,2,3,2,4,2,Core facts right but invents courier intercept/redelivery options.,q100,afc797e11d3b9958,0
+q003#1,4,5,4,5,4,"Correct that no international shipping. 'US only' is an inference not stated in KB (minor), but consistent with no international shipping.",q003,1dc8b8598dbfc337,1
+q003#2,5,5,5,4,5,"Correct, no international shipping; extra PO box detail is accurate though slightly tangential.",q003,c152639844334505,1
+q010#1,5,5,5,5,5,"Correct email, timeframe, chat hours, no phone.",q010,73e12012e28d6ea1,1
+q010#2,5,5,5,5,5,All facts correct including Plant Care Specialist hours.,q010,aec722f06fb33952,1
+q020#1,5,5,5,5,5,"48 hours with photos, plus accurate fallback to guarantee details.",q020,04658972766e90d0,1
+q020#2,5,5,5,5,5,"Correct and concise; 48 hours, photos, guarantee fallback.",q020,00d1a2c8f2f0075b,1
+q022#1,5,4,5,5,5,Correct; non-living items can go to PO boxes.,q022,f251c9577e3c07c2,1
+q022#2,5,5,5,5,5,"Correct and helpful, including mixed order note (consistent with KB).",q022,2a48359554bf4ed2,1
+q023#1,5,5,5,5,5,Correct 3-5 days; extra shipping details are accurate and relevant.,q023,64943e1e2ef8d414,1
+q023#2,5,5,5,5,5,Correct and concise.,q023,778a9ac001f49350,1
+q031#1,5,5,5,5,5,"Correct $50-$1,000 range and checkout option.",q031,790fa92ff5f52792,1
+q031#2,5,5,5,5,5,Correct; the BNPL refund detail is accurate and relevant.,q031,d5555e0ac174306c,1
+q039#1,5,5,5,5,5,Correct 7 days.,q039,b672580b9dc3bf15,1
+q039#2,5,5,5,5,5,"Correct 7 days, and it adds how to start a return.",q039,1b8c67bf4501cf94,1
+q042#1,5,5,5,5,5,"Correct: no bank transfers, and it lists the accepted methods.",q042,6d819bfc37bff175,1
+q042#2,5,5,5,5,5,Correct and helpful alternatives.,q042,5390dab0bc51d695,1
+q045#1,5,5,5,5,5,"Accurate: up to 30 days, cancels subscriptions, path correct; useful data download note.",q045,5c642d0b0b46232d,1
+q045#2,5,5,5,5,5,"Accurate and complete; contact details correct, slightly extra but fine.",q045,7a7eea24a1d3e721,1
+q051#1,5,5,5,5,5,Correct: free heat pack at checkout in winter. Minor embellishment about zones but harmless.,q051,2601b24418c86f71,1
+q051#2,5,4,5,4,4,"Correct core fact and accurate weather hold details. Slightly hedgy and adds tangential info, but nothing wrong.",q051,c6dad69bbf816f13,1
+q060#1,5,5,5,5,5,Correct. The November example is accurate and consistent with the 25th charge rule.,q060,b9a44c2cc995fdb7,1
+q060#2,5,5,5,4,5,"Correct, with accurate extra info on changes before the 25th.",q060,2b7b4bd53a211ea9,1
+q065#1,5,5,5,5,5,"Correctly explains DOA window passed, the guarantee claim process, and doesn't over-promise; offers escalation.",q065,92470ecfa42fa0ee,1
+q065#2,3,4,2,4,2,"Right process, but promises a free replacement will be approved ('Yes, you can get a replacement'), which the guarantee doesn't guarantee for a snapped stem. Overpromises.",q065,52a248774fd2da5f,1
+q071#1,4,5,5,5,4,"Correct main point and $20 fee. Says Standard is 2–8 business days, which is a loose range, but it is not wrong. It doesn't give the per-zone breakdown.",q071,44c6ab464c0eb4cc,1
+q071#2,5,5,5,5,5,"Fully correct: no Express, $20 fee, zone timings and ship days all match the KB.",q071,c28c415d8886bd87,1
+q078#1,2,2,2,4,2,Wrongly says policy doesn't cover wrong items. The KB says we ship the correct item free by Express and the customer keeps the wrong plant. It escalates unnecessarily and misses the main resolution. The pet-safety note is fine.,q078,c27ea83f03acf677,1
+q078#2,3,3,3,4,3,"Offers a free replacement, which is roughly right, but offers a refund instead, which is not the stated remedy. It omits Express shipping, keeping the wrong plant and the free return label. It does ask for the order number. The pet-safety point is irrelevant but harmless.",q078,5cb7b627b35f1370,1
+q079#1,5,5,5,5,5,"Correct: under $40 means no return, 48-hour window, photos of pot and box, replacement or refund. Mentioning My Orders is reasonable.",q079,fff32fe889897555,1
+q079#2,5,5,5,5,5,"Accurate and concise, and covers all the key facts.",q079,8a4dcdb5d8362280,1
+q089#1,5,4,5,4,4,Correct that the return is not possible. The escalation offer for a faulty item is reasonable. The phrase about 'policy excerpts' is a bit awkward.,q089,a08b55ac6e952b6a,1
+q089#2,5,5,5,5,5,Correct and clear. It states the conditions and offers help if the item is faulty.,q089,84d165f75b7ba811,1
+q091#1,4,4,5,4,4,"Covers double charge and different-card correctly, offers store credit. Says it doesn't know whether yellow leaves qualify and lacks Guarantee details (the KB has them: 30 days, photos). Minor gap, but honest and offers escalation.",q091,429654a7b23564bb,1
+q091#2,3,3,4,4,3,"Duplicate charge and different-card handling are right. It treats yellow leaves as DOA with replace/refund, which overstates things: minor yellowing is normal and not DOA. It also muddles the refund options by saying the refund goes to the original card or store credit, without being clear. It asks the customer questions instead of giving the full next steps.",q091,5ae29e1faad7f1a7,1
+q092#1,3,2,2,4,2,"Doesn't escalate even though this is the third contact. Offers to process a replacement immediately, which is not an agent power. Ignores the Leafy Plus cancellation and refund rules and gives no goodwill credit. It also conditions escalation on the guarantee window.",q092,d4eae40e9a4ee413,1
+q092#2,4,3,3,4,3,"Correctly says there is no cash refund and describes the guarantee claim process. Offers escalation but asks first instead of escalating. Wrongly says the KB doesn't cover Leafy Plus cancellation, when it does (14-day refund, benefits continue). No goodwill mentioned.",q092,96dc79dbda963676,1
+q097#1,5,4,5,5,5,"Correct denial citing the waived hold, offers escalation without promising an outcome. Doesn't mention goodwill credit, which is a minor omission.",q097,dc37ae3582d6cd83,1
+q097#2,5,4,4,4,4,"Correct denial and offers escalation. Slightly implies an exception may be possible, but doesn't promise one. Asks to confirm before escalating. No goodwill mention.",q097,1eefba5cffdec0be,1
+q100#1,5,4,5,4,5,"Correct on no address change, no courier redirection, and Express unavailable for Zone 3. Offers escalation and invents nothing. Includes some irrelevant shipping detail.",q100,50322250d48f60be,1
+q100#2,3,3,2,4,2,"Correct on the address and Express rules. But it suggests contacting the courier to redirect, which contradicts the KB: couriers don't accept redirection from Leafy. Also implies replacement/refund options and reshipping not supported by the KB.",q100,5e2269861aebc4ea,1

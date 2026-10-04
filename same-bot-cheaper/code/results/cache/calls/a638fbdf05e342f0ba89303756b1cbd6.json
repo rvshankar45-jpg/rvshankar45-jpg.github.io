@@ -1,0 +1,50 @@
+{
+ "text": "Yes, you can waive the hold by replying to the weather hold email. The risk is that the plants then travel in a forecast of 20\u00b0F, well below our 35\u00b0F threshold, so cold damage is a real possibility. If you waive, cold or heat damage in transit isn't covered by the Plant Care Guarantee, and we won't accept DOA claims for it. The rest of the guarantee still applies (30 days from delivery, or 90 for Leafy Plus members).\n\nIf you'd rather not risk it, the hold lasts up to 7 days, and the plants ship once the forecast clears. The policy I have doesn't say exactly when a waived order would ship, and the heat pack option is only offered at checkout. I can escalate to a Support Lead if you want to ask about either.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 464,
+  "cache_read_input_tokens": 1587,
+  "output_tokens": 501,
+  "output_tokens_details": {
+   "thinking_tokens": 252
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 464,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 501,
+    "cache_read_input_tokens": 1587,
+    "cache_creation_input_tokens": 464,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 464
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2053,
+ "output_tokens": 501,
+ "thinking_tokens": 252,
+ "latency_ms": 5032,
+ "wall_ms": 7673,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100765.9773285
+}

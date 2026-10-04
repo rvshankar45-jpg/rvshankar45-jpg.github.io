@@ -1,0 +1,50 @@
+{
+ "text": "Yes, you can skip the hold. Reply to the weather hold email to waive it. Before you do, note two things:\n\n- **Reduced coverage:** The 30-day Plant Care Guarantee (90 days for Leafy Plus members) still applies, but not for cold or heat damage in transit. DOA claims for that kind of damage won't be accepted.\n- **No Friday guarantee:** Waiving the hold lets the plant ship, but I can't promise it will arrive by Friday. Live plants ship Monday-Wednesday only, and transit time depends on your shipping zone and method:\n  - Standard takes 2-3 business days (zone 1), 3-5 (zone 2) or 5-8 (zone 3).\n  - Express takes next business day (zone 1) or 2 business days (zone 2), and isn't available in zone 3.\n\nThe excerpts I have don't say whether you can upgrade an existing order to Express, or when your held order would ship once you waive. If Friday is a firm deadline, I can escalate to a Support Lead to check. If you share your order number (LF- plus six digits), I can include it in the escalation.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2002,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 852,
+  "output_tokens_details": {
+   "thinking_tokens": 483
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2002,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 852,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2002,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2002
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2004,
+ "output_tokens": 852,
+ "thinking_tokens": 483,
+ "latency_ms": 7081,
+ "wall_ms": 10175,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004758.9580612
+}

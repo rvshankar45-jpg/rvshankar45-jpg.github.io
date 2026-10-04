@@ -1,0 +1,50 @@
+{
+ "text": "Since the order was placed yesterday, it's past the 2-hour window for free changes, so the address can't be edited online. The order is now in the packing queue. Support can try to intercept it before it ships, but that isn't guaranteed. If it ships first, the address can't be changed and couriers won't accept redirection requests from Leafy.\n\nI can't make the change myself, but I can pass an intercept request for LF-208871 to the support team. If you'd like that, send me the new address you want. Please don't include any card details or passwords.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 460,
+  "cache_read_input_tokens": 1505,
+  "output_tokens": 454,
+  "output_tokens_details": {
+   "thinking_tokens": 287
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 460,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 454,
+    "cache_read_input_tokens": 1505,
+    "cache_creation_input_tokens": 460,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 460
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1967,
+ "output_tokens": 454,
+ "thinking_tokens": 287,
+ "latency_ms": 4783,
+ "wall_ms": 7387,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100699.7811224
+}

@@ -1,0 +1,50 @@
+{
+ "text": "I understand you'd like to cancel your Leafy Plus membership. Unfortunately, I can't issue a refund in this case.\n\n**Here's why:** Leafy Plus refunds are only available if you cancel within **14 days** of purchase **and** haven't used any benefits. Since you've already used free shipping (a member benefit) and it's now 20 days since purchase, the 14-day refund window has closed. Your membership remains active through the end of the paid year, and the benefits continue.\n\n**However, you can still cancel** from \"Account\" > \"Subscriptions\" anytime\u2014you'll just keep your benefits until your membership expires. Would you like me to escalate this to a Support Lead to review your situation further?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1530,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 167,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1530,
+    "output_tokens": 167,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1530,
+ "output_tokens": 167,
+ "thinking_tokens": 0,
+ "latency_ms": 2573,
+ "wall_ms": 5427,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791101031.2040448
+}

@@ -1,0 +1,49 @@
+{
+ "text": "Good question! No, the **$20 XL handling fee stays** even when your order is over $75. \ud83c\udf3f\n\nThe $75+ free shipping offer only covers the **Standard shipping charge** ($7.95). The handling fee for XL plants is a separate charge, and our policy doesn't include any waiver for it.\n\nHere's how it would look for an XL plant in your area:\n\n- **Standard shipping:** free on orders of $75+ (after discounts, before tax)\n- **XL handling fee:** $20, still applies\n- **Delivery time:** 5-8 business days (Zone 3, Standard only)\n\nI should also correct something from my earlier message: I said I couldn't say whether the fee gets waived, but the policy is clear that the free shipping threshold doesn't apply to it. Sorry for any confusion!\n\nIs there anything else I can help you with before you order? \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1500,
+  "cache_read_input_tokens": 2037,
+  "output_tokens": 281,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1500,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 281,
+    "cache_read_input_tokens": 2037,
+    "cache_creation_input_tokens": 1500,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1500
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 3539,
+ "output_tokens": 281,
+ "thinking_tokens": 0,
+ "latency_ms": 2701,
+ "wall_ms": 5478,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880180.6270268
+}

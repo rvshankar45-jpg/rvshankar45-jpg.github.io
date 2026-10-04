@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry the fern isn't working in your space. The policy information I have doesn't cover returns for a change of mind, so I can't confirm whether you can send it back or get a refund. I can escalate this to a Support Lead who can give you a definite answer.\n\nIf the fern arrived damaged (snapped main stem, cracked pot, exposed roots, or dead or severely wilted), report it within **48 hours** of delivery with photos of the plant and the box. We'd then offer a free replacement or a refund.\n\nWould you like me to escalate this? If so, please send your order number (it looks like LF-123456).",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 442,
+  "cache_read_input_tokens": 1046,
+  "output_tokens": 313,
+  "output_tokens_details": {
+   "thinking_tokens": 118
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 442,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 313,
+    "cache_read_input_tokens": 1046,
+    "cache_creation_input_tokens": 442,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 442
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1490,
+ "output_tokens": 313,
+ "thinking_tokens": 118,
+ "latency_ms": 3661,
+ "wall_ms": 7126,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791101307.947357
+}

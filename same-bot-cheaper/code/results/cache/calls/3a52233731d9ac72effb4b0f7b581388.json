@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for reaching out to Leafy! I'm sorry your monstera arrived looking unwell and that you've seen a double charge. Let me take each part in turn.\n\n**1. Yellow leaves on your monstera**\n\nHow this is handled depends on how bad it is and when it arrived:\n\n- **One or two older yellow leaves:** In the first two weeks, this is usually normal transplant stress and isn't covered on its own. Keep the plant out of direct sun for the first week, and water only when the top inch of soil is dry. Overwatering is the most common cause of early problems.\n- **Severely wilted or dead, snapped main stem, exposed roots, or a cracked pot:** This counts as damaged on arrival. Report it **within 48 hours of delivery** from \"My Orders\" with photos of the plant and the box. You can choose a free replacement on the next plant shipping day or a refund.\n- **Past 48 hours, with serious decline:** If the plant loses more than a third of its leaves, gets stem or root rot, or collapses, you can file a Plant Care Guarantee claim from \"My Orders\" within 30 days of delivery (90 days for Leafy Plus members). Include at least two photos, one of the whole plant and one close-up. A Plant Care Specialist will review it within 2 business days, and you don't need to send the plant back.\n\nIf you tell me when it was delivered and roughly how many leaves are yellow, I can point you to the right route. Plant Care Specialists also offer free advice by chat (9am-5pm Mon-Fri) or email.\n\n**2. Being charged twice**\n\nLet's check a couple of things first:\n\n- **A pending authorisation:** Cards are authorised at checkout and charged when the order ships, so one of the two may just be a pending hold.\n- **Multiple parcels:** An order shipped in several parcels can show one charge per parcel.\n\nIf both charges have definitely posted, please send me your **order number** (LF- plus six digits) and the **last four digits of the card**. Please don't send the full card number or security code. Once confirmed, the duplicate is refunded **within 3 business days**.\n\n**3. Refund to a different card**\n\nI'm sorry, but refunds can only go back to the **original payment method**, never to a different card. If your original card has been closed or replaced, the bank normally passes the refund on to the new card. You do have another option:\n\n- **Leafy store credit:** It's issued instantly and never expires.\n\nIf you stay with the original card, refunds take **5-10 business days** to arrive once issued (3-5 business days for digital wallets).\n\nIf you'd like to pursue something outside this policy, let me know and I can escalate it to a Support Lead. I can't promise an exception would be approved, though.\n\nLet me know the delivery date, your order number and which option you'd prefer, and I'll help from there. I hope your monstera bounces back soon! \ud83c\udf3f",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 448,
+  "cache_read_input_tokens": 4679,
+  "output_tokens": 1649,
+  "output_tokens_details": {
+   "thinking_tokens": 711
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 448,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1649,
+    "cache_read_input_tokens": 4679,
+    "cache_creation_input_tokens": 448,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 448
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 5129,
+ "output_tokens": 1649,
+ "thinking_tokens": 711,
+ "latency_ms": 12301,
+ "wall_ms": 14908,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790787001.2924275
+}

@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry about your plant. Unfortunately, repotting into non-Leafy soil within the first 14 days after delivery isn't covered by the Plant Care Guarantee, so this one wouldn't qualify for a replacement. Damaged on Arrival claims must be reported within 48 hours of delivery, so that route is closed too.\n\nIf you think something else contributed, such as the plant arriving in poor condition, I can escalate your case to a Support Lead. A Plant Care Specialist can also give you free care advice for any future plants.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 434,
+  "cache_read_input_tokens": 1271,
+  "output_tokens": 345,
+  "output_tokens_details": {
+   "thinking_tokens": 170
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 434,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 345,
+    "cache_read_input_tokens": 1271,
+    "cache_creation_input_tokens": 434,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 434
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1707,
+ "output_tokens": 345,
+ "thinking_tokens": 170,
+ "latency_ms": 3481,
+ "wall_ms": 6505,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100321.5445395
+}

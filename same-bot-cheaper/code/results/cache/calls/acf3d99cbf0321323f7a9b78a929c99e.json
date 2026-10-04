@@ -1,0 +1,50 @@
+{
+ "text": "Please contact your vet or your local poison control center right away. Pothos is not pet-safe, so don't wait for symptoms to appear. Have the plant name and roughly how much your dog chewed ready when you call.\n\nI'm also escalating this to a Support Lead as our policy requires for safety issues. Our chat is open 8am\u20138pm Mon\u2013Sat, and you can email help@leafy.example (answered within 1 business day), but please call the vet or poison control first, since we don't offer phone support.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1603,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 161,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1603,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 161,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1603,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1603
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1605,
+ "output_tokens": 161,
+ "thinking_tokens": 0,
+ "latency_ms": 3118,
+ "wall_ms": 6820,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100612.941654
+}

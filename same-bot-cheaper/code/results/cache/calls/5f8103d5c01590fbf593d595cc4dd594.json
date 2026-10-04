@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry about the double charge. First, check whether one of them is a pending authorisation rather than a posted charge, since cards are authorised at checkout and only charged when the order ships. A pending one on a cancelled order drops off in 3-7 business days, depending on your bank.\n\nIf both have actually posted, please send me your order number and the last four digits of the card (never the full number or security code). Once we confirm the duplicate, it will be refunded within 3 business days, and then your card should show it within 5-10 business days (3-5 for digital wallets).\n\nCan you tell me whether both charges show as posted or one is pending?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1985,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 197,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1985,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 197,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1985,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1985
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1987,
+ "output_tokens": 197,
+ "thinking_tokens": 0,
+ "latency_ms": 2605,
+ "wall_ms": 5438,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005343.0353222
+}

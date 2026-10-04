@@ -1,0 +1,50 @@
+{
+ "text": "If the transit forecast is below 35\u00b0F (or above 95\u00b0F), here's what happens:\n\n- **Hold:** Your live plants may be held for up to 7 days instead of shipping on schedule, and we'll email you about it.\n- **Waiving the hold:** If you'd rather not wait, you can reply to that email and we'll ship anyway. In that case, the Plant Care Guarantee still applies, except for cold or heat damage in transit. DOA claims for cold or heat damage are not accepted if you waive the hold.\n- **Heat pack:** In winter, you can add a free heat pack at checkout.\n\nLive plants ship Monday to Wednesday only, so a hold may also affect which day your order goes out.\n\nI can't say from the policy excerpts I have what happens if damage occurs when you haven't waived the hold. If you have an order in mind, I can escalate it to a Support Lead.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1664,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 545,
+  "output_tokens_details": {
+   "thinking_tokens": 256
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1664,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 545,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1664,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1664
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1666,
+ "output_tokens": 545,
+ "thinking_tokens": 256,
+ "latency_ms": 4862,
+ "wall_ms": 8766,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004652.4085827
+}

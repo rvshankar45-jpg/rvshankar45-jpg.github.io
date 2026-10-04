@@ -1,0 +1,50 @@
+{
+ "text": "Sorry about the lost email. We can reissue lost gift card codes if you, as the purchaser, give us the order number for the gift card purchase. It starts with `LF-` followed by six digits, like LF-204518, and should be in your order confirmation or under \"My Orders\".\n\nPlease send that number and we'll get the code reissued. The policy I have doesn't give a timeframe for reissuing, so I can't promise one. Please don't send any full card numbers, security codes or passwords.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 434,
+  "cache_read_input_tokens": 1496,
+  "output_tokens": 255,
+  "output_tokens_details": {
+   "thinking_tokens": 100
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 434,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 255,
+    "cache_read_input_tokens": 1496,
+    "cache_creation_input_tokens": 434,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 434
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1932,
+ "output_tokens": 255,
+ "thinking_tokens": 100,
+ "latency_ms": 3167,
+ "wall_ms": 6492,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791007477.4809878
+}

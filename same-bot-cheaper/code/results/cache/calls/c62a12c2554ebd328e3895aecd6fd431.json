@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! \ud83c\udf3f It's great that you're checking before bringing a plant home.\n\n**Yes, peace lilies are not pet-safe.** Our care information lists the peace lily as a plant that isn't safe for pets, so dogs (and cats) should be kept away from it.\n\nA few things that can help:\n- Place it somewhere your dog can't reach, like a high shelf or a room they don't go into.\n- If you'd like pet-friendly greenery instead, our pet-safe options are calathea, spider plant, parlour palm, Boston fern and peperomia.\n\n**Important:** If your dog has already chewed or eaten any part of a peace lily, please contact your vet or a pet poison control service right away. Don't wait for symptoms to appear. If this has happened, let me know and I'll escalate it to a Support Lead on our side too.\n\nI don't have more detailed information on symptoms or severity in our knowledge base, so your vet is the best source for that.\n\nIf you'd like free advice on keeping plants and pets happily under one roof, a Plant Care Specialist can help by chat or email, and you don't need to be a customer to ask.\n\nIs there anything else I can help you with? Please reach out any time! \ud83d\udc3e\ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2056,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 407,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2056,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 407,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2056,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2056
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2058,
+ "output_tokens": 407,
+ "thinking_tokens": 0,
+ "latency_ms": 4179,
+ "wall_ms": 7035,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879902.802598
+}

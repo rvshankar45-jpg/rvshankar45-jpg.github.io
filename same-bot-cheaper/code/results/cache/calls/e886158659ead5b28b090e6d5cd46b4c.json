@@ -1,0 +1,50 @@
+{
+ "text": "Unfortunately, no. Promo codes can't be added after an order has been placed, and that applies to every order.\n\nIf you're still within **2 hours** of ordering, you can cancel the order for free from \"My Orders\" and place a new one with your code. Some things to know before you do:\n- The new order is a fresh purchase, so stock, pricing and the shipping cut-off (live plants ship Monday to Wednesday, and orders placed after 12 noon Wednesday ship the next Monday) apply as of the new order time.\n- The cancelled order may show a pending authorisation on your card, which drops off in **3-7 business days** depending on your bank. Leafy can't release it faster.\n- Only one promo code can be used per order. It also can't be combined with Leafy Plus member pricing on the same item, so the better discount applies automatically.\n\nIf it's been more than 2 hours, the order is in the packing queue and can't be changed online. Support can try to intercept it before it ships so you can reorder with the code, but that isn't guaranteed. Once it has shipped, it can't be cancelled.\n\nIf you'd like to ask for an exception to apply the code to your existing order, I can escalate that to a Support Lead, but I can't promise the outcome. Just send me your order number (LF- followed by six digits) and let me know roughly when you placed the order.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 438,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 630,
+  "output_tokens_details": {
+   "thinking_tokens": 201
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 438,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 630,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 438,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 438
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4296,
+ "output_tokens": 630,
+ "thinking_tokens": 201,
+ "latency_ms": 5461,
+ "wall_ms": 9082,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005640.5633082
+}

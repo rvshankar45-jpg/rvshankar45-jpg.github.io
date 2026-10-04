@@ -1,0 +1,50 @@
+{
+ "text": "Sorry your monstera arrived looking unhealthy and that you've seen a double charge. Here's where each issue stands.\n\n**1. Yellow leaves**\n- Report the problem within **48 hours** of delivery, with photos of the plant and the box. If it qualifies as Damaged on Arrival, you can choose a free replacement on the next plant shipping day or a refund.\n- Our policy defines DOA as snapped main stems, exposed roots, a cracked pot, or a dead or severely wilted plant. Yellow leaves alone aren't listed, so I can't promise it will qualify. If you're within the 48 hours, send the photos and the team can assess it.\n- After 48 hours, plant issues go through the Plant Care Guarantee. I don't have those details here, but I can escalate this to a Support Lead.\n- Live plants can't be returned for change of mind.\n\n**2. Double charge**\n- First check whether one of the charges is a **pending authorisation**. Cards are authorised at checkout and charged when the order ships. An order sent in several parcels can also show one charge per parcel.\n- If both charges have posted, send me your **order number and the last four digits of the card**. Once we confirm the duplicate, it's refunded within **3 business days**. Please don't send the full card number, security code, or any passwords.\n\n**3. Refund to a different card**\n- Refunds can only go to the **original payment method**, never a different card. This applies even if the original card is closed or expired, in which case the bank normally passes the refund to the replacement card.\n- The alternative is **Leafy store credit**, which is issued instantly and never expires.\n- If you take the refund to your card, it takes **5-10 business days** once issued. Digital wallets take **3-5 business days**.\n\nWhen did the plant arrive, and are both charges showing as posted or is one pending? With that I can point you to the next step.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1837,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1104,
+  "output_tokens_details": {
+   "thinking_tokens": 498
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1837,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1104,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1837,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1837
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1839,
+ "output_tokens": 1104,
+ "thinking_tokens": 498,
+ "latency_ms": 7859,
+ "wall_ms": 11370,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004777.9251215
+}

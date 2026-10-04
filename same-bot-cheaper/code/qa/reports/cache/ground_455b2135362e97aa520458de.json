@@ -1,0 +1,154 @@
+{
+ "items": [
+  {
+   "id": "q001",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q002",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q003",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q004",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q005",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q006",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q007",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q008",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q009",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q010",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q011",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q012",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q013",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q014",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q015",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q016",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q017",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q018",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q019",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q020",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q021",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q022",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q023",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q024",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q025",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  }
+ ]
+}

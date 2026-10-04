@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry to hear your monstera is struggling\u2014that's frustrating. Yes, you can get help under our **30-day Plant Care Guarantee**.\n\nSince your plant arrived 20 days ago and has lost more than a third of its leaves plus stem rot (which counts as significant decline), you're covered. Here's what to do:\n\n1. **Claim within your guarantee window** (10 days left) from \"My Orders\"\n2. **Upload at least two photos:** one of the whole plant and a close-up showing the stem rot\n3. A Plant Care Specialist will review within **2 business days** and send you a free replacement of the same plant (or store credit if it's out of stock)\n\nYou don't need to send the plant back. Once you've submitted, you'll also get a new 30-day guarantee on the replacement.\n\nIf you'd like free care advice while you wait, our Plant Care Specialists are available by chat 9am\u20135pm Mon\u2013Fri or by email at help@leafy.example.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1404,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 233,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1404,
+    "output_tokens": 233,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1404,
+ "output_tokens": 233,
+ "thinking_tokens": 0,
+ "latency_ms": 3176,
+ "wall_ms": 5981,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791100782.2468283
+}

@@ -1,0 +1,50 @@
+{
+ "text": "If you wait until tonight, the 2-hour window will have closed (you'd be about 5 hours 20 minutes after ordering). You then couldn't change the order online.\n\n- **Asking support:** Support can try to intercept the order before it ships and add the pot, but that isn't guaranteed. Chat runs 8am-8pm Mon-Sat in your local time. Email (help@leafy.example) is answered within 1 business day, which might be too slow.\n- **Shipping timing:** Live plants ship Monday-Wednesday only, so your order may still be waiting to ship. I can't promise it will be, though, so don't count on it.\n- **A separate order:** You can place a new order for the pot. It would ship separately from the ZZ plant. Standard shipping is $7.95, free if that order is $75 or more after discounts.\n\nIf you want the pot on the same order, the safest option is to add it from \"My Orders\" within the next 1 hour 40 minutes or so.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 825,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 767,
+  "output_tokens_details": {
+   "thinking_tokens": 455
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 825,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 767,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 825,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 825
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4683,
+ "output_tokens": 767,
+ "thinking_tokens": 455,
+ "latency_ms": 7339,
+ "wall_ms": 10423,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005915.153455
+}

@@ -1,0 +1,50 @@
+{
+ "text": "I appreciate you'd prefer a call! Unfortunately, I can only help via chat right now. But I'm here to assist quickly\u2014what's the issue with your order?\n\nIf you need to speak with someone directly, I can escalate you to a Support Lead who may be able to arrange a callback. Just let me know what you need help with first, and I'll get you sorted or connect you to the right person.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1640,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 91,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1640,
+    "output_tokens": 91,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1640,
+ "output_tokens": 91,
+ "thinking_tokens": 0,
+ "latency_ms": 1818,
+ "wall_ms": 4652,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791101032.8005323
+}

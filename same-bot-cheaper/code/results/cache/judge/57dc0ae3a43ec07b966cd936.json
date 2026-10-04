@@ -1,0 +1,274 @@
+{
+ "items": [
+  {
+   "answer_id": "q093#1",
+   "correctness": 3,
+   "completeness": 2,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Says it doesn't know what guarantee covers, though KB covers rot. Omits claim steps/photos. Escalation unnecessary."
+  },
+  {
+   "answer_id": "q093#2",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct window, rot, claim steps, 2 photos, 2 days. Says overwatering isn't an exclusion; mild hedge. Replacement guarantee detail 90 days with Plus is plausible."
+  },
+  {
+   "answer_id": "q093#3",
+   "correctness": 3,
+   "completeness": 2,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Claims it lacks coverage info; misses claim process and photos. Unneeded escalation."
+  },
+  {
+   "answer_id": "q093#4",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Good: window, rot, claim steps, deliberate neglect caveat. Slightly long; the claim that replacement gets 30-day guarantee ignores Plus 90 but minor."
+  },
+  {
+   "answer_id": "q093#5",
+   "correctness": 3,
+   "completeness": 2,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Claims no coverage details; no claim steps."
+  },
+  {
+   "answer_id": "q093#6",
+   "correctness": 2,
+   "completeness": 2,
+   "policy": 2,
+   "tone": 3,
+   "score": 2,
+   "note": "Promises replacement or refund processing and skips the claim process/photos review; asks for order number rather than directing to the claim; overpromises."
+  },
+  {
+   "answer_id": "q094#1",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 4,
+   "note": "Escalates over $150, correct expired-card handling; doesn't mention 48-hour DOA window explicitly."
+  },
+  {
+   "answer_id": "q094#2",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Says it lacks DOA details though KB has them; escalation fine; refund info correct."
+  },
+  {
+   "answer_id": "q094#3",
+   "correctness": 4,
+   "completeness": 3,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Escalates and card handling right; omits 48-hour and photo requirements; offers to 'arrange' store credit."
+  },
+  {
+   "answer_id": "q094#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Covers 48 hours, photos, replacement/refund, expired card, escalation over $150."
+  },
+  {
+   "answer_id": "q094#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Complete and accurate with escalation and expired card."
+  },
+  {
+   "answer_id": "q094#6",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Claims lacking DOA details; escalation and refund handling correct."
+  },
+  {
+   "answer_id": "q095#1",
+   "correctness": 2,
+   "completeness": 3,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Mentions 911 and poison control but invents items: 'you can keep the damaged plant', and no escalation; 'toxic to children' extrapolated."
+  },
+  {
+   "answer_id": "q095#2",
+   "correctness": 4,
+   "completeness": 3,
+   "policy": 3,
+   "tone": 4,
+   "score": 3,
+   "note": "Safety first, DOA right; no escalation to Support Lead."
+  },
+  {
+   "answer_id": "q095#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Safety first, escalation, DOA details all correct."
+  },
+  {
+   "answer_id": "q095#4",
+   "correctness": 4,
+   "completeness": 3,
+   "policy": 3,
+   "tone": 4,
+   "score": 3,
+   "note": "Safety first and DOA right but only offers to escalate instead of doing so."
+  },
+  {
+   "answer_id": "q095#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Safety first, escalates, correct DOA info."
+  },
+  {
+   "answer_id": "q095#6",
+   "correctness": 4,
+   "completeness": 3,
+   "policy": 2,
+   "tone": 4,
+   "score": 3,
+   "note": "Safety first but no escalation."
+  },
+  {
+   "answer_id": "q095#7",
+   "correctness": 4,
+   "completeness": 3,
+   "policy": 2,
+   "tone": 4,
+   "score": 3,
+   "note": "Safety first but no escalation."
+  },
+  {
+   "answer_id": "q095#8",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Safety first, escalation, DOA correct. Slightly wordy."
+  },
+  {
+   "answer_id": "q095#9",
+   "correctness": 4,
+   "completeness": 3,
+   "policy": 2,
+   "tone": 4,
+   "score": 3,
+   "note": "Good safety and DOA but no escalation."
+  },
+  {
+   "answer_id": "q096#1",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Wrongly implies promo code can be applied on new order only for both; omits that promo cannot be added after; mostly fine but doesn't note it clearly."
+  },
+  {
+   "answer_id": "q096#2",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Says promo policy unknown though KB says can't add after ordering; misses suggesting code on new order."
+  },
+  {
+   "answer_id": "q096#3",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Promo uncertain despite KB; doesn't suggest new order with code."
+  },
+  {
+   "answer_id": "q096#4",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Says no promo info in KB; wrong. Persona intro ok."
+  },
+  {
+   "answer_id": "q096#5",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Promo claimed unknown; misses new order with code."
+  },
+  {
+   "answer_id": "q096#6",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Promo claimed unknown; misses code on new order."
+  },
+  {
+   "answer_id": "q096#7",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct on all three, promo on new order. Slight oddity sending the customer to chat/email rather than handling intercept itself."
+  },
+  {
+   "answer_id": "q096#8",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Promo claimed unknown; misses new order suggestion with code."
+  },
+  {
+   "answer_id": "q096#9",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "All correct: intercept, new order, promo can't be added but works on new order; offers escalation."
+  }
+ ]
+}

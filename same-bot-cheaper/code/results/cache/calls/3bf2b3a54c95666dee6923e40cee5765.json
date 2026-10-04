@@ -1,0 +1,50 @@
+{
+ "text": "I can't confirm that. Our policy says a lost parcel gets a free replacement or a full refund, but it doesn't say the replacement ships Express. Express is only guaranteed in the wrong-item case, so I don't want to promise it.\n\n- **Express generally:** it normally costs $14.95 and isn't available in Zone 3 (over 1,000 miles, remote and island addresses).\n- **Live plants:** they ship Monday to Wednesday only, so timing depends on when the investigation ends.\n- **Next step:** if you'd like to ask for Express on the replacement, I can pass the request to a Support Lead. I can't promise the outcome.\n\nThe replacement only comes into play once the courier investigation (up to **5 business days**) confirms the parcel is lost, and I need your order number to open it. Please send it (LF- followed by six digits) and no card details.\n\nI can also add the one-time goodwill store credit of up to **$15** for the delay if you'd like it.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1286,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 619,
+  "output_tokens_details": {
+   "thinking_tokens": 304
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1286,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 619,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 1286,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1286
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 5144,
+ "output_tokens": 619,
+ "thinking_tokens": 304,
+ "latency_ms": 6020,
+ "wall_ms": 9191,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005971.9396107
+}

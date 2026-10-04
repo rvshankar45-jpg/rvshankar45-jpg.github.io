@@ -1,0 +1,50 @@
+{
+ "text": "Yes, you can return it! Since the soil is opened, it normally can't be returned\u2014**but opened soil can be returned if it's faulty or incorrect, which yours is.**\n\nHere's what to do:\n1. Start the return from \"My Orders\"\n2. You'll get a prepaid return label via email (it expires after 7 days, so drop it off quickly)\n3. Since this is our error (wrong item), the return is free and you'll get a full refund\n\nThe refund will be issued within **5 business days** of the soil reaching our warehouse, back to your original payment method.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1304,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 140,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1304,
+    "output_tokens": 140,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1304,
+ "output_tokens": 140,
+ "thinking_tokens": 0,
+ "latency_ms": 2661,
+ "wall_ms": 5795,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791100734.5344636
+}

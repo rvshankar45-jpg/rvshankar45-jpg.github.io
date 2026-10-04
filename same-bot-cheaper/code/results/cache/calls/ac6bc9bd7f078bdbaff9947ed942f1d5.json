@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! Yes, you can skip July's Plant Club box, and since it's June 20th you have time to do it.\n\n**How to skip:**\n- Go to \"Account\" > \"Subscriptions\" and choose to skip.\n\n**Timing matters:**\n- July's box is charged on **June 25th**.\n- Changes made **before the 25th** (so by June 24th) apply to your next box, which is July's.\n- Changes made **on or after the 25th** apply to the following month instead. July's box would already be billed and would still be sent.\n\n**Other options:**\n- You can **pause** for up to 3 months if you'd rather not think about it while you're away.\n- There's no cancellation fee or minimum term, so changing your plans costs nothing.\n\nI'd skip it in the next few days so you don't miss the June 25th cutoff. If you do miss it and the box ships while you're away, I can't promise a fix, but I can escalate it to a Support Lead to look at options.\n\nHave a wonderful trip, and reach out any time if you need anything else! \ud83c\udf3f",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 445,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 734,
+  "output_tokens_details": {
+   "thinking_tokens": 386
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 445,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 734,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 445,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 445
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4785,
+ "output_tokens": 734,
+ "thinking_tokens": 386,
+ "latency_ms": 6925,
+ "wall_ms": 10326,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879353.7882802
+}

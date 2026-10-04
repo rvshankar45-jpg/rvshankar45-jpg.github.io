@@ -1,0 +1,129 @@
+{
+ "items": [
+  {
+   "id": "a0",
+   "addresses": true,
+   "reason": "Gives shipping days."
+  },
+  {
+   "id": "a1",
+   "addresses": true,
+   "reason": "Explains return window."
+  },
+  {
+   "id": "a2",
+   "addresses": true,
+   "reason": "Answers Express not available for islands."
+  },
+  {
+   "id": "a3",
+   "addresses": true,
+   "reason": "States up to 30 days."
+  },
+  {
+   "id": "a4",
+   "addresses": true,
+   "reason": "States shipping timing."
+  },
+  {
+   "id": "a5",
+   "addresses": true,
+   "reason": "Explains auto-refund after no reply."
+  },
+  {
+   "id": "a6",
+   "addresses": true,
+   "reason": "Answers no free shipping and why."
+  },
+  {
+   "id": "a7",
+   "addresses": true,
+   "reason": "Says it lacks light info, directs to specialists; honest non-answer with referral. Addresses the question as best possible."
+  },
+  {
+   "id": "a8",
+   "addresses": true,
+   "reason": "Gives steps and escalation."
+  },
+  {
+   "id": "a9",
+   "addresses": true,
+   "reason": "Covers all three parts."
+  },
+  {
+   "id": "a10",
+   "addresses": true,
+   "reason": "Lists Leafy Plus benefits."
+  },
+  {
+   "id": "a11",
+   "addresses": true,
+   "reason": "Answers guarantee for earlier plants."
+  },
+  {
+   "id": "a12",
+   "addresses": true,
+   "reason": "Answers refund within a week."
+  },
+  {
+   "id": "a13",
+   "addresses": true,
+   "reason": "Answers the used-benefit case."
+  },
+  {
+   "id": "a14",
+   "addresses": true,
+   "reason": "Answers Express not free."
+  },
+  {
+   "id": "a15",
+   "addresses": true,
+   "reason": "Gives return window."
+  },
+  {
+   "id": "a16",
+   "addresses": true,
+   "reason": "Gives shipping days."
+  },
+  {
+   "id": "a17",
+   "addresses": true,
+   "reason": "Answers Express unavailable."
+  },
+  {
+   "id": "a18",
+   "addresses": true,
+   "reason": "Gives 30 days."
+  },
+  {
+   "id": "a19",
+   "addresses": true,
+   "reason": "Gives ship timing."
+  },
+  {
+   "id": "a20",
+   "addresses": true,
+   "reason": "Explains what happens now."
+  },
+  {
+   "id": "a21",
+   "addresses": true,
+   "reason": "Answers no free shipping."
+  },
+  {
+   "id": "a22",
+   "addresses": true,
+   "reason": "Says no light info, offers escalation."
+  },
+  {
+   "id": "a23",
+   "addresses": true,
+   "reason": "Gives steps and escalates."
+  },
+  {
+   "id": "a24",
+   "addresses": false,
+   "reason": "Truncated mid-sentence; double charge is incomplete and the different-card refund request is never addressed."
+  }
+ ]
+}

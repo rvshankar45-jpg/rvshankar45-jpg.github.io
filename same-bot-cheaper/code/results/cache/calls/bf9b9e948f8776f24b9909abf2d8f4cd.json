@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry, but **XL plants cannot be shipped Express** \u2014 they ship Standard only. XL plants (usually over 4 ft, like your 5 ft bird of paradise) have a $20 handling fee and are limited to Standard shipping.\n\nYour Standard shipping time depends on your zone:\n- **Zone 1** (under 300 miles): 2\u20133 business days\n- **Zone 2** (300\u20131,000 miles): 3\u20135 business days  \n- **Zone 3** (over 1,000 miles): 5\u20138 business days\n\nStandard shipping is $7.95, or free on orders $75+ (after discounts, before tax). Would that work for you?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1432,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 166,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1432,
+    "output_tokens": 166,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1432,
+ "output_tokens": 166,
+ "thinking_tokens": 0,
+ "latency_ms": 1849,
+ "wall_ms": 4625,
+ "overhead": 379,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791006977.834592
+}

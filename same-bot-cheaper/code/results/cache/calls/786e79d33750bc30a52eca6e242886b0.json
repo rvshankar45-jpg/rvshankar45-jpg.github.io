@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! I'm sorry for the worry this has caused. Seeing two charges for one order is unsettling, so let's get it sorted out together.\n\n**First, a quick check: is one of them a pending authorisation?**\n\nYour card is authorised at checkout, but it's only charged when the order ships. That means a pending authorisation and the real charge can sometimes look like two charges. Also, if your order shipped in several parcels, you may see one charge per parcel. Here's what to look for:\n\n- Check whether one of the $64.50 charges is marked \"pending\" in your banking app. If so, it should drop off on its own within **3-7 business days**, depending on your bank. Leafy can't release it any faster.\n- Check whether your order was split into multiple parcels. If it was, each parcel can have its own charge, so the amounts should add up to your order total.\n\n**If both charges have fully posted**, it's a genuine duplicate and we'll fix it. Please send us:\n\n- Your **order number**\n- The **last four digits** of the card used\n\nOnce we confirm the duplicate, it will be refunded within **3 business days**.\n\nPlease don't share your full card number, security code, or any passwords. We never need those.\n\nLet me know what you find, and I'm happy to help with the next step. Thanks again for reaching out to Leafy! \ud83c\udf3f",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2434,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 434,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2434,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 434,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2434,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2434
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2436,
+ "output_tokens": 434,
+ "thinking_tokens": 0,
+ "latency_ms": 4615,
+ "wall_ms": 7726,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880159.2261221
+}

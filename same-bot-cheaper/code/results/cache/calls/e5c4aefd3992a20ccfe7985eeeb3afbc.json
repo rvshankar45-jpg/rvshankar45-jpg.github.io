@@ -1,0 +1,50 @@
+{
+ "text": "I understand that's frustrating. Return labels expire **7 days** after being emailed to you, so you'll need a new one.\n\nPlease go to \"My Orders\" on the website or app, find the relevant order, and request a new return label. If you're having trouble accessing it there, reply here with your order number (it looks like `LF-` plus six digits), and I can escalate this to get you a fresh label issued right away.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1237,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 103,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1237,
+    "output_tokens": 103,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1237,
+ "output_tokens": 103,
+ "thinking_tokens": 0,
+ "latency_ms": 1747,
+ "wall_ms": 4745,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791100233.250201
+}

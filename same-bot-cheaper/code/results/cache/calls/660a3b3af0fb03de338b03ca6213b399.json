@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry, three chases with no answer is not acceptable, and I understand why you're fed up. Since this is your third time raising it, policy requires me to escalate it to a Support Lead, and I'm doing that now so a person takes ownership of your claim.\n\nTo make sure it's included, please reply with your order number. Email replies to help@leafy.example are answered within 1 business day. Also, since your plant arrived about 3 weeks ago, your claim was filed within the 30-day window (or 90 days for Leafy Plus members), so the delay on our side shouldn't count against you.\n\nI can't promise a specific outcome or timeframe for the Support Lead's response beyond that, but I can offer a one-time store credit of up to $15 as goodwill for the delayed reply if you'd like it.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2555,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 256,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2555,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 256,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2555,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2555
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2557,
+ "output_tokens": 256,
+ "thinking_tokens": 0,
+ "latency_ms": 3511,
+ "wall_ms": 6564,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005441.373178
+}

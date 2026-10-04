@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry you waited a week for a reply and then lost your plant.\n\nIf the plant is within its guarantee window (30 days from delivery, or 90 days for Leafy Plus members), you can claim a free replacement from \"My Orders\". Upload at least two photos, one of the whole plant and one close-up. A Plant Care Specialist will review it within 2 business days, and you don't need to send the plant back. Cases like pests introduced after delivery or deliberate neglect aren't covered.\n\nI don't have a policy for compensation beyond the replacement, such as for the slow email response, so I can't promise any. I can escalate that to a Support Lead if you'd like. If so, please send me your order number (LF- plus six digits) and roughly when the plant was delivered.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 441,
+  "cache_read_input_tokens": 1178,
+  "output_tokens": 421,
+  "output_tokens_details": {
+   "thinking_tokens": 174
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 441,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 421,
+    "cache_read_input_tokens": 1178,
+    "cache_creation_input_tokens": 441,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 441
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1621,
+ "output_tokens": 421,
+ "thinking_tokens": 174,
+ "latency_ms": 4480,
+ "wall_ms": 7236,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791101281.6134808
+}

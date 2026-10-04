@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! \ud83c\udf3f\n\nYes, a peace lily is on our list of plants that are **not pet-safe**, so it's best to keep it somewhere your dog can't reach. That includes dogs, cats and other pets.\n\n**If your dog may have eaten any part of the plant**, please contact your vet or local pet poison control right away. Don't wait for symptoms to show up. Once you've done that, let me know and I'll escalate this to a Support Lead so they can follow up with you.\n\nIf you're still choosing plants, these are **pet-safe** options we carry:\n- Calathea\n- Spider plant\n- Parlour palm\n- Boston fern\n- Peperomia\n\nOur Plant Care Specialists can also give you free advice on keeping plants and pets happy together. You can reach them by chat from 9am to 5pm, Monday to Friday, in your local time, or by email at help@leafy.example (answered within 1 business day).\n\nIs your dog okay? Please feel free to reach out anytime if you need anything else. \ud83d\udc36\ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 429,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 348,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 429,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 348,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 429,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 429
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4769,
+ "output_tokens": 348,
+ "thinking_tokens": 0,
+ "latency_ms": 3359,
+ "wall_ms": 6761,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879218.6317735
+}

@@ -1,0 +1,50 @@
+{
+ "text": "No, as a Leafy Plus member you don't pay the $6.95 fee. Change-of-mind returns are free for members.\n\nA planter counts as a non-living item, so it's eligible if you return it within **30 days** of delivery, unused and in its original packaging. Start the return from \"My Orders\" and a prepaid label will be emailed to you. Drop the parcel off within **7 days**, because the label expires after that. Your refund will be issued to your original payment method within **5 business days** of the return reaching our warehouse.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1794,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 168,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1794,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 168,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1794,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1794
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1796,
+ "output_tokens": 168,
+ "thinking_tokens": 0,
+ "latency_ms": 2430,
+ "wall_ms": 6512,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005193.299202
+}

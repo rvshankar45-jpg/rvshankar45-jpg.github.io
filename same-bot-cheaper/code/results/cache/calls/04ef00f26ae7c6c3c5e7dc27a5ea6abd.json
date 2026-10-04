@@ -1,0 +1,49 @@
+{
+ "text": "Hi again! \ud83c\udf31 Thanks for asking.\n\n**No, Leafy Plus doesn't make Express shipping free.** Express is **$14.95** and is never free, including for Leafy Plus members.\n\nHere's how shipping works with Leafy Plus:\n- **Standard shipping:** free with no minimum order amount\n- **Express shipping:** still **$14.95**\n\nAlso, Express isn't available everywhere. It's offered in Zone 1 (under 300 miles from our nearest greenhouse, next business day) and Zone 2 (300-1,000 miles, 2 business days). It isn't available in Zone 3 (over 1,000 miles, plus remote and island addresses).\n\n**One more correction from me:** in my last message I took back the details about the 90-day guarantee and said I couldn't confirm them. That was a mistake on my part. I don't actually have information in my knowledge base about how the 90-day guarantee applies to plants bought before joining, so please don't rely on either of my earlier answers on that point. I'm sorry for the confusion! If you'd like a clear answer before signing up, I can escalate that to a Support Lead.\n\nIs there anything else I can help with? \ud83d\udc9a",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1904,
+  "cache_read_input_tokens": 2037,
+  "output_tokens": 389,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1904,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 389,
+    "cache_read_input_tokens": 2037,
+    "cache_creation_input_tokens": 1904,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1904
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 3943,
+ "output_tokens": 389,
+ "thinking_tokens": 0,
+ "latency_ms": 3589,
+ "wall_ms": 6389,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880222.3346558
+}

@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! \ud83c\udf3f\n\nYour shipping for that order would be **$14.95**.\n\n- Express shipping is always $14.95, and it's never free, even for Leafy Plus members.\n- Your Plus perk of free Standard shipping (no minimum) only applies if you choose Standard.\n\nA couple of things to keep in mind for Express:\n\n- **Timing:** Express arrives the next business day in Zone 1 (under 300 miles from our nearest greenhouse) or in 2 business days in Zone 2 (300-1,000 miles). It isn't available in Zone 3 (over 1,000 miles, remote and island addresses).\n- **Live plants** ship Monday-Wednesday only. Orders placed after 12 noon Wednesday ship the following Monday.\n- **XL plants** (usually over 4 ft) add a $20 handling fee and ship Standard only.\n\nIf you'd rather save the $14.95, Standard shipping would be free with your Plus membership.\n\nIs there anything else I can help with? Happy planting! \ud83e\udeb4",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 441,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 352,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 441,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 352,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 441,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 441
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4781,
+ "output_tokens": 352,
+ "thinking_tokens": 0,
+ "latency_ms": 3891,
+ "wall_ms": 7278,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879328.7536016
+}

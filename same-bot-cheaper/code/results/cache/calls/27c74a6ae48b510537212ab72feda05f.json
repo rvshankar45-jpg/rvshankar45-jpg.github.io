@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! \ud83c\udf3f I know it's a little nerve-wracking waiting to see your new plants on the move, so let me help.\n\n**How long tracking takes to update**\n- Tracking is emailed to you when your order ships, and it can take **up to 24 hours** to start showing updates. So if your link is empty right now, that's often completely normal.\n\n**What to do if it still doesn't move**\n- If tracking hasn't moved for **4 business days**, or it says delivered but nothing has arrived, please contact us.\n- We'll then open a courier investigation, which takes **up to 5 business days**.\n- If the parcel turns out to be lost, you can choose either a **free replacement** or a **full refund**.\n\n**One more thing to check**\n- Live plants only ship **Monday to Wednesday**. If you ordered a plant after 12 noon on Wednesday, it will ship the following Monday, so tracking won't appear until then.\n- In extreme weather (forecast below 35\u00b0F or above 95\u00b0F), live plants may be held for up to 7 days, and we'd have emailed you about it.\n\nIf you share your order number (it looks like LF-123456), I can help figure out which of these applies. Please don't send any card details or passwords.\n\nThanks for your patience, and please reach out anytime. Happy plant parenting! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 435,
+  "cache_read_input_tokens": 1954,
+  "output_tokens": 437,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 435,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 437,
+    "cache_read_input_tokens": 1954,
+    "cache_creation_input_tokens": 435,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 435
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2391,
+ "output_tokens": 437,
+ "thinking_tokens": 0,
+ "latency_ms": 4333,
+ "wall_ms": 7674,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879872.4420009
+}

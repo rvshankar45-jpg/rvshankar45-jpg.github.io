@@ -1,0 +1,50 @@
+{
+ "text": "No, they can't be stacked. A promo code can't be combined with Leafy Plus member pricing (the 10% off pots and accessories) on the same item. If both apply, the system automatically gives you whichever discount is better, so you don't need to choose.\n\nA couple of related points:\n- Only one promo code can be used per order.\n- Promo codes can't be added after an order is placed, so if you're planning to use one, apply it at checkout.\n\nIf your promo code is on a different item in the same order, such as a plant, it can still apply to that item. The restriction is only on combining the two discounts on the same item.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 435,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 189,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 435,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 189,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 435,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 435
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4293,
+ "output_tokens": 189,
+ "thinking_tokens": 0,
+ "latency_ms": 3004,
+ "wall_ms": 6487,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005750.5849347
+}

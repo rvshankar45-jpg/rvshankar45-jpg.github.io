@@ -1,0 +1,252 @@
+[
+ {
+  "query": "How long do I have to cancel an order after placing it?",
+  "reference_answer": "You can change or cancel free within 2 hours of ordering, from \"My Orders\".",
+  "category": "orders"
+ },
+ {
+  "query": "what does an order number look like? i can't find mine",
+  "reference_answer": "Order numbers are \"LF-\" followed by six digits, e.g. LF-204518.",
+  "category": "orders"
+ },
+ {
+  "query": "Can I change the shipping address after my order has shipped?",
+  "reference_answer": "No. The address can't be changed after shipping, and couriers don't accept redirection requests from Leafy.",
+  "category": "orders"
+ },
+ {
+  "query": "I'm 16, can I make an account?",
+  "reference_answer": "No. Customers must be 18 or older to hold an account.",
+  "category": "account"
+ },
+ {
+  "query": "Do gift notes cost extra? How long can they be?",
+  "reference_answer": "Gift notes are free and printed, up to 200 characters. Prices are never printed on gift packing slips.",
+  "category": "orders"
+ },
+ {
+  "query": "Do plants come in decorative pots?",
+  "reference_answer": "Plants ship in plastic nursery pots with drainage holes. Decorative pots are sold separately unless the listing says \"potted\".",
+  "category": "orders"
+ },
+ {
+  "query": "How many days do I have to return a pot?",
+  "reference_answer": "Non-living items like pots can be returned within 30 days of delivery, unused and in original packaging.",
+  "category": "returns"
+ },
+ {
+  "query": "Can I send back a plant because I changed my mind?",
+  "reference_answer": "No. Live plants can't be returned for change of mind. Plant problems go through the Plant Care Guarantee or Damaged on Arrival.",
+  "category": "returns"
+ },
+ {
+  "query": "How long is the return label valid?",
+  "reference_answer": "Prepaid return labels expire after 7 days, so drop the parcel off within 7 days.",
+  "category": "returns"
+ },
+ {
+  "query": "What's the fee if I return something just because I don't like it?",
+  "reference_answer": "Change-of-mind returns cost a flat $6.95, deducted from the refund. It's free for Leafy Plus members.",
+  "category": "returns"
+ },
+ {
+  "query": "Can I return an opened bag of potting soil?",
+  "reference_answer": "Not unless it's faulty. Opened soil or fertiliser can't be returned otherwise.",
+  "category": "returns"
+ },
+ {
+  "query": "Can I swap my pot for a bigger one directly?",
+  "reference_answer": "No direct exchanges. Return the item and place a new order.",
+  "category": "returns"
+ },
+ {
+  "query": "How fast do refunds come after you get my return?",
+  "reference_answer": "Refunds are issued within 5 business days of the return reaching our warehouse, to the original payment method.",
+  "category": "refunds"
+ },
+ {
+  "query": "how much is standard shipping?",
+  "reference_answer": "Standard is $7.95, free on orders of $75 or more (after discounts, before tax).",
+  "category": "shipping"
+ },
+ {
+  "query": "Is express shipping free with Leafy Plus?",
+  "reference_answer": "No. Express is $14.95 and never free, including for Leafy Plus members.",
+  "category": "shipping"
+ },
+ {
+  "query": "What days do live plants ship?",
+  "reference_answer": "Live plants ship Monday to Wednesday only. Plant orders placed after 12 noon Wednesday ship the next Monday.",
+  "category": "shipping"
+ },
+ {
+  "query": "Extra charge for a really tall plant?",
+  "reference_answer": "XL plants (usually over 4 ft) add a $20 handling fee and ship Standard only.",
+  "category": "shipping"
+ },
+ {
+  "query": "Do you ship to Canada?",
+  "reference_answer": "No. Leafy does not ship internationally.",
+  "category": "shipping"
+ },
+ {
+  "query": "Can I send a plant to a PO box?",
+  "reference_answer": "No. PO boxes are for non-living items only; live plants can't go to PO boxes.",
+  "category": "shipping"
+ },
+ {
+  "query": "My tracking hasn't updated in 4 business days. What now?",
+  "reference_answer": "Contact support. We'll open a courier investigation of up to 5 business days. If lost, you choose a free replacement or a full refund.",
+  "category": "shipping"
+ },
+ {
+  "query": "How long is the plant guarantee?",
+  "reference_answer": "30 days from delivery, or 90 days for Leafy Plus members on plants ordered while the membership is active.",
+  "category": "guarantee"
+ },
+ {
+  "query": "Do I need to mail back my dead plant to claim the guarantee?",
+  "reference_answer": "No. The plant doesn't need to be sent back. Claim from \"My Orders\" with at least two photos (whole plant and close-up).",
+  "category": "guarantee"
+ },
+ {
+  "query": "One of my plant's older leaves went yellow after a week. Is that covered?",
+  "reference_answer": "Not on its own. Yellowing of one or two older leaves in the first two weeks is normal transplant stress.",
+  "category": "guarantee"
+ },
+ {
+  "query": "How long until a specialist reviews my guarantee claim?",
+  "reference_answer": "A Plant Care Specialist reviews within 2 business days.",
+  "category": "guarantee"
+ },
+ {
+  "query": "How long do I have to report a plant that arrived with a snapped stem?",
+  "reference_answer": "Within 48 hours of delivery, with photos of the item and the box.",
+  "category": "damaged"
+ },
+ {
+  "query": "Is a few loose soil and some bent leaves considered damage?",
+  "reference_answer": "No. A few bent leaves or loose soil is normal and not damage.",
+  "category": "damaged"
+ },
+ {
+  "query": "You sent me the wrong plant. Do I have to send it back?",
+  "reference_answer": "No. A wrong live plant can be kept at no charge, and we ship the correct item free by Express where the zone allows.",
+  "category": "damaged"
+ },
+ {
+  "query": "My $25 pot arrived cracked. Do I need to return it?",
+  "reference_answer": "Items under $40 usually don't need to be sent back. You'll get a replacement or refund; report within 48 hours with photos.",
+  "category": "damaged"
+ },
+ {
+  "query": "What payment methods do you take? Can I pay by bank transfer?",
+  "reference_answer": "Credit and debit cards, digital wallets at checkout, and Leafy gift cards. No cash, cheques or bank transfers. Buy-now-pay-later is available on $50\u2013$1,000 orders.",
+  "category": "payments"
+ },
+ {
+  "query": "When is my card actually charged?",
+  "reference_answer": "Cards are authorised at checkout and charged when the order ships.",
+  "category": "payments"
+ },
+ {
+  "query": "I cancelled my order but there's still a pending charge. When will it go away?",
+  "reference_answer": "A pending authorisation on a cancelled order drops off in 3\u20137 business days depending on the bank. Leafy can't release it faster.",
+  "category": "payments"
+ },
+ {
+  "query": "Can you refund me to a different card than I paid with?",
+  "reference_answer": "No. Refunds go only to the original payment method. Alternatively you can take Leafy store credit, issued instantly.",
+  "category": "refunds"
+ },
+ {
+  "query": "How long does a refund take to hit a digital wallet?",
+  "reference_answer": "Digital wallet refunds take 3\u20135 business days (cards 5\u201310 business days, store credit instant).",
+  "category": "refunds"
+ },
+ {
+  "query": "The price dropped 3 days after I bought. Can I get the difference?",
+  "reference_answer": "Yes, within 7 days of purchase the difference is given as store credit, once per item, excluding flash sales and clearance.",
+  "category": "refunds"
+ },
+ {
+  "query": "Can I use two promo codes on one order?",
+  "reference_answer": "No. One promo code per order, and it can't be added after ordering.",
+  "category": "payments"
+ },
+ {
+  "query": "Do gift cards expire? Can I cash one out?",
+  "reference_answer": "Gift cards ($25\u2013$500) never expire and are not refundable for cash.",
+  "category": "payments"
+ },
+ {
+  "query": "How much is the Collector plan?",
+  "reference_answer": "Collector is $49/month (medium or rare plant, 6-inch pot).",
+  "category": "subscriptions"
+ },
+ {
+  "query": "When does Plant Club bill me?",
+  "reference_answer": "On the 25th of the previous month; boxes ship in the first full week of the month.",
+  "category": "subscriptions"
+ },
+ {
+  "query": "Can I pick which plant I get in Plant Club?",
+  "reference_answer": "No, it's a surprise, but you can list up to 3 plants you own to avoid duplicates.",
+  "category": "subscriptions"
+ },
+ {
+  "query": "Is there a fee to cancel Plant Club?",
+  "reference_answer": "No cancellation fee or minimum term. An already-billed box is not refunded and is still sent.",
+  "category": "subscriptions"
+ },
+ {
+  "query": "How long can I pause my subscription?",
+  "reference_answer": "Up to 3 months, from \"Account\" > \"Subscriptions\".",
+  "category": "subscriptions"
+ },
+ {
+  "query": "What does Leafy Plus cost and what do I get?",
+  "reference_answer": "$59/year, auto-renews: free Standard shipping with no minimum, free change-of-mind returns, 90-day guarantee, 10% off pots and accessories, early access to rare drops. No free Express.",
+  "category": "membership"
+ },
+ {
+  "query": "I just joined Leafy Plus yesterday and haven't used anything. Can I get a refund?",
+  "reference_answer": "Yes. A full refund is available if cancelled within 14 days of purchase or renewal and no benefits have been used.",
+  "category": "membership"
+ },
+ {
+  "query": "Do you have a phone number I can call?",
+  "reference_answer": "No phone support. Use chat (8am\u20138pm Mon\u2013Sat) or email help@leafy.example (answered within 1 business day).",
+  "category": "contact"
+ },
+ {
+  "query": "When are the plant specialists available on chat?",
+  "reference_answer": "9am\u20135pm Mon\u2013Fri, in your local time. Anyone can get free care advice by chat or email.",
+  "category": "contact"
+ },
+ {
+  "query": "My dog chewed a pothos leaf!",
+  "reference_answer": "Contact your vet or local poison control immediately. Pothos is not pet-safe. We'll then escalate to a Support Lead.",
+  "category": "escalation"
+ },
+ {
+  "query": "What's the most you can give me as goodwill credit for a late delivery?",
+  "reference_answer": "Agents can offer a one-time store credit of up to $15; more needs a Support Lead. Goodwill is never cash.",
+  "category": "contact"
+ },
+ {
+  "query": "Can you change the email on my account for me?",
+  "reference_answer": "No. Support can't change an account email over chat; you change it yourself after logging in.",
+  "category": "account"
+ },
+ {
+  "query": "Is a calathea safe for cats?",
+  "reference_answer": "Yes, calathea is on the pet-safe list (along with spider plant, parlour palm, Boston fern, peperomia).",
+  "category": "plant_safety"
+ },
+ {
+  "query": "When can I repot my new plant, and how often should I water?",
+  "reference_answer": "Don't repot for 2\u20133 weeks, and keep out of direct sun the first week. Water only when the top inch of soil is dry.",
+  "category": "plant_safety"
+ }
+]

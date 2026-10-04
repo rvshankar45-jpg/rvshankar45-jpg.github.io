@@ -1,0 +1,50 @@
+{
+ "text": "No, not with the promo applied. Free Standard shipping requires $75 or more after discounts (before tax), and your total of $70 falls $5 short, so Standard shipping would be $7.95. Adding $5 or more of items, so the discounted total reaches $75, would qualify you for free shipping. Leafy Plus members ($59/year) get free Standard shipping with no minimum, but that only makes sense if you'll use the other benefits too.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 443,
+  "cache_read_input_tokens": 1797,
+  "output_tokens": 237,
+  "output_tokens_details": {
+   "thinking_tokens": 92
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 443,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 237,
+    "cache_read_input_tokens": 1797,
+    "cache_creation_input_tokens": 443,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 443
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2242,
+ "output_tokens": 237,
+ "thinking_tokens": 92,
+ "latency_ms": 3198,
+ "wall_ms": 6074,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791007262.3822026
+}

@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thanks for reaching out to Leafy! \ud83c\udf3f\n\nUnfortunately, **Express shipping isn't available for island addresses**. Island and remote addresses fall into our Zone 3, and Express isn't offered there.\n\nHere's what you can choose instead:\n\n- **Standard shipping:** 5-8 business days\n- **Cost:** $7.95, or free on orders of $75 or more (after discounts, before tax)\n- **XL plants** (usually over 4 ft) also ship Standard only, with a $20 handling fee\n\nA couple of other things that may help with planning:\n\n- Live plants ship Monday to Wednesday only. Orders placed after 12 noon on Wednesday ship the following Monday.\n- If the forecast for transit is below 35\u00b0F or above 95\u00b0F, live plants may be held for up to 7 days, and we'll email you about it.\n- Live plants can't be shipped to PO boxes.\n\nIf you have any other questions about your order or a particular plant, just let me know. Happy planting! \ud83e\udeb4",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 5102,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 334,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 5102,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 334,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 5102,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 5102
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 5104,
+ "output_tokens": 334,
+ "thinking_tokens": 0,
+ "latency_ms": 2955,
+ "wall_ms": 8223,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790786980.197433
+}

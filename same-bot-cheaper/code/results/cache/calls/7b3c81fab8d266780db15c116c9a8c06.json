@@ -1,0 +1,50 @@
+{
+ "text": "**Please contact a veterinarian or poison control immediately** \u2014 this is urgent and outside my support scope.\n\nPothos is **toxic to dogs**. Call your vet right away, or if it's after hours, contact an animal poison control center (like ASPCA Animal Poison Control Center in the US: 888-426-4435). They'll advise based on how much your dog ate and any symptoms.\n\nOnce your dog is safe, I'm here to help with any Leafy order or plant care questions.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1158,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 116,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1158,
+    "output_tokens": 116,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1158,
+ "output_tokens": 116,
+ "thinking_tokens": 0,
+ "latency_ms": 2039,
+ "wall_ms": 5423,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791100415.2679245
+}

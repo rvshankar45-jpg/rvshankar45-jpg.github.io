@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry your order has stalled. Since tracking hasn't moved in 5 business days, you're past our 4-business-day threshold, so please contact support now to get a courier investigation opened.\n\n**What happens next:**\n- We open a courier investigation, which takes up to **5 business days**.\n- If the package is found to be lost, you choose either a **free replacement** or a **full refund**.\n\n**To get started:** reach us by chat (8am-8pm Mon-Sat, your local time) or email help@leafy.example (answered within 1 business day). Please have your order number ready (it looks like LF-123456). Since I can't see order details here, that's the quickest way for the team to open the investigation.\n\nOne note: tracking can take up to 24 hours to update after shipping, but at 5 business days of no movement, that no longer applies.\n\nIs there anything else about the order I can help with?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 435,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 280,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 435,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 280,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 435,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 435
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4293,
+ "output_tokens": 280,
+ "thinking_tokens": 0,
+ "latency_ms": 3275,
+ "wall_ms": 8460,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005699.1547294
+}

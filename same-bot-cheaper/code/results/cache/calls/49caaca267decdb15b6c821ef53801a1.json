@@ -1,0 +1,50 @@
+{
+ "text": "You have **48 hours (2 days) from delivery** to report a plant that arrived damaged.\n\n**Damaged on Arrival (within 48 hours of delivery)**\n- This covers snapped main stems, a cracked or smashed pot, exposed roots, or a dead or severely wilted plant. A few bent leaves or loose soil is normal and doesn't count.\n- Send photos of the plant and the box.\n- We'll send a free replacement on the next plant shipping day (plants ship Monday to Wednesday), or you can take a refund.\n- If you waived a weather hold, DOA claims for cold or heat damage in transit aren't accepted.\n\n**After 48 hours**\n- The issue goes through the Plant Care Guarantee instead. You have **30 days from delivery**, or **90 days** if you're a Leafy Plus member and the plant was ordered while your membership was active.\n- Claim from \"My Orders\" with at least two photos (the whole plant and a close-up). A Plant Care Specialist reviews it within 2 business days, and you don't need to send the plant back.\n- The guarantee covers plants that die or decline significantly despite reasonable care, with one free replacement.\n\nIf you tell me when your plant was delivered, I can point you to the right route.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 429,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 557,
+  "output_tokens_details": {
+   "thinking_tokens": 148
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 429,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 557,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 429,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 429
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4287,
+ "output_tokens": 557,
+ "thinking_tokens": 148,
+ "latency_ms": 4265,
+ "wall_ms": 7176,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005529.6595283
+}

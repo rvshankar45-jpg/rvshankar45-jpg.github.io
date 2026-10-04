@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! I'm Fern, and I'm happy to help you sort this out.\n\nSince your order was placed 3 hours ago, it's past the 2-hour window for free changes from \"My Orders.\" Here's where each of your three requests stands:\n\n**1. Changing the delivery address**\n- Once an order is in the packing queue, it can't be changed online.\n- Support can try to intercept the order before it ships, but this isn't guaranteed.\n- If it has already shipped, the address can't be changed, and couriers don't accept redirection requests from Leafy.\n\n**2. Adding another plant**\n- Items can't be added to an order after the 2-hour window.\n- The best option is to place a separate new order for the extra plant.\n- Plants ship Monday to Wednesday only, so ordering soon gives you the best chance of it shipping this week.\n- Free Standard shipping applies on orders of $75 or more, so a separate order may carry its own shipping cost if it's under that.\n\n**3. Using the promo code**\n- Promo codes can't be added after an order has been placed, and only one is allowed per order.\n- If you place a new order for the extra plant, you could use your code on that one.\n\n**What I'd suggest next:**\n- If the address change is urgent, please reach out to our chat team (8am to 8pm Mon to Sat, your local time) or email help@leafy.example (answered within 1 business day) with your order number (it looks like LF-123456) and the new address, so they can try to intercept the order. Since there's no guarantee, it's worth checking with them quickly.\n- If you'd like, I can also escalate this to a Support Lead to look at whether anything more can be done.\n\nI know it's frustrating to remember these details just after ordering. Please let me know if you'd like me to escalate, and thanks again for choosing Leafy! \ud83c\udf3f",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 454,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 600,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 454,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 600,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 454,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 454
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4794,
+ "output_tokens": 600,
+ "thinking_tokens": 0,
+ "latency_ms": 5851,
+ "wall_ms": 9513,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879409.2744966
+}

@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry the package arrived in that state. A cracked pot counts as damage on arrival, and since you're within the 48-hour reporting window (you're at about 20 hours), you're covered.\n\nPlease report it with photos of the damaged pot and the box. Once reported, you can choose a free replacement on the next plant shipping day, or a refund. Loose soil on its own is considered normal, but the cracked pot is what qualifies this.\n\nIf you'd like to keep the plant you have, I can't say from the policy whether a partial option exists, so I can escalate that to a Support Lead.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 458,
+  "cache_read_input_tokens": 1046,
+  "output_tokens": 188,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 458,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 188,
+    "cache_read_input_tokens": 1046,
+    "cache_creation_input_tokens": 458,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 458
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1506,
+ "output_tokens": 188,
+ "thinking_tokens": 0,
+ "latency_ms": 2725,
+ "wall_ms": 5978,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100821.8967042
+}

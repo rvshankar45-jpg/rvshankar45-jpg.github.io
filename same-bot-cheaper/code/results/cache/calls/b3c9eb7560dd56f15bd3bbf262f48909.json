@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for reaching out to Leafy! I'm sorry your monstera arrived with yellow leaves and that you're seeing a double charge. Let me take each part in turn.\n\n**1. Yellow leaves on your monstera**\n\n- If your plant was delivered within the last **48 hours**, please send us photos of the plant and the box so we can take a look.\n- Our arrival-damage policy covers snapped main stems, a cracked or smashed pot, exposed roots, or a dead or severely wilted plant. Yellow leaves alone aren't on that list, so I can't promise a replacement, but the photos will let the team assess it properly.\n- If it's been more than 48 hours, plant issues go through our Plant Care Guarantee. I don't have the full details of that here, but I can escalate it for you.\n- In the meantime, keep your monstera out of direct sun for its first week, and don't repot for 2-3 weeks. Most early problems come from overwatering, so water only when the top inch of soil is dry.\n\n**2. Being charged twice**\n\n- First, check whether one of the charges is a **pending authorisation**. Cards are authorised at checkout and charged when the order ships, and an order sent in several parcels can show one charge per parcel.\n- If both charges have fully posted, send me your **order number** and the **last four digits** of the card. Please don't send the full card number or security code.\n- Once we confirm the duplicate, it will be refunded within **3 business days**.\n\n**3. Refund to a different card**\n\nI'm sorry, but refunds can only go back to the **original payment method**, never to a different card. There are two options:\n\n- **Original card:** if it has been closed or replaced, the bank normally passes the refund on to your new card. Refunds take **5-10 business days** for cards, or **3-5 business days** for digital wallets.\n- **Leafy store credit:** issued instantly and never expires.\n\nIf neither option works for you, let me know and I can pass your request to a Support Lead. I can't promise an exception, but they can review it.\n\nCould you tell me your order number, roughly when the plant was delivered, and whether both charges have posted? I'll help you from there. Thanks for your patience, and we'll do our best to get your monstera thriving! \ud83c\udf3f",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2493,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1316,
+  "output_tokens_details": {
+   "thinking_tokens": 587
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2493,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1316,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2493,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2493
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2495,
+ "output_tokens": 1316,
+ "thinking_tokens": 587,
+ "latency_ms": 10585,
+ "wall_ms": 14678,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790787170.684073
+}

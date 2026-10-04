@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry your plant is struggling. The standard guarantee runs **30 days** from delivery, so at 35 days a claim isn't covered unless you're a **Leafy Plus member**. Plus members get **90 days** on plants ordered while their membership was active.\n\nIf you were a Plus member when you ordered, you can claim from \"My Orders\" with at least two photos (whole plant and close-up). A Plant Care Specialist will review it within **2 business days**, and you don't need to send the plant back.\n\nIf you weren't a Plus member, the policy doesn't cover a claim, but a Plant Care Specialist can give you free care advice by chat or email to try to save it. Were you a Plus member when you placed the order?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 446,
+  "cache_read_input_tokens": 1271,
+  "output_tokens": 388,
+  "output_tokens_details": {
+   "thinking_tokens": 156
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 446,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 388,
+    "cache_read_input_tokens": 1271,
+    "cache_creation_input_tokens": 446,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 446
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1719,
+ "output_tokens": 388,
+ "thinking_tokens": 156,
+ "latency_ms": 3851,
+ "wall_ms": 7211,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100492.1018534
+}

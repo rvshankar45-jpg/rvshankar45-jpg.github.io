@@ -1,0 +1,148 @@
+{
+ "items": [
+  {
+   "answer_id": "t144#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate, covers care tips and claim route."
+  },
+  {
+   "answer_id": "t144#2",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct; slightly muddled wording and omits care tips, but asks useful follow-up."
+  },
+  {
+   "answer_id": "t145#1",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct; offering escalation is slightly unneeded but harmless."
+  },
+  {
+   "answer_id": "t145#2",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Invents a rationale for the exclusion. Implies eligibility after day 14 despite the non-Leafy soil exclusion, which is misleading."
+  },
+  {
+   "answer_id": "t146#1",
+   "correctness": 2,
+   "completeness": 3,
+   "policy": 4,
+   "tone": 3,
+   "score": 2,
+   "note": "Opens with a flat 'no', which contradicts the policy it then states. Confusing."
+  },
+  {
+   "answer_id": "t146#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct yes, with the second replacement caveat and process."
+  },
+  {
+   "answer_id": "t147#1",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 5,
+   "score": 3,
+   "note": "Correct safety advice first, but fails to escalate to a Support Lead as the rules require."
+  },
+  {
+   "answer_id": "t147#2",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 4,
+   "score": 3,
+   "note": "Safety advice first, but no escalation. Adds a poison control number not in the knowledge base."
+  },
+  {
+   "answer_id": "t148#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct on all three plants."
+  },
+  {
+   "answer_id": "t148#2",
+   "correctness": 1,
+   "completeness": 2,
+   "policy": 2,
+   "tone": 3,
+   "score": 1,
+   "note": "Wrongly says spider plant is not pet-safe."
+  },
+  {
+   "answer_id": "t149#1",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Right on DOA and the window. Offers a replacement pot or refund rather than the next-plant-shipping-day replacement, and says it can process right away. Minor issues."
+  },
+  {
+   "answer_id": "t149#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate and honest; offers to escalate on the keep-the-plant question."
+  },
+  {
+   "answer_id": "t150#1",
+   "correctness": 1,
+   "completeness": 2,
+   "policy": 2,
+   "tone": 3,
+   "score": 1,
+   "note": "Wrongly says the 48-hour window is still open. 3 days is past it."
+  },
+  {
+   "answer_id": "t150#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, with the guarantee route and no overpromising."
+  },
+  {
+   "answer_id": "t151#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and complete."
+  },
+  {
+   "answer_id": "t151#2",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct; omits the guarantee follow-up."
+  }
+ ]
+}

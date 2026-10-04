@@ -1,0 +1,50 @@
+{
+ "text": "Unfortunately, you can't get a refund. Leafy Plus is only fully refundable if you cancel within 14 days of purchase *and* haven't used any benefits, and using the free shipping counts as a benefit.\n\nYou can still cancel to stop auto-renewal. Your benefits would then continue until the end of your paid year, though you wouldn't be refunded for the $59. If you'd like, I can escalate your situation to a Support Lead, but I can't promise a different outcome.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 452,
+  "cache_read_input_tokens": 1579,
+  "output_tokens": 327,
+  "output_tokens_details": {
+   "thinking_tokens": 170
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 452,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 327,
+    "cache_read_input_tokens": 1579,
+    "cache_creation_input_tokens": 452,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 452
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2033,
+ "output_tokens": 327,
+ "thinking_tokens": 170,
+ "latency_ms": 3318,
+ "wall_ms": 6176,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005212.5096447
+}

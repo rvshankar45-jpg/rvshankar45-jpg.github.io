@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! \ud83c\udf3f\n\nPlant Club boxes ship in the **first full week of each month**.\n\nHere's how the timing works:\n- You're charged on the **25th of the previous month**. For example, the box that ships in the first full week of November is billed on October 25th.\n- If you skip, pause, change your plan, or cancel **before the 25th**, it affects your next box. If you do it **on or after the 25th**, the change applies to the following month's box.\n- You can make these changes anytime under \"Account\" > \"Subscriptions\".\n\nPlease note that a box that has already been billed isn't refunded if you cancel, and it will still be sent.\n\nIs there anything else I can help you with? We're always happy to chat, so please reach out any time! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 426,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 249,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 426,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 249,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 426,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 426
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4766,
+ "output_tokens": 249,
+ "thinking_tokens": 0,
+ "latency_ms": 3738,
+ "wall_ms": 9236,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790868648.9412093
+}

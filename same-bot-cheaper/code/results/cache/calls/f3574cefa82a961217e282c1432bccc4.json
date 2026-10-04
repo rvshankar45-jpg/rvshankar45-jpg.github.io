@@ -1,0 +1,50 @@
+{
+ "text": "Yes, you can pause your Plant Club subscription for up to 3 months. Go to \"Account\" > \"Subscriptions\" and choose pause. There's no cancellation fee or minimum term.\n\nTiming matters: if you pause before the 25th, it affects your next box. If you pause on or after the 25th, it applies to the following month's box. Since boxes are billed on the 25th of the previous month, a box already billed will still be sent and isn't refunded.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1662,
+  "output_tokens": 147,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 147,
+    "cache_read_input_tokens": 1662,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1664,
+ "output_tokens": 147,
+ "thinking_tokens": 0,
+ "latency_ms": 4502,
+ "wall_ms": 7547,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791007209.4984856
+}

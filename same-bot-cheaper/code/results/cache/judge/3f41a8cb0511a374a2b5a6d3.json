@@ -1,0 +1,319 @@
+{
+ "items": [
+  {
+   "answer_id": "q021#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct. Offering to escalate to a Support Lead for an intercept is a slight stretch of the rules."
+  },
+  {
+   "answer_id": "q021#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate and concise, with a sensible next step."
+  },
+  {
+   "answer_id": "q021#3",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct. It doesn't say shipped orders can't be cancelled, and the emojis and chatter are a bit much."
+  },
+  {
+   "answer_id": "q021#4",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and clear. It leaves out that shipped orders can't be cancelled, which is minor."
+  },
+  {
+   "answer_id": "q021#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct. The pending-charge detail is accurate but wasn't asked for."
+  },
+  {
+   "answer_id": "q021#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct, and the contact details match the knowledge base."
+  },
+  {
+   "answer_id": "q021#7",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct. Escalating to a Support Lead for an intercept is slightly beyond the stated rules."
+  },
+  {
+   "answer_id": "q021#8",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct. It's chatty and leaves out that shipped orders can't be cancelled."
+  },
+  {
+   "answer_id": "q021#9",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and well structured."
+  },
+  {
+   "answer_id": "q021#10",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct. It's a little long, but the extra details are accurate."
+  },
+  {
+   "answer_id": "q022#1",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "q022#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, with useful detail on mixed orders."
+  },
+  {
+   "answer_id": "q022#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct, and a bit long."
+  },
+  {
+   "answer_id": "q022#4",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct on the main point. The comment about splitting orders is hedgy and unnecessary."
+  },
+  {
+   "answer_id": "q022#5",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct but brief. It doesn't mention mixed orders."
+  },
+  {
+   "answer_id": "q022#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "q022#7",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "q022#8",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct and friendly."
+  },
+  {
+   "answer_id": "q023#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct. It adds relevant extras but is somewhat long."
+  },
+  {
+   "answer_id": "q023#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "q023#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, and the note about the Monday\u2013Wednesday plant shipping days is useful."
+  },
+  {
+   "answer_id": "q023#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, and the Express price is right."
+  },
+  {
+   "answer_id": "q023#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct. The heading is slightly odd for a chat reply."
+  },
+  {
+   "answer_id": "q023#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q023#7",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q023#8",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, and the shipping-day note is useful."
+  },
+  {
+   "answer_id": "q024#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "q024#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct, if a little long."
+  },
+  {
+   "answer_id": "q024#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct, if a little long."
+  },
+  {
+   "answer_id": "q024#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, including the Leafy Plus free Standard shipping detail."
+  },
+  {
+   "answer_id": "q024#5",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and brief."
+  },
+  {
+   "answer_id": "q024#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "q024#7",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q024#8",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q024#9",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  }
+ ]
+}

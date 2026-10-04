@@ -1,0 +1,50 @@
+{
+ "text": "Thanks for sticking with this. Here's the timeline for a refund to the original card (ending 7712):\n\n1. **Confirmation:** I don't have a policy timeframe for this step. It depends on first ruling out the multi-parcel case.\n2. **Refund issued:** within 3 business days of confirmation.\n3. **Showing on your account:** 5-10 business days after it's issued for a card, or 3-5 business days for a digital wallet.\n\nSo once the duplicate is confirmed, the $64.50 should show up roughly 8-13 business days later for a card. Since that card is closed, it depends on your bank passing the refund to your replacement card. I don't have details on how long that takes at each bank, so your bank can tell you.\n\nTo start the confirmation, I still need to know whether order LF-381204 arrived as **one package or more than one**. If it was two, the two charges are likely one per parcel and there may be no duplicate.\n\nIf you'd rather not wait, Leafy store credit is issued instantly and never expires. I can also escalate this to a Support Lead if you'd like.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1390,
+  "cache_read_input_tokens": 1764,
+  "output_tokens": 574,
+  "output_tokens_details": {
+   "thinking_tokens": 226
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1390,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 574,
+    "cache_read_input_tokens": 1764,
+    "cache_creation_input_tokens": 1390,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1390
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 3156,
+ "output_tokens": 574,
+ "thinking_tokens": 226,
+ "latency_ms": 4849,
+ "wall_ms": 8009,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004903.9474792
+}

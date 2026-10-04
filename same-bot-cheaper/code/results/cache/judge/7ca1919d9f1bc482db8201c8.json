@@ -1,0 +1,310 @@
+{
+ "items": [
+  {
+   "answer_id": "q097#1",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct exclusion, escalates, offers $15 goodwill. Slightly verbose; minor odd 'photos' list."
+  },
+  {
+   "answer_id": "q097#2",
+   "correctness": 5,
+   "completeness": 3,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct and offers escalation; omits goodwill credit."
+  },
+  {
+   "answer_id": "q097#3",
+   "correctness": 4,
+   "completeness": 3,
+   "policy": 3,
+   "tone": 4,
+   "score": 3,
+   "note": "Says no goodwill options exist, which is wrong ($15 goodwill allowed). Escalation offered."
+  },
+  {
+   "answer_id": "q097#4",
+   "correctness": 4,
+   "completeness": 3,
+   "policy": 3,
+   "tone": 3,
+   "score": 3,
+   "note": "Correct denial; no goodwill; speculates on hold never offered; typo 'a awful'."
+  },
+  {
+   "answer_id": "q097#5",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct, offers escalation; no goodwill mention."
+  },
+  {
+   "answer_id": "q097#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Matches reference: denial, escalation, $15 goodwill."
+  },
+  {
+   "answer_id": "q097#7",
+   "correctness": 4,
+   "completeness": 3,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct; escalation; no goodwill."
+  },
+  {
+   "answer_id": "q097#8",
+   "correctness": 4,
+   "completeness": 3,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct; escalation offered; no goodwill."
+  },
+  {
+   "answer_id": "q098#1",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct policy and escalation; claims follow-up by email, minor invention."
+  },
+  {
+   "answer_id": "q098#2",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct and escalates; unilaterally escalates, fine."
+  },
+  {
+   "answer_id": "q098#3",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Accurate, offers escalation."
+  },
+  {
+   "answer_id": "q098#4",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Accurate and concise, offers escalation."
+  },
+  {
+   "answer_id": "q098#5",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Accurate with useful DOA info and escalation."
+  },
+  {
+   "answer_id": "q098#6",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct; assumes Collector; escalation conditioned on error rather than insistence."
+  },
+  {
+   "answer_id": "q098#7",
+   "correctness": 1,
+   "completeness": 2,
+   "policy": 1,
+   "tone": 3,
+   "score": 1,
+   "note": "Invents refuse-delivery and return options contradicting live plant no-return policy."
+  },
+  {
+   "answer_id": "q098#8",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate, escalation offered, no card details."
+  },
+  {
+   "answer_id": "q098#9",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Accurate and concise with escalation offer."
+  },
+  {
+   "answer_id": "q099#1",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Good; long but correct."
+  },
+  {
+   "answer_id": "q099#2",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 4,
+   "score": 3,
+   "note": "Right steps but claims Support Lead can reverse the order, an unsupported promise."
+  },
+  {
+   "answer_id": "q099#3",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct and thorough, a bit long."
+  },
+  {
+   "answer_id": "q099#4",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Concise, correct, escalates."
+  },
+  {
+   "answer_id": "q099#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Complete and compliant."
+  },
+  {
+   "answer_id": "q099#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Complete, includes email check; compliant."
+  },
+  {
+   "answer_id": "q100#1",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct core facts; says no refund promise; slightly long."
+  },
+  {
+   "answer_id": "q100#2",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Accurate, escalation offered."
+  },
+  {
+   "answer_id": "q100#3",
+   "correctness": 2,
+   "completeness": 3,
+   "policy": 2,
+   "tone": 4,
+   "score": 2,
+   "note": "Suggests contacting courier to redirect and promises replacement/refund; contradicts policy."
+  },
+  {
+   "answer_id": "q100#4",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Accurate and offers escalation."
+  },
+  {
+   "answer_id": "q100#5",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Accurate and concise."
+  },
+  {
+   "answer_id": "q100#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Accurate, complete, escalation."
+  },
+  {
+   "answer_id": "q100#7",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Accurate and escalation offered."
+  },
+  {
+   "answer_id": "q100#8",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct; some extra detail, escalation offered."
+  },
+  {
+   "answer_id": "q100#9",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct core; long with tangential advice."
+  },
+  {
+   "answer_id": "q100#10",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Concise and accurate."
+  },
+  {
+   "answer_id": "q100#11",
+   "correctness": 2,
+   "completeness": 3,
+   "policy": 2,
+   "tone": 4,
+   "score": 2,
+   "note": "Core facts right but invents courier intercept/redelivery options."
+  }
+ ]
+}

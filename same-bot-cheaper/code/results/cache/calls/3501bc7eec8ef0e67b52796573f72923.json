@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry. Raising this three times without a fix is frustrating. Because it's your third contact on the same issue, and you're asking for something beyond the standard process, I'm escalating this to a Support Lead.\n\n**Your dead fiddle leaf fig**\n- **Standard remedy:** The Plant Care Guarantee covers 30 days from delivery, or 90 days for Leafy Plus members on plants ordered while the membership was active. It gives one free replacement of the same plant, or store credit if it's out of stock. It is not a cash refund.\n- **If it died within 48 hours of delivery:** that counts as Damaged on Arrival, and you can choose a replacement or a refund.\n- **Claim requirements:** A claim needs at least two photos, one of the whole plant and one close-up, submitted from \"My Orders\". A Plant Care Specialist reviews it within 2 business days, and you don't need to send the plant back.\n- **Refund request:** A refund outside those routes isn't something I can promise. The Support Lead can look at whether an exception is possible.\n\n**Cancelling Leafy Plus**\n- **Full refund:** You get one if you cancel within 14 days of purchase or renewal and haven't used any benefits.\n- **Otherwise:** There's no refund, but your benefits continue to the end of the paid year.\n- **How to cancel:** I don't have the exact cancellation steps in the information available to me, so I'll include this in the escalation rather than guess.\n\n**To help the Support Lead resolve this quickly, please reply with:**\n1. Your order number (LF- plus six digits)\n2. The delivery date of the fiddle leaf fig\n3. Whether you've already submitted a Plant Care Guarantee claim with photos\n4. When you purchased or last renewed Leafy Plus, and whether you've used any member benefits (free shipping, member pricing, early access)\n\nPlease don't send any card numbers or passwords. I can also offer a one-time store credit of up to $15 for the poor experience. Would you like that added to your case?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 475,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 1258,
+  "output_tokens_details": {
+   "thinking_tokens": 591
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 475,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1258,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 475,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 475
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4333,
+ "output_tokens": 1258,
+ "thinking_tokens": 591,
+ "latency_ms": 10006,
+ "wall_ms": 13088,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005789.277466
+}

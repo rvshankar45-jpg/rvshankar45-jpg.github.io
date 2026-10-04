@@ -1,0 +1,148 @@
+{
+ "items": [
+  {
+   "answer_id": "t040#1",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Gives the 2-hour free cancellation and the intercept caveat. Asks for details, which is reasonable."
+  },
+  {
+   "answer_id": "t040#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate and complete. The pending authorisation detail is correct."
+  },
+  {
+   "answer_id": "t041#1",
+   "correctness": 2,
+   "completeness": 2,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Wrongly says there is no policy on this. The KB says changes are not possible online after 2 hours, and support may intercept. It does offer to escalate."
+  },
+  {
+   "answer_id": "t041#2",
+   "correctness": 2,
+   "completeness": 1,
+   "policy": 3,
+   "tone": 3,
+   "score": 2,
+   "note": "Claims no policy knowledge and never states the 2-hour rule or the intercept option. The advice to use My Orders is unhelpful because the order can't be changed there."
+  },
+  {
+   "answer_id": "t042#1",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct core facts. The offer to look into options is vague and slightly implies a workaround."
+  },
+  {
+   "answer_id": "t042#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, honest about limits, offers escalation."
+  },
+  {
+   "answer_id": "t043#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "t043#2",
+   "correctness": 3,
+   "completeness": 5,
+   "policy": 2,
+   "tone": 4,
+   "score": 2,
+   "note": "Invents a rule that a parent or guardian can hold the account instead. The KB doesn't say this."
+  },
+  {
+   "answer_id": "t044#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Matches the reference."
+  },
+  {
+   "answer_id": "t044#2",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct core facts. The explanation that prices stay private so the recipient doesn't see them is a mild embellishment. The gift note being printed on the slip is not stated in the KB."
+  },
+  {
+   "answer_id": "t045#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "t045#2",
+   "correctness": 3,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Says the note won't appear on the packing slip. This is invented and likely wrong, since it's a printed note. The 200 characters and free are correct."
+  },
+  {
+   "answer_id": "t046#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "t046#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and helpful."
+  },
+  {
+   "answer_id": "t047#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate, includes next steps and an escalation offer."
+  },
+  {
+   "answer_id": "t047#2",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Mostly correct. Adds an unsupported 'shipped at no extra cost' for the substitute and says the refund goes to the original payment method, which is plausible but not stated for this case."
+  }
+ ]
+}

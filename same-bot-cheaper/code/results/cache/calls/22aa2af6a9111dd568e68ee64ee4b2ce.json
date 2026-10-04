@@ -1,0 +1,50 @@
+{
+ "text": "No, only one promo code can be used per order. A code also can't be added after the order has been placed, so make sure to enter the one you want at checkout.\n\nIf you're a Leafy Plus member, a promo code can't be combined with member pricing on the same item. The better discount is applied automatically.\n\nIf you'd like, I can help with anything else about your order.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 428,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 108,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 428,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 108,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 428,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 428
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4286,
+ "output_tokens": 108,
+ "thinking_tokens": 0,
+ "latency_ms": 2155,
+ "wall_ms": 5105,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005522.4819763
+}

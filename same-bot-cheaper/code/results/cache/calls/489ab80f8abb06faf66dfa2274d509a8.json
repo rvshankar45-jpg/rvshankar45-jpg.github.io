@@ -1,0 +1,50 @@
+{
+ "text": "I understand your frustration. Here's what happened: you cancelled on the 26th, which is **after the 25th billing date**, so the charge for that month's box had already gone through. Per our policy, an already-billed box isn't refunded on cancellation\u2014it's still sent to you.\n\nHowever, you have options:\n1. **Refuse the delivery** when it arrives\u2014it won't be sent to you.\n2. **Return it unused** once it arrives and request a refund (though this would be a change-of-mind return, which normally costs $6.95).\n\nTo explore what we can do for you given the timing, I'd like to escalate this to a Support Lead who may be able to help. Can you confirm: has the box shipped yet, or are you still expecting it?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1301,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 184,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1301,
+    "output_tokens": 184,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1301,
+ "output_tokens": 184,
+ "thinking_tokens": 0,
+ "latency_ms": 2750,
+ "wall_ms": 5447,
+ "overhead": 379,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791006888.7364066
+}

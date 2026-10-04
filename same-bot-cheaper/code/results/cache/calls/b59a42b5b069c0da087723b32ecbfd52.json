@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! I'm so sorry your ceramic pot showed up cracked. That's disappointing, especially when you were looking forward to using it.\n\n**Good news: you don't need to send it back.** A cracked pot counts as a damaged item on arrival, and since it's a non-living item under **$40**, we usually don't need it returned.\n\nHere's what to do next:\n- **Report it within 48 hours of delivery.** Since it arrived this morning, you're well within the window.\n- **Include photos** of the cracked pot and the box it came in.\n\nOnce it's reported, you can choose either:\n- a **replacement**, or\n- a **refund**\n\nI don't have details in my knowledge base on exactly where to submit the report or how long the refund or replacement takes to arrive, so I can't promise a specific timeframe there. If you'd like, I can escalate this to a Support Lead who can confirm those details for you.\n\nThanks again for your patience, and I hope your new pot arrives safe and sound. Please reach out anytime if you need anything else! \ud83c\udf3f",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 444,
+  "cache_read_input_tokens": 1803,
+  "output_tokens": 349,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 444,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 349,
+    "cache_read_input_tokens": 1803,
+    "cache_creation_input_tokens": 444,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 444
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2249,
+ "output_tokens": 349,
+ "thinking_tokens": 0,
+ "latency_ms": 3545,
+ "wall_ms": 6559,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880021.5793345
+}

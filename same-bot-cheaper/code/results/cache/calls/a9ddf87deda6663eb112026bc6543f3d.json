@@ -1,0 +1,50 @@
+{
+ "text": "Sorry your plant is struggling. It's likely covered: Leafy Plus members get a **90-day** guarantee from delivery, and at 60 days you're within it, provided you ordered the plant while your membership was active.\n\nIt qualifies if the plant is dying or declining significantly despite reasonable care, meaning it has lost more than a third of its leaves, has stem or root rot, or has collapsed. To claim, go to \"My Orders\" and submit **two photos** (the whole plant and a close-up). A Plant Care Specialist will review within **2 business days**, and you don't need to send the plant back. If approved, you get one free replacement of the same plant, or store credit if it's out of stock.\n\nClaims aren't covered for pests introduced after delivery, deliberate neglect, or repotting into non-Leafy soil in the first 14 days.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 446,
+  "cache_read_input_tokens": 1404,
+  "output_tokens": 406,
+  "output_tokens_details": {
+   "thinking_tokens": 133
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 446,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 406,
+    "cache_read_input_tokens": 1404,
+    "cache_creation_input_tokens": 446,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 446
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1852,
+ "output_tokens": 406,
+ "thinking_tokens": 133,
+ "latency_ms": 3799,
+ "wall_ms": 7050,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005279.371169
+}

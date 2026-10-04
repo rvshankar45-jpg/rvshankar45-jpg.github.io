@@ -1,0 +1,50 @@
+{
+ "text": "Great question! While plant care details aren't covered in my support policy excerpts, I can tell you that **calathea is a pet-safe plant** we carry at Leafy\u2014that's confirmed in our safety guide.\n\nFor specific light requirements, I'd recommend:\n1. Checking the **care card that ships with your plant** (every plant includes one)\n2. Contacting our Support Lead for detailed growing advice\u2014they can give you personalized guidance based on your home's conditions\n\nHappy to help once you've placed an order, or feel free to reach out if you have questions about shipping, returns, or our subscriptions!",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1386,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 140,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1386,
+    "output_tokens": 140,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1386,
+ "output_tokens": 140,
+ "thinking_tokens": 0,
+ "latency_ms": 2292,
+ "wall_ms": 6210,
+ "overhead": 379,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791006838.1160345
+}

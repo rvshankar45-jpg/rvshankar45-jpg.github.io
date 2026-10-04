@@ -1,0 +1,158 @@
+{
+ "items": [
+  {
+   "id": "q026",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q027",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q028",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q029",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q030",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q031",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q032",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q033",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q034",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q035",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q036",
+   "supported": false,
+   "answers_question": true,
+   "unsupported_claims": [
+    "Tracking updates within 24 hours 'after the label is created'; the KB says tracking is emailed on shipping and can take up to 24 hours to update, and says nothing about label creation."
+   ]
+  },
+  {
+   "id": "q037",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q038",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q039",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q040",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q041",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q042",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q043",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q044",
+   "supported": false,
+   "answers_question": true,
+   "unsupported_claims": [
+    "The customer must change the account email themselves after logging in; the KB only says support can't change an account email over chat."
+   ]
+  },
+  {
+   "id": "q045",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q046",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q047",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q048",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q049",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "q050",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  }
+ ]
+}

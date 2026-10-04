@@ -1,0 +1,50 @@
+{
+ "text": "I understand that's frustrating. Let me help you sort this out.\n\nFirst, can you check your bank app to see if one of the charges says \"pending\"? Pending authorisations drop off in **3\u20137 business days** automatically\u2014Leafy can't release them faster.\n\nIf **both charges have posted** (not pending), I can process a duplicate refund. Please reply with:\n- Your order number: **LF-310022** \u2713\n- The **last four digits of the card** used\n\nOnce I have that, the duplicate refunds within **3 business days** to your original card. Card refunds typically show in **5\u201310 business days** after that, depending on your bank.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1470,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 162,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1470,
+    "output_tokens": 162,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1470,
+ "output_tokens": 162,
+ "thinking_tokens": 0,
+ "latency_ms": 2669,
+ "wall_ms": 6228,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791101008.5739975
+}

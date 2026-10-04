@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! \ud83c\udf3f\n\n**Yes, it looks like you'd get the full $59 back.** Leafy Plus is fully refundable if you cancel within **14 days** of purchase or renewal **and** haven't used any member benefits. Since your renewal was 5 days ago and you haven't ordered anything since, you're well within the window, with about 9 days left.\n\n- **Benefits count as used if** you've had free Standard shipping, a free change-of-mind return, member pricing on pots or accessories, or a plant claim under the 90-day guarantee since renewing. If none of those apply, you're eligible.\n- **Refund timing:** the refund goes back to your original payment method. Once issued, cards take **5-10 business days** and digital wallets take **3-5 business days**.\n- **If you cancel after the 14 days,** there's no refund, though your benefits would continue to the end of the paid year.\n\nI don't have the exact steps for cancelling Leafy Plus in my knowledge base, so I don't want to point you to the wrong place. To be safe, you can email **help@leafy.example** (answered within 1 business day) or use chat (8am-8pm Mon-Sat, your local time). Please do that well before the 14 days are up.\n\nIs there anything else I can help with? We're always happy to hear from you. \ud83d\ude0a",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 460,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 826,
+  "output_tokens_details": {
+   "thinking_tokens": 387
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 460,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 826,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 460,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 460
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4800,
+ "output_tokens": 826,
+ "thinking_tokens": 387,
+ "latency_ms": 7143,
+ "wall_ms": 9814,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879193.0358684
+}

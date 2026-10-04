@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry. Chasing this three times with no answer is not acceptable, especially while your plant is declining. Since this is the third time you've raised it, I'm escalating it to a Support Lead.\n\n**What I need from you:** your order number (it looks like LF-123456) in this chat, so the Support Lead can find your claim and chase the review. Please don't send any card details or passwords.\n\n**What the Support Lead will be asked to do:**\n- Locate the claim you submitted last week and get it reviewed. Reviews should take **2 business days**, and yours is well past that.\n- Confirm that the claim was filed within your guarantee window, so the delay doesn't count against you.\n\nI can't see your claim's status from here, and I don't have a set timeframe for when a Support Lead will respond, so I won't guess. You can also email help@leafy.example with the same details and a note that this is your third follow-up. Email is answered within **1 business day**.\n\nThe one-time store credit of up to **$15** for the delayed reply is still available if you'd like it. It's store credit, not cash.\n\nPlease keep your photos, and keep the plant out of direct sun and water it only when the top inch of soil is dry while this is sorted out.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1507,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 625,
+  "output_tokens_details": {
+   "thinking_tokens": 238
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1507,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 625,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 1507,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1507
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 5365,
+ "output_tokens": 625,
+ "thinking_tokens": 238,
+ "latency_ms": 6185,
+ "wall_ms": 8671,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005984.7246213
+}

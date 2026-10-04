@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for reaching out to Leafy! \ud83c\udf3f\n\nI don't have information about a free-shipping minimum for standard orders, so I can't say whether your $70 total after the promo code qualifies. I'd rather not guess and have you surprised at checkout.\n\n- **Check at checkout:** your shipping cost should show on the checkout page before you pay, so you can see the final total first.\n- **Leafy Plus members:** Plus includes free Standard shipping with no minimum order. It's $59/year and auto-renews. It doesn't include free Express shipping.\n- **Promo codes and Plus:** a promo code can't be combined with Leafy Plus member pricing on the same item. The better discount applies automatically.\n\nIf you'd like a definite answer on free shipping for your cart, I can pass this to our team to confirm.\n\nIs there anything else I can help you with? Happy planting! \ud83e\udeb4",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2812,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 508,
+  "output_tokens_details": {
+   "thinking_tokens": 215
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2812,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 508,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2812,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2812
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2814,
+ "output_tokens": 508,
+ "thinking_tokens": 215,
+ "latency_ms": 4509,
+ "wall_ms": 9134,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790787165.1394265
+}

@@ -1,0 +1,50 @@
+{
+ "text": "No, only one promo code can be used per order. Codes also can't be added after the order is placed, so choose the one you want at checkout. If you're a Leafy Plus member, a promo code can't be combined with member pricing on the same item, and the better discount is applied automatically.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 428,
+  "cache_read_input_tokens": 1496,
+  "output_tokens": 160,
+  "output_tokens_details": {
+   "thinking_tokens": 74
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 428,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 160,
+    "cache_read_input_tokens": 1496,
+    "cache_creation_input_tokens": 428,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 428
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1926,
+ "output_tokens": 160,
+ "thinking_tokens": 74,
+ "latency_ms": 2491,
+ "wall_ms": 6794,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791007364.1233454
+}

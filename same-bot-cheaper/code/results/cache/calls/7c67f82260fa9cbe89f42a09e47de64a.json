@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry, having to write in three times about a dead plant is frustrating. I can't see your earlier messages, so I'll cover what I can here.\n\n**Refund for the fiddle leaf fig**\n- Under our policy, a live plant that dies or declines significantly despite reasonable care gets **one free replacement** of the same plant, or store credit if it's out of stock. Live plants can't be returned for a refund.\n- To claim, go to \"My Orders\" and submit **at least two photos** (the whole plant and a close-up) within your guarantee window. A Plant Care Specialist reviews claims within **2 business days**, and you don't need to send the plant back.\n- The window is **30 days from delivery**, or **90 days** for Leafy Plus members on plants ordered while the membership was active.\n- If the plant arrived damaged, there is a separate Damaged on Arrival process. I don't have its details here, but a Support Lead can advise.\n\n**Cancelling Leafy Plus**\nI don't have the membership cancellation steps in the policy information available to me, and it doesn't say whether cancelling affects the 90-day guarantee on plants you've already bought. If your plant is past day 30, I'd submit the guarantee claim **before** cancelling.\n\n**Escalation**\nA refund instead of a replacement is outside what the policy provides, and I can't promise an exception. Since this is your third contact, I can escalate it to a Support Lead to review the refund request, the membership cancellation, and how the guarantee window is affected. Would you like me to do that?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1596,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1011,
+  "output_tokens_details": {
+   "thinking_tokens": 509
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1596,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1011,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1596,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1596
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1598,
+ "output_tokens": 1011,
+ "thinking_tokens": 509,
+ "latency_ms": 8214,
+ "wall_ms": 11298,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004786.3085701
+}

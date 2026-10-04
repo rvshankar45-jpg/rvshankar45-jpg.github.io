@@ -1,0 +1,148 @@
+{
+ "items": [
+  {
+   "answer_id": "t136#1",
+   "correctness": 1,
+   "completeness": 2,
+   "policy": 4,
+   "tone": 4,
+   "score": 1,
+   "note": "Wrong zone (1,200 miles is Zone 3), so wrong delivery time; also says it ships next Monday, but Tuesday orders ship that week."
+  },
+  {
+   "answer_id": "t136#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct zone, cost, timing and ship day; weather hold note is relevant."
+  },
+  {
+   "answer_id": "t137#1",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct that Express is never free and costs $14.95; Plus gives free Standard. Doesn't mention next-business-day Express delivery but that's minor."
+  },
+  {
+   "answer_id": "t137#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "All facts correct and complete, including Express timing."
+  },
+  {
+   "answer_id": "t138#1",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct: XL is Standard only, $20 fee, $7.95 shipping unless $75+. Honest that the total can't be given without the plant price."
+  },
+  {
+   "answer_id": "t138#2",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Facts correct. The $27.95 total is misleading because a 5 ft plant will almost certainly push the order over $75, which makes shipping free."
+  },
+  {
+   "answer_id": "t139#1",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct overall. It mixes up the 24-hour update lag with the 3-day wait, which is a small imprecision."
+  },
+  {
+   "answer_id": "t139#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, and the weather hold mention is helpful."
+  },
+  {
+   "answer_id": "t140#1",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct on waiving, the risks and the 7-day hold. The recommendation is fine, and it is a little repetitive."
+  },
+  {
+   "answer_id": "t140#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate on the risks and honest about what the policy doesn't cover, with an offer to escalate."
+  },
+  {
+   "answer_id": "t141#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, with a useful alternative and a relevant pet-safety note."
+  },
+  {
+   "answer_id": "t141#2",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise, and offers an alternative address."
+  },
+  {
+   "answer_id": "t142#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct on eligibility, claim steps, photos and timing, and notes the exclusions."
+  },
+  {
+   "answer_id": "t142#2",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Mostly correct. It states the customer is covered and will get the replacement as if guaranteed, when the specialist still has to review. The new 30-day guarantee on the replacement is correct."
+  },
+  {
+   "answer_id": "t143#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct. Offers care advice and an escalation with no promise of an exception."
+  },
+  {
+   "answer_id": "t143#2",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct conclusion. It says 'you are still covered' and then says the claim window has closed, which is contradictory. It also omits the free care advice option."
+  }
+ ]
+}

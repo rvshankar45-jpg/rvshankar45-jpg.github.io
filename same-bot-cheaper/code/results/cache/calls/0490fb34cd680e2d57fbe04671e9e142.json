@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! \ud83c\udf3f What a thoughtful gift for your mom, and don't worry, this is easy to fix. Lost gift card codes can be reissued.\n\nHere's what I need from you:\n\n- **The gift card order number.** This is the order where you purchased the gift card. It looks like `LF-` followed by six digits (for example, LF-204518). You should be able to find it in \"My Orders\" on the website or app, or in your order confirmation email.\n\nOnce you share that order number, the gift card code can be reissued to you as the purchaser.\n\nA few helpful things to know:\n\n- Leafy gift cards never expire, so there's no rush on your mom's end.\n- Please don't share a full card number, security code or password with me. The order number is all I need.\n\nIf you can't find the order number, let me know and I can help you figure out next steps. I don't have details in my knowledge base about how to look it up beyond \"My Orders\", so I'd escalate that to a Support Lead if needed.\n\nThanks for reaching out, and I hope your mom enjoys her gift! Feel free to message me anytime. \ud83d\udc9a",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 434,
+  "cache_read_input_tokens": 1945,
+  "output_tokens": 360,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 434,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 360,
+    "cache_read_input_tokens": 1945,
+    "cache_creation_input_tokens": 434,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 434
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2381,
+ "output_tokens": 360,
+ "thinking_tokens": 0,
+ "latency_ms": 3886,
+ "wall_ms": 7937,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880042.9459858
+}

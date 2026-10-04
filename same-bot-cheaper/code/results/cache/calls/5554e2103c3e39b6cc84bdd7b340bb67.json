@@ -1,0 +1,50 @@
+{
+ "text": "I'm not able to change an account email over chat. You'll need to update it yourself after logging in to your account. I don't have details on the exact steps beyond that.\n\nIf you can't log in, or you think someone else may have accessed your account, let me know. In the second case, reset your password right away and I'll escalate it to a Support Lead.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 430,
+  "cache_read_input_tokens": 1492,
+  "output_tokens": 242,
+  "output_tokens_details": {
+   "thinking_tokens": 139
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 430,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 242,
+    "cache_read_input_tokens": 1492,
+    "cache_creation_input_tokens": 430,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 430
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1924,
+ "output_tokens": 242,
+ "thinking_tokens": 139,
+ "latency_ms": 2940,
+ "wall_ms": 6249,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791007407.215784
+}

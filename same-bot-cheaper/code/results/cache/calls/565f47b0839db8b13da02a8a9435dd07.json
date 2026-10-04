@@ -1,0 +1,50 @@
+{
+ "text": "Unfortunately, no, you wouldn't get a refund in this case.\n\nLeafy Plus is fully refundable only if you cancel within **14 days** of purchase or renewal **and** haven't used any benefits. You're at day 10, so the timing works, but because you've already used the free shipping, the refund no longer applies.\n\nIf you cancel, you'd keep your benefits (free Standard shipping, free change-of-mind returns, the 90-day guarantee, 10% member pricing on pots and accessories, and early access to rare plant drops) until the end of the paid year. The membership auto-renews at $59/year, so cancelling would stop the next renewal.\n\nIf you think the free shipping was applied by mistake, or you'd like someone to review your situation, I can escalate it to a Support Lead. I can't promise an exception, though, as the policy doesn't provide for one.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 452,
+  "cache_read_input_tokens": 1546,
+  "output_tokens": 281,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 452,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 281,
+    "cache_read_input_tokens": 1546,
+    "cache_creation_input_tokens": 452,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 452
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2000,
+ "output_tokens": 281,
+ "thinking_tokens": 0,
+ "latency_ms": 3045,
+ "wall_ms": 6430,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004687.7358482
+}

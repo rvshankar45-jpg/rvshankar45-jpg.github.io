@@ -1,0 +1,49 @@
+{
+ "text": "Yes, as long as you cancel within **14 days** of purchase and haven't used any Leafy Plus benefits, you'd get a full refund. Changing your mind after a week would fall inside that window.\n\nThe catch is that if you've used any benefit in that time (for example, free shipping, a free change-of-mind return, or member pricing on pots), you wouldn't be eligible for a refund. Your benefits would then continue until the end of the paid year.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2199,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 144,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2199,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 144,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2199,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2199
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2201,
+ "output_tokens": 144,
+ "thinking_tokens": 0,
+ "latency_ms": 2426,
+ "wall_ms": 5507,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790868776.056849
+}

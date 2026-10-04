@@ -1,0 +1,49 @@
+{
+ "text": "Thanks for asking! I wish I had a faster option for you, but unfortunately there isn't one. \ud83c\udf3f\n\nExpress shipping ($14.95) isn't available for Zone 3, which covers addresses over 1,000 miles from our nearest greenhouse, so Standard (5-8 business days) is the only option at your location. There's no paid upgrade or other way to speed it up.\n\nA couple of things can help you plan:\n\n- **Order early in the week.** Live plants ship Monday-Wednesday only, and orders placed after 12 noon on Wednesday wait until the following Monday. Ordering Monday or Tuesday gets your plant on its way as soon as possible.\n- **Keep an eye on your email.** You'll get a tracking email when your order ships (tracking can take up to 24 hours to update), and we'll email you if a weather hold is needed.\n\nIf you'd like help choosing a plant or have any other questions, I'm happy to help. Thanks again for reaching out to Leafy! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 917,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 326,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 917,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 326,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 917,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 917
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 5257,
+ "output_tokens": 326,
+ "thinking_tokens": 0,
+ "latency_ms": 3763,
+ "wall_ms": 7786,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879487.161862
+}

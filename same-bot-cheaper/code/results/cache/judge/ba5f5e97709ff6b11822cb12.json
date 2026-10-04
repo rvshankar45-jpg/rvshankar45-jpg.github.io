@@ -1,0 +1,328 @@
+{
+ "items": [
+  {
+   "answer_id": "q089#1",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct no; offers faulty route. Says faulty 'might still be covered' - KB says faulty items return free but window not explicit; fine."
+  },
+  {
+   "answer_id": "q089#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct, offers escalation without promising."
+  },
+  {
+   "answer_id": "q089#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct and honest about exceptions."
+  },
+  {
+   "answer_id": "q089#4",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 3,
+   "score": 4,
+   "note": "Correct; slightly awkward 'excerpts' language."
+  },
+  {
+   "answer_id": "q089#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Clear and correct."
+  },
+  {
+   "answer_id": "q089#6",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct, concise."
+  },
+  {
+   "answer_id": "q089#7",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct; fault offer fine."
+  },
+  {
+   "answer_id": "q089#8",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "q090#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Complete and accurate; a bit long."
+  },
+  {
+   "answer_id": "q090#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Accurate, complete."
+  },
+  {
+   "answer_id": "q090#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Concise and accurate."
+  },
+  {
+   "answer_id": "q090#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate and warm."
+  },
+  {
+   "answer_id": "q090#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Concise and accurate."
+  },
+  {
+   "answer_id": "q090#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Accurate."
+  },
+  {
+   "answer_id": "q090#7",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Accurate and thorough."
+  },
+  {
+   "answer_id": "q090#8",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 4,
+   "score": 3,
+   "note": "Says 'Yes, you're covered' without the membership-active condition and approval; overpromises."
+  },
+  {
+   "answer_id": "q090#9",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Accurate."
+  },
+  {
+   "answer_id": "q091#1",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Treats yellow leaves as DOA replace/refund within 48h; ignores that yellowing isn't DOA. Also muddled on pending drop-off and offers refund options."
+  },
+  {
+   "answer_id": "q091#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Accurate on all three, includes escalation option."
+  },
+  {
+   "answer_id": "q091#3",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Says it lacks Guarantee details though KB has them; otherwise correct."
+  },
+  {
+   "answer_id": "q091#4",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Claims no guarantee details; otherwise correct."
+  },
+  {
+   "answer_id": "q091#5",
+   "correctness": 2,
+   "completeness": 3,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Says a few yellow leaves is covered by guarantee with no refund (wrong), and claims it can issue store credit; muddled."
+  },
+  {
+   "answer_id": "q091#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Fully accurate and complete."
+  },
+  {
+   "answer_id": "q091#7",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Claims lacking guarantee details; otherwise correct."
+  },
+  {
+   "answer_id": "q091#8",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Lacks guarantee details claim; otherwise correct."
+  },
+  {
+   "answer_id": "q091#9",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Same gap on guarantee details."
+  },
+  {
+   "answer_id": "q091#10",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Same gap on guarantee details."
+  },
+  {
+   "answer_id": "q091#11",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Same gap; otherwise correct."
+  },
+  {
+   "answer_id": "q092#1",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Escalates, covers Plus cancellation rules correctly; no goodwill credit mentioned."
+  },
+  {
+   "answer_id": "q092#2",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 2,
+   "tone": 4,
+   "score": 2,
+   "note": "Only offers escalation, doesn't escalate; claims no cancellation info though KB has it; ignores mandatory escalation."
+  },
+  {
+   "answer_id": "q092#3",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 2,
+   "tone": 3,
+   "score": 2,
+   "note": "Asks whether to escalate rather than escalating; misses Plus refund rules."
+  },
+  {
+   "answer_id": "q092#4",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Escalates, correct Plus rules, offers $15 goodwill."
+  },
+  {
+   "answer_id": "q092#5",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 2,
+   "tone": 3,
+   "score": 2,
+   "note": "Offers escalation only conditionally; misses Plus cancellation rules."
+  },
+  {
+   "answer_id": "q092#6",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 5,
+   "score": 3,
+   "note": "Escalates but claims no cancellation info and misses Plus refund rules and goodwill."
+  },
+  {
+   "answer_id": "q092#7",
+   "correctness": 3,
+   "completeness": 2,
+   "policy": 2,
+   "tone": 3,
+   "score": 2,
+   "note": "Doesn't escalate despite third contact; no Plus info."
+  },
+  {
+   "answer_id": "q092#8",
+   "correctness": 3,
+   "completeness": 2,
+   "policy": 2,
+   "tone": 3,
+   "score": 2,
+   "note": "Conditional escalation, ignores Plus cancellation."
+  }
+ ]
+}

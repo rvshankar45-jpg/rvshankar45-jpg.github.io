@@ -1,0 +1,49 @@
+{
+ "text": "Yes, if you change your mind within a week, you can get your money back. \ud83c\udf3f\n\nLeafy Plus comes with a **full refund if you cancel within 14 days** of purchase or renewal, **as long as you haven't used any of the membership benefits**. A week is well inside that window.\n\nThe catch is the \"no benefits used\" part. If you use a benefit before cancelling, like free Standard shipping, a free change-of-mind return, member pricing on pots or accessories, or early access to a rare plant drop, you would no longer qualify for the refund. In that case there's no refund, but your benefits would keep going until the end of your paid year.\n\nSo if you're not sure yet, the safest approach is to hold off on using any perks until you've decided.\n\nThanks for asking, and feel free to reach out if there's anything else I can help with. Happy planting! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1100,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 272,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1100,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 272,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 1100,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1100
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 5440,
+ "output_tokens": 272,
+ "thinking_tokens": 0,
+ "latency_ms": 3550,
+ "wall_ms": 9167,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790868695.0654151
+}

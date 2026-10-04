@@ -1,0 +1,76 @@
+{
+ "items": [
+  {
+   "answer_id": "q091#1",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Covers double charge and different-card correctly, offers store credit. Says it doesn't know whether yellow leaves qualify and lacks Guarantee details (the KB has them: 30 days, photos). Minor gap, but honest and offers escalation."
+  },
+  {
+   "answer_id": "q091#2",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Duplicate charge and different-card handling are right. It treats yellow leaves as DOA with replace/refund, which overstates things: minor yellowing is normal and not DOA. It also muddles the refund options by saying the refund goes to the original card or store credit, without being clear. It asks the customer questions instead of giving the full next steps."
+  },
+  {
+   "answer_id": "q092#1",
+   "correctness": 3,
+   "completeness": 2,
+   "policy": 2,
+   "tone": 4,
+   "score": 2,
+   "note": "Doesn't escalate even though this is the third contact. Offers to process a replacement immediately, which is not an agent power. Ignores the Leafy Plus cancellation and refund rules and gives no goodwill credit. It also conditions escalation on the guarantee window."
+  },
+  {
+   "answer_id": "q092#2",
+   "correctness": 4,
+   "completeness": 3,
+   "policy": 3,
+   "tone": 4,
+   "score": 3,
+   "note": "Correctly says there is no cash refund and describes the guarantee claim process. Offers escalation but asks first instead of escalating. Wrongly says the KB doesn't cover Leafy Plus cancellation, when it does (14-day refund, benefits continue). No goodwill mentioned."
+  },
+  {
+   "answer_id": "q097#1",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct denial citing the waived hold, offers escalation without promising an outcome. Doesn't mention goodwill credit, which is a minor omission."
+  },
+  {
+   "answer_id": "q097#2",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct denial and offers escalation. Slightly implies an exception may be possible, but doesn't promise one. Asks to confirm before escalating. No goodwill mention."
+  },
+  {
+   "answer_id": "q100#1",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct on no address change, no courier redirection, and Express unavailable for Zone 3. Offers escalation and invents nothing. Includes some irrelevant shipping detail."
+  },
+  {
+   "answer_id": "q100#2",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 2,
+   "tone": 4,
+   "score": 2,
+   "note": "Correct on the address and Express rules. But it suggests contacting the courier to redirect, which contradicts the KB: couriers don't accept redirection from Leafy. Also implies replacement/refund options and reshipping not supported by the KB."
+  }
+ ]
+}

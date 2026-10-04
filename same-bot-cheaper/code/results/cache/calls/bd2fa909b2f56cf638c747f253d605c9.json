@@ -1,0 +1,50 @@
+{
+ "text": "Thanks for confirming. I have your order number (LF-381204) and the card ending 7712, which is all we need.\n\nOnce the duplicate is confirmed, it will be refunded within 3 business days. Because refunds go back to the original payment method, it will return to the card ending 7712, and your bank should then show it within 5-10 business days (3-5 business days if you paid with a digital wallet).\n\nOne thing I should flag: I can't confirm the duplicate myself from this chat. If you'd like, I can escalate this to a Support Lead so the confirmation gets started.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 676,
+  "cache_read_input_tokens": 1578,
+  "output_tokens": 182,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 676,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 182,
+    "cache_read_input_tokens": 1578,
+    "cache_creation_input_tokens": 676,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 676
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2256,
+ "output_tokens": 182,
+ "thinking_tokens": 0,
+ "latency_ms": 2373,
+ "wall_ms": 6176,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005349.257932
+}

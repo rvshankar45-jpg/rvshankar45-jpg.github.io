@@ -1,0 +1,50 @@
+{
+ "text": "It may not be a mistake. Two common reasons:\n\n- **Pending authorisation:** one of the two may be a pending hold rather than a real charge.\n- **Multiple parcels:** if your order shipped in several parcels, you can see one charge per parcel.\n\nIf both charges have fully posted and neither explanation fits, send me your order number (format LF- plus six digits) and the **last four digits** of the card. Once we confirm the duplicate, it will be refunded within **3 business days**. Please don't send your full card number, security code, or any passwords.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 445,
+  "cache_read_input_tokens": 1496,
+  "output_tokens": 319,
+  "output_tokens_details": {
+   "thinking_tokens": 143
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 445,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 319,
+    "cache_read_input_tokens": 1496,
+    "cache_creation_input_tokens": 445,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 445
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1943,
+ "output_tokens": 319,
+ "thinking_tokens": 143,
+ "latency_ms": 5175,
+ "wall_ms": 7965,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100855.1372714
+}

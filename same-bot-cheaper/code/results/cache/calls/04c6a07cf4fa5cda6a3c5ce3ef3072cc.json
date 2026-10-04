@@ -1,0 +1,50 @@
+{
+ "text": "That pending charge is most likely a card authorisation, not an actual charge. When you place an order, your card is authorised at checkout, and you're only charged when the order ships. Since you cancelled within the 2-hour free cancellation window, nothing should be charged.\n\nThe authorisation usually drops off by itself within **3-7 business days**, depending on your bank. Leafy can't release it any faster, so you'll need to wait it out. Your bank can tell you more about their timing if it hasn't cleared after that.\n\nIf you later see a posted charge (not just a pending one) for the cancelled order, or two posted charges for the same order, send me the order number (like LF-123456) and the last four digits of your card. Please don't send a full card number, security code or password. For a confirmed duplicate, the refund is issued within **3 business days** of confirmation.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1990,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 267,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1990,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 267,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1990,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1990
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1992,
+ "output_tokens": 267,
+ "thinking_tokens": 0,
+ "latency_ms": 3031,
+ "wall_ms": 5800,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004673.051021
+}

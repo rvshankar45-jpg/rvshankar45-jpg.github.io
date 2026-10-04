@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thanks for reaching out to Leafy! \ud83c\udf3f Free Standard shipping applies to orders of $75 or more *after* discounts (before tax), so at $70 your order would be just under the line and Standard shipping would be $7.95.\n\nIf you'd like to get it free, adding $5 or more of items to your cart would bring you back over $75 after the promo. Leafy Plus members also get free Standard shipping with no minimum, if that's something you're already part of.\n\nLet me know if you have any other questions, I'm happy to help!",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 5155,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 362,
+  "output_tokens_details": {
+   "thinking_tokens": 186
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 5155,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 362,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 5155,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 5155
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 5157,
+ "output_tokens": 362,
+ "thinking_tokens": 186,
+ "latency_ms": 3626,
+ "wall_ms": 7933,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 400,
+ "recorded_at": 1790787220.7385464
+}

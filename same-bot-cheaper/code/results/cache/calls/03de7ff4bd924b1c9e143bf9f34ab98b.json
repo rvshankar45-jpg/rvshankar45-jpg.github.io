@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy. I'm so sorry about your fiddle leaf fig, and even more sorry that you've had to write three times without getting this sorted. That's frustrating, and I understand why you're upset.\n\nBecause this is your third time raising it, and you're asking for a refund, I'm escalating your case to a Support Lead now. They will review the full history so you don't have to explain it all again.\n\n**Refund request**\n- Our Plant Care Guarantee covers a dead or significantly declined plant with **one free replacement** of the same plant (or store credit if it's out of stock), not a refund.\n- Live plants can't be returned for change of mind.\n- I can't promise a refund, but I've flagged that you're asking for one so the Support Lead can look at your situation.\n\n**Plant Care Guarantee claim**\nIf you haven't already, you can start a claim from \"My Orders\":\n- The guarantee lasts **30 days** from delivery, or **90 days** for Leafy Plus members on plants ordered while the membership was active.\n- Upload at least **two photos**: the whole plant and a close-up.\n- A Plant Care Specialist reviews claims within **2 business days**, and you don't need to send the plant back.\n\n**Cancelling Leafy Plus**\nI don't have information on the cancellation process, so I've included your request in the escalation for the Support Lead to help with. It may be worth holding off until your claim is settled, because the 90-day guarantee applies to plants ordered while your membership was active.\n\nI don't have a set timeframe for how quickly a Support Lead will respond, but I've marked this as a repeat issue.\n\nThank you for your patience, and I'm sorry again for the trouble. We want to make this right, and you're always welcome to reach out if there's anything else we can help with. \ud83c\udf3f",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2078,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 924,
+  "output_tokens_details": {
+   "thinking_tokens": 335
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2078,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 924,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2078,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2078
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2080,
+ "output_tokens": 924,
+ "thinking_tokens": 335,
+ "latency_ms": 8382,
+ "wall_ms": 10853,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880073.8189864
+}

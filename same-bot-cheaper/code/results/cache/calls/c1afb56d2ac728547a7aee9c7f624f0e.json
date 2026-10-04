@@ -1,0 +1,50 @@
+{
+ "text": "Sorry your monstera arrived looking unwell. Here's where each part stands:\n\n- **Yellow leaves:** Yellowing alone isn't listed as \"damaged on arrival\" (that covers snapped main stems, exposed roots, or a dead or severely wilted plant). If yours fits that, report it within **48 hours** of delivery with photos of the plant and the box, and you can choose a free replacement or a refund. After 48 hours, or if it doesn't fit, it goes through the Plant Care Guarantee. I don't have those details here, so I can escalate it to a Support Lead.\n- **Charged twice:** First check whether one charge is just a pending authorisation, or whether your order shipped in several parcels, since each parcel can show its own charge. If both charges have posted, send me your order number and the last four digits of the card (never the full number or security code). The duplicate is refunded within **3 business days** of confirmation.\n- **Refund to a different card:** I can't do that. Refunds go only to the original payment method. Your other option is Leafy store credit, which is issued instantly and never expires.\n\nWhen did the plant arrive, and do you have photos?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1870,
+  "output_tokens": 711,
+  "output_tokens_details": {
+   "thinking_tokens": 338
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 711,
+    "cache_read_input_tokens": 1870,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1872,
+ "output_tokens": 711,
+ "thinking_tokens": 338,
+ "latency_ms": 6132,
+ "wall_ms": 9222,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791007312.2688708
+}

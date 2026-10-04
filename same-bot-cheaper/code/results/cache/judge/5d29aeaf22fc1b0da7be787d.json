@@ -1,0 +1,319 @@
+{
+ "items": [
+  {
+   "answer_id": "q049#1",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct range. Adds an unsupported claim that gift cards can pay for plants, pots, soil and accessories. The KB says gift cards are an accepted payment but doesn't list what they can buy."
+  },
+  {
+   "answer_id": "q049#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct, concise, and honest about what the KB doesn't cover."
+  },
+  {
+   "answer_id": "q049#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and friendly, with an honest note on the missing detail."
+  },
+  {
+   "answer_id": "q049#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "q049#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and clear."
+  },
+  {
+   "answer_id": "q049#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and honest."
+  },
+  {
+   "answer_id": "q049#7",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and honest."
+  },
+  {
+   "answer_id": "q049#8",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and well organised."
+  },
+  {
+   "answer_id": "q049#9",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "q050#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct on PO boxes, Express zones and shipping days."
+  },
+  {
+   "answer_id": "q050#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, and it includes the XL plant Standard-only rule."
+  },
+  {
+   "answer_id": "q050#3",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Correct that PO boxes are not allowed. But it says Express arrives in 1\u20132 business days without mentioning that Zone 3 has no Express. That omission is misleading."
+  },
+  {
+   "answer_id": "q050#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Accurate and thorough."
+  },
+  {
+   "answer_id": "q050#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct. It is a bit wordy, and the 'share your street address zone' line is clumsy."
+  },
+  {
+   "answer_id": "q050#6",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "q050#7",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "q050#8",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct and complete."
+  },
+  {
+   "answer_id": "q050#9",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct. Asking for a zip code is fine."
+  },
+  {
+   "answer_id": "q051#1",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct main point. 'On the website or app' is a small embellishment."
+  },
+  {
+   "answer_id": "q051#2",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct, with useful weather-hold context. It says a waived hold affects the guarantee, which is accurate."
+  },
+  {
+   "answer_id": "q051#3",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "q051#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct, with sensible caveats."
+  },
+  {
+   "answer_id": "q051#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct and helpful."
+  },
+  {
+   "answer_id": "q051#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and honest."
+  },
+  {
+   "answer_id": "q051#7",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct. It is somewhat over-hedged."
+  },
+  {
+   "answer_id": "q051#8",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and honest."
+  },
+  {
+   "answer_id": "q052#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q052#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q052#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q052#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "q052#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, and it adds the refund timing by payment method."
+  },
+  {
+   "answer_id": "q052#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and thorough."
+  },
+  {
+   "answer_id": "q052#7",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q052#8",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q052#9",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  }
+ ]
+}

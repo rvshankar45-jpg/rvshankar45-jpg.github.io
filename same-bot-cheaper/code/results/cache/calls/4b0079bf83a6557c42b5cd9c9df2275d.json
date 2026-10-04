@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! I'm so sorry your rubber plant arrived with a cracked pot. That's definitely not the unboxing you were hoping for, but let's get it sorted out.\n\nA cracked pot counts as damaged on arrival, so you're covered. Here's what to do:\n\n- **Report it within 48 hours of delivery.** Since it arrived this morning, you have plenty of time, but please don't wait too long.\n- **Include photos** of the plant and pot, and of the box it arrived in.\n\nOnce it's reported, you can choose either:\n\n- **A free replacement**, shipped on the next plant shipping day, or\n- **A refund**\n\nThis replacement won't use up your one free replacement under the 30-day Plant Care Guarantee, so that stays available for later.\n\nIn the meantime, a few bent leaves or some loose soil is normal in transit, so don't worry if you see those. Just keep the plant out of direct sun for its first week and water only when the top inch of soil is dry.\n\nWould you like a replacement or a refund? And if you have any questions about the photos or the reporting steps, just ask. I'm happy to help!\n\nThanks again for your patience, and we'll get your new plant on its way to a happy home soon. \ud83c\udf3f",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 441,
+  "cache_read_input_tokens": 1553,
+  "output_tokens": 408,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 441,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 408,
+    "cache_read_input_tokens": 1553,
+    "cache_creation_input_tokens": 441,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 441
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1996,
+ "output_tokens": 408,
+ "thinking_tokens": 0,
+ "latency_ms": 3992,
+ "wall_ms": 7881,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880122.632491
+}

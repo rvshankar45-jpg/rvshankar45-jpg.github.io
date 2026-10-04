@@ -1,0 +1,49 @@
+{
+ "text": "Thanks for checking before you sign up! \ud83c\udf3f\n\nIf you've already used the free Standard shipping, you would no longer qualify for the full refund. The refund only applies if you cancel within **14 days** of purchase or renewal **and** haven't used any benefits.\n\nIn that case:\n- There would be no refund of the $59.\n- Your membership benefits would keep going until the end of your paid year, so you'd still get free Standard shipping, free change-of-mind returns, the 90-day guarantee, 10% member pricing on pots and accessories, and early access to rare plant drops.\n\nIf you think a special circumstance might apply, I can't promise an exception, but I'm happy to escalate it to a Support Lead to review.\n\nIf you want to keep your refund option open, hold off on using any perks until you're sure. Is there anything else I can help with? Happy planting! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1142,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 277,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1142,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 277,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 1142,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1142
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 5482,
+ "output_tokens": 277,
+ "thinking_tokens": 0,
+ "latency_ms": 2871,
+ "wall_ms": 5671,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790868837.3520603
+}

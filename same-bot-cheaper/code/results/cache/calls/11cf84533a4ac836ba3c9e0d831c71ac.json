@@ -1,0 +1,49 @@
+{
+ "text": "Thanks for asking, it's smart to check before you sign up! \ud83c\udf3f\n\n**If you've already used the free shipping, the full refund wouldn't apply.** The refund is only available when you cancel within 14 days **and** haven't used any Leafy Plus benefits. Once a benefit has been used, there's no refund, even if it's still within the 14 days.\n\n**What happens if you cancel after using a benefit:**\n- No refund of the $59 membership fee.\n- Your benefits continue until the end of the paid year, so you'd still enjoy free Standard shipping, the 90-day guarantee and the rest.\n\nSince the membership auto-renews, it's worth keeping in mind that you can cancel before renewal if you don't want to continue.\n\nI don't have any details in our policy about partial refunds or exceptions for this situation. If you'd like to ask about one, I can escalate it to a Support Lead for you.\n\nIs there anything else I can help you with? Happy planting! \ud83e\udeb4",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1229,
+  "cache_read_input_tokens": 4679,
+  "output_tokens": 315,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1229,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 315,
+    "cache_read_input_tokens": 4679,
+    "cache_creation_input_tokens": 1229,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1229
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 5910,
+ "output_tokens": 315,
+ "thinking_tokens": 0,
+ "latency_ms": 4117,
+ "wall_ms": 6889,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790787182.5720525
+}

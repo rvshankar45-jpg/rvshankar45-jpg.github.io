@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thanks so much for contacting Leafy! \ud83c\udf3f\n\nUnfortunately, we can't accept cash. Cheques and bank transfers aren't accepted either. Here's what you can use instead:\n\n- Credit and debit cards\n- Digital wallets at checkout\n- Leafy gift cards\n- Buy-now-pay-later, available on orders from $50 to $1,000\n\nIf you'd like to spread out the cost, buy-now-pay-later could be a nice option for you. And if you're buying for yourself or someone else, a Leafy gift card ($25 to $500, never expires) is another easy way to pay.\n\nIs there anything else I can help you with? Happy planting! \ud83e\udeb4",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 424,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 227,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 424,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 227,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 424,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 424
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4764,
+ "output_tokens": 227,
+ "thinking_tokens": 0,
+ "latency_ms": 2669,
+ "wall_ms": 7112,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879095.2702513
+}

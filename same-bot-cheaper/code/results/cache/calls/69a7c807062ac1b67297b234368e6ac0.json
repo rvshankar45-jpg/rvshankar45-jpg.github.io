@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry, but a price difference isn't available in this case. Our price drop policy gives you the difference as store credit if the price falls within 7 days of purchase. Your order is 5 days old, so it's within that window, but flash sales are specifically excluded, so the flash sale price doesn't qualify.\n\nIf the price drops again outside of a flash sale or clearance while you're still within 7 days of purchase (about 2 more days), the difference can be issued as store credit, once per item.\n\nIf you'd like, I can pass this to a Support Lead to review. Is there anything else I can help with?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1995,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 188,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1995,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 188,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1995,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1995
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1997,
+ "output_tokens": 188,
+ "thinking_tokens": 0,
+ "latency_ms": 2727,
+ "wall_ms": 5342,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004711.1458201
+}

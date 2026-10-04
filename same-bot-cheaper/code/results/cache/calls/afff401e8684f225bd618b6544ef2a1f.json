@@ -1,0 +1,50 @@
+{
+ "text": "Unfortunately, yellowing of one or two older leaves in the first two weeks is normal transplant stress and isn't covered by our 30-day Plant Care Guarantee.\n\nHere's what to do: keep the plant out of direct sun for the first week if you haven't already, water only when the top inch of soil is dry (overwatering causes most early issues), and avoid repotting for 2\u20133 weeks. The good news is calatheas are hardy! If the plant declines significantly beyond this (loses more than a third of its leaves overall), you can claim a replacement within 30 days with two photos.\n\nNeed care advice? Our Plant Care Specialists are free to chat with anytime.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1163,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 155,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1163,
+    "output_tokens": 155,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1163,
+ "output_tokens": 155,
+ "thinking_tokens": 0,
+ "latency_ms": 2393,
+ "wall_ms": 5141,
+ "overhead": 379,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791006734.2693138
+}

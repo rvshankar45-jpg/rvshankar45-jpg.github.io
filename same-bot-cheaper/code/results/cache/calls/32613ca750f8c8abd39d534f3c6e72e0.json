@@ -1,0 +1,49 @@
+{
+ "text": "Hi there! \ud83d\udc4b Thanks for reaching out to Leafy!\n\nYou can cancel an order **free within 2 hours** of placing it. Just head to \"My Orders\" on the website or app and you'll be able to cancel it there.\n\nAfter the 2-hour window, your order moves into our packing queue. At that point, support can *try* to intercept it before it ships, but I can't guarantee it will work. If you think you need to cancel after 2 hours have passed, feel free to reach out and we can give it a shot!\n\nIs there anything else I can help you with? \ud83d\ude0a",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 3510,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 145,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 3510,
+    "output_tokens": 145,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 3510,
+ "output_tokens": 145,
+ "thinking_tokens": 0,
+ "latency_ms": 2269,
+ "wall_ms": 5275,
+ "overhead": 379,
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1790879627.1034062
+}

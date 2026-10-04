@@ -1,0 +1,49 @@
+{
+ "text": "Hi there! \ud83d\udc4b Thanks for reaching out to Leafy!\n\nGreat question about the soil. Here's the deal:\n\n**Opened soil can't be returned** \u2014 unless it's faulty (like if there's something wrong with it, like mold or contamination).\n\nHowever, if the soil is **unopened and unused**, you can return it within **30 days** of delivery in its original packaging. Just head to \"My Orders\" to start the return, and you'll get a prepaid label emailed to you.\n\n**A couple of things to note:**\n- The return label expires after 7 days, so you'd need to drop it off within that window\n- Since it's a change-of-mind return, there's a flat $6.95 fee (this gets deducted from your refund) \u2014 though it's free if you're a Leafy Plus member\n\nIs your soil faulty, or were you thinking of returning an unopened bag? If there's an issue with it, I'm happy to help sort that out! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1403,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 238,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1403,
+    "output_tokens": 238,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1403,
+ "output_tokens": 238,
+ "thinking_tokens": 0,
+ "latency_ms": 3045,
+ "wall_ms": 6603,
+ "overhead": 379,
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1790879950.6497352
+}

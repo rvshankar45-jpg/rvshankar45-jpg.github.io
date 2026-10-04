@@ -1,0 +1,148 @@
+{
+ "items": [
+  {
+   "answer_id": "t072#1",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Gets the order number and last four digits right, but asks for them before the customer has checked for a pending authorisation, and says 'I'll check', which implies it can see the account. Doesn't warn against sharing the full card number, security code or password."
+  },
+  {
+   "answer_id": "t072#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Matches the reference: check for a pending authorisation first, then send the order number and last four digits, refund within 3 business days, and never send full card details."
+  },
+  {
+   "answer_id": "t073#1",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct and concise. Adds a header and a closing question, which is slightly stiff."
+  },
+  {
+   "answer_id": "t073#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct range, lists the alternative payment methods, and offers escalation for anything not in the KB."
+  },
+  {
+   "answer_id": "t074#1",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct 3\u20137 business days and says Leafy can't release it faster. Offers escalation after 7 days. Says 7 days, not business days, and the escalation promise is a little loose."
+  },
+  {
+   "answer_id": "t074#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate and empathetic, and gives clear next steps. Says 7 business days and offers escalation if the charge has posted."
+  },
+  {
+   "answer_id": "t075#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct on the original payment method, the bank passing it to the replacement card, 5\u201310 business days, and instant store credit."
+  },
+  {
+   "answer_id": "t075#2",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct. The 'No' opening is slightly blunt, and the 'wait 5\u201310 days' option is a little muddled."
+  },
+  {
+   "answer_id": "t076#1",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct, with the flash sale and clearance exclusion and once per item. Hedges with 'likely' and mentions that the submission process is unknown, which is honest."
+  },
+  {
+   "answer_id": "t076#2",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Says 'Yes, you can!' without the exclusions for flash sales and clearance or the once per item rule. Adds that store credit is instant, which is likely fine."
+  },
+  {
+   "answer_id": "t077#1",
+   "correctness": 4,
+   "completeness": 3,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct that the gift card order number is needed. Doesn't mention that the purchaser must provide it."
+  },
+  {
+   "answer_id": "t077#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, mentions the purchaser requirement, warns against sharing card details, and offers escalation."
+  },
+  {
+   "answer_id": "t078#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct: charged on the 25th of the previous month, boxes ship in the first full week. Adds correct change rules."
+  },
+  {
+   "answer_id": "t078#2",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct. The example uses today's date (October 25 for a November box), which is reasonable. The advice about acting before the 25th is slightly vague."
+  },
+  {
+   "answer_id": "t079#1",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Right that the next box still ships, but the explanation is muddled: it says the cancellation applies to the following month's box. Doesn't say the billed box is not refunded or that there's no fee."
+  },
+  {
+   "answer_id": "t079#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct: the billed box ships and isn't refunded, there's no fee, and it offers escalation without over-promising."
+  }
+ ]
+}

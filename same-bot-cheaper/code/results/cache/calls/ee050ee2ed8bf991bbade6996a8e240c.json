@@ -1,0 +1,50 @@
+{
+ "text": "No, XL plants ship Standard only, so Express isn't available for a 5 ft bird of paradise. If the listing marks it as XL (usually anything over 4 ft), it adds a **$20** handling fee. Standard shipping is $7.95, or free on orders of $75+ after discounts and before tax.\n\nStandard delivery takes **2-3 business days** in Zone 1 (under 300 miles from the nearest greenhouse), **3-5** in Zone 2 (300-1,000 miles), and **5-8** in Zone 3 (over 1,000 miles, remote and island addresses). Live plants ship Monday to Wednesday only, so orders placed after 12 noon Wednesday ship the following Monday.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 438,
+  "cache_read_input_tokens": 1455,
+  "output_tokens": 409,
+  "output_tokens_details": {
+   "thinking_tokens": 171
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 438,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 409,
+    "cache_read_input_tokens": 1455,
+    "cache_creation_input_tokens": 438,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 438
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1895,
+ "output_tokens": 409,
+ "thinking_tokens": 171,
+ "latency_ms": 4355,
+ "wall_ms": 7349,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791007453.4033685
+}

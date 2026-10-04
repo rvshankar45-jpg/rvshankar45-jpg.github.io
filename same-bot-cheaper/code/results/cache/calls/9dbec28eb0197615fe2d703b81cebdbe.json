@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thanks so much for contacting Leafy! \ud83c\udf3f\n\nUnfortunately, we can't ship live plants to a PO box. PO boxes are only available for non-living items like pots and accessories.\n\nFor your plant order, you'd need to use a street address where someone can receive the package, such as your home, a workplace, or a trusted friend or family member's address.\n\nIf your order has both plants and non-living items, the whole order would need to go to a street address, since mixed orders ship together on a plant shipping day (Monday to Wednesday).\n\nIf you'd like help with anything else, such as shipping times to your area, I'm happy to help. Happy planting! \ud83e\udeb4",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2465,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 212,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2465,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 212,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2465,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2465
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2467,
+ "output_tokens": 212,
+ "thinking_tokens": 0,
+ "latency_ms": 3342,
+ "wall_ms": 6384,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879823.2760146
+}

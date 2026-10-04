@@ -1,0 +1,50 @@
+{
+ "text": "I understand your frustration\u2014a week's wait is too long when a plant's life is at stake.\n\nTo help you, I need a bit more information:\n\n1. **When was your plant delivered?** (This determines if you're still within the 30-day guarantee window)\n2. **Do you have your order number?** (It looks like `LF-` plus six digits)\n\nOnce I confirm you're within the guarantee window, you can file a claim from \"My Orders\" with **two photos** (whole plant + close-up), and a Plant Care Specialist will review it within **2 business days**\u2014no need to send the plant back. If approved, you'll get a free replacement of the same plant.\n\nWhat's your order number and delivery date?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1223,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 172,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1223,
+    "output_tokens": 172,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1223,
+ "output_tokens": 172,
+ "thinking_tokens": 0,
+ "latency_ms": 2596,
+ "wall_ms": 6395,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791101288.2312572
+}

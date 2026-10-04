@@ -1,0 +1,49 @@
+{
+ "text": "Sorry your monstera arrived looking unwell. Here's where each issue stands:\n\n- **Yellow leaves:** If it was delivered within the last 48 hours, report it with photos of the plant and the box. Damaged on Arrival covers a dead or severely wilted plant, snapped main stems, or exposed roots, and the remedy is a free replacement on the next plant shipping day or a refund. The excerpts don't say whether yellow leaves alone qualify, and after 48 hours the claim goes through the Plant Care Guarantee, whose details I don't have. I can escalate this to a Support Lead if you'd like.\n- **Double charge:** First check whether one is a pending authorisation, or one charge per parcel if your order shipped in several. If both charges have posted, send me your order number and the last four digits of your card (never the full number, security code or password). The duplicate is refunded within 3 business days of confirmation.\n- **Different card:** Refunds can only go to the original payment method, so I can't send one to another card. If the original card is closed or expired, the bank normally passes the refund to the replacement card. Alternatively, you can take Leafy store credit, which is issued instantly and never expires. Card refunds take 5-10 business days once issued.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1870,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 764,
+  "output_tokens_details": {
+   "thinking_tokens": 359
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1870,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 764,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1870,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1870
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1872,
+ "output_tokens": 764,
+ "thinking_tokens": 359,
+ "latency_ms": 6355,
+ "wall_ms": 8963,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790868758.8917432
+}

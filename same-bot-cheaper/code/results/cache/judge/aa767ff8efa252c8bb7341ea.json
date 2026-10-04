@@ -1,0 +1,148 @@
+{
+ "items": [
+  {
+   "answer_id": "t224#1",
+   "correctness": 1,
+   "completeness": 3,
+   "policy": 2,
+   "tone": 3,
+   "score": 1,
+   "note": "Wrongly says 3 hours is within the 2-hour window and tells them to cancel; contradictory. Intercept offer is fine."
+  },
+  {
+   "answer_id": "t224#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct: window passed, intercept possible but not guaranteed, offers to try."
+  },
+  {
+   "answer_id": "t225#1",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 3,
+   "score": 3,
+   "note": "Correct refusal and investigation info, but the 'home address' bullet is confusing and speculative about collection."
+  },
+  {
+   "answer_id": "t225#2",
+   "correctness": 4,
+   "completeness": 3,
+   "policy": 3,
+   "tone": 4,
+   "score": 3,
+   "note": "Correct refusal, but suggests contacting the courier (which could imply redirection) and offers escalation without need; misses tracking/investigation help."
+  },
+  {
+   "answer_id": "t226#1",
+   "correctness": 2,
+   "completeness": 2,
+   "policy": 3,
+   "tone": 3,
+   "score": 2,
+   "note": "Never says live plants can't be returned for change of mind; says the guarantee isn't detailed and muddles DOA."
+  },
+  {
+   "answer_id": "t226#2",
+   "correctness": 2,
+   "completeness": 3,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Claims the KB doesn't cover change-of-mind returns, when live plants are explicitly non-returnable; DOA info is correct."
+  },
+  {
+   "answer_id": "t227#1",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct. It omits the 30-day free faulty route detail, and the escalation offer is slightly unnecessary."
+  },
+  {
+   "answer_id": "t227#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, mentions the free faulty route and the unopened return rule."
+  },
+  {
+   "answer_id": "t228#1",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Says label expired and offers escalation, hedged with 'may'. Slight inaccuracy in 'after emailed' wording, but fine."
+  },
+  {
+   "answer_id": "t228#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, no promise of a new label, offers escalation."
+  },
+  {
+   "answer_id": "t229#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct Zone 3 facts and extra relevant details."
+  },
+  {
+   "answer_id": "t229#2",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "t230#1",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct on XL Standard only and can't arrive tomorrow; omits the $20 fee; cancel-window advice is relevant."
+  },
+  {
+   "answer_id": "t230#2",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Correct on XL Standard only, but timing claims are shaky (an order placed on Saturday ships Monday). Omits the $20 fee."
+  },
+  {
+   "answer_id": "t231#1",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct refusal; invented rationale for the restriction but minor."
+  },
+  {
+   "answer_id": "t231#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, with helpful alternatives and shipped-order caveats."
+  }
+ ]
+}

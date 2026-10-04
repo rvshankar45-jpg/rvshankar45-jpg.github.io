@@ -1,0 +1,50 @@
+{
+ "text": "If the plant arrived damaged (snapped main stem, cracked or smashed pot, exposed roots, or dead or severely wilted), report it within **48 hours** of delivery with photos of the plant and the box. You'll get a free replacement on the next plant shipping day, or a refund.\n\nAfter 48 hours, it goes through the Plant Care Guarantee instead. You have **30 days** from delivery (**90 days** for Leafy Plus members) to claim from \"My Orders\" with at least two photos (whole plant and a close-up). A Plant Care Specialist reviews it within **2 business days**.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1700,
+  "output_tokens": 305,
+  "output_tokens_details": {
+   "thinking_tokens": 109
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 305,
+    "cache_read_input_tokens": 1700,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1702,
+ "output_tokens": 305,
+ "thinking_tokens": 109,
+ "latency_ms": 3003,
+ "wall_ms": 6470,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791006922.87622
+}

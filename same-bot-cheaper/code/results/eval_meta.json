@@ -1,0 +1,19 @@
+{
+ "overhead": {
+  "claude-sonnet-5-5": 448,
+  "claude-haiku-4-5-20251001": 379
+ },
+ "new_model_calls": 4,
+ "new_judge_calls": 28,
+ "seconds": 383,
+ "laya_device": "cuda",
+ "response_cache_hit_rates": {
+  "v1_naive": null,
+  "plus_route": null,
+  "plus_retrieve": null,
+  "plus_trim": null,
+  "plus_tight_cache": null,
+  "v2_full": 0.0,
+  "cache_full_kb": null
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry, that's worrying. Please **reset your password right now**, and I'm escalating this to a Support Lead because it involves possible unauthorised access and suspected fraud.\n\nIf any of the orders were placed within the last 2 hours, you can cancel them for free from \"My Orders\". For older orders, support can try to intercept them before they ship, but that isn't guaranteed. Shipped orders can't be cancelled.\n\nTo help the Support Lead, please send the order numbers (format LF-123456) for any orders you don't recognise. Please don't share your password or full card number.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 436,
+  "cache_read_input_tokens": 1642,
+  "output_tokens": 524,
+  "output_tokens_details": {
+   "thinking_tokens": 338
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 436,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 524,
+    "cache_read_input_tokens": 1642,
+    "cache_creation_input_tokens": 436,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 436
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2080,
+ "output_tokens": 524,
+ "thinking_tokens": 338,
+ "latency_ms": 5522,
+ "wall_ms": 8080,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791101100.2925494
+}

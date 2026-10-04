@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thanks so much for contacting Leafy! \ud83c\udf3f\n\nGreat question. Unfortunately, I don't have any information about a price adjustment policy in my knowledge base, so I can't say whether Leafy offers price adjustments, price matching, or refunds of the difference if an item goes on sale after you buy it. I don't want to guess and give you the wrong answer.\n\nHere's what I can tell you that might help:\n\n- **Changing or cancelling an order:** You can do this free within **2 hours** of ordering, from \"My Orders\". After that, the order goes into the packing queue and can't be changed online. Our support team can try to intercept it before it ships, but that's not guaranteed.\n- **Returns:** Non-living items (like pots, tools and soil) can be returned within **30 days** of delivery if unused and in original packaging. Live plants can't be returned for change of mind.\n\nIf you're asking about a specific order, you can reach our team to ask about a price adjustment directly:\n\n- **Chat:** 8am-8pm Mon-Sat\n- **Email:** help@leafy.example (answered within 1 business day)\n\nIf you'd like, tell me a bit more about what happened, such as an item that went on sale after you ordered, and I can pass it along to a Support Lead for you.\n\nIs there anything else I can help you with? Happy planting! \ud83e\udeb4",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2284,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 437,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2284,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 437,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2284,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2284
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2286,
+ "output_tokens": 437,
+ "thinking_tokens": 0,
+ "latency_ms": 4281,
+ "wall_ms": 8592,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879937.7625985
+}

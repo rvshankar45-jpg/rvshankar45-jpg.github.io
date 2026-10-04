@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thanks for contacting Leafy! \ud83c\udf3f\n\nLeafy Plus members get a **90-day Plant Care Guarantee**, counted from the delivery date. That's three times longer than the standard 30 days.\n\nA few things worth knowing:\n\n- It applies to plants ordered **while your membership is active**.\n- If a plant dies or declines significantly despite reasonable care, we send **one** free replacement of the same plant (or store credit if it's out of stock).\n- To make a claim, go to \"My Orders\" within the window and upload **at least two photos** (the whole plant plus a close-up). A Plant Care Specialist will review it within **2 business days**, and you don't need to send the plant back.\n\nIf you have a plant that's struggling right now, I'm happy to help with that too. Feel free to reach out anytime!",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 429,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 267,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 429,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 267,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 429,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 429
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4769,
+ "output_tokens": 267,
+ "thinking_tokens": 0,
+ "latency_ms": 2747,
+ "wall_ms": 5999,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879223.6042848
+}

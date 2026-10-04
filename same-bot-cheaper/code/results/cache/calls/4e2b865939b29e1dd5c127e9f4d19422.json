@@ -1,0 +1,49 @@
+{
+ "text": "Hey there! \ud83d\udc4b\n\n**Leafy Plus** costs **$59 per year** and auto-renews each year.\n\nHere's what you get with membership:\n\n- \u2728 **Free Standard shipping** with no minimum order amount\n- \u2728 **Free change-of-mind returns** (normally $6.95)\n- \u2728 **90-day Plant Care Guarantee** (instead of 30 days)\n- \u2728 **10% member pricing** on pots and accessories\n- \u2728 **Early access** to rare plant drops\n\nOne thing to note: Express shipping is not free for Leafy Plus members, but Standard shipping is always free with no order minimum.\n\nIf you'd like to try it out, you get a full refund within **14 days** of purchase *and* as long as you haven't used any of the member benefits yet. After that, there's no refund, but your benefits continue until the end of your paid year.\n\nDoes that help? Feel free to ask if you have any other questions! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 3508,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 244,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 3508,
+    "output_tokens": 244,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 3508,
+ "output_tokens": 244,
+ "thinking_tokens": 0,
+ "latency_ms": 3184,
+ "wall_ms": 6780,
+ "overhead": 379,
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1790879612.6136358
+}

@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry your pot arrived cracked. That's frustrating.\n\n**You most likely don't need to send it back.** A cracked pot counts as damaged on arrival, and for damaged non-living items under $40, we usually don't require the item to be returned. Your pot is $25, so it falls under that.\n\n**What to do:**\n- **Report it within 48 hours of delivery.** Since it arrived this morning, you have time, but please don't wait.\n- **Include photos** of the cracked pot and of the box it came in.\n\n**Your options:** A replacement or a refund. Which you'd like is your choice.\n\nIf you choose a refund, it goes back to your original payment method. Cards take 5-10 business days once it's issued, and digital wallets take 3-5 business days. Alternatively, Leafy store credit is issued instantly and never expires.\n\nI can't promise that no return will be needed. The policy says \"usually,\" so the team will confirm when you report it. If you'd like, I can escalate this to a Support Lead.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 444,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 324,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 444,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 324,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 444,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 444
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4302,
+ "output_tokens": 324,
+ "thinking_tokens": 0,
+ "latency_ms": 3606,
+ "wall_ms": 7369,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005734.7131934
+}

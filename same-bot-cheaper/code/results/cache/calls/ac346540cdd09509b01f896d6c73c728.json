@@ -1,0 +1,50 @@
+{
+ "text": "According to Leafy's policy, a lost parcel investigation takes up to **5 business days**.\n\nHere's the full process:\n\n1. **Report timing:** If your tracking hasn't moved for 4 business days, or shows delivered but nothing arrived, contact Leafy support.\n2. **Investigation:** Support opens a courier investigation, which takes up to 5 business days.\n3. **Resolution:** Once the investigation concludes, you can choose either a **free replacement** or a **full refund**.\n\nIs there a specific order you're tracking?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 3176,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 125,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 3176,
+    "output_tokens": 125,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 3176,
+ "output_tokens": 125,
+ "thinking_tokens": 0,
+ "latency_ms": 2127,
+ "wall_ms": 6049,
+ "overhead": 379,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791005637.5079088
+}

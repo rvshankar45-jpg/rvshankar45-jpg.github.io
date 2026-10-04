@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry about the mix-up. The policies I have don't cover what happens when the wrong plant is delivered, so I can't tell you the remedy or timeframe without guessing. The 30-day Plant Care Guarantee is for plants that die or decline, so it doesn't apply here.\n\nI can escalate this to a Support Lead to sort out. Please send me your order number (it looks like LF- followed by six digits), and I'll pass along that you ordered a pilea and received a peperomia.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 435,
+  "cache_read_input_tokens": 1178,
+  "output_tokens": 328,
+  "output_tokens_details": {
+   "thinking_tokens": 168
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 435,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 328,
+    "cache_read_input_tokens": 1178,
+    "cache_creation_input_tokens": 435,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 435
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1615,
+ "output_tokens": 328,
+ "thinking_tokens": 168,
+ "latency_ms": 3979,
+ "wall_ms": 7245,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100849.2968273
+}

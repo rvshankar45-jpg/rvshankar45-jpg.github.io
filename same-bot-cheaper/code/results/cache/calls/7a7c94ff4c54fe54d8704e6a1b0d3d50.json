@@ -1,0 +1,49 @@
+{
+ "text": "Good thinking to ask! \ud83c\udf3f\n\nIf you'd waited until the **26th**, the upgrade would have missed the cutoff. Changes made **on or after the 25th** apply to the **following month's box**.\n\n- **Upgrading today (the 22nd):** Collector applies to your next box. You're charged $49 on the 25th, and it ships in the first full week of next month.\n- **Upgrading on the 26th:** your next box would already be billed on the 25th at your current Starter price. Collector would start with the box after that, charged on the 25th of the following month.\n\nSo waiting would mean one more month on Starter before the upgrade kicks in. If you'd like Collector sooner, upgrading today under \"Account\" > \"Subscriptions\" is the way to go.\n\nIs there anything else I can help with? Happy planting! \ud83e\udeb4",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1027,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 588,
+  "output_tokens_details": {
+   "thinking_tokens": 323
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1027,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 588,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 1027,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1027
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 5367,
+ "output_tokens": 588,
+ "thinking_tokens": 323,
+ "latency_ms": 5731,
+ "wall_ms": 8174,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879455.2111697
+}

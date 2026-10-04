@@ -1,0 +1,18 @@
+# Review of disagreements between the hand labels and the judge's blind re-label (QA gate 1).
+# decision: relabelled -> the hand label was changed to match the judge (the entry stays as an audit trail)
+#           kept       -> the hand label was kept; reason explains why the judge is wrong for routing purposes
+
+q077: {decision: relabelled, to: simple, reason: "One rule (no reply within 3 days -> automatic refund); comparing 4 days to 3 is not real reasoning."}
+q078: {decision: relabelled, to: simple, reason: "The wrong-item process is a single policy paragraph."}
+q080: {decision: relabelled, to: simple, reason: "Both plants appear in the same one-line pet-safety list; it is a lookup."}
+q081: {decision: relabelled, to: simple, reason: "One fact: each parcel is charged separately when it ships."}
+q083: {decision: relabelled, to: simple, reason: "One fact: promo codes can't combine with member pricing on the same item."}
+q084: {decision: relabelled, to: simple, reason: "One fact: lost gift card codes are reissued with the purchase order number."}
+q087: {decision: relabelled, to: simple, reason: "One fact: buy-now-pay-later refunds go to the instalment provider."}
+q088:
+  decision: kept
+  label: complex
+  reason: >-
+    The KB contains no light requirements for calathea. The correct answer is to NOT answer the care
+    question from memory and instead point to free Plant Care Specialist advice. That is a grounding /
+    hallucination trap, which is exactly where a small model is more likely to fail, so it should route strong.

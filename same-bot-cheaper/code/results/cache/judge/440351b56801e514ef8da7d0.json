@@ -1,0 +1,283 @@
+{
+ "items": [
+  {
+   "answer_id": "q085#1",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Core facts right, but says deleting before the 25th means next box not charged (unsupported) and that cancelling can be done 'anytime'; mixed timing claims."
+  },
+  {
+   "answer_id": "q085#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate and concise; sensible advice on cancelling before the 25th."
+  },
+  {
+   "answer_id": "q085#3",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Says a charged box is sent during the 30-day window; the claim that the cancel 'takes effect before the 25th' is muddled. Mostly OK but has some inaccuracies."
+  },
+  {
+   "answer_id": "q085#4",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct core facts; 'upcoming charges stopped once deletion processed' is slightly assumed; emoji-heavy."
+  },
+  {
+   "answer_id": "q085#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, concise, helpful."
+  },
+  {
+   "answer_id": "q085#6",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Says October box arrives in first full week of October, which is probably already passed/uncertain; otherwise good honesty about timing."
+  },
+  {
+   "answer_id": "q085#7",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 3,
+   "score": 3,
+   "note": "Claims unshipped boxes will be cancelled, which conflicts with billed box still shipping; invented 'pending orders' check; heavy formatting."
+  },
+  {
+   "answer_id": "q085#8",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Core facts right, but asserts this month's box was likely billed, an assumption; Oct 3 is before first full week though so plausible."
+  },
+  {
+   "answer_id": "q085#9",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Thorough and honest about uncertainty; slightly long; minor assumption about Sept 25 billing and guarantee detail."
+  },
+  {
+   "answer_id": "q085#10",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct essentials; 'can't stop a box already in queue' fine; some padding."
+  },
+  {
+   "answer_id": "q086#1",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct waiver and caveats; honest about Friday."
+  },
+  {
+   "answer_id": "q086#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Accurate, complete, appropriate escalation offer."
+  },
+  {
+   "answer_id": "q086#3",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Says guarantee won't cover cold/heat damage (right) but also states waiving gets it moving sooner; fine. Overall mostly correct but long and speculative about 'tomorrow'."
+  },
+  {
+   "answer_id": "q086#4",
+   "correctness": 3,
+   "completeness": 2,
+   "policy": 4,
+   "tone": 3,
+   "score": 3,
+   "note": "Correct caveats but ignores the Friday question and implies plant waits until temperatures safe."
+  },
+  {
+   "answer_id": "q086#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Accurate, honest about unknowns, offers escalation."
+  },
+  {
+   "answer_id": "q086#6",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Concise and correct."
+  },
+  {
+   "answer_id": "q086#7",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "q086#8",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct; slightly vague that the DOA exception is only for cold/heat; good."
+  },
+  {
+   "answer_id": "q086#9",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise with escalation offer."
+  },
+  {
+   "answer_id": "q087#1",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 4,
+   "tone": 4,
+   "score": 2,
+   "note": "Misses that BNPL refunds go to the instalment provider who adjusts payments; says it's not covered."
+  },
+  {
+   "answer_id": "q087#2",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 4,
+   "tone": 4,
+   "score": 2,
+   "note": "Claims KB doesn't cover provider adjustment; it does."
+  },
+  {
+   "answer_id": "q087#3",
+   "correctness": 2,
+   "completeness": 2,
+   "policy": 4,
+   "tone": 4,
+   "score": 2,
+   "note": "Says no details on instalment adjustment; KB covers it."
+  },
+  {
+   "answer_id": "q087#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct: goes to the instalment provider, which adjusts remaining payments."
+  },
+  {
+   "answer_id": "q087#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and adds store credit option."
+  },
+  {
+   "answer_id": "q087#6",
+   "correctness": 2,
+   "completeness": 2,
+   "policy": 4,
+   "tone": 4,
+   "score": 2,
+   "note": "Says policy lacks BNPL refund detail; wrong."
+  },
+  {
+   "answer_id": "q088#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Directs to free Plant Care Specialist advice, with hours; matches reference."
+  },
+  {
+   "answer_id": "q088#2",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 3,
+   "tone": 4,
+   "score": 3,
+   "note": "Misses that anyone can get free advice from Plant Care Specialists; offers to pass along instead."
+  },
+  {
+   "answer_id": "q088#3",
+   "correctness": 3,
+   "completeness": 2,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Misses Plant Care Specialist route; suggests Support Lead."
+  },
+  {
+   "answer_id": "q088#4",
+   "correctness": 3,
+   "completeness": 2,
+   "policy": 3,
+   "tone": 4,
+   "score": 3,
+   "note": "Misses the free Plant Care Specialist option."
+  },
+  {
+   "answer_id": "q088#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, mentions free advice for non-customers with channels."
+  },
+  {
+   "answer_id": "q088#6",
+   "correctness": 2,
+   "completeness": 2,
+   "policy": 2,
+   "tone": 3,
+   "score": 2,
+   "note": "Refers to Support Lead rather than Plant Care Specialists and implies help only after ordering; wrong."
+  }
+ ]
+}

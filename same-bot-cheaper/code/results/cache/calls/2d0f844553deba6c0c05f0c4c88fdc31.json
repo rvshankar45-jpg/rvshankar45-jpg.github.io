@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! I'm happy to help you with this.\n\nGood news: a watering can counts as a non-living item (an accessory), so it can be returned. Since you got it 2 weeks ago, you're well within the **30-day** return window, and as long as it's unused and in its original packaging, it's eligible.\n\nHere's how to do it:\n\n- Go to **\"My Orders\"** and start the return for the watering can.\n- A prepaid return label will be emailed to you.\n- Drop the parcel off within **7 days**, as the label expires after that.\n\nA few things to know about cost and refunds:\n\n- Because this is a change-of-mind return, there's a flat **$6.95** return fee, which is deducted from your refund. If you're a Leafy Plus member, the fee is waived.\n- Your refund goes back to your original payment method within **5 business days** of the parcel reaching our warehouse.\n- Original shipping is only refunded if the whole order is returned because of our error, so it wouldn't apply here.\n- We don't offer direct exchanges. If you'd like a different watering can, just return this one and place a new order.\n\nIf you have any questions along the way, I'm always here to help. Happy growing!",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 437,
+  "cache_read_input_tokens": 1603,
+  "output_tokens": 390,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 437,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 390,
+    "cache_read_input_tokens": 1603,
+    "cache_creation_input_tokens": 437,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 437
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2042,
+ "output_tokens": 390,
+ "thinking_tokens": 0,
+ "latency_ms": 4667,
+ "wall_ms": 7209,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880229.5668654
+}

@@ -1,0 +1,154 @@
+{
+ "items": [
+  {
+   "id": "c01.t1",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "c01.t2",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "c01.t3",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "c01.t4",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "c02.t1",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "c02.t2",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "c02.t3",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "c02.t4",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "c03.t1",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "c03.t2",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "c03.t3",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "c03.t4",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "c04.t1",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "c04.t2",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "c04.t3",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "c04.t4",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "c05.t1",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "c05.t2",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "c05.t3",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "c05.t4",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "c05.t5",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "c06.t1",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "c06.t2",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "c06.t3",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "c07.t1",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  }
+ ]
+}

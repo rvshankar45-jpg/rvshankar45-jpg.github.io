@@ -1,0 +1,148 @@
+{
+ "items": [
+  {
+   "answer_id": "t216#1",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct on Account > Privacy and deletion details. Admits the KB doesn't cover data selling and offers to escalate. It mentions a website Privacy Policy that the KB doesn't mention, which is a minor invention."
+  },
+  {
+   "answer_id": "t216#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate. Says the KB doesn't cover data selling, offers escalation and gives the email contact with its 1-business-day response."
+  },
+  {
+   "answer_id": "t217#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Says insurance and points aren't covered and lists accurate Plus and Plant Club details. It doesn't explicitly offer to escalate, only to give contact details."
+  },
+  {
+   "answer_id": "t217#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Says it can't confirm either, points to the Plant Care Guarantee and Leafy Plus, and offers to escalate."
+  },
+  {
+   "answer_id": "t218#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate on the 90-day guarantee, the claim steps, the review time and the exclusions. Sensibly hedges on the order date."
+  },
+  {
+   "answer_id": "t218#2",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct and concise. It says 'you're covered' without conditions, and it treats 50 days since arrival as the order date."
+  },
+  {
+   "answer_id": "t219#1",
+   "correctness": 4,
+   "completeness": 3,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Correctly says the order can't be changed. It wrongly says a new order will ship together with the current one, which the KB doesn't support. It omits the free shipping threshold and offers escalation only vaguely."
+  },
+  {
+   "answer_id": "t219#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Matches the reference: no change online, intercept not guaranteed, new order option and the shipping threshold. Offers escalation."
+  },
+  {
+   "answer_id": "t220#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Timeframes are right and it offers escalation. Offering instant store credit is fine. It could say more clearly that a refund over $150 requires a Support Lead."
+  },
+  {
+   "answer_id": "t220#2",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 4,
+   "score": 3,
+   "note": "Says refunds 'post 5 business days after arrival', which is slightly off. It omits the wallet timing. It makes escalation conditional on a delay and doesn't say that a refund over $150 requires a Support Lead. It promises to 'expedite'."
+  },
+  {
+   "answer_id": "t221#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Honest that the KB covers pets only. Gives the poison control safety advice and offers escalation."
+  },
+  {
+   "answer_id": "t221#2",
+   "correctness": 1,
+   "completeness": 2,
+   "policy": 1,
+   "tone": 3,
+   "score": 1,
+   "note": "Wrongly states spider plants are safe for toddlers, extrapolating from the pet-safe list. This is a safety risk, and it gives no immediate poison control advice or escalation."
+  },
+  {
+   "answer_id": "t222#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct on the 200-character limit and the hidden price on the slip. Doesn't invent a rule about prices in the note and offers escalation."
+  },
+  {
+   "answer_id": "t222#2",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 2,
+   "tone": 4,
+   "score": 2,
+   "note": "Correct on 200 characters and the slip. It invents that a price can be included in the note, which the KB doesn't say."
+  },
+  {
+   "answer_id": "t223#1",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Good guarantee guidance and an apology. It doesn't offer the goodwill credit of up to $15 that agents can give. It offers escalation instead."
+  },
+  {
+   "answer_id": "t223#2",
+   "correctness": 4,
+   "completeness": 3,
+   "policy": 3,
+   "tone": 4,
+   "score": 3,
+   "note": "Gives the claim process but doesn't mention goodwill credit or escalation for the compensation request. It doesn't acknowledge the email delay policy and only asks for details."
+  }
+ ]
+}

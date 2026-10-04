@@ -1,0 +1,49 @@
+{
+ "text": "Hi again! \ud83c\udf31 Good question, and the answer is **yes, as long as you haven't used any Leafy Plus benefits.**\n\nIf you cancel within **14 days** of purchase, you get a **full refund**, so a change of mind after a week is well within the window. The catch is that the refund only applies if you haven't used any membership benefits. Using a benefit would mean no refund.\n\n- **Cancel within 14 days and no benefits used:** full refund\n- **Cancel after 14 days, or after using a benefit:** no refund, but your benefits continue to the end of your paid year\n\nThe knowledge base doesn't spell out exactly which actions count as \"using a benefit\". If you're unsure, for example about placing an order with free shipping while you decide, I'm happy to escalate that to a Support Lead so you get a clear answer before you sign up.\n\nIs there anything else I can help with? \ud83d\udc9a",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1245,
+  "cache_read_input_tokens": 1853,
+  "output_tokens": 287,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1245,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 287,
+    "cache_read_input_tokens": 1853,
+    "cache_creation_input_tokens": 1245,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1245
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 3100,
+ "output_tokens": 287,
+ "thinking_tokens": 0,
+ "latency_ms": 3008,
+ "wall_ms": 6084,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880205.1525345
+}

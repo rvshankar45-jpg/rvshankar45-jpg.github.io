@@ -1,0 +1,129 @@
+{
+ "items": [
+  {
+   "id": "a0",
+   "addresses": true,
+   "reason": "Answers that Express is unavailable for islands."
+  },
+  {
+   "id": "a1",
+   "addresses": true,
+   "reason": "States up to 30 days."
+  },
+  {
+   "id": "a2",
+   "addresses": true,
+   "reason": "Gives Mon-Wed shipping days."
+  },
+  {
+   "id": "a3",
+   "addresses": true,
+   "reason": "Gives return windows."
+  },
+  {
+   "id": "a4",
+   "addresses": true,
+   "reason": "Gives first full week of month."
+  },
+  {
+   "id": "a5",
+   "addresses": true,
+   "reason": "Explains auto-refund after 3 days."
+  },
+  {
+   "id": "a6",
+   "addresses": true,
+   "reason": "Answers that $70 doesn't qualify for free shipping."
+  },
+  {
+   "id": "a7",
+   "addresses": true,
+   "reason": "Doesn't give the light info but responds and refers to specialists; acceptable handling of the question."
+  },
+  {
+   "id": "a8",
+   "addresses": true,
+   "reason": "Gives steps for account fraud."
+  },
+  {
+   "id": "a9",
+   "addresses": true,
+   "reason": "Covers all three parts."
+  },
+  {
+   "id": "a10",
+   "addresses": true,
+   "reason": "Lists Leafy Plus benefits."
+  },
+  {
+   "id": "a11",
+   "addresses": true,
+   "reason": "Answers that the guarantee doesn't apply to earlier plants."
+  },
+  {
+   "id": "a12",
+   "addresses": true,
+   "reason": "Answers the refund within 14 days."
+  },
+  {
+   "id": "a13",
+   "addresses": true,
+   "reason": "Answers that refund isn't available once a benefit is used."
+  },
+  {
+   "id": "a14",
+   "addresses": true,
+   "reason": "Says Express is not free."
+  },
+  {
+   "id": "a15",
+   "addresses": true,
+   "reason": "Gives up to 30 days."
+  },
+  {
+   "id": "a16",
+   "addresses": true,
+   "reason": "Gives return windows."
+  },
+  {
+   "id": "a17",
+   "addresses": true,
+   "reason": "Gives shipping days."
+  },
+  {
+   "id": "a18",
+   "addresses": true,
+   "reason": "Says not available."
+  },
+  {
+   "id": "a19",
+   "addresses": true,
+   "reason": "Gives shipping timing."
+  },
+  {
+   "id": "a20",
+   "addresses": true,
+   "reason": "Explains auto-refund and next steps."
+  },
+  {
+   "id": "a21",
+   "addresses": false,
+   "reason": "Doesn't answer whether $70 qualifies; claims no threshold info and only offers escalation/Plus."
+  },
+  {
+   "id": "a22",
+   "addresses": true,
+   "reason": "Responds and refers to specialists since it lacks the info."
+  },
+  {
+   "id": "a23",
+   "addresses": true,
+   "reason": "Gives steps and escalates."
+  },
+  {
+   "id": "a24",
+   "addresses": false,
+   "reason": "Answer is 'nan', empty."
+  }
+ ]
+}

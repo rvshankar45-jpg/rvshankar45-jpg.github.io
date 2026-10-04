@@ -1,0 +1,49 @@
+{
+ "text": "Good question! \ud83c\udf3f There are two steps, so here's the full timeline.\n\n**Step 1: Leafy issues your refund**\n- This happens within **5 business days** of your parcel reaching our warehouse.\n\n**Step 2: The money reaches you** (this depends on how you paid)\n- **Cards:** 5-10 business days\n- **Digital wallets:** 3-5 business days\n- **Leafy store credit:** instant, and it never expires\n\nAdding those together, a card refund could take up to about 15 business days from when we receive the parcel, and a wallet refund up to about 10. The refund goes back to your original payment method, minus the $6.95 return fee.\n\nAlso, your non-living item can be returned within **30 days of delivery**. You're about 2 weeks in, so there's still time, but I'd start the new return soon.\n\nOne more thing: I mentioned starting the return again from \"My Orders\" to get a fresh label. If you don't see that option, please let me know and I'll help you from there.\n\nIs there anything else I can help with? We're always happy to help. \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1578,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 941,
+  "output_tokens_details": {
+   "thinking_tokens": 598
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1578,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 941,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 1578,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1578
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 5918,
+ "output_tokens": 941,
+ "thinking_tokens": 598,
+ "latency_ms": 8593,
+ "wall_ms": 14211,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879726.0856988
+}

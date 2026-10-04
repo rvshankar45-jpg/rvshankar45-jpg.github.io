@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry about the mix-up, especially with your move coming up. Unfortunately, once an order has shipped, its address can't be changed, and couriers don't accept redirection requests from Leafy, so I can't redirect this one to your dad.\n\nExpress also isn't available for island addresses (Zone 3). A new order to his address would ship Standard only, taking 5-8 business days, and live plants only ship Monday to Wednesday. Our policy doesn't cover what to do with the parcel already in transit, such as whether it can be returned, but I can escalate that to a Support Lead if you'd like.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2215,
+  "output_tokens": 512,
+  "output_tokens_details": {
+   "thinking_tokens": 318
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 512,
+    "cache_read_input_tokens": 2215,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2217,
+ "output_tokens": 512,
+ "thinking_tokens": 318,
+ "latency_ms": 5725,
+ "wall_ms": 8153,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791007020.337344
+}

@@ -1,0 +1,50 @@
+{
+ "text": "Good news! You're within the **14-day window** for a full refund on Leafy Plus.\n\nSince you haven't used any benefits, you're eligible for a **full refund**. Please contact our Support Lead to process this\u2014I'll escalate that for you now so they can issue it to your original payment method within **5\u201310 business days** (or instant store credit if you prefer).\n\nIs there anything else I can help with, or shall I escalate?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1500,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 108,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1500,
+    "output_tokens": 108,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1500,
+ "output_tokens": 108,
+ "thinking_tokens": 0,
+ "latency_ms": 2119,
+ "wall_ms": 5118,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791100402.7554486
+}

@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! \ud83c\udf3f\n\nFor a Plant Care Guarantee claim, you'll need **at least two photos**:\n\n- **A photo of the whole plant**\n- **A close-up** of the problem area\n\nHere's how to submit your claim:\n\n- Go to **\"My Orders\"** and start the claim there.\n- Make sure you do this within your guarantee window: **30 days from delivery** (or **90 days** if you're a Leafy Plus member and ordered the plant while your membership was active).\n- A Plant Care Specialist will review your claim within **2 business days**.\n\nYou don't need to send the plant back. If your claim is approved, we'll send one free replacement of the same plant (or store credit if it's out of stock).\n\nIf you'd like some care tips while you wait, our Plant Care Specialists are happy to help by chat (9am-5pm Mon-Fri) or email.\n\nIs there anything else I can help you with? I'm always happy to help. \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 431,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 318,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 431,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 318,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 431,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 431
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4771,
+ "output_tokens": 318,
+ "thinking_tokens": 0,
+ "latency_ms": 3165,
+ "wall_ms": 5895,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879176.3364847
+}

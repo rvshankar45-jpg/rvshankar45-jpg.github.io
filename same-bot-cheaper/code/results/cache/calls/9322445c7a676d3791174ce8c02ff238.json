@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! \ud83c\udf3f\n\nAccount deletion takes **up to 30 days** to complete.\n\nHere's what to know:\n- You can start the process yourself by going to **\"Account\" > \"Privacy\"**.\n- Deleting your account also **cancels any subscriptions** you have, so you may want to make sure you're ready for that first.\n- If you'd like a copy of your data before deleting, you can download it from that same \"Privacy\" section.\n\nIf you have any open orders or questions about a refund before you go, just let me know and I'm happy to help with those too.\n\nPlease reach out anytime if you need anything else. We'd love to have you back whenever you're ready! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 425,
+  "cache_read_input_tokens": 2091,
+  "output_tokens": 222,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 425,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 222,
+    "cache_read_input_tokens": 2091,
+    "cache_creation_input_tokens": 425,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 425
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2518,
+ "output_tokens": 222,
+ "thinking_tokens": 0,
+ "latency_ms": 3294,
+ "wall_ms": 6485,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879897.9755025
+}

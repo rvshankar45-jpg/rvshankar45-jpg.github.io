@@ -1,0 +1,50 @@
+{
+ "text": "No, not with that cart. Free Standard shipping applies to orders of **$75 or more after discounts (before tax)**. Your cart is $70 after the promo code, so Standard shipping would be **$7.95**.\n\n- **Reaching free shipping:** adding $5 or more of items (after discounts) would bring you to $75 and make Standard shipping free.\n- **Express:** it costs $14.95 and is never free.\n- **Leafy Plus:** it's $59/year and includes free Standard shipping with no minimum. It also auto-renews, so it's probably only worth it if you expect to order often.\n\nExtra fees, such as the $20 handling fee on XL plants, are separate from the shipping threshold. I can't say from the policy whether they count toward the $75, so I can escalate that to a Support Lead if it matters for your order.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2207,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 448,
+  "output_tokens_details": {
+   "thinking_tokens": 177
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2207,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 448,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2207,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2207
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2209,
+ "output_tokens": 448,
+ "thinking_tokens": 177,
+ "latency_ms": 4272,
+ "wall_ms": 6831,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004670.775465
+}

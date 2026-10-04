@@ -1,0 +1,49 @@
+{
+ "text": "Good question! \ud83c\udf3f\n\nNo, the $20 XL handling fee stays even if your order is over $75. The $75 threshold only removes the **Standard shipping charge** ($7.95).\n\nHere's how it works for an XL plant order of $75 or more (after discounts, before tax):\n\n- **Standard shipping ($7.95):** free\n- **XL handling fee:** $20 still applies\n\nMy earlier message may have made it sound like the $75 mark could cover both, so I'm sorry for any confusion there.\n\nIf you have any other questions about your order, I'm happy to help. Thanks for reaching out to Leafy! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1681,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 202,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1681,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 202,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 1681,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1681
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 6021,
+ "output_tokens": 202,
+ "thinking_tokens": 0,
+ "latency_ms": 2428,
+ "wall_ms": 5395,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879499.6541202
+}

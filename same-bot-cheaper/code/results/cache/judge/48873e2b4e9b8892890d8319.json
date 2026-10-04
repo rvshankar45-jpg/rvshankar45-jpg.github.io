@@ -1,0 +1,112 @@
+{
+ "items": [
+  {
+   "answer_id": "t264#1",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Escalates and asks for order number, but wrongly says KB doesn't cover lost orders; doesn't say it's replacement OR refund, nor the courier investigation."
+  },
+  {
+   "answer_id": "t264#2",
+   "correctness": 2,
+   "completeness": 2,
+   "policy": 2,
+   "tone": 4,
+   "score": 2,
+   "note": "Implies both refund and replacement may be possible, which is wrong. Asks sensible questions and mentions escalation, but misses the investigation and either/or rule."
+  },
+  {
+   "answer_id": "t265#1",
+   "correctness": 4,
+   "completeness": 2,
+   "policy": 3,
+   "tone": 3,
+   "score": 2,
+   "note": "Doesn't apologise properly or offer the up-to-$15 goodwill credit, and doesn't mention escalation. Only asks questions."
+  },
+  {
+   "answer_id": "t265#2",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 3,
+   "tone": 4,
+   "score": 3,
+   "note": "Wrongly says KB has no compensation for late delivery; misses the $15 goodwill credit. Escalation is reasonable and the shipping context is accurate."
+  },
+  {
+   "answer_id": "t266#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct: no international shipping."
+  },
+  {
+   "answer_id": "t266#2",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct no, but 'only within the United States' is an unstated detail."
+  },
+  {
+   "answer_id": "t267#1",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Out-of-stock part is correct. Assumes the plant is cracked and ignores that a cracked item could be the pot. The claim that DOA replacements don't use up the guarantee's replacement is accurate, but the 30-day guarantee wording is muddled."
+  },
+  {
+   "answer_id": "t267#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate on both parts, covers plant and pot cases, and asks clarifying questions."
+  },
+  {
+   "answer_id": "t268#1",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 2,
+   "tone": 4,
+   "score": 2,
+   "note": "States definitively that Leafy offers no such services, which the KB doesn't cover. The 'err on the dry side' advice is somewhat invented. Specialist referral is good."
+  },
+  {
+   "answer_id": "t268#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Doesn't guess, offers escalation and Plant Care Specialists, and gives accurate care details."
+  },
+  {
+   "answer_id": "t269#1",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Key facts are right. 'No further charges after deletion is initiated' is unsupported, because deletion takes up to 30 days and the cancellation timing isn't guaranteed."
+  },
+  {
+   "answer_id": "t269#2",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate and practical advice to cancel first. 'November's box' is an assumption about the month, but it's a minor issue."
+  }
+ ]
+}

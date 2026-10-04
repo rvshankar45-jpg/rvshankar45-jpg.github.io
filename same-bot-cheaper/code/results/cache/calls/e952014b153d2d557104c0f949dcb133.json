@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry for the hassle. Unfortunately, I can't send the refund to a different card: refunds go only to the original payment method, even if that card has been closed or expired. Your bank will normally pass the refund on to your replacement card, and it takes **5-10 business days** once issued (3-5 business days if you paid with a digital wallet).\n\nIf you'd rather not wait on the bank, you can take the $55 as **Leafy store credit** instead. It's issued instantly and never expires. Would you like to go that route?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 446,
+  "cache_read_input_tokens": 1554,
+  "output_tokens": 167,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 446,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 167,
+    "cache_read_input_tokens": 1554,
+    "cache_creation_input_tokens": 446,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 446
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2002,
+ "output_tokens": 167,
+ "thinking_tokens": 0,
+ "latency_ms": 3243,
+ "wall_ms": 6167,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100886.150437
+}

@@ -1,0 +1,50 @@
+{
+ "text": "Unfortunately, no\u2014you're outside the **48-hour window** for DOA (Damaged on Arrival) claims. You placed your order on Monday, and today being Thursday means it's been more than 48 hours since delivery.\n\nHowever, your plant is still covered under the **Plant Care Guarantee** (30 days from delivery, or 90 days if you're a Leafy Plus member). You can file a claim from \"My Orders\" with at least two photos (whole plant + close-up), and a Plant Care Specialist will review it within 2 business days\u2014we'll send a free replacement if approved.\n\nWould you like help filing a guarantee claim instead?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1471,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 150,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1471,
+    "output_tokens": 150,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1471,
+ "output_tokens": 150,
+ "thinking_tokens": 0,
+ "latency_ms": 2066,
+ "wall_ms": 5482,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791101388.8424854
+}

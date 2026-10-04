@@ -1,0 +1,49 @@
+{
+ "text": "Hi, and thanks for contacting Leafy! I'm so sorry your calathea has had such a rough start. That's disappointing, especially with a plant you were excited about.\n\n**The calathea: you're covered**\n\nLosing about half its leaves counts as significant decline (more than a third), and you're at day 10 of the 30-day Plant Care Guarantee window. Here's how to claim:\n\n- Go to \"My Orders\" and start a Plant Care Guarantee claim.\n- Upload at least two photos: one of the whole plant and one close-up.\n- A Plant Care Specialist will review it within 2 business days.\n- You don't need to send the plant back.\n- If approved, you get one free replacement of the same plant, or store credit if it's out of stock. The replacement gets its own new 30-day guarantee.\n\nPlease claim soon, since the window is 30 days from delivery (90 days if you're a Leafy Plus member). One thing to check: if you repotted into non-Leafy soil in the first 14 days, that isn't covered. If you did, it's still worth telling the specialist what happened.\n\n**The cracked pot**\n\nDamaged-on-arrival reports need to be made within 48 hours of delivery, so I can't promise a replacement or refund for the pot under our standard policy. If you'd like, I can pass the request to a Support Lead to see if anything can be done, though I can't guarantee the outcome. If you have photos of the cracked pot, add them to your claim, as they may help the specialist understand what happened.\n\n**Helping the plant in the meantime**\n\nYou can chat with a Plant Care Specialist for free, 9am\u20135pm Mon\u2013Fri your local time, or email help@leafy.example (answered within 1 business day). Our general tips for new plants:\n\n- Keep it out of direct sun.\n- Don't repot for the first 2\u20133 weeks.\n- Water only when the top inch of soil is dry, since overwatering causes most early problems.\n\nWould you like me to escalate the pot issue? And please reach out anytime if you need more help. We'd love to get you a happy, healthy calathea! \ud83c\udf3f",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 461,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 1332,
+  "output_tokens_details": {
+   "thinking_tokens": 651
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 461,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1332,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 461,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 461
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4801,
+ "output_tokens": 1332,
+ "thinking_tokens": 651,
+ "latency_ms": 10878,
+ "wall_ms": 13845,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879261.276312
+}

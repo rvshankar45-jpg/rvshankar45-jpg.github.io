@@ -1,0 +1,50 @@
+{
+ "text": "No, promo codes can't be added after ordering\u2014you'd need to place a new order to use a different code. \n\nHowever, as a Leafy Plus member, you're getting 10% member pricing on eligible items anyway. Here's the important part: **only one promo code per order is allowed**, and if your Plus discount is better than the promo code, it applies automatically instead. Since your 15% code is better than the 10% Plus discount, that's what you're getting\u2014so you can't stack a second code on top.\n\nIf you'd like to explore other options, I'm happy to escalate this to a Support Lead.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1696,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 145,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1696,
+    "output_tokens": 145,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1696,
+ "output_tokens": 145,
+ "thinking_tokens": 0,
+ "latency_ms": 6250,
+ "wall_ms": 9923,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791100907.7205558
+}

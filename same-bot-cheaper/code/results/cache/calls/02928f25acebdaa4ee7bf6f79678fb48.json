@@ -1,0 +1,50 @@
+{
+ "text": "No, unfortunately we can't ship a monstera to a PO box. PO boxes are for non-living items only, and live plants can't be delivered to them. Express speed doesn't change that.\n\nIf you have a street address (home, work, or a friend's), we can ship there. Express is $14.95 and is available in Zones 1 and 2 (next business day in Zone 1, 2 business days in Zone 2), but not in Zone 3. Live plants ship Monday\u2013Wednesday only, so orders placed after 12 noon Wednesday ship the following Monday.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 434,
+  "cache_read_input_tokens": 1455,
+  "output_tokens": 180,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 434,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 180,
+    "cache_read_input_tokens": 1455,
+    "cache_creation_input_tokens": 434,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 434
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1891,
+ "output_tokens": 180,
+ "thinking_tokens": 0,
+ "latency_ms": 2315,
+ "wall_ms": 6003,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005159.2140079
+}

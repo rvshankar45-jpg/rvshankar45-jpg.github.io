@@ -1,0 +1,89 @@
+{
+ "items": [
+  {
+   "id": "a25",
+   "addresses": true,
+   "reason": "Lists Leafy Plus benefits."
+  },
+  {
+   "id": "a26",
+   "addresses": true,
+   "reason": "Answers whether the guarantee applies to earlier plants."
+  },
+  {
+   "id": "a27",
+   "addresses": true,
+   "reason": "Answers refund within a week."
+  },
+  {
+   "id": "a28",
+   "addresses": true,
+   "reason": "Answers the used-free-shipping case and corrects an earlier statement."
+  },
+  {
+   "id": "a29",
+   "addresses": true,
+   "reason": "Says Express is not free."
+  },
+  {
+   "id": "a30",
+   "addresses": true,
+   "reason": "Explains the return window."
+  },
+  {
+   "id": "a31",
+   "addresses": true,
+   "reason": "Explains the return window in detail."
+  },
+  {
+   "id": "a32",
+   "addresses": true,
+   "reason": "Says free shipping doesn't apply at $70."
+  },
+  {
+   "id": "a33",
+   "addresses": true,
+   "reason": "Covers all three issues."
+  },
+  {
+   "id": "a34",
+   "addresses": true,
+   "reason": "Answers the used-shipping refund question."
+  },
+  {
+   "id": "a35",
+   "addresses": true,
+   "reason": "Says Express is not free."
+  },
+  {
+   "id": "a36",
+   "addresses": true,
+   "reason": "Explains the return window."
+  },
+  {
+   "id": "a37",
+   "addresses": true,
+   "reason": "Says no free shipping and gives the cost."
+  },
+  {
+   "id": "a38",
+   "addresses": true,
+   "reason": "Covers all three issues."
+  },
+  {
+   "id": "a39",
+   "addresses": true,
+   "reason": "Explains the return window."
+  },
+  {
+   "id": "a40",
+   "addresses": true,
+   "reason": "Says no free shipping and offers options."
+  },
+  {
+   "id": "a41",
+   "addresses": true,
+   "reason": "Covers all three issues."
+  }
+ ]
+}

@@ -1,0 +1,148 @@
+{
+ "items": [
+  {
+   "answer_id": "t024#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Accurate; includes store credit and timings."
+  },
+  {
+   "answer_id": "t024#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate and friendly; offers store credit."
+  },
+  {
+   "answer_id": "t025#1",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Core 3-5 days right, but the '1-2 weeks total' estimate is invented/loosely derived (5 business days + 3-5 is ~1.5-2 weeks); minor."
+  },
+  {
+   "answer_id": "t025#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct, adds relevant context and store credit option."
+  },
+  {
+   "answer_id": "t026#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct with exclusions; says no process info, offers escalation, which is somewhat unnecessary but honest."
+  },
+  {
+   "answer_id": "t026#2",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Omits flash sale/clearance and once-per-item exclusions; promises it can claim the credit and 'issued instantly' not stated in KB for price drops."
+  },
+  {
+   "answer_id": "t027#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct on both parts, plus lost code info."
+  },
+  {
+   "answer_id": "t027#2",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct; 'only redeemable for plants and products' is a slight unsupported addition; lost code reissue requires the purchaser."
+  },
+  {
+   "answer_id": "t028#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "t028#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct with helpful example and change timing."
+  },
+  {
+   "answer_id": "t029#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Fully correct and complete."
+  },
+  {
+   "answer_id": "t029#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "t030#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, though 'at a time' is a slight wording nuance."
+  },
+  {
+   "answer_id": "t030#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct with useful timing detail."
+  },
+  {
+   "answer_id": "t031#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "All benefits correct; 'cancel anytime' with refund conditions is accurate; doesn't mention no free Express but fine."
+  },
+  {
+   "answer_id": "t031#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Complete, notes Express not free."
+  }
+ ]
+}

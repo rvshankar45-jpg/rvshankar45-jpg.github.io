@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! \ud83c\udf3f\n\nYes, you'd pay for shipping on this order, but only by a small amount.\n\n- Your items total $85 ($40 pot + $45 plant).\n- After the $10-off code, your total is **$75**.\n- Free Standard shipping applies to orders of **$75 or more, after discounts and before tax**.\n\nYour discounted total is exactly $75, so it qualifies for **free Standard shipping**.\n\nA few things to keep in mind:\n- **Standard shipping** takes 2-3 business days (Zone 1), 3-5 business days (Zone 2), or 5-8 business days (Zone 3), depending on how far you are from our nearest greenhouse.\n- **Express shipping** is $14.95 and is never free. It's next business day (Zone 1) or 2 business days (Zone 2), and isn't available in Zone 3.\n- Live plants ship **Monday-Wednesday only**. If you order after 12 noon on Wednesday, your plant ships the following Monday.\n- If your plant is over about 4 ft (XL), there's a **$20 handling fee** and it ships Standard only.\n\nIf your total ends up even a little under $75 (for example, if the plant is XL and changes things, or the code is applied differently), shipping would be $7.95.\n\nHappy planting, and please reach out any time if you have more questions! \ud83e\udeb4",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2697,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 456,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2697,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 456,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2697,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2697
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2699,
+ "output_tokens": 456,
+ "thinking_tokens": 0,
+ "latency_ms": 4422,
+ "wall_ms": 7556,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879845.107369
+}

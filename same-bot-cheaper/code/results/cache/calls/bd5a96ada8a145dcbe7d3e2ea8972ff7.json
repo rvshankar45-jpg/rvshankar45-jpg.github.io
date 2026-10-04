@@ -1,0 +1,50 @@
+{
+ "text": "Unfortunately, Leafy gift cards aren't refundable for cash\u2014that's a fixed policy. However, you have a couple of options:\n\n1. **Use it at Leafy** \u2013 browse our plant selection and other items; gift cards never expire, so there's no rush.\n2. **Give it to someone else** \u2013 it makes a great gift for a plant lover.\n\nIf you'd like help finding something to use it on, I'm happy to assist!",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1427,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 104,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1427,
+    "output_tokens": 104,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1427,
+ "output_tokens": 104,
+ "thinking_tokens": 0,
+ "latency_ms": 1776,
+ "wall_ms": 4613,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791101446.2225378
+}

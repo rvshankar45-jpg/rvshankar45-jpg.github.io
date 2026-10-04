@@ -1,0 +1,49 @@
+{
+ "text": "I'm so sorry, that's really frustrating. Six business days with no tracking movement is well past our 4-business-day mark, so your order definitely qualifies for a courier investigation. I want to get it started right away.\n\n**What I need from you**\n- Your order number (LF- followed by six digits). You'll find it in \"My Orders\" or your confirmation email.\n\n**What happens next**\n- Once I have it, we open the courier investigation, which takes up to **5 business days**.\n- If the parcel is confirmed lost, you choose between a **free replacement** or a **full refund**.\n- If tracking shows \"delivered\" but nothing arrived, it goes through the same investigation.\n\nThe **$15 store credit** I mentioned earlier is still yours for the delay. If the order turns out to be over $150, I'll also bring in a Support Lead to look after it personally.\n\nPlease don't send a full card number or any passwords. The order number is all I need.\n\nSend it over whenever you're ready and I'll get things moving. Thank you for your patience, and please reach out any time!",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 871,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 757,
+  "output_tokens_details": {
+   "thinking_tokens": 421
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 871,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 757,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 871,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 871
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 5211,
+ "output_tokens": 757,
+ "thinking_tokens": 421,
+ "latency_ms": 6914,
+ "wall_ms": 9523,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879550.2333438
+}

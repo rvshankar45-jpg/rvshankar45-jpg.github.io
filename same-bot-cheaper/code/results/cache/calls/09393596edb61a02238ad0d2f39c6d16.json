@@ -1,0 +1,49 @@
+{
+ "text": "Account deletion takes **up to 30 days** to complete.\n\n- You can start it yourself by going to **\"Account\" > \"Privacy\"**, where you can also download your data first if you'd like a copy.\n- Deleting your account **cancels any subscriptions** you have.\n\nIf you have an open order or want help with anything before you delete, let me know.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 425,
+  "cache_read_input_tokens": 1609,
+  "output_tokens": 108,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 425,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 108,
+    "cache_read_input_tokens": 1609,
+    "cache_creation_input_tokens": 425,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 425
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2036,
+ "output_tokens": 108,
+ "thinking_tokens": 0,
+ "latency_ms": 2013,
+ "wall_ms": 5099,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880512.4991808
+}

@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry your plant arrived with a snapped stem. Since it was delivered Monday, the 48-hour window for a damaged-on-arrival report has passed. Plant issues after that go through the Plant Care Guarantee, which covers 30 days from delivery (90 days for Leafy Plus members).\n\nTo file a claim, go to \"My Orders\" and submit at least two photos, one of the whole plant and one close-up. A Plant Care Specialist will review it within 2 business days. If approved, you'd get one free replacement of the same plant (store credit if it's out of stock), and you don't need to send the damaged plant back. I can't promise the outcome, since the specialist makes that decision.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 451,
+  "cache_read_input_tokens": 1513,
+  "output_tokens": 491,
+  "output_tokens_details": {
+   "thinking_tokens": 266
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 451,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 491,
+    "cache_read_input_tokens": 1513,
+    "cache_creation_input_tokens": 451,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 451
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1966,
+ "output_tokens": 491,
+ "thinking_tokens": 266,
+ "latency_ms": 5126,
+ "wall_ms": 7640,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791101383.3369403
+}

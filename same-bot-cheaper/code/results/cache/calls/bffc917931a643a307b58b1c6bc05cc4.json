@@ -1,0 +1,50 @@
+{
+ "text": "We don't offer phone support, but there are a few other ways to reach us:\n\n- **Chat:** 8am-8pm Mon-Sat (your local time)\n- **Email:** help@leafy.example, answered within 1 business day\n- **Plant Care Specialists (chat):** 9am-5pm Mon-Fri, for plant care questions\n\nIf you tell me what you need help with, I can try to sort it out here, or escalate to a Support Lead if it's something that requires one.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2078,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 154,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2078,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 154,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2078,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2078
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2080,
+ "output_tokens": 154,
+ "thinking_tokens": 0,
+ "latency_ms": 1965,
+ "wall_ms": 4791,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100134.4819746
+}

@@ -1,0 +1,256 @@
+{
+ "items": [
+  {
+   "answer_id": "q025#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate fee, Plus exemption and extra relevant details."
+  },
+  {
+   "answer_id": "q025#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and friendly; slightly padded."
+  },
+  {
+   "answer_id": "q025#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Concise and correct."
+  },
+  {
+   "answer_id": "q025#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and complete."
+  },
+  {
+   "answer_id": "q025#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Concise and correct."
+  },
+  {
+   "answer_id": "q025#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct; somewhat long for a simple question."
+  },
+  {
+   "answer_id": "q026#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "States no exchanges and the return plus reorder route; correct details."
+  },
+  {
+   "answer_id": "q026#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct, and usefully covers the wrong-item case; long."
+  },
+  {
+   "answer_id": "q026#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct two-step process."
+  },
+  {
+   "answer_id": "q026#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "q026#5",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Concise and correct; omits the 30-day window."
+  },
+  {
+   "answer_id": "q026#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct; verbose."
+  },
+  {
+   "answer_id": "q027#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct with a helpful example."
+  },
+  {
+   "answer_id": "q027#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q027#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "q027#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct, with extra detail."
+  },
+  {
+   "answer_id": "q027#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q027#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q027#7",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "q028#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, and the date matches today's date (Oct 3)."
+  },
+  {
+   "answer_id": "q028#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, and honestly flags that the KB doesn't cover a billed box when pausing."
+  },
+  {
+   "answer_id": "q028#3",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Applies the cancellation rule about an already-billed box to pausing as if it were stated policy."
+  },
+  {
+   "answer_id": "q028#4",
+   "correctness": 3,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Says today is Oct 2 (wrong) and extends the billed-box rule to pausing."
+  },
+  {
+   "answer_id": "q028#5",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Core facts correct; the billed-box rule for pausing is extrapolated."
+  },
+  {
+   "answer_id": "q028#6",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Core facts correct; the billed-box rule for pausing is extrapolated."
+  },
+  {
+   "answer_id": "q028#7",
+   "correctness": 3,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Says today is Oct 1 (wrong) and extrapolates the billed-box rule."
+  },
+  {
+   "answer_id": "q028#8",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Core facts correct; 'resume whenever' is not in the KB."
+  },
+  {
+   "answer_id": "q028#9",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Core facts correct; the billed-box rule for pausing is extrapolated."
+  }
+ ]
+}

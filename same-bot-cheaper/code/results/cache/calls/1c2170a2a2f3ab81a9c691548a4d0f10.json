@@ -1,0 +1,50 @@
+{
+ "text": "Great question! Here's what we can do:\n\n**Gift note:** Yes, up to **200 characters** (not 300), and you can include the price in it if you'd like.\n\n**Price on the slip:** Yes, prices are **never printed on gift packing slips** \u2014 so that's automatically hidden.\n\nSo the price won't show on the slip, but if you want your sister to know what it cost, just add it in the gift note (keeping it to 200 characters).",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1654,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 112,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1654,
+    "output_tokens": 112,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1654,
+ "output_tokens": 112,
+ "thinking_tokens": 0,
+ "latency_ms": 2153,
+ "wall_ms": 6531,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791101287.6626184
+}

@@ -1,0 +1,49 @@
+{
+ "text": "Hi there! Thanks for reaching out to Leafy! \ud83c\udf31\n\nI totally understand\u2014sometimes a plant just doesn't vibe with your space or expectations. Unfortunately, **live plants can't be returned for change of mind**, even if you're not happy with how they look.\n\n**But here's the good news:** if there's actually something *wrong* with the plant, we've got you covered:\n\n- **Damaged on Arrival (DOA):** If the plant arrived with snapped stems, exposed roots, or was severely wilted or dead, report it within **48 hours** with photos and we'll send a free replacement or refund.\n\n- **Plant Care Guarantee:** If your plant dies or declines significantly despite reasonable care within **30 days** of delivery (or **90 days** if you're a Leafy Plus member), we'll send a free replacement. \"Significant decline\" means losing more than a third of its leaves, or stem/root rot.\n\n**Free care help:** If you're worried the plant might be struggling, our Plant Care Specialists can give you free advice to help it thrive\u2014just chat with us 9am\u20135pm Mon\u2013Fri, or email help@leafy.example anytime.\n\nIs there anything specific about the plant that's concerning you? I'm here to help! \ud83d\ude0a",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 3516,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 296,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 3516,
+    "output_tokens": 296,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 3516,
+ "output_tokens": 296,
+ "thinking_tokens": 0,
+ "latency_ms": 4290,
+ "wall_ms": 7143,
+ "overhead": 379,
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1790879621.043718
+}

@@ -1,0 +1,50 @@
+{
+ "text": "Sorry about the hassle, but this is fixable. Lost gift card codes are reissued when the purchaser provides the **gift card order number**.\n\n**What to do:**\n1. Find the order number for the gift card purchase. It looks like `LF-` followed by six digits (e.g. LF-204518). It should be in your order confirmation email or under \"My Orders\" in your account.\n2. Send that order number to us here in chat, or by email to help@leafy.example, and we'll reissue the code.\n\nGift cards never expire, so the code will still be valid once reissued.\n\nI don't have a stated timeframe for how long reissuing takes. Chat is open 8am-8pm Mon-Sat, and email is answered within 1 business day.\n\nPlease don't send a full card number, security code or password. The order number is all we need.\n\nIf you can't find the order number, let me know and I can escalate this to a Support Lead.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 434,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 287,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 434,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 287,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 434,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 434
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4292,
+ "output_tokens": 287,
+ "thinking_tokens": 0,
+ "latency_ms": 3151,
+ "wall_ms": 6915,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005757.504682
+}

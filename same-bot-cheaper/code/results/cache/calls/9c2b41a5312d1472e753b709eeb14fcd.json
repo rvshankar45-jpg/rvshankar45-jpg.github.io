@@ -1,0 +1,49 @@
+{
+ "text": "Hi again! \ud83c\udf3f Good news: since you're upgrading on the 22nd, which is **before the 25th**, the change applies to your **next box**.\n\n- **Today (22nd):** Change your plan under Account > Subscriptions.\n- **On the 25th:** You'll be charged the Collector price of $49 for next month's box.\n- **First full week of next month:** Your box ships with a medium or rare plant in a 6-inch pot.\n\nIf you waited until the 25th or later, the upgrade would only start with the box after that.\n\nI also need to correct something from my earlier message. I mentioned a 30-day guarantee, but I can't confirm that specific length. What I can say is that Plant Club plants come with the normal Plant Care Guarantee, and Leafy Plus members get a 90-day guarantee. If you'd like the exact terms, I can escalate that question to a Support Lead. Sorry for the mix-up!\n\nIs there anything else I can help with? Enjoy your upgrade! \ud83e\udeb4",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 758,
+  "cache_read_input_tokens": 2246,
+  "output_tokens": 676,
+  "output_tokens_details": {
+   "thinking_tokens": 350
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 758,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 676,
+    "cache_read_input_tokens": 2246,
+    "cache_creation_input_tokens": 758,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 758
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 3006,
+ "output_tokens": 676,
+ "thinking_tokens": 350,
+ "latency_ms": 6460,
+ "wall_ms": 9447,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880131.2972467
+}

@@ -1,0 +1,49 @@
+{
+ "text": "A return label is valid for **7 days**. After you start a return from \"My Orders\", a prepaid label is emailed to you, and you'll need to drop the parcel off within those 7 days before it expires.\n\nIf the label does expire, the policy I have doesn't say how to get a new one, so I can escalate that to a Support Lead if you need it.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 423,
+  "cache_read_input_tokens": 1238,
+  "output_tokens": 108,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 423,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 108,
+    "cache_read_input_tokens": 1238,
+    "cache_creation_input_tokens": 423,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 423
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1663,
+ "output_tokens": 108,
+ "thinking_tokens": 0,
+ "latency_ms": 1969,
+ "wall_ms": 4872,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880496.4910288
+}

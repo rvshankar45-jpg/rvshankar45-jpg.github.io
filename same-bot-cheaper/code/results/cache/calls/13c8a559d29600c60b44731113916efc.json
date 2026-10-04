@@ -1,0 +1,50 @@
+{
+ "text": "Your order was placed after 12 noon on Wednesday, so it will ship **the next Monday**. Live plants only ship Monday to Wednesday, and mixed orders ship together on a plant shipping day. Your pothos and ceramic pot will go out in the same shipment.\n\nOnce it ships, delivery time depends on your zone (distance from our nearest greenhouse), using Standard shipping:\n- **Zone 1** (under 300 miles): 2-3 business days\n- **Zone 2** (300-1,000 miles): 3-5 business days\n- **Zone 3** (over 1,000 miles, remote or island addresses): 5-8 business days\n\nIf you chose Express, it's next business day in Zone 1 and 2 business days in Zone 2. Express isn't available in Zone 3.\n\nIf the transit forecast is below 35\u00b0F or above 95\u00b0F, live plants may be held for up to 7 days, and we'll email you about it. You'll also get a tracking email when your order ships, though tracking can take up to 24 hours to update.\n\nI can't tell which zone you're in from here. If you tell me your general location, I can narrow down the delivery window.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 451,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 623,
+  "output_tokens_details": {
+   "thinking_tokens": 251
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 451,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 623,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 451,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 451
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4309,
+ "output_tokens": 623,
+ "thinking_tokens": 251,
+ "latency_ms": 5739,
+ "wall_ms": 8197,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005663.8357346
+}

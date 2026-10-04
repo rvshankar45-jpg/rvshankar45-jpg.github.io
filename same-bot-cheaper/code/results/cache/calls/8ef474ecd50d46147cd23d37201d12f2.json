@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry your plant arrived late, that's frustrating. I can offer you a one-time store credit of up to $15 as goodwill for the delay (store credit only, not cash). If you'd like something more than that, I'd need to escalate to a Support Lead.\n\nWe don't offer phone support. You can reach us by chat 8am-8pm Mon-Sat, or by email at help@leafy.example (answered within 1 business day). Plant Care Specialists are also available by chat 9am-5pm Mon-Fri, all in your local time.\n\nWould you like me to go ahead with the $15 credit?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 455,
+  "cache_read_input_tokens": 1651,
+  "output_tokens": 195,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 455,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 195,
+    "cache_read_input_tokens": 1651,
+    "cache_creation_input_tokens": 455,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 455
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2108,
+ "output_tokens": 195,
+ "thinking_tokens": 0,
+ "latency_ms": 2579,
+ "wall_ms": 6164,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100961.7133358
+}

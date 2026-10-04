@@ -1,0 +1,50 @@
+{
+ "text": "I don't have a policy covering account deletion, so I can't confirm whether your Plant Club subscription could continue without an account. I'd suggest not deleting anything yet, in case it ends your subscription.\n\nFor context, Plant Club is managed under \"Account\" > \"Subscriptions\". The next charge is on the 25th (October 25), and cancelling has no fee. An already-billed box is still sent and not refunded.\n\nWould you like me to escalate this to a Support Lead to confirm whether you can do both?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 434,
+  "cache_read_input_tokens": 1179,
+  "output_tokens": 439,
+  "output_tokens_details": {
+   "thinking_tokens": 277
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 434,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 439,
+    "cache_read_input_tokens": 1179,
+    "cache_creation_input_tokens": 434,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 434
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1615,
+ "output_tokens": 439,
+ "thinking_tokens": 277,
+ "latency_ms": 4116,
+ "wall_ms": 6986,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791101214.6007586
+}

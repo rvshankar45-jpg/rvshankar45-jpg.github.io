@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! I'm so sorry about this. You were looking forward to a peperomia, and getting a pothos instead is disappointing.\n\nOur knowledge base doesn't cover wrong-item deliveries, so I can't tell you exactly how it will be fixed or how long it will take. I don't want to guess or promise something I can't confirm. I can pass this to a Support Lead, who can look into it properly.\n\nTo do that, could you send me:\n- Your order number (it looks like **LF-** followed by six digits, e.g. LF-204518)\n- Whether you'd like to share a photo of the plant and its care card, which can help the team see what arrived\n\n**A quick safety note:** pothos is not pet-safe, while peperomia is. If you have pets at home, please keep the pothos out of their reach for now. If a pet or person has chewed or eaten any of it, contact your vet, doctor or poison control right away. Let me know too, and I'll escalate it straight away.\n\nIn the meantime, keep the plant out of direct sun for its first week and water only when the top inch of soil is dry. Pothos is a pretty forgiving plant.\n\nOnce I have your order number, I'll get this moving. Thanks for your patience, and please reach out any time!",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 432,
+  "cache_read_input_tokens": 1627,
+  "output_tokens": 713,
+  "output_tokens_details": {
+   "thinking_tokens": 302
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 432,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 713,
+    "cache_read_input_tokens": 1627,
+    "cache_creation_input_tokens": 432,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 432
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2061,
+ "output_tokens": 713,
+ "thinking_tokens": 302,
+ "latency_ms": 6976,
+ "wall_ms": 9375,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880020.219822
+}

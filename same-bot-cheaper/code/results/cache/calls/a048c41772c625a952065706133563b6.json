@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! I'm sorry your calathea has you worried. Seeing leaves turn yellow is stressful, but this is very common, and I'm happy to walk you through it.\n\n**Is this covered for a replacement?**\nNot on its own, I'm afraid. Yellowing of one or two older leaves in the first two weeks after delivery is normal transplant stress, so it doesn't qualify for a replacement by itself. Your plant is only about a week in, so this fits that pattern.\n\n**When a replacement would apply**\nOur Plant Care Guarantee lasts 30 days from delivery (90 days for Leafy Plus members, on plants ordered while the membership is active). If the plant dies or declines significantly despite reasonable care, we send one free replacement. Significant decline means:\n- Losing more than a third of its leaves\n- Stem or root rot\n- Collapse\n\n**What you can do now**\n- Keep it out of direct sun during its first week.\n- Water only when the top inch of soil is dry, since overwatering is the most common cause of early problems.\n- Avoid repotting for 2-3 weeks. Repotting into non-Leafy soil in the first 14 days isn't covered by the guarantee.\n- Check your care card for specifics.\n\n**If things get worse**\nSubmit a claim from \"My Orders\" within your guarantee window, with at least two photos (the whole plant and a close-up). A Plant Care Specialist will review it within 2 business days, and you don't need to send the plant back.\n\nYou can also chat or email with a Plant Care Specialist for free care advice anytime. They can help figure out what's going on with your calathea.\n\nThanks again for reaching out, and please come back if anything changes. I'm rooting for your calathea!",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 447,
+  "cache_read_input_tokens": 1553,
+  "output_tokens": 575,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 447,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 575,
+    "cache_read_input_tokens": 1553,
+    "cache_creation_input_tokens": 447,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 447
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2002,
+ "output_tokens": 575,
+ "thinking_tokens": 0,
+ "latency_ms": 5209,
+ "wall_ms": 8115,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879974.1428545
+}

@@ -1,0 +1,50 @@
+{
+ "text": "Unfortunately, live plants can't be returned for change of mind, so a pothos you simply don't like the look of isn't eligible for a return, even though you're only 10 days in. The only routes for live plants are the Plant Care Guarantee or Damaged on Arrival. The latter needed a report within 48 hours of delivery and only covers damage like snapped stems or a dead plant. I don't have the Plant Care Guarantee details here, so I can't say whether it applies, but I can escalate to a Support Lead if the plant has an actual problem.\n\nOn shipping: original shipping is only refunded when the whole order is returned because of our error, so it wouldn't apply here. If your order included non-living items (like a pot), those can be returned within 30 days of delivery if unused and in original packaging, but the shipping still wouldn't be refunded.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 453,
+  "cache_read_input_tokens": 1213,
+  "output_tokens": 490,
+  "output_tokens_details": {
+   "thinking_tokens": 219
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 453,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 490,
+    "cache_read_input_tokens": 1213,
+    "cache_creation_input_tokens": 453,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 453
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1668,
+ "output_tokens": 490,
+ "thinking_tokens": 219,
+ "latency_ms": 4274,
+ "wall_ms": 7362,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791101004.6545024
+}

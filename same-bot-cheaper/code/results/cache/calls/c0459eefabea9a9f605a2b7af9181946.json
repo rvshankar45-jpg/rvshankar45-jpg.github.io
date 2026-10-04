@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry, that's not the experience we promise. Claims are reviewed by a Plant Care Specialist within 2 business days, so a week of silence is well past that. I can't see your claim's status from here, and our policy doesn't cover what to do with an overdue claim, so I'd like to escalate this to a Support Lead to chase it up. If you send me your order number, I'll include it in the escalation.\n\nIt's also worth checking your spam folder and the claim status under \"My Orders\" in case a reply landed there. In the meantime, a Plant Care Specialist can give you free care advice by chat or email.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 780,
+  "cache_read_input_tokens": 1237,
+  "output_tokens": 460,
+  "output_tokens_details": {
+   "thinking_tokens": 266
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 780,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 460,
+    "cache_read_input_tokens": 1237,
+    "cache_creation_input_tokens": 780,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 780
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2019,
+ "output_tokens": 460,
+ "thinking_tokens": 266,
+ "latency_ms": 4632,
+ "wall_ms": 7490,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005434.7844048
+}

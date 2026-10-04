@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! I love that you picked up a snake plant, and it's great that you're keeping an eye on prices.\n\nUnfortunately, I'm not able to offer a price adjustment in this case. Our price drop policy covers purchases made within 7 days, and your plant is within that window at 5 days. However, flash sales are specifically excluded from it, so the difference wouldn't be issued as store credit.\n\nI know that's not the news you were hoping for, and I'm sorry about that. Here's what I can tell you:\n\n- Price drops (outside of flash sales and clearance) within 7 days of purchase are refunded as store credit, once per item.\n- Flash sale pricing doesn't qualify, so I can't promise an adjustment here.\n\nIf you'd like, I can pass your request to a Support Lead to review, though I can't guarantee a different outcome.\n\nIs there anything else I can help with, like care tips to help your snake plant thrive? Our Plant Care Specialists are always happy to chat. Thanks again for being part of the Leafy family!",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 450,
+  "cache_read_input_tokens": 2027,
+  "output_tokens": 348,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 450,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 348,
+    "cache_read_input_tokens": 2027,
+    "cache_creation_input_tokens": 450,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 450
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2479,
+ "output_tokens": 348,
+ "thinking_tokens": 0,
+ "latency_ms": 3556,
+ "wall_ms": 6655,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880004.3351922
+}

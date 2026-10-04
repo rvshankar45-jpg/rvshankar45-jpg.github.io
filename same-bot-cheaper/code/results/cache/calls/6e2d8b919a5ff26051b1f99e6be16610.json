@@ -1,0 +1,50 @@
+{
+ "text": "Yes. A free heat pack can be added at checkout in winter, so you'll see it as an option when you place your order.\n\nA couple of related things that may help with a winter order:\n\n- **Weather holds:** If the transit forecast is below 35\u00b0F or above 95\u00b0F, live plants may be held for up to 7 days, and we'll email you. You can waive the hold by replying to that email, but if you do, the Plant Care Guarantee no longer covers cold or heat damage in transit, and Damaged on Arrival claims for cold or heat damage aren't accepted.\n- **Shipping days:** Live plants ship Monday to Wednesday only. Plant orders placed after 12 noon on Wednesday ship the following Monday.\n\nI don't have details on how the heat pack works or whether it's guaranteed to prevent cold damage, so I can't say more on that. If you'd like to know, I can escalate your question.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 430,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 290,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 430,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 290,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 430,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 430
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4288,
+ "output_tokens": 290,
+ "thinking_tokens": 0,
+ "latency_ms": 3351,
+ "wall_ms": 6770,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005623.612694
+}

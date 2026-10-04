@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! I'm sorry to hear your plant arrived in rough shape. Let's get it sorted out.\n\n**Damaged on arrival: report within 48 hours of delivery**\n- Include photos of the plant and the box.\n- Damage that counts includes snapped main stems, a cracked or smashed pot, exposed roots, or a dead or severely wilted plant.\n- A few bent leaves or loose soil is normal and isn't considered damage.\n- If it qualifies, you can choose a free replacement on the next plant shipping day, or a refund.\n\n**If it's been more than 48 hours**\nYour plant can still be covered by our Plant Care Guarantee:\n- **30 days** from delivery (**90 days** for Leafy Plus members, on plants ordered while the membership is active).\n- Start a claim from \"My Orders\" with at least **two photos** (the whole plant and a close-up).\n- A Plant Care Specialist will review it within **2 business days**, and you don't need to send the plant back.\n\nIf you'd like free care tips for your plant in the meantime, our Plant Care Specialists are happy to help by chat or email.\n\nPlease reach out any time, we're rooting for you and your plant! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2149,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 406,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2149,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 406,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2149,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2149
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2151,
+ "output_tokens": 406,
+ "thinking_tokens": 0,
+ "latency_ms": 3513,
+ "wall_ms": 6335,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879816.872212
+}

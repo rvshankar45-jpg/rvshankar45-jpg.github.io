@@ -1,0 +1,50 @@
+{
+ "text": "I hear you\u2014overwatering succulents like string of pearls is rough, and it sounds like rot set in while you were away. Here's the good news: **Leafy Plus members get a 90-day guarantee**, and your plant is well within that window (5 weeks ago). \n\nTo help you, I'll need:\n1. Your **order number** from the original purchase\n2. A quick photo of the damage if possible\n\nOnce I have those, I can process a replacement or refund to your original payment method. If you'd prefer **store credit** instead, that's instant. What works best for you?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1657,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 140,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1657,
+    "output_tokens": 140,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1657,
+ "output_tokens": 140,
+ "thinking_tokens": 0,
+ "latency_ms": 2373,
+ "wall_ms": 5061,
+ "overhead": 379,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791006860.295369
+}

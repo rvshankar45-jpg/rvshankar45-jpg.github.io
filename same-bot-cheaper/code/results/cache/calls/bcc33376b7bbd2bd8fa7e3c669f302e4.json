@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry to hear that happened. Yes, you can get a replacement\u2014but there's an important limit:\n\nA replacement plant gets its own new 30-day guarantee, so it can be replaced **once more** if it fails. However, **the plant sent as that second replacement has no guarantee**, so that would be the final one.\n\nTo claim, go to \"My Orders\" and submit a claim within your guarantee window (30 days from delivery, or 90 days if you're a Leafy Plus member) with at least two photos (whole plant and close-up). A Plant Care Specialist will review within 2 business days.\n\nIf you need support with this claim, I'm happy to help\u2014do you have your original order number handy?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1301,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 167,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1301,
+    "output_tokens": 167,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1301,
+ "output_tokens": 167,
+ "thinking_tokens": 0,
+ "latency_ms": 2370,
+ "wall_ms": 5207,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791101375.6750708
+}

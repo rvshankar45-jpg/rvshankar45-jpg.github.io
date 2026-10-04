@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thanks for contacting Leafy! \ud83c\udf3f\n\nYes, you can pause your Plant Club subscription. Here's how:\n\n- Go to **\"Account\" > \"Subscriptions\"**\n- Choose **Pause**\n- You can pause for **up to 3 months**\n\n**Timing matters:**\n- Changes made **before the 25th** of the month affect your **next** box.\n- Changes made **on or after the 25th** apply to the **following** month's box.\n\nSince today is October 1st, a pause made now would affect your next box. If your November box has already been billed (on October 25th), it will still be sent, so it's worth pausing before then if you'd like to skip it.\n\nThere's also no cancellation fee or minimum term, so you can skip a month, change your plan, or cancel any time if your needs change.\n\nIs there anything else I can help you with? We're always happy to chat. Happy planting! \ud83e\udeb4",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 425,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 291,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 425,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 291,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 425,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 425
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4765,
+ "output_tokens": 291,
+ "thinking_tokens": 0,
+ "latency_ms": 3368,
+ "wall_ms": 7228,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879157.6056306
+}

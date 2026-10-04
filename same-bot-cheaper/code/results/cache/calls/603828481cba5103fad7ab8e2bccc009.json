@@ -1,0 +1,50 @@
+{
+ "text": "I understand how frustrating repeated follow-ups must be\u2014I'm sorry you haven't gotten resolution yet.\n\nI don't have access to your order history or refund status, so I can't see what's happened with your claim. **I need to escalate this to a Support Lead right away** so they can locate your case, investigate the delay, and get it sorted. They'll contact you at rvshankar45@gmail.com.\n\nOn international shipping: **our policy doesn't cover Canada or international orders** \u2014 we ship within the regions specified on our website. I'd recommend checking the shipping destinations listed at checkout, or I can escalate to ask if there are any exceptions available.\n\nWhich would help most: getting your refund escalated now, or information about international options?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1318,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 169,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1318,
+    "output_tokens": 169,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1318,
+ "output_tokens": 169,
+ "thinking_tokens": 0,
+ "latency_ms": 2988,
+ "wall_ms": 6257,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791100692.3691921
+}

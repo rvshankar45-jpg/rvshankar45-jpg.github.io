@@ -1,0 +1,50 @@
+{
+ "text": "I can help! Since your order was placed yesterday afternoon, it depends on the exact timing:\n\n**If it's been less than 2 hours since you ordered**, you can change the address yourself from \"My Orders\" on the website or app\u2014it's free and instant.\n\n**If it's been more than 2 hours**, the order is likely in the packing queue. I can try to intercept it before it ships, but this isn't guaranteed. Once it ships, we unfortunately can't change the address, and couriers don't accept redirection requests.\n\nWhat's your order number again, and roughly how long ago did you place it? I'll check if we can still catch it.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1484,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 151,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1484,
+    "output_tokens": 151,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1484,
+ "output_tokens": 151,
+ "thinking_tokens": 0,
+ "latency_ms": 2981,
+ "wall_ms": 6704,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791100706.5098255
+}

@@ -1,0 +1,49 @@
+{
+ "text": "Hi, and thanks for contacting Leafy! I'm sorry your monstera arrived looking unwell. Here's how each part works:\n\n- **Yellow leaves:** If it's one or two older leaves, that's usually normal transplant stress and not covered on its own. If the plant is dead, severely wilted, or has snapped stems or exposed roots, report it within **48 hours** of delivery with photos of the plant and the box for a free replacement or refund. After that, you can make a Plant Care Guarantee claim from \"My Orders\" within 30 days with two photos (whole plant and a close-up). A specialist reviews it within 2 business days.\n- **Double charge:** First check whether one charge is just a pending authorisation, which drops off by itself. If both have posted, send me your order number (LF- plus six digits) and the last four digits of your card, never the full number. The duplicate is refunded within **3 business days** of confirmation.\n- **Different card:** Refunds can only go back to the original payment method. If that card is closed or expired, the bank normally passes the refund to your replacement card. You can also choose instant, never-expiring Leafy store credit instead.\n\nWhen did the plant arrive, and how bad do the leaves look? That will tell me which route fits best. If you'd like to push for the different card, I can pass that to a Support Lead.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 448,
+  "cache_read_input_tokens": 4371,
+  "output_tokens": 798,
+  "output_tokens_details": {
+   "thinking_tokens": 366
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 448,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 798,
+    "cache_read_input_tokens": 4371,
+    "cache_creation_input_tokens": 448,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 448
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4821,
+ "output_tokens": 798,
+ "thinking_tokens": 366,
+ "latency_ms": 6195,
+ "wall_ms": 8871,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790868889.4869113
+}

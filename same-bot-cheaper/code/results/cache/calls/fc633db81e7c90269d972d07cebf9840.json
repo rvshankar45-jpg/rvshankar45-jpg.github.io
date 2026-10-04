@@ -1,0 +1,50 @@
+{
+ "text": "Plant Club charges your card on the **25th of the previous month**. So your November box charge will hit on October 25th, for example.\n\nBoxes then ship in the first full week of the following month. You can skip, pause, change plan, or cancel anytime from your Account > Subscriptions\u2014just note that changes made before the 25th affect the next box, while changes on or after the 25th apply to the month after that.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1677,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 102,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1677,
+    "output_tokens": 102,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1677,
+ "output_tokens": 102,
+ "thinking_tokens": 0,
+ "latency_ms": 1662,
+ "wall_ms": 4533,
+ "overhead": 379,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791005094.7559855
+}

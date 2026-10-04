@@ -1,0 +1,129 @@
+{
+ "items": [
+  {
+   "id": "a0",
+   "addresses": true,
+   "reason": "Gives return window and details."
+  },
+  {
+   "id": "a1",
+   "addresses": true,
+   "reason": "Answers shipping days."
+  },
+  {
+   "id": "a2",
+   "addresses": true,
+   "reason": "Says express unavailable for islands."
+  },
+  {
+   "id": "a3",
+   "addresses": true,
+   "reason": "States up to 30 days."
+  },
+  {
+   "id": "a4",
+   "addresses": true,
+   "reason": "States ship timing."
+  },
+  {
+   "id": "a5",
+   "addresses": true,
+   "reason": "Explains auto-refund and next steps."
+  },
+  {
+   "id": "a6",
+   "addresses": true,
+   "reason": "Answers no free shipping with explanation."
+  },
+  {
+   "id": "a7",
+   "addresses": true,
+   "reason": "Covers all three parts."
+  },
+  {
+   "id": "a8",
+   "addresses": true,
+   "reason": "Gives actionable steps and escalation."
+  },
+  {
+   "id": "a9",
+   "addresses": true,
+   "reason": "Responds honestly that it lacks light info and refers to specialists; offers related info. Handles the question reasonably."
+  },
+  {
+   "id": "a10",
+   "addresses": true,
+   "reason": "Lists Plus benefits."
+  },
+  {
+   "id": "a11",
+   "addresses": true,
+   "reason": "Answers that the longer guarantee doesn't apply to earlier plants."
+  },
+  {
+   "id": "a12",
+   "addresses": true,
+   "reason": "Answers yes within 14 days with condition."
+  },
+  {
+   "id": "a13",
+   "addresses": true,
+   "reason": "Explains no refund if benefits used."
+  },
+  {
+   "id": "a14",
+   "addresses": true,
+   "reason": "Says express not free."
+  },
+  {
+   "id": "a15",
+   "addresses": true,
+   "reason": "Gives return window."
+  },
+  {
+   "id": "a16",
+   "addresses": true,
+   "reason": "Answers days."
+  },
+  {
+   "id": "a17",
+   "addresses": true,
+   "reason": "Answers up to 30 days."
+  },
+  {
+   "id": "a18",
+   "addresses": true,
+   "reason": "Answers no."
+  },
+  {
+   "id": "a19",
+   "addresses": true,
+   "reason": "Answers ship timing."
+  },
+  {
+   "id": "a20",
+   "addresses": true,
+   "reason": "Explains what happens, offers escalation."
+  },
+  {
+   "id": "a21",
+   "addresses": true,
+   "reason": "Answers no free shipping."
+  },
+  {
+   "id": "a22",
+   "addresses": true,
+   "reason": "Says it lacks info, offers escalation; responds to the question."
+  },
+  {
+   "id": "a23",
+   "addresses": true,
+   "reason": "Addresses all three issues."
+  },
+  {
+   "id": "a24",
+   "addresses": true,
+   "reason": "Gives steps and escalates."
+  }
+ ]
+}

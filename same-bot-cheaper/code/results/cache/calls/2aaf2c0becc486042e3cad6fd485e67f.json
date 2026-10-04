@@ -1,0 +1,50 @@
+{
+ "text": "Sorry about the mix-up. Here's what we can do for a wrong item:\n\n- **Correct plant:** We ship the peperomia free by Express, where your delivery zone allows it. Express isn't available in Zone 3 (over 1,000 miles from our nearest greenhouse, plus remote and island addresses). If you're in Zone 3, I'd escalate to a Support Lead to see what can be arranged.\n- **The pothos:** Because it's a live plant, you can keep it at no charge. You don't need to send it back.\n- **Reporting window:** Damaged and wrong-item issues should be reported within **48 hours** of delivery, with photos of the item and the box. If you're past that, tell me when it arrived and I'll flag it for a Support Lead to review. I can't promise an exception.\n\nTo get this started, please send:\n1. Your order number (it looks like LF-123456)\n2. The delivery date\n3. Photos of the pothos and the box it came in\n\nIf you have pets, note that pothos isn't pet-safe, so keep it out of their reach. Peperomia is pet-safe.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 432,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 707,
+  "output_tokens_details": {
+   "thinking_tokens": 351
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 432,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 707,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 432,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 432
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4290,
+ "output_tokens": 707,
+ "thinking_tokens": 351,
+ "latency_ms": 6576,
+ "wall_ms": 9796,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005734.545983
+}

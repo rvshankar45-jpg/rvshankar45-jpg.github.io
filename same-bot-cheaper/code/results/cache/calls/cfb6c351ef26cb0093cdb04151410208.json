@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! \ud83c\udf3f\n\nPlant Club is charged on the **25th of the month before** your box ships. For example, the box that ships in November is billed on October 25th.\n\nA few related details:\n\n- **Shipping:** Boxes go out in the first full week of the month.\n- **Starter plan:** $29/month\n- **Collector plan:** $49/month\n\nIf you'd like to skip, pause (up to 3 months), change your plan, or cancel, you can do it under \"Account\" > \"Subscriptions\". The timing matters:\n\n- **Changes made before the 25th** affect your next box.\n- **Changes made on or after the 25th** apply to the following month's box.\n- **A box that's already been billed** isn't refunded if you cancel, but it will still be sent to you.\n\nThere's no cancellation fee or minimum term, so you can adjust whenever it suits you.\n\nIs there anything else I can help with? We're always happy to hear from you! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 428,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 313,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 428,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 313,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 428,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 428
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4768,
+ "output_tokens": 313,
+ "thinking_tokens": 0,
+ "latency_ms": 3401,
+ "wall_ms": 7556,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879157.3298273
+}

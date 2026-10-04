@@ -1,0 +1,129 @@
+{
+ "items": [
+  {
+   "id": "c01.t2",
+   "needs_context": true,
+   "reason": "Unclear which photos/claim; relies on earlier conversation."
+  },
+  {
+   "id": "c01.t3",
+   "needs_context": true,
+   "reason": "'that' refers to an earlier coverage/guarantee."
+  },
+  {
+   "id": "c01.t4",
+   "needs_context": true,
+   "reason": "Refers to 'that' coverage and a pot replacement discussed earlier."
+  },
+  {
+   "id": "c02.t2",
+   "needs_context": true,
+   "reason": "Depends on which plans were discussed earlier ('cheaper one', upgrade)."
+  },
+  {
+   "id": "c02.t3",
+   "needs_context": true,
+   "reason": "Follow-up to an earlier answer about upgrade timing."
+  },
+  {
+   "id": "c02.t4",
+   "needs_context": true,
+   "reason": "'the one I'm upgrading to' refers to a previously discussed plan."
+  },
+  {
+   "id": "c03.t2",
+   "needs_context": true,
+   "reason": "'Both say posted' refers to earlier context about something unstated."
+  },
+  {
+   "id": "c03.t3",
+   "needs_context": true,
+   "reason": "'that refund' refers to an earlier discussed refund."
+  },
+  {
+   "id": "c03.t4",
+   "needs_context": true,
+   "reason": "Unclear what 'it' is; depends on previous answer."
+  },
+  {
+   "id": "c04.t2",
+   "needs_context": true,
+   "reason": "'it' refers to an earlier delivery/order."
+  },
+  {
+   "id": "c04.t3",
+   "needs_context": true,
+   "reason": "Refers to an earlier shipping option/fee context."
+  },
+  {
+   "id": "c04.t4",
+   "needs_context": true,
+   "reason": "'that fee' refers to a previously discussed fee."
+  },
+  {
+   "id": "c05.t2",
+   "needs_context": true,
+   "reason": "'the longer guarantee' refers to a membership/plan discussed earlier."
+  },
+  {
+   "id": "c05.t3",
+   "needs_context": true,
+   "reason": "Refers to a specific membership previously discussed."
+  },
+  {
+   "id": "c05.t4",
+   "needs_context": true,
+   "reason": "Follow-up about free shipping benefit and prior refund answer."
+  },
+  {
+   "id": "c05.t5",
+   "needs_context": true,
+   "reason": "'it' refers to the earlier membership."
+  },
+  {
+   "id": "c06.t2",
+   "needs_context": true,
+   "reason": "Depends on an earlier deadline/cutoff being discussed."
+  },
+  {
+   "id": "c06.t3",
+   "needs_context": true,
+   "reason": "'it' and 'then' refer to an earlier order/situation."
+  },
+  {
+   "id": "c07.t2",
+   "needs_context": true,
+   "reason": "'its leaves' refers to a plant discussed earlier."
+  },
+  {
+   "id": "c07.t3",
+   "needs_context": true,
+   "reason": "'instead' refers to a previously discussed plant."
+  },
+  {
+   "id": "c08.t2",
+   "needs_context": true,
+   "reason": "'it' unspecified, likely a return discussed earlier."
+  },
+  {
+   "id": "c08.t3",
+   "needs_context": true,
+   "reason": "Depends on the return policy/window from earlier context."
+  },
+  {
+   "id": "c08.t4",
+   "needs_context": true,
+   "reason": "'they' and the refund refer to earlier conversation."
+  },
+  {
+   "id": "c09.t2",
+   "needs_context": true,
+   "reason": "'It' is an unstated item, likely a delivery."
+  },
+  {
+   "id": "c09.t3",
+   "needs_context": true,
+   "reason": "'they' and 'it' are unstated."
+  }
+ ]
+}

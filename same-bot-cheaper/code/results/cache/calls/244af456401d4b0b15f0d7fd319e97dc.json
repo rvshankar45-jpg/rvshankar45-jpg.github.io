@@ -1,0 +1,50 @@
+{
+ "text": "Leafy Plus is **$59 per year** and auto-renews. It includes free Standard shipping with no minimum, free change-of-mind returns, a 90-day guarantee, 10% member pricing on pots and accessories, and early access to rare plant drops (free Express shipping isn't included).\n\nIf you cancel within 14 days of purchase or renewal and haven't used any benefits, you get a full refund.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 426,
+  "cache_read_input_tokens": 1579,
+  "output_tokens": 133,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 426,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 133,
+    "cache_read_input_tokens": 1579,
+    "cache_creation_input_tokens": 426,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 426
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2007,
+ "output_tokens": 133,
+ "thinking_tokens": 0,
+ "latency_ms": 1769,
+ "wall_ms": 4989,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791006029.3424275
+}

@@ -1,0 +1,89 @@
+{
+ "items": [
+  {
+   "id": "a25",
+   "addresses": true,
+   "reason": "Lists Leafy Plus benefits and cancellation terms."
+  },
+  {
+   "id": "a26",
+   "addresses": true,
+   "reason": "Directly answers that the 90-day guarantee applies only to plants ordered while a member."
+  },
+  {
+   "id": "a27",
+   "addresses": true,
+   "reason": "Answers that a refund is possible within 14 days if no benefits used."
+  },
+  {
+   "id": "a28",
+   "addresses": true,
+   "reason": "Answers the question about the refund after using free shipping; the truncated correction note at the end doesn't undo the answer."
+  },
+  {
+   "id": "a29",
+   "addresses": true,
+   "reason": "Says Express is not free with Plus."
+  },
+  {
+   "id": "a30",
+   "addresses": true,
+   "reason": "Explains the return window for non-living items and live plants."
+  },
+  {
+   "id": "a31",
+   "addresses": true,
+   "reason": "Says free shipping doesn't apply at $70 and gives options."
+  },
+  {
+   "id": "a32",
+   "addresses": true,
+   "reason": "Gives a full return window explanation."
+  },
+  {
+   "id": "a33",
+   "addresses": true,
+   "reason": "Covers all three parts: yellow leaves, double charge, and refund to a different card."
+  },
+  {
+   "id": "a34",
+   "addresses": true,
+   "reason": "Answers that the refund isn't available after using free shipping."
+  },
+  {
+   "id": "a35",
+   "addresses": true,
+   "reason": "Says Express isn't free for Plus members."
+  },
+  {
+   "id": "a36",
+   "addresses": true,
+   "reason": "Gives a full return window explanation."
+  },
+  {
+   "id": "a37",
+   "addresses": true,
+   "reason": "Says no free shipping at $70 and explains the cost."
+  },
+  {
+   "id": "a38",
+   "addresses": true,
+   "reason": "Covers all three parts of the message."
+  },
+  {
+   "id": "a39",
+   "addresses": true,
+   "reason": "Gives the return window by item type."
+  },
+  {
+   "id": "a40",
+   "addresses": true,
+   "reason": "The direct answer is given (no free shipping, $70 is under $75) before the truncation, and options are started."
+  },
+  {
+   "id": "a41",
+   "addresses": false,
+   "reason": "Truncated mid-answer; it covers the yellow leaves but cuts off in the double charge point and never addresses the refund to a different card."
+  }
+ ]
+}

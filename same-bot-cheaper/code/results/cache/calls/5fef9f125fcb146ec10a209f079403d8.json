@@ -1,0 +1,50 @@
+{
+ "text": "Great question! Here's what happens when you delete your account:\n\n**Account deletion:**\n- You can delete your account under \"Account\" > \"Privacy\"\n- The deletion process takes up to **30 days**\n- **Your Plant Club subscription will be automatically cancelled** as part of the deletion\n\n**Important timing note:**\nSince Plant Club is charged on the **25th** of the previous month, if you delete your account before the 25th this month (October 25th), the next box won't be charged. However, if you've already been charged for a box that hasn't shipped yet, that box will still be sent to you\u2014we don't refund already-billed boxes when cancelling.\n\n**If you want to cancel Plant Club first** (without deleting your account), you can do that separately anytime from \"Account\" > \"Subscriptions\" with no cancellation fee.\n\nIs there anything else I can help clarify about your account or subscription?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1435,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 212,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1435,
+    "output_tokens": 212,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1435,
+ "output_tokens": 212,
+ "thinking_tokens": 0,
+ "latency_ms": 2767,
+ "wall_ms": 6211,
+ "overhead": 379,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791004754.0007825
+}

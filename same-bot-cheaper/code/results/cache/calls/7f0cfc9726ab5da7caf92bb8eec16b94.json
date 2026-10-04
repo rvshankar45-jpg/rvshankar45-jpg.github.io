@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry, but refunds can only go back to the original payment method, never to a different card, even when the original has been closed. Since the card ending 7712 is closed, your bank should normally pass the refund on to your replacement card, which usually takes 5-10 business days once the refund is issued (3-5 business days for a digital wallet).\n\nIf you'd rather not depend on the bank, you can take the refund as Leafy store credit instead. It's issued instantly and never expires.\n\nWould you like store credit, or should I escalate to a Support Lead so the duplicate confirmation can start?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 886,
+  "cache_read_input_tokens": 1496,
+  "output_tokens": 185,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 886,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 185,
+    "cache_read_input_tokens": 1496,
+    "cache_creation_input_tokens": 886,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 886
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2384,
+ "output_tokens": 185,
+ "thinking_tokens": 0,
+ "latency_ms": 2577,
+ "wall_ms": 5944,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005355.2340643
+}

@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! \ud83c\udf3f Happy to help with this.\n\nOnce a refund has been issued, here's how long it takes to show up:\n\n- **Credit or debit card:** 5-10 business days\n- **Digital wallet:** 3-5 business days\n- **Leafy store credit:** instant, if you'd prefer that option\n\nA few things that may help:\n\n- Refunds always go back to the **original payment method**. If that card has been closed or expired, the bank normally passes the refund on to your replacement card.\n- If you're returning an item, the refund is issued within **5 business days** of the parcel reaching our warehouse. The 5-10 business days for your card then starts after that.\n- If your order was cancelled and you're seeing a pending charge, that's a authorisation rather than a charge. It drops off in **3-7 business days**, depending on your bank, and we can't release it any faster.\n\nIf you let me know whether this is for a return, a cancelled order or something else, I can give you a more specific timeline. Please don't share your full card number or security code with me.\n\nThanks for reaching out, and please get in touch any time you need a hand! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 427,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 372,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 427,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 372,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 427,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 427
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4767,
+ "output_tokens": 372,
+ "thinking_tokens": 0,
+ "latency_ms": 3502,
+ "wall_ms": 6416,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879124.5001948
+}

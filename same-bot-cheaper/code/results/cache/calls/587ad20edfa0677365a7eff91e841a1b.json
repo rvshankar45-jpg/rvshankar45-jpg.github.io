@@ -1,0 +1,50 @@
+{
+ "text": "Unfortunately, no. Express shipping ($14.95) isn't available for Zone 3 addresses, which covers anything over 1,000 miles from our nearest greenhouse, so Standard (5-8 business days) is the only option for your location.\n\nA few things may help with timing:\n- **Order early in the week.** Live plants ship Monday to Wednesday only, and orders placed after 12 noon Wednesday wait until the following Monday.\n- **Watch for weather holds.** If the transit forecast is below 35\u00b0F or above 95\u00b0F, live plants may be held up to 7 days. We'll email you, and you can reply to waive the hold. If you do, the Plant Care Guarantee still applies, except for cold or heat damage in transit. In winter, you can add a free heat pack at checkout.\n- **XL plants** (usually over 4 ft) ship Standard only, with a $20 handling fee.\n\nI don't have anything in my policy information about other ways to speed up delivery to Zone 3. If you'd like, I can escalate this to a Support Lead to see if there's anything further they can suggest.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 785,
+  "cache_read_input_tokens": 1705,
+  "output_tokens": 356,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 785,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 356,
+    "cache_read_input_tokens": 1705,
+    "cache_creation_input_tokens": 785,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 785
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2492,
+ "output_tokens": 356,
+ "thinking_tokens": 0,
+ "latency_ms": 3612,
+ "wall_ms": 6800,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004884.2380605
+}

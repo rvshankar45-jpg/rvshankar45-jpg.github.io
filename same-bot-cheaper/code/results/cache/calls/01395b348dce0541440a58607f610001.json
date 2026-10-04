@@ -1,0 +1,50 @@
+{
+ "text": "Yes, you can return the planter! Non-living items like planters can be returned within **30 days** of delivery, unused and in original packaging.\n\nSince you're not a Leafy Plus member, there's a **$6.95 return fee** deducted from your refund, so you'd get back **$23.05** (assuming the $30 was the full price).\n\nTo start: go to \"My Orders,\" and we'll email you a prepaid return label that expires after **7 days**\u2014just drop it off within that window. Your refund processes within **5 business days** of it reaching our warehouse.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1296,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 145,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1296,
+    "output_tokens": 145,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1296,
+ "output_tokens": 145,
+ "thinking_tokens": 0,
+ "latency_ms": 2453,
+ "wall_ms": 6068,
+ "overhead": 379,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791006153.6218252
+}

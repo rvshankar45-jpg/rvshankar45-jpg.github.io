@@ -1,0 +1,222 @@
+[
+  {
+    "id": "c01",
+    "topic": "damaged plant then guarantee",
+    "turns": [
+      {
+        "user": "Hi, my rubber plant was delivered this morning and the pot is cracked.",
+        "reference_answer": "Sorry about that. A cracked pot counts as damaged on arrival; report it within 48 hours of delivery with photos of the item and the box, and we will send a replacement or a refund."
+      },
+      {
+        "user": "ok where do I send the photos?",
+        "reference_answer": "Send them to support by chat or at help@leafy.example within 48 hours of delivery: photos of the cracked pot and of the box it arrived in."
+      },
+      {
+        "user": "And if the plant itself starts dying next week, is that covered too?",
+        "reference_answer": "Yes. After the 48-hour window, plant problems fall under the 30-day Plant Care Guarantee from delivery: submit a claim with two photos and a specialist reviews it within 2 business days."
+      },
+      {
+        "user": "Would the replacement for the pot count against that?",
+        "reference_answer": "No. Damaged-on-arrival replacements do not count as the one replacement allowed under the Plant Care Guarantee."
+      }
+    ]
+  },
+  {
+    "id": "c02",
+    "topic": "plant club plan change timing",
+    "turns": [
+      {
+        "user": "How much is the collector plan for the plant club?",
+        "reference_answer": "The Collector plan is $49 per month for a medium or rare plant in a 6-inch pot."
+      },
+      {
+        "user": "I'm on the cheaper one now. If I upgrade today, when does it kick in? Today's the 22nd.",
+        "reference_answer": "Because it is before the 25th, upgrading from Starter to Collector today applies to next month's box, which will be charged at $49 on the 25th."
+      },
+      {
+        "user": "and if I'd waited until the 26th?",
+        "reference_answer": "Changes made on or after the 25th apply to the following month's box, so the upgrade would only take effect one box later."
+      },
+      {
+        "user": "Will the one I'm upgrading to still avoid sending plants I already own?",
+        "reference_answer": "Yes. On either plan you can list up to 3 plants you already own so we avoid sending duplicates, though you can't choose a specific plant."
+      }
+    ]
+  },
+  {
+    "id": "c03",
+    "topic": "double charge and refund destination",
+    "turns": [
+      {
+        "user": "I see two charges of $64.50 for the same order.",
+        "reference_answer": "First check whether one is a pending authorisation that will drop off. If both have posted, send the order number and the last four digits of the card and the duplicate is refunded within 3 business days of confirmation."
+      },
+      {
+        "user": "Both say posted. Order LF-381204, card ending 7712.",
+        "reference_answer": "Thanks. Since both charges have posted, the duplicate will be refunded within 3 business days of confirmation."
+      },
+      {
+        "user": "Can that refund go to my other card instead? I closed that one.",
+        "reference_answer": "No. Refunds only go to the original payment method. The bank will normally pass it to the replacement card or account; alternatively you can take instant Leafy store credit."
+      },
+      {
+        "user": "Fine, how long will it take to show up then?",
+        "reference_answer": "Card refunds typically take 5 to 10 business days to appear once issued, depending on the bank. Store credit would be instant."
+      }
+    ]
+  },
+  {
+    "id": "c04",
+    "topic": "shipping zone and XL",
+    "turns": [
+      {
+        "user": "Hi! I live about 1,500 miles from your nearest greenhouse. How long would delivery take?",
+        "reference_answer": "Over 1,000 miles is Zone 3: Standard delivery takes 5 to 8 business days and Express is not available."
+      },
+      {
+        "user": "Hmm. Could I pay extra to get it faster?",
+        "reference_answer": "No. Express is not available in Zone 3, so Standard (5 to 8 business days) is the only option."
+      },
+      {
+        "user": "What if the plant I want is one of the XL ones?",
+        "reference_answer": "XL plants ship Standard only anyway and add a $20 handling fee on top of shipping."
+      },
+      {
+        "user": "And would that fee go away if my order's over $75?",
+        "reference_answer": "No. Orders of $75 or more get free Standard shipping, but the $20 XL handling fee still applies."
+      }
+    ]
+  },
+  {
+    "id": "c05",
+    "topic": "leafy plus value",
+    "turns": [
+      {
+        "user": "What do I get with Leafy Plus?",
+        "reference_answer": "For $59 a year: free Standard shipping with no minimum, free change-of-mind returns on non-living items, a 90-day Plant Care Guarantee, 10% member pricing on pots and accessories, and early access to rare plant drops."
+      },
+      {
+        "user": "Does the longer guarantee apply to plants I bought before joining?",
+        "reference_answer": "No. The 90-day guarantee covers plants ordered while the membership is active."
+      },
+      {
+        "user": "If I sign up and change my mind in a week, can I get the money back?",
+        "reference_answer": "Yes, a full refund is given if you cancel within 14 days of purchase and have not used any member benefits."
+      },
+      {
+        "user": "What if I'd already used the free shipping by then?",
+        "reference_answer": "Then no refund is given, but you keep the benefits until the end of the paid year."
+      },
+      {
+        "user": "ok and does it make express free too?",
+        "reference_answer": "No. Leafy Plus does not include free Express shipping; Express stays $14.95."
+      }
+    ]
+  },
+  {
+    "id": "c06",
+    "topic": "order change window",
+    "turns": [
+      {
+        "user": "I just ordered a ZZ plant, like 20 minutes ago. Can I still add a pot to it?",
+        "reference_answer": "Orders can be changed free of charge within 2 hours of being placed, from the My Orders page, so you can still change it."
+      },
+      {
+        "user": "Nice. And if I only get round to it tonight, about 5 hours from now?",
+        "reference_answer": "After 2 hours the order enters the packing queue and can't be changed online; support can try to intercept it but it's not guaranteed, so you would likely need a separate order."
+      },
+      {
+        "user": "Can I at least put a promo code on it then?",
+        "reference_answer": "No. Promo codes cannot be applied after an order has been placed; you could use it on the new order instead."
+      }
+    ]
+  },
+  {
+    "id": "c07",
+    "topic": "pet safety escalation",
+    "turns": [
+      {
+        "user": "Is the pothos safe for cats?",
+        "reference_answer": "No. Pothos is not pet-safe."
+      },
+      {
+        "user": "Oh no. My cat just chewed one of its leaves.",
+        "reference_answer": "Please contact your vet or local poison control service immediately. I'm also escalating this to a Support Lead."
+      },
+      {
+        "user": "He seems ok. What could I get instead that won't hurt him?",
+        "reference_answer": "Pet-safe options include calathea, spider plant, parlour palm, Boston fern and peperomia; please still check with your vet."
+      }
+    ]
+  },
+  {
+    "id": "c08",
+    "topic": "return of non-living item",
+    "turns": [
+      {
+        "user": "I want to return a watering can I got 2 weeks ago, never used.",
+        "reference_answer": "Non-living items can be returned within 30 days of delivery if unused and in original packaging. Start the return from My Orders."
+      },
+      {
+        "user": "Will it cost me anything?",
+        "reference_answer": "Change-of-mind returns cost a flat $6.95, deducted from the refund, unless you are a Leafy Plus member, in which case they are free."
+      },
+      {
+        "user": "I printed the label 9 days ago but never dropped it off. Is it still ok?",
+        "reference_answer": "No. Return labels expire after 7 days, so you will need to generate a new label and drop the parcel off within 7 days."
+      },
+      {
+        "user": "When would I see the money after they get it?",
+        "reference_answer": "The refund is issued within 5 business days of the return arriving at the warehouse, to the original payment method; card refunds then typically take 5 to 10 business days to appear."
+      }
+    ]
+  },
+  {
+    "id": "c09",
+    "topic": "lost parcel",
+    "turns": [
+      {
+        "user": "My order was supposed to arrive last week and tracking hasn't changed since Monday.",
+        "reference_answer": "If tracking has not updated for 4 business days, support opens an investigation with the courier, which takes up to 5 business days."
+      },
+      {
+        "user": "It's been 6 business days now.",
+        "reference_answer": "That is over the 4-business-day threshold, so support will open a courier investigation, which takes up to 5 business days."
+      },
+      {
+        "user": "What happens if they can't find it?",
+        "reference_answer": "If the courier confirms it's lost, you get a free replacement or a full refund, your choice."
+      },
+      {
+        "user": "I'd take the replacement. Would that one ship express?",
+        "reference_answer": "The policy says lost parcels get a free replacement, but it does not specify Express shipping for the replacement, so this can't be promised; support can confirm."
+      },
+      {
+        "user": "ok. and it had a plant in it, so it'll only ship early in the week right?",
+        "reference_answer": "Yes. Live plants ship Monday to Wednesday only."
+      }
+    ]
+  },
+  {
+    "id": "c10",
+    "topic": "upset guarantee claim",
+    "turns": [
+      {
+        "user": "My bird of paradise has lost almost half its leaves in 3 weeks. I followed the care card exactly.",
+        "reference_answer": "Losing more than a third of its leaves within 30 days counts as significant decline, so submit a Plant Care Guarantee claim with two photos; a specialist reviews it within 2 business days."
+      },
+      {
+        "user": "I already submitted one last week and heard nothing.",
+        "reference_answer": "Apologise: claims should be reviewed within 2 business days, so this is overdue. A one-time goodwill store credit of up to $15 can be offered for the delayed reply."
+      },
+      {
+        "user": "This is honestly the third time I've chased this. I'm really fed up.",
+        "reference_answer": "Apologise and escalate to a Support Lead, as the issue has been raised three or more times; a goodwill store credit of up to $15 may be offered."
+      },
+      {
+        "user": "Will I at least get the same plant again?",
+        "reference_answer": "If the claim is approved you get one free replacement of the same plant, or store credit if it's out of stock."
+      }
+    ]
+  }
+]

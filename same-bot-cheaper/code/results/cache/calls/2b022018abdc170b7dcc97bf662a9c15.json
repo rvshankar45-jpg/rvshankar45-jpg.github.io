@@ -1,0 +1,50 @@
+{
+ "text": "No, a second code can't be added. Only one promo code is allowed per order, and codes can't be added after an order has been placed.\n\nAs a Plus member, you also can't stack a promo code with your member pricing on the same item. The better discount applies automatically, so you're already getting whichever is greater on each item.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 451,
+  "cache_read_input_tokens": 1797,
+  "output_tokens": 95,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 451,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 95,
+    "cache_read_input_tokens": 1797,
+    "cache_creation_input_tokens": 451,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 451
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2250,
+ "output_tokens": 95,
+ "thinking_tokens": 0,
+ "latency_ms": 2325,
+ "wall_ms": 5857,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100897.7753706
+}

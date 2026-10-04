@@ -1,0 +1,50 @@
+{
+ "text": "Yes, it will probably cost you a little, depending on why you're returning it.\n\n- **Change of mind:** A flat **$6.95** is deducted from your refund. If you're a Leafy Plus member, this is free.\n- **Faulty or incorrect item:** The return is free.\n\nThere's no other charge for the return itself. The prepaid label is emailed to you, so you don't pay for postage up front. Your original shipping cost is only refunded if the whole order is returned because of our error, so for a change-of-mind return you wouldn't get that back.\n\nRemember to drop the parcel off within **7 days** of the label being emailed, as it expires after that. Your refund is issued within **5 business days** of the parcel reaching our warehouse.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 848,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 236,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 848,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 236,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 848,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 848
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4706,
+ "output_tokens": 236,
+ "thinking_tokens": 0,
+ "latency_ms": 2911,
+ "wall_ms": 6372,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005938.5578163
+}

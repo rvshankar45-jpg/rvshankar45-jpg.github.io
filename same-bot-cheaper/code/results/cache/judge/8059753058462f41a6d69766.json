@@ -1,0 +1,76 @@
+{
+ "items": [
+  {
+   "answer_id": "q023#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct 3-5 days; extra shipping details are accurate and relevant."
+  },
+  {
+   "answer_id": "q023#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "q031#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct $50-$1,000 range and checkout option."
+  },
+  {
+   "answer_id": "q031#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct; the BNPL refund detail is accurate and relevant."
+  },
+  {
+   "answer_id": "q039#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct 7 days."
+  },
+  {
+   "answer_id": "q039#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct 7 days, and it adds how to start a return."
+  },
+  {
+   "answer_id": "q042#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct: no bank transfers, and it lists the accepted methods."
+  },
+  {
+   "answer_id": "q042#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and helpful alternatives."
+  }
+ ]
+}

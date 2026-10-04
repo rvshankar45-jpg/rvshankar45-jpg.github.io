@@ -1,0 +1,50 @@
+{
+ "text": "Sorry about that. If an item you ordered is out of stock, we'll email you within 24 hours of the order with three options:\n\n1. A similar plant of equal or higher value\n2. Waiting up to 14 days for the original item\n3. A refund for that item\n\nReply to that email with your choice. If we don't hear back within 3 days, the item is refunded automatically. If you haven't received the email, send me your order number (it looks like LF-123456) and I can help from there or escalate it.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1873,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 153,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1873,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 153,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1873,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1873
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1875,
+ "output_tokens": 153,
+ "thinking_tokens": 0,
+ "latency_ms": 2687,
+ "wall_ms": 6056,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100209.4411018
+}

@@ -1,0 +1,50 @@
+{
+ "text": "You're eligible to return it. A watering can is a non-living item, and those can be returned within 30 days of delivery if they're unused and in the original packaging. If it was delivered about 2 weeks ago, you have roughly 2 weeks left.\n\n**How to return it**\n1. Go to \"My Orders\" and start the return there.\n2. A prepaid label will be emailed to you. It expires after 7 days, so drop the parcel off within 7 days of getting it.\n\n**Costs**\n- A change-of-mind return costs a flat $6.95, deducted from your refund. It's free for Leafy Plus members.\n- If the watering can is faulty or the wrong item, the return is free.\n\n**Refund**\n- We issue the refund within 5 business days of the parcel reaching our warehouse. It goes to your original payment method.\n- Once issued, card refunds take 5-10 business days and digital wallet refunds take 3-5 business days. You can choose Leafy store credit instead, which is instant and never expires.\n- Original shipping is only refunded if the whole order is returned because of our error.\n\nWe don't do direct exchanges. If you want a different item, return this one and place a new order.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 437,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 646,
+  "output_tokens_details": {
+   "thinking_tokens": 271
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 437,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 646,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 437,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 437
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4295,
+ "output_tokens": 646,
+ "thinking_tokens": 271,
+ "latency_ms": 4701,
+ "wall_ms": 8372,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005932.1729517
+}

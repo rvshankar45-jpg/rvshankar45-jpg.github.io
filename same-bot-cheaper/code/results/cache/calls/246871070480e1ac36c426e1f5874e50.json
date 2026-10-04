@@ -1,0 +1,50 @@
+{
+ "text": "Switching on the 20th is before the 25th, so the change affects your **next box**. The Collector plan ($49/month, medium or rare plant in a 6-inch pot) would be charged on the 25th and ship in the first full week of the following month.\n\nYou can make the change under \"Account\" > \"Subscriptions\". If you'd made the switch on or after the 25th, it would have applied to the box after that instead.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 439,
+  "cache_read_input_tokens": 1346,
+  "output_tokens": 128,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 439,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 128,
+    "cache_read_input_tokens": 1346,
+    "cache_creation_input_tokens": 439,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 439
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1787,
+ "output_tokens": 128,
+ "thinking_tokens": 0,
+ "latency_ms": 1958,
+ "wall_ms": 5234,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100584.5042174
+}

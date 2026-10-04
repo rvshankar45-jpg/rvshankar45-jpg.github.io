@@ -1,0 +1,49 @@
+{
+ "text": "# Hi there! \ud83d\udc4b\n\nThanks for reaching out to Leafy! I'm happy to help you with your refund question.\n\n**Here's the timeline for refunds back to your card:**\n\nOnce a refund has been issued to us, it typically takes **5\u201310 business days** to show up in your account, depending on your bank.\n\nA few things to keep in mind:\n\n- **Refunds go to your original payment method** \u2014 the card you used when you ordered. If that card has since closed or expired, your bank usually passes the refund to your replacement card automatically.\n- If you'd prefer to avoid the wait, you can choose **Leafy store credit instead**, which is issued instantly and never expires. You can use it anytime on future orders!\n\n**Do you have an order number** (it looks like `LF-` plus six digits) that you'd like me to look into? That way I can check on the status of your refund and make sure everything is on track. \ud83c\udf3f\n\nFeel free to reach out anytime \u2014 I'm here to help!",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 3512,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 243,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 3512,
+    "output_tokens": 243,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 3512,
+ "output_tokens": 243,
+ "thinking_tokens": 0,
+ "latency_ms": 3657,
+ "wall_ms": 6776,
+ "overhead": 379,
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1790879626.0595026
+}

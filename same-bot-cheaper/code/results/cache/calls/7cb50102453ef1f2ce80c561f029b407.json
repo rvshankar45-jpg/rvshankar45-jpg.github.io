@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry, that's scary. Please contact your vet or an animal poison control service right now, before doing anything else. Tell them your cat chewed a pothos leaf, and if you can, have the plant in front of you so you can describe it or show it.\n\nI don't have information on symptoms or treatment, so I can't advise on what to do for your cat. The vet or poison control can tell you what to watch for and whether your cat needs to be seen urgently.\n\nOnce your cat has been looked after, I'm happy to help with anything else, such as plant care advice or finding a pet-safe plant.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 656,
+  "cache_read_input_tokens": 1071,
+  "output_tokens": 186,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 656,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 186,
+    "cache_read_input_tokens": 1071,
+    "cache_creation_input_tokens": 656,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 656
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1729,
+ "output_tokens": 186,
+ "thinking_tokens": 0,
+ "latency_ms": 2444,
+ "wall_ms": 5540,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004950.2044437
+}

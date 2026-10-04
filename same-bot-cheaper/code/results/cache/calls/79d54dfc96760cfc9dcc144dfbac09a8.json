@@ -1,0 +1,50 @@
+{
+ "text": "Refunds are issued within **5 business days** of your return reaching our warehouse, and go back to your original payment method. Keep in mind that's counted from when the warehouse receives it, not from when you drop it off, so transit time comes first. The $6.95 change-of-mind fee will be deducted from the refund unless you're a Leafy Plus member.\n\nSince your label has expired, you'll need a new one before sending it. Would you like me to escalate that request?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 841,
+  "cache_read_input_tokens": 1346,
+  "output_tokens": 146,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 841,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 146,
+    "cache_read_input_tokens": 1346,
+    "cache_creation_input_tokens": 841,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 841
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2189,
+ "output_tokens": 146,
+ "thinking_tokens": 0,
+ "latency_ms": 2466,
+ "wall_ms": 5619,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005419.2621162
+}

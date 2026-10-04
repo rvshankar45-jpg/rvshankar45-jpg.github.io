@@ -1,0 +1,76 @@
+{
+ "items": [
+  {
+   "answer_id": "q003#1",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct that no international shipping. 'US only' is an inference not stated in KB (minor), but consistent with no international shipping."
+  },
+  {
+   "answer_id": "q003#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct, no international shipping; extra PO box detail is accurate though slightly tangential."
+  },
+  {
+   "answer_id": "q010#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct email, timeframe, chat hours, no phone."
+  },
+  {
+   "answer_id": "q010#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "All facts correct including Plant Care Specialist hours."
+  },
+  {
+   "answer_id": "q020#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "48 hours with photos, plus accurate fallback to guarantee details."
+  },
+  {
+   "answer_id": "q020#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise; 48 hours, photos, guarantee fallback."
+  },
+  {
+   "answer_id": "q022#1",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct; non-living items can go to PO boxes."
+  },
+  {
+   "answer_id": "q022#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and helpful, including mixed order note (consistent with KB)."
+  }
+ ]
+}

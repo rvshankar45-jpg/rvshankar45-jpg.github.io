@@ -1,0 +1,50 @@
+{
+ "text": "I'd be happy to help! To check if you can cancel your order, I need a bit of info:\n\n1. **What's your order number?** (It looks like `LF-` plus six digits, e.g. LF-204518)\n2. **Roughly how long ago did you place it?**\n\nYou can cancel **free within 2 hours** of ordering from \"My Orders\" on the website or app. After that, the order goes into the packing queue\u2014support can try to intercept it before shipping, but it's not guaranteed.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1515,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 128,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1515,
+    "output_tokens": 128,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1515,
+ "output_tokens": 128,
+ "thinking_tokens": 0,
+ "latency_ms": 2341,
+ "wall_ms": 5192,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791100180.8520465
+}

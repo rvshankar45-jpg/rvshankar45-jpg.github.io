@@ -1,0 +1,49 @@
+{
+ "text": "To be clear on that earlier question: if you sign up and cancel within 14 days, a week included, you'd get a full refund as long as you haven't used any member benefits. That covers free shipping, free change-of-mind returns, the 90-day guarantee, member pricing and early access to rare plant drops.\n\nIf you'd like an exception after using a benefit, I can escalate that to a Support Lead.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 6,
+  "cache_creation_input_tokens": 1358,
+  "cache_read_input_tokens": 3857,
+  "output_tokens": 644,
+  "output_tokens_details": {
+   "thinking_tokens": 394
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1358,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 244,
+    "cache_read_input_tokens": 2375,
+    "cache_creation_input_tokens": 465,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 465
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 5221,
+ "output_tokens": 644,
+ "thinking_tokens": 394,
+ "latency_ms": 8031,
+ "wall_ms": 10511,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 400,
+ "recorded_at": 1790787133.6084735
+}

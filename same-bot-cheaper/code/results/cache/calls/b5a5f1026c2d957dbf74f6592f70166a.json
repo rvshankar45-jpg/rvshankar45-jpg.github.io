@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry about the mix-up, that's not what you ordered. The policy information I have doesn't cover wrong-item deliveries, so I can't promise a specific fix or timeframe, but I can escalate this to a Support Lead. If you send your order number (LF- followed by six digits), I'll include it in the escalation.\n\nIf you have pets, keep the pothos out of their reach for now. It isn't pet-safe, whereas peperomia is. If anyone does chew on it, contact a vet or poison control right away.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 432,
+  "cache_read_input_tokens": 1178,
+  "output_tokens": 354,
+  "output_tokens_details": {
+   "thinking_tokens": 186
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 432,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 354,
+    "cache_read_input_tokens": 1178,
+    "cache_creation_input_tokens": 432,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 432
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1612,
+ "output_tokens": 354,
+ "thinking_tokens": 186,
+ "latency_ms": 4418,
+ "wall_ms": 6889,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791007468.0847332
+}

@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry, a repeat duplicate is frustrating. Our policy doesn't cover swaps, refunds or replacements for a Plant Club duplicate, so I can't promise one. I can escalate this to a Support Lead to review, so please tell me which plant it was and whether it's the same one both times.\n\nTo avoid more duplicates, you can list up to 3 plants you own under \"Account\" > \"Subscriptions\". Changes made before the 25th apply to your next box, and changes on or after the 25th apply to the following month's box. You can also skip, pause (up to 3 months) or change your plan there.\n\nWould you like me to escalate?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 442,
+  "cache_read_input_tokens": 1354,
+  "output_tokens": 421,
+  "output_tokens_details": {
+   "thinking_tokens": 214
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 442,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 421,
+    "cache_read_input_tokens": 1354,
+    "cache_creation_input_tokens": 442,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 442
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1798,
+ "output_tokens": 421,
+ "thinking_tokens": 214,
+ "latency_ms": 4576,
+ "wall_ms": 8407,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791101174.3806071
+}

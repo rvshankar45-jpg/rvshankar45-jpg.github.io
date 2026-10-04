@@ -1,0 +1,49 @@
+{
+ "text": "Hi again! \ud83c\udf3f Great question.\n\nThe duplicate-avoidance option is part of Plant Club, and it works the same way on both plans:\n\n- You can list **up to 3 plants you already own** so we can avoid sending duplicates.\n- You can't choose the specific plant, since each box is a surprise.\n\nWhat I can't confirm is whether the list you've already set up carries over automatically when you change plans. Our knowledge base doesn't cover that detail, so I don't want to guess.\n\nTo be safe:\n\n- **After you upgrade today (the 22nd):** Check your subscription settings under Account > Subscriptions and make sure your 3 plants are still listed. Do this **before the 25th**, when your next box is billed.\n- **If you'd like a definite answer first:** I can escalate this to a Support Lead so you get confirmation before you upgrade.\n\nWould you like me to escalate it? Thanks for being a Leafy plant parent! \ud83e\udeb4",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1256,
+  "cache_read_input_tokens": 2095,
+  "output_tokens": 517,
+  "output_tokens_details": {
+   "thinking_tokens": 210
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1256,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 517,
+    "cache_read_input_tokens": 2095,
+    "cache_creation_input_tokens": 1256,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1256
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 3353,
+ "output_tokens": 517,
+ "thinking_tokens": 210,
+ "latency_ms": 5509,
+ "wall_ms": 8563,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880317.9890687
+}

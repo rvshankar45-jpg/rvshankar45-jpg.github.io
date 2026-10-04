@@ -1,0 +1,50 @@
+{
+ "text": "Plant Care Specialists are available by chat **9am\u20135pm, Monday\u2013Friday**, in your local time. They offer free care advice to anyone, customer or not, and you can also reach them by email at help@leafy.example, which is answered within 1 business day.\n\nPlease note there's no phone support.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 428,
+  "cache_read_input_tokens": 1709,
+  "output_tokens": 95,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 428,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 95,
+    "cache_read_input_tokens": 1709,
+    "cache_creation_input_tokens": 428,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 428
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2139,
+ "output_tokens": 95,
+ "thinking_tokens": 0,
+ "latency_ms": 1900,
+ "wall_ms": 5223,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791007401.4555879
+}

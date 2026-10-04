@@ -1,0 +1,50 @@
+{
+ "text": "Sorry about your string of pearls, that's frustrating after so much time with it.\n\n- **Your guarantee:** Leafy Plus includes a 90-day guarantee, and at about 5 weeks you're well inside that window.\n- **What I can't confirm:** The policy information I have doesn't say what the guarantee covers, including whether it applies when a plant has been overwatered. I don't want to promise a replacement or refund I can't back up, so I can't tell you either way.\n- **Next step:** I can escalate this to a Support Lead, who can review whether an exception or remedy is possible. If you'd like that, send me your order number and I'll pass it along. Don't send any card details.\n- **Saving the plant:** Our Plant Care Specialists can advise on whether a mushy base can be rescued. They're on chat 9am-5pm Mon-Fri in your local time, so that will have to wait until Monday. Meanwhile, I can't give care instructions from the information I have.\n\nWould you like me to escalate?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2168,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1071,
+  "output_tokens_details": {
+   "thinking_tokens": 744
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2168,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1071,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2168,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2168
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2170,
+ "output_tokens": 1071,
+ "thinking_tokens": 744,
+ "latency_ms": 9380,
+ "wall_ms": 12144,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004790.102513
+}

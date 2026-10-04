@@ -1,0 +1,50 @@
+{
+ "text": "No, Leafy doesn't ship internationally. We don't offer international shipping at all, so orders can only be delivered within our domestic shipping zones.\n\nA few related details that may help:\n- **Remote and island addresses** within our service area are covered under Zone 3, with Standard shipping taking 5-8 business days (Express isn't available there).\n- **PO boxes** can only be used for non-living items. Live plants can't be shipped to them.\n\nIf you're trying to send a gift to someone abroad, I can't offer a workaround, but I'm happy to escalate your question to a Support Lead if you'd like it looked at. Is there anything else I can help with?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 4280,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 210,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4280,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 210,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 4280,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4280
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4282,
+ "output_tokens": 210,
+ "thinking_tokens": 0,
+ "latency_ms": 2759,
+ "wall_ms": 5678,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005475.0814872
+}

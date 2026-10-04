@@ -1,0 +1,50 @@
+{
+ "text": "I have two answers for you:\n\n1. **Bank transfer:** Unfortunately, Leafy doesn't accept bank transfers. We accept credit and debit cards, digital wallets at checkout, and Leafy gift cards only.\n\n2. **Buy-now-pay-later for a $30 pot:** Buy-now-pay-later is available only on orders of **$50\u2013$1,000**, so a $30 pot alone wouldn't qualify. However, if you add other items to bring your order total to $50 or more, you'd be eligible.\n\nWould you like to proceed with a card or digital wallet instead?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1536,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 139,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1536,
+    "output_tokens": 139,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1536,
+ "output_tokens": 139,
+ "thinking_tokens": 0,
+ "latency_ms": 2225,
+ "wall_ms": 5396,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791101042.852628
+}

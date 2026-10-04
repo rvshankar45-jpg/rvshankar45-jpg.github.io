@@ -1,0 +1,49 @@
+{
+ "text": "Yes, you can! \ud83c\udf3f If you sign up and change your mind a week later, you'd be well within the window.\n\n**Here's how it works:**\n- You can get a **full refund if you cancel within 14 days** of purchase (or renewal).\n- The refund only applies if you **haven't used any Leafy Plus benefits** in that time.\n\n**A few things to keep in mind:**\n- Using a benefit, like getting free Standard shipping on an order, a free change-of-mind return, or early access to a rare plant drop, would mean the full refund no longer applies.\n- After 14 days, or if benefits have been used, there's no refund. Your benefits would simply continue until the end of the paid year.\n\nIf you'd like to be safe, you could hold off on using any member perks until you're sure Leafy Plus is right for you.\n\nIs there anything else I can help you with? Happy planting! \ud83e\udeb4",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1199,
+  "cache_read_input_tokens": 4679,
+  "output_tokens": 284,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1199,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 284,
+    "cache_read_input_tokens": 4679,
+    "cache_creation_input_tokens": 1199,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1199
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 5880,
+ "output_tokens": 284,
+ "thinking_tokens": 0,
+ "latency_ms": 3725,
+ "wall_ms": 6652,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790787020.3116746
+}

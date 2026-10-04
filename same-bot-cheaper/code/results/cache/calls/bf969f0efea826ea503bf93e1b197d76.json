@@ -1,0 +1,50 @@
+{
+ "text": "# Leafy Return Window\n\nThe return window depends on what you're returning:\n\n**Non-living items** (pots, tools, soil, fertiliser, grow lights, accessories):\n- **30 days** from delivery\n- Must be unused and in original packaging\n- Opened soil or fertiliser can't be returned unless faulty\n\n**Live plants:**\n- **Cannot be returned** for change of mind\n- Plant problems are covered by the **Plant Care Guarantee** (30 days, or 90 days for Leafy Plus members) or the **Damaged on Arrival (DOA)** process (48 hours)\n\n---\n\n**How to start a return:**\nGo to \"My Orders\" and start the return. You'll get a prepaid shipping label by email \u2014 **drop it off within 7 days** or the label expires.\n\n**Refund timing:**\n- Refunds are issued within **5 business days** of your return reaching our warehouse\n- Change-of-mind returns cost a flat **$6.95** (deducted from your refund), but it's **free for Leafy Plus members**\n\nAre you looking to return something specific? I'm happy to help!",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 3172,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 270,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 3172,
+    "output_tokens": 270,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 3172,
+ "output_tokens": 270,
+ "thinking_tokens": 0,
+ "latency_ms": 3946,
+ "wall_ms": 7640,
+ "overhead": 379,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791005461.2079945
+}

@@ -1,0 +1,76 @@
+{
+ "items": [
+  {
+   "answer_id": "q045#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate: up to 30 days, cancels subscriptions, path correct; useful data download note."
+  },
+  {
+   "answer_id": "q045#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate and complete; contact details correct, slightly extra but fine."
+  },
+  {
+   "answer_id": "q051#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct: free heat pack at checkout in winter. Minor embellishment about zones but harmless."
+  },
+  {
+   "answer_id": "q051#2",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct core fact and accurate weather hold details. Slightly hedgy and adds tangential info, but nothing wrong."
+  },
+  {
+   "answer_id": "q060#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct. The November example is accurate and consistent with the 25th charge rule."
+  },
+  {
+   "answer_id": "q060#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct, with accurate extra info on changes before the 25th."
+  },
+  {
+   "answer_id": "q065#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correctly explains DOA window passed, the guarantee claim process, and doesn't over-promise; offers escalation."
+  },
+  {
+   "answer_id": "q065#2",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 2,
+   "tone": 4,
+   "score": 2,
+   "note": "Right process, but promises a free replacement will be approved ('Yes, you can get a replacement'), which the guarantee doesn't guarantee for a snapped stem. Overpromises."
+  }
+ ]
+}

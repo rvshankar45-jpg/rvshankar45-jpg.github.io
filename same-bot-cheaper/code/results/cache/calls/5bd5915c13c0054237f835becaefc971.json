@@ -1,0 +1,50 @@
+{
+ "text": "Per our policy, if there's no reply within 3 days of the out-of-stock email, the item is automatically refunded. Since it's been 4 days, your fern should have been refunded already, so please check your original payment method and your order status in \"My Orders.\"\n\nI don't have policy details on how long the refund takes to appear after an automatic refund, so I can't give you a timeframe for that. If you don't see the refund or the order still shows the fern as pending, I can escalate this to a Support Lead. If you share your order number (it looks like LF-123456), I can include it in the escalation.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 446,
+  "cache_read_input_tokens": 1096,
+  "output_tokens": 182,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 446,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 182,
+    "cache_read_input_tokens": 1096,
+    "cache_creation_input_tokens": 446,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 446
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1544,
+ "output_tokens": 182,
+ "thinking_tokens": 0,
+ "latency_ms": 2963,
+ "wall_ms": 6383,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791007282.521405
+}

@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thanks for contacting Leafy! \ud83c\udf3f\n\nFor a Plant Care Guarantee claim, you'll need **at least two photos**:\n\n- **One of the whole plant**, so we can see its overall condition\n- **One close-up**, showing the problem area (like affected leaves, stem or roots)\n\nHere's how to submit your claim:\n\n- Go to **\"My Orders\"** and start the claim there, within your guarantee window (30 days from delivery, or 90 days for Leafy Plus members on plants ordered while the membership is active).\n- A Plant Care Specialist will review your claim within **2 business days**.\n- You don't need to send the plant back.\n\nIf your plant arrived damaged, such as a snapped stem or cracked pot, that's handled differently. Please report it within **48 hours** of delivery with photos of the item and the box.\n\nI hope your plant bounces back soon! If you have any other questions, I'm always happy to help. \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2234,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 309,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2234,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 309,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2234,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2234
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2236,
+ "output_tokens": 309,
+ "thinking_tokens": 0,
+ "latency_ms": 3269,
+ "wall_ms": 6502,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879858.0889647
+}

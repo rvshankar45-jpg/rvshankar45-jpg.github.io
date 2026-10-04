@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry about that, it's frustrating when a package shows as delivered and isn't there. Here's what we can do.\n\n**Next step:** Contact support about this order. When tracking shows delivered but nothing has arrived, we open a courier investigation, which takes **up to 5 business days**.\n\n**If the package is confirmed lost:** you choose either a free replacement or a full refund.\n\n**Where to reach us:**\n- **Chat:** 8am-8pm Mon-Sat (your local time)\n- **Email:** help@leafy.example, answered within 1 business day\n\nTo start the investigation, please have your order number ready (it looks like LF-123456).\n\nAlso, tracking can take up to 24 hours to update, so it's worth checking the tracking page again. It's also worth looking around your property, such as a porch, side door, neighbors, or a building's mailroom, in case the courier left it somewhere nearby.\n\nOne thing to keep in mind: live plants don't do well sitting outside, so it's best to start the investigation soon.\n\nIf you'd like, share your order number and I can help with the next steps. I won't need any card details or passwords.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 438,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 362,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 438,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 362,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 438,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 438
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4296,
+ "output_tokens": 362,
+ "thinking_tokens": 0,
+ "latency_ms": 4458,
+ "wall_ms": 7842,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005690.6842089
+}

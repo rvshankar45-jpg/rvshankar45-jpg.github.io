@@ -1,0 +1,50 @@
+{
+ "text": "I don't have anything in the policy information available to me that covers extra charges for tall or oversized plants, so I can't confirm whether a fee applies or what it would be. I'd rather not guess at a price.\n\nIf you tell me which plant you're looking at, I can escalate the question to a Support Lead. You can also email help@leafy.example and expect a reply within 1 business day.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1846,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 119,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1846,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 119,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1846,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1846
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1848,
+ "output_tokens": 119,
+ "thinking_tokens": 0,
+ "latency_ms": 2739,
+ "wall_ms": 5719,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100009.541524
+}

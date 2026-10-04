@@ -1,0 +1,49 @@
+{
+ "text": "A change-of-mind return costs a flat **$6.95**, which is deducted from your refund. It's free if you're a Leafy Plus member.\n\nA few things to keep in mind:\n- Change-of-mind returns only apply to non-living items (pots, tools, soil, fertiliser, grow lights, accessories). Live plants can't be returned for change of mind.\n- The item must be returned within **30 days** of delivery, unused and in its original packaging. Opened soil or fertiliser can't be returned unless faulty.\n- Start the return from \"My Orders\". A prepaid label is emailed to you, and it expires after **7 days**, so drop the parcel off within that window.\n- Your refund is issued within **5 business days** of the return reaching our warehouse, to your original payment method.\n\nFaulty or incorrect items return free of charge.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1666,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 270,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1666,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 270,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1666,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1666
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1668,
+ "output_tokens": 270,
+ "thinking_tokens": 0,
+ "latency_ms": 2578,
+ "wall_ms": 5687,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880449.7049189
+}

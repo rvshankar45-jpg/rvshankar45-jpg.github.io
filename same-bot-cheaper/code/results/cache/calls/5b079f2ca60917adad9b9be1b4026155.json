@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! I'm sorry your fern wasn't available. I know that's disappointing after you picked it out.\n\n**What happens when there's no reply**\n- If we don't hear back within **3 days** of the out-of-stock email, the item is **automatically refunded**.\n- Since it's been 4 days, that 3-day window has passed, so your fern should have been refunded automatically.\n- The refund is for that item only. The rest of your order isn't affected.\n\n**What you can do now**\n- Check your email and payment method for the refund.\n- If you still want a fern, you're welcome to browse for a similar one and place a new order.\n\nI can't see your account details, and our knowledge base doesn't give an exact time for when an automatic refund shows up on your statement. If you can't find the refund, send me your order number (it looks like **LF-** plus six digits, e.g. LF-204518) and I'll escalate it to a Support Lead so they can check. Please don't share any full card numbers or security codes with me.\n\nThanks for your patience, and I hope we can get a happy new fern to you soon! \ud83c\udf3f",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1991,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 571,
+  "output_tokens_details": {
+   "thinking_tokens": 210
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1991,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 571,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1991,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1991
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1993,
+ "output_tokens": 571,
+ "thinking_tokens": 210,
+ "latency_ms": 5877,
+ "wall_ms": 8332,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880014.9946787
+}

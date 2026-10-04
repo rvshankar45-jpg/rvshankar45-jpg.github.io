@@ -1,0 +1,50 @@
+{
+ "text": "No, the 90-day guarantee only applies to plants ordered **while your Leafy Plus membership is active**. Since you ordered this plant before joining, it's covered under the standard **30-day guarantee**, which expired at day 30.\n\nHowever, if the plant is experiencing significant decline (losing more than a third of its leaves, stem/root rot, or collapse), you can still file a claim within the 30-day window\u2014but you'd need to have done that by day 30. Since you're now at day 50, unfortunately that window has closed.\n\nWould you like free care advice from a Plant Care Specialist to help save the plant?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1355,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 144,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1355,
+    "output_tokens": 144,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1355,
+ "output_tokens": 144,
+ "thinking_tokens": 0,
+ "latency_ms": 2351,
+ "wall_ms": 6855,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791101483.7916446
+}

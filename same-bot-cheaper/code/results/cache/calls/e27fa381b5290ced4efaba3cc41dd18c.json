@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for reaching out to Leafy! \ud83c\udf3f Happy to explain how returns work.\n\n**Non-living items (pots, tools, soil, fertiliser, grow lights, accessories)**\n- You can return them within **30 days of delivery**.\n- Items must be unused and in their original packaging.\n- Opened soil or fertiliser can't be returned unless it's faulty.\n\n**Live plants**\n- Live plants can't be returned for change of mind.\n- If something goes wrong with a plant, we have other ways to help:\n  - **Damaged on Arrival:** report it within **48 hours** of delivery, with photos of the plant and the box.\n  - **Plant Care Guarantee:** covers **30 days** from delivery (**90 days** for Leafy Plus members). If your plant dies or declines significantly despite reasonable care, we'll send one free replacement.\n\n**How to start a return**\n- Go to \"My Orders\" and start the return there.\n- A prepaid label will be emailed to you. It expires after **7 days**, so please drop off your parcel within that time.\n- Faulty or incorrect items return free. Change-of-mind returns cost a flat **$6.95**, deducted from your refund (free for Leafy Plus members).\n- Refunds go to your original payment method within **5 business days** of the return reaching our warehouse.\n\nOne note: we can't do direct exchanges, so you'd return the item and place a new order.\n\nIs there something specific you're looking to return? I'm happy to help you work out the best option. Thanks for being part of the Leafy family! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2482,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 515,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2482,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 515,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2482,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2482
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2484,
+ "output_tokens": 515,
+ "thinking_tokens": 0,
+ "latency_ms": 3951,
+ "wall_ms": 7843,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790787163.847094
+}

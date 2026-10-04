@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry your plants arrived dead, especially three at once.\n\n**The damaged plants:** Dead-on-arrival plants are handled through our Damaged on Arrival process. I don't have those details here, so I can't confirm the reporting window, what evidence is needed, or whether the outcome is a refund or a replacement. I can escalate this to a Support Lead so they can review your claim for the three plants ($180).\n\n**The expired card:** This won't block a refund once one is approved.\n- **Original payment method only:** Refunds can't go to a different card, even if the original has expired or closed. The bank normally passes the refund on to your replacement card. Once issued, card refunds take **5-10 business days** (digital wallets take **3-5 business days**).\n- **Leafy store credit:** If you'd rather not wait on the bank, you can take store credit instead. It's issued instantly and never expires.\n- **Buy-now-pay-later:** If you paid this way, the refund goes to the instalment provider, which adjusts your remaining payments.\n\nWould you like me to escalate the claim? If so, please send your order number. You don't need to share any card details.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1972,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 679,
+  "output_tokens_details": {
+   "thinking_tokens": 310
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1972,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 679,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1972,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1972
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1974,
+ "output_tokens": 679,
+ "thinking_tokens": 310,
+ "latency_ms": 6139,
+ "wall_ms": 9848,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004796.1740987
+}

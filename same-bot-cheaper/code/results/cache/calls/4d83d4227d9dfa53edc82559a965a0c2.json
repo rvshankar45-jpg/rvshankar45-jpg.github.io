@@ -1,0 +1,50 @@
+{
+ "text": "No. The 90-day guarantee only covers plants you order **while your Leafy Plus membership is active**. Plants you bought before joining keep the standard **30-day guarantee**, counted from their delivery date.\n\nIf one of those earlier plants dies or declines significantly within its 30 days, you can make a claim from \"My Orders\" with at least two photos (the whole plant and a close-up). A Plant Care Specialist will review it within 2 business days.\n\nI also need to correct my earlier message, where I said you can cancel Leafy Plus \"anytime with no fee or minimum term.\" That wording belongs to Plant Club subscriptions, not Leafy Plus. For Leafy Plus, the policy says you get a full refund if you cancel within 14 days of purchase or renewal and haven't used any benefits. Otherwise there's no refund, and your benefits continue to the end of the paid year. It also auto-renews at $59/year.\n\nIs there anything else I can help with?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2128,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 313,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2128,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 313,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2128,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2128
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2130,
+ "output_tokens": 313,
+ "thinking_tokens": 0,
+ "latency_ms": 3984,
+ "wall_ms": 9510,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004918.2139847
+}

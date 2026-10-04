@@ -1,0 +1,50 @@
+{
+ "text": "Unfortunately, no. Opened soil can't be returned unless it's faulty, even within the 30-day window. Unopened, unused soil can be returned within 30 days of delivery in its original packaging.\n\nIf something is wrong with the soil (for example, it arrived contaminated or isn't as described), tell me what you're seeing and I can point you to the faulty-item return route, which is free. Otherwise, I can escalate this to a Support Lead if you'd like it reviewed.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 443,
+  "cache_read_input_tokens": 1404,
+  "output_tokens": 155,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 443,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 155,
+    "cache_read_input_tokens": 1404,
+    "cache_creation_input_tokens": 443,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 443
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1849,
+ "output_tokens": 155,
+ "thinking_tokens": 0,
+ "latency_ms": 2638,
+ "wall_ms": 6366,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791101307.4794204
+}

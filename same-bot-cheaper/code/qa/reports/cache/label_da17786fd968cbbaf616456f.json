@@ -1,0 +1,129 @@
+{
+ "items": [
+  {
+   "id": "q001",
+   "label": "simple",
+   "reason": "Single-fact lookup of the return window."
+  },
+  {
+   "id": "q002",
+   "label": "simple",
+   "reason": "Single-fact lookup of standard shipping price."
+  },
+  {
+   "id": "q003",
+   "label": "simple",
+   "reason": "Single policy fact on international shipping."
+  },
+  {
+   "id": "q004",
+   "label": "simple",
+   "reason": "Single-fact lookup of express shipping cost."
+  },
+  {
+   "id": "q005",
+   "label": "simple",
+   "reason": "Single-fact lookup of guarantee duration."
+  },
+  {
+   "id": "q006",
+   "label": "simple",
+   "reason": "Single policy fact on accepted payment methods."
+  },
+  {
+   "id": "q007",
+   "label": "simple",
+   "reason": "Single-fact price lookup."
+  },
+  {
+   "id": "q008",
+   "label": "simple",
+   "reason": "Single-fact lookup of chat hours."
+  },
+  {
+   "id": "q009",
+   "label": "simple",
+   "reason": "Single-fact lookup of phone support availability."
+  },
+  {
+   "id": "q010",
+   "label": "simple",
+   "reason": "Single-fact lookup of support email."
+  },
+  {
+   "id": "q011",
+   "label": "simple",
+   "reason": "Single-fact lookup of plan price."
+  },
+  {
+   "id": "q012",
+   "label": "simple",
+   "reason": "Single-fact lookup of plan price."
+  },
+  {
+   "id": "q013",
+   "label": "simple",
+   "reason": "Single-fact lookup of shipping days."
+  },
+  {
+   "id": "q014",
+   "label": "simple",
+   "reason": "Single policy fact on change-of-mind returns."
+  },
+  {
+   "id": "q015",
+   "label": "simple",
+   "reason": "Single-fact lookup of pet safety info."
+  },
+  {
+   "id": "q016",
+   "label": "simple",
+   "reason": "Single-fact lookup of pet safety info."
+  },
+  {
+   "id": "q017",
+   "label": "simple",
+   "reason": "Single-fact lookup of refund timing."
+  },
+  {
+   "id": "q018",
+   "label": "simple",
+   "reason": "Single policy fact on promo code stacking."
+  },
+  {
+   "id": "q019",
+   "label": "simple",
+   "reason": "Single policy fact on gift card expiry."
+  },
+  {
+   "id": "q020",
+   "label": "simple",
+   "reason": "Single-fact lookup of damage report window."
+  },
+  {
+   "id": "q021",
+   "label": "simple",
+   "reason": "Single-fact lookup of cancellation window."
+  },
+  {
+   "id": "q022",
+   "label": "simple",
+   "reason": "Single policy fact on PO box shipping."
+  },
+  {
+   "id": "q023",
+   "label": "simple",
+   "reason": "Single lookup of Zone 2 delivery time."
+  },
+  {
+   "id": "q024",
+   "label": "simple",
+   "reason": "Single policy fact on express availability for islands."
+  },
+  {
+   "id": "q025",
+   "label": "simple",
+   "reason": "Single-fact lookup of change-of-mind return fee."
+  }
+ ]
+}

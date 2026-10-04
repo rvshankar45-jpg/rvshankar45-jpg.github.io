@@ -1,0 +1,50 @@
+{
+ "text": "I can help. A pending charge on a cancelled order is normal\u2014it should drop off automatically in **3\u20137 business days**, depending on your bank. Leafy can't release it faster.\n\nA couple of quick checks:\n1. **Is it showing as \"pending\" or \"posted\"?** Pending authorisations fall off automatically; posted charges are different.\n2. **Do you have your order number?** It starts with `LF-` plus six digits (e.g. LF-204518).\n\nIf the charge has *posted* as well as pending, or if it's been longer than 7 days, I can escalate this to our Support Lead to investigate. Let me know those details and I'll get it sorted.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1451,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 166,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1451,
+    "output_tokens": 166,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1451,
+ "output_tokens": 166,
+ "thinking_tokens": 0,
+ "latency_ms": 2626,
+ "wall_ms": 5498,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791100369.8812673
+}

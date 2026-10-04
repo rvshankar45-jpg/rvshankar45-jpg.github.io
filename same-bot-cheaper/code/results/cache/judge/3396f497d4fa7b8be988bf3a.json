@@ -1,0 +1,148 @@
+{
+ "items": [
+  {
+   "answer_id": "t176#1",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Never mentions the Plant Care Guarantee claim steps (My Orders, two photos, 2-day review). It also hints a Support Lead 'may be able to make an exception' and asks for box photos, which is a DOA requirement. It does say the guarantee gives a replacement, not a refund."
+  },
+  {
+   "answer_id": "t176#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate on the 48-hour DOA window and the guarantee claim steps (30/90 days, two photos, 2-day review, replacement, no return needed). Escalation is offered without promising an outcome."
+  },
+  {
+   "answer_id": "t177#1",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 5,
+   "score": 3,
+   "note": "Gives safety advice first and notes pothos is not pet-safe. It never escalates to a Support Lead, which the rules require for safety issues."
+  },
+  {
+   "answer_id": "t177#2",
+   "correctness": 4,
+   "completeness": 3,
+   "policy": 2,
+   "tone": 4,
+   "score": 2,
+   "note": "Tells them to contact a vet or poison control, but does not escalate to a Support Lead. The advice is thin, and 'toxic' goes slightly beyond the KB wording."
+  },
+  {
+   "answer_id": "t178#1",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Handles the pending-authorisation check, last four digits and the 3-day refund correctly. It omits the multi-parcel possibility, and it says 'I can process', which slightly overpromises."
+  },
+  {
+   "answer_id": "t178#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Covers pending authorisations, the multi-parcel possibility, last four digits only and the 3-day refund. It does not promise a same-day refund."
+  },
+  {
+   "answer_id": "t179#1",
+   "correctness": 2,
+   "completeness": 3,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Wrongly says Plant Care Guarantee issues must be reported within 48 hours, mixing it up with DOA. Otherwise correct that live plants can't be returned and about shipping."
+  },
+  {
+   "answer_id": "t179#2",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct on the main points and adds the non-living returns detail. It claims not to have the guarantee details, though they are in the KB, which is a gap."
+  },
+  {
+   "answer_id": "t180#1",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correctly says no redirect or address change is possible. It adds the courier investigation route. It does not offer to escalate, but this is minor."
+  },
+  {
+   "answer_id": "t180#2",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Correctly says redirects aren't possible, but then tells the customer the courier may be able to redirect. That implies a workaround the KB doesn't support. It also misses the courier investigation route."
+  },
+  {
+   "answer_id": "t181#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "All Plus facts are accurate, including no free Express and the refund conditions."
+  },
+  {
+   "answer_id": "t181#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate and complete. It is honest about not being able to judge whether Plus is worth it."
+  },
+  {
+   "answer_id": "t182#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correctly refuses the refund, benefits continue, gives the cancel path and offers escalation."
+  },
+  {
+   "answer_id": "t182#2",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct on eligibility and offers escalation. It says it doesn't know how to cancel, though the Subscriptions path may apply, which is a minor gap."
+  },
+  {
+   "answer_id": "t183#1",
+   "correctness": 2,
+   "completeness": 2,
+   "policy": 2,
+   "tone": 4,
+   "score": 2,
+   "note": "Doesn't state that there is no phone support, and implies a Support Lead may arrange a callback, which is invented. It also misses the email address and the chat hours."
+  },
+  {
+   "answer_id": "t183#2",
+   "correctness": 2,
+   "completeness": 3,
+   "policy": 2,
+   "tone": 4,
+   "score": 2,
+   "note": "Says it doesn't know whether phone support exists, when the KB says there is none. It offers to ask for a call and omits the email address and chat hours."
+  }
+ ]
+}

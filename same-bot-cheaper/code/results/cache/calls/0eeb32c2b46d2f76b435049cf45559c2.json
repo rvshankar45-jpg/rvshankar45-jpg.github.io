@@ -1,0 +1,50 @@
+{
+ "text": "I don't have information on free-shipping thresholds or shipping rates for standard orders, so I can't confirm whether your $78 order qualifies. The shipping cost shown at checkout or on your order confirmation is the best guide.\n\nThe one free-shipping rule I can confirm is for Leafy Plus members ($59/year), who get free Standard shipping with no minimum. Express isn't included.\n\nIf you'd like a definite answer about your order, I can escalate it to a Support Lead. Do you have your order number (LF- plus six digits)?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 442,
+  "cache_read_input_tokens": 1428,
+  "output_tokens": 324,
+  "output_tokens_details": {
+   "thinking_tokens": 150
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 442,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 324,
+    "cache_read_input_tokens": 1428,
+    "cache_creation_input_tokens": 442,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 442
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1872,
+ "output_tokens": 324,
+ "thinking_tokens": 150,
+ "latency_ms": 3609,
+ "wall_ms": 6985,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100410.9724252
+}

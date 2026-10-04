@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry, but the policy information I have doesn't say anything about age requirements for opening an account, so I can't confirm whether a 16-year-old can sign up. I can escalate this to a Support Lead to get you a definite answer.\n\nIn the meantime, payment is by credit or debit card, digital wallet, or a Leafy gift card (no cash, cheques or bank transfers), so you'd need one of those to buy with. Also, pothos isn't pet-safe, so keep it out of reach if you have pets at home.\n\nWould you like me to escalate the age question?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1833,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 308,
+  "output_tokens_details": {
+   "thinking_tokens": 125
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1833,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 308,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1833,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1833
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1835,
+ "output_tokens": 308,
+ "thinking_tokens": 125,
+ "latency_ms": 3349,
+ "wall_ms": 6452,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791101510.0148153
+}

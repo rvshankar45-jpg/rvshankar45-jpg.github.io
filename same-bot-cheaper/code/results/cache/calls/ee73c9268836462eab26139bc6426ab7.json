@@ -1,0 +1,50 @@
+{
+ "text": "You can list those 3 plants you own in your Plant Club preferences to avoid duplicates\u2014that's exactly what the exclusion list is for. However, you **can't pick your plant**; it's a surprise each month based on your light level.\n\nThe good news: pothos, ZZ plant, and snake plant are all common, so adding them to your exclusion list should help a lot. You can update your preferences anytime from \"Account\" > \"Subscriptions\".",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1244,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 106,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1244,
+    "output_tokens": 106,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1244,
+ "output_tokens": 106,
+ "thinking_tokens": 0,
+ "latency_ms": 1893,
+ "wall_ms": 4806,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791100926.865332
+}

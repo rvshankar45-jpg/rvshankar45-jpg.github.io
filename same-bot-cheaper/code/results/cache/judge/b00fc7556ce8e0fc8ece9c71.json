@@ -1,0 +1,292 @@
+{
+ "items": [
+  {
+   "answer_id": "q073#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate and complete."
+  },
+  {
+   "answer_id": "q073#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate, adds correct exclusions."
+  },
+  {
+   "answer_id": "q073#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Concise and correct."
+  },
+  {
+   "answer_id": "q073#4",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct; the 90-day Plus detail is accurate. Slightly long. Pets are listed as an exclusion, which is fine."
+  },
+  {
+   "answer_id": "q073#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct but wordy and heavy on emoji."
+  },
+  {
+   "answer_id": "q073#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "q073#7",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct overall. The discouraging nudge to chat first is a minor oddity, and it is long."
+  },
+  {
+   "answer_id": "q073#8",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and well organized."
+  },
+  {
+   "answer_id": "q073#9",
+   "correctness": 1,
+   "completeness": 2,
+   "policy": 3,
+   "tone": 3,
+   "score": 1,
+   "note": "Wrongly says no. The replacement has its own 30-day guarantee, so another replacement is allowed."
+  },
+  {
+   "answer_id": "q074#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct. The escalation offer is acceptable. Slightly chatty."
+  },
+  {
+   "answer_id": "q074#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q074#3",
+   "correctness": 4,
+   "completeness": 3,
+   "policy": 3,
+   "tone": 4,
+   "score": 3,
+   "note": "Correctly denies. It misdescribes the policy as price-match against other plants, which invents a policy."
+  },
+  {
+   "answer_id": "q074#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q074#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct, a bit verbose."
+  },
+  {
+   "answer_id": "q074#6",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct and brief."
+  },
+  {
+   "answer_id": "q075#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q075#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "q075#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q075#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q075#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q075#6",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct core facts. It adds unsupported details about a special slip and checkout gift options."
+  },
+  {
+   "answer_id": "q075#7",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q075#8",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q075#9",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q075#10",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct, with relevant extras. Slightly long."
+  },
+  {
+   "answer_id": "q076#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q076#2",
+   "correctness": 2,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 3,
+   "score": 2,
+   "note": "Gives $14.95 correctly. It then wrongly says Standard is free because the order is over $75, and it gives incorrect transit times."
+  },
+  {
+   "answer_id": "q076#3",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Gives $14.95 correctly. It wrongly says Plus free Standard applies only on orders of $75+."
+  },
+  {
+   "answer_id": "q076#4",
+   "correctness": 4,
+   "completeness": 3,
+   "policy": 5,
+   "tone": 4,
+   "score": 3,
+   "note": "Never states directly that the cost is $14.95 for the order. The Express price is only listed in a bullet. It is correct but buries the answer."
+  },
+  {
+   "answer_id": "q076#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q076#6",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "The $14.95 is correct. It wrongly claims the $60 order doesn't qualify for free Standard, but Plus has no minimum."
+  },
+  {
+   "answer_id": "q076#7",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  }
+ ]
+}

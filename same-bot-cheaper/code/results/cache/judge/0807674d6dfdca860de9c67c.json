@@ -1,0 +1,148 @@
+{
+ "items": [
+  {
+   "answer_id": "t240#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correctly says no; lists DOA criteria and 48h window, plus guarantee."
+  },
+  {
+   "answer_id": "t240#2",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct no; omits DOA criteria but fine, mentions guarantee."
+  },
+  {
+   "answer_id": "t241#1",
+   "correctness": 1,
+   "completeness": 2,
+   "policy": 2,
+   "tone": 4,
+   "score": 1,
+   "note": "Contradictory and wrong: tells customer to return and reorder; ignores keep-for-free and free Express shipment of correct item."
+  },
+  {
+   "answer_id": "t241#2",
+   "correctness": 2,
+   "completeness": 2,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Claims KB doesn't cover wrong live plant, but it does; fails to say keep it and free Express correct item. Unneeded escalation."
+  },
+  {
+   "answer_id": "t242#1",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct process and card safety; multi-parcel note fine, though the 'full order total' claim is slightly invented."
+  },
+  {
+   "answer_id": "t242#2",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct process; omits multi-parcel caveat and the store credit offer is not in the duplicate policy, though store credit is a general option."
+  },
+  {
+   "answer_id": "t243#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct; escalation offer after 7 days is reasonable."
+  },
+  {
+   "answer_id": "t243#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct timing and cannot release; adds relevant duplicate info."
+  },
+  {
+   "answer_id": "t244#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Fully correct with timings and store credit option."
+  },
+  {
+   "answer_id": "t244#2",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "t245#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "t245#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "t246#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, helpful suggestion."
+  },
+  {
+   "answer_id": "t246#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "t247#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, flags flash sale/clearance exclusion; escalation offer is cautious but fine."
+  },
+  {
+   "answer_id": "t247#2",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Omits flash sale/clearance exclusion and promises eligibility unconditionally."
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "text": "Hey! Great question about Plant Club! \ud83c\udf31\n\nUnfortunately, you **can't choose the specific plant** that comes in your monthly box \u2014 that's part of the fun surprise! Each month you get a plant that matches your light level.\n\n**What you can do:**\n- List up to **3 plants you already own** in your Plant Club preferences, and we'll make sure not to send you duplicates\n- Choose between **Starter** ($29/month, small 4-inch plants) or **Collector** ($49/month, medium or rare 6-inch plants) \u2014 so you have some control over the size and rarity level\n\nThe plants you receive are covered by our normal Plant Care Guarantee, so you're all set if anything goes wrong.\n\nIs there anything else you'd like to know about Plant Club, or would you like help setting up your preferences? \ud83d\ude0a",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1619,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 195,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1619,
+    "output_tokens": 195,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1619,
+ "output_tokens": 195,
+ "thinking_tokens": 0,
+ "latency_ms": 2962,
+ "wall_ms": 6592,
+ "overhead": 379,
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1790879923.1015778
+}

@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry to hear that! **First priority: contact Poison Control, your pediatrician, or call 911 if your toddler shows any symptoms.** Peace lilies are toxic to children, so this needs immediate medical attention.\n\nOnce that's handled, I can help with the damaged plant and pot. Report the smashed pot and plant damage **within 48 hours of delivery** (you have until tomorrow) by replying with photos of the damage and the box. We'll replace both items free or issue a refund\u2014and if the pot is under $40, you won't need to send it back. You can keep the damaged plant at no charge while we process this.\n\nPlease prioritize the medical check first.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1174,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 158,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1174,
+    "output_tokens": 158,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1174,
+ "output_tokens": 158,
+ "thinking_tokens": 0,
+ "latency_ms": 2535,
+ "wall_ms": 5207,
+ "overhead": 379,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791006870.2997925
+}

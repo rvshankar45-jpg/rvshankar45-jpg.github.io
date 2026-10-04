@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry your fig is struggling. Unfortunately, a Plant Care Guarantee claim wouldn't be covered in this case. Repotting into non-Leafy soil within the first 14 days after delivery is excluded, and you repotted on the day it arrived.\n\nThere are two other options:\n\n- **Arrived damaged?** If the plant arrived with snapped main stems, exposed roots, a smashed pot, or was dead or severely wilted, that falls under Damaged on Arrival. It has to be reported within **48 hours** of delivery, with photos of the plant and the box. If you're still inside that window and it was damaged when it came, tell me and I can point you to the next steps.\n- **Care advice:** A Plant Care Specialist can give you free advice on saving it, even if the plant isn't covered. They're on chat 9am-5pm Mon-Fri (your local time), or you can email help@leafy.example and get a reply within 1 business day. In the meantime, keep it out of direct sun and water only when the top inch of soil is dry. Overwatering is the most common cause of early problems, and a fresh repot can make it worse.\n\nIf you think your situation deserves an exception, I can escalate it to a Support Lead for review, but I can't promise a particular outcome. When was the plant delivered?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 454,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 795,
+  "output_tokens_details": {
+   "thinking_tokens": 373
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 454,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 795,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 454,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 454
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4312,
+ "output_tokens": 795,
+ "thinking_tokens": 373,
+ "latency_ms": 7263,
+ "wall_ms": 11392,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005710.5546958
+}

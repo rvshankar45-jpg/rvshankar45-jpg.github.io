@@ -1,0 +1,129 @@
+{
+ "items": [
+  {
+   "id": "q076",
+   "label": "complex",
+   "reason": "Requires combining Plus member shipping benefit, order amount threshold, and express option."
+  },
+  {
+   "id": "q077",
+   "label": "simple",
+   "reason": "Single policy lookup on what happens after an unanswered out-of-stock notice."
+  },
+  {
+   "id": "q078",
+   "label": "simple",
+   "reason": "Wrong item received is a single-fact lookup of the wrong-item process."
+  },
+  {
+   "id": "q079",
+   "label": "complex",
+   "reason": "Applies damaged-item rule to a specific amount and situation (return needed or not)."
+  },
+  {
+   "id": "q080",
+   "label": "simple",
+   "reason": "Single-fact pet-safety lookup for two plants."
+  },
+  {
+   "id": "q081",
+   "label": "simple",
+   "reason": "Single fact on split shipments and charges."
+  },
+  {
+   "id": "q082",
+   "label": "complex",
+   "reason": "Applies skip deadline rule to the specific date June 20 and July box."
+  },
+  {
+   "id": "q083",
+   "label": "simple",
+   "reason": "Single-fact lookup on promo stacking with member pricing."
+  },
+  {
+   "id": "q084",
+   "label": "simple",
+   "reason": "Single-fact lookup on recovering a gift card code."
+  },
+  {
+   "id": "q085",
+   "label": "complex",
+   "reason": "Combines account deletion policy with active subscription handling."
+  },
+  {
+   "id": "q086",
+   "label": "complex",
+   "reason": "Weather hold exception combined with a specific deadline and waiver rules."
+  },
+  {
+   "id": "q087",
+   "label": "simple",
+   "reason": "Single-fact lookup on refund destination for instalment payments."
+  },
+  {
+   "id": "q088",
+   "label": "simple",
+   "reason": "Single-fact care lookup on calathea light."
+  },
+  {
+   "id": "q089",
+   "label": "complex",
+   "reason": "Applies return window and category rules (grow light, unopened) to 35 days."
+  },
+  {
+   "id": "q090",
+   "label": "complex",
+   "reason": "Combines Plus member guarantee with plant age and care conditions."
+  },
+  {
+   "id": "q091",
+   "label": "complex",
+   "reason": "Multiple issues: yellow leaves, double charge, and refund to different card."
+  },
+  {
+   "id": "q092",
+   "label": "complex",
+   "reason": "Upset customer with repeated contact, refund demand, and cancellation needing escalation."
+  },
+  {
+   "id": "q093",
+   "label": "complex",
+   "reason": "Applies guarantee to 5 weeks, owner-caused overwatering, and Plus membership; edge case."
+  },
+  {
+   "id": "q094",
+   "label": "complex",
+   "reason": "Multiple dead plants, a large amount, and an expired refund card."
+  },
+  {
+   "id": "q095",
+   "label": "complex",
+   "reason": "Pet/child safety concern plus damaged pot; several issues needing careful handling."
+  },
+  {
+   "id": "q096",
+   "label": "complex",
+   "reason": "Three changes at once with a time-window rule."
+  },
+  {
+   "id": "q097",
+   "label": "complex",
+   "reason": "Waived weather hold exception affects replacement eligibility."
+  },
+  {
+   "id": "q098",
+   "label": "complex",
+   "reason": "Applies cancellation cutoff date to a specific charge and refund."
+  },
+  {
+   "id": "q099",
+   "label": "complex",
+   "reason": "Account security incident with fraud needing careful handling and escalation."
+  },
+  {
+   "id": "q100",
+   "label": "complex",
+   "reason": "Redirect after shipment, address change, express upgrade, and island delivery combine multiple rules."
+  }
+ ]
+}

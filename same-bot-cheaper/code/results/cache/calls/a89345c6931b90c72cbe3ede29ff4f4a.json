@@ -1,0 +1,50 @@
+{
+ "text": "Yes, you can waive the hold by replying to the weather hold email. Before you do, a few things to know:\n\n- **Cold or heat damage is no longer covered.** If you waive, the Plant Care Guarantee still applies, but not for cold or heat damage in transit. Damaged-on-arrival claims for cold or heat damage also won't be accepted.\n- **I can't promise Friday delivery.** Holds can last up to 7 days, and after release, transit time depends on your zone and shipping method:\n  - Standard: 2-3 business days (Zone 1), 3-5 (Zone 2), 5-8 (Zone 3)\n  - Express: next business day (Zone 1), 2 business days (Zone 2), not available in Zone 3\n- **Upgrading shipping:** the policy I have doesn't cover changing the shipping method on an order that's already placed, so I can't say whether that's possible.\n\nIf Friday is a firm deadline, I can escalate to a Support Lead to look at your order's timing. If you share your order number (LF- plus six digits), I can include it in the escalation.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 448,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 888,
+  "output_tokens_details": {
+   "thinking_tokens": 532
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 448,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 888,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 448,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 448
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4306,
+ "output_tokens": 888,
+ "thinking_tokens": 532,
+ "latency_ms": 7876,
+ "wall_ms": 10407,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005767.9167018
+}

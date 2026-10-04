@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy. I'm so sorry about your fiddle leaf fig. Losing a plant is upsetting, and having to write in three times without a fix is frustrating. That's not the experience we want you to have.\n\nBecause this is your third time raising it, I'm escalating your case to a human Support Lead. I can't promise an exact response time, but I'll make sure they have the full history so you don't have to start over.\n\n**Your plant and refund**\n- Under our Plant Care Guarantee, a plant that dies despite reasonable care gets one free replacement. The guarantee lasts 30 days from delivery, or 90 days for Leafy Plus members.\n- A refund isn't part of the standard guarantee, except for damaged-on-arrival plants reported within 48 hours of delivery. Since you'd like your money back, the Support Lead will review that request.\n- If you haven't submitted a claim yet, you can do it from \"My Orders\" with at least two photos (the whole plant plus a close-up). A Plant Care Specialist reviews it within 2 business days, and you don't need to send the plant back.\n\n**Cancelling Leafy Plus**\n- You'll get a full refund if you cancel within 14 days of purchase or renewal and haven't used any benefits.\n- Otherwise there's no refund, but your benefits continue until the end of your paid year.\n- I can't tell which applies to you from here, so the Support Lead will check your account.\n\n**To help things move faster, please reply with:**\n- Your order number (it looks like LF-123456)\n- Roughly when the plant was delivered\n\nPlease don't send any full card numbers, security codes or passwords.\n\nThank you for your patience. We want to get this sorted for you, and you're always welcome to reach out again.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 475,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 968,
+  "output_tokens_details": {
+   "thinking_tokens": 394
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 475,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 968,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 475,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 475
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4815,
+ "output_tokens": 968,
+ "thinking_tokens": 394,
+ "latency_ms": 8095,
+ "wall_ms": 10592,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879389.485594
+}

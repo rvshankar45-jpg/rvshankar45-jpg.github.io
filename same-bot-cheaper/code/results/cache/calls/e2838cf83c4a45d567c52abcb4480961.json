@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! \ud83c\udf3f Happy to help with this one.\n\n**You have 2 hours from the time you place your order** to cancel or change it for free. Here's how:\n\n- Go to **\"My Orders\"** on the website or app\n- Select the order and cancel or make your changes\n\n**If more than 2 hours have passed:**\n- Your order moves into our packing queue and can't be changed online.\n- Our support team can try to intercept it before it ships, but I can't guarantee that it will work.\n- Once an order has shipped, it can't be cancelled, and the shipping address can't be changed either.\n\nIf you're past the 2-hour window, just let me know your order number (it looks like LF- followed by six digits) and I can help with next steps. Also, if you've cancelled and see a pending charge on your card, it usually drops off within 3-7 business days, depending on your bank.\n\nIs there an order you're trying to cancel right now? I'm happy to help however I can. \ud83d\ude0a",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 427,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 317,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 427,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 317,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 427,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 427
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4767,
+ "output_tokens": 317,
+ "thinking_tokens": 0,
+ "latency_ms": 3225,
+ "wall_ms": 6199,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879136.2830825
+}

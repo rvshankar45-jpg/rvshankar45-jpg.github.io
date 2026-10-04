@@ -1,0 +1,50 @@
+{
+ "text": "I can help you sort this out. Unfortunately, I don't have access to your order details or the ability to see what was actually sent, so I can't confirm whether this was a packing error on our side or address the replacement directly.\n\nPlease contact our Support Lead with your **order number** (starts with `LF-` plus six digits) and ideally a photo of what arrived. They'll verify what happened and arrange the correct plant for you.\n\nOne thing to note: pothos isn't pet-safe, while peperomia is\u2014so if you have pets, it's important to get the right one sorted quickly.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1231,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 137,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1231,
+    "output_tokens": 137,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1231,
+ "output_tokens": 137,
+ "thinking_tokens": 0,
+ "latency_ms": 2631,
+ "wall_ms": 5832,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791100494.5653493
+}

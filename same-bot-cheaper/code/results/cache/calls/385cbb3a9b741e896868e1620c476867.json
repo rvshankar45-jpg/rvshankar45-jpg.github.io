@@ -1,0 +1,50 @@
+{
+ "text": "Sorry your monstera arrived looking unwell. Here's where each issue stands:\n\n- **Yellow leaves:** Report within **48 hours** of delivery, with photos of the plant and the box. Damaged on Arrival covers dead or severely wilted plants, snapped main stems, exposed roots or a cracked pot. Yellowing alone isn't listed, so I can't promise it qualifies. A qualifying plant gets a free replacement on the next plant shipping day, or a refund. After 48 hours it goes through the Plant Care Guarantee, whose details I don't have here, so I can escalate that to a Support Lead.\n- **Double charge:** First check whether one is a pending authorisation, or whether your order shipped in several parcels, since each parcel can show its own charge. If both charges have posted, send me your order number and the **last four digits** of the card (never the full number or security code). The duplicate is refunded within **3 business days** of confirmation.\n- **Refund to a different card:** I can't do that. Refunds go only to the original payment method. Card refunds take **5-10 business days** once issued. If you'd rather not wait, you can take Leafy store credit, which is instant and never expires.\n\nWould you like to send those order details, or should I escalate the plant issue?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 448,
+  "cache_read_input_tokens": 1422,
+  "output_tokens": 791,
+  "output_tokens_details": {
+   "thinking_tokens": 377
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 448,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 791,
+    "cache_read_input_tokens": 1422,
+    "cache_creation_input_tokens": 448,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 448
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1872,
+ "output_tokens": 791,
+ "thinking_tokens": 377,
+ "latency_ms": 6360,
+ "wall_ms": 9204,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791006996.938575
+}

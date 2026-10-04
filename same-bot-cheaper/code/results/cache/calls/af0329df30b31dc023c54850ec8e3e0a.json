@@ -1,0 +1,50 @@
+{
+ "text": "No, pothos isn't safe for cats. It's on our not-pet-safe list, so we'd recommend keeping it away from them.\n\nIf you'd like a plant that's safe for pets, these are on our pet-safe list:\n- Calathea\n- Spider plant\n- Parlour palm\n- Boston fern\n- Peperomia\n\nIf your cat may have chewed or eaten any part of a pothos, contact a vet or an animal poison control service right away, before anything else.\n\nI don't have more detailed information on specific symptoms or treatment, so your vet is the best source for that.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 427,
+  "cache_read_input_tokens": 1063,
+  "output_tokens": 381,
+  "output_tokens_details": {
+   "thinking_tokens": 198
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 427,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 381,
+    "cache_read_input_tokens": 1063,
+    "cache_creation_input_tokens": 427,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 427
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1492,
+ "output_tokens": 381,
+ "thinking_tokens": 198,
+ "latency_ms": 3773,
+ "wall_ms": 7942,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004944.6437376
+}

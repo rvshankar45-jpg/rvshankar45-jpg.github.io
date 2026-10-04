@@ -1,0 +1,148 @@
+{
+ "items": [
+  {
+   "answer_id": "t120#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate and concise."
+  },
+  {
+   "answer_id": "t120#2",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct; 'email any day' is slightly loose but the reply timeframe is stated. Adds correct specialist hours."
+  },
+  {
+   "answer_id": "t121#1",
+   "correctness": 1,
+   "completeness": 2,
+   "policy": 2,
+   "tone": 3,
+   "score": 1,
+   "note": "Claims no info on specialist hours though KB gives 9am-5pm Mon-Fri. Implies they may help outside hours, which is misleading."
+  },
+  {
+   "answer_id": "t121#2",
+   "correctness": 2,
+   "completeness": 2,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Says it lacks the hours; KB has them. Doesn't tell the customer Saturday is not available."
+  },
+  {
+   "answer_id": "t122#1",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Reset password and escalate, both correct. Doesn't mention the 2-hour cancellation window, but is otherwise fine."
+  },
+  {
+   "answer_id": "t122#2",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Covers reset, escalation and cancel/intercept rules. Asks for last four card digits, which is allowed, and warns against sharing full details. The 'policy doesn't cover' line is slightly awkward."
+  },
+  {
+   "answer_id": "t123#1",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 2,
+   "tone": 4,
+   "score": 2,
+   "note": "The 18+ rule is right. Suggesting a parent order for them is an invented workaround not in the KB."
+  },
+  {
+   "answer_id": "t123#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, honest about the limits of policy, and offers escalation."
+  },
+  {
+   "answer_id": "t124#1",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and clear. Does not mention that a mixed order ships together."
+  },
+  {
+   "answer_id": "t124#2",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct, with a useful separate-order point. 'Delivery 2-8 business days' is a rough range, and non-living shipping times aren't clearly in the KB."
+  },
+  {
+   "answer_id": "t125#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate and honest about the timeframe not being stated."
+  },
+  {
+   "answer_id": "t125#2",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 4,
+   "score": 3,
+   "note": "Core facts are right. Omits that the purchaser must provide the order number, and the claim that it 'can look it up via your email' is an invented process. Calling the card 'store credit' is also loose."
+  },
+  {
+   "answer_id": "t126#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct on both points and offers escalation for the longer note."
+  },
+  {
+   "answer_id": "t126#2",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct facts. The claim that the note can be edited on the website is unsupported."
+  },
+  {
+   "answer_id": "t127#1",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, empathetic, and honest about gaps, with an escalation offer."
+  },
+  {
+   "answer_id": "t127#2",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 4,
+   "score": 3,
+   "note": "Core rule is right. Suggesting the customer contact the courier is outside the KB, and the escalation isn't well justified."
+  }
+ ]
+}

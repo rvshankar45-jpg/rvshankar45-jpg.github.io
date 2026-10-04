@@ -1,0 +1,50 @@
+{
+ "text": "Yes, if the claim is approved. The Plant Care Guarantee gives you **one** free replacement of the same plant, a bird of paradise. If it's out of stock, you'd get store credit instead.\n\n- **Approval isn't confirmed yet.** A Plant Care Specialist still has to review your photos, and I can't see your claim's status or promise the outcome. Losing almost half its leaves is beyond the one-third threshold we count as significant decline, which works in your favour.\n- **Your replacement has its own new 30-day guarantee.** If it fails too, it can be replaced once more, but that second replacement has no guarantee.\n- **Shipping:** live plants ship **Monday to Wednesday only**. I don't have a set dispatch time for guarantee replacements, so I won't guess one. The Support Lead or specialist can confirm it once the claim is approved.\n\nTo get this moving, please send your order number (it looks like LF-123456) here so the Support Lead can chase the review. I haven't forgotten the one-time store credit of up to **$15** for the delayed reply, if you'd like it.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1915,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 630,
+  "output_tokens_details": {
+   "thinking_tokens": 272
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1915,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 630,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 1915,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1915
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 5773,
+ "output_tokens": 630,
+ "thinking_tokens": 272,
+ "latency_ms": 6050,
+ "wall_ms": 9200,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005993.9281666
+}

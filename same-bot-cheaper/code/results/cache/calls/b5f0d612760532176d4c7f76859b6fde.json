@@ -1,0 +1,49 @@
+{
+ "text": "No, express shipping isn't available for island addresses. Island and remote addresses fall under Zone 3, which is Standard only and takes 5-8 business days. Standard costs $7.95, or is free on orders of $75 or more (after discounts, before tax).\n\nKeep in mind that live plants only ship Monday to Wednesday, and XL plants (usually over 4 ft) add a $20 handling fee.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2161,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 133,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2161,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 133,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2161,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2161
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2163,
+ "output_tokens": 133,
+ "thinking_tokens": 0,
+ "latency_ms": 2096,
+ "wall_ms": 5154,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790868737.2884912
+}

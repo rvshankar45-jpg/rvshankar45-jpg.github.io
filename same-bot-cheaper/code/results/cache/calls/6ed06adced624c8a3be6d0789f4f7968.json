@@ -1,0 +1,49 @@
+{
+ "text": "No, you can't pick which plant you get in your Plant Club box\u2014it's a surprise! \n\nHowever, you **can** list up to **3 plants you already own** in your account to help us avoid sending you duplicates.\n\nHere's how Plant Club works:\n- **Starter** ($29/month): small plant in a 4-inch pot\n- **Collector** ($49/month): medium or rare plant in a 6-inch pot\n- Your surprise plant is matched to your light level\n- Boxes ship in the first full week of each month\n\nIs there anything else about Plant Club I can help with?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1285,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 142,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1285,
+    "output_tokens": 142,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1285,
+ "output_tokens": 142,
+ "thinking_tokens": 0,
+ "latency_ms": 2247,
+ "wall_ms": 6553,
+ "overhead": 379,
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1790880536.9981284
+}

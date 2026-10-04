@@ -1,0 +1,50 @@
+{
+ "text": "Our policy says refunds go to the original payment method within **5 business days** of your return reaching our warehouse. Since you paid by instalments, that should mean the refund goes back to that same instalment arrangement. However, I don't have details on how instalment plans are adjusted after a refund (for example, whether it reduces your remaining payments or comes back as a lump sum), so I can't confirm that.\n\nIf you returned the pot for change of mind, a flat $6.95 return fee is deducted from the refund unless you're a Leafy Plus member. Would you like me to escalate to a Support Lead to confirm how the instalment refund will be handled?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 441,
+  "cache_read_input_tokens": 1272,
+  "output_tokens": 360,
+  "output_tokens_details": {
+   "thinking_tokens": 155
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 441,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 360,
+    "cache_read_input_tokens": 1272,
+    "cache_creation_input_tokens": 441,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 441
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1715,
+ "output_tokens": 360,
+ "thinking_tokens": 155,
+ "latency_ms": 3865,
+ "wall_ms": 6697,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005265.8720186
+}

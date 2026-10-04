@@ -1,0 +1,49 @@
+{
+ "text": "Thank you so much for checking and for sending those details! I'm sorry for the hassle, and I really appreciate you making this easy to sort out. \ud83c\udf3f\n\nSince both $64.50 charges have fully posted, this is handled as a duplicate charge. Here's what happens next:\n\n- Your details are **order LF-381204** and **card ending 7712**.\n- Once the duplicate is confirmed, the extra $64.50 will be refunded within **3 business days** of that confirmation.\n- The refund goes back to the **original card** used for the order.\n- After it's issued, the money should reach you in about **5-10 business days** for a card (or **3-5 business days** if you paid with a digital wallet), depending on your bank.\n\nIf you'd prefer, you can take the refund as **Leafy store credit** instead. It's issued instantly and never expires. Just let me know if you'd like that option.\n\nOne note: I can't see your order or confirm the duplicate myself in this chat. If the confirmation hasn't come through, or you don't see the refund within those timeframes, just reach out and we'll look into it right away.\n\nIs there anything else I can help with, such as plant care tips for your new green friends? Thanks again for contacting Leafy! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 913,
+  "cache_read_input_tokens": 2027,
+  "output_tokens": 395,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 913,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 395,
+    "cache_read_input_tokens": 2027,
+    "cache_creation_input_tokens": 913,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 913
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2942,
+ "output_tokens": 395,
+ "thinking_tokens": 0,
+ "latency_ms": 4137,
+ "wall_ms": 7531,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880166.7778165
+}

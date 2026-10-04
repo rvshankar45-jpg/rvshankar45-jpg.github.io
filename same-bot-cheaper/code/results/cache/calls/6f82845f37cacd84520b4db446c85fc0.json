@@ -1,0 +1,50 @@
+{
+ "text": "Since today is the 22nd, which is before the 25th, upgrading to Collector now will affect your **next box**. You'll be charged the Collector price of $49 on the 25th, and that box ships in the first full week of the following month.\n\nYou can make the change under \"Account\" > \"Subscriptions\". There's no fee for changing plans.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 570,
+  "cache_read_input_tokens": 1797,
+  "output_tokens": 105,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 570,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 105,
+    "cache_read_input_tokens": 1797,
+    "cache_creation_input_tokens": 570,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 570
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2369,
+ "output_tokens": 105,
+ "thinking_tokens": 0,
+ "latency_ms": 2463,
+ "wall_ms": 5599,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005320.8482182
+}

@@ -1,0 +1,49 @@
+{
+ "text": "Great question! Unfortunately, there isn't a way to pay extra for faster delivery to your address. Express shipping ($14.95) isn't available in Zone 3, which covers addresses over 1,000 miles from our nearest greenhouse, so Standard shipping (5\u20138 business days) is the only option.\n\nA few things that might help:\n\n- **Order early in the week.** Live plants ship Monday\u2013Wednesday only, and orders placed after 12 noon Wednesday ship the following Monday. Ordering Monday or Tuesday gets your plants on their way sooner.\n- **Watch for weather holds.** If transit forecasts are below 35\u00b0F or above 95\u00b0F, live plants may be held up to 7 days, and we'll email you. In winter, you can add a free heat pack at checkout.\n- **Standard shipping is free on orders of $75+** (after discounts, before tax), so that could save you the $7.95 fee.\n\nI know waiting can be hard when you're excited for a new plant! Is there anything else I can help you with? \ud83c\udf3f",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 734,
+  "cache_read_input_tokens": 2187,
+  "output_tokens": 337,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 734,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 337,
+    "cache_read_input_tokens": 2187,
+    "cache_creation_input_tokens": 734,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 734
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2923,
+ "output_tokens": 337,
+ "thinking_tokens": 0,
+ "latency_ms": 3395,
+ "wall_ms": 6432,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880168.1147976
+}

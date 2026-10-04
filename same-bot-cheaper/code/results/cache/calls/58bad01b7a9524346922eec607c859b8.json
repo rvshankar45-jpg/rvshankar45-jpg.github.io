@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry your calathea has had such a rough start. Here's where you stand on each part.\n\n**The plant (you're covered if the claim is approved)**\n- Your plant is 10 days past delivery, well inside the 30-day Plant Care Guarantee (90 days if you're a Leafy Plus member).\n- Losing about half its leaves is more than the \"over a third\" that counts as significant decline.\n- To claim, go to \"My Orders\" and submit at least two photos: one of the whole plant and one close-up. A Plant Care Specialist will review it within 2 business days. You don't need to send the plant back.\n- If approved, you get one free replacement of the same plant, or store credit if it's out of stock. The replacement has its own new 30-day guarantee.\n- Check one thing first. Repotting into non-Leafy soil in the first 14 days isn't covered, and neither are pests introduced after delivery or deliberate neglect. If you repotted, tell the specialist, as it may affect the outcome.\n\n**The cracked pot (outside the standard window)**\n- Damaged-on-arrival reports must be made within 48 hours of delivery, so that window has passed. The policy doesn't say what can be done for a late pot report, so I can't promise a replacement or refund.\n- I can escalate this to a Support Lead to see whether an exception is possible. Just let me know.\n\n**Care tips in the meantime**\n- Plant Care Specialists give free advice by chat, 9am-5pm Mon-Fri, or by email.\n- Overwatering is the most common cause of early problems, so water only when the top inch of soil is dry.\n\nWould you like me to escalate the pot issue?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 461,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 1222,
+  "output_tokens_details": {
+   "thinking_tokens": 681
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 461,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1222,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 461,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 461
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4319,
+ "output_tokens": 1222,
+ "thinking_tokens": 681,
+ "latency_ms": 10084,
+ "wall_ms": 12705,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005653.2721293
+}

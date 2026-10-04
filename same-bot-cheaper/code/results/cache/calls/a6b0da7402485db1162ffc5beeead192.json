@@ -1,0 +1,49 @@
+{
+ "text": "Hi there! \ud83d\udc4b Thanks for reaching out to Leafy!\n\n**Express shipping costs $14.95**, no matter your order size or location.\n\nA couple of things to keep in mind:\n- Express is **not available for XL plants** (usually over 4 ft) \u2014 those ship Standard only\n- Express is **never free**, even for Leafy Plus members\n- Delivery times vary by zone:\n  - **Zone 1** (under 300 miles): next business day\n  - **Zone 2** (300\u20131,000 miles): 2 business days\n  - **Zone 3** (over 1,000 miles, remote/island): Express not available\n\nIf you have any other questions about shipping or your order, I'm here to help! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1809,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 183,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1809,
+    "output_tokens": 183,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1809,
+ "output_tokens": 183,
+ "thinking_tokens": 0,
+ "latency_ms": 3361,
+ "wall_ms": 6851,
+ "overhead": 379,
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1790879761.822582
+}

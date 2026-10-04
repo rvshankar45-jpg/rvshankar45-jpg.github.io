@@ -1,0 +1,50 @@
+{
+ "text": "I can help with all three issues. Here's what I need to know:\n\n1. **Yellow leaves:** How long ago did it arrive? If within **48 hours**, report it as Damaged on Arrival with photos of the leaves and box\u2014we'll replace or refund it free. After 48 hours, it goes through our Plant Care Guarantee instead.\n\n2. **Duplicate charge:** First, check your bank statement\u2014one might be a pending authorisation (which drops off in **3\u20137 business days**). If both charges have posted, please provide your **order number and the last four digits of the card**, and we'll refund the duplicate within **3 business days**.\n\n3. **Refund to a different card:** Policy doesn't allow refunds to a different card, even if the original is closed. However, you can take the refund as **Leafy store credit** (issued instantly, never expires) or it will go back to your original card\u2014your bank usually passes it to a replacement card automatically.\n\nWhich option works best for you?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1407,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 234,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1407,
+    "output_tokens": 234,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1407,
+ "output_tokens": 234,
+ "thinking_tokens": 0,
+ "latency_ms": 3147,
+ "wall_ms": 6026,
+ "overhead": 379,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791006851.1214132
+}

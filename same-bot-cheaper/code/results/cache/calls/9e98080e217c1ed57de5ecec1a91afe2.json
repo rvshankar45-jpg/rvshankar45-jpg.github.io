@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thanks for contacting Leafy! \ud83c\udf3f\n\nI'm sorry to say that I can't change the email on your account over chat. It's something you'll need to do yourself after logging in, but it's quick to do.\n\nHere's what to do:\n- Log in to your Leafy account.\n- Update the email address in your account settings.\n\nIf you run into trouble logging in, or you think someone else may have accessed your account, please reset your password right away and let me know. I'll escalate it to a Support Lead so they can look into it.\n\nIs there anything else I can help with? I'm happy to help any time. \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2371,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 191,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2371,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 191,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2371,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2371
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2373,
+ "output_tokens": 191,
+ "thinking_tokens": 0,
+ "latency_ms": 3441,
+ "wall_ms": 6478,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879895.7529593
+}

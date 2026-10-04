@@ -1,0 +1,50 @@
+{
+ "text": "Our information only covers pets: spider plants are on our pet-safe list. We don't have guidance on children, so I can't tell you it's safe for a toddler to chew, and I'd suggest keeping it out of reach. If your toddler has already eaten some, contact a doctor or poison control first. I can also pass your question to a Support Lead if you'd like.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 451,
+  "cache_read_input_tokens": 1104,
+  "output_tokens": 262,
+  "output_tokens_details": {
+   "thinking_tokens": 147
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 451,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 262,
+    "cache_read_input_tokens": 1104,
+    "cache_creation_input_tokens": 451,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 451
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1557,
+ "output_tokens": 262,
+ "thinking_tokens": 147,
+ "latency_ms": 3142,
+ "wall_ms": 6146,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791101266.9027867
+}

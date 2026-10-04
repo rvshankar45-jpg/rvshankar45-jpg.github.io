@@ -1,0 +1,49 @@
+{
+ "text": "Thanks for asking, and I'm glad you're checking before you order! \ud83c\udf3f\n\n**No, the $20 XL handling fee would not go away on orders over $75.** The $75+ free shipping offer only covers the Standard shipping cost ($7.95). The XL handling fee is a separate charge.\n\nHere's how it would work on an order of $75 or more with an XL plant:\n\n- **Standard shipping:** $0 (free, since the order is $75+ after discounts and before tax)\n- **XL handling fee:** $20 (still applies)\n- **Delivery time:** 5-8 business days for your Zone 3 address\n\nI'm sorry I can't offer a way around that fee. If you'd like to see exactly how it adds up, the total at checkout will show everything before you pay.\n\nIs there anything else I can help with as you pick your plant? I'm always happy to help! \ud83c\udf3f",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1336,
+  "cache_read_input_tokens": 2037,
+  "output_tokens": 282,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1336,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 282,
+    "cache_read_input_tokens": 2037,
+    "cache_creation_input_tokens": 1336,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1336
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 3375,
+ "output_tokens": 282,
+ "thinking_tokens": 0,
+ "latency_ms": 3085,
+ "wall_ms": 5979,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880331.7111526
+}

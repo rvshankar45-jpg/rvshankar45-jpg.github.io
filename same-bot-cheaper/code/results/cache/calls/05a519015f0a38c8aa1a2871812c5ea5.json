@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry about the mix-up. Once an order has shipped, the address can't be changed and couriers don't accept redirection requests from Leafy, so I can't redirect this one to your dad's place. Express also isn't available for island addresses (Zone 3), so a new order to him would ship Standard only, in 5-8 business days. Live plants ship Monday to Wednesday only, and standard shipping is $7.95, or free on orders of $75+.\n\nThe policy I have doesn't say whether a shipped order can be returned or refunded after a wrong-address error. If you'd like, I can escalate to a Support Lead to look at options for the original order. Please send me the order number (LF-plus six digits).",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2215,
+  "output_tokens": 605,
+  "output_tokens_details": {
+   "thinking_tokens": 379
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 605,
+    "cache_read_input_tokens": 2215,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2217,
+ "output_tokens": 605,
+ "thinking_tokens": 379,
+ "latency_ms": 5895,
+ "wall_ms": 12246,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791007332.1232162
+}

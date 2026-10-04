@@ -1,0 +1,50 @@
+{
+ "text": "Unfortunately, promo codes can't be added after an order is placed. If you're still within 2 hours of ordering, you can cancel the order for free from \"My Orders\" and place a new one with your code. After 2 hours the order is in the packing queue and can't be changed online. Support can try to intercept it before it ships, but that isn't guaranteed.\n\nIs it within the 2-hour window, or would you like me to escalate to see if support can intercept it?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 438,
+  "cache_read_input_tokens": 1738,
+  "output_tokens": 308,
+  "output_tokens_details": {
+   "thinking_tokens": 164
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 438,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 308,
+    "cache_read_input_tokens": 1738,
+    "cache_creation_input_tokens": 438,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 438
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2178,
+ "output_tokens": 308,
+ "thinking_tokens": 164,
+ "latency_ms": 3250,
+ "wall_ms": 6286,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005172.9026258
+}

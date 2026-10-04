@@ -1,0 +1,50 @@
+{
+ "text": "I understand that's frustrating. Unfortunately, **no**\u2014here's why:\n\nUnder our Plant Care Guarantee, you get **one free replacement**. If that replacement plant dies, it has **no guarantee**, so we can't send another one.\n\nHowever, I'd like to help. A few questions:\n- **Did the first plant die within 30 days of delivery**, and did you claim it through \"My Orders\" with photos?\n- **What happened to the replacement?** (e.g., same symptoms, different issue, environmental factors?)\n\nIf something went wrong with how we handled the first claim or if there's a pattern here, I can escalate this to a Support Lead to review your situation.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1347,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 156,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1347,
+    "output_tokens": 156,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1347,
+ "output_tokens": 156,
+ "thinking_tokens": 0,
+ "latency_ms": 2646,
+ "wall_ms": 5610,
+ "overhead": 379,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791006764.7087379
+}

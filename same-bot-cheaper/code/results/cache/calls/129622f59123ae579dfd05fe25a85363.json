@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! \ud83c\udf3f It's great that you're thinking about your cat's safety before bringing a plant home.\n\nUnfortunately, **pothos is not pet-safe**, so it isn't a good choice for a home with a cat.\n\nIf you'd like a cat-friendly alternative, these Leafy plants are listed as pet-safe:\n- Calathea\n- Spider plant\n- Parlour palm\n- Boston fern\n- Peperomia\n\nIf you already have a pothos at home and your cat may have nibbled on it, please contact your vet or local poison control **right away**. Don't wait for symptoms to appear. Once you've done that, let me know and I'll escalate this to a Support Lead.\n\nYou can also chat with one of our Plant Care Specialists for free advice on choosing the right plant (Mon-Fri, 9am-5pm your local time), whether or not you're a customer.\n\nIs there anything else I can help you with? We're always happy to hear from you! \ud83e\udeb4",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 427,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 326,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 427,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 326,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 427,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 427
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4767,
+ "output_tokens": 326,
+ "thinking_tokens": 0,
+ "latency_ms": 3368,
+ "wall_ms": 6872,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879506.543907
+}

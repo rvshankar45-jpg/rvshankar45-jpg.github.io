@@ -1,0 +1,184 @@
+{
+ "items": [
+  {
+   "answer_id": "c07.t1#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, safety advice included."
+  },
+  {
+   "answer_id": "c07.t1#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and honest about limits."
+  },
+  {
+   "answer_id": "c07.t1#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct; offers escalation conditionally. Slightly chatty."
+  },
+  {
+   "answer_id": "c07.t1#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, concise, specialist hours right."
+  },
+  {
+   "answer_id": "c07.t1#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct; says escalate after they call, slightly delayed but fine. Wordy."
+  },
+  {
+   "answer_id": "c07.t2#1",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Vet first then escalates. Quotes email and promises follow-up by email; a bit long and symptom list is outside the KB."
+  },
+  {
+   "answer_id": "c07.t2#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Vet first, escalates, no invented info."
+  },
+  {
+   "answer_id": "c07.t2#3",
+   "correctness": 5,
+   "completeness": 3,
+   "policy": 2,
+   "tone": 5,
+   "score": 2,
+   "note": "Safety advice good but fails to escalate, which is required for a safety issue."
+  },
+  {
+   "answer_id": "c07.t2#4",
+   "correctness": 5,
+   "completeness": 3,
+   "policy": 2,
+   "tone": 5,
+   "score": 2,
+   "note": "No escalation to Support Lead despite safety issue."
+  },
+  {
+   "answer_id": "c07.t2#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Vet first, escalates, honest about timing. Somewhat long."
+  },
+  {
+   "answer_id": "c07.t3#1",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 4,
+   "score": 3,
+   "note": "Right list and vet advice, but never confirms escalation was done earlier; offers to escalate only vaguely."
+  },
+  {
+   "answer_id": "c07.t3#2",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct list, vet advice, escalation noted. Adds extra unrequested shipping details."
+  },
+  {
+   "answer_id": "c07.t3#3",
+   "correctness": 1,
+   "completeness": 2,
+   "policy": 2,
+   "tone": 3,
+   "score": 1,
+   "note": "Wrongly retracts the correct pet-safe list; misleading and unhelpful."
+  },
+  {
+   "answer_id": "c07.t3#4",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct list and vet advice. Adds invented descriptors and an unrelated guarantee section; wordy."
+  },
+  {
+   "answer_id": "c07.t3#5",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct, concise, vet advice. Doesn't mention existing escalation."
+  },
+  {
+   "answer_id": "c08.t1#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "All facts correct."
+  },
+  {
+   "answer_id": "c08.t1#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "All facts correct and clearly formatted."
+  },
+  {
+   "answer_id": "c08.t1#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, includes refund timing and store credit option."
+  },
+  {
+   "answer_id": "c08.t1#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct but longer than needed."
+  },
+  {
+   "answer_id": "c08.t1#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and complete."
+  }
+ ]
+}

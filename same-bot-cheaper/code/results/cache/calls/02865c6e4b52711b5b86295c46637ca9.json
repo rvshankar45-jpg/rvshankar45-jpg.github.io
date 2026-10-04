@@ -1,0 +1,50 @@
+{
+ "text": "Thanks, that's everything I need: order LF-381204, card ending 7712.\n\n**Next steps**\n- Once the duplicate is confirmed, the refund is issued within **3 business days** of that confirmation.\n- It goes back to the original card (ending 7712). After it's issued, cards normally take **5-10 business days** to show the money, depending on your bank.\n- If you'd rather have it as **Leafy store credit**, that's instant and never expires. Just let me know.\n\n**One thing to check:** if the order shipped in more than one parcel, \"My Orders\" will show multiple shipments. Each parcel can carry its own charge, and that would be expected rather than a duplicate. If you see only one shipment, it's a duplicate.\n\nIf you see anything that looks like unauthorised activity, tell me and I'll escalate to a Support Lead.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 831,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 762,
+  "output_tokens_details": {
+   "thinking_tokens": 489
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 831,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 762,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 831,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 831
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4689,
+ "output_tokens": 762,
+ "thinking_tokens": 489,
+ "latency_ms": 7427,
+ "wall_ms": 9888,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005874.5369017
+}

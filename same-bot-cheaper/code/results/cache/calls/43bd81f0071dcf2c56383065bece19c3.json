@@ -1,0 +1,50 @@
+{
+ "text": "Yes, a planter is a non-living item, so it can be returned within 30 days of delivery. At 3 weeks you're still inside that window, as long as it's unused and in its original packaging.\n\nAs a non-Plus member with a change-of-mind return, a flat $6.95 fee is deducted from your refund. If the planter was $30, you'd get back $23.05 to your original payment method, within 5 business days of the return reaching our warehouse. Original shipping isn't refunded for a change-of-mind return.\n\nTo start, go to \"My Orders\" and request the return. A prepaid label will be emailed to you, and it expires after 7 days, so drop the parcel off within that time.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1725,
+  "output_tokens": 217,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 217,
+    "cache_read_input_tokens": 1725,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1727,
+ "output_tokens": 217,
+ "thinking_tokens": 0,
+ "latency_ms": 2609,
+ "wall_ms": 5924,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791007220.9897115
+}

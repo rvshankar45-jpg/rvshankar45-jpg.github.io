@@ -1,0 +1,112 @@
+# Support Copilot Token Lab - all tunables live here. Nothing is hardcoded in src/.
+
+# cli = Claude Code headless (`claude -p`, subscription; harness overhead calibrated per run and subtracted)
+# api = Anthropic API key (exact usage, no overhead). Same code path either way.
+backend: cli
+
+models:
+  cheap: claude-haiku-4-5-20251001
+  strong: claude-sonnet-5-5
+  judge: claude-sonnet-5-5        # judge = the strong model
+  # Effort for Sonnet 5.5 calls (low|medium|high|xhigh|max). API default is "high".
+  judge_effort: medium
+
+# USD per million tokens. Verified against
+# https://platform.claude.com/docs/en/about-claude/pricing on 2026-09-30.
+# cache_write = 5-minute cache write (1.25x input); cache_read = cache hit (0.1x input).
+pricing_checked_on: "2026-09-30"
+pricing:
+  claude-sonnet-5-5:
+    input: 2.00
+    output: 10.00
+    cache_write: 2.50
+    cache_read: 0.20
+  claude-haiku-4-5-20251001:
+    input: 1.00
+    output: 5.00
+    cache_write: 1.25
+    cache_read: 0.10
+
+router:
+  laya_model: convaiinnovations/laya
+  threshold: 0.5                   # P(complex) >= threshold -> strong model
+  sweep: {start: 0.30, stop: 0.80, step: 0.05}
+
+paths:
+  kb: data/kb.md
+  queries: data/test_queries.csv
+  conversations: data/conversations.json
+  results: results
+  qa_reports: qa/reports
+
+qa:
+  near_duplicate_cosine: 0.95
+  kb_token_range: [3000, 4000]
+  label_target: {simple: 60, complex: 40, tolerance: 5}
+  embedding_model: sentence-transformers/all-MiniLM-L6-v2
+
+# Prompt caching rules (https://platform.claude.com/docs/en/build-with-claude/prompt-caching, checked 2026-09-30).
+# On the cli backend Claude Code caches on its own, so caching is priced by these rules
+# (cache_source=modeled); on the api backend the logged numbers are the real ones.
+cache:
+  ttl_seconds: 300
+  min_tokens:
+    claude-sonnet-5-5: 512
+    claude-haiku-4-5-20251001: 4096
+
+generation:
+  thinking: false              # thinking off on every answer call (decided at checkpoint 1)
+  max_tokens_uncapped: 4000    # "no output cap" still needs a ceiling; logged as capped if ever hit
+  max_tokens_capped: 1000      # output_cap flag: a safety net above natural concise answers (dry run: 400 truncated 4/18 calls, all multi-issue answers that needed 486-798 tokens)
+  # The CLI cannot enforce a hard cap: on hitting it, Claude Code silently asks the model to continue
+  # (up to 3x) and returns only the last piece. So cli calls always run with this ceiling and the
+  # variant's max_tokens is applied afterwards exactly as the API would (output = cap, text cut).
+  cli_output_ceiling: 4000
+  concise_instruction: "Be concise: answer in 2-4 sentences unless the customer's situation genuinely needs more."
+
+retrieval:
+  top_k: 3                     # chunks = kb.md split by '## ' heading
+  method: hybrid               # bm25 | hybrid (BM25 + MiniLM, reciprocal rank fusion)
+  rrf_k: 60
+
+history:
+  keep_last_turns: 2           # trim_history: last 2 turns verbatim + running summary by the cheap model
+  summary_max_words: 60
+
+response_cache:
+  semantic_cosine: 0.92
+  applies_to: first_turn_only  # context-dependent conversation turns are never served from cache
+
+# Each variant turns on one more optimization than the previous (clean waterfall).
+flags: [route, retrieve, trim_history, prompt_cache, tight_prompt, output_cap, response_cache]
+variants:
+  v1_naive:        []
+  plus_route:      [route]
+  plus_retrieve:   [route, retrieve]
+  plus_trim:       [route, retrieve, trim_history]
+  plus_tight_cache: [route, retrieve, trim_history, tight_prompt, prompt_cache]
+  v2_full:         [route, retrieve, trim_history, tight_prompt, prompt_cache, output_cap, response_cache]
+# Extra variant added at checkpoint 2 (not part of the waterfall): retrieve vs cache. Full KB in a
+# cacheable tight prompt instead of retrieval - is a cached KB cheaper and better than retrieving 3 sections?
+extra_variants:
+  cache_full_kb:   [route, tight_prompt, prompt_cache]
+
+laya:
+  question:
+    instructions: "Can a small, fast model answer this customer message well, using the store's policy document?"
+    criteria:
+      simple: "yes - a single-fact lookup such as a price, a time window, or a yes/no policy fact"
+      complex: "no - it needs several policy facts combined, rules applied to the customer's specific dates or amounts, a policy edge case, several issues at once, or an upset customer who needs careful handling or escalation"
+
+# Phase 5c (added after checkpoint 2): thinking effort within Sonnet vs routing between models.
+# Same fixed setup as 5b, thinking ON at each effort level. Thinking tokens count against
+# max_tokens, so these calls get a 4000-token ceiling instead of the 1000 cap (only difference).
+effort_eval:
+  levels: [low, medium, high]
+  sample: {simple: 30, complex: 20, seed: 13}
+  max_tokens: 4000
+
+run:
+  workers: 2                   # 2 parallel CLI calls keeps peak RAM low on this laptop
+  max_calls_per_run: 400       # hard stop so a bug can't burn the weekly allowance (dry runs, app)
+  max_calls_eval: 1100         # hard stop for the full eval (projected ~870 new calls)

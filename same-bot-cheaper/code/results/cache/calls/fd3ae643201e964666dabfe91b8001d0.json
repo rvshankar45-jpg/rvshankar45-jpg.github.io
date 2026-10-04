@@ -1,0 +1,50 @@
+{
+ "text": "Yes, exactly. Since it's a live plant, the replacement will ship **Monday to Wednesday only**. \n\nSo once the investigation confirms the parcel is lost (up to **5 business days**), we'll send the replacement on the next available plant shipping day\u2014which could be as soon as Monday if the investigation wraps up by then, or the following Monday if it takes longer.\n\nFrom there, delivery depends on your zone:\n- **Zone 1** (under 300 miles): 2\u20133 business days\n- **Zone 2** (300\u20131,000 miles): 3\u20135 business days\n- **Zone 3** (over 1,000 miles, remote/island): 5\u20138 business days\n\nTo get started, I need your **order number** (LF- followed by six digits). Please don't send any card details.\n\nAnd just to confirm: would you like the **$15 goodwill store credit** for the delay?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 3,
+  "cache_creation_input_tokens": 4098,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 219,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4098,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 3,
+    "output_tokens": 219,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 4098,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4098
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4101,
+ "output_tokens": 219,
+ "thinking_tokens": 0,
+ "latency_ms": 2771,
+ "wall_ms": 6256,
+ "overhead": 379,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791005978.1999757
+}

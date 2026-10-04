@@ -1,0 +1,50 @@
+{
+ "text": "Tracking is emailed when your order ships and can take up to **24 hours** to update after that. If it still shows nothing after that, there's no further action needed yet, but if it hasn't moved for **4 business days**, contact us and we'll open a courier investigation (up to **5 business days**). If the package is found to be lost, you can choose a free replacement or a full refund.\n\nOne thing to note: live plants only ship Monday to Wednesday, so if you ordered after 12 noon Wednesday, your order wouldn't ship until the following Monday. Weather holds can also delay plants by up to 7 days, and you'd be emailed if that applied.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1940,
+  "output_tokens": 207,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 207,
+    "cache_read_input_tokens": 1940,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1942,
+ "output_tokens": 207,
+ "thinking_tokens": 0,
+ "latency_ms": 2472,
+ "wall_ms": 5440,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791007225.7172165
+}

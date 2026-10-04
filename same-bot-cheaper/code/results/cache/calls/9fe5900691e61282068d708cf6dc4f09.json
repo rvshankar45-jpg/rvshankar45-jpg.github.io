@@ -1,0 +1,50 @@
+{
+ "text": "Likely yes. If your claim is approved, policy gives you one free replacement of the same plant, or store credit if it's out of stock. Losing about half its leaves is more than the one-third threshold for significant decline, so it fits the criteria. A Plant Care Specialist still has to confirm it from your photos, so I can't promise the outcome. Claims aren't covered if the plant was repotted into non-Leafy soil in the first 14 days or if pests were introduced after delivery.\n\nThe replacement would come with its own new 30-day guarantee, and you wouldn't need to send the dead plant back. Claim reviews normally take 2 business days, and I'm flagging yours to the Support Lead so it gets looked at promptly. Please send your order number so I can include it.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1083,
+  "cache_read_input_tokens": 1550,
+  "output_tokens": 395,
+  "output_tokens_details": {
+   "thinking_tokens": 148
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1083,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 395,
+    "cache_read_input_tokens": 1550,
+    "cache_creation_input_tokens": 1083,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1083
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2635,
+ "output_tokens": 395,
+ "thinking_tokens": 148,
+ "latency_ms": 4388,
+ "wall_ms": 7028,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005453.5550146
+}

@@ -1,0 +1,50 @@
+{
+ "text": "Two charges for an order that came in two boxes is most likely not a mistake. We charge your card when each parcel ships, so an order sent in several parcels can show one charge per parcel.\n\nTo confirm it's not a duplicate:\n- Check that the two charges add up to your order total, and that each roughly matches the items in one box.\n- Check whether either charge is marked pending. Pending items are authorisations, not final charges.\n\nIf both charges have posted and they look like a duplicate (for example, you got one box but were charged twice for the full amount), reply with your **order number** and the **last four digits** of the card. Once we confirm the duplicate, it will be refunded within **3 business days**. Please don't send a full card number, security code or password.\n\nIf you'd like, I can also escalate this for a closer look.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2043,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 412,
+  "output_tokens_details": {
+   "thinking_tokens": 161
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2043,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 412,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2043,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2043
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2045,
+ "output_tokens": 412,
+ "thinking_tokens": 161,
+ "latency_ms": 4381,
+ "wall_ms": 7765,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004740.729206
+}

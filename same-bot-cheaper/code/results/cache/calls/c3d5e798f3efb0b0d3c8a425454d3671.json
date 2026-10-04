@@ -1,0 +1,49 @@
+{
+ "text": "I'm so glad to hear he seems okay! \ud83c\udf3f That must be a relief.\n\nEven though he seems fine, please still let your vet or poison control know what happened. Some signs can show up later, so they can tell you what to watch for. If he starts vomiting, drooling, or seems unwell, contact them straight away. The Support Lead escalation I raised is still in place.\n\nFor cat-friendly plants, these Leafy plants are listed as **pet-safe**:\n- **Calathea**: known for its patterned, colorful leaves\n- **Spider plant**: a popular choice for beginners\n- **Parlour palm**: a classic, leafy look\n- **Boston fern**: lush and feathery\n- **Peperomia**: compact, with lots of variety\n\nA few things that may help:\n- **Plant Care Guarantee:** every live plant comes with a 30-day guarantee from delivery (90 days for Leafy Plus members).\n- **New plant care:** keep new plants out of direct sun for the first week, don't repot for 2-3 weeks, and water only when the top inch of soil is dry.\n- **Your pothos:** it isn't pet-safe, so you may want to keep it well out of your cat's reach. I can't say whether it can be returned, since live plants can't be returned for change of mind. If you'd like to discuss options, I can raise it with the Support Lead.\n\nIf you'd like help choosing between these based on your home's light levels, our Plant Care Specialists are available by chat Mon-Fri, 9am-5pm your local time, and their advice is free.\n\nIs there anything else I can help with? Please give your cat a gentle head scratch from us. \ud83e\udeb4",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1242,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 539,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1242,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 539,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 1242,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1242
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 5582,
+ "output_tokens": 539,
+ "thinking_tokens": 0,
+ "latency_ms": 6378,
+ "wall_ms": 8850,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879522.7700214
+}

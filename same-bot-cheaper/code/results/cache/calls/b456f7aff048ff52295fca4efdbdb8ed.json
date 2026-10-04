@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry, that's not the experience we aim for. Claims should be reviewed by a Plant Care Specialist within **2 business days**, so a week with no reply is well past that.\n\n**What I'd suggest**\n1. **Email help@leafy.example** with your order number (it looks like LF-123456) and a note that your Plant Care Guarantee claim from last week hasn't been reviewed. Email is answered within **1 business day**. Specialists aren't on chat today (Saturday), so email is the quickest route to someone who can check the claim.\n2. **Don't submit a duplicate claim.** Your original claim was filed within your guarantee window, and a second one could confuse things. Please also keep your photos.\n3. **Goodwill credit:** for the delayed reply, I can offer a one-time store credit of up to **$15**. It's issued as store credit, never cash. Let me know if you'd like it.\n\nI can't see the status of your claim from this chat, so I can't confirm the outcome. If you'd like, I can also pass this to a Support Lead to chase the review. Just send me your order number here.\n\nMeanwhile, keep the plant out of direct sun and only water when the top inch of soil is dry, as overwatering is the most common cause of early leaf loss.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1067,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 932,
+  "output_tokens_details": {
+   "thinking_tokens": 523
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1067,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 932,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 1067,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1067
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4925,
+ "output_tokens": 932,
+ "thinking_tokens": 523,
+ "latency_ms": 8803,
+ "wall_ms": 11531,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005976.0487204
+}

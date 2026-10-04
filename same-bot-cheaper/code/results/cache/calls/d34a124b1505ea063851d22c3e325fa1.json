@@ -1,0 +1,49 @@
+{
+ "text": "I'm so glad he seems okay! \ud83d\udc9a Please still keep your vet or poison control in the loop, even if he's acting normally. They can tell you what to watch for over the next few hours.\n\nI need to correct something from earlier. I listed some plants as pet-safe, but I can't confirm that list from the information I have, so please don't treat it as verified. I'd rather be upfront than risk pointing you to the wrong plant.\n\nTo find a plant that's safe for him:\n- **Ask a Plant Care Specialist.** They offer free care advice by chat or email and can confirm which plants are safe around cats. This is the best way to be sure.\n- **Check with your vet.** They can tell you which plants are safe for your cat and which to avoid.\n- **Double-check any plant before buying.** Confirm its pet safety with a Specialist or your vet first, rather than relying on a name alone.\n\nThe Support Lead I escalated to will also follow up at rvshankar45@gmail.com, and you're welcome to ask them about this too.\n\nThank you for caring so much about your kitty. Please reach out any time, and happy planting! \ud83c\udf3f",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1122,
+  "cache_read_input_tokens": 1803,
+  "output_tokens": 881,
+  "output_tokens_details": {
+   "thinking_tokens": 518
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1122,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 881,
+    "cache_read_input_tokens": 1803,
+    "cache_creation_input_tokens": 1122,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1122
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2927,
+ "output_tokens": 881,
+ "thinking_tokens": 518,
+ "latency_ms": 8825,
+ "wall_ms": 11437,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880229.5475836
+}

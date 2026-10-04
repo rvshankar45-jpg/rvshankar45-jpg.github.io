@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! \ud83c\udf3f\n\nAccount deletion takes **up to 30 days** to complete.\n\nHere's how to start it:\n- Log in and go to **Account > Privacy**\n- Choose the delete option\n\nA couple of things to know before you go ahead:\n- Deleting your account **cancels any subscriptions** you have, such as Plant Club.\n- If you'd like a copy of your data first, you can download it from the same **Account > Privacy** section.\n\nIf you have an active Plant Club box that's already been billed, note that cancelling doesn't refund an already-billed box, and it is still sent. If that applies to you, you may want to check your subscription before deleting.\n\nIf anything about your account feels off or you have questions along the way, just reach out. Our chat is open 8am-8pm Mon-Sat, or you can email help@leafy.example (we reply within 1 business day).\n\nTake care, and we hope to see you again whenever you're ready for more green friends! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 425,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 320,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 425,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 320,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 425,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 425
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4765,
+ "output_tokens": 320,
+ "thinking_tokens": 0,
+ "latency_ms": 3406,
+ "wall_ms": 6302,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790868640.6477458
+}

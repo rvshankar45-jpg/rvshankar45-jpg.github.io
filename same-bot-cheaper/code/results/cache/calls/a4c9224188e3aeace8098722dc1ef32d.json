@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry this happened, that's stressful. Here's what to do:\n\n**1. Reset your Leafy password right now.** Do this immediately so the other person can't get back in. If you use that password anywhere else, change it there too.\n\n**2. I'm escalating this to a Support Lead.** Suspected account access by someone else and a possible fraudulent charge both require a human Support Lead, so I'm passing your case to one. To help them, please reply with:\n- The order number (it looks like LF-plus six digits) for the order you didn't place, if you can see it in \"My Orders\"\n- The last four digits of the card used\n\nPlease don't send a full card number, security code or password. We never need those.\n\n**3. Order status matters.**\n- If the order is within **2 hours** of being placed, you may be able to cancel it free from \"My Orders\".\n- After that, support can try to intercept it before it ships, but that isn't guaranteed. Shipped orders can't be cancelled and the address can't be changed.\n- Cards are charged when the order ships. If it hasn't shipped yet, the charge may only be a pending authorisation. If a cancelled order leaves one, it drops off in **3-7 business days** depending on your bank, and Leafy can't release it faster.\n\n**4. Contact your bank or card issuer.** I'd recommend telling them about the unauthorised use of your card. Our policies don't cover what they can do, but they can advise on protecting the card.\n\nThe Support Lead will take it from here, including the charge dispute. If you'd like, you can also email help@leafy.example, which is answered within **1 business day**. Chat is open 8am-8pm Mon-Sat in your local time.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 442,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 536,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 442,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 536,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 442,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 442
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4300,
+ "output_tokens": 536,
+ "thinking_tokens": 0,
+ "latency_ms": 5121,
+ "wall_ms": 8359,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005824.5653245
+}

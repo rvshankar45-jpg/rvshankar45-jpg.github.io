@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! \ud83c\udf3f\n\nGreat question to ask before bringing a plant home. Unfortunately, **pothos is not pet-safe**, so it isn't a good choice if you have a cat.\n\nIf you'd like a cat-friendly alternative, these Leafy plants are listed as pet-safe:\n- Calathea\n- Spider plant\n- Parlour palm\n- Boston fern\n- Peperomia\n\n**Important:** If your cat has already nibbled on a pothos (or any plant), please contact your vet or a pet poison control service right away. If you'd like, let me know and I can escalate this to a Support Lead as well.\n\nIs there anything else I can help you with, like picking out a pet-safe plant? Please reach out any time. Happy planting! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 427,
+  "cache_read_input_tokens": 1545,
+  "output_tokens": 259,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 427,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 259,
+    "cache_read_input_tokens": 1545,
+    "cache_creation_input_tokens": 427,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 427
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1974,
+ "output_tokens": 259,
+ "thinking_tokens": 0,
+ "latency_ms": 2975,
+ "wall_ms": 6395,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880211.0108612
+}

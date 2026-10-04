@@ -1,0 +1,49 @@
+{
+ "text": "Thanks for contacting Leafy, and congratulations on the move! I'm sorry about the mix-up. I know you wanted this gift to reach your dad.\n\n**Redirecting the order:** Once an order has shipped, the shipping address can't be changed, and couriers don't accept redirection requests from Leafy. So I can't send this parcel on to your dad's place.\n\n**Express shipping:** Express isn't available for island addresses, which are in our Zone 3. Standard shipping to your dad would take **5-8 business days**.\n\nHere's what I can do:\n- **Escalate to a Support Lead.** The policy doesn't cover this situation, so they can look at whether anything else is possible. I can't promise an outcome, but I'm happy to ask. To do that, please send me the **order number** (it looks like LF-123456).\n- **Place a new order for your dad.** It would ship Standard (**$7.95**, free on orders of **$75+** after discounts). Live plants ship Monday to Wednesday only, and orders placed after 12 noon Wednesday ship the following Monday. Plants over 4 ft add a $20 handling fee.\n\nSince the parcel is heading to your old address, tracking is emailed when an order ships and can take up to 24 hours to update. If it's delayed or goes missing, contact us and we'll open a courier investigation.\n\nWould you like me to escalate this? Thanks again for reaching out, and good luck with the move! \ud83c\udf3f",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 477,
+  "cache_read_input_tokens": 2187,
+  "output_tokens": 1028,
+  "output_tokens_details": {
+   "thinking_tokens": 555
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 477,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1028,
+    "cache_read_input_tokens": 2187,
+    "cache_creation_input_tokens": 477,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 477
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2666,
+ "output_tokens": 1028,
+ "thinking_tokens": 555,
+ "latency_ms": 9788,
+ "wall_ms": 12553,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880114.7170393
+}

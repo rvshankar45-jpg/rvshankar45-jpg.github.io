@@ -1,0 +1,50 @@
+{
+ "text": "Sorry your pot arrived cracked. A cracked pot counts as damaged on arrival, and since it's under $40, you usually don't need to send it back.\n\nTo claim a replacement or refund, report it within **48 hours** of delivery with photos of the pot and the box. If you're still inside that window, you can start the report now. If it's been longer than 48 hours, the policy I have doesn't cover that situation for non-living items, so I can escalate it to a Support Lead.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 436,
+  "cache_read_input_tokens": 1272,
+  "output_tokens": 152,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 436,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 152,
+    "cache_read_input_tokens": 1272,
+    "cache_creation_input_tokens": 436,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 436
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1710,
+ "output_tokens": 152,
+ "thinking_tokens": 0,
+ "latency_ms": 2010,
+ "wall_ms": 5680,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100062.455741
+}

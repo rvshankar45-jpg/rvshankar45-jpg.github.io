@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thanks for contacting Leafy! \ud83c\udf3f\n\nGreat question! Here's how our pots work:\n\n- **Standard plants** ship in plastic nursery pots with drainage holes. These are great for healthy roots and easy watering.\n- **Decorative pots** are sold separately, unless the listing says **\"potted\"**. If you see \"potted\" on a plant's listing, it comes in a pot already.\n\nIf you'd like a decorative pot, you can add one to your order from our accessories. One tip: if you're a Leafy Plus member, you get 10% off pots and accessories.\n\nI don't have details on specific pot styles or designs, so I'd recommend checking the individual plant listing to see what's included. If you'd like, I can escalate a question about a particular product to our team.\n\nIs there anything else I can help with? Happy planting, and please reach out any time! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2056,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 280,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2056,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 280,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2056,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2056
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2058,
+ "output_tokens": 280,
+ "thinking_tokens": 0,
+ "latency_ms": 3469,
+ "wall_ms": 6642,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879864.7508647
+}

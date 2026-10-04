@@ -1,0 +1,129 @@
+{
+ "items": [
+  {
+   "id": "c01.t2",
+   "needs_context": true,
+   "reason": "Unclear which photos/claim; relies on earlier discussion."
+  },
+  {
+   "id": "c01.t3",
+   "needs_context": true,
+   "reason": "'the plant itself' and 'that' refer to an earlier coverage topic."
+  },
+  {
+   "id": "c01.t4",
+   "needs_context": true,
+   "reason": "'that' and the pot replacement refer to earlier context."
+  },
+  {
+   "id": "c02.t2",
+   "needs_context": true,
+   "reason": "Unknown which plans and what the upgrade is; relies on earlier discussion."
+  },
+  {
+   "id": "c02.t3",
+   "needs_context": true,
+   "reason": "Follow-up to the earlier upgrade timing answer."
+  },
+  {
+   "id": "c02.t4",
+   "needs_context": false,
+   "reason": "Self-contained general question about sharing owned plants."
+  },
+  {
+   "id": "c03.t2",
+   "needs_context": true,
+   "reason": "'Both say posted' refers to earlier statuses; the issue is unstated."
+  },
+  {
+   "id": "c03.t3",
+   "needs_context": true,
+   "reason": "'that refund' refers to a previously discussed refund."
+  },
+  {
+   "id": "c03.t4",
+   "needs_context": true,
+   "reason": "Follow-up to an earlier answer about the refund; 'then' is unresolved."
+  },
+  {
+   "id": "c04.t2",
+   "needs_context": true,
+   "reason": "'it' and 'faster' refer to an earlier delivery topic."
+  },
+  {
+   "id": "c04.t3",
+   "needs_context": true,
+   "reason": "Depends on the earlier shipping/fee discussion."
+  },
+  {
+   "id": "c04.t4",
+   "needs_context": true,
+   "reason": "'that fee' refers to a previously mentioned fee."
+  },
+  {
+   "id": "c05.t2",
+   "needs_context": true,
+   "reason": "'the longer guarantee' and joining refer to an earlier membership discussion."
+  },
+  {
+   "id": "c05.t3",
+   "needs_context": true,
+   "reason": "Which sign-up/plan is unstated."
+  },
+  {
+   "id": "c05.t4",
+   "needs_context": true,
+   "reason": "Follow-up to the earlier refund answer, with 'the free shipping' as an unstated benefit."
+  },
+  {
+   "id": "c05.t5",
+   "needs_context": true,
+   "reason": "'it' refers to the earlier membership."
+  },
+  {
+   "id": "c06.t2",
+   "needs_context": true,
+   "reason": "Refers to an earlier deadline or cutoff."
+  },
+  {
+   "id": "c06.t3",
+   "needs_context": true,
+   "reason": "'it' and 'then' refer to an earlier item or order."
+  },
+  {
+   "id": "c07.t2",
+   "needs_context": true,
+   "reason": "'one of its leaves' has no stated plant."
+  },
+  {
+   "id": "c07.t3",
+   "needs_context": true,
+   "reason": "'instead' refers to the earlier plant."
+  },
+  {
+   "id": "c08.t2",
+   "needs_context": true,
+   "reason": "'it' is unspecified, likely a return or exchange."
+  },
+  {
+   "id": "c08.t3",
+   "needs_context": true,
+   "reason": "Unstated what the label is for, and the policy window is unknown."
+  },
+  {
+   "id": "c08.t4",
+   "needs_context": true,
+   "reason": "'they get it' refers to an earlier return."
+  },
+  {
+   "id": "c09.t2",
+   "needs_context": true,
+   "reason": "Unclear what has taken 6 business days."
+  },
+  {
+   "id": "c09.t3",
+   "needs_context": true,
+   "reason": "'it' refers to an earlier package."
+  }
+ ]
+}

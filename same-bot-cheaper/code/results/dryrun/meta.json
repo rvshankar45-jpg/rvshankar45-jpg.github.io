@@ -1,0 +1,43 @@
+{
+ "overhead": {
+  "claude-sonnet-5-5": 448,
+  "claude-haiku-4-5-20251001": 379
+ },
+ "new_calls": 5,
+ "seconds": 67,
+ "laya_device": "cuda",
+ "laya_load_ms": 21524,
+ "rcache_hit_rate_v2_full": 0.15384615384615385,
+ "rcache_hits_v2_full": {
+  "exact": 1,
+  "semantic": 1
+ },
+ "dry_queries": [
+  "q001",
+  "q013",
+  "q024",
+  "q045",
+  "q060",
+  "q077",
+  "q063",
+  "q088",
+  "q091",
+  "q099"
+ ],
+ "toggle_queries": [
+  "q001",
+  "q063",
+  "q091"
+ ],
+ "conversation": "c05",
+ "repeats": [
+  [
+   "dup_exact",
+   "whats your return window"
+  ],
+  [
+   "dup_paraphrase",
+   "What is your return window?"
+  ]
+ ]
+}

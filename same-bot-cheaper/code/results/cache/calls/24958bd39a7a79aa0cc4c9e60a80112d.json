@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! A 5ft bird of paradise is a gorgeous statement plant. \ud83c\udf3f\n\nUnfortunately, Express shipping isn't available for it. Plants over about 4 ft are classed as XL plants, and XL plants ship **Standard only**.\n\nHere's what to expect with an XL plant:\n- **Handling fee:** XL plants add a $20 handling fee.\n- **Standard shipping:** $7.95, or free if your order is $75 or more after discounts and before tax.\n- **Delivery time:** this depends on your zone (distance from our nearest greenhouse):\n  - Zone 1 (under 300 miles): 2-3 business days\n  - Zone 2 (300-1,000 miles): 3-5 business days\n  - Zone 3 (over 1,000 miles, remote and island addresses): 5-8 business days\n- **Shipping days:** live plants ship Monday to Wednesday only. If you order after 12 noon on Wednesday, your plant will ship the following Monday.\n\nIf you let me know roughly where you're located, I can help work out which zone you're in and what timing to expect.\n\nThanks again for reaching out, and please get in touch any time you have more questions. Happy planting! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 438,
+  "cache_read_input_tokens": 1904,
+  "output_tokens": 413,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 438,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 413,
+    "cache_read_input_tokens": 1904,
+    "cache_creation_input_tokens": 438,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 438
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2344,
+ "output_tokens": 413,
+ "thinking_tokens": 0,
+ "latency_ms": 3595,
+ "wall_ms": 6580,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879992.233382
+}

@@ -1,0 +1,49 @@
+{
+ "text": "Unfortunately, promo codes can't be added after an order is placed.\n\n**If you ordered within the last 2 hours**, you can cancel the order for free from \"My Orders\" and place a new one with the code applied at checkout. Before you do this, note:\n- A new order is treated as a new order for shipping. Live plants ship Monday to Wednesday only, and plant orders placed after 12 noon Wednesday ship the next Monday.\n- The card authorisation on the cancelled order can take 3-7 business days to drop off, depending on your bank. Leafy can't release it faster.\n- Only one promo code is allowed per order. It also can't be combined with Leafy Plus member pricing on the same item, and the better discount applies automatically.\n\n**If it's been more than 2 hours**, the order is in the packing queue and can't be changed online. Support can try to intercept it before it ships so you can reorder, but that isn't guaranteed. Once an order has shipped, it can't be cancelled.\n\nIf you'd like us to try an intercept, send me your order number (it looks like LF-123456) and I'll escalate it.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 438,
+  "cache_read_input_tokens": 1705,
+  "output_tokens": 666,
+  "output_tokens_details": {
+   "thinking_tokens": 309
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 438,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 666,
+    "cache_read_input_tokens": 1705,
+    "cache_creation_input_tokens": 438,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 438
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2145,
+ "output_tokens": 666,
+ "thinking_tokens": 309,
+ "latency_ms": 6544,
+ "wall_ms": 10118,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880547.136251
+}

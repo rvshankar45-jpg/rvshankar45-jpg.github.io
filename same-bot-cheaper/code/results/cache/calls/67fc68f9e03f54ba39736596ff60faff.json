@@ -1,0 +1,50 @@
+{
+ "text": "**Your toddler comes first. Please contact poison control or a doctor right now**, before anything else. Tell them it was a peace lily leaf, and have the plant's name and your toddler's age handy. If your toddler has trouble breathing or seems very unwell, call emergency services. I don't have safety guidance beyond this, so please follow the medical professionals' advice. Keep the plant well out of reach in the meantime.\n\n**Once your toddler is taken care of, here's what to do about the pot:**\n- A cracked or smashed pot counts as damaged on arrival, so you're covered.\n- Report it within **48 hours of delivery** (the plant arrived today) with photos of the item and the box.\n- You can choose a **free replacement on the next plant shipping day**, or a **refund**.\n- A replacement for damage on arrival doesn't use up the Plant Care Guarantee's one replacement.\n\nIf you'd like a replacement, I'd suggest asking for a different plant, or at least keeping any new peace lily well out of your toddler's reach. If you'd like me to escalate this to a Support Lead, just say so.\n\nI hope your little one is okay.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1524,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 705,
+  "output_tokens_details": {
+   "thinking_tokens": 332
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1524,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 705,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1524,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1524
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1526,
+ "output_tokens": 705,
+ "thinking_tokens": 332,
+ "latency_ms": 6692,
+ "wall_ms": 9661,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004799.7894807
+}

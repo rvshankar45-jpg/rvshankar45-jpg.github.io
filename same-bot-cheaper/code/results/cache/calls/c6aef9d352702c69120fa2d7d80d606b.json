@@ -1,0 +1,50 @@
+{
+ "text": "Here's our price drop policy:\n\n- **Window:** If the price of an item drops within **7 days** of your purchase, we'll give you the difference as **Leafy store credit**.\n- **Limit:** This applies **once per item**.\n- **Exclusions:** Flash sales and clearance items aren't eligible.\n\nStore credit is issued instantly and never expires. Our policy excerpts don't cover how to submit a price drop request, so if you have a specific order in mind, send me the order number (format LF-123456) and I can escalate it for you.\n\nIs there an item you're looking at?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 426,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 187,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 426,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 187,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 426,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 426
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4284,
+ "output_tokens": 187,
+ "thinking_tokens": 0,
+ "latency_ms": 2510,
+ "wall_ms": 5294,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005642.8060722
+}

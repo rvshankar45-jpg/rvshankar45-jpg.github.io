@@ -1,0 +1,49 @@
+{
+ "text": "Hi again! \ud83c\udf31 Thanks for checking before signing up.\n\n**If you've used free shipping, you wouldn't get the refund.** Free Standard shipping is one of the Leafy Plus benefits. The full refund only applies if you cancel within **14 days** of purchase **and** haven't used any benefits.\n\nIf you cancel after using free shipping:\n- There's **no refund** of the $59.\n- Your benefits **continue to the end of your paid year**.\n\nIf you're still deciding, you could hold off on orders that use the free shipping until you're sure. Once you're past the 14 days or have used a benefit, the membership is yours for the year.\n\n**A correction to my last message:** I said the 90-day guarantee only covers plants ordered while you're a member, and that earlier plants keep a 30-day guarantee. I can't confirm either detail from the information I have, so please don't rely on it. I can escalate to a Support Lead to get you a clear answer before you sign up.\n\nIs there anything else I can help with? \ud83d\udc9a",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1556,
+  "cache_read_input_tokens": 1795,
+  "output_tokens": 876,
+  "output_tokens_details": {
+   "thinking_tokens": 547
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1556,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 876,
+    "cache_read_input_tokens": 1795,
+    "cache_creation_input_tokens": 1556,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1556
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 3353,
+ "output_tokens": 876,
+ "thinking_tokens": 547,
+ "latency_ms": 7865,
+ "wall_ms": 10745,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880215.9253957
+}

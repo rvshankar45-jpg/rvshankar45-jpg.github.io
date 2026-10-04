@@ -1,0 +1,50 @@
+{
+ "text": "You have **30 days** from the delivery date to return a pot, as long as it's unused and in its original packaging. Start the return from \"My Orders\" and a prepaid label will be emailed to you. The label expires after **7 days**, so drop the parcel off within that window.\n\nChange-of-mind returns cost a flat $6.95 deducted from your refund (free for Leafy Plus members). If the pot arrived cracked or smashed, report it within **48 hours** of delivery with photos of the pot and the box, and we'll replace or refund it.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1699,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 174,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1699,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 174,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1699,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1699
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1701,
+ "output_tokens": 174,
+ "thinking_tokens": 0,
+ "latency_ms": 2456,
+ "wall_ms": 5312,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791099977.25595
+}

@@ -1,0 +1,148 @@
+{
+ "items": [
+  {
+   "answer_id": "t128#1",
+   "correctness": 2,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Escalates correctly, but says policy doesn't cover international and vaguely says 'regions on website'; implies exceptions possible. KB says no international shipping."
+  },
+  {
+   "answer_id": "t128#2",
+   "correctness": 2,
+   "completeness": 3,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Escalates and asks for order number safely, but wrongly says it can't confirm international shipping; KB states none."
+  },
+  {
+   "answer_id": "t129#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate and urgent."
+  },
+  {
+   "answer_id": "t129#2",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct; fallback to escalate/intercept fine, though doesn't stress urgency."
+  },
+  {
+   "answer_id": "t130#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and offers intercept request."
+  },
+  {
+   "answer_id": "t130#2",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 4,
+   "tone": 3,
+   "score": 3,
+   "note": "Ignores that 'yesterday' is clearly past 2 hours; confusing conditional, and claims 'I'll check'. Core info present."
+  },
+  {
+   "answer_id": "t131#1",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, honest, offers escalation."
+  },
+  {
+   "answer_id": "t131#2",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 4,
+   "score": 3,
+   "note": "Suggests contacting courier and says they may redirect, speculative beyond KB; core fact correct."
+  },
+  {
+   "answer_id": "t132#1",
+   "correctness": 2,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Wrongly says label 7 days from receipt (ok-ish) but invents that pot under $40 needn't be returned; that applies only to DOA items. Misleading."
+  },
+  {
+   "answer_id": "t132#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "All facts correct, including no exchanges."
+  },
+  {
+   "answer_id": "t133#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct $27.05 and steps."
+  },
+  {
+   "answer_id": "t133#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and thorough."
+  },
+  {
+   "answer_id": "t134#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correctly denies opened soil, covers wrong-item possibility, escalation."
+  },
+  {
+   "answer_id": "t134#2",
+   "correctness": 1,
+   "completeness": 2,
+   "policy": 2,
+   "tone": 3,
+   "score": 1,
+   "note": "Assumes soil is faulty/wrong item; customer said it's just wrong type for cactus. Promises full free return wrongly."
+  },
+  {
+   "answer_id": "t135#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, doesn't invent a new-label process, offers escalation."
+  },
+  {
+   "answer_id": "t135#2",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 2,
+   "tone": 4,
+   "score": 2,
+   "note": "Correctly says expired but asserts a new label via My Orders, which the KB doesn't state; invented process."
+  }
+ ]
+}

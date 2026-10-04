@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! I'm so sorry about this. Seeing \"delivered\" when nothing is at your door is really worrying, especially when there's a living plant inside. Let's get it sorted out.\n\n**What you can do right now**\n- Check around your property, such as the porch, side door, back door, or with a neighbor or building office, in case the courier left it somewhere nearby.\n- Give it a little time if you can, since tracking can take up to 24 hours to update and scans are sometimes marked early.\n\n**What I can do for you**\nSince your tracking shows delivered but nothing arrived, we can open a courier investigation. It takes up to **5 business days**. If the package turns out to be lost, you can choose either:\n- A free replacement, or\n- A full refund\n\n**To get that started, I'll need:**\n- Your order number (it looks like LF-123456)\n\nI don't need any card details or passwords, so please don't share those.\n\nOnce you send the order number, I'll help get the investigation opened. Thanks for your patience, and we'll do everything we can to get your plant to you! \ud83c\udf3f",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 438,
+  "cache_read_input_tokens": 2100,
+  "output_tokens": 353,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 438,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 353,
+    "cache_read_input_tokens": 2100,
+    "cache_creation_input_tokens": 438,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 438
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2540,
+ "output_tokens": 353,
+ "thinking_tokens": 0,
+ "latency_ms": 4333,
+ "wall_ms": 6881,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879985.6258996
+}

@@ -1,0 +1,129 @@
+{
+ "items": [
+  {
+   "id": "q026",
+   "label": "simple",
+   "reason": "Single policy lookup on whether exchanges are offered."
+  },
+  {
+   "id": "q027",
+   "label": "simple",
+   "reason": "Single-fact lookup of the Plant Club billing date."
+  },
+  {
+   "id": "q028",
+   "label": "simple",
+   "reason": "Single-fact lookup on whether subscriptions can be paused."
+  },
+  {
+   "id": "q029",
+   "label": "simple",
+   "reason": "Single-fact lookup on cancellation fee."
+  },
+  {
+   "id": "q030",
+   "label": "simple",
+   "reason": "Single-fact lookup of the XL plant fee."
+  },
+  {
+   "id": "q031",
+   "label": "simple",
+   "reason": "Single-fact lookup on buy-now-pay-later availability."
+  },
+  {
+   "id": "q032",
+   "label": "simple",
+   "reason": "Single-fact lookup of claim review time."
+  },
+  {
+   "id": "q033",
+   "label": "simple",
+   "reason": "Single-fact lookup of photo requirement."
+  },
+  {
+   "id": "q034",
+   "label": "simple",
+   "reason": "Single-fact lookup on whether returns of dead plants are required."
+  },
+  {
+   "id": "q035",
+   "label": "simple",
+   "reason": "Single-fact lookup about pot packaging."
+  },
+  {
+   "id": "q036",
+   "label": "simple",
+   "reason": "Single-fact lookup of tracking update time."
+  },
+  {
+   "id": "q037",
+   "label": "simple",
+   "reason": "Single-fact lookup of gift note length limit."
+  },
+  {
+   "id": "q038",
+   "label": "simple",
+   "reason": "Single-fact lookup of store credit timing."
+  },
+  {
+   "id": "q039",
+   "label": "simple",
+   "reason": "Single-fact lookup of return label validity."
+  },
+  {
+   "id": "q040",
+   "label": "simple",
+   "reason": "Single-fact lookup of order number format."
+  },
+  {
+   "id": "q041",
+   "label": "simple",
+   "reason": "Single-fact lookup of Leafy Plus shipping benefit."
+  },
+  {
+   "id": "q042",
+   "label": "simple",
+   "reason": "Single-fact lookup of accepted payment methods."
+  },
+  {
+   "id": "q043",
+   "label": "simple",
+   "reason": "Single-fact lookup of specialist hours."
+  },
+  {
+   "id": "q044",
+   "label": "simple",
+   "reason": "Single-fact lookup on whether email changes are possible via chat."
+  },
+  {
+   "id": "q045",
+   "label": "simple",
+   "reason": "Single-fact lookup of account deletion time."
+  },
+  {
+   "id": "q046",
+   "label": "simple",
+   "reason": "Single-fact lookup of pet toxicity info."
+  },
+  {
+   "id": "q047",
+   "label": "simple",
+   "reason": "Single-fact lookup of minimum account age."
+  },
+  {
+   "id": "q048",
+   "label": "simple",
+   "reason": "Single-fact lookup of guarantee length for Plus members."
+  },
+  {
+   "id": "q049",
+   "label": "simple",
+   "reason": "Single-fact lookup of gift card denominations."
+  },
+  {
+   "id": "q050",
+   "label": "simple",
+   "reason": "Single-fact lookup of free delivery threshold."
+  }
+ ]
+}

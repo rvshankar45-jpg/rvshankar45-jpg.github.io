@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry about the lockout. The policy information I have doesn't cover changing an account email or recovering access without the password, so I can't make this change or promise how it would be handled.\n\nI can escalate this to a Support Lead. If you'd like that, tell me the new email address you want on the account. Please don't send any passwords or card details in this chat.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 436,
+  "cache_read_input_tokens": 1346,
+  "output_tokens": 347,
+  "output_tokens_details": {
+   "thinking_tokens": 238
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 436,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 347,
+    "cache_read_input_tokens": 1346,
+    "cache_creation_input_tokens": 436,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 436
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1784,
+ "output_tokens": 347,
+ "thinking_tokens": 238,
+ "latency_ms": 4167,
+ "wall_ms": 7471,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791101090.1984732
+}

@@ -1,0 +1,49 @@
+{
+ "text": "No, live plants can't be shipped to a PO box. PO boxes can only be used for non-living items such as pots and accessories.\n\nFor live plants, you'll need a street address where someone can receive the delivery, such as your home, a workplace, or a trusted friend or family member's address. Keep in mind that live plants ship Monday\u2013Wednesday only, and Leafy doesn't ship internationally.\n\nIf you have a mixed order, it ships together on a plant day, so the PO box restriction would apply to the whole shipment. I can't confirm how the system handles splitting these, so if you need that, I can escalate it to a Support Lead.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1983,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 202,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1983,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 202,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1983,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1983
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1985,
+ "output_tokens": 202,
+ "thinking_tokens": 0,
+ "latency_ms": 2630,
+ "wall_ms": 5610,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880442.768158
+}

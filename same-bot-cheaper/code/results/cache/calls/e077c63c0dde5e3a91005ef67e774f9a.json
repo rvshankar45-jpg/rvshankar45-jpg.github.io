@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry, that's a frustrating thing to happen before an event. Unfortunately, because the weather hold was waived, cold or heat damage in transit isn't covered by the Plant Care Guarantee, and DOA claims for that damage aren't accepted either, so I can't offer a free replacement for this plant.\n\nIf you'd like, I can escalate your case to a Support Lead to review it. I can't promise a different outcome, though. A Plant Care Specialist is also available for free care advice by chat or email if you'd like help with other plants.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1965,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 176,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1965,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 176,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1965,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1965
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1967,
+ "output_tokens": 176,
+ "thinking_tokens": 0,
+ "latency_ms": 2110,
+ "wall_ms": 5349,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005301.4161522
+}

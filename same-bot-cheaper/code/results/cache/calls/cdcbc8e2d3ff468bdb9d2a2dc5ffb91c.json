@@ -1,0 +1,50 @@
+{
+ "text": "I understand that's frustrating. Here's what to do:\n\n**Wait a bit longer first.** A couple of hours after \"delivered\" is normal\u2014the package may still be at your door, in a safe place, or the tracking update may be delayed.\n\n**If it hasn't shown up by end of day or tomorrow morning**, contact us at **help@leafy.example** or chat **8am\u20138pm Mon\u2013Sat** (your local time) with your order number. We'll open a courier investigation, which takes up to **5 business days**. Once resolved, you can choose a free replacement or full refund.\n\nDo you have your order number handy (starts with `LF-`)?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1582,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 158,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1582,
+    "output_tokens": 158,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1582,
+ "output_tokens": 158,
+ "thinking_tokens": 0,
+ "latency_ms": 2610,
+ "wall_ms": 6007,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791101196.7271178
+}

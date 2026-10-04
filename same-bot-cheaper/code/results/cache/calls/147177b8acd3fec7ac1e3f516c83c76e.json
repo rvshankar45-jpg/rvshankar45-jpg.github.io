@@ -1,0 +1,50 @@
+{
+ "text": "I understand that's frustrating. Unfortunately, **we can't redirect shipped orders\u2014couriers don't accept redirection requests from Leafy**, and the shipping address can't be changed after an order has shipped.\n\nHere's what I'd suggest:\n1. **Contact the courier directly** once you have the tracking number\u2014they may be able to help if you reach out quickly.\n2. **Escalate to our Support Lead** who might explore other options depending on your situation.\n\nDo you have your order number (format: `LF-` plus six digits)? That'll help us assist further.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1423,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 132,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1423,
+    "output_tokens": 132,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1423,
+ "output_tokens": 132,
+ "thinking_tokens": 0,
+ "latency_ms": 2566,
+ "wall_ms": 6299,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791100684.059668
+}

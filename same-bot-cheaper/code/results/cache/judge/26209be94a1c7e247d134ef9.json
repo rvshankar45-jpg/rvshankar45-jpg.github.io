@@ -1,0 +1,148 @@
+{
+ "items": [
+  {
+   "answer_id": "t192#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct age rule, parent can order, gift note up to 200 chars."
+  },
+  {
+   "answer_id": "t192#2",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct; omits gift note mention but offers escalation sensibly."
+  },
+  {
+   "answer_id": "t193#1",
+   "correctness": 3,
+   "completeness": 2,
+   "policy": 4,
+   "tone": 4,
+   "score": 2,
+   "note": "KB does cover this: support can't change email over chat, customer does after logging in. Says not covered and misses password reset route."
+  },
+  {
+   "answer_id": "t193#2",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Right route (reset, then change after login). Minor invented details like 'Forgot password' link and identity verification, but reasonable."
+  },
+  {
+   "answer_id": "t194#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Reset password, escalates, correct order cancellation rules, avoids sensitive data."
+  },
+  {
+   "answer_id": "t194#2",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 3,
+   "tone": 4,
+   "score": 3,
+   "note": "Confusing, contradictory password instruction; doesn't clearly escalate itself, tells customer to contact us again. Promises help stopping shipments/refunds."
+  },
+  {
+   "answer_id": "t195#1",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct overall, but states $27.95 total without noting free standard at $75+ applies (says it though). Minor: says Zone 3 only offers Standard, fine."
+  },
+  {
+   "answer_id": "t195#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate on XL, Zone 3, cost, free threshold, weather hold."
+  },
+  {
+   "answer_id": "t196#1",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 4,
+   "note": "Handles the 2-day borderline ambiguity well, correct options; slightly hedgy about the window."
+  },
+  {
+   "answer_id": "t196#2",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 3,
+   "tone": 4,
+   "score": 3,
+   "note": "Asserts it was reported within 48 hours though customer said 2 days; doesn't ask for photos of item and box."
+  },
+  {
+   "answer_id": "t197#1",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 3,
+   "tone": 4,
+   "score": 3,
+   "note": "Correct keep/free Express, but implies a return label for rubber plant is optional and suggests it can check order for arrival time, which it can't promise."
+  },
+  {
+   "answer_id": "t197#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, honest about timing, offers escalation."
+  },
+  {
+   "answer_id": "t198#1",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Assumes refund overdue; clock starts when return reaches warehouse and cards then take 5-10 days; doesn't check arrival."
+  },
+  {
+   "answer_id": "t198#2",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 4,
+   "note": "Correctly ties clock to warehouse arrival and asks for delivery date; omits card transit time of 5-10 days."
+  },
+  {
+   "answer_id": "t199#1",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 2,
+   "tone": 4,
+   "score": 2,
+   "note": "Asserts a fresh label can be obtained by new return, which KB doesn't say; invented promise."
+  },
+  {
+   "answer_id": "t199#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct expiry, honest about reissue, 30-day window, offers escalation."
+  }
+ ]
+}

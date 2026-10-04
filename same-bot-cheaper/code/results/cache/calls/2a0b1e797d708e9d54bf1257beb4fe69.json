@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thanks for contacting Leafy! \ud83c\udf3f Great question.\n\nUnfortunately, only **one promo code** can be used per order. Promo codes also can't be added after an order has been placed, so it's best to enter your code at checkout.\n\nA couple of other things that might help:\n\n- **Leafy Plus members:** a promo code can't be combined with member pricing on the same item. The better discount is applied automatically, so you don't need to choose.\n- **Price drops:** if an item's price drops within 7 days of your purchase, we can give you the difference as store credit (once per item, and not for flash sales or clearance items).\n\nIf you have two codes, I'd suggest trying each one at checkout and going with whichever gives you the bigger saving.\n\nIs there anything else I can help you with? Happy planting! \ud83e\udeb4",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 428,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 262,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 428,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 262,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 428,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 428
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4768,
+ "output_tokens": 262,
+ "thinking_tokens": 0,
+ "latency_ms": 3014,
+ "wall_ms": 5925,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879128.2908654
+}

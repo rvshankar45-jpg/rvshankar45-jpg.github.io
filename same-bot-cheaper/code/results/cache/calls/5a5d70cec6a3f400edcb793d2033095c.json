@@ -1,0 +1,49 @@
+{
+ "text": "# Hey there! \ud83d\udc4b\n\nThanks for reaching out to Leafy! Great question about our return window.\n\nHere's what you need to know:\n\n**Non-living items** (pots, tools, soil, fertiliser, grow lights, accessories): **30 days** from delivery, as long as they're unused and in their original packaging.\n\n**Live plants:** Unfortunately, we can't accept returns for change of mind. *However*, if your plant isn't thriving, we've got you covered with our **Plant Care Guarantee**\u2014a free replacement if it dies or declines significantly within 30 days (or 90 days if you're a Leafy Plus member).\n\nIf your plant arrives damaged or you get the wrong item, report that within **48 hours** of delivery and we'll sort it out right away.\n\nIs there a specific item you're thinking about returning, or would you like to know more about the Plant Care Guarantee? Happy to help! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 3506,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 218,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 3506,
+    "output_tokens": 218,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 3506,
+ "output_tokens": 218,
+ "thinking_tokens": 0,
+ "latency_ms": 3474,
+ "wall_ms": 8530,
+ "overhead": 379,
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1790868807.4502203
+}

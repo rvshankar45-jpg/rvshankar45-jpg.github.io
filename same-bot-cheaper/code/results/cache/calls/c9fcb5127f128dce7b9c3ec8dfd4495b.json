@@ -1,0 +1,49 @@
+{
+ "text": "Great question! \ud83c\udf3f If you upgraded on the 26th, that's **after the 25th**, so the change would apply to the **following month's box** instead of the next one.\n\n- **On the 25th:** Your next box would already be billed on your current Starter plan.\n- **Following month:** The Collector plan would kick in, billed on the 25th and shipped in the first full week of the month after.\n\nSo upgrading today (the 22nd) gets you a Collector box a month sooner. \ud83e\udeb4\n\nI also need to fix my last message. I was wrong to retract the guarantee length. Plant Club plants do have the normal Plant Care Guarantee of **30 days from delivery** (**90 days** for Leafy Plus members, on plants ordered while the membership is active). Sorry for the confusion!\n\nIs there anything else I can help with? Happy upgrading! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1106,
+  "cache_read_input_tokens": 2086,
+  "output_tokens": 704,
+  "output_tokens_details": {
+   "thinking_tokens": 429
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1106,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 704,
+    "cache_read_input_tokens": 2086,
+    "cache_creation_input_tokens": 1106,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1106
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 3194,
+ "output_tokens": 704,
+ "thinking_tokens": 429,
+ "latency_ms": 6232,
+ "wall_ms": 9617,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880140.9436514
+}

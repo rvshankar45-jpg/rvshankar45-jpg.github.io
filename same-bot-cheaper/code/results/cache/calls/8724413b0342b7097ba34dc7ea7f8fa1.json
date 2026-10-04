@@ -1,0 +1,50 @@
+{
+ "text": "Deleting your account cancels your Plant Club subscription, but deletion can take up to 30 days to complete. The policy doesn't say exactly when the cancellation takes effect within that window, so I'd cancel the subscription yourself first under \"Account\" > \"Subscriptions\". Plant Club is charged on the 25th for the following month's box, so cancelling before October 25 stops the November box from being billed.\n\nCancelling has no fee, but a box that's already been billed isn't refunded and still ships. If you've been billed for October's box, expect it to arrive in the first full week of October.\n\nYou can start the deletion under \"Account\" > \"Privacy\". You can also download your data there first if you want a copy.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 438,
+  "cache_read_input_tokens": 1492,
+  "output_tokens": 522,
+  "output_tokens_details": {
+   "thinking_tokens": 299
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 438,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 522,
+    "cache_read_input_tokens": 1492,
+    "cache_creation_input_tokens": 438,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 438
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1932,
+ "output_tokens": 522,
+ "thinking_tokens": 299,
+ "latency_ms": 4595,
+ "wall_ms": 7357,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791006821.6970997
+}

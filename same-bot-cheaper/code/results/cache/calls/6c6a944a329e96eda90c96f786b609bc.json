@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry, that's not the experience you should have had. Claims are supposed to be reviewed by a Plant Care Specialist within **2 business days**, and a week is well past that.\n\nI can't see the status of your claim from here, so I can't tell you why it's stalled. Here is what I can suggest:\n\n1. **Check \"My Orders\"** to confirm the claim shows as submitted. A claim needs at least **two photos** (whole plant plus a close-up), so check that both uploaded.\n2. **Let me escalate it.** I can pass it to a Support Lead to look into the overdue review. If you'd like that, please send your **order number** and say whether the claim shows as submitted in My Orders.\n\nSince you submitted last week, you were inside the 30-day window (or 90 days for Leafy Plus members) when you filed. I'd flag that in the escalation so the delay doesn't count against you, though a specialist still has to review and approve the claim.\n\nWhile you wait, a Plant Care Specialist can give you free care advice by chat or email, with no claim needed. Your bird of paradise is losing leaves, so it may be worth getting their eyes on it soon.\n\nWould you like me to escalate this now?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2264,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 718,
+  "output_tokens_details": {
+   "thinking_tokens": 332
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2264,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 718,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2264,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2264
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2266,
+ "output_tokens": 718,
+ "thinking_tokens": 332,
+ "latency_ms": 8777,
+ "wall_ms": 11385,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005003.345568
+}

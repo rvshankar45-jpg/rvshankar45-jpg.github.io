@@ -1,0 +1,50 @@
+{
+ "text": "An XL plant would work the same way for your address, with an added fee:\n\n- **Shipping method:** XL plants (usually over 4 ft) ship Standard only. That's already your only option in Zone 3, so nothing changes there.\n- **Delivery time:** 5-8 business days.\n- **Handling fee:** $20 extra per XL plant, on top of shipping.\n- **Standard shipping cost:** $7.95, or free if your order is $75 or more after discounts and before tax. The $20 handling fee is still charged either way.\n- **Shipping days:** Live plants ship Monday to Wednesday only. Orders placed after 12 noon Wednesday ship the following Monday.\n- **Weather holds:** These can still apply. If the transit forecast is below 35\u00b0F or above 95\u00b0F, the plant may be held up to 7 days, and we'll email you.\n\nSince XL plants can't go Express, there's no way to speed up the delivery. If you'd like, I can escalate to a Support Lead to see if they have any other suggestions.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2929,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 336,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2929,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 336,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2929,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2929
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2931,
+ "output_tokens": 336,
+ "thinking_tokens": 0,
+ "latency_ms": 3356,
+ "wall_ms": 6845,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004891.117664
+}

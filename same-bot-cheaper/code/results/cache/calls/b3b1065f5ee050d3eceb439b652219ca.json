@@ -1,0 +1,49 @@
+{
+ "text": "Store credit is issued **instantly** and never expires.\n\nFor comparison, if you took the refund to your original payment method instead, it would take 5-10 business days for cards or 3-5 business days for digital wallets. Refunds always go back to the original payment method, never to a different card.\n\nIf your order was paid with buy-now-pay-later, the refund goes to the instalment provider rather than to you directly, and they adjust your remaining payments.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1977,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 138,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1977,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 138,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1977,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1977
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1979,
+ "output_tokens": 138,
+ "thinking_tokens": 0,
+ "latency_ms": 2507,
+ "wall_ms": 5514,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880493.9121106
+}

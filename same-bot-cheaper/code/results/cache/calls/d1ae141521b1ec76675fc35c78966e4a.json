@@ -1,0 +1,49 @@
+{
+ "text": "Hey there! \ud83d\udc4b\n\nThe **Leafy Plant Club Collector plan** is **$49/month**. \n\nWith this plan, you get one surprise medium or rare plant each month in a 6-inch pot, delivered in the first full week of the month. You can also list up to 3 plants you already own to avoid getting duplicates!\n\nIs there anything else you'd like to know about Plant Club or our other subscriptions? \ud83c\udf3f",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1823,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 105,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1823,
+    "output_tokens": 105,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1823,
+ "output_tokens": 105,
+ "thinking_tokens": 0,
+ "latency_ms": 1596,
+ "wall_ms": 4797,
+ "overhead": 379,
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1790879788.9910314
+}

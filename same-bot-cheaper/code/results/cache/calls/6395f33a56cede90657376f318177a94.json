@@ -1,0 +1,50 @@
+{
+ "text": "Yes, you can! Since the snapped main stem qualifies as damage on arrival (DOA), you're covered\u2014but you needed to report it within **48 hours** of delivery, and you're now at **3 days**, so you've missed that window.\n\nHowever, the good news is that snapped stems are also covered under our **30-day Plant Care Guarantee** (or **90 days** if you're a Leafy Plus member). You can claim through \"My Orders\" with at least **two photos** (whole plant + close-up of the damage), and a Plant Care Specialist will review within **2 business days**. If approved, we'll send you a free replacement of the same plant\u2014no need to send the damaged one back.\n\nWould you like help with anything else, or do you have your order number handy?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1313,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 187,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1313,
+    "output_tokens": 187,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1313,
+ "output_tokens": 187,
+ "thinking_tokens": 0,
+ "latency_ms": 2710,
+ "wall_ms": 5520,
+ "overhead": 379,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791006974.747829
+}

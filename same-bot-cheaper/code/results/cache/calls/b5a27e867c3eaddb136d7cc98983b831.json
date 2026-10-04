@@ -1,0 +1,49 @@
+{
+ "text": "For **non-living items** (pots, tools, soil, fertiliser, grow lights, accessories), you have **30 days** from delivery to return them unused in original packaging\u2014though opened soil or fertiliser can't be returned unless faulty.\n\n**Live plants cannot be returned** for change of mind, but they're covered by our **Plant Care Guarantee** (30 days, or 90 days for Leafy Plus members) if they die or decline significantly despite reasonable care.\n\nIs there a specific item you're looking to return?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1271,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 121,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1271,
+    "output_tokens": 121,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1271,
+ "output_tokens": 121,
+ "thinking_tokens": 0,
+ "latency_ms": 2249,
+ "wall_ms": 6182,
+ "overhead": 379,
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1790868723.8942528
+}

@@ -1,0 +1,148 @@
+{
+ "items": [
+  {
+   "answer_id": "t168#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate and concise."
+  },
+  {
+   "answer_id": "t168#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate; adds correct price and auto-renew."
+  },
+  {
+   "answer_id": "t169#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, honest about what's not covered, offers escalation. Doesn't invent a parent workaround."
+  },
+  {
+   "answer_id": "t169#2",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 5,
+   "score": 3,
+   "note": "Correct on the 18+ rule but suggests a parent create an account and order for them, which the KB doesn't support. This is an invented workaround."
+  },
+  {
+   "answer_id": "t170#1",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 4,
+   "score": 3,
+   "note": "Advises password reset and escalates. But it calls the issue a 'safety issue' and promises a 1-business-day follow-up that the KB doesn't give. It also says to dispute charges, and uses the user's email in the reply."
+  },
+  {
+   "answer_id": "t170#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Reset password, escalates for fraud, no sensitive data requested, accurate cancellation rules."
+  },
+  {
+   "answer_id": "t171#1",
+   "correctness": 4,
+   "completeness": 3,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Escalates correctly and empathetically. It says it doesn't know the lost-parcel policy, though the KB lets the customer choose a replacement or full refund, so it omits that option."
+  },
+  {
+   "answer_id": "t171#2",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Escalates for the right reasons and mentions refund or replacement. Gives no explicit timeframe beyond the email response time."
+  },
+  {
+   "answer_id": "t172#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Goodwill credit up to $15, no phone support, and correct hours."
+  },
+  {
+   "answer_id": "t172#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, and states that the credit is not cash."
+  },
+  {
+   "answer_id": "t173#1",
+   "correctness": 2,
+   "completeness": 3,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Says the automatic refund has already happened, but the email was only 2 days ago, so the window hasn't closed. Also asserts the pot will ship normally, which the KB doesn't state."
+  },
+  {
+   "answer_id": "t173#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correctly notes the 3-day window runs from the email, lists the options, and says the pot isn't cancelled. Honest about the unknown and offers escalation."
+  },
+  {
+   "answer_id": "t174#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correctly identifies that the 2-hour window has passed, offers an intercept attempt, and says promo codes can't be added."
+  },
+  {
+   "answer_id": "t174#2",
+   "correctness": 1,
+   "completeness": 3,
+   "policy": 3,
+   "tone": 3,
+   "score": 1,
+   "note": "Says an order placed yesterday is within the 2-hour window, which is wrong. Also invents a 7-day cancel-and-reorder promo suggestion."
+  },
+  {
+   "answer_id": "t175#1",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Escalates and states the 5-day investigation plus replacement or refund options. Overpromises 'full authority' and that the Support Lead will reach out 'shortly'."
+  },
+  {
+   "answer_id": "t175#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate, escalates for the repeat contact, gives the investigation timeframe and outcome options, and asks for the order number."
+  }
+ ]
+}

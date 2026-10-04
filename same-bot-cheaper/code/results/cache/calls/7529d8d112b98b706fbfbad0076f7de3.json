@@ -1,0 +1,49 @@
+{
+ "text": "Oh no, I understand \u2013 life gets busy! \ud83d\ude0a\n\nUnfortunately, the prepaid label **expired after 7 days**, so it's no longer valid. Since you printed it 9 days ago, it's now past that window.\n\n**Here's what to do:**\n- Go back to \"My Orders\" and **start the return again** to get a fresh prepaid label.\n- This time, make sure to drop the parcel off **within 7 days** of receiving the new label \u2013 that way you won't have any issues.\n\nThe good news is you'll get a brand new label, so there's no extra cost to you. Once you drop it off with the fresh label, everything proceeds as normal and your refund (minus the $6.95 return fee) will be issued within **5 business days** of it reaching our warehouse.\n\nSorry for the hiccup! Let me know if you have any other questions. \ud83c\udf3f",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 3,
+  "cache_creation_input_tokens": 4200,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 211,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4200,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 3,
+    "output_tokens": 211,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 4200,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4200
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4203,
+ "output_tokens": 211,
+ "thinking_tokens": 0,
+ "latency_ms": 2961,
+ "wall_ms": 7560,
+ "overhead": 379,
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1790879711.3262744
+}

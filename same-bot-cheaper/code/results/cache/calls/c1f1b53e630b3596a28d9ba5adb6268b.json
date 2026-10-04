@@ -1,0 +1,50 @@
+{
+ "text": "No, a few bent leaves and loose soil are considered normal in transit and don't count as damage under our DOA policy.\n\nDOA means things like a snapped main stem, a cracked or smashed pot, exposed roots, or a dead or severely wilted plant. If you see any of those, report it within **48 hours** of delivery with photos of the plant and the box, and we'll send a free replacement on the next plant shipping day or refund you.\n\nIf the plant later declines (for example, loses more than a third of its leaves or develops stem or root rot), you can file a claim under our 30-day Plant Care Guarantee from \"My Orders\" with at least two photos.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 448,
+  "cache_read_input_tokens": 1354,
+  "output_tokens": 208,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 448,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 208,
+    "cache_read_input_tokens": 1354,
+    "cache_creation_input_tokens": 448,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 448
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1804,
+ "output_tokens": 208,
+ "thinking_tokens": 0,
+ "latency_ms": 2655,
+ "wall_ms": 5957,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100833.652865
+}

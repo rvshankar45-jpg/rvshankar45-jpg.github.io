@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry your plant arrived late, that's frustrating. The policy information I have doesn't include compensation for late deliveries, so I can't promise a refund or credit. I can escalate this to a Support Lead who can review your case.\n\nThe delay may have a known cause. Live plants ship only Monday to Wednesday, and orders placed after noon Wednesday ship the next Monday. Weather holds can also delay plants by up to 7 days, and we email you when that happens.\n\nIf you send me your order number (LF- plus six digits), I'll pass it along. Please also tell me if the plant arrived damaged or in poor condition.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 439,
+  "cache_read_input_tokens": 1338,
+  "output_tokens": 537,
+  "output_tokens_details": {
+   "thinking_tokens": 335
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 439,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 537,
+    "cache_read_input_tokens": 1338,
+    "cache_creation_input_tokens": 439,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 439
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1779,
+ "output_tokens": 537,
+ "thinking_tokens": 335,
+ "latency_ms": 5580,
+ "wall_ms": 8347,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791101536.1148212
+}

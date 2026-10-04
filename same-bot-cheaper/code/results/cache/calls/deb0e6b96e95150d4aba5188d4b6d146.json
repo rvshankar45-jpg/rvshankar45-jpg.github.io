@@ -1,0 +1,49 @@
+{
+ "text": "Great, a replacement it is! Thank you for your patience through all this.\n\nI don't have anything confirming that a lost-parcel replacement ships Express, so I can't promise it. Here is what I can tell you:\n\n- **Standard shipping times** depend on your zone: 2-3 business days (Zone 1), 3-5 (Zone 2), or 5-8 (Zone 3).\n- **Express** is normally $14.95 and is never free. It takes next business day (Zone 1) or 2 business days (Zone 2), and isn't available in Zone 3.\n- **Live plants ship Monday to Wednesday only**, so that affects when a replacement could go out.\n\nI can ask a Support Lead whether your replacement can be sent Express, and I'll note your request when I open the investigation. I can't say what they'll decide, and I don't want to promise something I can't confirm.\n\n**What I need from you**\n- Your **order number** (LF- followed by six digits), found in \"My Orders\" or your confirmation email.\n\nOnce I have it, the courier investigation takes up to **5 business days**. If the parcel is confirmed lost, we'll arrange your replacement. Your **$15 store credit** for the delay is still available too.\n\nThanks again, and please reach out any time!",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1572,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 867,
+  "output_tokens_details": {
+   "thinking_tokens": 460
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1572,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 867,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 1572,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1572
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 5912,
+ "output_tokens": 867,
+ "thinking_tokens": 460,
+ "latency_ms": 8036,
+ "wall_ms": 10822,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879569.4988241
+}

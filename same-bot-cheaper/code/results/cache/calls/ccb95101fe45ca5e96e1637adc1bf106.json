@@ -1,0 +1,50 @@
+{
+ "text": "Since your order was placed 3 hours ago, it's past the 2-hour window for free changes and is now in the packing queue, so you can't edit it online. Support can try to intercept it before it ships to change the address, but that isn't guaranteed. Once it ships, the address can't be changed.\n\n- **Address:** If you send me your order number (LF- plus six digits), I can pass this to support to attempt an intercept.\n- **Extra plant:** I can't find a way to add items to an existing order. You could place a separate new order, but I can't confirm it would be combined or shipped with the first.\n- **Promo code:** The policy I have doesn't cover applying a code after an order is placed, so I can't promise it. I can include it in the escalation for support to review.\n\nWould you like me to escalate this?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 454,
+  "cache_read_input_tokens": 1505,
+  "output_tokens": 600,
+  "output_tokens_details": {
+   "thinking_tokens": 348
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 454,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 600,
+    "cache_read_input_tokens": 1505,
+    "cache_creation_input_tokens": 454,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 454
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1961,
+ "output_tokens": 600,
+ "thinking_tokens": 348,
+ "latency_ms": 5751,
+ "wall_ms": 8640,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005299.2274442
+}

@@ -1,0 +1,49 @@
+{
+ "text": "I don't have a price adjustment policy in the information available to me, so I can't say whether Leafy offers price adjustments or what the conditions or timeframes would be. I don't want to guess and give you wrong details.\n\nHere's what I can do:\n- **Escalate your question** to a Support Lead, who can confirm whether a price adjustment is possible for your situation.\n- **Contact us by email** at help@leafy.example (answered within 1 business day), or by chat 8am-8pm Mon-Sat (your local time).\n\nIf you tell me your order number (it looks like LF-123456) and what happened, such as a price drop after you ordered, I can pass those details along. Please don't share full card numbers, security codes or passwords.\n\nIs there a particular order you're asking about?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1802,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 245,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1802,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 245,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1802,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1802
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1804,
+ "output_tokens": 245,
+ "thinking_tokens": 0,
+ "latency_ms": 3163,
+ "wall_ms": 6528,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880548.0854099
+}

@@ -1,0 +1,49 @@
+{
+ "text": "Thanks for checking, and great question! \ud83c\udf3f\n\nIf you wait until tonight (about 5 hours from now), you'll be past the **2-hour window** for free online changes. Once that passes, your order goes into the packing queue and can't be edited in \"My Orders\".\n\n- Support can **try** to intercept the order before it ships, but this isn't guaranteed.\n- Chat is open 8am-8pm Mon-Sat (your local time), so it may be closed by tonight. Email (help@leafy.example) is answered within 1 business day, which might be too slow if your order ships first.\n\n**If you can, add the pot within the next 1 hour 40 minutes.** That's the only way to be sure it's covered. Just check that \"My Orders\" shows an option to add an item, as I can't confirm that from my end.\n\nIf you miss the window, you could place a **separate order** for the pot. I can't promise it would ship together with your ZZ plant, and standard shipping is $7.95 (free on orders of $75+, after discounts and before tax). If you'd like, I can also look into whether support can intercept your original order, though I can't promise the outcome.\n\nHappy planting, and please reach out any time! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 950,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 797,
+  "output_tokens_details": {
+   "thinking_tokens": 416
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 950,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 797,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 950,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 950
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 5290,
+ "output_tokens": 797,
+ "thinking_tokens": 416,
+ "latency_ms": 7789,
+ "wall_ms": 10143,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879520.0907218
+}

@@ -1,0 +1,50 @@
+{
+ "text": "Possibly yes. Leafy Plus members get a **90-day** Plant Care Guarantee, so a plant that's 60 days from delivery is still inside the window, provided you ordered it while your membership was active.\n\nIf it qualifies (losing more than a third of its leaves, stem or root rot, or collapse), we send **one** free replacement of the same plant, or store credit if it's out of stock. To claim, go to \"My Orders\" and submit at least **two photos** (whole plant plus a close-up). A Plant Care Specialist will review within **2 business days**, and you don't need to send the plant back.\n\nNote that repotting into non-Leafy soil in the first 14 days, pests introduced after delivery, or deliberate neglect aren't covered. If you'd like help figuring out what's going wrong in the meantime, a Plant Care Specialist can give free advice by chat or email.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 446,
+  "cache_read_input_tokens": 1404,
+  "output_tokens": 286,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 446,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 286,
+    "cache_read_input_tokens": 1404,
+    "cache_creation_input_tokens": 446,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 446
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1852,
+ "output_tokens": 286,
+ "thinking_tokens": 0,
+ "latency_ms": 2742,
+ "wall_ms": 5679,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791007155.6120138
+}

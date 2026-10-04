@@ -1,0 +1,49 @@
+{
+ "text": "**Customer Summary:**\nCustomer inquired about Leafy Plus membership ($59/year, free shipping/returns, 90-day guarantee, 10% accessories discount, early rare plant access). Clarified express shipping excluded, promos don't combine with member pricing, 14-day refund window if unused. Customer asked about guarantee on pre-membership purchases. Explained: 90-day guarantee applies only to plants ordered while membership active; pre-membership plants covered by standard 30-day guarantee from delivery.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 716,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 112,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 716,
+    "output_tokens": 112,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 716,
+ "output_tokens": 112,
+ "thinking_tokens": 0,
+ "latency_ms": 1638,
+ "wall_ms": 4644,
+ "overhead": 379,
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1790868841.9990761
+}

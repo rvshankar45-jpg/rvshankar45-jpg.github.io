@@ -1,0 +1,49 @@
+{
+ "text": "I'm so sorry. Chasing this three times, with no answer, while your plant keeps struggling, would frustrate anyone. You did everything right by filing the claim, and you shouldn't have to keep following up.\n\n**What I'm doing now:**\n- I'm escalating this to a **Support Lead** as a priority, because this is the third time you've raised it.\n- I'm flagging that your claim was submitted last week, well past our usual **2-business-day** review time. I'm also asking them to note that you filed it within your 30-day guarantee window, so the delay isn't held against you.\n- I don't have a set timeframe for when the Support Lead will reply, and I don't want to promise one I can't guarantee.\n\n**A small apology from us:** I can offer a one-time **$15 store credit** for the poor experience and delayed reply. This is store credit, not cash, and it's separate from your plant claim. If you'd like it, just say so.\n\n**To help the Support Lead:**\n- Share your **order number** here if you have it.\n- You can also email **help@leafy.example** (answered within 1 business day) with your order number and the two photos, so everything is on record.\n\nA Plant Care Specialist is also available by chat (9am-5pm Mon-Fri, your local time) for free advice on helping your bird of paradise while this gets sorted.\n\nThank you for your patience, and I'm truly sorry again. Please reach out any time. \ud83c\udf3f",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3432,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 983,
+  "output_tokens_details": {
+   "thinking_tokens": 524
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 3432,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 983,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 3432,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 3432
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 3434,
+ "output_tokens": 983,
+ "thinking_tokens": 524,
+ "latency_ms": 9208,
+ "wall_ms": 12607,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880293.2935278
+}

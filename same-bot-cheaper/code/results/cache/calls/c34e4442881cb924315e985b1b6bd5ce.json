@@ -1,0 +1,49 @@
+{
+ "text": "Thanks for asking before the window closes! \ud83c\udf3f\n\nUnfortunately, **promo codes can't be added after an order has been placed**, even within the 2-hour change window. That means I can't apply one to your ZZ plant order.\n\nFor future orders, a few things are handy to know:\n\n- You can use **one promo code per order**, entered at checkout.\n- Promo codes can't be combined with Leafy Plus member pricing on the same item. The better discount applies automatically.\n\nIf you'd like to talk through this with our support team, I'm happy to pass your request along, but I can't promise a different outcome.\n\nIs there anything else I can help with? Happy planting! \ud83e\udeb4",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1131,
+  "cache_read_input_tokens": 2187,
+  "output_tokens": 449,
+  "output_tokens_details": {
+   "thinking_tokens": 238
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1131,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 449,
+    "cache_read_input_tokens": 2187,
+    "cache_creation_input_tokens": 1131,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1131
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 3320,
+ "output_tokens": 449,
+ "thinking_tokens": 238,
+ "latency_ms": 4231,
+ "wall_ms": 7177,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880204.5860264
+}

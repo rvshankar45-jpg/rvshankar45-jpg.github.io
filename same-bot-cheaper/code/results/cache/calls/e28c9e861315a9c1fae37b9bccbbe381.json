@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry your order is late. Since tracking has been stuck since Monday, it has now gone 4 business days without moving, which is the point where we can open a courier investigation.\n\n- **Investigation:** It takes up to 5 business days.\n- **If the package is lost:** You choose either a free replacement or a full refund.\n- **If it shows as delivered but nothing arrived:** We can investigate that the same way.\n\nTo open the investigation, please send me your order number (LF- followed by six digits, e.g. LF-204518). You don't need to share any card details.\n\nIt's also worth checking your email for a weather-hold notice, since live plants can be held up to 7 days if forecasts are below 35\u00b0F or above 95\u00b0F. If you find one, tell me and we can take it from there.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 442,
+  "cache_read_input_tokens": 1705,
+  "output_tokens": 766,
+  "output_tokens_details": {
+   "thinking_tokens": 521
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 442,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 766,
+    "cache_read_input_tokens": 1705,
+    "cache_creation_input_tokens": 442,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 442
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2149,
+ "output_tokens": 766,
+ "thinking_tokens": 521,
+ "latency_ms": 7363,
+ "wall_ms": 9774,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004968.3058217
+}

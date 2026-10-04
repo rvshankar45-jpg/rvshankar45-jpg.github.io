@@ -1,0 +1,471 @@
+{
+ "01_cost_waterfall": {
+  "title": "Same chatbot, 64% cheaper - retrieval did 50% of the work",
+  "numbers": {
+   "v1": 1.95251,
+   "v2": 0.694762,
+   "deltas": {
+    "plus_route": -0.197544,
+    "plus_retrieve": -0.63037,
+    "plus_trim": -0.009063,
+    "plus_tight_cache": -0.209011,
+    "v2_full": -0.21176
+   },
+   "pct_cheaper": 64,
+   "biggest_step": "plus_retrieve",
+   "biggest_share_pct": 50,
+   "_clipped_text": [],
+   "_min_font_pt": 10.5,
+   "_axis_labels": [
+    [
+     "",
+     "Cost (US$)"
+    ]
+   ],
+   "_ylims": [
+    [
+     0.0,
+     2.3039617999999997
+    ]
+   ],
+   "_bar_axes": [
+    true
+   ]
+  }
+ },
+ "02_tokens_per_answer": {
+  "title": "v2 sends 66% fewer tokens per answer",
+  "numbers": {
+   "in": {
+    "v1_naive": 4509.0,
+    "v2_full": 1480.2
+   },
+   "out": {
+    "v1_naive": 492.8,
+    "v2_full": 232.0
+   },
+   "total": {
+    "v1_naive": 5001.9,
+    "v2_full": 1712.2
+   },
+   "pct_fewer": 66,
+   "_clipped_text": [],
+   "_min_font_pt": 10.5,
+   "_axis_labels": [
+    [
+     "Tokens per answer",
+     ""
+    ]
+   ],
+   "_ylims": [
+    [
+     0.0,
+     7252.723928571429
+    ]
+   ],
+   "_bar_axes": [
+    true
+   ]
+  }
+ },
+ "03_quality_by_variant": {
+  "title": "Retrieval cost the most quality; the cached full KB beat v1",
+  "numbers": {
+   "quality": {
+    "v1_naive": 4.6286,
+    "plus_route": 4.5571,
+    "plus_retrieve": 4.3429,
+    "plus_trim": 4.3857,
+    "plus_tight_cache": 4.4,
+    "v2_full": 4.4857,
+    "cache_full_kb": 4.8
+   },
+   "_clipped_text": [],
+   "_min_font_pt": 10.5,
+   "_axis_labels": [
+    [
+     "",
+     "Quality (1-5)"
+    ]
+   ],
+   "_ylims": [
+    [
+     1.0,
+     5.0
+    ]
+   ],
+   "_bar_axes": [
+    true
+   ]
+  }
+ },
+ "04_threshold_sweep": {
+  "title": "Raise Laya's threshold past 0.50 and complex-query quality falls fast",
+  "numbers": {
+   "recommended": 0.5,
+   "rec_cost": 0.4560539999999999,
+   "rec_cx_quality": 4.315789473684211,
+   "next_cx_quality": 4.0,
+   "sweep": {
+    "threshold": [
+     0.3,
+     0.35,
+     0.4,
+     0.45,
+     0.5,
+     0.55,
+     0.6,
+     0.65,
+     0.7,
+     0.75,
+     0.8
+    ],
+    "total_cost": [
+     0.5112,
+     0.5037,
+     0.4898,
+     0.4764,
+     0.4561,
+     0.4043,
+     0.3183,
+     0.2723,
+     0.2165,
+     0.1753,
+     0.1546
+    ],
+    "quality_complex": [
+     4.3158,
+     4.3158,
+     4.3158,
+     4.3158,
+     4.3158,
+     4.0,
+     3.6579,
+     3.5,
+     3.2632,
+     3.1579,
+     3.0789
+    ]
+   },
+   "_clipped_text": [],
+   "_min_font_pt": 10.5,
+   "_axis_labels": [
+    [
+     "Total cost, 100 queries (US$)",
+     "Quality on complex queries (1-5)"
+    ]
+   ],
+   "_ylims": [
+    [
+     3.017105263157895,
+     4.377631578947368
+    ]
+   ],
+   "_bar_axes": [
+    false
+   ]
+  }
+ },
+ "05_routing_confusion": {
+  "title": "Off-the-shelf Laya sent 45 of 62 simple queries to Sonnet",
+  "numbers": {
+   "matrix": {
+    "cheap": {
+     "simple": 17,
+     "complex": 3
+    },
+    "strong": {
+     "simple": 45,
+     "complex": 35
+    }
+   },
+   "_clipped_text": [],
+   "_min_font_pt": 10.5,
+   "_axis_labels": [
+    [
+     "",
+     ""
+    ]
+   ],
+   "_ylims": [
+    [
+     1.5,
+     -0.5
+    ]
+   ],
+   "_bar_axes": [
+    false
+   ]
+  }
+ },
+ "06_latency": {
+  "title": "v2 answers faster: median 2.7s vs 3.9s",
+  "numbers": {
+   "p50_s": {
+    "v1_naive": 3.891,
+    "plus_route": 4.092,
+    "plus_retrieve": 3.789,
+    "plus_trim": 3.965,
+    "plus_tight_cache": 3.549,
+    "v2_full": 2.69,
+    "cache_full_kb": 3.626
+   },
+   "p95_s": {
+    "v1_naive": 9.038,
+    "plus_route": 9.182,
+    "plus_retrieve": 9.221,
+    "plus_trim": 9.266,
+    "plus_tight_cache": 8.418,
+    "v2_full": 6.285,
+    "cache_full_kb": 9.339
+   },
+   "_clipped_text": [],
+   "_min_font_pt": 10.5,
+   "_axis_labels": [
+    [
+     "",
+     "Seconds"
+    ]
+   ],
+   "_ylims": [
+    [
+     0.0,
+     11.67405624999999
+    ]
+   ],
+   "_bar_axes": [
+    true
+   ]
+  }
+ },
+ "07_projected_monthly_cost": {
+  "title": "At 1M answers a month, v2 saves $8,984",
+  "numbers": {
+   "per_answer": {
+    "v1_naive": 0.0139465,
+    "v2_full": 0.004962585714285714
+   },
+   "volumes": [
+    10000,
+    100000,
+    1000000
+   ],
+   "proj": {
+    "v1_naive": [
+     139.465,
+     1394.65,
+     13946.5
+    ],
+    "v2_full": [
+     49.62585714285714,
+     496.25857142857143,
+     4962.585714285714
+    ]
+   },
+   "saving_1m": 8983.914285714287,
+   "_clipped_text": [],
+   "_min_font_pt": 10.5,
+   "_axis_labels": [
+    [
+     "",
+     "US$ per month (log scale)"
+    ]
+   ],
+   "_ylims": [
+    [
+     37.43433827308032,
+     18488.5601982329
+    ]
+   ],
+   "_bar_axes": [
+    true
+   ]
+  }
+ },
+ "08_routing_scatter": {
+  "title": "Laya kept quality (4.60 vs 4.63) but saved only 12% until trained",
+  "numbers": {
+   "cost": {
+    "Always Sonnet": 0.5172280000000001,
+    "Always Haiku": 0.15456,
+    "Laya (zero-shot)": 0.4560539999999999,
+    "LLM router (Haiku)": 0.3216259999999999,
+    "Oracle (hand labels)": 0.33647,
+    "Laya + trained head": 0.414879
+   },
+   "quality": {
+    "Always Sonnet": 4.63,
+    "Always Haiku": 3.91,
+    "Laya (zero-shot)": 4.6,
+    "LLM router (Haiku)": 4.28,
+    "Oracle (hand labels)": 4.4,
+    "Laya + trained head": 4.54
+   },
+   "laya_pct_saving": 12,
+   "_clipped_text": [],
+   "_min_font_pt": 10.5,
+   "_axis_labels": [
+    [
+     "Total cost, 100 queries (US$) - lower is better",
+     "Mean quality (1-5) - higher is better"
+    ]
+   ],
+   "_ylims": [
+    [
+     3.8,
+     4.75
+    ]
+   ],
+   "_bar_axes": [
+    false
+   ]
+  }
+ },
+ "09_quality_simple_vs_complex": {
+  "title": "Haiku is weaker even on simple queries: 4.42 vs Sonnet's 4.79",
+  "numbers": {
+   "simple": {
+    "always_strong": 4.7903,
+    "always_cheap": 4.4194,
+    "laya": 4.7742,
+    "llm_router": 4.4839,
+    "oracle": 4.4194
+   },
+   "complex": {
+    "always_strong": 4.3684,
+    "always_cheap": 3.0789,
+    "laya": 4.3158,
+    "llm_router": 3.9474,
+    "oracle": 4.3684
+   },
+   "_clipped_text": [],
+   "_min_font_pt": 10.5,
+   "_axis_labels": [
+    [
+     "",
+     "Quality (1-5)"
+    ]
+   ],
+   "_ylims": [
+    [
+     1.0,
+     5.2
+    ]
+   ],
+   "_bar_axes": [
+    true
+   ]
+  }
+ },
+ "10_router_overhead": {
+  "title": "Laya adds no API tokens; the LLM router adds 136 per query",
+  "numbers": {
+   "laya_ms": 193.8155500101857,
+   "llm_router_ms": 1176.5,
+   "laya_tokens_per_q": 0.0,
+   "llm_router_tokens_per_q": 136.46,
+   "_clipped_text": [],
+   "_min_font_pt": 10.5,
+   "_axis_labels": [
+    [
+     "",
+     ""
+    ],
+    [
+     "",
+     ""
+    ]
+   ],
+   "_ylims": [
+    [
+     0.0,
+     1235.325
+    ],
+    [
+     0.0,
+     143.28300000000002
+    ]
+   ],
+   "_bar_axes": [
+    true,
+    true
+   ]
+  }
+ },
+ "11_trained_router_head": {
+  "title": "270 labelled examples took Laya from 12% to 20% savings",
+  "numbers": {
+   "saving_pct": {
+    "laya_zero_shot@0.50": 11.83,
+    "length_rule": 12.61,
+    "minilm_head": 14.78,
+    "laya_head": 19.79,
+    "hindsight_ceiling": 38.38
+   },
+   "quality": {
+    "laya_zero_shot@0.50": 4.6,
+    "length_rule": 4.59,
+    "minilm_head": 4.58,
+    "laya_head": 4.54,
+    "hindsight_ceiling": 4.68
+   },
+   "_clipped_text": [],
+   "_min_font_pt": 10.5,
+   "_axis_labels": [
+    [
+     "",
+     "Saving vs always-Sonnet (%)"
+    ]
+   ],
+   "_ylims": [
+    [
+     0.0,
+     51.81427726263854
+    ]
+   ],
+   "_bar_axes": [
+    true
+   ]
+  }
+ },
+ "12_effort_levels": {
+  "title": "Sonnet on low effort was cheapest; high effort cost 28% more",
+  "numbers": {
+   "cost": {
+    "always_strong": 0.263634,
+    "sonnet_low": 0.240644,
+    "sonnet_medium": 0.259444,
+    "sonnet_high": 0.307074
+   },
+   "thinking_tokens": {
+    "always_strong": 0,
+    "sonnet_low": 1683,
+    "sonnet_medium": 3433,
+    "sonnet_high": 8335
+   },
+   "quality": {
+    "always_strong": 4.62,
+    "sonnet_low": 4.66,
+    "sonnet_medium": 4.62,
+    "sonnet_high": 4.66
+   },
+   "_clipped_text": [],
+   "_min_font_pt": 10.5,
+   "_axis_labels": [
+    [
+     "",
+     "Cost, 50 queries (US$)"
+    ]
+   ],
+   "_ylims": [
+    [
+     0.0,
+     0.4299036
+    ]
+   ],
+   "_bar_axes": [
+    true
+   ]
+  }
+ }
+}

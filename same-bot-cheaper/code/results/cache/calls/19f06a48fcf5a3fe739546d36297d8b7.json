@@ -1,0 +1,50 @@
+{
+ "text": "I understand your peace lily is wilting\u2014that's frustrating. However, I can't approve a replacement because repotting into non-Leafy soil within the first 14 days isn't covered by our Plant Care Guarantee.\n\n**Here's what likely happened:** Garden soil retains too much moisture and lacks the drainage our plants need, which typically causes wilting. The good news is this is often recoverable! \n\nI'd recommend repotting it back into well-draining potting soil (or Leafy soil) as soon as possible and watering only when the top inch of soil is dry. If the plant doesn't improve or if there's root rot, you can still claim under the guarantee within your 30-day window\u2014just submit photos from \"My Orders.\"\n\nOur Plant Care Specialists can also give you free advice by chat or email if you'd like specific help with recovery. Would that help?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1164,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 199,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1164,
+    "output_tokens": 199,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1164,
+ "output_tokens": 199,
+ "thinking_tokens": 0,
+ "latency_ms": 3095,
+ "wall_ms": 6361,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791101071.422245
+}

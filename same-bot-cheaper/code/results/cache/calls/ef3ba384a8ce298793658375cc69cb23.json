@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry the replacement didn't make it either. Yes, a replacement plant gets its own new 30-day guarantee from its delivery date, so you can get one more replacement if it died within that window despite reasonable care.\n\nTo claim, go to \"My Orders\" and submit at least two photos (whole plant and a close-up). A Plant Care Specialist will review within 2 business days, and you don't need to send the plant back. Please note that the plant sent as this second replacement won't have a guarantee.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 443,
+  "cache_read_input_tokens": 1354,
+  "output_tokens": 448,
+  "output_tokens_details": {
+   "thinking_tokens": 289
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 443,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 448,
+    "cache_read_input_tokens": 1354,
+    "cache_creation_input_tokens": 443,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 443
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1799,
+ "output_tokens": 448,
+ "thinking_tokens": 289,
+ "latency_ms": 6753,
+ "wall_ms": 9656,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791007461.1761172
+}

@@ -1,0 +1,50 @@
+{
+ "text": "Plant Club boxes ship in the **first full week of each month**. You're billed on the **25th of the previous month**: Starter is $29 and Collector is $49. Live plants generally ship Monday to Wednesday only, so your box will go out on one of those days. Policy doesn't give an exact ship date for each month, and transit weather holds can delay live plants by up to 7 days, with an email to you if that happens.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 426,
+  "cache_read_input_tokens": 1588,
+  "output_tokens": 338,
+  "output_tokens_details": {
+   "thinking_tokens": 204
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 426,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 338,
+    "cache_read_input_tokens": 1588,
+    "cache_creation_input_tokens": 426,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 426
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2016,
+ "output_tokens": 338,
+ "thinking_tokens": 204,
+ "latency_ms": 3679,
+ "wall_ms": 6727,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791007435.0068488
+}

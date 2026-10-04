@@ -1,0 +1,50 @@
+{
+ "text": "I'm really sorry to hear that\u2014that's upsetting and we'll help you sort this out quickly.\n\n**Here's what to do right now:**\n\n1. **Reset your password immediately** from the login screen to lock out whoever accessed your account.\n2. **Contact your bank or card issuer** to dispute the charge and consider blocking/replacing the card.\n3. **Tell us the order number** (looks like `LF-` plus six digits) so we can investigate and act fast.\n\nBecause this is a security issue and a potential charge dispute, **I'm escalating you to a Support Lead right now**\u2014they have tools to investigate and reverse the order if it hasn't shipped. They may also ask for the last four digits of the card used (never the full number).\n\nYou can also email **help@leafy.example** with your order number and a brief note that your account was compromised; that goes to the support team within 1 business day.\n\nIs there anything else you need help with while we get this sorted?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1573,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 228,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1573,
+    "output_tokens": 228,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1573,
+ "output_tokens": 228,
+ "thinking_tokens": 0,
+ "latency_ms": 3372,
+ "wall_ms": 6188,
+ "overhead": 379,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791006892.3825853
+}

@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry, that's frustrating, especially when you needed the plant for an event.\n\nI can't approve a free replacement. When a weather hold is waived, the Plant Care Guarantee no longer covers cold or heat damage in transit, and Damaged on Arrival claims for cold or heat damage aren't accepted.\n\nHere is what I can do:\n- **Escalate to a Support Lead.** An exception is outside what I can approve, but a Support Lead can review your case. I can't promise the outcome. Please send your order number (it looks like LF-123456) so I can pass it along.\n- **Offer a one-time goodwill credit of up to $15** in Leafy store credit. It's issued instantly and never expires, but it isn't cash and wouldn't cover the full cost of a replacement.\n\nWould you like me to escalate, take the goodwill credit, or both?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 452,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 609,
+  "output_tokens_details": {
+   "thinking_tokens": 329
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 452,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 609,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 452,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 452
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4310,
+ "output_tokens": 609,
+ "thinking_tokens": 329,
+ "latency_ms": 5552,
+ "wall_ms": 8645,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005816.1995504
+}

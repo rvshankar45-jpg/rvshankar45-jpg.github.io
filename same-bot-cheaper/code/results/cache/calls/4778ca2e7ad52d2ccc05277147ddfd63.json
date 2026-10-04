@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thanks so much for reaching out to Leafy! \ud83c\udf3f\n\n**Live plants ship Monday through Wednesday only.**\n\nA few helpful details:\n\n- **Orders placed after 12 noon on Wednesday** will ship the following Monday.\n- **Non-living items** (pots, soil, tools, accessories) ship Monday to Friday. If you order plants and non-living items together, everything ships together on a plant shipping day.\n- **Weather holds:** if the forecast during transit is below 35\u00b0F or above 95\u00b0F, your plants may be held for up to 7 days to keep them safe. We'll email you if that happens.\n\nOnce your order ships, you'll get a tracking email, and it can take up to 24 hours to update.\n\nIf you have any other questions, I'm happy to help. Happy planting! \ud83e\udeb4",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 428,
+  "cache_read_input_tokens": 4679,
+  "output_tokens": 265,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 428,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 265,
+    "cache_read_input_tokens": 4679,
+    "cache_creation_input_tokens": 428,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 428
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 5109,
+ "output_tokens": 265,
+ "thinking_tokens": 0,
+ "latency_ms": 2889,
+ "wall_ms": 8781,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790786980.757749
+}

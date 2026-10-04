@@ -1,0 +1,50 @@
+{
+ "text": "Yes, you can return an opened bag of soil, **but only if it's faulty**. \n\nAccording to our policy:\n- Opened soil **cannot be returned for change of mind**\n- Opened soil **can be returned if it's faulty** (e.g., contaminated, wrong product, defective)\n\n**To return faulty soil:**\n1. Report it within **48 hours** of delivery with photos of the item and packaging\n2. Start the return from \"My Orders\" \u2014 you'll get a prepaid label (valid for **7 days**)\n3. Drop it off within **7 days**\n4. Refund issued within **5 business days** of reaching our warehouse\n\nIs the soil faulty, or were you looking to return it for another reason? If there's an issue with it, I can help you get that sorted.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1069,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 194,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1069,
+    "output_tokens": 194,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1069,
+ "output_tokens": 194,
+ "thinking_tokens": 0,
+ "latency_ms": 2673,
+ "wall_ms": 5919,
+ "overhead": 379,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791004658.357152
+}

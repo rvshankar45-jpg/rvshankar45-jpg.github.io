@@ -1,0 +1,50 @@
+{
+ "text": "Sorry the box arrived in that state. Under our policy, a few bent leaves and some loose soil are considered normal in transit, so they don't count as damage and don't qualify for a replacement on their own.\n\nA replacement or refund is available if the plant arrived with snapped main stems, a cracked or smashed pot, exposed roots, or if it's dead or severely wilted. If you see any of those, report it within **48 hours** of delivery with photos of the plant and the box.\n\nIf the plant later declines significantly (losing more than a third of its leaves, stem or root rot, or collapse), you can also claim under the Plant Care Guarantee within 30 days of delivery (90 days for Leafy Plus members). Our Plant Care Specialists are also happy to give free care advice if you'd like help getting it settled.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 443,
+  "cache_read_input_tokens": 1271,
+  "output_tokens": 261,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 443,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 261,
+    "cache_read_input_tokens": 1271,
+    "cache_creation_input_tokens": 443,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 443
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1716,
+ "output_tokens": 261,
+ "thinking_tokens": 0,
+ "latency_ms": 2709,
+ "wall_ms": 5816,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791101388.4069786
+}

@@ -1,0 +1,49 @@
+{
+ "text": "Our return window depends on what you're returning.\n\n**Non-living items (pots, tools, soil, fertiliser, grow lights, accessories)**\n- You have **30 days from delivery** to return them, unused and in original packaging.\n- Opened soil or fertiliser can't be returned unless it's faulty.\n- Start the return from \"My Orders\". A prepaid label is emailed to you, and it expires after **7 days**, so drop the parcel off within that time.\n- Faulty or incorrect items return free. Change-of-mind returns cost a flat **$6.95**, deducted from your refund (free for Leafy Plus members).\n- Refunds go to your original payment method within **5 business days** of the return reaching our warehouse.\n\n**Live plants**\n- Live plants **can't be returned** for change of mind. If there's a problem, one of these applies:\n  - **Damaged on arrival:** report it within **48 hours** of delivery, with photos of the item and the box.\n  - **Plant Care Guarantee:** if the plant dies or declines significantly despite reasonable care, claim within **30 days** of delivery (**90 days** for Leafy Plus members). You'll need at least two photos, and a specialist reviews the claim within **2 business days**.\n\nIf you tell me what you'd like to return, I can point you to the right option.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 4277,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 545,
+  "output_tokens_details": {
+   "thinking_tokens": 116
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4277,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 545,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 4277,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4277
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4279,
+ "output_tokens": 545,
+ "thinking_tokens": 116,
+ "latency_ms": 4047,
+ "wall_ms": 7044,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790868861.2718728
+}

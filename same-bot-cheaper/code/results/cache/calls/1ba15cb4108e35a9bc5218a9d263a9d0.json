@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry, that's a frustrating thing to happen, especially when you needed the plant for an event.\n\nUnfortunately, I can't offer a free replacement in this case. When a customer waives the weather hold, our policy says:\n\n- The Plant Care Guarantee still applies, **except for cold or heat damage in transit**.\n- DOA claims for cold or heat damage are **not accepted**.\n\nSince the plant arrived frozen from cold in transit after the hold was waived, it falls under that exclusion, both as a DOA claim and as a Plant Care Guarantee claim.\n\nThe policy excerpts I have don't list any other exceptions or goodwill options for this situation. If you'd like, I can escalate your case to a Support Lead so they can review it, but I can't promise a particular outcome.\n\nGoing forward, the weather hold can delay live plants for up to 7 days when transit forecasts are below 35\u00b0F or above 95\u00b0F. In winter, a free heat pack can be added at checkout.\n\nWould you like me to escalate this to a Support Lead?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1932,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 339,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1932,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 339,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1932,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1932
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1934,
+ "output_tokens": 339,
+ "thinking_tokens": 0,
+ "latency_ms": 3728,
+ "wall_ms": 6976,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004806.7814121
+}

@@ -1,0 +1,49 @@
+{
+ "text": "The **Plant Club Starter plan is $29/month**.\n\nThis includes one surprise plant a month in a 4-inch pot, selected based on your light level. You'll be charged on the 25th of the previous month, and your box ships in the first full week of the month.\n\nYou can skip, pause, or cancel anytime from your Account settings with no cancellation fee or minimum term. Is there anything else you'd like to know about Plant Club?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1537,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 103,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1537,
+    "output_tokens": 103,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1537,
+ "output_tokens": 103,
+ "thinking_tokens": 0,
+ "latency_ms": 1695,
+ "wall_ms": 4543,
+ "overhead": 379,
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1790880410.5639663
+}

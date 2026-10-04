@@ -1,0 +1,50 @@
+{
+ "text": "Yes, it can be covered. Because your rubber plant arrived this morning, you're within the **30-day Plant Care Guarantee** from delivery (**90 days** if you're a Leafy Plus member and the plant was ordered while your membership was active).\n\n**What counts:** The plant dies or declines significantly despite reasonable care. That means losing more than a third of its leaves, stem or root rot, or collapse. Yellowing of one or two older leaves in the first two weeks is normal transplant stress and isn't covered on its own.\n\n**How to claim:**\n- Go to \"My Orders\" within the guarantee window.\n- Upload at least **two photos**: the whole plant and a close-up.\n- A Plant Care Specialist reviews it within **2 business days**.\n- You don't need to send the plant back.\n\n**What you'd get:** One free replacement of the same plant, or store credit if it's out of stock.\n\n**Not covered:**\n- Repotting into non-Leafy soil in the first 14 days.\n- Pests introduced after delivery, or deliberate neglect.\n- Claims made after the window.\n\n**Your damaged pot:** A DOA replacement doesn't use up the guarantee's one replacement, so the two are separate.\n\n**Care tips for the first weeks:**\n- Keep the plant out of direct sun for the first week.\n- Don't repot for 2-3 weeks.\n- Water only when the top inch of soil is dry, as overwatering causes most early problems.\n\nIf you'd like care advice at any point, a Plant Care Specialist can help by chat or email.\n\nWould you like me to escalate your cracked-pot report now, and do you prefer a replacement or a refund?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1084,
+  "cache_read_input_tokens": 1071,
+  "output_tokens": 543,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1084,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 543,
+    "cache_read_input_tokens": 1071,
+    "cache_creation_input_tokens": 1084,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1084
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2157,
+ "output_tokens": 543,
+ "thinking_tokens": 0,
+ "latency_ms": 4112,
+ "wall_ms": 6790,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004857.0895772
+}

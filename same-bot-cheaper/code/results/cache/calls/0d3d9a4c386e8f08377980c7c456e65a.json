@@ -1,0 +1,50 @@
+{
+ "text": "Unfortunately not. Live plants can't be shipped to PO boxes, whatever the shipping speed. PO boxes are for non-living items only (pots, soil, accessories).\n\nYou can still get the monstera by Express if you ship it to a street address, such as your home, workplace or a friend's place:\n\n- **Cost:** Express is $14.95. It's never free, including for Leafy Plus members.\n- **Delivery time:** Next business day in Zone 1 (under 300 miles from our nearest greenhouse), or 2 business days in Zone 2 (300-1,000 miles). Express isn't available in Zone 3 (over 1,000 miles, or remote and island addresses). There, Standard takes 5-8 business days.\n- **Shipping days:** Live plants ship Monday to Wednesday only. Orders placed after 12 noon on Wednesday ship the following Monday.\n- **XL plants:** If the monstera is an XL size (usually over 4 ft), it ships Standard only, with an extra $20 handling fee, so Express wouldn't be an option.\n\nIf you give me the zip code of the street address you'd like to use, I can tell you which zone it falls in. Or I can help with anything else on your order.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 434,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 627,
+  "output_tokens_details": {
+   "thinking_tokens": 230
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 434,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 627,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 434,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 434
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4292,
+ "output_tokens": 627,
+ "thinking_tokens": 230,
+ "latency_ms": 5618,
+ "wall_ms": 8150,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005623.897195
+}

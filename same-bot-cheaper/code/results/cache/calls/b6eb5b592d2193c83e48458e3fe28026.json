@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thanks for contacting Leafy! \ud83c\udf3f\n\nThe **Collector** plan of Plant Club is **$49/month**. Each month you'll get a surprise medium or rare plant in a 6-inch pot, picked for your light level.\n\nA few handy details:\n- **Billing:** You're charged on the **25th** of the month before your box ships.\n- **Shipping:** Boxes go out in the first full week of the month.\n- **Flexibility:** You can skip, pause (up to 3 months), change plan or cancel anytime under \"Account\" > \"Subscriptions\". There's no cancellation fee or minimum term.\n\nIf you'd like a smaller option, the **Starter** plan is $29/month for a small plant in a 4-inch pot.\n\nIs there anything else I can help you with? We're always happy to hear from you! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 422,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 272,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 422,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 272,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 422,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 422
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4762,
+ "output_tokens": 272,
+ "thinking_tokens": 0,
+ "latency_ms": 2623,
+ "wall_ms": 5675,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879111.1522453
+}

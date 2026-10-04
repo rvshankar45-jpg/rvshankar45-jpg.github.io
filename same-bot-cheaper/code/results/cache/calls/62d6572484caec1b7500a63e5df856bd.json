@@ -1,0 +1,50 @@
+{
+ "text": "Understood, thanks for bearing with me. Going back to the card ending 7712, the refund is issued within 3 business days of the duplicate being confirmed. It then takes 5-10 business days to show up (3-5 if you paid with a digital wallet), so roughly 8-13 business days in total for a card payment. Our policy doesn't say how long your bank takes to pass it to your replacement card, so I can't give a timeframe for that step.\n\nStore credit would be instant once the refund is issued, which is still within those same 3 business days of confirmation.\n\nI can't confirm the duplicate from this chat, so would you like me to escalate to a Support Lead to get that started?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 984,
+  "cache_read_input_tokens": 1797,
+  "output_tokens": 528,
+  "output_tokens_details": {
+   "thinking_tokens": 313
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 984,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 528,
+    "cache_read_input_tokens": 1797,
+    "cache_creation_input_tokens": 984,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 984
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2783,
+ "output_tokens": 528,
+ "thinking_tokens": 313,
+ "latency_ms": 4863,
+ "wall_ms": 8364,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005370.913252
+}

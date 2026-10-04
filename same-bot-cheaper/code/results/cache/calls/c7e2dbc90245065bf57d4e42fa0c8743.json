@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! I'm so sorry your plant arrived with a snapped main stem. That's really disappointing, especially when you were excited to get it.\n\n**The 48-hour window**\n- Our damaged-on-arrival (DOA) replacement process needs a report within **48 hours** of delivery. Since your plant arrived 3 days ago, that window has passed.\n- Plant issues after 48 hours go through our **Plant Care Guarantee** instead.\n\n**Your next step: a Plant Care Guarantee claim**\n- Every live plant has a **30-day guarantee** from delivery (**90 days** for Leafy Plus members, on plants ordered while the membership was active).\n- Go to **\"My Orders\"** and submit a claim with at least **two photos**: one of the whole plant and one close-up of the snapped stem.\n- A Plant Care Specialist will review it within **2 business days**. You don't need to send the plant back.\n- If it's approved, we send **one free replacement** of the same plant (or store credit if it's out of stock).\n\n**What to know**\n- The guarantee covers significant decline, such as collapse, stem or root rot, or losing more than a third of the plant's leaves or stem. The specialist will assess your photos, so I can't promise the outcome, but you're well within the claim window.\n- If you feel the claim should be treated as a DOA because of the timing, tell me and I'll escalate it to a Support Lead to review.\n\nYou can also chat with a Plant Care Specialist for free advice on helping your plant recover in the meantime.\n\nIs there anything else I can help with? I'm always happy to help, and I hope your plant is thriving soon! \ud83c\udf3f",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2191,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 909,
+  "output_tokens_details": {
+   "thinking_tokens": 356
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2191,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 909,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2191,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2191
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2193,
+ "output_tokens": 909,
+ "thinking_tokens": 356,
+ "latency_ms": 7722,
+ "wall_ms": 10773,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879970.34
+}

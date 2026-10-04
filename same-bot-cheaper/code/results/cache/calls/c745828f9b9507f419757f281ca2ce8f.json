@@ -1,0 +1,50 @@
+{
+ "text": "Since there was no reply within 3 days, the fern should have been automatically refunded. The refund covers that item only, and it goes back to your original payment method.\n\nThe policy I have doesn't say how long the refund takes to appear, so I can't give you a date. If you don't see it, or want to confirm it went through, I can escalate this to a Support Lead. If you give me your order number (LF- plus six digits), I can include it in the escalation.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 446,
+  "cache_read_input_tokens": 1096,
+  "output_tokens": 138,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 446,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 138,
+    "cache_read_input_tokens": 1096,
+    "cache_creation_input_tokens": 446,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 446
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1544,
+ "output_tokens": 138,
+ "thinking_tokens": 0,
+ "latency_ms": 7701,
+ "wall_ms": 10354,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791007138.7794414
+}

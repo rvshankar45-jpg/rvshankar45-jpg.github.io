@@ -1,0 +1,50 @@
+{
+ "text": "Sorry the replacement didn't make it. Yes, you can claim again: a replacement fern has its own new 30-day guarantee from delivery, and at 3 weeks in you're still within it.\n\nSubmit the claim from \"My Orders\" with at least two photos (the whole plant and a close-up). A Plant Care Specialist will review it within 2 business days, and you don't need to send the plant back. Note that the plant sent as this second replacement won't carry a guarantee of its own.\n\nClaims aren't covered if the plant was repotted into non-Leafy soil in the first 14 days, or if the damage came from pets, pests introduced after delivery, or neglect. If you'd like help figuring out what went wrong before getting a third fern, a Plant Care Specialist can give free care advice by chat or email.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 457,
+  "cache_read_input_tokens": 1354,
+  "output_tokens": 432,
+  "output_tokens_details": {
+   "thinking_tokens": 173
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 457,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 432,
+    "cache_read_input_tokens": 1354,
+    "cache_creation_input_tokens": 457,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 457
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1813,
+ "output_tokens": 432,
+ "thinking_tokens": 173,
+ "latency_ms": 3996,
+ "wall_ms": 7156,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100802.8025653
+}

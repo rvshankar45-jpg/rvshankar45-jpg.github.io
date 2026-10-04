@@ -1,0 +1,49 @@
+{
+ "text": "I'm sorry your order has had a rough start. Here's where each issue stands.\n\n**1. Yellow leaves on your monstera**\n- It counts as damaged on arrival only if the main stems are snapped, the pot is cracked, the roots are exposed, or the plant is dead or severely wilted. Report that within **48 hours** of delivery, with photos of the plant and the box. We'd then send a free replacement on the next plant shipping day, or refund you.\n- Yellowing of one or two older leaves in the first two weeks is normal transplant stress, and it isn't covered on its own.\n- If the plant declines significantly, meaning it loses more than a third of its leaves, gets stem or root rot, or collapses, the 30-day Plant Care Guarantee applies. Submit a claim from \"My Orders\" with at least two photos (the whole plant and a close-up). A Plant Care Specialist reviews it within **2 business days**, and you don't have to send the plant back.\n- Meanwhile, keep it out of direct sun for the first week, don't repot for 2-3 weeks, and water only when the top inch of soil is dry.\n\nWhen was it delivered, and how many leaves are yellow? That tells me which route fits.\n\n**2. Charged twice**\n- First, check whether one of the charges is a pending authorisation. Cards are authorised at checkout and charged when the order ships, and an order sent in several parcels can show one charge per parcel.\n- If both charges have fully posted, send me your order number (LF- plus six digits) and the **last four digits** of the card. The duplicate is refunded within **3 business days** of confirmation. Please don't share your full card number, security code or passwords.\n\n**3. Refund to a different card**\nI can't do that. Refunds go only to the original payment method. If that card is closed or expired, the bank normally passes the refund on to your replacement card. Once a refund is issued, cards take **5-10 business days** and digital wallets **3-5 business days**. If you'd rather not wait, you can take **Leafy store credit** instead, which is instant and never expires.\n\nIf you'd like an exception to the card rule, I can escalate it to a Support Lead, but I can't promise the outcome.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 448,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 1299,
+  "output_tokens_details": {
+   "thinking_tokens": 585
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 448,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1299,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 448,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 448
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4306,
+ "output_tokens": 1299,
+ "thinking_tokens": 585,
+ "latency_ms": 9588,
+ "wall_ms": 12783,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790868874.059168
+}

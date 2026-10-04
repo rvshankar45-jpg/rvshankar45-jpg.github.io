@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thanks for contacting Leafy! \ud83c\udf3f\n\nUnfortunately, no. Changes made on or after the 25th apply to the *following* month's box, not next month's.\n\n- **Next month's box:** Your plan was already billed on the 25th, so that box will go out on your current plan. It ships in the first full week of the month.\n- **The month after:** If you switch to Collector today, that box will be the Collector one ($49/month, a medium or rare plant in a 6-inch pot).\n\nIf you'd like Collector sooner, there's no way to change an already-billed box, but the switch will be in place for the next billing cycle. Future changes made before the 25th will apply to the very next box.\n\nYou can make the switch under \"Account\" > \"Subscriptions\". There's no fee for changing plans.\n\nIs there anything else I can help with? I'm happy to help any time! \ud83e\udeb4",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 447,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 695,
+  "output_tokens_details": {
+   "thinking_tokens": 415
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 447,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 695,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 447,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 447
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4787,
+ "output_tokens": 695,
+ "thinking_tokens": 415,
+ "latency_ms": 6870,
+ "wall_ms": 11300,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879294.883436
+}

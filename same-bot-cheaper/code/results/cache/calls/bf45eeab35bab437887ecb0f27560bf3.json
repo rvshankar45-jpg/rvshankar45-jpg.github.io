@@ -1,0 +1,50 @@
+{
+ "text": "# Account Deletion & Plant Club\n\nWhen you delete your account, your **Plant Club subscription is automatically cancelled** as part of the deletion process.\n\nHere's what you should know:\n\n## Plant Club Details\n- If you've already been **charged for the next month's box** (Plant Club charges on the **25th** of the previous month), that box will **still be sent** \u2014 it won't be refunded just because you've cancelled.\n- Any boxes that haven't shipped yet will be cancelled and not sent.\n\n## Account Deletion Process\n- You can delete your account yourself from **\"Account\" > \"Privacy\"** on the website or app.\n- Deletion takes up to **30 days** to fully process.\n\n## What I'd Recommend\nBefore deleting, check:\n1. **When does your Plant Club charge next?** If it's before the 25th of this month, you might want to cancel the subscription first (from \"Account\" > \"Subscriptions\") to avoid an unnecessary charge.\n2. **Any pending orders?** Make sure there's nothing in progress you need to handle.\n\nIf you want to **cancel just the Plant Club without deleting your whole account**, you can do that anytime from \"Subscriptions\" \u2014 no fee or notice needed.\n\nIs there anything else about the deletion or subscription cancellation I can help clarify?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 3185,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 300,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 3185,
+    "output_tokens": 300,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 3185,
+ "output_tokens": 300,
+ "thinking_tokens": 0,
+ "latency_ms": 4344,
+ "wall_ms": 6952,
+ "overhead": 379,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791005759.8859096
+}

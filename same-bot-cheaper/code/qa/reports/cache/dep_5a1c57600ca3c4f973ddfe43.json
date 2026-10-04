@@ -1,0 +1,29 @@
+{
+ "items": [
+  {
+   "id": "c09.t4",
+   "needs_context": true,
+   "reason": "Refers to 'the replacement' and 'that one' without saying which order or item."
+  },
+  {
+   "id": "c09.t5",
+   "needs_context": true,
+   "reason": "'it had a plant in it' refers to an unstated order or package, and 'ok' follows an earlier answer."
+  },
+  {
+   "id": "c10.t2",
+   "needs_context": true,
+   "reason": "'one' is an unstated thing already submitted, such as a claim or request."
+  },
+  {
+   "id": "c10.t3",
+   "needs_context": true,
+   "reason": "Chasing an unspecified issue for the third time. An agent can't tell what the issue is."
+  },
+  {
+   "id": "c10.t4",
+   "needs_context": true,
+   "reason": "'the same plant again' refers to a plant from an earlier order or issue that isn't named."
+  }
+ ]
+}

@@ -1,0 +1,148 @@
+{
+ "items": [
+  {
+   "answer_id": "t080#1",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct eligibility and refund timing; honest that cancel steps are unknown and offers escalation."
+  },
+  {
+   "answer_id": "t080#2",
+   "correctness": 4,
+   "completeness": 3,
+   "policy": 4,
+   "tone": 3,
+   "score": 4,
+   "note": "Correct core answer, but escalation is not required, and it is a bit confusing ('escalate now' then asks whether to escalate); refund timing is stated as if guaranteed."
+  },
+  {
+   "answer_id": "t081#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate and concise."
+  },
+  {
+   "answer_id": "t081#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate and concise."
+  },
+  {
+   "answer_id": "t082#1",
+   "correctness": 4,
+   "completeness": 3,
+   "policy": 2,
+   "tone": 4,
+   "score": 2,
+   "note": "Safety advice first is good, but it fails to escalate to a Support Lead as the rules require."
+  },
+  {
+   "answer_id": "t082#2",
+   "correctness": 4,
+   "completeness": 3,
+   "policy": 2,
+   "tone": 4,
+   "score": 2,
+   "note": "Safety first, but no escalation, and it adds an external phone number not in the KB."
+  },
+  {
+   "answer_id": "t083#1",
+   "correctness": 1,
+   "completeness": 1,
+   "policy": 3,
+   "tone": 4,
+   "score": 1,
+   "note": "Wrongly claims no shipping info; the KB says $78 qualifies for free Standard shipping."
+  },
+  {
+   "answer_id": "t083#2",
+   "correctness": 1,
+   "completeness": 1,
+   "policy": 3,
+   "tone": 3,
+   "score": 1,
+   "note": "Wrongly claims no shipping info and misses that $78 is over $75."
+  },
+  {
+   "answer_id": "t084#1",
+   "correctness": 1,
+   "completeness": 1,
+   "policy": 3,
+   "tone": 4,
+   "score": 1,
+   "note": "Says it has no shipping info; the answer ($70 after the code, so $7.95) is in the KB."
+  },
+  {
+   "answer_id": "t084#2",
+   "correctness": 1,
+   "completeness": 1,
+   "policy": 3,
+   "tone": 3,
+   "score": 1,
+   "note": "Claims no info, so it misses that the threshold applies after discounts and the order falls under $75."
+  },
+  {
+   "answer_id": "t085#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, with an intercept option and a next step."
+  },
+  {
+   "answer_id": "t085#2",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise, with an escalation offer."
+  },
+  {
+   "answer_id": "t086#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "t086#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct, with relevant extra delivery detail."
+  },
+  {
+   "answer_id": "t087#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct Zone 3 answer with Standard timing and cost."
+  },
+  {
+   "answer_id": "t087#2",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct, but the suggestion to escalate for alternatives is unnecessary."
+  }
+ ]
+}

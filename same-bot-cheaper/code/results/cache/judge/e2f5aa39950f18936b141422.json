@@ -1,0 +1,148 @@
+{
+ "items": [
+  {
+   "answer_id": "t104#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate: pending authorisation, 3-7 days, can't be released faster, duplicate process."
+  },
+  {
+   "answer_id": "t104#2",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct overall; 'charge never posted' is slightly assumed, and it omits that Leafy can't release it faster."
+  },
+  {
+   "answer_id": "t105#1",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct info and no sensitive data requested. Refund timing details are accurate. Parcel-per-charge caveat is relevant."
+  },
+  {
+   "answer_id": "t105#2",
+   "correctness": 4,
+   "completeness": 3,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Correct but does not warn against sending the full card number or security code. Says 'I'll submit' which is fine but thin."
+  },
+  {
+   "answer_id": "t106#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct: original method only, bank passes to new card, store credit option."
+  },
+  {
+   "answer_id": "t106#2",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct; offers store credit and says 'I can issue', which is fine. The advice to contact the bank is reasonable."
+  },
+  {
+   "answer_id": "t107#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct timings, store credit and the 5-day issue step."
+  },
+  {
+   "answer_id": "t107#2",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct timings; omits store credit but fine."
+  },
+  {
+   "answer_id": "t108#1",
+   "correctness": 2,
+   "completeness": 3,
+   "policy": 4,
+   "tone": 4,
+   "score": 2,
+   "note": "Gives a specific date, 'Friday, October 10th', that is wrong. Today is Oct 4, 2026 (Sunday), so Monday Oct 5 or earlier. Also omits the card/wallet timing after issue."
+  },
+  {
+   "answer_id": "t108#2",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 3,
+   "tone": 4,
+   "score": 3,
+   "note": "The 5 business days is correct, but 'the following Monday' is off by a day or so (5 business days from Monday is Monday). It says it can't give bank timing although the KB has it (5-10 days, 3-5 for wallets). Escalating a late refund isn't required."
+  },
+  {
+   "answer_id": "t109#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, with appropriate caveats."
+  },
+  {
+   "answer_id": "t109#2",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct; the 'you're eligible' is a bit assertive before the flash sale check but it is caveated."
+  },
+  {
+   "answer_id": "t110#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "t110#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, with extra relevant detail."
+  },
+  {
+   "answer_id": "t111#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "t111#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, with a helpful tip."
+  }
+ ]
+}

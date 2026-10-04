@@ -1,0 +1,202 @@
+{
+ "items": [
+  {
+   "answer_id": "c05.t5#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct: Express stays $14.95, Plus gives free Standard. Extra zone detail accurate."
+  },
+  {
+   "answer_id": "c05.t5#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "c05.t5#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct, a bit long but fine."
+  },
+  {
+   "answer_id": "c05.t5#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, adds accurate non-member Standard pricing."
+  },
+  {
+   "answer_id": "c05.t5#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "c05.t5#6",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 3,
+   "score": 3,
+   "note": "Main answer is correct. But it adds a confusing 'correction' that disclaims the 90-day guarantee, which the KB does cover. The 90-day guarantee applies to plants ordered while the membership is active. This is misleading and refers to messages we can't see."
+  },
+  {
+   "answer_id": "c05.t5#7",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct. The Standard price mention is accurate."
+  },
+  {
+   "answer_id": "c06.t1#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct 2-hour window, honest about uncertainty, offers escalation."
+  },
+  {
+   "answer_id": "c06.t1#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 3,
+   "score": 4,
+   "note": "Accurate but long. Promo and shipping details are extra."
+  },
+  {
+   "answer_id": "c06.t1#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, clear, and appropriately hedged. Leafy Plus 10% off is accurate."
+  },
+  {
+   "answer_id": "c06.t1#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct and complete."
+  },
+  {
+   "answer_id": "c06.t1#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct and complete."
+  },
+  {
+   "answer_id": "c06.t2#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct. Offers a separate order and escalation. Does not promise the outcome."
+  },
+  {
+   "answer_id": "c06.t2#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct, with helpful chat hours caveat. Slightly long."
+  },
+  {
+   "answer_id": "c06.t2#3",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Mostly right. Says support can intercept 'and add the pot', which the KB doesn't confirm. Otherwise hedged properly."
+  },
+  {
+   "answer_id": "c06.t2#4",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 3,
+   "tone": 3,
+   "score": 2,
+   "note": "Core answer is right, but it wrongly retracts the care-card advice, which is in the KB (Section 9). Doesn't mention a separate order."
+  },
+  {
+   "answer_id": "c06.t2#5",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct, though it doesn't mention a separate order."
+  },
+  {
+   "answer_id": "c06.t3#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct: no promo code after ordering. Suggests a new order and offers escalation."
+  },
+  {
+   "answer_id": "c06.t3#2",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct, but doesn't suggest using the code on a new order."
+  },
+  {
+   "answer_id": "c06.t3#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct, with a practical cancel-and-reorder option and sensible caveats."
+  },
+  {
+   "answer_id": "c06.t3#4",
+   "correctness": 3,
+   "completeness": 5,
+   "policy": 3,
+   "tone": 3,
+   "score": 2,
+   "note": "Main answer is right. But it wrongly retracts the Leafy Plus 10% pots discount, which is in the KB. This is a false correction."
+  },
+  {
+   "answer_id": "c06.t3#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, complete, and clear."
+  }
+ ]
+}

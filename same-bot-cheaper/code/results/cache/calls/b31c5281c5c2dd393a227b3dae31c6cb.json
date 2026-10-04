@@ -1,0 +1,50 @@
+{
+ "text": "I understand that's frustrating with the move timing! Unfortunately, I have two constraints here:\n\n1. **Shipped orders can't be redirected.** Once an order ships, the shipping address is locked in, and couriers don't accept redirection requests from Leafy.\n\n2. **Island addresses can't use Express.** Zone 3 (which includes islands) only has Standard shipping available (5\u20138 business days).\n\nHere's what I can do: contact our Support Lead team to explore options\u2014they may be able to work with the courier to intercept the package before delivery, though this isn't guaranteed. They can also discuss alternatives like having it redelivered to your dad's address once it arrives at your old one.\n\nCan you provide the order number (format: `LF-` plus six digits) and confirm your dad's island location? I'll escalate this right away.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1676,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 195,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1676,
+    "output_tokens": 195,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1676,
+ "output_tokens": 195,
+ "thinking_tokens": 0,
+ "latency_ms": 3649,
+ "wall_ms": 6992,
+ "overhead": 379,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791007027.3536303
+}

@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thanks for contacting Leafy! \ud83c\udf3f\n\nXL plants (usually those over 4 ft) have a **$20 handling fee** added to the order.\n\nA few other things to know about XL plants:\n- They ship **Standard only**, so Express isn't available for them.\n- Standard shipping is $7.95, or free on orders of $75 or more (after discounts, before tax).\n- Live plants ship Monday to Wednesday only. Orders placed after 12 noon on Wednesday ship the following Monday.\n\nIs there a particular plant you're thinking about? I'm happy to help with anything else, and please reach out any time. \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 427,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 210,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 427,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 210,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 427,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 427
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4767,
+ "output_tokens": 210,
+ "thinking_tokens": 0,
+ "latency_ms": 2734,
+ "wall_ms": 6428,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879164.0438683
+}

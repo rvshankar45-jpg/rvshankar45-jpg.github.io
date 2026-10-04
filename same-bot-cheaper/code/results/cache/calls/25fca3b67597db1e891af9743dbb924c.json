@@ -1,0 +1,50 @@
+{
+ "text": "Based on our policy, here's what happened:\n\nWhen an item goes out of stock after you order, we email you within 24 hours with three options: a similar plant of equal or higher value, a wait of up to 14 days, or a refund for that item.\n\n**Since you didn't reply within 3 days, an automatic refund was issued** for that item to your original payment method.\n\nThe refund should appear in **5\u201310 business days** if you paid by card, or **3\u20135 business days** for a digital wallet. If you'd prefer **Leafy store credit instead**, that's issued instantly\u2014just let me know.\n\nDo you have your order number handy (looks like `LF-` plus six digits)? I can check the details.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1525,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 178,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1525,
+    "output_tokens": 178,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1525,
+ "output_tokens": 178,
+ "thinking_tokens": 0,
+ "latency_ms": 3087,
+ "wall_ms": 6255,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791100534.5937998
+}

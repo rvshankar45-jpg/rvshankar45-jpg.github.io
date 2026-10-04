@@ -1,0 +1,50 @@
+{
+ "text": "A pending authorisation on a cancelled order drops off on its own in **3-7 business days**, depending on your bank. Leafy can't release it faster than that, so if it's still showing after 7 business days, please contact your bank or reply here and I can escalate it to a Support Lead.\n\nSince cards are only charged when an order ships, a pending charge on a cancelled order is just the authorisation hold, not an actual payment.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 438,
+  "cache_read_input_tokens": 1579,
+  "output_tokens": 135,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 438,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 135,
+    "cache_read_input_tokens": 1579,
+    "cache_creation_input_tokens": 438,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 438
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2019,
+ "output_tokens": 135,
+ "thinking_tokens": 0,
+ "latency_ms": 2015,
+ "wall_ms": 6227,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100079.2517872
+}

@@ -1,0 +1,50 @@
+{
+ "text": "Unfortunately, no. Soil can be returned within 30 days of delivery, but once a bag is opened it can't be returned unless it's faulty, and a change of mind doesn't count as a fault.\n\nIf the soil is actually defective (for example, something is wrong with the product itself), tell me what you found and I can help with next steps. Otherwise, I'm sorry this one can't go back.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 448,
+  "cache_read_input_tokens": 1213,
+  "output_tokens": 125,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 448,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 125,
+    "cache_read_input_tokens": 1213,
+    "cache_creation_input_tokens": 448,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 448
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1663,
+ "output_tokens": 125,
+ "thinking_tokens": 0,
+ "latency_ms": 2240,
+ "wall_ms": 5186,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100452.4203682
+}

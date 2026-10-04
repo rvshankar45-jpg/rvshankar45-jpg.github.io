@@ -1,0 +1,50 @@
+{
+ "text": "Yes, you'd pay for shipping. Your total is $85, and after the $10 code it's $75, which is exactly the free Standard shipping threshold (free on orders of $75+ after discounts, before tax). So Standard shipping would be free.\n\nExpress is $14.95 and is never free. Also, if the plant is XL (usually over 4 ft), a $20 handling fee applies.\n\nCorrection to my opening line: you would **not** have to pay for Standard shipping, as long as the plant isn't XL.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 451,
+  "cache_read_input_tokens": 1797,
+  "output_tokens": 165,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 451,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 165,
+    "cache_read_input_tokens": 1797,
+    "cache_creation_input_tokens": 451,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 451
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2250,
+ "output_tokens": 165,
+ "thinking_tokens": 0,
+ "latency_ms": 2229,
+ "wall_ms": 5379,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791007066.5465498
+}

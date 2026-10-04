@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! I'm so sorry your package shows as delivered but isn't at your door. That's worrying, especially with a live plant on the way. Let's get this sorted.\n\n**What happens next**\n\nWhen tracking says delivered but nothing has arrived, we open a courier investigation. It takes up to **5 business days**. If the package turns out to be lost, you can choose either:\n\n- A free replacement, or\n- A full refund\n\n**While you wait, it may help to check:**\n\n- Around the property, such as porches, side doors, back doors, or behind planters\n- With neighbors, or anyone else in your household who may have brought it in\n- Any building mailroom or front desk, if you live in an apartment\n\n**To open the investigation, please send me:**\n\n- Your order number (it looks like LF-123456)\n\nPlease don't share a full card number or any passwords. The order number is all I need.\n\nOne more thing: if the package turns up and the plant has been sitting outside, please let us know. If it looks damaged, wilted, or has exposed roots, report it within **48 hours** of finding it, with photos of the plant and the box, and we can look at replacement or refund options.\n\nIf you can share your order number, I'll get things moving right away. Thanks for your patience, and we'll do our best to make this right!",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 438,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 413,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 438,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 413,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 438,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 438
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4778,
+ "output_tokens": 413,
+ "thinking_tokens": 0,
+ "latency_ms": 5007,
+ "wall_ms": 8829,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879301.3497207
+}

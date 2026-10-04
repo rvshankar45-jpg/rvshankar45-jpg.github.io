@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thanks for reaching out to Leafy! \ud83c\udf3f I'm happy to tell you about Leafy Plus.\n\n**Leafy Plus costs $59/year** and auto-renews. Here's what you get:\n\n- **Free Standard shipping** with no minimum order\n- **Free change-of-mind returns** on non-living items (normally these cost a flat $6.95)\n- **90-day Plant Care Guarantee** instead of the usual 30 days, on plants ordered while your membership is active\n- **10% member pricing** on pots and accessories\n- **Early access to rare plant drops**\n\n**Good to know:**\n- Leafy Plus doesn't include free Express shipping. Express is $14.95 for everyone.\n- If you change your mind, you can get a **full refund if you cancel within 14 days** of purchase or renewal, as long as you haven't used any benefits. After that, there's no refund, but your benefits continue until the end of the paid year.\n- Promo codes can't be combined with member pricing on the same item. The better discount is applied automatically.\n\nIf you have any other questions about Leafy Plus or anything else, just let me know. Happy planting! \ud83e\udeb4",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 428,
+  "cache_read_input_tokens": 4679,
+  "output_tokens": 383,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 428,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 383,
+    "cache_read_input_tokens": 4679,
+    "cache_creation_input_tokens": 428,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 428
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 5109,
+ "output_tokens": 383,
+ "thinking_tokens": 0,
+ "latency_ms": 3101,
+ "wall_ms": 6329,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790787007.6254084
+}

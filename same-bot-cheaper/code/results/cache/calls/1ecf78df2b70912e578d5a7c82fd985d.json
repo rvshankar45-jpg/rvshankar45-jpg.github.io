@@ -1,0 +1,49 @@
+{
+ "text": "Leafy gift cards come in values from **$25 to $500**. Our policy excerpts don't list specific preset amounts within that range, so I can't say whether there are fixed denominations or if you can choose any amount.\n\nA few other details:\n- Gift cards **never expire**.\n- They are **not refundable for cash**.\n- If a code is lost, we can reissue it when the purchaser provides the gift card order number.\n\nIf you need to know the exact amounts offered, I can escalate this to a Support Lead.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 425,
+  "cache_read_input_tokens": 1463,
+  "output_tokens": 162,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 425,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 162,
+    "cache_read_input_tokens": 1463,
+    "cache_creation_input_tokens": 425,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 425
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1890,
+ "output_tokens": 162,
+ "thinking_tokens": 0,
+ "latency_ms": 2373,
+ "wall_ms": 5591,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880523.0782895
+}

@@ -1,0 +1,49 @@
+{
+ "text": "Thanks for asking! \ud83c\udf3f XL plants are a great choice, and here's how they'd work for your address:\n\n- **Shipping method:** XL plants (usually over 4 ft) ship Standard only. That's already your only option in Zone 3, so nothing changes there.\n- **Delivery time:** 5-8 business days, the same as other plants, once the order ships.\n- **Handling fee:** XL plants add a **$20** handling fee on top of shipping.\n- **Shipping cost:** Standard is $7.95, or free if your order is $75 or more (after discounts, before tax).\n- **Ship days:** Like all live plants, XL plants ship Monday-Wednesday only. Orders placed after 12 noon on Wednesday ship the following Monday.\n\nWeather holds still apply too. If the transit forecast is below 35\u00b0F or above 95\u00b0F, your plant may be held for up to 7 days, and we'd email you about it.\n\nIs there anything else I can help with? I'm always happy to chat! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1170,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 330,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1170,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 330,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 1170,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1170
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 5510,
+ "output_tokens": 330,
+ "thinking_tokens": 0,
+ "latency_ms": 3221,
+ "wall_ms": 7042,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879690.33683
+}

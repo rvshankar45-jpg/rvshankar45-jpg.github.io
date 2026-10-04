@@ -1,0 +1,50 @@
+{
+ "text": "You can return it. A watering can counts as a non-living item, and those can be returned within 30 days of delivery if they're unused and in the original packaging. At 2 weeks, you're well inside that window.\n\n**How to return it**\n1. Start the return from \"My Orders\".\n2. A prepaid label will be emailed to you.\n3. Drop the parcel off within 7 days, because the label expires after that.\n\n**Cost**\n- Since this is a change-of-mind return, a flat $6.95 return fee is deducted from your refund. It's free if you're a Leafy Plus member.\n- If the item is faulty or we sent the wrong one, the return is free.\n\n**Refund**\n- It goes to your original payment method within 5 business days of the parcel reaching our warehouse.\n- Original shipping is only refunded if the whole order is returned because of our error. For a change-of-mind return, it won't be.\n\nWe don't do direct exchanges. If you want a different item, return this one and place a new order.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 437,
+  "cache_read_input_tokens": 1121,
+  "output_tokens": 541,
+  "output_tokens_details": {
+   "thinking_tokens": 228
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 437,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 541,
+    "cache_read_input_tokens": 1121,
+    "cache_creation_input_tokens": 437,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 437
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1560,
+ "output_tokens": 541,
+ "thinking_tokens": 228,
+ "latency_ms": 4500,
+ "wall_ms": 7080,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004956.3678715
+}

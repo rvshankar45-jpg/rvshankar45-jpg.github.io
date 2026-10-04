@@ -1,0 +1,50 @@
+{
+ "text": "Yes, you'll still get October's box, and it isn't refundable. October's box was billed on September 25, and a cancellation made on or after the 25th applies to the following month's box. An already-billed box isn't refunded on cancellation and is still sent. It should ship in the first full week of October.\n\nSince you cancelled, you won't be charged for November's box, and there's no cancellation fee. This assumes you cancelled on September 26. If it was a different date, let me know and I can recheck.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 453,
+  "cache_read_input_tokens": 1346,
+  "output_tokens": 386,
+  "output_tokens_details": {
+   "thinking_tokens": 231
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 453,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 386,
+    "cache_read_input_tokens": 1346,
+    "cache_creation_input_tokens": 453,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 453
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1801,
+ "output_tokens": 386,
+ "thinking_tokens": 231,
+ "latency_ms": 3590,
+ "wall_ms": 6642,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100917.8254228
+}

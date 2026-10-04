@@ -1,0 +1,49 @@
+{
+ "text": "# Return Window at Leafy\n\nThe return window depends on what you're returning:\n\n## **Non-living items** (pots, tools, soil, fertiliser, grow lights, accessories)\n- **30 days** from delivery\n- Must be unused and in original packaging\n- Opened soil or fertiliser can't be returned unless faulty\n\n## **Live plants**\n- **Cannot be returned** for change of mind\n- Plant problems are covered under our **Plant Care Guarantee** instead:\n  - **30 days** from delivery (standard customers)\n  - **90 days** from delivery (Leafy Plus members, for plants ordered while membership is active)\n\n---\n\n**Need to start a return?** Go to \"My Orders\" and you'll receive a prepaid return label via email. Just drop off your parcel **within 7 days** (labels expire after 7 days).\n\nIs there a specific item you're looking to return?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1248,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 213,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1248,
+    "output_tokens": 213,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1248,
+ "output_tokens": 213,
+ "thinking_tokens": 0,
+ "latency_ms": 3016,
+ "wall_ms": 7128,
+ "overhead": 379,
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1790880377.733906
+}

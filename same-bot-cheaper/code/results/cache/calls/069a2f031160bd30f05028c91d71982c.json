@@ -1,0 +1,50 @@
+{
+ "text": "No, Express shipping isn't available for island addresses. Island and remote addresses fall under Zone 3, where only Standard shipping is offered, with delivery in **5-8 business days**.\n\nSome other details that may help:\n- **Standard shipping** costs $7.95, and it's free on orders of $75 or more (after discounts, before tax). Leafy Plus members get free Standard shipping with no minimum.\n- **Live plants** ship Monday to Wednesday only. Orders placed after 12 noon on Wednesday ship the following Monday.\n- **XL plants** (usually over 4 ft) add a $20 handling fee and ship Standard only.\n\nIf you'd like help with a specific order or address, let me know.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 423,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 233,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 423,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 233,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 423,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 423
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4281,
+ "output_tokens": 233,
+ "thinking_tokens": 0,
+ "latency_ms": 2981,
+ "wall_ms": 5709,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005544.5807548
+}

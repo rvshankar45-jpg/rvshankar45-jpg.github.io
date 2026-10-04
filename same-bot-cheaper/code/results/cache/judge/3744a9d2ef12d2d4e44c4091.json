@@ -1,0 +1,148 @@
+{
+ "items": [
+  {
+   "answer_id": "t160#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct timings and store credit option."
+  },
+  {
+   "answer_id": "t160#2",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 4,
+   "score": 3,
+   "note": "Timings right, but offers to process a refund to the wallet instead of the card, which implies changing the refund method; refunds only go to the original method."
+  },
+  {
+   "answer_id": "t161#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Matches reference exactly."
+  },
+  {
+   "answer_id": "t161#2",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Suggests placing a new order to use a different code, which is misleading. Assumes the 15% code beats the 10% Plus pricing, although Plus pricing applies only to pots and accessories. Offers an unneeded escalation."
+  },
+  {
+   "answer_id": "t162#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct on reissue with the purchaser's gift card order number, no cash-out, and no expiry."
+  },
+  {
+   "answer_id": "t162#2",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct on the main points. Adds that the order number is on the sister's confirmation email or in My Orders, which is plausible but not in the KB."
+  },
+  {
+   "answer_id": "t163#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and complete, including the 25th rule and the no-refund rule for already-billed boxes."
+  },
+  {
+   "answer_id": "t163#2",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Right conclusion, but invents that the current box was billed on September 25th and is still shipping. That is not the case if the customer cancels on the 20th. It is a confusing detail."
+  },
+  {
+   "answer_id": "t164#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct: October's box is already billed, sent and not refundable, and cancelling stops the next charge."
+  },
+  {
+   "answer_id": "t164#2",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct on the main points. Calling October the last box and saying November is not charged is consistent with the KB, though slightly muddled."
+  },
+  {
+   "answer_id": "t165#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate and concise."
+  },
+  {
+   "answer_id": "t165#2",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct on the main points. Adds the claim that the plants are 'common' and that preferences can be updated anytime, which is unverified. Minor."
+  },
+  {
+   "answer_id": "t166#1",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct on the 3-month pause and no fee. The 25th timing detail is correct but slightly extra."
+  },
+  {
+   "answer_id": "t166#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, concise and complete."
+  },
+  {
+   "answer_id": "t167#1",
+   "correctness": 2,
+   "completeness": 3,
+   "policy": 4,
+   "tone": 3,
+   "score": 2,
+   "note": "Opens by saying the customer is outside the refund window, then says they are within it. This is contradictory and confusing. The conclusion is eventually right."
+  },
+  {
+   "answer_id": "t167#2",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct on eligibility. Honest that cancellation steps aren't in the KB. Escalation is not strictly required. Gives sensible advice about not using benefits."
+  }
+ ]
+}

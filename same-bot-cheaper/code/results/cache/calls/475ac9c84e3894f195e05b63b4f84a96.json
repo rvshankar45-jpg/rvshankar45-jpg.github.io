@@ -1,0 +1,50 @@
+{
+ "text": "I understand that's frustrating. Unfortunately, I can't release a pending authorisation from Leafy's side\u2014your bank handles that automatically.\n\nHere's what to expect: a pending charge from a cancelled order typically drops off in **3\u20137 business days**, depending on your bank. It's not an actual charge yet, just a hold.\n\nIf both a pending *and* a posted charge appear on your account, let me know your order number and the last four digits of the card you used, and we'll refund the duplicate within **3 business days** of confirmation. Otherwise, just give your bank a bit of time\u2014it should clear on its own.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1526,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 144,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1526,
+    "output_tokens": 144,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1526,
+ "output_tokens": 144,
+ "thinking_tokens": 0,
+ "latency_ms": 2911,
+ "wall_ms": 5952,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791101414.6984444
+}

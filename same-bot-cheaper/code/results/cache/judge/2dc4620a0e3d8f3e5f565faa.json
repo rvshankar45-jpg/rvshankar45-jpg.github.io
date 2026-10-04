@@ -1,0 +1,148 @@
+{
+ "items": [
+  {
+   "answer_id": "t184#1",
+   "correctness": 2,
+   "completeness": 3,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Correctly says no refund and box still sent. But suggests returning the box as a non-living item, which is invented and misleading for a plant box. Doesn't say the cancellation applies to the following month."
+  },
+  {
+   "answer_id": "t184#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Matches the reference: no refund, box still sent, no fee, cancellation applies to the next month. Offers escalation without promising an outcome."
+  },
+  {
+   "answer_id": "t185#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Both parts correct, with the $50 workaround and a next step."
+  },
+  {
+   "answer_id": "t185#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise on both parts."
+  },
+  {
+   "answer_id": "t186#1",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 4,
+   "score": 3,
+   "note": "Core facts are right: original payment method only, or instant store credit. But it asks for the last four card digits, which the KB uses only for duplicate-charge checks. The order number was already given, so the request is unnecessary, though not a full card number."
+  },
+  {
+   "answer_id": "t186#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct on the original-method rule, the bank passing the refund to the new card, refund timings and store credit."
+  },
+  {
+   "answer_id": "t187#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct on the shipping days and the pet-safe calathea. Empathetic, and offers escalation if it hasn't shipped by Monday."
+  },
+  {
+   "answer_id": "t187#2",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Facts are correct, but it states a specific date of October 6th. Today is Sat Oct 4, 2026, so the next Monday is Oct 5, and the date is wrong. Tracking wording is slightly off. Otherwise fine."
+  },
+  {
+   "answer_id": "t188#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Clear no, with the 7-day hold and an option to leave the hold in place."
+  },
+  {
+   "answer_id": "t188#2",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct exclusion and hold length. It adds the guarantee details, which are accurate. 'Wait for safer conditions' is fine."
+  },
+  {
+   "answer_id": "t189#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correctly declines, and mentions the Plant Care Specialist and care tips. The mention of the DOA window is accurate. Offers escalation."
+  },
+  {
+   "answer_id": "t189#2",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 4,
+   "score": 3,
+   "note": "Correctly declines the replacement. But it implies a later guarantee claim for root rot may be possible, which is questionable given the non-Leafy soil exclusion. It also says the plant is likely recoverable, which is speculative, and advises repotting again, contrary to the care guidance."
+  },
+  {
+   "answer_id": "t190#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate on the replacement chain, the claim process, the no guarantee on the second replacement, and care advice."
+  },
+  {
+   "answer_id": "t190#2",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Main point is right. But it says Plant Care Specialists are available 'anytime', which is wrong because chat is 9am\u20135pm Mon\u2013Fri. The wording is confusing about the 'second replacement'. The pet-toxicity remark is irrelevant to plants dying."
+  },
+  {
+   "answer_id": "t191#1",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Offers $15 and escalation, and correctly flags the $150 threshold. It adds that policy gives no escalation timeframe, which is honest. It is somewhat wordy."
+  },
+  {
+   "answer_id": "t191#2",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Offers $15 and escalation with empathy. It frames the escalation around the $150 threshold and doesn't state clearly that the $200 request is outside what the agent can approve."
+  }
+ ]
+}

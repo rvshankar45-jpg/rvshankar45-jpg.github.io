@@ -1,0 +1,50 @@
+{
+ "text": "Your order will ship **next Monday**.\n\nHere's why:\n- Live plants ship Monday to Wednesday only, and plant orders placed after 12 noon on Wednesday ship the following Monday. Since you ordered at 3pm on Wednesday, the pothos misses that cutoff.\n- Your ceramic pot is a non-living item, but mixed orders ship together on a plant day. So the pot will go out with the pothos on Monday rather than separately.\n\nOnce it ships, you'll get a tracking email. Tracking can take up to 24 hours to update.\n\nTransit time after shipping depends on your shipping zone (Standard is 2-8 business days, depending on distance from the nearest greenhouse). If you tell me your zone or distance, I can give you a more specific delivery estimate.\n\nAlso, if you need to change or cancel the order, you could do so free from \"My Orders\" within 2 hours of ordering. Since that window has passed, support can try to intercept it before it ships, but that isn't guaranteed.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 451,
+  "cache_read_input_tokens": 1555,
+  "output_tokens": 329,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 451,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 329,
+    "cache_read_input_tokens": 1555,
+    "cache_creation_input_tokens": 451,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 451
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2008,
+ "output_tokens": 329,
+ "thinking_tokens": 0,
+ "latency_ms": 2947,
+ "wall_ms": 5556,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004663.9278603
+}

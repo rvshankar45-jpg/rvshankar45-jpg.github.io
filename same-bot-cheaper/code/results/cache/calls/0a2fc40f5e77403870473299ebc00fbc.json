@@ -1,0 +1,50 @@
+{
+ "text": "Unfortunately not. A 5 ft fiddle leaf fig counts as an XL plant (usually over 4 ft), and XL plants ship Standard only, so Express isn't available. Standard takes at least 2-3 business days even in the closest zone (Zone 1), and live plants ship Monday-Wednesday only, so it can't arrive tomorrow.\n\nIf you ordered within the last 2 hours, you can cancel for free from \"My Orders\". After that, support can try to intercept the order before it ships, but that isn't guaranteed. If you'd like, I can escalate that request to a Support Lead.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 456,
+  "cache_read_input_tokens": 1505,
+  "output_tokens": 587,
+  "output_tokens_details": {
+   "thinking_tokens": 388
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 456,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 587,
+    "cache_read_input_tokens": 1505,
+    "cache_creation_input_tokens": 456,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 456
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1963,
+ "output_tokens": 587,
+ "thinking_tokens": 388,
+ "latency_ms": 5189,
+ "wall_ms": 7884,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791101333.3752217
+}

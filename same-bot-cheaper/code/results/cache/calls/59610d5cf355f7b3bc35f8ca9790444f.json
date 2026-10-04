@@ -1,0 +1,50 @@
+{
+ "text": "Yes, our guidance lists the peace lily as **not pet-safe**, so it isn't recommended for homes with dogs. That's all our policy says about it, so for specifics on how it affects dogs, please ask your vet.\n\n**If your dog may have eaten any part of a peace lily**, contact your vet or local poison control immediately, before anything else. After that, let us know and we'll escalate to a Support Lead.\n\nIf you're looking for pet-safe alternatives, we list these as pet-safe:\n- Calathea\n- Spider plant\n- Parlour palm\n- Boston fern\n- Peperomia\n\nA Plant Care Specialist can also give free advice on choosing plants for a home with pets. They're available by chat 9am-5pm Mon-Fri (your local time), or you can email help@leafy.example and get a reply within 1 business day.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 429,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 417,
+  "output_tokens_details": {
+   "thinking_tokens": 142
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 429,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 417,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 429,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 429
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4287,
+ "output_tokens": 417,
+ "thinking_tokens": 142,
+ "latency_ms": 6831,
+ "wall_ms": 9386,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005611.5612428
+}

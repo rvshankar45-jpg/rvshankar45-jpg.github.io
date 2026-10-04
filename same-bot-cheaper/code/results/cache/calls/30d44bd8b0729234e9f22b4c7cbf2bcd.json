@@ -1,0 +1,50 @@
+{
+ "text": "Leafy Plus is $59/year and auto-renews, but it **doesn't include free Express shipping**. It gives free Standard shipping with no minimum, so if Express is your main reason, it won't meet that need.\n\nOn refunds: you get a full refund if you cancel within **14 days** of purchase or renewal **and** haven't used any benefits. If you've used a benefit, there's no refund, though your benefits continue to the end of the paid year.\n\nOther perks include free change-of-mind returns, a 90-day guarantee, 10% off pots and accessories, and early access to rare plant drops. Whether it's worth it depends on how much you'd use those, but I can't speak to savings beyond what's listed here.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 447,
+  "cache_read_input_tokens": 1296,
+  "output_tokens": 230,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 447,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 230,
+    "cache_read_input_tokens": 1296,
+    "cache_creation_input_tokens": 447,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 447
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1745,
+ "output_tokens": 230,
+ "thinking_tokens": 0,
+ "latency_ms": 2389,
+ "wall_ms": 5908,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791101015.699811
+}

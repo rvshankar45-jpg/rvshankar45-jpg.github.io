@@ -1,0 +1,148 @@
+{
+ "items": [
+  {
+   "answer_id": "t112#1",
+   "correctness": 2,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Claims the 25th charge next month won't happen, which is arguably muddled. Correctly says billed box still ships, no refund, no fee. But 'You won't be charged again after this' is somewhat ambiguous; the reference implies the following month's box is cancelled. Actually it is mostly consistent, but the opening is misleading about the already-billed charge."
+  },
+  {
+   "answer_id": "t112#2",
+   "correctness": 1,
+   "completeness": 2,
+   "policy": 3,
+   "tone": 3,
+   "score": 1,
+   "note": "Says cancellation applies to following month's box yet advises cancelling before the 25th to avoid a charge, and misstates the situation. Confusing, wrong on the key point, and omits no cancellation fee."
+  },
+  {
+   "answer_id": "t113#1",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct: next box becomes Collector. Omits price, minor."
+  },
+  {
+   "answer_id": "t113#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, with price, location and the on or after the 25th contrast."
+  },
+  {
+   "answer_id": "t114#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct: 3 months, Account > Subscriptions, plus timing."
+  },
+  {
+   "answer_id": "t114#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and complete with useful timing detail."
+  },
+  {
+   "answer_id": "t115#1",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct eligibility. The caution about cancelling ending benefits is reasonable and the answer is honest about unknowns. Slightly hedged."
+  },
+  {
+   "answer_id": "t115#2",
+   "correctness": 4,
+   "completeness": 3,
+   "policy": 2,
+   "tone": 3,
+   "score": 3,
+   "note": "Correct eligibility but unnecessarily escalates a $59 refund the policy does not require escalating, and gives no cancellation steps; 'no questions asked' and 'right away' are slight inventions."
+  },
+  {
+   "answer_id": "t116#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "t116#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, with helpful safety and Specialist pointer."
+  },
+  {
+   "answer_id": "t117#1",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Safety first, then escalation. Concise."
+  },
+  {
+   "answer_id": "t117#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Safety first, escalates, accurate contact info and helpful tips."
+  },
+  {
+   "answer_id": "t118#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Empathetic, escalates, includes the 48-hour rule, no invented promises."
+  },
+  {
+   "answer_id": "t118#2",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Escalates correctly. Asserts the Lead will process the refund, which is a mild promise, and the 'may have already flagged' claim is speculative."
+  },
+  {
+   "answer_id": "t119#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct $15 limit, escalation option, no promises."
+  },
+  {
+   "answer_id": "t119#2",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct $15 limit and escalation offer. Omits that it's store credit not cash, minor."
+  }
+ ]
+}

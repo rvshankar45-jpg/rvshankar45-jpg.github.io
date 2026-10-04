@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thanks for reaching out to Leafy! \ud83c\udf3f\n\nGreat question to ask before bringing a plant home. Unfortunately, **monstera is not pet-safe**, so it's best to keep it somewhere your pets can't reach.\n\nIf you're looking for pet-friendly options, these are all safe:\n- Calathea\n- Spider plant\n- Parlour palm\n- Boston fern\n- Peperomia\n\n**Important:** if your pet (or a person) may have nibbled any part of a monstera, please contact your vet, doctor, or poison control right away. If you'd like, let me know and I can escalate this to a Support Lead for follow-up too.\n\nHappy to help you pick a pet-friendly plant or answer any other questions. Just reach out anytime! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 424,
+  "cache_read_input_tokens": 1553,
+  "output_tokens": 254,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 424,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 254,
+    "cache_read_input_tokens": 1553,
+    "cache_creation_input_tokens": 424,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 424
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1979,
+ "output_tokens": 254,
+ "thinking_tokens": 0,
+ "latency_ms": 3272,
+ "wall_ms": 6592,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879801.6896808
+}

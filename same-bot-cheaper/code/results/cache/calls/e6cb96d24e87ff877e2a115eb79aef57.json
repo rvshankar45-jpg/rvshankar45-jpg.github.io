@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! \ud83c\udf3f I'm sorry if you're waiting on a parcel that hasn't turned up. I know that can be worrying, especially with live plants.\n\n**How long the investigation takes**\n\nOnce you contact support, we open a courier investigation, which takes **up to 5 business days**.\n\n**When to contact us**\n- Your tracking hasn't moved for **4 business days**, or\n- Tracking shows the parcel as delivered, but nothing has arrived.\n\nTracking can take up to 24 hours to update after shipping, so it's worth allowing for that first.\n\n**If the parcel is confirmed lost**\nYou can choose between:\n- A free replacement, or\n- A full refund\n\nIf you'd like, share your order number (it looks like LF-123456) and I can help with next steps. Please don't send any full card details.\n\nThanks for your patience, and please reach out any time. We're happy to help! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 429,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 304,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 429,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 304,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 429,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 429
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4769,
+ "output_tokens": 304,
+ "thinking_tokens": 0,
+ "latency_ms": 3522,
+ "wall_ms": 7577,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879246.3540018
+}

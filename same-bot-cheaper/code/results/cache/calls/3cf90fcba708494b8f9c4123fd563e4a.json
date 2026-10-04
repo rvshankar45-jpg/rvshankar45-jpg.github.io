@@ -1,0 +1,49 @@
+{
+ "text": "Great question! \ud83c\udf3f\n\nXL plants (usually over 4 ft) are a bit different, but the delivery speed for your area stays the same:\n\n- **Shipping method:** XL plants ship **Standard only**, which is the only option in your Zone 3 area anyway.\n- **Delivery time:** **5-8 business days**, the same as other plants, once the order ships.\n- **Handling fee:** XL plants add a **$20** handling fee.\n- **Standard shipping cost:** $7.95, or free if your order is **$75 or more** (after discounts, before tax). Since XL plants are often a larger purchase, you may well reach that.\n\nThe usual timing rules still apply:\n\n- **Live plants ship Monday-Wednesday only.** Orders placed after 12 noon on Wednesday ship the following Monday.\n- **Weather holds:** if the transit forecast is below 35\u00b0F or above 95\u00b0F, your plant may be held for up to 7 days, and we'll email you.\n- **No PO boxes** for live plants, so you'll need a street address.\n\nIf you tell me which plant you have in mind, I'm happy to help with any other questions. Thanks for asking, and happy plant shopping! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1268,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 389,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1268,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 389,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 1268,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1268
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 5608,
+ "output_tokens": 389,
+ "thinking_tokens": 0,
+ "latency_ms": 4454,
+ "wall_ms": 7092,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879494.2550566
+}

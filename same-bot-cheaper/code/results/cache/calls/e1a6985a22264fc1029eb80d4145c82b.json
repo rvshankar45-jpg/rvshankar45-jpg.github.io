@@ -1,0 +1,50 @@
+{
+ "text": "If you upgrade from Starter to Collector today (the 22nd), it takes effect on your **next box**. Changes made before the 25th apply to the next box, while changes on or after the 25th apply to the following month's box.\n\nSo you have until the day before the 25th, which is the 24th, to make the change and have it count for the next box. If you upgrade today, the next box will be a Collector plan ($49/month) and will be charged on the 25th.\n\nTo upgrade, go to \"Account\" > \"Subscriptions\" and change your plan there. There's no cancellation fee or minimum term, so you can also change plans later if you need to.\n\nIs there anything else I can help with?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 597,
+  "cache_read_input_tokens": 1764,
+  "output_tokens": 209,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 597,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 209,
+    "cache_read_input_tokens": 1764,
+    "cache_creation_input_tokens": 597,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 597
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2363,
+ "output_tokens": 209,
+ "thinking_tokens": 0,
+ "latency_ms": 2909,
+ "wall_ms": 5973,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004846.4152658
+}

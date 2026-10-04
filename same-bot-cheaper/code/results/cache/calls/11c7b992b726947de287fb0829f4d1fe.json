@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry your plant arrived frozen, that's frustrating. Unfortunately, because you waived the weather hold, cold or heat damage in transit isn't covered by the Plant Care Guarantee, and DOA claims for cold or heat damage aren't accepted in that case.\n\nIf you think the damage was from something other than the cold in transit, or you'd like a person to look at your situation, I can escalate it to a Support Lead. I can also connect you with a Plant Care Specialist for free advice on whether the plant can be saved.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2035,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 173,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2035,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 173,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2035,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2035
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2037,
+ "output_tokens": 173,
+ "thinking_tokens": 0,
+ "latency_ms": 2560,
+ "wall_ms": 5605,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100524.4177525
+}

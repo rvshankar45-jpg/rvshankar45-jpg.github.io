@@ -1,0 +1,148 @@
+{
+ "items": [
+  {
+   "answer_id": "t016#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct 2 business days, concise."
+  },
+  {
+   "answer_id": "t016#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, adds accurate window detail."
+  },
+  {
+   "answer_id": "t017#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "48 hours, photos of item and box, accurate."
+  },
+  {
+   "answer_id": "t017#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, plus accurate fallback to guarantee."
+  },
+  {
+   "answer_id": "t018#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "t018#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct with useful 48-hour follow-up."
+  },
+  {
+   "answer_id": "t019#1",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Core facts right (keep plant, free Express). Omits return label and speculates about deadline, but is honest about it. Unnecessary escalation offer."
+  },
+  {
+   "answer_id": "t019#2",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 4,
+   "score": 3,
+   "note": "Keep-it correct, but says returning is optional with a return label and applies the 48-hour deadline to wrong items, which the KB doesn't state. Return label is in KB, but the 48-hour claim is invented."
+  },
+  {
+   "answer_id": "t020#1",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 4,
+   "score": 3,
+   "note": "Core facts right, but offers escalation to a Support Lead that isn't required and implies it processes the claim; mildly off-policy."
+  },
+  {
+   "answer_id": "t020#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct and empathetic. Escalating after 48 hours is reasonable since KB doesn't cover it."
+  },
+  {
+   "answer_id": "t021#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Fully correct."
+  },
+  {
+   "answer_id": "t021#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Fully correct."
+  },
+  {
+   "answer_id": "t022#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct; extra details accurate and relevant."
+  },
+  {
+   "answer_id": "t022#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "t023#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct; escalation after 7 days is a reasonable extra not in the KB's rules."
+  },
+  {
+   "answer_id": "t023#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, empathetic, accurate duplicate-charge note without asking for sensitive data."
+  }
+ ]
+}

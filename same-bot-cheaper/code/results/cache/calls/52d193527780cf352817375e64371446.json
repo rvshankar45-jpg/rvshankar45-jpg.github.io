@@ -1,0 +1,49 @@
+{
+ "text": "Hi there! \ud83d\udc4b Thanks for reaching out about Plant Club!\n\nYour Plant Club subscription charges on the **25th of each month** \u2013 specifically, you're charged on the 25th of the month *before* your box ships. So you'll see the charge hit your card on that date, and then your surprise plant box will ship in the first full week of the following month.\n\nIf you ever need to skip a month, pause your subscription (for up to 3 months), switch plans, or make any changes, you can do all that from your account anytime. Just head to **Account > Subscriptions**. If you make a change *before* the 25th, it'll affect your next box; if you change it on or after the 25th, it'll apply to the box after that.\n\nIs there anything else I can help you with? \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1988,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 193,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1988,
+    "output_tokens": 193,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1988,
+ "output_tokens": 193,
+ "thinking_tokens": 0,
+ "latency_ms": 2791,
+ "wall_ms": 6382,
+ "overhead": 379,
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1790879837.311636
+}

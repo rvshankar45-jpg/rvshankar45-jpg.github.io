@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! I'm sorry for the frustration. Being charged for a box you didn't want is no fun, and I want to be upfront about where things stand.\n\n**What happened:**\n- Plant Club is charged on the **25th** of the month before the box ships.\n- Cancellations made **on or after the 25th** apply to the following month's box, so your cancellation on the 26th came one day after that month's $49 charge.\n- Under our policy, an already-billed box isn't refunded on cancellation and is still sent.\n\n**Good news:** your cancellation stops any future charges. There's no cancellation fee, and you won't be billed for later months.\n\nI can't promise a refund, because that's outside what our policy allows. But I understand you'd like it reviewed, so I'll escalate your request to a Support Lead. They can look at your case and see whether an exception is possible. I don't have an exact timeframe for their reply, but they'll follow up with you by email at the address on your account.\n\nIn the meantime, you can check \"Account\" > \"Subscriptions\" to confirm the cancellation shows as active for future months.\n\nThanks for your patience, and please reach out anytime if you need anything else. \ud83c\udf3f",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 452,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 837,
+  "output_tokens_details": {
+   "thinking_tokens": 448
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 452,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 837,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 452,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 452
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4792,
+ "output_tokens": 837,
+ "thinking_tokens": 448,
+ "latency_ms": 7607,
+ "wall_ms": 11638,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879421.0375438
+}

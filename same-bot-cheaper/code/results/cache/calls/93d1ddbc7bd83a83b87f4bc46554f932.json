@@ -1,0 +1,50 @@
+{
+ "text": "I'd be happy to help! To give you the exact shipping date, I need a bit more information:\n\n1. **What time Thursday did you order?** (before or after 12 noon?)\n2. **What's your shipping zone?** (I can help determine this\u2014roughly how far are you from the nearest greenhouse, or what's your state/region?)\n\n**Here's the general rule:** Live plants ship Monday\u2013Wednesday only. If you ordered after 12 noon Wednesday, your order ships the following Monday. If you ordered Thursday, it will ship the **next Monday** (6 days after your order).\n\nOnce you give me the time and location, I can confirm the exact shipping date and delivery timeframe for you.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1555,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 160,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1555,
+    "output_tokens": 160,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1555,
+ "output_tokens": 160,
+ "thinking_tokens": 0,
+ "latency_ms": 2444,
+ "wall_ms": 5305,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791100268.7873323
+}

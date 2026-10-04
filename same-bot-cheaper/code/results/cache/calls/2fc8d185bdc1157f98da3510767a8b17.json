@@ -1,0 +1,49 @@
+{
+ "text": "Thank you, that's exactly what I needed! I'm sorry for the hassle of seeing a double charge.\n\n**Here's what happens next:**\n- With both charges posted, order **LF-381204** (card ending **7712**) goes through our duplicate-charge process.\n- Once the duplicate is confirmed, the extra **$64.50** is refunded within **3 business days**.\n- The refund goes back to the original card only. After it's issued, your bank usually shows it within **5-10 business days** (or **3-5 business days** for a digital wallet).\n\n**Prefer store credit?** Instead of waiting on your bank, you can take the $64.50 as **Leafy store credit**. It's issued instantly and never expires. Just let me know if you'd like that.\n\nIf you'd rather dispute the charge with your bank, tell me and I'll pass this to a Support Lead.\n\nThanks for your patience, and please reach out anytime if you need anything else. \ud83c\udf3f",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 921,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 668,
+  "output_tokens_details": {
+   "thinking_tokens": 358
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 921,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 668,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 921,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 921
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 5261,
+ "output_tokens": 668,
+ "thinking_tokens": 358,
+ "latency_ms": 6158,
+ "wall_ms": 10154,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879481.526614
+}

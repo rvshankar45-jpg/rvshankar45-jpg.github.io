@@ -1,0 +1,49 @@
+{
+ "text": "Great question! Unfortunately, the longer guarantee doesn't apply to plants you bought before joining. The 90-day Plant Care Guarantee covers **plants ordered while your membership is active**.\n\nFor plants you ordered before joining, the standard **30-day guarantee from delivery** still applies. If one of those plants is still within its 30 days, you can make a claim from \"My Orders\" with at least two photos (whole plant plus a close-up). A Plant Care Specialist will review it within 2 business days.\n\nAny plants you order after you join will get the full 90 days from delivery.\n\nIf you'd like help with a specific plant, just let me know. Happy planting! \ud83c\udf3f",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 853,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 217,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 853,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 217,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 853,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 853
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 5193,
+ "output_tokens": 217,
+ "thinking_tokens": 0,
+ "latency_ms": 3462,
+ "wall_ms": 7053,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790868685.8938477
+}

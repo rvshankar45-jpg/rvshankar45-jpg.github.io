@@ -1,0 +1,49 @@
+{
+ "text": "Good question! \ud83c\udf3f No, the $20 XL handling fee would still apply, even if your order is over $75.\n\nThe $75 threshold only affects the **Standard shipping charge** ($7.95). Here's how it works for an XL plant order:\n\n- **Order under $75:** $7.95 shipping + $20 XL handling fee\n- **Order $75 or more** (after discounts, before tax): $0 shipping + $20 XL handling fee\n\nThe handling fee is separate from the shipping cost, so free shipping doesn't remove it.\n\nIs there anything else I can help you with? Happy to chat anytime! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1524,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 201,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1524,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 201,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 1524,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1524
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 5864,
+ "output_tokens": 201,
+ "thinking_tokens": 0,
+ "latency_ms": 2484,
+ "wall_ms": 5719,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879696.4027815
+}

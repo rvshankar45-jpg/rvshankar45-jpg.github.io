@@ -1,0 +1,50 @@
+{
+ "text": "Once a refund has been issued, it takes **3-5 business days** to reach a digital wallet.\n\nRefunds are issued within **5 business days** of the returned item reaching our warehouse, so the wait is counted from when the refund is issued. Refunds always go back to the original payment method. If you'd rather not wait, you can choose Leafy store credit, which is issued instantly.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 432,
+  "cache_read_input_tokens": 1496,
+  "output_tokens": 122,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 432,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 122,
+    "cache_read_input_tokens": 1496,
+    "cache_creation_input_tokens": 432,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 432
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1930,
+ "output_tokens": 122,
+ "thinking_tokens": 0,
+ "latency_ms": 1870,
+ "wall_ms": 4838,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100089.294873
+}

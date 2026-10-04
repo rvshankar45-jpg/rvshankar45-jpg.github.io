@@ -1,0 +1,50 @@
+{
+ "text": "I understand that's concerning. Here's what we need to do:\n\n**Immediate steps:**\n1. **Reset your password right now** from the login page to prevent further unauthorized access.\n2. **Check your email** for any order confirmations. If you see an unfamiliar order, note the order number (format: `LF-` plus six digits).\n\n**Next, I'll escalate this to our Support Lead team** because account security is a safety issue. They can:\n- Review the suspicious order\n- Help you dispute any unauthorized charges\n- Secure your account further\n\nPlease reply with:\n- The order number(s) of any orders you didn't place\n- Whether you've already reset your password\n- Any unauthorized charges you've spotted\n\nOur Support Lead will follow up within 1 business day at rvshankar45@gmail.com.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1567,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 190,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1567,
+    "output_tokens": 190,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1567,
+ "output_tokens": 190,
+ "thinking_tokens": 0,
+ "latency_ms": 2782,
+ "wall_ms": 6320,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791100955.5219274
+}

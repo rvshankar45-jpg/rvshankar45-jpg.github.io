@@ -1,0 +1,49 @@
+{
+ "text": "Hi, and thank you for contacting Leafy! I'm so sorry your three plants arrived dead. That's really disappointing, especially when you were looking forward to them. Let's get this sorted.\n\n**About your expired card**\n- Refunds can only go back to the original payment method, never a different card, even if that card has expired.\n- When a card has expired, the bank normally passes the refund on to your replacement card. If you're unsure, your bank can confirm.\n- Once a refund is issued, cards usually take **5-10 business days** and digital wallets **3-5 business days**.\n\n**Another option: Leafy store credit**\n- It's issued instantly and never expires.\n- You could use it to order replacement plants right away.\n\n**Next steps**\nBecause the total is over $150, I'm escalating your case to a Support Lead, who will review the damaged-on-arrival claim for all three plants. I don't have a confirmed response time to give you, and I don't want to guess. The Support Lead will also tell you if they need anything else from you, such as photos.\n\nTo help them, please reply with:\n- Your order number\n- Whether you'd prefer the refund to your original payment method or store credit\n\nPlease don't send a full card number, security code, or password. I'll never need those.\n\nThanks for your patience. We'll do our best to get you back to happy plant parenting soon. \ud83c\udf3f Please reach out anytime if you have more questions!",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2454,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 775,
+  "output_tokens_details": {
+   "thinking_tokens": 329
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2454,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 775,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2454,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2454
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2456,
+ "output_tokens": 775,
+ "thinking_tokens": 329,
+ "latency_ms": 6954,
+ "wall_ms": 9964,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880083.8070045
+}

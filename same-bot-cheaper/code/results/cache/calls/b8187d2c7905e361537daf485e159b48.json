@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry to hear three plants arrived dead\u2014that's frustrating. Here's what we can do:\n\n**For the dead plants:** They're covered by our Damaged on Arrival policy (Section 5 of our terms). I'll need to escalate this to a Support Lead to process claims and arrange replacements or refunds for the three plants.\n\n**For your refund method:** Since your card has expired, refunds normally go back to the original payment method, but your bank should pass it to your replacement card automatically. Alternatively, I can arrange for your refund as **Leafy store credit** instead\u2014it's issued instantly and never expires, so you can use it whenever you're ready.\n\nWhich would you prefer: wait for the refund to your replacement card, or take store credit? Once you decide, I'll escalate to a Support Lead to process your Damaged on Arrival claim.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1511,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 196,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1511,
+    "output_tokens": 196,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1511,
+ "output_tokens": 196,
+ "thinking_tokens": 0,
+ "latency_ms": 2995,
+ "wall_ms": 5853,
+ "overhead": 379,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791006868.3846571
+}

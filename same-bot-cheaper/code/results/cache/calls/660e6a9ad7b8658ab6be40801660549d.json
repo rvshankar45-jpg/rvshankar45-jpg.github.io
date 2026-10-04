@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! \ud83c\udf3f Monsteras are gorgeous, and I'd love to help you get one.\n\nUnfortunately, **live plants can't be delivered to PO boxes**. PO boxes only work for non-living items like pots, soil and accessories. So I can't send a monstera to a PO box, with express or any other shipping method.\n\n**What you can do instead:**\n- Ship the plant to a street address where someone can receive it, such as your home, a workplace or a trusted friend or family member.\n\n**About express shipping to a street address:**\n- It costs **$14.95** (it's never free, even for Leafy Plus members).\n- Delivery is **next business day** if you're under 300 miles from our nearest greenhouse (Zone 1), or **2 business days** if you're 300-1,000 miles away (Zone 2).\n- It isn't available for addresses over 1,000 miles away or for remote and island addresses (Zone 3). Those ship Standard in 5-8 business days.\n- Live plants ship **Monday to Wednesday only**. Orders placed after 12 noon on Wednesday ship the following Monday.\n- If your monstera is an XL plant (usually over 4 ft), it ships Standard only, with an extra $20 handling fee.\n\nIf you'd like help working out which option suits your address, just let me know. Happy plant shopping! \ud83e\udeb4",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 434,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 687,
+  "output_tokens_details": {
+   "thinking_tokens": 234
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 434,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 687,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 434,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 434
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4774,
+ "output_tokens": 687,
+ "thinking_tokens": 234,
+ "latency_ms": 6938,
+ "wall_ms": 9638,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879233.2454412
+}

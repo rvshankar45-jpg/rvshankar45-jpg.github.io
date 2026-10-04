@@ -1,0 +1,50 @@
+{
+ "text": "Standard delivery in Zone 2 (addresses 300-1,000 miles from the nearest greenhouse) takes **3-5 business days**. Live plants ship Monday-Wednesday only, so an order placed after 12 noon on Wednesday ships the following Monday, and that wait comes before the transit time.\n\nStandard shipping is $7.95, or free on orders of $75 or more (after discounts, before tax).",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2227,
+  "output_tokens": 138,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 138,
+    "cache_read_input_tokens": 2227,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2229,
+ "output_tokens": 138,
+ "thinking_tokens": 0,
+ "latency_ms": 2114,
+ "wall_ms": 5342,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791006934.5751011
+}

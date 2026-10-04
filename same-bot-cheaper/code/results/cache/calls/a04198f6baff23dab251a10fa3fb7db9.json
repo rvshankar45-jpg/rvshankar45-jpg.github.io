@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thanks for contacting Leafy! \ud83c\udf3f\n\nStandard shipping is **$7.95**, and it's **free on orders of $75 or more** (after discounts, before tax).\n\nA few extras that might be helpful:\n\n- **Delivery time** depends on how far you are from our nearest greenhouse:\n  - Under 300 miles: 2-3 business days\n  - 300-1,000 miles: 3-5 business days\n  - Over 1,000 miles, or remote and island addresses: 5-8 business days\n- **XL plants** (usually over 4 ft) add a **$20** handling fee and ship Standard only.\n- **Leafy Plus members** get free Standard shipping with no minimum.\n- Live plants ship Monday to Wednesday only.\n\nIf you'd like to know about Express shipping or anything else, just ask. Happy plant shopping! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 4761,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 287,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 4761,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 287,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 4761,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 4761
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4763,
+ "output_tokens": 287,
+ "thinking_tokens": 0,
+ "latency_ms": 2609,
+ "wall_ms": 8470,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879078.1711595
+}

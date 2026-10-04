@@ -1,0 +1,49 @@
+{
+ "text": "Happy to help! The quickest way to send your photos is by email:\n\n- **Email:** help@leafy.example\n- Include your **order number** (LF- plus six digits).\n- Attach photos of **the plant, the cracked pot, and the box it arrived in**.\n- Mention whether you'd like a **replacement or a refund**.\n\nYou can also start the report from **\"My Orders\"** on the website or app. I can't confirm that photos can be uploaded in this chat, so please use email or \"My Orders\" to make sure they reach the team.\n\nYour report needs to be in **within 48 hours of delivery**, so please send it today. Emails are answered within **1 business day**.\n\nIf you choose a replacement, it ships on the next plant shipping day (live plants ship Monday to Wednesday).\n\nThanks for your patience, and I'm sorry again about the cracked pot. Reach out any time if you need anything else, and I hope your new rubber plant is thriving soon! \ud83c\udf3f",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 913,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 756,
+  "output_tokens_details": {
+   "thinking_tokens": 445
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 913,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 756,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 913,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 913
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 5253,
+ "output_tokens": 756,
+ "thinking_tokens": 445,
+ "latency_ms": 6904,
+ "wall_ms": 9584,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879452.326737
+}

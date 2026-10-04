@@ -1,0 +1,50 @@
+{
+ "text": "No, a replacement for the cracked pot won't count against it. DOA replacements don't count as the guarantee's one replacement, so if the plant declines later you can still make a Plant Care Guarantee claim.\n\nI need to correct two things from my earlier messages:\n\n- **Guarantee window on a DOA replacement:** The policy doesn't say whether a DOA replacement plant gets its own new guarantee period or stays on the original **30-day** window from this morning's delivery. I shouldn't have implied it was settled, and I can include the question when I escalate.\n- **Care tips:** The tips on sun, repotting timing and watering didn't come from our policy, so please don't treat them as official. A Plant Care Specialist can give you proper advice for your rubber plant by chat or email, and it's free.\n\nTo keep within the **48-hour** DOA window, would you like me to escalate your report now? Please tell me whether you'd prefer a **replacement** (shipped on the next plant shipping day) or a **refund**.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1437,
+  "cache_read_input_tokens": 1321,
+  "output_tokens": 746,
+  "output_tokens_details": {
+   "thinking_tokens": 420
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1437,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 746,
+    "cache_read_input_tokens": 1321,
+    "cache_creation_input_tokens": 1437,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1437
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2760,
+ "output_tokens": 746,
+ "thinking_tokens": 420,
+ "latency_ms": 6526,
+ "wall_ms": 8974,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004870.6472826
+}

@@ -1,0 +1,50 @@
+{
+ "text": "Sorry about the delay, especially when you were expecting it last week.\n\nIf the last tracking update was this past Monday, it has now gone 4 business days without moving. That meets our threshold for a courier investigation.\n\n- **Investigation:** We open one with the courier, and it can take up to **5 business days**.\n- **If the parcel is confirmed lost:** you choose between a free replacement or a full refund.\n- **Tracking delays:** Tracking can take up to 24 hours to update, but that doesn't apply here since it's been stuck for days.\n\nTo start the investigation, please send me your order number (it looks like LF- followed by six digits, e.g. LF-204518). Please don't send any card details.\n\nSince the delivery is late, I can also offer a one-time store credit of up to $15 as a goodwill gesture. Let me know if you'd like that.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 442,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 844,
+  "output_tokens_details": {
+   "thinking_tokens": 572
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 442,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 844,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 442,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 442
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4300,
+ "output_tokens": 844,
+ "thinking_tokens": 572,
+ "latency_ms": 7149,
+ "wall_ms": 10403,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005948.6191528
+}

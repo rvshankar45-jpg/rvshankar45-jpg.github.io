@@ -1,0 +1,50 @@
+{
+ "text": "Plant Club lets you list **up to 3 plants you already own** so they aren't sent as duplicates. That's the only way to avoid them, since you can't choose the plant itself. The Collector plan is also a surprise plant, so it works the same way.\n\nOur policy doesn't say whether your existing list carries over when you change plans, so I can't promise it will. After you upgrade, check that your list of owned plants is still there under **Account > Subscriptions**, and re-add any that are missing. If the list doesn't show up or you can't edit it, I can escalate it to a Support Lead.\n\nBecause the list is capped at 3, a plant you own that isn't on it could still be sent. Collector boxes also include medium or rare plants, which you may not have yet.\n\nIs there anything else I can help with?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1000,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 495,
+  "output_tokens_details": {
+   "thinking_tokens": 242
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1000,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 495,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 1000,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1000
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4858,
+ "output_tokens": 495,
+ "thinking_tokens": 242,
+ "latency_ms": 4235,
+ "wall_ms": 7464,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005857.2456698
+}

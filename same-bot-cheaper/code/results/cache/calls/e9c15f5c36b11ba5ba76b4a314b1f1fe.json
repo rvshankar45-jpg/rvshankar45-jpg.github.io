@@ -1,0 +1,50 @@
+{
+ "text": "Not quite\u2014if you waive the weather hold, the Plant Care Guarantee still applies to most issues, **but cold or heat damage in transit is excluded**. So if your plant dies from cold exposure during shipping after you waive the hold, we can't replace it or issue a refund for that specific damage.\n\nThat said, the guarantee covers other problems (like root rot or leaf loss from other causes) for **30 days from delivery** (or **90 days if you're a Leafy Plus member**). If you'd rather wait for safer conditions, we'll hold the shipment up to 7 days\u2014no pressure to waive it.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1541,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 143,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1541,
+    "output_tokens": 143,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1541,
+ "output_tokens": 143,
+ "thinking_tokens": 0,
+ "latency_ms": 2567,
+ "wall_ms": 5487,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791101065.4953134
+}

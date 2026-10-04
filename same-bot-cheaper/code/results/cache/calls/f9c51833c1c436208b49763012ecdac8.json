@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry, I know it's frustrating when the card has already been closed. Unfortunately, refunds can only go back to the original payment method, never to a different card, even if the original is closed or expired.\n\nHere are your options:\n\n- **Refund to the original card (ending 7712):** Closing a card doesn't usually stop the refund. The bank normally passes it on to your replacement card. Once the refund is issued, expect it within 5-10 business days on a card, or 3-5 business days if the original payment was a digital wallet. For a duplicate charge, the refund is issued within 3 business days of confirmation.\n- **Leafy store credit:** This is issued instantly and never expires. You can use it on any future order, but it isn't a refund to a card.\n\nYour bank can tell you whether it will forward the refund from the closed card to your new one. I don't have more detail on how that works at each bank.\n\nBefore any refund, we still need to rule out the multi-parcel case. Did you receive order LF-381204 in one package or more than one? Once I know, I can tell you whether this is a duplicate. If you'd like, I can also escalate this to a Support Lead.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1325,
+  "cache_read_input_tokens": 1463,
+  "output_tokens": 367,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1325,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 367,
+    "cache_read_input_tokens": 1463,
+    "cache_creation_input_tokens": 1325,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1325
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2790,
+ "output_tokens": 367,
+ "thinking_tokens": 0,
+ "latency_ms": 4147,
+ "wall_ms": 7197,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004890.5861948
+}

@@ -1,0 +1,50 @@
+{
+ "text": "Plant Care Specialists are available by chat from 9am to 5pm, Monday to Friday, in your local time. You can also reach them by email, and anyone, customer or not, can get free care advice from them. Our general support chat runs 8am\u20138pm Mon\u2013Sat, and there's no phone support.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 2137,
+  "output_tokens": 98,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 98,
+    "cache_read_input_tokens": 2137,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2139,
+ "output_tokens": 98,
+ "thinking_tokens": 0,
+ "latency_ms": 2253,
+ "wall_ms": 5428,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791007226.449654
+}

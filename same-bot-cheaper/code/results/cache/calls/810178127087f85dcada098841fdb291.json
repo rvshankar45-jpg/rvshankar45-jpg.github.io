@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! \ud83c\udf3f Congratulations on your new snake plant.\n\nI'm sorry to say that I can't offer the price difference this time. Our price drop adjustment covers items that go down in price within **7 days** of purchase, and you're well within that window at 5 days. But it **doesn't apply to flash sales or clearance prices**, and since the lower price is from a flash sale, it isn't eligible.\n\nIf you feel strongly that an exception should be made, just let me know and I'll escalate your request to a Support Lead. I can't promise the outcome, but they can review it.\n\nIs there anything else I can help with? Our Plant Care Specialists are also happy to give free care tips for your snake plant by chat (9am-5pm Mon-Fri) or email. Please reach out any time! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 450,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 526,
+  "output_tokens_details": {
+   "thinking_tokens": 256
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 450,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 526,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 450,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 450
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4790,
+ "output_tokens": 526,
+ "thinking_tokens": 256,
+ "latency_ms": 5575,
+ "wall_ms": 7979,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879321.4717457
+}

@@ -1,0 +1,50 @@
+{
+ "text": "We don't do direct exchanges. Instead, you return the item and place a new order for the one you want.\n\nA few things to know:\n- **Non-living items** (pots, tools, soil, fertiliser, grow lights, accessories) can be returned within **30 days** of delivery, unused and in original packaging. Start the return from \"My Orders\" and a prepaid label will be emailed. Drop the parcel off within **7 days** before the label expires.\n- **Live plants** can't be returned for change of mind. If there's a problem with a plant, it goes through the Plant Care Guarantee or Damaged on Arrival process.\n- Change-of-mind returns cost a flat **$6.95** (free for Leafy Plus members), deducted from your refund. Faulty or incorrect items return free.\n- Refunds are issued within **5 business days** of the return reaching our warehouse.\n\nIs there a specific item you're looking to swap?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1929,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 297,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1929,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 297,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1929,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1929
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1931,
+ "output_tokens": 297,
+ "thinking_tokens": 0,
+ "latency_ms": 2911,
+ "wall_ms": 5732,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005093.108484
+}

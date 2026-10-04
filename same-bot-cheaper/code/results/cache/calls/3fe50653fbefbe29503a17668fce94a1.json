@@ -1,0 +1,50 @@
+{
+ "text": "Based on our Plant Care Guarantee, here's what you're entitled to:\n\n**You can get one more replacement.** The original plant qualifies for one free replacement. If that replacement also died within its 30-day guarantee (or 90 days if you're a Leafy Plus member), it qualifies for a second replacement. However, **that second replacement has no guarantee**\u2014if it dies, we can't replace it again.\n\nTo claim the second replacement, report the first replacement's death from \"My Orders\" with two photos (whole plant + close-up) within the guarantee window. A Plant Care Specialist will review within 2 business days.\n\nI'd also mention: **snake plants are toxic to pets**, so if you have cats or dogs, that might be the issue. For free ongoing care advice, our Plant Care Specialists are available by chat or email anytime. Would you like help with anything else?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1161,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 201,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1161,
+    "output_tokens": 201,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1161,
+ "output_tokens": 201,
+ "thinking_tokens": 0,
+ "latency_ms": 3547,
+ "wall_ms": 6939,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791101082.7069125
+}

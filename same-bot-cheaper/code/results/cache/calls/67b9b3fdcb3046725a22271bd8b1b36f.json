@@ -1,0 +1,50 @@
+{
+ "text": "Since your tracking hasn't moved in 5 business days, you've passed our 4-business-day threshold, so please contact support to get this started. Here's what happens next:\n\n1. **Courier investigation:** We open an investigation with the courier, which takes up to **5 business days**.\n2. **If the package is found to be lost:** you choose either a **free replacement** or a **full refund**.\n\n**How to reach us:**\n- **Chat:** 8am-8pm Mon-Sat (your local time)\n- **Email:** help@leafy.example, answered within 1 business day\n- There's no phone support.\n\nIf you're already chatting with us, tell us your order number and we can get the investigation opened.\n\nIf you choose a refund, it goes back to your original payment method. Cards take 5-10 business days once issued, and digital wallets take 3-5 business days. You can also take Leafy store credit, which is instant.\n\nI'm sorry about the delay, especially with live plants. If the wait has been a poor experience, I can offer a one-time goodwill store credit of up to $15.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2262,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 338,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2262,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 338,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2262,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2262
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2264,
+ "output_tokens": 338,
+ "thinking_tokens": 0,
+ "latency_ms": 3672,
+ "wall_ms": 7243,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004695.2388878
+}

@@ -1,0 +1,50 @@
+{
+ "text": "Unfortunately, no. Grow lights can be returned within **30 days of delivery**, unused and in their original packaging. Yours is unopened, but at 35 days it's 5 days past the window, so I can't start a return through \"My Orders\".\n\nIf you think an exception is warranted, I can escalate this to a Support Lead to review. I can't promise the outcome, since it's outside our standard policy. If the light is faulty rather than just unwanted, let me know that too, as it would be useful context for the escalation.\n\nWould you like me to escalate it?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 435,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 388,
+  "output_tokens_details": {
+   "thinking_tokens": 213
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 435,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 388,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 435,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 435
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4293,
+ "output_tokens": 388,
+ "thinking_tokens": 213,
+ "latency_ms": 4336,
+ "wall_ms": 8238,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005776.182627
+}

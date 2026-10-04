@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! I'm sorry your monstera arrived with yellow leaves and you've seen a double charge. That's a stressful combination, so let's go through each part.\n\n**1. Yellow leaves on your monstera**\n\n- Yellowing on one or two older leaves in the first two weeks is usually normal transplant stress, and on its own it isn't covered.\n- If the plant arrived damaged (snapped main stem, cracked pot, exposed roots, or dead or severely wilted), report it as Damaged on Arrival **within 48 hours of delivery**. Include photos of the plant and the box. We'd send a free replacement on the next plant shipping day, or a refund.\n- If it's past 48 hours, or the problem develops later, the **30-day Plant Care Guarantee** applies (90 days for Leafy Plus members). Make a claim from \"My Orders\" with at least two photos (whole plant and a close-up). A Plant Care Specialist reviews it within **2 business days**. Covered problems include losing more than a third of its leaves, stem or root rot, or collapse.\n- In the meantime, keep it out of direct sun for the first week, don't repot for 2-3 weeks, and water only when the top inch of soil is dry.\n\nWhen did it arrive? That will tell me which route fits best.\n\n**2. Being charged twice**\n\n- Cards are authorised at checkout and charged when the order ships, so one of the two may just be a **pending authorisation** that will drop off. An order shipped in several parcels can also show one charge per parcel.\n- If both charges have fully posted, send me your **order number** (it looks like LF-123456) and the **last four digits** of the card. Please don't share the full card number or security code. Once confirmed, the duplicate is refunded within **3 business days**, and then takes **5-10 business days** to show on a card (3-5 for digital wallets).\n\n**3. Refund to a different card**\n\nI'm sorry, but I can't do this. Refunds can only go back to the **original payment method**, even if that card has been closed or expired. Banks normally pass the refund on to a replacement card. If you'd rather not wait, you can take **Leafy store credit** instead, which is issued instantly and never expires.\n\nIf you'd still like to ask for a different card, I can pass your request to a Support Lead to review. I can't promise the outcome.\n\nWould you like me to do that, or go ahead with any of the options above? Please reach out anytime. \ud83c\udf3f",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 448,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 1356,
+  "output_tokens_details": {
+   "thinking_tokens": 550
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 448,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1356,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 448,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 448
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4788,
+ "output_tokens": 1356,
+ "thinking_tokens": 550,
+ "latency_ms": 10292,
+ "wall_ms": 14034,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790868672.4257925
+}

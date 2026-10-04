@@ -1,0 +1,50 @@
+{
+ "text": "No, monstera is not pet-safe according to our plant safety guidance. If you have pets, pet-safe options we carry include calathea, spider plant, parlour palm, Boston fern, and peperomia.\n\nIf your pet may have chewed or eaten any part of a monstera, please contact a vet or pet poison control right away. For general care advice, a Plant Care Specialist is also available by chat or email.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 1528,
+  "output_tokens": 130,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 130,
+    "cache_read_input_tokens": 1528,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1530,
+ "output_tokens": 130,
+ "thinking_tokens": 0,
+ "latency_ms": 1594,
+ "wall_ms": 5885,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791007191.936047
+}

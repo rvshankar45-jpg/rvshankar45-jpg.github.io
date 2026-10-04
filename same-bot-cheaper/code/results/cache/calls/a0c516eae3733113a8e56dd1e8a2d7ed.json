@@ -1,0 +1,49 @@
+{
+ "text": "Thanks for asking! I want to give you the right answer rather than a guess. I know the report needs photos of the plant, the cracked pot, and the box, and that it has to be made **within 48 hours of delivery**. But I don't have the exact place to upload damage photos, so I don't want to send you to the wrong spot.\n\nHere's what I'd suggest:\n\n- **Gather your photos now** while everything is fresh: the whole plant, a close-up of the crack, and the box it came in. Please keep the box for now.\n- **Let me pass your case to our support team.** I can flag that your rubber plant arrived with a cracked pot this morning, so they can tell you exactly where to send the photos and keep you within the 48-hour window.\n\nWould you like me to do that? Also, let me know whether you'd prefer a **replacement** or a **refund**, so the team has that ready.\n\nSorry for the extra step, and thanks for your patience. We'll get this sorted so your rubber plant can start fresh in a safe pot. \ud83c\udf3f",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 886,
+  "cache_read_input_tokens": 1553,
+  "output_tokens": 715,
+  "output_tokens_details": {
+   "thinking_tokens": 385
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 886,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 715,
+    "cache_read_input_tokens": 1553,
+    "cache_creation_input_tokens": 886,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 886
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2441,
+ "output_tokens": 715,
+ "thinking_tokens": 385,
+ "latency_ms": 6936,
+ "wall_ms": 9891,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880132.5421553
+}

@@ -1,0 +1,50 @@
+{
+ "text": "Your email arrived 2 days ago, so the 3-day reply window hasn't quite closed. If you don't reply within 3 days of that email, the fern ($80) is automatically refunded. You can still reply before then to choose a similar plant of equal or higher value, wait up to 14 days for the fern, or take the refund.\n\nThe out-of-stock options and refund apply only to the fern, so the pot isn't cancelled by this. Our policy doesn't say whether the pot ships separately or waits for a replacement plant, so I can't promise a ship date. I can escalate to a Support Lead to confirm that if you'd like.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 488,
+  "cache_read_input_tokens": 1179,
+  "output_tokens": 526,
+  "output_tokens_details": {
+   "thinking_tokens": 324
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 488,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 526,
+    "cache_read_input_tokens": 1179,
+    "cache_creation_input_tokens": 488,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 488
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1669,
+ "output_tokens": 526,
+ "thinking_tokens": 324,
+ "latency_ms": 4829,
+ "wall_ms": 7622,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100968.5544207
+}

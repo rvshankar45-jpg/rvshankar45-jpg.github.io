@@ -1,0 +1,193 @@
+{
+ "items": [
+  {
+   "answer_id": "c01.t1#1",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct 48h, photos, replacement/refund, and the DOA vs guarantee point. Slightly hedgy about where to submit."
+  },
+  {
+   "answer_id": "c01.t1#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Concise and accurate, with all the key facts."
+  },
+  {
+   "answer_id": "c01.t1#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Accurate, and the care tips are in the KB. A bit wordy."
+  },
+  {
+   "answer_id": "c01.t1#4",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 3,
+   "tone": 4,
+   "score": 3,
+   "note": "Says to report via 'My Orders' or by replying here. The KB doesn't give a DOA submission route, so this is mildly invented."
+  },
+  {
+   "answer_id": "c01.t1#5",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct core facts. The nursery vs decorative pot distinction is a reasonable inference from the KB."
+  },
+  {
+   "answer_id": "c01.t2#1",
+   "correctness": 4,
+   "completeness": 2,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Fails to give the available channels (chat or help@leafy.example). Escalating instead is overcautious."
+  },
+  {
+   "answer_id": "c01.t2#2",
+   "correctness": 4,
+   "completeness": 2,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Doesn't name chat or email as the way to send photos, and defers to escalation instead."
+  },
+  {
+   "answer_id": "c01.t2#3",
+   "correctness": 4,
+   "completeness": 2,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Doesn't give the contact channels. Offers escalation to a Support Lead, which isn't needed here."
+  },
+  {
+   "answer_id": "c01.t2#4",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Gives the email address and the 48h deadline. 'My Orders' is hedged and not confirmed by the KB for DOA."
+  },
+  {
+   "answer_id": "c01.t2#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Gives chat and email with correct hours and the 48h window, and honestly says there is no upload form."
+  },
+  {
+   "answer_id": "c01.t3#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Accurate guarantee details. The escalation offer is unnecessary but harmless."
+  },
+  {
+   "answer_id": "c01.t3#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "All facts are correct, but the answer is long."
+  },
+  {
+   "answer_id": "c01.t3#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Clear, correct and complete. Useful point about not repotting."
+  },
+  {
+   "answer_id": "c01.t3#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, and links the 48h DOA window to the guarantee."
+  },
+  {
+   "answer_id": "c01.t3#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Accurate and complete."
+  },
+  {
+   "answer_id": "c01.t4#1",
+   "correctness": 2,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Right answer of No. But it wrongly retracts the care tips, which are in KB section 9, and tells the customer not to trust them."
+  },
+  {
+   "answer_id": "c01.t4#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, concise, and reminds the customer of the 48h window."
+  },
+  {
+   "answer_id": "c01.t4#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct. Honest about the unknown on whether a DOA replacement gets a new guarantee."
+  },
+  {
+   "answer_id": "c01.t4#4",
+   "correctness": 2,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Right answer of No. But it falsely says the 2-3 week repot advice isn't from policy, when the KB care card says it."
+  },
+  {
+   "answer_id": "c01.t4#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and honest about what is unknown. Gives a contact route."
+  },
+  {
+   "answer_id": "c01.t4#6",
+   "correctness": 2,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Right answer of No. But it wrongly 'corrects' the 2-3 week repot guidance, which is in the KB."
+  }
+ ]
+}

@@ -1,0 +1,148 @@
+{
+ "items": [
+  {
+   "answer_id": "t248#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct on both points; useful addition about Plus pricing applying to pots/accessories."
+  },
+  {
+   "answer_id": "t248#2",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 4,
+   "score": 3,
+   "note": "Suggests placing a new order with the code, which isn't in the KB and implies a workaround (would need to cancel within 2h). Also 'larger savings either way' is slightly loose. Core facts right."
+  },
+  {
+   "answer_id": "t249#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct: not refundable for cash, never expire; honest about transfer not being covered."
+  },
+  {
+   "answer_id": "t249#2",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 2,
+   "tone": 4,
+   "score": 3,
+   "note": "Correct on no cash and no expiry, but suggests giving it to someone else, which the KB doesn't cover (invented permission)."
+  },
+  {
+   "answer_id": "t250#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct; asks for order number, warns against card details, honest about timeframe."
+  },
+  {
+   "answer_id": "t250#2",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise; asks for the order number."
+  },
+  {
+   "answer_id": "t251#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Accurate: box already billed, sent, not refunded, no fee."
+  },
+  {
+   "answer_id": "t251#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Accurate and concise."
+  },
+  {
+   "answer_id": "t252#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct; clear about no choice, up to 3 owned plants, Collector details."
+  },
+  {
+   "answer_id": "t252#2",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct core, but implies listing a calathea raises chances of a rare plant, mildly speculative. Doesn't mention light-level matching."
+  },
+  {
+   "answer_id": "t253#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct 3-month max, cancel option, timing, no fee."
+  },
+  {
+   "answer_id": "t253#2",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 4,
+   "score": 3,
+   "note": "Correct 3-month limit, but invents that cancelling loses membership benefits tied to an active subscription."
+  },
+  {
+   "answer_id": "t254#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct denial, benefits continue, offers escalation."
+  },
+  {
+   "answer_id": "t254#2",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Starts with 'Yes, you can!' which contradicts the actual answer (no), confusing; body is correct."
+  },
+  {
+   "answer_id": "t255#1",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct; honest about not knowing the cancel location or refund timing."
+  },
+  {
+   "answer_id": "t255#2",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 5,
+   "score": 3,
+   "note": "Correct eligibility, but states the cancel path as Account > Subscriptions for Plus and refund handling details not in KB (invented)."
+  }
+ ]
+}

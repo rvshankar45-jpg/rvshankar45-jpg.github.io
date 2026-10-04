@@ -1,0 +1,211 @@
+{
+ "items": [
+  {
+   "answer_id": "c09.t2#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate threshold, 5-day investigation, lost outcome; weather-hold check is relevant and no promises."
+  },
+  {
+   "answer_id": "c09.t2#2",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Refers to a $15 credit 'mentioned earlier' that was never offered, and wrongly says a Support Lead will be brought in if the order is over $150 (that is a refund/credit threshold, loosely applied). Core facts are right."
+  },
+  {
+   "answer_id": "c09.t2#3",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Concise and correct; offers escalation."
+  },
+  {
+   "answer_id": "c09.t2#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct facts, empathetic, weather hold mention is accurate."
+  },
+  {
+   "answer_id": "c09.t2#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct, with accurate refund timings and a valid goodwill credit offer within the $15 limit."
+  },
+  {
+   "answer_id": "c09.t3#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct outcome and refund details; honest about unknowns."
+  },
+  {
+   "answer_id": "c09.t3#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct; goodwill offer is permitted."
+  },
+  {
+   "answer_id": "c09.t3#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and thorough, with honest limits."
+  },
+  {
+   "answer_id": "c09.t3#4",
+   "correctness": 1,
+   "completeness": 2,
+   "policy": 2,
+   "tone": 3,
+   "score": 1,
+   "note": "Wrongly retracts correct KB facts, claiming they are not in policy, and fails to answer the question."
+  },
+  {
+   "answer_id": "c09.t3#5",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 3,
+   "tone": 4,
+   "score": 3,
+   "note": "Says a replacement 'sends the order again', and refers to a $15 credit as if previously offered; mostly correct otherwise."
+  },
+  {
+   "answer_id": "c09.t4#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Declines to promise Express, gives accurate Express details, and offers escalation."
+  },
+  {
+   "answer_id": "c09.t4#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and honest; offers escalation."
+  },
+  {
+   "answer_id": "c09.t4#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct, and its Express-in-wrong-item note is accurate. Concise."
+  },
+  {
+   "answer_id": "c09.t4#4",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 3,
+   "score": 2,
+   "note": "Wrongly says the refund timeframes were not in policy and tells the customer to disregard them, when they are in the KB. The Express answer itself is right."
+  },
+  {
+   "answer_id": "c09.t4#5",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 3,
+   "score": 2,
+   "note": "Express answer is right, but it wrongly retracts valid refund and store credit info."
+  },
+  {
+   "answer_id": "c09.t4#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Good Express answer. The $15 credit is presented as already offered, a minor issue."
+  },
+  {
+   "answer_id": "c09.t5#1",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct Monday-Wednesday answer; timing speculation is slightly vague."
+  },
+  {
+   "answer_id": "c09.t5#2",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and clear."
+  },
+  {
+   "answer_id": "c09.t5#3",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise; offers escalation."
+  },
+  {
+   "answer_id": "c09.t5#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct, with relevant weather hold and mixed-order details; no promises."
+  },
+  {
+   "answer_id": "c09.t5#5",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct core answer, but the ship-timing speculation ('the following Monday') is guesswork. Transit times are accurate."
+  },
+  {
+   "answer_id": "c09.t5#6",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct core answer. It presents the $15 credit as already established, and the reply's sequencing is slightly off."
+  },
+  {
+   "answer_id": "c09.t5#7",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct and very concise."
+  }
+ ]
+}

@@ -1,0 +1,7 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+results/*_log.txt
+qa/reports/_page_text.txt

@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry, that's frustrating, especially when you were expecting a different plant.\n\nThe policy information I have doesn't cover wrong items being delivered, so I can't tell you what the remedy or timeframe would be (replacement, refund or return). The Plant Care Guarantee only covers plants that die or decline, so it doesn't apply here. I can escalate this to a Support Lead to sort out. To do that, please send me:\n\n- Your order number (it looks like `LF-` followed by six digits)\n- A photo of the plant you received, and ideally of its label or care card\n\nOne safety note: pothos is **not pet-safe**, while peperomia is. If you have pets, keep the pothos out of their reach until this is resolved. If a pet or person may have eaten any of it, contact a doctor, vet or poison control first.\n\nWould you like me to escalate this now?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1577,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 513,
+  "output_tokens_details": {
+   "thinking_tokens": 237
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1577,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 513,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1577,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1577
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1579,
+ "output_tokens": 513,
+ "thinking_tokens": 237,
+ "latency_ms": 4801,
+ "wall_ms": 7372,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004724.3032012
+}

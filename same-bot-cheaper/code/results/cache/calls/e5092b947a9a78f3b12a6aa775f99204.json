@@ -1,0 +1,50 @@
+{
+ "text": "No, pothos is not pet-safe, so it isn't a good choice if you have a cat.\n\nIf you're looking for alternatives, these Leafy plants are listed as pet-safe:\n- Calathea\n- Spider plant\n- Parlour palm\n- Boston fern\n- Peperomia\n\nIf your cat may have already eaten part of a pothos, contact your vet or local poison control right away. I can also escalate to a Support Lead afterward if you'd like.\n\nI can also share more about any of the pet-safe options, or connect you with a Plant Care Specialist (chat 9am-5pm Mon-Fri, your local time) for care advice.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 427,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 324,
+  "output_tokens_details": {
+   "thinking_tokens": 117
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 427,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 324,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 427,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 427
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4285,
+ "output_tokens": 324,
+ "thinking_tokens": 117,
+ "latency_ms": 3745,
+ "wall_ms": 6583,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005924.16154
+}

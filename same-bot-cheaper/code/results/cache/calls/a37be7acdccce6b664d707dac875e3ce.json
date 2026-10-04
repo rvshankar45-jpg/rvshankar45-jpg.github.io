@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy. I'm so sorry this happened. Finding an order you didn't place is really stressful, and I want to help you get it sorted out.\n\n**What to do right now**\n- **Reset your Leafy password immediately.** If you use the same password on other sites, change it there too.\n- **Contact your card issuer** (the number on the back of your card) to report the unauthorised charge. They can monitor or replace the card. Please don't send me your full card number, security code or password. I never need them.\n\n**What happens on our side**\nSince your account may have been accessed by someone else, and this involves a possible fraudulent charge, I'm escalating this to a human Support Lead now. They will take it from here and look into the order.\n\nTo help them, please reply with:\n- The order number if you can see it (it looks like LF-123456, and you can find it in \"My Orders\" or in a confirmation email)\n- The last four digits of the card used\n\n**About that order**\n- If it's still within 2 hours of being placed, it can be cancelled free from \"My Orders\" once you've secured your account.\n- After that, it moves to the packing queue. Support can try to intercept it before it ships, but that isn't guaranteed, so please get in touch quickly.\n- Once an order has shipped, it can't be cancelled, and I can't promise a specific outcome for it. The Support Lead will go through the options with you.\n\nCards are charged when an order ships, so you may currently see only a pending authorisation. If the order is cancelled, that pending hold normally drops off in 3-7 business days, depending on your bank. Leafy can't release it faster.\n\nYou can also reach us by email at help@leafy.example (answered within 1 business day), or by chat 8am-8pm Mon-Sat in your local time.\n\nYou're doing all the right things by acting quickly. We'll get this looked at, and please reach out any time if you need anything else. \ud83c\udf3f",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 442,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 610,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 442,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 610,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 442,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 442
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4782,
+ "output_tokens": 610,
+ "thinking_tokens": 0,
+ "latency_ms": 6129,
+ "wall_ms": 9655,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790868668.3092031
+}

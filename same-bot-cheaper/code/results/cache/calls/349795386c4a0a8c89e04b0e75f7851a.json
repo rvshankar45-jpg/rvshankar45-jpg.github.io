@@ -1,0 +1,50 @@
+{
+ "text": "Yes, from what you've described, you'd get the full $59 back.\n\nLeafy Plus is fully refundable if you cancel within **14 days** of purchase or renewal **and** haven't used any membership benefits. You renewed 5 days ago, so you have about 9 days left in the window. If you haven't placed an order since renewing, you shouldn't have used any benefits, such as free shipping, free change-of-mind returns, member pricing on pots and accessories, or early access to a rare plant drop. If you've used any of those, there's no refund, though your benefits would continue to the end of the paid year.\n\n- **Where the money goes:** The refund goes to your original payment method. Once it's issued, cards take **5-10 business days** and digital wallets **3-5 business days**.\n- **Cancelling:** The policy I have doesn't say where to cancel Leafy Plus, so I don't want to guess. Please cancel soon, well before day 14. You can reach support by chat (8am-8pm Mon-Sat) or email at help@leafy.example (answered within 1 business day). I can also escalate this to a Support Lead if you'd like.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 460,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 739,
+  "output_tokens_details": {
+   "thinking_tokens": 371
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 460,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 739,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 460,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 460
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4318,
+ "output_tokens": 739,
+ "thinking_tokens": 371,
+ "latency_ms": 7040,
+ "wall_ms": 9350,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005585.357147
+}

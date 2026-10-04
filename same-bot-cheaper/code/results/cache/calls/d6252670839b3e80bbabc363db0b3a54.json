@@ -1,0 +1,50 @@
+{
+ "text": "There's no chat with a Plant Care Specialist on Sunday. Specialist chat runs 9am-5pm Mon-Fri (your local time), so the next slot is Monday at 9am. You can also email help@leafy.example any time, and it's answered within 1 business day.\n\nIn the meantime, overwatering causes most early problems, so only water when the top inch of soil is dry. Keep the plant out of direct sun during its first week, and don't repot for 2-3 weeks after delivery.\n\nIf it declines significantly (losing over a third of its leaves, stem or root rot, or collapse) within 30 days of delivery (90 for Leafy Plus members), you can submit a claim from \"My Orders\" with two photos, a whole plant and a close-up. A specialist reviews it within 2 business days.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1746,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 525,
+  "output_tokens_details": {
+   "thinking_tokens": 266
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1746,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 525,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1746,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1746
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1748,
+ "output_tokens": 525,
+ "thinking_tokens": 266,
+ "latency_ms": 4545,
+ "wall_ms": 7759,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791101204.5089788
+}

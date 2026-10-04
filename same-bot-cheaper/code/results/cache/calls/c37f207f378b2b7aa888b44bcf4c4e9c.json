@@ -1,0 +1,50 @@
+{
+ "text": "Yes, you can skip July's box. Go to \"Account\" > \"Subscriptions\" and choose skip. Since July's box is charged on June 25, you need to do this **before the 25th**. Today is June 20, so you have a few days. If you skip on or after the 25th, the change applies to August's box instead, and July's box is still billed and sent.\n\nIf you'll be away longer, you can also pause for up to 3 months from the same page.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1959,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 393,
+  "output_tokens_details": {
+   "thinking_tokens": 255
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1959,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 393,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1959,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1959
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1961,
+ "output_tokens": 393,
+ "thinking_tokens": 255,
+ "latency_ms": 4529,
+ "wall_ms": 6987,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005251.9277544
+}

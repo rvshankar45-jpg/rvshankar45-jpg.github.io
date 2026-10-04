@@ -1,0 +1,49 @@
+{
+ "text": "Hi there! \ud83d\udc4b Thanks for reaching out to Leafy!\n\nIf your parcel is lost, we'll open a courier investigation to track it down. The investigation takes **up to 5 business days**.\n\nHere's what happens:\n- If tracking shows your order hasn't moved for **4 business days**, or shows as delivered but you haven't received it, just contact our support team and we'll get an investigation started right away.\n- Once we've investigated, you can choose either a **free replacement** of your order or a **full refund** \u2014 whichever works best for you.\n\nI'm sorry you're dealing with this! Is there anything else I can help with, or do you need to report a lost parcel right now? I'm here to help. \ud83d\udc9a",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1807,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 175,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1807,
+    "output_tokens": 175,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1807,
+ "output_tokens": 175,
+ "thinking_tokens": 0,
+ "latency_ms": 3067,
+ "wall_ms": 6540,
+ "overhead": 379,
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1790879929.150148
+}

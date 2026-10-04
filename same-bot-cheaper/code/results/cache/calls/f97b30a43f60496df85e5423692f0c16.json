@@ -1,0 +1,49 @@
+{
+ "text": "Since you didn't reply within 3 days of our email, the fern should have been automatically refunded. That refund applies only to the out-of-stock item, not the rest of your order. I don't have a specific timeframe for when the refund will reach your original payment method, so I can't promise a date. If you haven't seen a refund confirmation, I can escalate this to a Support Lead to check it for you.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1542,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 240,
+  "output_tokens_details": {
+   "thinking_tokens": 116
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1542,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 240,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1542,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1542
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1544,
+ "output_tokens": 240,
+ "thinking_tokens": 116,
+ "latency_ms": 3530,
+ "wall_ms": 6877,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790868745.2720983
+}

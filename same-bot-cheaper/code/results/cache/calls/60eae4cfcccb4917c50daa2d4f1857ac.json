@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry, that's a stressful thing to happen right before a move. Unfortunately I can't redirect it.\n\n- **Redirecting:** Once an order has shipped, the shipping address can't be changed, and couriers don't accept redirection requests from Leafy. Shipped orders also can't be cancelled.\n- **Express:** Express isn't available for island or remote addresses (Zone 3). Those orders ship Standard only, which takes 5-8 business days. Express also only applies to a new order, not one already on its way.\n\n**What you can do**\n- **Receive it at your old address:** Since you're moving next week, check the tracking email for the delivery estimate and see whether someone can collect it before you go.\n- **Send a new order to your dad:** This is a separate, new order, so it would be charged separately. Live plants ship Monday to Wednesday only, so an order placed now would ship Monday. Standard shipping is $7.95, or free on orders of $75 or more (after discounts, before tax). Live plants can't go to PO boxes, and if forecasts are below 35\u00b0F or above 95\u00b0F in transit, they may be held up to 7 days.\n\nMy policy information doesn't cover returning or rerouting a package that has already shipped to the wrong address, or whether the cost of the original order can be recovered. If you'd like, I can escalate this to a Support Lead to review your options. If you want me to do that, please send the order number (it looks like LF-123456) and tell me whether the wrong address was entered at checkout or whether it was a Leafy error.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2182,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1086,
+  "output_tokens_details": {
+   "thinking_tokens": 589
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2182,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1086,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2182,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2182
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2184,
+ "output_tokens": 1086,
+ "thinking_tokens": 589,
+ "latency_ms": 10577,
+ "wall_ms": 14410,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004832.3787673
+}

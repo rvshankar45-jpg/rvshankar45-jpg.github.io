@@ -1,0 +1,50 @@
+{
+ "text": "Thank you for your question!\n\nAs a **Leafy Plus member**, you get **free Standard shipping** with no minimum order value. However, Express shipping is **never free**, even for Plus members.\n\nSo for your $60 order:\n- **Standard shipping:** Free\n- **Express shipping:** $14.95\n\nSince Express is not free for Plus members, I'd recommend Standard shipping to take advantage of your membership benefit. The timeframe depends on your zone:\n\n- **Zone 1** (under 300 miles): 2\u20133 business days\n- **Zone 2** (300\u20131,000 miles): 3\u20135 business days  \n- **Zone 3** (over 1,000 miles): 5\u20138 business days\n\nIs there anything else I can help with?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 3185,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 181,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 3185,
+    "output_tokens": 181,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 3185,
+ "output_tokens": 181,
+ "thinking_tokens": 0,
+ "latency_ms": 2313,
+ "wall_ms": 6057,
+ "overhead": 379,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791005724.7440631
+}

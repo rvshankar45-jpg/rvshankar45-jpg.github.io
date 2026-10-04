@@ -1,0 +1,76 @@
+{
+ "items": [
+  {
+   "answer_id": "q071#1",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct main point and $20 fee. Says Standard is 2\u20138 business days, which is a loose range, but it is not wrong. It doesn't give the per-zone breakdown."
+  },
+  {
+   "answer_id": "q071#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Fully correct: no Express, $20 fee, zone timings and ship days all match the KB."
+  },
+  {
+   "answer_id": "q078#1",
+   "correctness": 2,
+   "completeness": 2,
+   "policy": 2,
+   "tone": 4,
+   "score": 2,
+   "note": "Wrongly says policy doesn't cover wrong items. The KB says we ship the correct item free by Express and the customer keeps the wrong plant. It escalates unnecessarily and misses the main resolution. The pet-safety note is fine."
+  },
+  {
+   "answer_id": "q078#2",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 3,
+   "tone": 4,
+   "score": 3,
+   "note": "Offers a free replacement, which is roughly right, but offers a refund instead, which is not the stated remedy. It omits Express shipping, keeping the wrong plant and the free return label. It does ask for the order number. The pet-safety point is irrelevant but harmless."
+  },
+  {
+   "answer_id": "q079#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct: under $40 means no return, 48-hour window, photos of pot and box, replacement or refund. Mentioning My Orders is reasonable."
+  },
+  {
+   "answer_id": "q079#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate and concise, and covers all the key facts."
+  },
+  {
+   "answer_id": "q089#1",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct that the return is not possible. The escalation offer for a faulty item is reasonable. The phrase about 'policy excerpts' is a bit awkward."
+  },
+  {
+   "answer_id": "q089#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and clear. It states the conditions and offers help if the item is faulty."
+  }
+ ]
+}

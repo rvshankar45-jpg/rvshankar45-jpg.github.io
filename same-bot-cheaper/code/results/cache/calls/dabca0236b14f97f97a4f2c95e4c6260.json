@@ -1,0 +1,50 @@
+{
+ "text": "Sorry, we can't ship to Canada. Leafy doesn't offer international shipping, so orders can only go to addresses within our domestic shipping zones. If you'd like, I can help with anything else about an order or shipping within the country.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 422,
+  "cache_read_input_tokens": 1455,
+  "output_tokens": 77,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 422,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 77,
+    "cache_read_input_tokens": 1455,
+    "cache_creation_input_tokens": 422,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 422
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1879,
+ "output_tokens": 77,
+ "thinking_tokens": 0,
+ "latency_ms": 2355,
+ "wall_ms": 5179,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100273.981556
+}

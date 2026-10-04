@@ -1,0 +1,50 @@
+{
+ "text": "Yes, you're still within the window. Orders can be changed or cancelled free within **2 hours** of ordering, from \"My Orders\". Since you ordered about 20 minutes ago, you have roughly 1 hour 40 minutes left.\n\n- **Adding the pot:** Go to \"My Orders\" and open the order to make the change. My policy information says orders can be \"changed\" in that window, but it doesn't spell out whether adding a new item is supported. If you don't see an option to add the pot, tell me and I can escalate it.\n- **After the 2 hours:** The order moves to the packing queue and can't be changed online. Support can try to intercept it before it ships, but that isn't guaranteed.\n- **Promo codes:** A promo code can't be added after ordering, so a code can't be applied to the pot if you add it.\n- **Plant pots:** Your ZZ plant will arrive in a plastic nursery pot with drainage holes. Decorative pots are sold separately unless the listing says \"potted\".",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 449,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 630,
+  "output_tokens_details": {
+   "thinking_tokens": 306
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 449,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 630,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 449,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 449
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4307,
+ "output_tokens": 630,
+ "thinking_tokens": 306,
+ "latency_ms": 6254,
+ "wall_ms": 8637,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005904.7205303
+}

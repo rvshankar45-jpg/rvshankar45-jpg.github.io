@@ -1,0 +1,193 @@
+{
+ "items": [
+  {
+   "answer_id": "c10.t1#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Accurate claim steps; slightly long but fine."
+  },
+  {
+   "answer_id": "c10.t1#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and complete."
+  },
+  {
+   "answer_id": "c10.t1#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Concise and accurate."
+  },
+  {
+   "answer_id": "c10.t1#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct; includes weather-hold check, valid."
+  },
+  {
+   "answer_id": "c10.t1#5",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct overall; asserts it's Saturday and about a week left, assumptions. Today 2026-10-03 is Saturday, so fine."
+  },
+  {
+   "answer_id": "c10.t2#1",
+   "correctness": 4,
+   "completeness": 3,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Apologises and offers escalation, but omits the goodwill credit up to $15."
+  },
+  {
+   "answer_id": "c10.t2#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Apology, $15 goodwill credit, escalation; all within policy."
+  },
+  {
+   "answer_id": "c10.t2#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Offers goodwill credit and escalation; good."
+  },
+  {
+   "answer_id": "c10.t2#4",
+   "correctness": 5,
+   "completeness": 3,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Escalates but no goodwill credit offered."
+  },
+  {
+   "answer_id": "c10.t2#5",
+   "correctness": 4,
+   "completeness": 3,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Escalates, no goodwill credit; odd apology for not asking."
+  },
+  {
+   "answer_id": "c10.t3#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Escalates and offers credit."
+  },
+  {
+   "answer_id": "c10.t3#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Excellent."
+  },
+  {
+   "answer_id": "c10.t3#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Escalates, credit, safe."
+  },
+  {
+   "answer_id": "c10.t3#4",
+   "correctness": 3,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Wrongly retracts watering/sun/repotting advice which is in the KB."
+  },
+  {
+   "answer_id": "c10.t3#5",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 4,
+   "note": "Escalates, credit referenced as already mentioned though not in this thread necessarily; fine."
+  },
+  {
+   "answer_id": "c10.t4#1",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct; 'Likely yes' slightly confident but hedged."
+  },
+  {
+   "answer_id": "c10.t4#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and empathetic."
+  },
+  {
+   "answer_id": "c10.t4#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct, mentions second replacement no guarantee."
+  },
+  {
+   "answer_id": "c10.t4#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and clear."
+  },
+  {
+   "answer_id": "c10.t4#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and complete."
+  },
+  {
+   "answer_id": "c10.t4#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct; escalates."
+  }
+ ]
+}

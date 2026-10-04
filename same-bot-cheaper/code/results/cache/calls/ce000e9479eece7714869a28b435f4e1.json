@@ -1,0 +1,49 @@
+{
+ "text": "I'm sorry this happened, that's stressful. Please do these now:\n\n1. **Reset your Leafy password immediately** (and change it anywhere else you've used it).\n2. **Contact your card issuer** to report the unauthorised charge, so they can block or replace the card. Please don't share your full card number, security code or password with us.\n\nBecause this involves suspected fraud, I'm escalating it to a human Support Lead. Please send your order number (format LF-plus six digits) for the unauthorised order, if you have it, so they can review it. Cards are charged when an order ships, so if it hasn't shipped yet, support can try to intercept it, though that isn't guaranteed. Once an order has shipped, it can't be cancelled.\n\nI don't have a policy on how quickly a Support Lead will respond, but chat is open 8am-8pm Mon-Sat, and you can also email help@leafy.example (answered within 1 business day).",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2162,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 300,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2162,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 300,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2162,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2162
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2164,
+ "output_tokens": 300,
+ "thinking_tokens": 0,
+ "latency_ms": 3160,
+ "wall_ms": 6893,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 400,
+ "recorded_at": 1790787072.6787677
+}

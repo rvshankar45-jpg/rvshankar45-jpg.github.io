@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thanks for contacting Leafy! \ud83c\udf3f\n\nGood news: as a Leafy Plus member, you **don't** pay the $6.95 fee. Change-of-mind returns are free for Plus members.\n\nSince a planter is a non-living item, it's eligible for return. Here's what to know:\n\n- **Return window:** within **30 days** of delivery\n- **Condition:** unused and in its original packaging\n- **To start:** go to \"My Orders\" and begin the return. A prepaid label will be emailed to you.\n- **Label expiry:** the label expires after **7 days**, so please drop the parcel off within that time.\n- **Refund:** issued to your original payment method within **5 business days** of the return reaching our warehouse.\n\nJust a heads up, original shipping is only refunded if the whole order is returned because of our error, so it wouldn't apply to a change-of-mind return.\n\nIf you'd like a different planter instead, we don't do direct exchanges, so you'd return this one and place a new order.\n\nLet me know if there's anything else I can help with. Happy planting! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2243,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 352,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2243,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 352,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2243,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2243
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2245,
+ "output_tokens": 352,
+ "thinking_tokens": 0,
+ "latency_ms": 3316,
+ "wall_ms": 6622,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879958.1783235
+}

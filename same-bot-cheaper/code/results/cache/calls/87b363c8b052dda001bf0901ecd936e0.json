@@ -1,0 +1,50 @@
+{
+ "text": "Good question! If freezing temperatures (below 35\u00b0F) are forecasted during transit, we'll hold your plant shipment for up to 7 days and email you about it. You can either:\n\n1. **Wait it out** \u2013 we'll ship when it's safe, and the Plant Care Guarantee covers any issues (except cold damage in transit).\n2. **Waive the hold** \u2013 reply to our email and we'll ship anyway, though cold damage in transit won't be covered and DOA claims for cold damage won't be accepted.\n\nYou can also add a **free heat pack at checkout** in winter for extra protection. Either way, your plant ships Monday\u2013Wednesday only.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1281,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 152,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1281,
+    "output_tokens": 152,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1281,
+ "output_tokens": 152,
+ "thinking_tokens": 0,
+ "latency_ms": 3259,
+ "wall_ms": 6627,
+ "overhead": 379,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791006697.2514799
+}

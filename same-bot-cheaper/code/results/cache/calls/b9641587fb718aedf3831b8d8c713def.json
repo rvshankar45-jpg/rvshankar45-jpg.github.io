@@ -1,0 +1,49 @@
+{
+ "text": "Hi again! \ud83c\udf3f Good news: yes, you can, as long as you meet both conditions.\n\n**Full refund if:**\n- You cancel within **14 days** of purchase (or renewal), **and**\n- You haven't used any Leafy Plus benefits\n\nSo changing your mind after one week would be fine, provided you haven't used any benefits. That includes things like free Standard shipping, free change-of-mind returns, member pricing on pots and accessories, or a Plant Care Guarantee claim under the 90-day cover.\n\n**If you've used a benefit:** there's no refund, but your benefits continue until the end of the paid year.\n\nMy knowledge base doesn't say how long the refund takes to arrive or how to cancel the membership, so I don't want to guess. If you'd like those details, I can escalate your question to a Support Lead.\n\nAlso, a quick correction to something I said earlier: the free change-of-mind returns benefit covers the **$6.95 return fee** on eligible non-living items. It doesn't apply to live plants, which can't be returned for change of mind.\n\nIs there anything else I can help with? Happy planting! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1092,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 367,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1092,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 367,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 1092,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1092
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 5432,
+ "output_tokens": 367,
+ "thinking_tokens": 0,
+ "latency_ms": 3588,
+ "wall_ms": 9235,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879720.9072363
+}

@@ -1,0 +1,148 @@
+{
+ "items": [
+  {
+   "answer_id": "t200#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct: auto refund after 3 days, lists options, offers escalation if no refund."
+  },
+  {
+   "answer_id": "t200#2",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct on auto refund; slightly assumes 3 days passed and says 'back in stock' but fine. Doesn't mention card charged on shipping."
+  },
+  {
+   "answer_id": "t201#1",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct flash-sale exclusion; a bit curt, doesn't explain normal rule."
+  },
+  {
+   "answer_id": "t201#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, explains normal rule and exclusion, offers review."
+  },
+  {
+   "answer_id": "t202#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate; honest about uncertainty on different-item case."
+  },
+  {
+   "answer_id": "t202#2",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct; the answer doesn't mention that a promo can't be added after ordering, but that's not required."
+  },
+  {
+   "answer_id": "t203#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, empathetic, notes no expiry, avoids inventing timeframe."
+  },
+  {
+   "answer_id": "t203#2",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct but doesn't say the purchaser (aunt) must provide it, nor that cards never expire."
+  },
+  {
+   "answer_id": "t204#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, empathetic, offers escalation honestly."
+  },
+  {
+   "answer_id": "t204#2",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct; no apology and the duplicate charge question is slightly off-topic."
+  },
+  {
+   "answer_id": "t205#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and offers a next step."
+  },
+  {
+   "answer_id": "t205#2",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct, but 'within the US' is an inference and no next step offered."
+  },
+  {
+   "answer_id": "t206#1",
+   "correctness": 4,
+   "completeness": 3,
+   "policy": 3,
+   "tone": 4,
+   "score": 3,
+   "note": "Says 'I can' do changes, but customers do it in Account; no price detail; offers escalation for pause beyond policy."
+  },
+  {
+   "answer_id": "t206#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate on the 25th rule, 3-month cap, prices and where to change it."
+  },
+  {
+   "answer_id": "t207#1",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 3,
+   "tone": 4,
+   "score": 3,
+   "note": "Escalates, but hints at replacement or credit, and doesn't offer goodwill. Asks questions before escalating."
+  },
+  {
+   "answer_id": "t207#2",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Honest about no policy, escalates, explains the owned-plant list; misses the goodwill credit offer."
+  }
+ ]
+}

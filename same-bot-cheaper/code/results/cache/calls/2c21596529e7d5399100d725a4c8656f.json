@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry, the timing is awkward. Since your order has already shipped, the shipping address can't be changed, and couriers don't accept redirection requests from Leafy, so I can't redirect it to your new address.\n\nShipped orders also can't be cancelled. Our policy excerpts don't cover other options, such as holding the parcel at the courier or arranging delivery to someone at your old address. I can escalate this to a Support Lead if you'd like them to look into it.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 447,
+  "cache_read_input_tokens": 1496,
+  "output_tokens": 152,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 447,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 152,
+    "cache_read_input_tokens": 1496,
+    "cache_creation_input_tokens": 447,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 447
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1945,
+ "output_tokens": 152,
+ "thinking_tokens": 0,
+ "latency_ms": 1979,
+ "wall_ms": 5074,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100699.451746
+}

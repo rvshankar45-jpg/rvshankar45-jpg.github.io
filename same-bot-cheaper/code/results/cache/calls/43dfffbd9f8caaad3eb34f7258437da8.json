@@ -1,0 +1,50 @@
+{
+ "text": "If you've already used the free shipping, you would **not** qualify for the refund, even if you cancel within the 14 days. The full refund only applies when you cancel within **14 days** of purchase or renewal **and** haven't used any benefits.\n\nIn that case:\n- **No refund** of the $59.\n- **Your benefits continue** until the end of the paid year, so you'd keep things like free Standard shipping, free change-of-mind returns, the 90-day guarantee, and 10% member pricing on pots and accessories.\n\nIf you're unsure whether you'd rather keep the membership, it's worth holding off on using any benefits until you've decided, since using one is what removes the refund option.\n\nThe policy I have doesn't cover whether there are any exceptions for a single use of a benefit. If you'd like, I can escalate to a Support Lead to check.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1185,
+  "cache_read_input_tokens": 1313,
+  "output_tokens": 269,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1185,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 269,
+    "cache_read_input_tokens": 1313,
+    "cache_creation_input_tokens": 1185,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1185
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2500,
+ "output_tokens": 269,
+ "thinking_tokens": 0,
+ "latency_ms": 3833,
+ "wall_ms": 7789,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004937.7477667
+}

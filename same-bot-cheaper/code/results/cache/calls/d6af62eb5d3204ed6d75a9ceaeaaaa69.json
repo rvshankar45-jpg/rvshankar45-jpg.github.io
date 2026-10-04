@@ -1,0 +1,50 @@
+{
+ "text": "Sorry about the trouble with your order. Here's how each part works:\n\n- **Out-of-stock pot:** We email you within 24 hours of ordering with three options: a similar item of equal or higher value, a wait of up to 14 days, or a refund for that item. If you don't reply within 3 days, the pot is refunded automatically.\n- **Cracked item:** Report it within 48 hours of delivery, with photos of the item and the box. If the plant has a snapped main stem or exposed roots, or is dead or severely wilted, you get a free replacement on the next plant shipping day, or a refund. If it's a cracked pot, you get a replacement or refund, and items under $40 usually don't need to be sent back. After 48 hours, plant issues go through the 30-day Plant Care Guarantee instead.\n\nIs it the plant's stem that's cracked, or the pot? And when was it delivered? That tells me which route applies and whether you're still inside the 48-hour window.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 455,
+  "cache_read_input_tokens": 1295,
+  "output_tokens": 688,
+  "output_tokens_details": {
+   "thinking_tokens": 373
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 455,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 688,
+    "cache_read_input_tokens": 1295,
+    "cache_creation_input_tokens": 455,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 455
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1752,
+ "output_tokens": 688,
+ "thinking_tokens": 373,
+ "latency_ms": 6481,
+ "wall_ms": 10464,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791101551.9520452
+}

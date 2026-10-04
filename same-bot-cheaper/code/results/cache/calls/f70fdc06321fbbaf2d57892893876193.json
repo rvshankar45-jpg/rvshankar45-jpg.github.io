@@ -1,0 +1,50 @@
+{
+ "text": "Yes, most likely. Pots and planters can be returned within 30 days of delivery if they're unused and in their original packaging. At 3 weeks you should still be inside the window, since it runs from delivery rather than purchase.\n\nFor a change-of-mind return, a flat $6.95 fee is deducted, so you'd get back **$23.05** of the $30 (the fee is only waived for Leafy Plus members). Original shipping isn't refunded unless the whole order is returned because of our error.\n\nStart the return from \"My Orders\". A prepaid label will be emailed to you, and you'll need to drop the parcel off within 7 days before it expires. Your refund goes to the original payment method within 5 business days of the return reaching our warehouse.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 454,
+  "cache_read_input_tokens": 1271,
+  "output_tokens": 473,
+  "output_tokens_details": {
+   "thinking_tokens": 235
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 454,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 473,
+    "cache_read_input_tokens": 1271,
+    "cache_creation_input_tokens": 454,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 454
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1727,
+ "output_tokens": 473,
+ "thinking_tokens": 235,
+ "latency_ms": 4919,
+ "wall_ms": 7564,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005115.360403
+}

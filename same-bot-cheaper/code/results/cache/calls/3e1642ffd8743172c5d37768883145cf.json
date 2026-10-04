@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! I'm sorry about the charge. It's frustrating to see $49 taken right after you cancelled, and I understand why you want it sorted.\n\nHere's what happened:\n- Plant Club is charged on the **25th** of the month before the box ships.\n- Your cancellation on the **26th** came one day after that charge, so it applies to the **following** month's box.\n- Under our policy, a box that's already been billed isn't refunded on cancellation and is still sent. It ships in the **first full week of the month**.\n\nThe good news is that your cancellation went through, and there's no cancellation fee. You won't be charged for any future boxes.\n\nI can't promise a refund, because the policy doesn't allow one in this situation. But since you'd like to be refunded, I'm escalating your request to a Support Lead so they can review it. I don't have a set timeframe for their reply, but they'll look at your case and follow up with you directly.\n\nThanks for your patience, and please reach out anytime if you have other questions. \ud83c\udf3f",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 452,
+  "cache_read_input_tokens": 1721,
+  "output_tokens": 891,
+  "output_tokens_details": {
+   "thinking_tokens": 554
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 452,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 891,
+    "cache_read_input_tokens": 1721,
+    "cache_creation_input_tokens": 452,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 452
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2175,
+ "output_tokens": 891,
+ "thinking_tokens": 554,
+ "latency_ms": 8032,
+ "wall_ms": 10586,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880102.138354
+}

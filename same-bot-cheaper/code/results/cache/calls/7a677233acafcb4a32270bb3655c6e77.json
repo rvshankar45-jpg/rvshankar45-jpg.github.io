@@ -1,0 +1,50 @@
+{
+ "text": "You don't need to send back the rubber plant\u2014you can keep it at no charge. We'll ship the correct ZZ plant free by Express (where your zone allows) with a prepaid return label included if you want to return the rubber plant later.\n\nI don't have the exact delivery timeframe for Express in your area, so I'd need to check your order details. Can you confirm your order number so I can see when the ZZ plant will arrive?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1295,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 100,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1295,
+    "output_tokens": 100,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1295,
+ "output_tokens": 100,
+ "thinking_tokens": 0,
+ "latency_ms": 1777,
+ "wall_ms": 4845,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791101119.3360353
+}

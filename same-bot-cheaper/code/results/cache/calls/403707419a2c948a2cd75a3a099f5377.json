@@ -1,0 +1,50 @@
+{
+ "text": "Yes, you'd get the full $59 back. Leafy Plus is fully refundable if you cancel within 14 days of purchase or renewal and haven't used any benefits. You're at day 5 and haven't ordered anything since renewing, so you qualify.\n\nOne thing to check before cancelling: make sure you haven't used any member benefits since the renewal (for example free shipping, a free change-of-mind return, or member pricing on pots or accessories). If you have, the refund wouldn't apply, and your benefits would just continue until the end of the paid year.\n\nThe policy excerpts I have don't say exactly where to cancel Leafy Plus or how long the refund takes to arrive. Refunds go back to your original payment method, and once issued they take 5-10 business days for cards or 3-5 business days for digital wallets. If you'd like, I can escalate to a Support Lead to help with the cancellation itself.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2097,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 293,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2097,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 293,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2097,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2097
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2099,
+ "output_tokens": 293,
+ "thinking_tokens": 0,
+ "latency_ms": 2998,
+ "wall_ms": 7727,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005125.6257226
+}

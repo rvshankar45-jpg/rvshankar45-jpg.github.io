@@ -1,0 +1,9 @@
+{
+ "train_n": 270,
+ "test_n": 100,
+ "train_haiku_ok_rate": 0.37037037037037035,
+ "test_haiku_ok_rate": 0.6,
+ "max_train_test_similarity": 0.8993052244186401,
+ "test_ids_in_train": 0,
+ "missing_train_labels": 0
+}

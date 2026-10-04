@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry your plants arrived dead. Dead-on-arrival claims go through our Damaged on Arrival process, but I don't have those details (claim window or what evidence is needed), so I can't confirm the $180 refund. I can escalate this to a Support Lead to review the claim.\n\nIf the claim is approved, refunds can only go back to the original payment method, even if the card has expired. The bank normally passes the money to your replacement card, and card refunds take 5-10 business days once issued. Alternatively, you can take Leafy store credit, which is issued instantly and never expires.\n\nWould you like me to escalate the claim, and do you have a preference between the original card and store credit?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2005,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 420,
+  "output_tokens_details": {
+   "thinking_tokens": 202
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2005,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 420,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2005,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2005
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2007,
+ "output_tokens": 420,
+ "thinking_tokens": 202,
+ "latency_ms": 4530,
+ "wall_ms": 7246,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005290.505656
+}

@@ -1,0 +1,50 @@
+{
+ "text": "A snapped main stem counts as damaged on arrival, and you have **48 hours from delivery** to report it. Include photos of the plant and the box. If it's covered, you can choose a free replacement sent on the next plant shipping day (live plants ship Monday-Wednesday) or a refund.\n\nIf the 48 hours have passed, the claim goes through the Plant Care Guarantee instead. That's a 30-day window from delivery (90 days for Leafy Plus members), and it needs at least two photos (whole plant and close-up) submitted from \"My Orders.\"",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1950,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 183,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1950,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 183,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1950,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1950
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1952,
+ "output_tokens": 183,
+ "thinking_tokens": 0,
+ "latency_ms": 2939,
+ "wall_ms": 6647,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100044.4539769
+}

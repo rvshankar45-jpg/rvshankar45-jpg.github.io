@@ -1,0 +1,50 @@
+{
+ "text": "Yes, as long as it's within **14 days** of purchase (or renewal) **and** you haven't used any Leafy Plus benefits. Changing your mind after a week fits within the 14-day window, so you'd get a full refund.\n\n**What counts as using a benefit:** if you've used any Plus benefit, such as free Standard shipping on an order, a free change-of-mind return, or a member-priced pot or accessory, you're no longer eligible for the refund. In that case there's no refund, but your benefits continue until the end of the paid year.\n\n**How to cancel:** go to \"Account\" > \"Subscriptions\".\n\nIf you're unsure whether something you've done counts as using a benefit, I can escalate it for you. Is there anything else I can help with?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 952,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 241,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 952,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 241,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 952,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 952
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4810,
+ "output_tokens": 241,
+ "thinking_tokens": 0,
+ "latency_ms": 3097,
+ "wall_ms": 5936,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005904.4189408
+}

@@ -1,0 +1,50 @@
+{
+ "text": "I completely understand your frustration\u2014this is stressful, and I'm sorry you're dealing with it.\n\nSince tracking hasn't moved for a week and this is your third contact, I'm escalating you to a Support Lead immediately. They have full authority to investigate and resolve this quickly. A courier investigation will be opened (typically resolved within **5 business days**), and you'll be able to choose either a free replacement or full refund once we confirm the parcel is lost.\n\nA Support Lead will reach out to you shortly. In the meantime, if you have your order number handy, that'll speed things up.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1564,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 136,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1564,
+    "output_tokens": 136,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1564,
+ "output_tokens": 136,
+ "thinking_tokens": 0,
+ "latency_ms": 2417,
+ "wall_ms": 5391,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791100984.9179263
+}

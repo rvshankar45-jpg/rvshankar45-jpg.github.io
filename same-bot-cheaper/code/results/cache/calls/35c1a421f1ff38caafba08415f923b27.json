@@ -1,0 +1,50 @@
+{
+ "text": "I understand how frustrating this is after reaching out multiple times. I want to help get this resolved properly.\n\nTo assist you best, I need a couple of details:\n1. **When was the plant delivered?** (This determines if you're still within the 30-day Plant Care Guarantee, or 90 days if you were a Leafy Plus member when you ordered)\n2. **Have you already submitted a claim** through \"My Orders\" with photos, or is this your first formal claim?\n\nOnce I confirm the timeline, I can either process your replacement immediately or, if you're outside the guarantee window, escalate this to a Support Lead\u2014because multiple unanswered contacts suggests something went wrong on our end. You shouldn't have had to chase us three times.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1216,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 170,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1216,
+    "output_tokens": 170,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1216,
+ "output_tokens": 170,
+ "thinking_tokens": 0,
+ "latency_ms": 2649,
+ "wall_ms": 5421,
+ "overhead": 379,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791006857.7985806
+}

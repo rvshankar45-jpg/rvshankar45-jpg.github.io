@@ -1,0 +1,49 @@
+{
+ "text": "Good news: no, the replacement for your cracked pot won't count against your guarantee. \ud83c\udf3f\n\nDamaged-on-arrival replacements are separate from the Plant Care Guarantee's one free replacement. So you'd still have that in reserve if the plant declines within your 30-day guarantee window (90 days for Leafy Plus members).\n\n- **Damage report:** it needs to be made within 48 hours of delivery, with photos of the plant, the cracked pot, and the box. You can choose a free replacement, sent on the next plant shipping day, or a refund.\n- **Plant Care Guarantee:** you'd still have one free replacement, claimed from \"My Orders\" with at least two photos. A Plant Care Specialist reviews it within 2 business days.\n\nOne quick correction to my last message: I mentioned waiting 2-3 weeks before repotting, but that isn't from our policy. The only rule I can confirm is that repotting into non-Leafy soil in the first 14 days isn't covered by the guarantee. Your cracked pot is better handled through the damage report than by repotting.\n\nI can't confirm whether a damage replacement plant gets its own new guarantee, so I'll ask the team about that when I pass your case along.\n\nWould you like me to send your case to our support team now, so they can tell you where to send your photos? And would you prefer a replacement or a refund? \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1507,
+  "cache_read_input_tokens": 1803,
+  "output_tokens": 1049,
+  "output_tokens_details": {
+   "thinking_tokens": 603
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1507,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1049,
+    "cache_read_input_tokens": 1803,
+    "cache_creation_input_tokens": 1507,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1507
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 3312,
+ "output_tokens": 1049,
+ "thinking_tokens": 603,
+ "latency_ms": 8991,
+ "wall_ms": 11803,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880320.8464797
+}

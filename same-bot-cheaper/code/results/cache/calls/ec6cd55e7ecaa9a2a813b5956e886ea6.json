@@ -1,0 +1,49 @@
+{
+ "text": "Thanks for letting me know, and I'm sorry for the extra hassle with the closed card. \ud83c\udf3f\n\nUnfortunately, I can't send the refund to a different card. Refunds can only go back to the **original payment method**, even if that card is now closed or expired.\n\nThe good news is you have two options:\n\n- **Refund to the original card (ending 7712):** Once the refund is issued, the bank normally passes it on to your replacement card. Card refunds usually take **5-10 business days** (or **3-5 business days** for digital wallets). It's worth checking with your bank that they'll forward it to your new card.\n- **Leafy store credit:** This is issued **instantly** and never expires. You can use it on any future order, including your new plant babies.\n\nJust let me know which you'd prefer. If you'd like store credit, tell me and we'll get that set up.\n\nThanks for your patience, and please reach out any time you need a hand. \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1336,
+  "cache_read_input_tokens": 1945,
+  "output_tokens": 298,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1336,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 298,
+    "cache_read_input_tokens": 1945,
+    "cache_creation_input_tokens": 1336,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1336
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 3283,
+ "output_tokens": 298,
+ "thinking_tokens": 0,
+ "latency_ms": 3057,
+ "wall_ms": 6287,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880173.0841506
+}

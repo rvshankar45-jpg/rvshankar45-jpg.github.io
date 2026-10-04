@@ -1,0 +1,50 @@
+{
+ "text": "The duplicate-avoidance option is part of Plant Club generally, not tied to one plan. You can list up to 3 plants you own so they aren't sent as your surprise plant, and the policy makes no distinction between Starter and Collector.\n\nThe policy doesn't say whether your existing list carries over automatically when you change plans. After you upgrade, check your list under \"Account\" > \"Subscriptions\" and re-enter any plants that are missing. Since the upgrade needs to be done by the 24th to count for your next box, it's worth checking right after you switch.\n\nThe list is limited to 3 plants, and only those listed plants are avoided. Collector boxes include medium or rare plants, so a plant you own that isn't on your list could still turn up.\n\nIf the list doesn't carry over and you can't update it, I can escalate this to a Support Lead. Would you like anything else?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2585,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 637,
+  "output_tokens_details": {
+   "thinking_tokens": 360
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2585,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 637,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2585,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2585
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2587,
+ "output_tokens": 637,
+ "thinking_tokens": 360,
+ "latency_ms": 5489,
+ "wall_ms": 8388,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004866.161923
+}

@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thanks for reaching out to Leafy! \ud83c\udf3f\n\nAccount deletion takes **up to 30 days** to complete.\n\nHere's how to start it:\n- Log in and go to **Account > Privacy**\n- Choose the option to delete your data\n\nA couple of things to know before you go ahead:\n- **Subscriptions are cancelled** when your account is deleted. If you have a Plant Club box that has already been billed, it isn't refunded on cancellation and is still sent.\n- If you'd like a copy of your information first, you can **download your data** from the same Account > Privacy page.\n\nIf you have any questions along the way, or if there's anything else I can help with, just let me know. Take care! \ud83e\udeb4",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 425,
+  "cache_read_input_tokens": 4679,
+  "output_tokens": 227,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 425,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 227,
+    "cache_read_input_tokens": 4679,
+    "cache_creation_input_tokens": 425,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 425
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 5106,
+ "output_tokens": 227,
+ "thinking_tokens": 0,
+ "latency_ms": 2768,
+ "wall_ms": 8589,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790786980.5691955
+}

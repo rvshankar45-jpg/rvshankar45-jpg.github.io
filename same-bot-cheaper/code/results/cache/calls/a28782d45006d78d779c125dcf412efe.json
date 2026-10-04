@@ -1,0 +1,49 @@
+{
+ "text": "Hi there! \ud83d\udc4b Thanks for reaching out to Leafy!\n\nI understand the feeling\u2014sometimes a plant doesn't quite fit what we had in mind! However, I have to be honest with you: **live plants can't be returned just because of a change of mind**. That's one of our core policies.\n\n**But here's the good news:** if there's actually something *wrong* with the plant when it arrives, we've got you covered! You can get a free replacement or refund through our **Damaged on Arrival (DOA) guarantee** if:\n\n- The main stem is snapped\n- The plant is dead or severely wilted\n- The roots are exposed\n- The pot is cracked or smashed\n\nA few bent leaves or loose soil is totally normal and shipping-related, so those don't count.\n\nIf your plant arrived in that condition, just **report it within 48 hours** of delivery with photos, and we'll sort you out!\n\nIf the plant is healthy but just isn't your style, you're welcome to rehome it or give it to a friend. \ud83c\udf31\n\nIs there anything else I can help you with, or would you like to chat about plant care tips?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1560,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 267,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1560,
+    "output_tokens": 267,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1560,
+ "output_tokens": 267,
+ "thinking_tokens": 0,
+ "latency_ms": 3390,
+ "wall_ms": 6796,
+ "overhead": 379,
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1790879796.0198824
+}

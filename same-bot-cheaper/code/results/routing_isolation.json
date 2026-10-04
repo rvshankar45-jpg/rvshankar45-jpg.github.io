@@ -1,0 +1,6 @@
+{
+ "system_identical": true,
+ "user_identical": true,
+ "chunks_identical": true,
+ "recommended_threshold": 0.5
+}

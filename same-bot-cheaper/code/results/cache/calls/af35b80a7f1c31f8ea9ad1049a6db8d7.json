@@ -1,0 +1,49 @@
+{
+ "text": "Hi there! \ud83d\udc4b Thanks for reaching out to Leafy!\n\n**Standard shipping is $7.95** \u2014 but here's the good news: it's **free on orders of $75 or more** (after discounts, before tax)!\n\nDepending on how far you are from our nearest greenhouse, Standard shipping typically takes:\n- **2\u20133 business days** if you're under 300 miles away\n- **3\u20135 business days** if you're 300\u20131,000 miles away\n- **5\u20138 business days** if you're over 1,000 miles away or in a remote/island area\n\nIs there anything else I can help you with? \ud83c\udf3f",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1832,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 161,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1832,
+    "output_tokens": 161,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1832,
+ "output_tokens": 161,
+ "thinking_tokens": 0,
+ "latency_ms": 2385,
+ "wall_ms": 6870,
+ "overhead": 379,
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1790879754.10578
+}

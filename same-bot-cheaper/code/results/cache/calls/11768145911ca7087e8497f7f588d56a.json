@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry, this is stressful. Here's what to do:\n\n**Right now**\n1. **Reset your Leafy password immediately.** Choose a new one you don't use anywhere else. Please don't share your password, full card number, or security code with me or anyone in chat.\n2. **Contact your card issuer** about the unauthorised charge, so they can secure the card and handle the dispute on their side.\n\n**What I'm doing**\nSuspected account access and a possible fraudulent charge both require a human Support Lead, so I'm escalating this to one. To help them, please have ready:\n- Your order number (it looks like LF-123456), if you can see it in \"My Orders\"\n- The last four digits of the card used\n\n**About the order**\n- If it was placed within the last **2 hours**, you can cancel it free from \"My Orders\".\n- After 2 hours, it's in the packing queue and can't be changed online. Support can try to intercept it before it ships, but that isn't guaranteed. Once shipped, it can't be cancelled or redirected.\n- Your card is charged when the order ships. If the order is cancelled, a pending authorisation usually drops off in **3-7 business days**, depending on your bank. Leafy can't release it faster.\n\nI can't state any refund outcome or timeline for the fraudulent order, as that's for the Support Lead to review.\n\nYou can also email help@leafy.example (answered within 1 business day). Chat is open 8am-8pm Mon-Sat, your local time. There's no phone support.\n\nCan you tell me the order number and when it was placed, so I can include it in the escalation?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2051,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 512,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2051,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 512,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2051,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2051
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2053,
+ "output_tokens": 512,
+ "thinking_tokens": 0,
+ "latency_ms": 5393,
+ "wall_ms": 10606,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004817.426997
+}

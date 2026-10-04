@@ -1,0 +1,50 @@
+{
+ "text": "Since you ordered after 12 noon on Wednesday, your plant will ship the next Monday. Live plants only ship Monday\u2013Wednesday.\n\nAfter it ships, delivery takes the following time depending on your zone and shipping method:\n- **Zone 1 (under 300 miles):** Standard 2\u20133 business days, Express next business day\n- **Zone 2 (300\u20131,000 miles):** Standard 3\u20135 business days, Express 2 business days\n- **Zone 3 (over 1,000 miles, remote or island):** Standard 5\u20138 business days, Express not available\n\nAlso, if the transit forecast is below 35\u00b0F or above 95\u00b0F, your plant may be held up to 7 days, and we'd email you if that happens.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 440,
+  "cache_read_input_tokens": 1646,
+  "output_tokens": 236,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 440,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 236,
+    "cache_read_input_tokens": 1646,
+    "cache_creation_input_tokens": 440,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 440
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2088,
+ "output_tokens": 236,
+ "thinking_tokens": 0,
+ "latency_ms": 3010,
+ "wall_ms": 5890,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100431.720858
+}

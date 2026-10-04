@@ -1,0 +1,50 @@
+{
+ "text": "Unfortunately no. Promo codes can't be added after an order is placed, so it isn't possible on this order, even within the 2-hour change window. Only one code is allowed per order.\n\nIf you add a pot and want a code, the option would be to cancel the order free from \"My Orders\" within the window (about 1 hour 40 minutes left) and reorder with the code applied. Note that if you have Leafy Plus, a code can't be combined with member pricing on the same item, and the better discount applies automatically. Also, I can't confirm the plant's stock or price would stay the same on a new order.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 850,
+  "cache_read_input_tokens": 1738,
+  "output_tokens": 186,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 850,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 186,
+    "cache_read_input_tokens": 1738,
+    "cache_creation_input_tokens": 850,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 850
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2590,
+ "output_tokens": 186,
+ "thinking_tokens": 0,
+ "latency_ms": 2409,
+ "wall_ms": 5421,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005391.6033483
+}

@@ -1,0 +1,49 @@
+{
+ "text": "# Refund Timeline\n\nOnce a refund is issued, the timing depends on your payment method:\n\n- **Credit or debit card:** 5\u201310 business days\n- **Digital wallet (Apple Pay, Google Pay, etc.):** 3\u20135 business days\n- **Leafy store credit:** issued instantly (never expires)\n\n**Note:** If you cancelled an order, any pending authorisation on your card drops off in 3\u20137 business days depending on your bank\u2014Leafy can't release it faster.\n\nIf your refund was issued more than 10 business days ago and hasn't appeared, or if you have other questions about a specific refund, let me know your order number (format: `LF-` plus six digits) and I can help further or escalate this.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1434,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 178,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1434,
+    "output_tokens": 178,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1434,
+ "output_tokens": 178,
+ "thinking_tokens": 0,
+ "latency_ms": 2649,
+ "wall_ms": 5694,
+ "overhead": 379,
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1790880427.0851257
+}

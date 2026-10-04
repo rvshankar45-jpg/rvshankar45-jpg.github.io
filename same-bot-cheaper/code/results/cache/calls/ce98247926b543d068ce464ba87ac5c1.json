@@ -1,0 +1,50 @@
+{
+ "text": "Yes, if you cancel within **14 days** of purchase (or renewal), you can get a **full refund**, but only if you haven't used any Leafy Plus benefits. So cancelling after one week would be within the window.\n\nThe catch is the \"no benefits used\" condition. If you've already used something, such as free Standard shipping on an order, a free change-of-mind return, or 10% member pricing on pots and accessories, you wouldn't qualify for the refund. In that case there's no refund, but your benefits would continue to the end of the paid year.\n\nThe policy excerpts I have don't spell out exactly how to cancel Leafy Plus or how long the refund takes to arrive. If you'd like, I can escalate to a Support Lead to confirm those details.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1076,
+  "cache_read_input_tokens": 1371,
+  "output_tokens": 241,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1076,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 241,
+    "cache_read_input_tokens": 1371,
+    "cache_creation_input_tokens": 1076,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1076
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2449,
+ "output_tokens": 241,
+ "thinking_tokens": 0,
+ "latency_ms": 2259,
+ "wall_ms": 6195,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004924.4458535
+}

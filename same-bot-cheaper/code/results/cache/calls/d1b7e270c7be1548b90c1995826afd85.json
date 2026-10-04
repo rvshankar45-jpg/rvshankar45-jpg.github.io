@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry your plant arrived damaged\u2014that's frustrating. Yes, you can get a replacement.\n\nSince you're reporting this **3 days after delivery**, you've unfortunately passed the **48-hour DOA window** for damage claims. However, the good news is your plant is now covered under our **30-day Plant Care Guarantee** (or 90 days if you're a Leafy Plus member).\n\nTo claim a replacement, go to \"My Orders\" and submit a claim with **at least two photos** (one of the whole plant and a close-up of the snapped stem). A Plant Care Specialist will review it within **2 business days** and approve a free replacement of the same plant\u2014you don't need to send the damaged plant back.\n\nDo you have photos ready to submit?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1313,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 177,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1313,
+    "output_tokens": 177,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1313,
+ "output_tokens": 177,
+ "thinking_tokens": 0,
+ "latency_ms": 3368,
+ "wall_ms": 6091,
+ "overhead": 379,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791006727.9272504
+}

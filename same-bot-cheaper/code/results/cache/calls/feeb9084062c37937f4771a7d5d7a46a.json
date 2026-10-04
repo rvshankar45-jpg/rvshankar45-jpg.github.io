@@ -1,0 +1,50 @@
+{
+ "text": "# Buy Now Pay Later at Leafy\n\nYes, we do! **Buy-now-pay-later is available on orders between $50 and $1,000.**\n\nYou can select this payment option at checkout when placing your order.\n\nA couple of things to know:\n- If you need a refund on a buy-now-pay-later order, it goes back to your instalment provider, which will adjust your remaining payments accordingly.\n- You can use one promo code per order, but it can't be added after you've placed the order.\n\nIs there anything else you'd like to know about payment options or your order?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 3174,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 140,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 3174,
+    "output_tokens": 140,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 3174,
+ "output_tokens": 140,
+ "thinking_tokens": 0,
+ "latency_ms": 2456,
+ "wall_ms": 5206,
+ "overhead": 379,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791005564.800099
+}

@@ -1,0 +1,49 @@
+{
+ "text": "# Hi there! \ud83d\udc4b\n\nThanks for reaching out to Leafy! I'm happy to help with your question about the soil.\n\n**Unfortunately, opened soil cannot be returned** \u2014 even within our standard 30-day return window. We can only accept returns on soil and fertiliser if they're **unopened and in original packaging**, or if there's a fault with the product.\n\nThat said, if there's a **problem with the soil itself** (like it arrived damaged, mouldy, or with a defect), I'd love to help! Just let me know what's wrong with it, and we can look into that for you.\n\nIs everything okay with your soil, or were you just looking to return it for another reason? I'm here to help! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 3508,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 171,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 3508,
+    "output_tokens": 171,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 3508,
+ "output_tokens": 171,
+ "thinking_tokens": 0,
+ "latency_ms": 2712,
+ "wall_ms": 6032,
+ "overhead": 379,
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1790879654.9892056
+}

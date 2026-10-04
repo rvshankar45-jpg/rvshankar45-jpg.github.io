@@ -1,0 +1,50 @@
+{
+ "text": "Yes, if you're returning it because you changed your mind, it will cost a flat **$6.95**. That's deducted from your refund, so there's nothing to pay upfront. If you're a Leafy Plus member, the fee is waived.\n\nA few other things that could affect what you get back:\n- **Original shipping:** It isn't refunded for a change-of-mind return. It's only refunded when the whole order is returned because of our error.\n- **Faulty or incorrect item:** The return is free.\n- **Refund timing:** It goes to your original payment method within 5 business days of the parcel reaching our warehouse.\n\nSo for an unused watering can returned because you changed your mind, you'd get the item price back minus $6.95, unless you're a Leafy Plus member.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2024,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 244,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2024,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 244,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2024,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2024
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2026,
+ "output_tokens": 244,
+ "thinking_tokens": 0,
+ "latency_ms": 3268,
+ "wall_ms": 7180,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004963.5682762
+}

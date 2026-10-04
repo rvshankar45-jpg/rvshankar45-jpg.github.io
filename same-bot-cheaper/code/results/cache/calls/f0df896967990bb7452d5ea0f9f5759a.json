@@ -1,0 +1,50 @@
+{
+ "text": "I understand that's frustrating with the move! Unfortunately, I can't help with either request:\n\n1. **Shipping address changes:** Once an order has shipped, we can't change the delivery address. Couriers don't accept redirection requests from Leafy either.\n\n2. **Express shipping to remote/island addresses:** Express isn't available to Zone 3 addresses (over 1,000 miles, remote and island locations)\u2014only Standard shipping (5\u20138 business days).\n\n**Here's what I'd suggest:** Contact the courier using the tracking number (emailed when it shipped) to see if they can redirect it before it reaches your old address. If it does arrive there, you may be able to collect it and reship it to your dad, or I can help with a replacement or refund once we confirm what happened.\n\nWould you like me to escalate this to a Support Lead to explore options?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1676,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 200,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1676,
+    "output_tokens": 200,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1676,
+ "output_tokens": 200,
+ "thinking_tokens": 0,
+ "latency_ms": 3286,
+ "wall_ms": 6573,
+ "overhead": 379,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791006899.4471045
+}

@@ -1,0 +1,49 @@
+{
+ "text": "No, it wouldn't. \ud83c\udf3f A replacement for a damaged-on-arrival item doesn't count as the one free replacement under the Plant Care Guarantee. Your guarantee replacement stays available if the plant declines later.\n\n- **Cracked-pot report:** report within 48 hours of delivery, and you can choose a free replacement or a refund.\n- **Plant Care Guarantee:** this is separate and still covers significant decline within 30 days of delivery (90 days for Leafy Plus members).\n\nI should also correct something I said earlier. I mentioned waiting 2-3 weeks before repotting, but that isn't from our policy. What our policy says is that repotting into non-Leafy soil in the first 14 days isn't covered by the guarantee. So if you do repot before then, please use Leafy soil.\n\nI don't have details on how the guarantee window works for a DOA replacement plant, and I don't want to guess. The support team can confirm that when they handle your case.\n\nWould you like me to pass your case to the team so they can tell you where to send your photos? And would you prefer a replacement or a refund? Thanks for checking, and please reach out any time. \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1841,
+  "cache_read_input_tokens": 1803,
+  "output_tokens": 950,
+  "output_tokens_details": {
+   "thinking_tokens": 571
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1841,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 950,
+    "cache_read_input_tokens": 1803,
+    "cache_creation_input_tokens": 1841,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1841
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 3646,
+ "output_tokens": 950,
+ "thinking_tokens": 571,
+ "latency_ms": 8176,
+ "wall_ms": 10794,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880156.1918945
+}

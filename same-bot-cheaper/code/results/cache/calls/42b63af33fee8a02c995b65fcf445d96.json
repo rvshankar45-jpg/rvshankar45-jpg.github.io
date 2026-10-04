@@ -1,0 +1,49 @@
+{
+ "text": "I'm sorry, that's stressful. Please do two things right now:\n\n1. **Reset your Leafy password immediately** (and change it anywhere else you've used it).\n2. **Contact your card issuer** to report the unauthorized charge, since it was made with your saved card.\n\nThis is suspected fraud on your account, so I'm escalating it to a Support Lead now. To help them, please send the order number (LF- plus six digits) from the unauthorized order. Don't send your full card number, security code, or password. If you'd rather email, help@leafy.example is answered within 1 business day.\n\nPolicy doesn't let me promise a cancellation or refund outcome here. Orders can be cancelled free only within 2 hours of ordering, and shipped orders can't be cancelled, so the Support Lead will review what can be done for this order.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 442,
+  "cache_read_input_tokens": 1642,
+  "output_tokens": 264,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 442,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 264,
+    "cache_read_input_tokens": 1642,
+    "cache_creation_input_tokens": 442,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 442
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2086,
+ "output_tokens": 264,
+ "thinking_tokens": 0,
+ "latency_ms": 2927,
+ "wall_ms": 5975,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790868757.7514012
+}

@@ -1,0 +1,50 @@
+{
+ "text": "No, Leafy Plus doesn't make Express shipping free. Express is **$14.95** and is never free, including for Leafy Plus members.\n\nWhat Leafy Plus does give you is free **Standard** shipping with no minimum order. Without membership, Standard is free only on orders of $75 or more (after discounts, before tax), and otherwise costs $7.95.\n\nExpress is also limited by where you live. It's next business day in Zone 1 and 2 business days in Zone 2. It isn't available at all in Zone 3 (over 1,000 miles from the nearest greenhouse, plus remote and island addresses). XL plants ship Standard only.\n\nIf Express is the main reason you're considering Leafy Plus, it won't add any savings there. Is there anything else you'd like to know about the membership?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1153,
+  "cache_read_input_tokens": 1555,
+  "output_tokens": 258,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1153,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 258,
+    "cache_read_input_tokens": 1555,
+    "cache_creation_input_tokens": 1153,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1153
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2710,
+ "output_tokens": 258,
+ "thinking_tokens": 0,
+ "latency_ms": 2987,
+ "wall_ms": 6061,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004949.264416
+}

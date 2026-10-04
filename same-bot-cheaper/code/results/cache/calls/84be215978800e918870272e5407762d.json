@@ -1,0 +1,50 @@
+{
+ "text": "I understand you need that refund sorted. Unfortunately, I can't send refunds to a different card\u2014they go only to the original payment method. However, your bank normally passes it to your replacement card automatically.\n\nIf you'd prefer not to wait, I can issue the $55 as **Leafy store credit instantly** instead, and it never expires. Which would you prefer? If it's the original card, just give me your order number and I can check the status.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1504,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 104,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1504,
+    "output_tokens": 104,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1504,
+ "output_tokens": 104,
+ "thinking_tokens": 0,
+ "latency_ms": 2507,
+ "wall_ms": 5724,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791100891.8973377
+}

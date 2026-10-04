@@ -1,0 +1,50 @@
+{
+ "text": "No, refunds can only go to the original payment method, never a different card. This applies even if the original card has been closed or expired, since the bank normally passes the refund on to your replacement card.\n\nAlternatively, you can take Leafy store credit, which is issued instantly and never expires.\n\nIf the refund goes to your original card, expect it within 5-10 business days once issued (3-5 business days for digital wallets).",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1986,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 127,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1986,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 127,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1986,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1986
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1988,
+ "output_tokens": 127,
+ "thinking_tokens": 0,
+ "latency_ms": 4203,
+ "wall_ms": 6935,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100088.738465
+}

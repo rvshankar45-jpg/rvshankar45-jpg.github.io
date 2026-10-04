@@ -1,0 +1,50 @@
+{
+ "text": "Yes, you likely can. Since you bought it 5 days ago, you're within the 7-day price drop window, and the $10 difference would be issued as Leafy store credit (not back to your card). This applies once per item and doesn't cover flash sales or clearance prices, so if the drop came from either of those, it won't qualify.\n\nI don't have a way to confirm from here whether your monstera's new price is a regular price drop, so if you'd like, I can escalate this to a Support Lead to review and issue the credit.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 445,
+  "cache_read_input_tokens": 1555,
+  "output_tokens": 164,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 445,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 164,
+    "cache_read_input_tokens": 1555,
+    "cache_creation_input_tokens": 445,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 445
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2002,
+ "output_tokens": 164,
+ "thinking_tokens": 0,
+ "latency_ms": 3568,
+ "wall_ms": 6859,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791101431.5593824
+}

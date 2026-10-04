@@ -1,0 +1,49 @@
+{
+ "text": "no refund, though your benefits continue to the end of the paid year. Leafy Plus is $59/year and auto-renews, so the same 14-day refund rule applies at each renewal.\n\nI also need to correct my earlier answers. I do have the Leafy Plus details: free Standard shipping with no minimum (not free Express), free change-of-mind returns, a 90-day plant guarantee, 10% member pricing on pots and accessories, and early access to rare plant drops. On your earlier question, the 90-day guarantee only covers plants ordered while your membership is active, so plants you bought before joining keep the standard 30-day guarantee.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 10,
+  "cache_creation_input_tokens": 3127,
+  "cache_read_input_tokens": 4855,
+  "output_tokens": 1065,
+  "output_tokens_details": {
+   "thinking_tokens": 750
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 3127,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 4,
+    "output_tokens": 265,
+    "cache_read_input_tokens": 2660,
+    "cache_creation_input_tokens": 467,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 467
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 7992,
+ "output_tokens": 1065,
+ "thinking_tokens": 750,
+ "latency_ms": 11666,
+ "wall_ms": 14625,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 400,
+ "recorded_at": 1790787117.9390714
+}

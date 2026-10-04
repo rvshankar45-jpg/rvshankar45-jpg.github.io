@@ -1,0 +1,13 @@
+router,label,decision,n
+laya,simple,cheap,17
+laya,simple,strong,45
+laya,complex,cheap,3
+laya,complex,strong,35
+laya@0.50,simple,cheap,17
+laya@0.50,simple,strong,45
+laya@0.50,complex,cheap,3
+laya@0.50,complex,strong,35
+llm_router,simple,cheap,58
+llm_router,simple,strong,4
+llm_router,complex,cheap,15
+llm_router,complex,strong,23

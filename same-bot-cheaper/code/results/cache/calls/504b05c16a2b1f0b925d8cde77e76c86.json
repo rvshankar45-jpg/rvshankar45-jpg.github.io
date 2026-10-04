@@ -1,0 +1,49 @@
+{
+ "text": "Yes. Leafy lists the peace lily as **not pet-safe**, so we recommend keeping it away from your dog. Our policy doesn't go into the specific symptoms or severity.\n\n**If your dog may have chewed or eaten any of the plant**, contact a vet or an animal poison control service right away, before doing anything else.\n\nIf you'd like a plant that's safe around pets, these are on our pet-safe list:\n- Calathea\n- Spider plant\n- Parlour palm\n- Boston fern\n- Peperomia\n\nYou can also get free care advice from a Plant Care Specialist by chat or email, even if you haven't ordered from us.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1574,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 385,
+  "output_tokens_details": {
+   "thinking_tokens": 176
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1574,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 385,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1574,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1574
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1576,
+ "output_tokens": 385,
+ "thinking_tokens": 176,
+ "latency_ms": 3458,
+ "wall_ms": 6409,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880515.5901752
+}

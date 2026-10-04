@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry, but the label has expired. Prepaid return labels expire after **7 days**, so if you printed it 9 days ago, it's no longer valid.\n\nYou'll need to start a new return from \"My Orders\" to get a fresh label. When you do, make sure to drop the parcel off within **7 days** this time\u2014the courier won't accept an expired label.\n\nOnce you have the new label, just follow the same steps and you'll be back on track for your refund.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 3726,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 117,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 3726,
+    "output_tokens": 117,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 3726,
+ "output_tokens": 117,
+ "thinking_tokens": 0,
+ "latency_ms": 1756,
+ "wall_ms": 5593,
+ "overhead": 379,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791005944.1545188
+}

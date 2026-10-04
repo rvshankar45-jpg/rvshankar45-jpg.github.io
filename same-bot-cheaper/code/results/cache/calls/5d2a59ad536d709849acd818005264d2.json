@@ -1,0 +1,50 @@
+{
+ "text": "This is expected. Your card is authorised at checkout and charged when the order ships, so an order sent in several parcels can show one charge per parcel. Two charges for a two-parcel order is normal, and together they should add up to your order total.\n\nIf the amounts don't add up, or you think one is a true duplicate, send me your order number (LF- plus six digits) and the last four digits of your card. I'll check whether one is just a pending authorisation. If both have posted as duplicates, the extra charge is refunded within 3 business days of confirmation. Please don't share your full card number or security code.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 434,
+  "cache_read_input_tokens": 1496,
+  "output_tokens": 184,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 434,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 184,
+    "cache_read_input_tokens": 1496,
+    "cache_creation_input_tokens": 434,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 434
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1932,
+ "output_tokens": 184,
+ "thinking_tokens": 0,
+ "latency_ms": 2724,
+ "wall_ms": 6778,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100868.8270981
+}

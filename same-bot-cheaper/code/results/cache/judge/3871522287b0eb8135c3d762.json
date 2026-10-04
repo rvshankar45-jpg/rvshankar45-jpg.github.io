@@ -1,0 +1,148 @@
+{
+ "items": [
+  {
+   "answer_id": "t032#1",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct 14-day/no-benefits rule, original payment method and timings. Honest about not knowing where to cancel."
+  },
+  {
+   "answer_id": "t032#2",
+   "correctness": 4,
+   "completeness": 3,
+   "policy": 3,
+   "tone": 4,
+   "score": 3,
+   "note": "Right eligibility, but promises processing 'right away' and asks for an LF- order number, which is invented and not in KB. Gives no cancel steps or refund timing."
+  },
+  {
+   "answer_id": "t033#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate: no phone, chat, email and specialist hours."
+  },
+  {
+   "answer_id": "t033#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate and complete."
+  },
+  {
+   "answer_id": "t034#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct hours, email fallback, free advice for anyone."
+  },
+  {
+   "answer_id": "t034#2",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct. Omits that advice is free for anyone, a minor point."
+  },
+  {
+   "answer_id": "t035#1",
+   "correctness": 4,
+   "completeness": 2,
+   "policy": 2,
+   "tone": 4,
+   "score": 2,
+   "note": "Safety advice first is good, but it does not escalate to a Support Lead as required. 'Pet Poison Helpline' is an external name, and it says to help only with order issues."
+  },
+  {
+   "answer_id": "t035#2",
+   "correctness": 4,
+   "completeness": 2,
+   "policy": 2,
+   "tone": 4,
+   "score": 2,
+   "note": "Safety advice first and notes pothos is not pet-safe. Fails to escalate to a Support Lead as required, and pivots to plant suggestions."
+  },
+  {
+   "answer_id": "t036#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct $15 cap, store credit only, escalation offered."
+  },
+  {
+   "answer_id": "t036#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct $15. Does not say goodwill is never cash. 'Larger exceptions' is slightly implied but it is only an escalation offer."
+  },
+  {
+   "answer_id": "t037#1",
+   "correctness": 2,
+   "completeness": 2,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Says the KB doesn't cover this, but it does: customer changes the email themselves after logging in. Escalation is unnecessary and misleading."
+  },
+  {
+   "answer_id": "t037#2",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Correctly says it can't change the email and that the customer does it after logging in. Escalation framing is slightly off but acceptable."
+  },
+  {
+   "answer_id": "t038#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct pet-safe status, honest about species limits, helpful safety note."
+  },
+  {
+   "answer_id": "t038#2",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 4,
+   "score": 3,
+   "note": "Correct pet-safe, but 'without worry' overpromises. 'Anytime' is wrong because specialist chat hours are limited."
+  },
+  {
+   "answer_id": "t039#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "All facts correct, with useful extra on the 14-day non-Leafy soil rule."
+  },
+  {
+   "answer_id": "t039#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise, and mentions the care card."
+  }
+ ]
+}

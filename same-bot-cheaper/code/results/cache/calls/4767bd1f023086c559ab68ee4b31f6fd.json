@@ -1,0 +1,50 @@
+{
+ "text": "**Leafy Plus costs $59 per year** and includes:\n\n- **Free Standard shipping** with no minimum order amount\n- **Free change-of-mind returns** (normally $6.95)\n- **90-day plant guarantee** (instead of the standard 30 days, on plants ordered while membership is active)\n- **10% member pricing** on pots and accessories\n- **Early access** to rare plant drops\n\nThe membership auto-renews annually. You can cancel anytime from \"Account\" > \"Subscriptions\" and get a full refund within **14 days** of purchase or renewal **if** you haven't used any benefits; otherwise there's no refund, but your benefits continue through the end of your paid year.\n\nNote: Express shipping is never free, even for Leafy Plus members.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 3174,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 184,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 3174,
+    "output_tokens": 184,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 3174,
+ "output_tokens": 184,
+ "thinking_tokens": 0,
+ "latency_ms": 2319,
+ "wall_ms": 5026,
+ "overhead": 379,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791005491.770663
+}

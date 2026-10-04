@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! \ud83c\udf3f\n\nYes, you can most likely return your planter. Pots are non-living items, which can be returned within **30 days of delivery**. At 3 weeks since you bought it, you should still be inside that window, and the clock starts at delivery, so you may have even more time.\n\n**How much you'd get back (change of mind, non-Plus member):**\n- Item price: $30.00\n- Flat return fee: -$6.95, deducted from your refund\n- **Refund: $23.05**\n\nOriginal shipping isn't refunded unless the whole order is returned because of our error. If the planter is faulty or we sent the wrong one, the return is free and you'd get the full $30.\n\n**To qualify, the planter needs to be:**\n- Unused\n- In its original packaging\n\n**Next steps:**\n- Start the return from \"My Orders\".\n- A prepaid label will be emailed to you. It expires after **7 days**, so drop the parcel off within that time.\n- Your refund is issued within **5 business days** of the return reaching our warehouse, and goes to your original payment method.\n- After that, cards take **5-10 business days** to show the refund, and digital wallets take **3-5 business days**.\n\nPlease note that we can't do direct exchanges. If you'd like a different planter, return this one and place a new order.\n\nIs there anything else I can help with? We're always happy to chat. \ud83d\ude0a",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 454,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 758,
+  "output_tokens_details": {
+   "thinking_tokens": 305
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 454,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 758,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 454,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 454
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4794,
+ "output_tokens": 758,
+ "thinking_tokens": 305,
+ "latency_ms": 6584,
+ "wall_ms": 9171,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879181.3807101
+}

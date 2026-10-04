@@ -1,0 +1,50 @@
+{
+ "text": "Usually not. Our plants ship in plastic nursery pots with drainage holes. Decorative pots are sold separately, unless the listing says \"potted,\" in which case the plant comes in a pot.\n\nSo check the listing for the word \"potted\" before you order. If you'd like a decorative pot, you can add one from our pots range. Pots also have a 30-day return window from delivery if they're unused and in their original packaging.\n\nOne tip: Leafy Plus members get 10% off pots and accessories.\n\nIs there a particular plant you're considering? I can help with other questions about it.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 428,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 181,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 428,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 181,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 428,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 428
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4286,
+ "output_tokens": 181,
+ "thinking_tokens": 0,
+ "latency_ms": 2644,
+ "wall_ms": 5576,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005576.00264
+}

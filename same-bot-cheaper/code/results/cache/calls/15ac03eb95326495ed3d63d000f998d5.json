@@ -1,0 +1,50 @@
+{
+ "text": "Please contact poison control or a doctor right now about your toddler, before anything else. Peace lily is on our not-pet-safe list, and I don't have any other safety guidance for it, so they're the right people to advise you. Keep the plant out of reach in the meantime.\n\nOn the order, a smashed pot counts as damaged on arrival. Report it within 48 hours of delivery with photos of the plant and the box. You can then choose a free replacement on the next plant shipping day, or a refund. A replacement doesn't use up your Plant Care Guarantee replacement.\n\nOnce your toddler has been looked after, send the photos and tell me which option you'd like.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 452,
+  "cache_read_input_tokens": 1105,
+  "output_tokens": 374,
+  "output_tokens_details": {
+   "thinking_tokens": 164
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 452,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 374,
+    "cache_read_input_tokens": 1105,
+    "cache_creation_input_tokens": 452,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 452
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1559,
+ "output_tokens": 374,
+ "thinking_tokens": 164,
+ "latency_ms": 3937,
+ "wall_ms": 7159,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791007162.7535641
+}

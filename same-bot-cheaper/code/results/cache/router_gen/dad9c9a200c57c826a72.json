@@ -1,0 +1,252 @@
+[
+ {
+  "query": "I ordered a monstera yesterday and a pot with it, now I want to cancel the whole thing. Also can I use a promo code I forgot? Order LF-204518.",
+  "reference_answer": "Cancellation is free only within 2 hours of ordering; after that the order is in the packing queue and support can try to intercept before shipping, not guaranteed. Promo codes can't be added after ordering.",
+  "category": "multi_issue"
+ },
+ {
+  "query": "This is the THIRD time I'm writing about my missing parcel. Tracking hasn't moved in a week. Fix it now!!",
+  "reference_answer": "Apologise. Tracking stuck 4+ business days qualifies for a courier investigation (up to 5 business days); if lost, customer chooses free replacement or full refund. Since the issue has been raised three or more times, escalate to a human Support Lead.",
+  "category": "escalation"
+ },
+ {
+  "query": "My fiddle leaf fig arrived with a snapped main stem 3 days ago. Why is nobody helping me? I want a refund.",
+  "reference_answer": "DOA must be reported within 48 hours of delivery, so this now goes through the Plant Care Guarantee (30 days, or 90 for Plus): claim from My Orders with two photos (whole plant + close-up); reviewed within 2 business days. Remedy is a free replacement, not necessarily a refund. If customer insists, can escalate.",
+  "category": "damaged"
+ },
+ {
+  "query": "my dog just chewed a pothos leaf and is drooling a lot, what do I do??",
+  "reference_answer": "Pothos is not pet-safe. Tell them to contact a vet or local poison control immediately, then escalate to a human Support Lead.",
+  "category": "plant_safety"
+ },
+ {
+  "query": "I was charged twice for LF-310022. Both show on my bank app. Give me my money back today.",
+  "reference_answer": "First check whether one is a pending authorisation. If both posted, send order number and last four card digits (never full number/CVV); duplicate refunded within 3 business days of confirmation. A charge dispute may need escalation to a Support Lead. Orders in several parcels can show one charge per parcel.",
+  "category": "payments"
+ },
+ {
+  "query": "Can I return a pothos I bought 10 days ago? I just don't like how it looks. Also is shipping refunded?",
+  "reference_answer": "Live plants can't be returned for change of mind. Plant problems go through the Plant Care Guarantee or DOA only. Original shipping is refunded only when the whole order is returned due to Leafy's error.",
+  "category": "returns"
+ },
+ {
+  "query": "I need to change the shipping address on my order, it shipped this morning. Just ask the courier to redirect it, you guys do that right?",
+  "reference_answer": "No. Shipped orders' addresses can't be changed and couriers don't accept redirection requests from Leafy. Offer to escalate or help via courier investigation if it fails to arrive.",
+  "category": "shipping"
+ },
+ {
+  "query": "Is Leafy Plus worth it? I want free express shipping and also a refund if I don't like it.",
+  "reference_answer": "Plus is $59/year: free Standard shipping with no minimum, free change-of-mind returns, 90-day guarantee, 10% on pots/accessories, early rare drops. No free Express (Express is $14.95 always). Full refund if cancelled within 14 days and no benefits used.",
+  "category": "membership"
+ },
+ {
+  "query": "I bought Leafy Plus 20 days ago and used free shipping once. Cancel and refund me.",
+  "reference_answer": "Refund requires cancelling within 14 days and no benefits used. Neither applies, so no refund; benefits continue until the end of the paid year. If customer insists/upset, can escalate.",
+  "category": "membership"
+ },
+ {
+  "query": "Can you call me about my order? I hate typing.",
+  "reference_answer": "No phone support. Chat is 8am\u20138pm Mon\u2013Sat; email help@leafy.example answered within 1 business day.",
+  "category": "contact"
+ },
+ {
+  "query": "The Plant Club box got billed on the 25th and I cancelled today the 27th. I want the money back and no box.",
+  "reference_answer": "An already-billed box isn't refunded on cancellation and is still sent. No cancellation fee. Cancellation applies to the following month.",
+  "category": "subscriptions"
+ },
+ {
+  "query": "I want to pay for my order by bank transfer, and could I use buy-now-pay-later for a $30 pot?",
+  "reference_answer": "Bank transfers aren't accepted. BNPL is only for orders of $50\u2013$1,000, so not for $30 unless the order total reaches $50.",
+  "category": "payments"
+ },
+ {
+  "query": "My credit card was closed and replaced. Refund LF-298811 to my new card please.",
+  "reference_answer": "Refunds go only to the original payment method, even if closed; the bank normally passes it to the replacement card. Alternatively take instant, non-expiring Leafy store credit.",
+  "category": "refunds"
+ },
+ {
+  "query": "Ordered Thursday a calathea, still not shipped on Friday. Ridiculous! Also is it safe for my cat?",
+  "reference_answer": "Live plants ship Mon\u2013Wed only; orders after noon Wednesday ship next Monday. Calathea is pet-safe.",
+  "category": "multi_issue"
+ },
+ {
+  "query": "Your weather hold email says my plants are delayed. I'm going to just waive it, but if it dies in the cold, replace it right?",
+  "reference_answer": "If waived, the guarantee still applies except for cold or heat damage in transit; DOA claims for cold/heat damage aren't accepted. So it would not be replaced for that. Holds can be up to 7 days.",
+  "category": "guarantee"
+ },
+ {
+  "query": "I repotted my new peace lily into garden soil after a week and now it's wilting. Replace it.",
+  "reference_answer": "Repotting into non-Leafy soil in first 14 days isn't covered. Also advise not to repot for 2\u20133 weeks. Free care advice is available from Plant Care Specialists.",
+  "category": "guarantee"
+ },
+ {
+  "query": "How many replacements can I get for a snake plant that keeps dying? The first replacement also died.",
+  "reference_answer": "Replacement gets its own 30-day guarantee, so it can be replaced once more; the second replacement has no guarantee. Claim with two photos from My Orders.",
+  "category": "guarantee"
+ },
+ {
+  "query": "Need a $200 store credit for my terrible experience. Your delivery was 2 weeks late and I'm furious.",
+  "reference_answer": "Agents may offer one-time goodwill credit up to $15; more, and anything over $150, needs a Support Lead. Apologise and escalate.",
+  "category": "escalation"
+ },
+ {
+  "query": "I'm 16 and want to open an account to buy a succulent for my mum.",
+  "reference_answer": "Customers must be 18 or older to hold an account. Can't open one; a parent could order, gift orders get a free note.",
+  "category": "account"
+ },
+ {
+  "query": "Change my account email to my new address please. I don't have the password anymore.",
+  "reference_answer": "Support can't change an account email over chat; customers change it after logging in. Password reset is the route to log in again.",
+  "category": "account"
+ },
+ {
+  "query": "I think someone logged in to my account and ordered stuff. What now?",
+  "reference_answer": "Reset password immediately; support escalates to a Support Lead for possible unauthorised access/fraud.",
+  "category": "escalation"
+ },
+ {
+  "query": "What's the shipping cost for an 5ft ficus to Alaska, and can I get it express?",
+  "reference_answer": "XL plants (usually over 4 ft) add $20 handling and ship Standard only. Remote/island addresses are Zone 3: 5\u20138 business days, no Express. Standard $7.95, free at $75+.",
+  "category": "shipping"
+ },
+ {
+  "query": "Ordered a pot and a plant. The pot arrived cracked, plant fine. It's been 2 days. What are my options? It was a $35 pot.",
+  "reference_answer": "Within 48 hours, report with photos of item and box. Replacement or refund; items under $40 usually don't need to be returned.",
+  "category": "damaged"
+ },
+ {
+  "query": "Got a rubber plant instead of the ZZ plant I ordered. Do I have to send it back? And how fast will the right one arrive?",
+  "reference_answer": "Correct item ships free by Express where zone allows, with a free return label. A wrong live plant can be kept at no charge.",
+  "category": "damaged"
+ },
+ {
+  "query": "I returned a bag of soil, it's been 8 business days and no refund. Hello??",
+  "reference_answer": "Refunds are issued within 5 business days of the return reaching the warehouse; then cards take 5\u201310 business days. Check whether it arrived; escalate if needed. Note opened soil isn't returnable unless faulty.",
+  "category": "returns"
+ },
+ {
+  "query": "My return label expired. Can I still use it? I got it 10 days ago.",
+  "reference_answer": "Labels expire after 7 days. The KB doesn't say a new one can be issued; offer to escalate/check via support. Return must be within 30 days of delivery for non-living items.",
+  "category": "returns"
+ },
+ {
+  "query": "The plant I ordered is out of stock and I got an email. I didn't reply. Will I be charged?",
+  "reference_answer": "No reply within 3 days leads to automatic refund for that item. Options were similar plant, wait up to 14 days, or refund. Cards are charged on shipping.",
+  "category": "orders"
+ },
+ {
+  "query": "Price of my monstera dropped $12 four days after I bought it. Can I get the difference? Also it was a flash sale item.",
+  "reference_answer": "Price drop within 7 days gives the difference as store credit once per item, but flash sales and clearance are excluded.",
+  "category": "payments"
+ },
+ {
+  "query": "Can I use two promo codes on my order and also my Plus discount on pots?",
+  "reference_answer": "One promo code per order; can't be combined with Plus pricing on the same item\u2014the better discount applies automatically.",
+  "category": "payments"
+ },
+ {
+  "query": "I lost my gift card code!! My aunt bought it for me last month.",
+  "reference_answer": "Lost codes are reissued if the purchaser provides the gift card order number. Gift cards never expire and aren't refundable for cash.",
+  "category": "payments"
+ },
+ {
+  "query": "Can I get a gift card refunded to cash? I bought a $100 one by mistake.",
+  "reference_answer": "Gift cards are not refundable for cash.",
+  "category": "refunds"
+ },
+ {
+  "query": "Do you ship to Canada? And to my PO box for a fern?",
+  "reference_answer": "No international shipping. Live plants can't go to PO boxes; PO boxes are for non-living items only.",
+  "category": "shipping"
+ },
+ {
+  "query": "Switch my Plant Club from Starter to Collector and also pause for 4 months. Today is the 20th.",
+  "reference_answer": "Change plan or pause from Account > Subscriptions; changes before the 25th affect the next box. Pause is up to 3 months max, not 4. Collector is $49 vs Starter $29.",
+  "category": "subscriptions"
+ },
+ {
+  "query": "The Plant Club plant I got is one I already own. This is the second time! Fix it.",
+  "reference_answer": "Customers can list up to 3 owned plants to avoid duplicates. Repeat issue; apologise, offer goodwill up to $15 and escalate if repeated three or more times or customer insists. KB doesn't cover replacing duplicates directly.",
+  "category": "subscriptions"
+ },
+ {
+  "query": "Tracking says delivered but there's no package. It's been just a couple hours. Do I wait?",
+  "reference_answer": "Delivered-but-not-arrived is a reason to contact support: courier investigation up to 5 business days; if lost, free replacement or full refund. Tracking can take up to 24 hours to update.",
+  "category": "shipping"
+ },
+ {
+  "query": "Can I exchange the 8-inch pot I bought for a 10-inch one directly?",
+  "reference_answer": "No direct exchanges: return the item (within 30 days, unused, original packaging) and place a new order. Change-of-mind return costs $6.95 (free for Plus).",
+  "category": "returns"
+ },
+ {
+  "query": "Leaves of my new pothos turned yellow, two old ones, on day 5. Replace it now.",
+  "reference_answer": "Yellowing of one or two older leaves in the first two weeks is normal transplant stress, not covered alone. Advise watering only when top inch is dry, avoid direct sun first week; Plant Care Specialists can advise.",
+  "category": "guarantee"
+ },
+ {
+  "query": "What time can I chat with a plant specialist on Sunday? My ZZ plant is drooping.",
+  "reference_answer": "Plant Care Specialists are on chat 9am\u20135pm Mon\u2013Fri, so not Sunday; email is available. Advice is free. General chat is 8am\u20138pm Mon\u2013Sat.",
+  "category": "contact"
+ },
+ {
+  "query": "I want to delete my account and also keep my Plant Club going.",
+  "reference_answer": "Deletion (Account > Privacy) takes up to 30 days and cancels subscriptions, so Plant Club can't continue. Already-billed box still sent.",
+  "category": "account"
+ },
+ {
+  "query": "Cancelled order LF-221100 an hour ago and the money still shows pending on my card! Scam?",
+  "reference_answer": "Pending authorisation on a cancelled order drops off in 3\u20137 business days depending on bank; Leafy can't release it faster. Cards are charged on shipping. Not a charge unless it posted.",
+  "category": "payments"
+ },
+ {
+  "query": "I ordered Wednesday at 3pm. When will my plant get to me in Zone 2 with express?",
+  "reference_answer": "Plant orders after noon Wednesday ship next Monday. Zone 2 Express is 2 business days after shipping, so arrives about Wednesday (subject to weather holds). Express is $14.95.",
+  "category": "shipping"
+ },
+ {
+  "query": "I want a full refund for my entire order because Leafy shipped the wrong plant AND a late order. Also refund shipping.",
+  "reference_answer": "Wrong item is fixed with free Express correct item and a free return label; wrong live plant can be kept. Original shipping is refunded only if whole order is returned due to Leafy's error. Offer goodwill up to $15; escalate if insists.",
+  "category": "multi_issue"
+ },
+ {
+  "query": "How do I get my data from Leafy? Also are my details sold?",
+  "reference_answer": "Data can be downloaded under Account > Privacy. The KB doesn't cover whether details are sold; offer to escalate.",
+  "category": "account"
+ },
+ {
+  "query": "Do you sell plant insurance or offer a loyalty points program?",
+  "reference_answer": "KB doesn't cover loyalty points or insurance. Related: Plant Care Guarantee and Leafy Plus. Offer to escalate.",
+  "category": "contact"
+ },
+ {
+  "query": "I'm a Plus member for 2 months and my plant from 50 days ago is dying. Am I covered?",
+  "reference_answer": "Yes if the plant was ordered while membership active: 90-day guarantee. Claim in My Orders with two photos; reviewed within 2 business days. Free replacement of same plant.",
+  "category": "membership"
+ },
+ {
+  "query": "my order LF-305577 is in the packing queue. i need to add one more pot, can you add it?",
+  "reference_answer": "After 2 hours orders can't be changed online. Support may try to intercept before shipping but it's not guaranteed; suggest placing a new order. Free Standard at $75+ applies per order.",
+  "category": "orders"
+ },
+ {
+  "query": "The $180 refund for my returned grow light hasn't arrived and support told me last week it would. I've asked twice already.",
+  "reference_answer": "Refund over $150 requires a Support Lead, so escalate. Refund issued within 5 business days of warehouse receipt, then 5\u201310 business days for cards, 3\u20135 for wallets.",
+  "category": "escalation"
+ },
+ {
+  "query": "Is the spider plant safe for my toddler to chew on? Just curious. Kids put everything in their mouths.",
+  "reference_answer": "KB lists spider plant as pet-safe but doesn't state toddler safety. If anyone may have eaten a plant, contact doctor/poison control immediately; offer to escalate.",
+  "category": "plant_safety"
+ },
+ {
+  "query": "Gift for my sister: can the note include the price and be 300 characters? Also hide the price on the slip.",
+  "reference_answer": "Gift note is free and up to 200 characters, so 300 is too long. Prices are never printed on gift packing slips.",
+  "category": "orders"
+ },
+ {
+  "query": "I waited a week for a reply after emailing and now my plant died. Compensate me.",
+  "reference_answer": "Email is answered within 1 business day, so apologise. Goodwill store credit up to $15 for delayed reply; plant death goes via the Plant Care Guarantee with two photos. More needs a Support Lead.",
+  "category": "multi_issue"
+ }
+]

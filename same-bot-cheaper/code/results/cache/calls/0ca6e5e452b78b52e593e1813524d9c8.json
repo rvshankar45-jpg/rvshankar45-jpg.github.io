@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry about the mix-up, that's frustrating when you were expecting a peperomia. Our policies don't cover wrong-item deliveries, so I can't promise a specific fix or timeframe, but I can escalate this to a Support Lead. Please send me your order number (it looks like LF-123456) so I can pass it along.\n\nPothos isn't pet-safe, though peperomia is. If you have pets, keep the plant out of their reach for now. If a pet or person may have eaten any of it, contact a vet, doctor or poison control first.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 432,
+  "cache_read_input_tokens": 1178,
+  "output_tokens": 436,
+  "output_tokens_details": {
+   "thinking_tokens": 257
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 432,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 436,
+    "cache_read_input_tokens": 1178,
+    "cache_creation_input_tokens": 432,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 432
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1612,
+ "output_tokens": 436,
+ "thinking_tokens": 257,
+ "latency_ms": 4628,
+ "wall_ms": 7340,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005239.9180317
+}

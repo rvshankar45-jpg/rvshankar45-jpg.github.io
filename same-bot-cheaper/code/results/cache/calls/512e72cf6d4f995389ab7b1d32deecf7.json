@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! I'm happy to help you sort this out. \ud83c\udf3f\n\nI'm sorry to say that a full refund isn't available in your situation. Here's why:\n\n- A Leafy Plus membership can be fully refunded only if it's cancelled within **14 days** of purchase or renewal **and** no member benefits have been used.\n- You're within the 14-day window (day 10), but since you've already used the free shipping, the \"no benefits used\" condition isn't met.\n\n**What happens if you cancel:**\n- You wouldn't receive a refund.\n- Your benefits would continue until the end of your paid year, so you'd keep things like free Standard shipping with no minimum, free change-of-mind returns, the 90-day guarantee, 10% member pricing on pots and accessories, and early access to rare plant drops.\n\nIf you'd like to ask whether an exception could be made, I can escalate your request to a Support Lead, though I can't promise a different outcome. Just let me know and I'll pass it along.\n\nThanks again for reaching out to Leafy, and please come back anytime if you have other questions. Happy planting! \ud83e\udeb4",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 452,
+  "cache_read_input_tokens": 2028,
+  "output_tokens": 373,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 452,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 373,
+    "cache_read_input_tokens": 2028,
+    "cache_creation_input_tokens": 452,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 452
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2482,
+ "output_tokens": 373,
+ "thinking_tokens": 0,
+ "latency_ms": 3389,
+ "wall_ms": 6140,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879980.3051167
+}

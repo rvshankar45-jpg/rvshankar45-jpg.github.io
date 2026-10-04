@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry, that's worrying. Please **reset your password immediately** so the other person is locked out. Since your account may have been accessed by someone else, I'm escalating this to a Support Lead, who will follow up on the suspicious order and any charge for it.\n\nTo help them, please send the order number (it looks like `LF-` plus six digits) and the last four digits of the card used. Never share a full card number, security code or password.\n\nPolicy doesn't cover the order itself beyond that. If it's within 2 hours of being placed, you can cancel it free from \"My Orders\". Otherwise the Support Lead can try to intercept it before it ships, but that's not guaranteed.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 433,
+  "cache_read_input_tokens": 1642,
+  "output_tokens": 214,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 433,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 214,
+    "cache_read_input_tokens": 1642,
+    "cache_creation_input_tokens": 433,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 433
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2077,
+ "output_tokens": 214,
+ "thinking_tokens": 0,
+ "latency_ms": 2671,
+ "wall_ms": 6243,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100647.9542515
+}

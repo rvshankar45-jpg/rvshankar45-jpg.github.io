@@ -1,0 +1,50 @@
+{
+ "text": "No, as a Leafy Plus member you don't pay the $6.95 fee. Change-of-mind returns are free for members.\n\nA planter counts as a non-living item, so it's eligible if:\n- You return it within **30 days** of delivery.\n- It's unused and in its original packaging.\n\nTo start the return:\n1. Go to \"My Orders\" and start the return there.\n2. A prepaid label will be emailed to you. It expires after **7 days**, so drop the parcel off within that time.\n3. Your refund will be issued to your original payment method within **5 business days** of the return reaching our warehouse.\n\nOriginal shipping is only refunded if the whole order is returned because of our error, so it likely won't be refunded for a change-of-mind return. There are also no direct exchanges. If you want a different planter, you'd return this one and place a new order.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1761,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 267,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1761,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 267,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1761,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1761
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1763,
+ "output_tokens": 267,
+ "thinking_tokens": 0,
+ "latency_ms": 2969,
+ "wall_ms": 5639,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004667.233861
+}

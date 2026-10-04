@@ -1,0 +1,49 @@
+{
+ "text": "I'm so sorry, that's frustrating, especially when you're worried about your plant. A Plant Care Specialist should have reviewed your claim within 2 business days, so a week of silence is not the experience we want you to have.\n\nYour claim was filed within the guarantee window, so the delay on our side won't count against you.\n\n**What I'd suggest:**\n- **Check your inbox and spam folder** for anything from Leafy, in case a reply landed there.\n- **Send me your order number** (it looks like LF- followed by six digits) so I can pass it on.\n- **I'll escalate this to a Support Lead** so they can track down your claim and make sure it gets reviewed. I can't see claim statuses from here, and I don't have a specific timeframe for their reply, so I don't want to promise one.\n\nI'd also like to offer you a **one-time $15 Leafy store credit** for the delay. It's store credit, not cash, and it's yours whatever the outcome of your claim.\n\nYou can also email help@leafy.example, which is answered within 1 business day. If you'd like care tips while you wait, our Plant Care Specialists are on chat 9am-5pm Mon-Fri (your local time). Until then, water only when the top inch of soil is dry.\n\nOnce you send your order number, I'll get this moving. Thank you for your patience, and I hope your bird of paradise bounces back soon! \ud83c\udf3f",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1085,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 990,
+  "output_tokens_details": {
+   "thinking_tokens": 541
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1085,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 990,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 1085,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1085
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 5425,
+ "output_tokens": 990,
+ "thinking_tokens": 541,
+ "latency_ms": 9012,
+ "wall_ms": 12285,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879579.2514176
+}

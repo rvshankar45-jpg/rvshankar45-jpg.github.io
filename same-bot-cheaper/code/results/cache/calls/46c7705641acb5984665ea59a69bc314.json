@@ -1,0 +1,50 @@
+{
+ "text": "If the transit forecast is below 35\u00b0F, we may hold your plant for up to 7 days, and we'll email you when that happens. You can reply to waive the hold and have it ship anyway. The Plant Care Guarantee still applies then, but cold or heat damage in transit is excluded, and DOA claims for cold damage aren't accepted.\n\nIn winter you can also add a free heat pack at checkout.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1697,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 268,
+  "output_tokens_details": {
+   "thinking_tokens": 138
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1697,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 268,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1697,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1697
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1699,
+ "output_tokens": 268,
+ "thinking_tokens": 138,
+ "latency_ms": 2672,
+ "wall_ms": 5466,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005181.1789205
+}

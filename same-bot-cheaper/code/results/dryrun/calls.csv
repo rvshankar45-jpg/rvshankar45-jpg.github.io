@@ -1,0 +1,613 @@
+variant,query_id,turn,call_type,model,input_tokens,output_tokens,cache_read_tokens,cache_write_tokens,cost_usd,latency_ms,routed_by,laya_score,laya_ms,cache_hit,cache_kind,cache_similarity,answer,payload_input_tokens,static_prefix_tokens,prompt_cache,cache_source,capped,cap_emulated,raw_output_tokens,stop_reason,max_tokens,chunk_ids,history_mode,backend,reused,request_key,overhead_tokens,raw_total_input_tokens,wall_ms,system_hash,static_hash,user_hash
+v1_naive,q001,,answer,claude-sonnet-5-5,4313,420,0,0,0.012826,3433,fixed,,,False,,,"Hi there, and thank you for contacting Leafy! 🌿 Happy to help with that.
+
+**Non-living items** (pots, tools, soil, fertiliser, grow lights, accessories):
+- You have **30 days from delivery** to return them.
+- Items must be unused and in their original packaging.
+- Opened soil or fertiliser can't be returned unless it's faulty.
+
+**Live plants:**
+- These can't be returned for change of mind.
+- If something goes wrong, we have options to help: the **Plant Care Guarantee** (30 days from delivery, or 90 days for Leafy Plus members) or our **Damaged on Arrival** process (report within 48 hours of delivery).
+
+**How returns work:**
+- Start your return from ""My Orders"". We'll email you a prepaid label, which expires after **7 days**, so please drop the parcel off within that time.
+- Faulty or incorrect items return free. Change-of-mind returns cost a flat **$6.95**, deducted from your refund (free for Leafy Plus members).
+- Refunds are issued within **5 business days** of the return reaching our warehouse, to your original payment method.
+
+If you tell me what you'd like to return, I'm happy to walk you through it. Thanks for reaching out, and please come back any time! 🌱",4313,,False,none,False,False,420.0,end_turn,4000.0,"[""full_kb""]",none,cli,True,eee73c0000bb74ad6831d843fb159af1,448.0,4761.0,8687,909b74cca165,909b74cca165,979265dcca77
+v1_naive,q013,,answer,claude-sonnet-5-5,4320,226,0,0,0.0109,2251,fixed,,,False,,,"Hi there, and thank you for contacting Leafy! 🌿
+
+We ship live plants **Monday through Wednesday only**.
+
+A few helpful details:
+- Plant orders placed after **12 noon on Wednesday** will ship the following **Monday**.
+- Non-living items like pots, soil and accessories ship Monday to Friday. If your order has both plants and non-living items, everything ships together on a plant shipping day.
+- If the weather forecast for transit is below 35°F or above 95°F, live plants may be held for up to 7 days, and we'll email you about it.
+
+Is there anything else I can help you with? We're always happy to chat, so reach out any time. Happy planting! 🪴",4320,,False,none,False,False,226.0,end_turn,4000.0,"[""full_kb""]",none,cli,True,34f786f5d1dbec62b2d9f164c16dbd96,448.0,4768.0,7418,909b74cca165,909b74cca165,6739bcab6db8
+v1_naive,q024,,answer,claude-sonnet-5-5,4315,292,0,0,0.01155,3348,fixed,,,False,,,"Hi there, and thanks so much for contacting Leafy! 🌿
+
+Unfortunately, Express shipping isn't available for island addresses. Island and remote addresses fall into Shipping Zone 3, and Express isn't offered in that zone.
+
+Here's what you can expect instead:
+- **Standard shipping:** 5-8 business days
+- **Cost:** $7.95, or free on orders of $75 or more (after discounts, before tax)
+
+A few other things worth knowing for Zone 3:
+- **Live plants** ship Monday to Wednesday only. Orders placed after 12 noon on Wednesday ship the following Monday.
+- **XL plants** (usually over 4 ft) add a $20 handling fee and ship Standard only.
+
+If you have a particular order or plant in mind, I'm happy to help you work out the timing. Please reach out any time, and happy planting! 🪴",4315,,False,none,False,False,292.0,end_turn,4000.0,"[""full_kb""]",none,cli,True,602e0193c8913317169c29cb38a39b91,448.0,4763.0,6624,909b74cca165,909b74cca165,0ac56da8a3e8
+v1_naive,q045,,answer,claude-sonnet-5-5,4317,320,0,0,0.011834,3406,fixed,,,False,,,"Hi there, and thank you for contacting Leafy! 🌿
+
+Account deletion takes **up to 30 days** to complete.
+
+Here's how to start it:
+- Log in and go to **Account > Privacy**
+- Choose the delete option
+
+A couple of things to know before you go ahead:
+- Deleting your account **cancels any subscriptions** you have, such as Plant Club.
+- If you'd like a copy of your data first, you can download it from the same **Account > Privacy** section.
+
+If you have an active Plant Club box that's already been billed, note that cancelling doesn't refund an already-billed box, and it is still sent. If that applies to you, you may want to check your subscription before deleting.
+
+If anything about your account feels off or you have questions along the way, just reach out. Our chat is open 8am-8pm Mon-Sat, or you can email help@leafy.example (we reply within 1 business day).
+
+Take care, and we hope to see you again whenever you're ready for more green friends! 🌱",4317,,False,none,False,False,320.0,end_turn,4000.0,"[""full_kb""]",none,cli,True,408be7cbc07c3aa7f674ff237d47c443,448.0,4765.0,6302,909b74cca165,909b74cca165,b7188af3574d
+v1_naive,q060,,answer,claude-sonnet-5-5,4318,249,0,0,0.011126,3738,fixed,,,False,,,"Hi there, and thank you for contacting Leafy! 🌿
+
+Plant Club boxes ship in the **first full week of each month**.
+
+Here's how the timing works:
+- You're charged on the **25th of the previous month**. For example, the box that ships in the first full week of November is billed on October 25th.
+- If you skip, pause, change your plan, or cancel **before the 25th**, it affects your next box. If you do it **on or after the 25th**, the change applies to the following month's box.
+- You can make these changes anytime under ""Account"" > ""Subscriptions"".
+
+Please note that a box that has already been billed isn't refunded if you cancel, and it will still be sent.
+
+Is there anything else I can help you with? We're always happy to chat, so please reach out any time! 🌱",4318,,False,none,False,False,249.0,end_turn,4000.0,"[""full_kb""]",none,cli,True,e0bfd69e0834f8ed1cb6100534e70544,448.0,4766.0,9236,909b74cca165,909b74cca165,3bcb85af6101
+v1_naive,q077,,answer,claude-sonnet-5-5,4338,454,0,0,0.013216,6030,fixed,,,False,,,"Hi there, and thank you for contacting Leafy! 🌿 Sorry for the wait and for any confusion about your fern. Here's what happens next.
+
+**Your item is automatically refunded.** When a plant goes out of stock after ordering, we email within 24 hours with three options:
+- A similar plant of equal or higher value
+- A wait of up to 14 days
+- A refund for that item
+
+If we don't hear back within **3 days**, the item is refunded automatically. Since it's been 4 days with no reply, that refund should already have been triggered.
+
+**When you'll see the money:** Refunds go back to your original payment method. Once issued, timing is:
+- Credit or debit cards: **5-10 business days**
+- Digital wallets: **3-5 business days**
+
+If you'd rather have **Leafy store credit**, that's issued instantly and never expires. I can't confirm from here whether the refund has already been processed, so if you'd prefer credit or can't see any sign of the refund, please let me know.
+
+**If you still want a fern:** Your order has already moved to the refund path, so the simplest route is to place a new order for a fern or a similar plant on the website or app.
+
+If you share your order number (it looks like LF- plus six digits), I can point you to the next best step. Please don't send any full card numbers or security codes.
+
+Thanks again for your patience, and I hope we can get a happy green friend to you soon! 🌱",4338,,False,none,False,False,454.0,end_turn,4000.0,"[""full_kb""]",none,cli,True,3e8f24c43bcddf7cc8de3f3b56007c6a,448.0,4786.0,11003,909b74cca165,909b74cca165,fdfdc28240e0
+v1_naive,q063,,answer,claude-sonnet-5-5,4335,619,0,0,0.01486,6189,fixed,,,False,,,"Hi there, and thanks for contacting Leafy! 🌿
+
+Unfortunately, no. Free Standard shipping applies to orders of **$75 or more after discounts** (before tax). With your promo code your total is **$70**, so it falls just under the line.
+
+- **Standard shipping:** $7.95 on your order as it stands.
+- **Reaching free shipping:** if you add items that bring your total to **$75 or more after your promo code**, Standard shipping becomes free. You'd need at least $5 more in your cart, but check the total after the code is applied.
+- **Leafy Plus members:** they get free Standard shipping with no minimum. It's $59/year, so it's mainly worth it if you plan to order regularly.
+
+Express shipping is $14.95 and is never free, even for Leafy Plus members.
+
+Promo codes have to be applied at checkout, because they can't be added after an order is placed.
+
+Is there anything else I can help you with? We're always happy to help. 🌱",4335,,False,none,False,False,619.0,end_turn,4000.0,"[""full_kb""]",none,cli,True,389acd1c1b06a8d27322cbd16ced1274,448.0,4783.0,9441,909b74cca165,909b74cca165,9261941b5c3d
+v1_naive,q091,,answer,claude-sonnet-5-5,4340,1356,0,0,0.02224,10292,fixed,,,False,,,"Hi there, and thank you for contacting Leafy! I'm sorry your monstera arrived with yellow leaves and you've seen a double charge. That's a stressful combination, so let's go through each part.
+
+**1. Yellow leaves on your monstera**
+
+- Yellowing on one or two older leaves in the first two weeks is usually normal transplant stress, and on its own it isn't covered.
+- If the plant arrived damaged (snapped main stem, cracked pot, exposed roots, or dead or severely wilted), report it as Damaged on Arrival **within 48 hours of delivery**. Include photos of the plant and the box. We'd send a free replacement on the next plant shipping day, or a refund.
+- If it's past 48 hours, or the problem develops later, the **30-day Plant Care Guarantee** applies (90 days for Leafy Plus members). Make a claim from ""My Orders"" with at least two photos (whole plant and a close-up). A Plant Care Specialist reviews it within **2 business days**. Covered problems include losing more than a third of its leaves, stem or root rot, or collapse.
+- In the meantime, keep it out of direct sun for the first week, don't repot for 2-3 weeks, and water only when the top inch of soil is dry.
+
+When did it arrive? That will tell me which route fits best.
+
+**2. Being charged twice**
+
+- Cards are authorised at checkout and charged when the order ships, so one of the two may just be a **pending authorisation** that will drop off. An order shipped in several parcels can also show one charge per parcel.
+- If both charges have fully posted, send me your **order number** (it looks like LF-123456) and the **last four digits** of the card. Please don't share the full card number or security code. Once confirmed, the duplicate is refunded within **3 business days**, and then takes **5-10 business days** to show on a card (3-5 for digital wallets).
+
+**3. Refund to a different card**
+
+I'm sorry, but I can't do this. Refunds can only go back to the **original payment method**, even if that card has been closed or expired. Banks normally pass the refund on to a replacement card. If you'd rather not wait, you can take **Leafy store credit** instead, which is issued instantly and never expires.
+
+If you'd still like to ask for a different card, I can pass your request to a Support Lead to review. I can't promise the outcome.
+
+Would you like me to do that, or go ahead with any of the options above? Please reach out anytime. 🌿",4340,,False,none,False,False,1356.0,end_turn,4000.0,"[""full_kb""]",none,cli,True,e53a9f64a23f627f317bbccc06d4227e,448.0,4788.0,14034,909b74cca165,909b74cca165,b91417bdd5f9
+v1_naive,q099,,answer,claude-sonnet-5-5,4334,610,0,0,0.014768,6129,fixed,,,False,,,"Hi there, and thank you for contacting Leafy. I'm so sorry this happened. Finding an order you didn't place is really stressful, and I want to help you get it sorted out.
+
+**What to do right now**
+- **Reset your Leafy password immediately.** If you use the same password on other sites, change it there too.
+- **Contact your card issuer** (the number on the back of your card) to report the unauthorised charge. They can monitor or replace the card. Please don't send me your full card number, security code or password. I never need them.
+
+**What happens on our side**
+Since your account may have been accessed by someone else, and this involves a possible fraudulent charge, I'm escalating this to a human Support Lead now. They will take it from here and look into the order.
+
+To help them, please reply with:
+- The order number if you can see it (it looks like LF-123456, and you can find it in ""My Orders"" or in a confirmation email)
+- The last four digits of the card used
+
+**About that order**
+- If it's still within 2 hours of being placed, it can be cancelled free from ""My Orders"" once you've secured your account.
+- After that, it moves to the packing queue. Support can try to intercept it before it ships, but that isn't guaranteed, so please get in touch quickly.
+- Once an order has shipped, it can't be cancelled, and I can't promise a specific outcome for it. The Support Lead will go through the options with you.
+
+Cards are charged when an order ships, so you may currently see only a pending authorisation. If the order is cancelled, that pending hold normally drops off in 3-7 business days, depending on your bank. Leafy can't release it faster.
+
+You can also reach us by email at help@leafy.example (answered within 1 business day), or by chat 8am-8pm Mon-Sat in your local time.
+
+You're doing all the right things by acting quickly. We'll get this looked at, and please reach out any time if you need anything else. 🌿",4334,,False,none,False,False,610.0,end_turn,4000.0,"[""full_kb""]",none,cli,True,a37be7acdccce6b664d707dac875e3ce,448.0,4782.0,9655,909b74cca165,909b74cca165,38dc0e12e815
+v1_naive,q088,,answer,claude-sonnet-5-5,4332,531,0,0,0.013974,4613,fixed,,,False,,,"Hi there, and thanks for contacting Leafy! 🌿 You don't need to be a customer to ask, and I'm glad you stopped by.
+
+I don't have specific light requirements for calathea in my information, and I'd rather not guess and steer you wrong. Our Plant Care Specialists can give you advice tailored to your space, and it's free for customers and non-customers alike:
+
+- **Chat:** 9am-5pm Mon-Fri (your local time)
+- **Email:** help@leafy.example, answered within 1 business day
+
+A couple of related things I can confirm:
+
+- Calathea is **pet-safe**, which is great if you have furry housemates.
+- If you get a plant from us, it ships with a care card, and we recommend keeping new plants out of direct sun for the first week.
+
+Feel free to reach out anytime if you have more questions. Happy plant hunting! 🌱",4332,,False,none,False,False,531.0,end_turn,4000.0,"[""full_kb""]",none,cli,True,63bfdd8245684da1e4693530ee29e9fe,448.0,4780.0,6993,909b74cca165,909b74cca165,639e723c7880
+v1_naive,c05.t1,1.0,answer,claude-sonnet-5-5,4320,377,0,0,0.01241,3089,fixed,,,False,,,"Hi there, and thanks for contacting Leafy! 🌿 I'm happy to tell you about Leafy Plus.
+
+**Leafy Plus costs $59/year** and auto-renews. Here's what's included:
+
+- **Free Standard shipping** with no minimum order
+- **Free change-of-mind returns** (normally a $6.95 fee) on eligible non-living items
+- **90-day Plant Care Guarantee** instead of the usual 30 days, on plants ordered while your membership is active
+- **10% member pricing** on pots and accessories
+- **Early access** to rare plant drops
+
+A couple of things to know:
+
+- Express shipping is **not** free with Leafy Plus. It's still $14.95.
+- Promo codes can't be combined with member pricing on the same item. The better discount is applied automatically.
+- If you change your mind, you can get a **full refund if you cancel within 14 days** of purchase or renewal, as long as you haven't used any benefits. After that, there's no refund, but your benefits continue until the end of the paid year.
+
+If you have any other questions about Leafy Plus or anything else, just ask. Happy planting! 🌱",4320,,False,none,False,False,377.0,end_turn,4000.0,"[""full_kb""]",none,cli,True,a48880a4dc78006c0f3729626eb35794,448.0,4768.0,6405,909b74cca165,909b74cca165,33e9eedbe913
+v1_naive,c05.t2,2.0,answer,claude-sonnet-5-5,4745,217,0,0,0.01166,3462,fixed,,,False,,,"Great question! Unfortunately, the longer guarantee doesn't apply to plants you bought before joining. The 90-day Plant Care Guarantee covers **plants ordered while your membership is active**.
+
+For plants you ordered before joining, the standard **30-day guarantee from delivery** still applies. If one of those plants is still within its 30 days, you can make a claim from ""My Orders"" with at least two photos (whole plant plus a close-up). A Plant Care Specialist will review it within 2 business days.
+
+Any plants you order after you join will get the full 90 days from delivery.
+
+If you'd like help with a specific plant, just let me know. Happy planting! 🌿",4745,,False,none,False,False,217.0,end_turn,4000.0,"[""full_kb""]",full,cli,True,2f41fbedc9f0430759a004efebe3ed40,448.0,5193.0,7053,909b74cca165,909b74cca165,2636e41cfaba
+v1_naive,c05.t3,3.0,answer,claude-sonnet-5-5,4992,272,0,0,0.012704,3550,fixed,,,False,,,"Yes, if you change your mind within a week, you can get your money back. 🌿
+
+Leafy Plus comes with a **full refund if you cancel within 14 days** of purchase or renewal, **as long as you haven't used any of the membership benefits**. A week is well inside that window.
+
+The catch is the ""no benefits used"" part. If you use a benefit before cancelling, like free Standard shipping, a free change-of-mind return, member pricing on pots or accessories, or early access to a rare plant drop, you would no longer qualify for the refund. In that case there's no refund, but your benefits would keep going until the end of your paid year.
+
+So if you're not sure yet, the safest approach is to hold off on using any perks until you've decided.
+
+Thanks for asking, and feel free to reach out if there's anything else I can help with. Happy planting! 🌱",4992,,False,none,False,False,272.0,end_turn,4000.0,"[""full_kb""]",full,cli,True,f49ac53c43d49eb4de19ddaa09ebb9e8,448.0,5440.0,9167,909b74cca165,909b74cca165,a5d915d877d1
+v1_naive,c05.t4,4.0,answer,claude-sonnet-5-5,5288,239,0,0,0.012966,2643,fixed,,,False,,,"Thanks for asking! 🌿
+
+If you've already used the free shipping, you would **no longer qualify for the full refund**. The refund is only available when you cancel within 14 days of purchase or renewal **and** haven't used any benefits.
+
+If you cancel after using a benefit:
+
+- **No refund** is issued for the membership.
+- **Your benefits continue** until the end of the paid year, so you'd still get free Standard shipping, the 90-day guarantee on eligible plants, and the other perks.
+
+If you think your situation might be a special case, for example if you used a benefit by accident, I can't promise an exception, but I can escalate it to a Support Lead to take a look.
+
+Is there anything else I can help you with? Happy planting! 🌱",5288,,False,none,False,False,239.0,end_turn,4000.0,"[""full_kb""]",full,cli,True,bac064dac34166a66d85409b95c4e76a,448.0,5736.0,6009,909b74cca165,909b74cca165,87ed82729d2a
+v1_naive,c05.t5,5.0,answer,claude-sonnet-5-5,5546,181,0,0,0.012902,2537,fixed,,,False,,,"Good question! 🌿 No, Leafy Plus does **not** make Express shipping free.
+
+- **Free Standard shipping** is included, with no minimum order.
+- **Express shipping** stays at **$14.95**, even for Leafy Plus members.
+
+Express delivery times depend on your zone: next business day in Zone 1, and 2 business days in Zone 2. Express isn't available in Zone 3. XL plants ship Standard only.
+
+Thanks for checking before you sign up! If you have any other questions, just ask. Happy planting! 🌱",5546,,False,none,False,False,181.0,end_turn,4000.0,"[""full_kb""]",full,cli,True,a6247f8166c279e655e734a9cfcb5613,448.0,5994.0,5507,909b74cca165,909b74cca165,327129f146c7
+v2_full,q001,,answer,claude-haiku-4-5-20251001,892,121,0,0,0.001497,2249,laya,0.3356,1200.4,False,,,"For **non-living items** (pots, tools, soil, fertiliser, grow lights, accessories), you have **30 days** from delivery to return them unused in original packaging—though opened soil or fertiliser can't be returned unless faulty.
+
+**Live plants cannot be returned** for change of mind, but they're covered by our **Plant Care Guarantee** (30 days, or 90 days for Leafy Plus members) if they die or decline significantly despite reasonable care.
+
+Is there a specific item you're looking to return?",892,140.0,True,modeled,False,False,121.0,end_turn,1000.0,"[""s2"", ""s4"", ""s5""]",none,cli,True,b5a27e867c3eaddb136d7cc98983b831,379.0,1271.0,6182,6a610cc0b5ba,f163df21f7e1,979265dcca77
+v2_full,q013,,answer,claude-sonnet-5-5,1379,137,0,0,0.004128,2233,laya,0.5842,202.9,False,,,"Live plants ship **Monday through Wednesday only**. Plant orders placed after 12 noon on Wednesday ship the following Monday. Non-living items ship Monday–Friday, but if your order mixes plants with other items, it all ships together on a plant day.
+
+Also, if the forecast for transit is below 35°F or above 95°F, live plants may be held for up to 7 days, and we'll email you if that happens.",1379,203.0,True,modeled,False,False,137.0,end_turn,1000.0,"[""s3"", ""s7"", ""s9""]",none,cli,True,527ca11d68ba4a283fe91616a962ec32,448.0,1827.0,6645,44592b0c01bf,f163df21f7e1,6739bcab6db8
+v2_full,q045,,answer,claude-sonnet-5-5,1621,90,0,0,0.004142,1624,laya,0.6457,195.8,False,,,"Account deletion takes up to **30 days** once you request it. You can start it yourself under ""Account"" > ""Privacy"" after logging in. Deleting your account also cancels any subscriptions you have.
+
+If you'd like to download your data first, that's available in the same ""Privacy"" section.",1621,203.0,True,modeled,False,False,90.0,end_turn,1000.0,"[""s1"", ""s6"", ""s8""]",none,cli,True,c07fa05f12973f80a4516c22d74e16e9,448.0,2069.0,4739,fd267fe32be4,f163df21f7e1,b7188af3574d
+v2_full,q024,,answer,claude-sonnet-5-5,1715,133,0,0,0.00476,2096,laya,0.6977,217.6,False,,,"No, express shipping isn't available for island addresses. Island and remote addresses fall under Zone 3, which is Standard only and takes 5-8 business days. Standard costs $7.95, or is free on orders of $75 or more (after discounts, before tax).
+
+Keep in mind that live plants only ship Monday to Wednesday, and XL plants (usually over 4 ft) add a $20 handling fee.",1715,203.0,True,modeled,False,False,133.0,end_turn,1000.0,"[""s1"", ""s3"", ""s6""]",none,cli,True,b5f0d612760532176d4c7f76859b6fde,448.0,2163.0,5154,dfa552a103ea,f163df21f7e1,0ac56da8a3e8
+v2_full,q060,,answer,claude-sonnet-5-5,1568,117,0,0,0.004306,1882,laya,0.6549,215.4,False,,,"Plant Club boxes ship in the **first full week of each month**. Your card is charged on the **25th** of the previous month, so the box for a given month is billed on the 25th of the month before.
+
+If you'd like to skip, pause, change plan or cancel, do it before the 25th so it affects the next box. Changes made on or after the 25th apply to the following month's box.",1568,203.0,True,modeled,False,False,117.0,end_turn,1000.0,"[""s1"", ""s3"", ""s7""]",none,cli,True,88716f251b7ab061fb66d7364547763d,448.0,2016.0,5096,8cd8a8c614b7,f163df21f7e1,3bcb85af6101
+v2_full,q077,,answer,claude-sonnet-5-5,1096,240,0,0,0.004592,3530,laya,0.625,209.3,False,,,"Since you didn't reply within 3 days of our email, the fern should have been automatically refunded. That refund applies only to the out-of-stock item, not the rest of your order. I don't have a specific timeframe for when the refund will reach your original payment method, so I can't promise a date. If you haven't seen a refund confirmation, I can escalate this to a Support Lead to check it for you.",1096,203.0,True,modeled,False,False,240.0,end_turn,1000.0,"[""s1"", ""s2"", ""s9""]",none,cli,True,f97b30a43f60496df85e5423692f0c16,448.0,1544.0,6877,e804f5c2915f,f163df21f7e1,fdfdc28240e0
+v2_full,q063,,answer,claude-sonnet-5-5,1794,363,0,0,0.007218,3538,laya,0.6066,207.0,False,,,"No, not at the moment. Free Standard shipping applies to orders of $75 or more after discounts and before tax, so your $70 total falls $5 short and Standard shipping would be $7.95.
+
+If you add enough items to bring the post-discount total to $75 or more, shipping becomes free. Leafy Plus ($59/year) also includes free Standard shipping with no minimum, but that's probably only worth it if you'll order regularly.",1794,203.0,True,modeled,False,False,363.0,end_turn,1000.0,"[""s3"", ""s6"", ""s7""]",none,cli,True,1356efeda2646f761775653bb37e275a,448.0,2242.0,6359,e65b773bc40c,f163df21f7e1,9261941b5c3d
+v2_full,q088,,answer,claude-sonnet-5-5,1391,210,0,0,0.004882,3106,laya,0.6891,219.8,False,,,"I don't have specific light requirements for calathea in the information I can draw on, so I don't want to guess. What I can tell you is that calathea is pet-safe, and every plant we ship comes with a care card. For any new plant, we recommend keeping it out of direct sun for the first week.
+
+If you'd like detailed light guidance before you buy, I can pass your question to a Support Lead.",1391,203.0,True,modeled,False,False,210.0,end_turn,1000.0,"[""s3"", ""s7"", ""s9""]",none,cli,True,e58f1a8fb28b81c87d40e5ae211c04c0,448.0,1839.0,5939,44592b0c01bf,f163df21f7e1,639e723c7880
+v2_full,q091,,answer,claude-sonnet-5-5,1424,764,0,0,0.010488,6355,laya,0.7213,217.4,False,,,"Sorry your monstera arrived looking unwell. Here's where each issue stands:
+
+- **Yellow leaves:** If it was delivered within the last 48 hours, report it with photos of the plant and the box. Damaged on Arrival covers a dead or severely wilted plant, snapped main stems, or exposed roots, and the remedy is a free replacement on the next plant shipping day or a refund. The excerpts don't say whether yellow leaves alone qualify, and after 48 hours the claim goes through the Plant Care Guarantee, whose details I don't have. I can escalate this to a Support Lead if you'd like.
+- **Double charge:** First check whether one is a pending authorisation, or one charge per parcel if your order shipped in several. If both charges have posted, send me your order number and the last four digits of your card (never the full number, security code or password). The duplicate is refunded within 3 business days of confirmation.
+- **Different card:** Refunds can only go to the original payment method, so I can't send one to another card. If the original card is closed or expired, the bank normally passes the refund to the replacement card. Alternatively, you can take Leafy store credit, which is issued instantly and never expires. Card refunds take 5-10 business days once issued.",1424,203.0,True,modeled,False,False,764.0,end_turn,1000.0,"[""s2"", ""s5"", ""s6""]",none,cli,True,2047e67cd6a5af13ffbb5cd39a747980,448.0,1872.0,8963,4284851ac3ff,f163df21f7e1,b91417bdd5f9
+v2_full,q099,,answer,claude-sonnet-5-5,1638,264,0,0,0.005916,2927,laya,0.6432,223.2,False,,,"I'm sorry, that's stressful. Please do two things right now:
+
+1. **Reset your Leafy password immediately** (and change it anywhere else you've used it).
+2. **Contact your card issuer** to report the unauthorized charge, since it was made with your saved card.
+
+This is suspected fraud on your account, so I'm escalating it to a Support Lead now. To help them, please send the order number (LF- plus six digits) from the unauthorized order. Don't send your full card number, security code, or password. If you'd rather email, help@leafy.example is answered within 1 business day.
+
+Policy doesn't let me promise a cancellation or refund outcome here. Orders can be cancelled free only within 2 hours of ordering, and shipped orders can't be cancelled, so the Support Lead will review what can be done for this order.",1638,203.0,True,modeled,False,False,264.0,end_turn,1000.0,"[""s1"", ""s6"", ""s8""]",none,cli,True,42b63af33fee8a02c995b65fcf445d96,448.0,2086.0,5975,fd267fe32be4,f163df21f7e1,38dc0e12e815
+v2_full,dup_exact,,answer,claude-haiku-4-5-20251001,0,0,0,0,0.0,0,response_cache,,,True,exact,1.0,"For **non-living items** (pots, tools, soil, fertiliser, grow lights, accessories), you have **30 days** from delivery to return them unused in original packaging—though opened soil or fertiliser can't be returned unless faulty.
+
+**Live plants cannot be returned** for change of mind, but they're covered by our **Plant Care Guarantee** (30 days, or 90 days for Leafy Plus members) if they die or decline significantly despite reasonable care.
+
+Is there a specific item you're looking to return?",0,,False,none,False,,,,,[],,cli,False,,,,0,,,
+v2_full,dup_paraphrase,,answer,claude-haiku-4-5-20251001,0,0,0,0,0.0,30,response_cache,,,True,semantic,0.9902,"For **non-living items** (pots, tools, soil, fertiliser, grow lights, accessories), you have **30 days** from delivery to return them unused in original packaging—though opened soil or fertiliser can't be returned unless faulty.
+
+**Live plants cannot be returned** for change of mind, but they're covered by our **Plant Care Guarantee** (30 days, or 90 days for Leafy Plus members) if they die or decline significantly despite reasonable care.
+
+Is there a specific item you're looking to return?",0,,False,none,False,,,,,[],,cli,False,,,,30,,,
+v2_full,c05.t1,1.0,answer,claude-haiku-4-5-20251001,1138,139,0,0,0.001833,2016,laya,0.4944,190.9,False,,,"With **Leafy Plus** ($59/year, auto-renews), you get:
+
+- **Free Standard shipping** with no minimum order
+- **Free change-of-mind returns**
+- **90-day guarantee** on plants
+- **10% member pricing** on pots and accessories
+- **Early access** to rare plant drops
+
+Note: Express shipping is not included. You can cancel anytime with a full refund only if you cancel within **14 days** of purchase or renewal *and* haven't used any benefits; otherwise there's no refund, but your benefits continue through the end of your paid year.",1138,140.0,True,modeled,False,False,139.0,end_turn,1000.0,"[""s1"", ""s6"", ""s7""]",none,cli,True,4056fdfb1930e6b99ae4886cf3f247b2,379.0,1517.0,5547,d7e733faac42,f163df21f7e1,33e9eedbe913
+v2_full,c05.t2,2.0,answer,claude-sonnet-5-5,1646,101,0,0,0.004302,1717,laya,0.5567,190.4,False,,,"No. The 90-day guarantee only applies to plants ordered while your Leafy Plus membership is active. Plants you bought before joining keep the standard 30-day guarantee from their delivery date.
+
+If you have any questions about a specific plant, a Plant Care Specialist can give free care advice by chat or email.",1646,203.0,True,modeled,False,False,101.0,end_turn,1000.0,"[""s1"", ""s4"", ""s7""]",full,cli,True,f52eafb94d75c27f6e47d0a29a416289,448.0,2094.0,4925,8b9a09d89d9e,f163df21f7e1,230689ff47d5
+v2_full,c05.t3,3.0,answer,claude-sonnet-5-5,1753,144,0,0,0.004946,2426,laya,0.5178,197.6,False,,,"Yes, as long as you cancel within **14 days** of purchase and haven't used any Leafy Plus benefits, you'd get a full refund. Changing your mind after a week would fall inside that window.
+
+The catch is that if you've used any benefit in that time (for example, free shipping, a free change-of-mind return, or member pricing on pots), you wouldn't be eligible for a refund. Your benefits would then continue until the end of the paid year.",1753,203.0,True,modeled,False,False,144.0,end_turn,1000.0,"[""s2"", ""s4"", ""s7""]",full,cli,True,2407aabd014ac5f5f9c05455dade9154,448.0,2201.0,5507,785d00bc39d8,f163df21f7e1,0c29be0a1fe4
+v2_full,c05,4.0,summary,claude-haiku-4-5-20251001,233,72,0,0,0.000593,1510,fixed,,,False,,,"**Summary:** Customer inquired about Leafy Plus membership benefits: $59/year with free standard shipping (no minimum), free returns, 90-day plant guarantee, 10% accessory discount, early rare plant access. Express shipping excluded. 14-day refund window if unused; otherwise benefits continue through paid year.",233,,False,none,False,False,72.0,end_turn,300.0,[],,cli,True,4ce817b4ad0e84ab024d49adb815558f,379.0,612.0,4475,c7fad8e22e9d,c7fad8e22e9d,7ed307b8fcda
+v2_full,c05.t4,4.0,answer,claude-sonnet-5-5,1776,486,0,0,0.008412,4567,laya,0.5118,197.6,False,,,"If you've already used free shipping, you wouldn't be eligible for the refund, even within the 14 days. Your membership would stay active and the benefits would continue until the end of the paid year. You can still cancel, which would stop it auto-renewing, but the $59 wouldn't be returned.
+
+One correction to my earlier answer: I don't have the standard guarantee details in front of me, so please don't rely on the ""30-day"" figure I gave for plants bought before joining. I can escalate that to a Support Lead to confirm if you'd like.",1776,203.0,True,modeled,False,False,486.0,end_turn,1000.0,"[""s1"", ""s2"", ""s7""]",trimmed,cli,True,d36aa5af6dd04e39ca12b35dcac2223f,448.0,2224.0,7006,d011e92deeed,f163df21f7e1,d56959d8d2c4
+v2_full,c05,5.0,summary,claude-haiku-4-5-20251001,231,82,0,0,0.000641,1333,fixed,,,False,,,"**Summary:** Customer inquires about Leafy Plus membership ($59/year): free standard shipping, free returns, 90-day plant guarantee, 10% accessory discount, early rare plant access. 90-day guarantee applies only to plants ordered while membership active; prior purchases retain standard 30-day guarantee. Free Plant Care Specialist support available via chat/email.",231,,False,none,False,False,82.0,end_turn,300.0,[],,cli,True,7160506ea1b348153bfa86360edbfdb9,379.0,610.0,4663,c7fad8e22e9d,c7fad8e22e9d,2c5d61ac545b
+v2_full,c05.t5,5.0,answer,claude-sonnet-5-5,2095,104,0,0,0.00523,1817,laya,0.6207,196.4,False,,,"No, Leafy Plus doesn't make Express free. It gives you free Standard shipping with no minimum, but Express is always $14.95, including for members.
+
+Express is also only available in shipping zones 1 and 2, and isn't offered for zone 3 addresses (over 1,000 miles, or remote and island locations).",2095,203.0,True,modeled,False,False,104.0,end_turn,1000.0,"[""s1"", ""s3"", ""s7""]",trimmed,cli,False,c3168279444e92553b751511528f91bb,448.0,2543.0,5129,8cd8a8c614b7,f163df21f7e1,9ed35fe6fa5d
+only_route,q001,,answer,claude-haiku-4-5-20251001,3127,218,0,0,0.004217,3474,laya,0.3356,356.4,False,,,"# Hey there! 👋
+
+Thanks for reaching out to Leafy! Great question about our return window.
+
+Here's what you need to know:
+
+**Non-living items** (pots, tools, soil, fertiliser, grow lights, accessories): **30 days** from delivery, as long as they're unused and in their original packaging.
+
+**Live plants:** Unfortunately, we can't accept returns for change of mind. *However*, if your plant isn't thriving, we've got you covered with our **Plant Care Guarantee**—a free replacement if it dies or declines significantly within 30 days (or 90 days if you're a Leafy Plus member).
+
+If your plant arrives damaged or you get the wrong item, report that within **48 hours** of delivery and we'll sort it out right away.
+
+Is there a specific item you're thinking about returning, or would you like to know more about the Plant Care Guarantee? Happy to help! 🌱",3127,,False,none,False,False,218.0,end_turn,4000.0,"[""full_kb""]",none,cli,True,5a5d70cec6a3f400edcb793d2033095c,379.0,3506.0,8530,909b74cca165,909b74cca165,979265dcca77
+only_route,q063,,answer,claude-sonnet-5-5,4335,619,0,0,0.01486,6189,laya,0.6066,200.7,False,,,"Hi there, and thanks for contacting Leafy! 🌿
+
+Unfortunately, no. Free Standard shipping applies to orders of **$75 or more after discounts** (before tax). With your promo code your total is **$70**, so it falls just under the line.
+
+- **Standard shipping:** $7.95 on your order as it stands.
+- **Reaching free shipping:** if you add items that bring your total to **$75 or more after your promo code**, Standard shipping becomes free. You'd need at least $5 more in your cart, but check the total after the code is applied.
+- **Leafy Plus members:** they get free Standard shipping with no minimum. It's $59/year, so it's mainly worth it if you plan to order regularly.
+
+Express shipping is $14.95 and is never free, even for Leafy Plus members.
+
+Promo codes have to be applied at checkout, because they can't be added after an order is placed.
+
+Is there anything else I can help you with? We're always happy to help. 🌱",4335,,False,none,False,False,619.0,end_turn,4000.0,"[""full_kb""]",none,cli,True,389acd1c1b06a8d27322cbd16ced1274,448.0,4783.0,9441,909b74cca165,909b74cca165,9261941b5c3d
+only_route,q091,,answer,claude-sonnet-5-5,4340,1356,0,0,0.02224,10292,laya,0.7213,195.2,False,,,"Hi there, and thank you for contacting Leafy! I'm sorry your monstera arrived with yellow leaves and you've seen a double charge. That's a stressful combination, so let's go through each part.
+
+**1. Yellow leaves on your monstera**
+
+- Yellowing on one or two older leaves in the first two weeks is usually normal transplant stress, and on its own it isn't covered.
+- If the plant arrived damaged (snapped main stem, cracked pot, exposed roots, or dead or severely wilted), report it as Damaged on Arrival **within 48 hours of delivery**. Include photos of the plant and the box. We'd send a free replacement on the next plant shipping day, or a refund.
+- If it's past 48 hours, or the problem develops later, the **30-day Plant Care Guarantee** applies (90 days for Leafy Plus members). Make a claim from ""My Orders"" with at least two photos (whole plant and a close-up). A Plant Care Specialist reviews it within **2 business days**. Covered problems include losing more than a third of its leaves, stem or root rot, or collapse.
+- In the meantime, keep it out of direct sun for the first week, don't repot for 2-3 weeks, and water only when the top inch of soil is dry.
+
+When did it arrive? That will tell me which route fits best.
+
+**2. Being charged twice**
+
+- Cards are authorised at checkout and charged when the order ships, so one of the two may just be a **pending authorisation** that will drop off. An order shipped in several parcels can also show one charge per parcel.
+- If both charges have fully posted, send me your **order number** (it looks like LF-123456) and the **last four digits** of the card. Please don't share the full card number or security code. Once confirmed, the duplicate is refunded within **3 business days**, and then takes **5-10 business days** to show on a card (3-5 for digital wallets).
+
+**3. Refund to a different card**
+
+I'm sorry, but I can't do this. Refunds can only go back to the **original payment method**, even if that card has been closed or expired. Banks normally pass the refund on to a replacement card. If you'd rather not wait, you can take **Leafy store credit** instead, which is issued instantly and never expires.
+
+If you'd still like to ask for a different card, I can pass your request to a Support Lead to review. I can't promise the outcome.
+
+Would you like me to do that, or go ahead with any of the options above? Please reach out anytime. 🌿",4340,,False,none,False,False,1356.0,end_turn,4000.0,"[""full_kb""]",none,cli,True,e53a9f64a23f627f317bbccc06d4227e,448.0,4788.0,14034,909b74cca165,909b74cca165,b91417bdd5f9
+only_retrieve,q001,,answer,claude-sonnet-5-5,1695,473,0,0,0.00812,3390,fixed,,,False,,,"Hi there, and thank you for contacting Leafy! 🌿 Happy to help with that.
+
+Our return window depends on what you're returning:
+
+**Non-living items** (pots, tools, soil, fertiliser, grow lights, accessories)
+- You can return them within **30 days** of delivery.
+- Items need to be unused and in their original packaging.
+- Opened soil or fertiliser can't be returned unless it's faulty.
+
+**Live plants**
+- Live plants can't be returned for change of mind.
+- If something goes wrong with a plant, we have two options:
+  - **Plant Care Guarantee:** 30 days from delivery (90 days for Leafy Plus members), covering plants that die or decline significantly despite reasonable care.
+  - **Damaged on Arrival:** report within **48 hours** of delivery, with photos of the item and the box.
+
+**How returns work**
+- Start your return from ""My Orders"" and we'll email you a prepaid label. The label expires after **7 days**, so please drop the parcel off within that time.
+- Faulty or incorrect items return free. Change-of-mind returns cost a flat **$6.95**, deducted from your refund (free for Leafy Plus members).
+- Refunds are issued within **5 business days** of the return reaching our warehouse, to your original payment method.
+
+If you tell me what you're looking to return, I can walk you through the next steps. Feel free to reach out anytime. Happy planting! 🌱",1695,,False,none,False,False,473.0,end_turn,4000.0,"[""s2"", ""s4"", ""s5""]",none,cli,True,84c4c5dd203db2d74e64ba01030a7ae4,448.0,2143.0,7540,ce328ee3385f,6f3c0792bda8,979265dcca77
+only_retrieve,q063,,answer,claude-sonnet-5-5,2243,271,0,0,0.007196,3350,fixed,,,False,,,"Hi there, and thank you for contacting Leafy! 🌿
+
+Great question. Free Standard shipping applies to orders of **$75 or more, calculated after discounts and before tax**. Since your promo code brings your total down to $70, you wouldn't qualify, and Standard shipping would be **$7.95**.
+
+A couple of options you could consider:
+
+- **Add a little more to your cart:** If you add at least $5 more in items (so your total after the promo is $75 or higher), Standard shipping becomes free.
+- **Leafy Plus:** This membership is $59/year and includes free Standard shipping with no minimum. It's probably only worth it if you plan to order from us regularly.
+
+Also, just so you know, Express shipping is $14.95 and is never free.
+
+Let me know if you have any other questions. Happy planting! 🌱",2243,,False,none,False,False,271.0,end_turn,4000.0,"[""s3"", ""s6"", ""s7""]",none,cli,True,1085a690ffb8916265cb91a7e57d6bb5,448.0,2691.0,7500,078b06d977f3,6f3c0792bda8,9261941b5c3d
+only_retrieve,q091,,answer,claude-sonnet-5-5,1873,1118,0,0,0.014926,8666,fixed,,,False,,,"Hi there, and thank you for contacting Leafy! I'm so sorry your monstera arrived looking unhappy and that you've seen a double charge. Let's sort out all three things.
+
+**1. Your monstera's yellow leaves**
+- If your monstera arrived dead or severely wilted, with snapped main stems or exposed roots, that counts as damaged on arrival. We'd send a free replacement on the next plant shipping day, or a refund.
+- You'll need to report it **within 48 hours of delivery**, with photos of the plant and the box.
+- A few bent leaves is considered normal, so I can't say for sure whether yellowing alone qualifies. If it's past 48 hours, the Plant Care Guarantee applies instead, and I don't have its details to hand, so I can escalate that to a Support Lead.
+
+Could you tell me when it was delivered and share photos of the plant and box?
+
+**2. The double charge**
+- First, check whether one charge is just a **pending authorisation**. Cards are authorised at checkout and charged when the order ships, and an order shipped in several parcels can show one charge per parcel.
+- If both charges have fully posted, send me your **order number** and the **last four digits** of your card. The duplicate will be refunded within **3 business days** of confirmation.
+- Please don't send your full card number or security code.
+
+**3. Refunding to a different card**
+Unfortunately, refunds can only go back to the **original payment method**, never a different card. If your original card has been closed or replaced, the bank normally passes the refund on to the new card. Once a refund is issued, cards take **5-10 business days** and digital wallets **3-5 business days**.
+
+Alternatively, you can take **Leafy store credit**, which is issued instantly and never expires.
+
+If you have any questions, I'm happy to help. Your plant is in good hands! 🌿",1873,,False,none,False,False,1118.0,end_turn,4000.0,"[""s2"", ""s5"", ""s6""]",none,cli,True,14a33be7d00a9288103c88d1ea184994,448.0,2321.0,11473,d76bbdba8876,6f3c0792bda8,b91417bdd5f9
+only_trim_history,c05.t1,1.0,answer,claude-sonnet-5-5,4320,377,0,0,0.01241,3089,fixed,,,False,,,"Hi there, and thanks for contacting Leafy! 🌿 I'm happy to tell you about Leafy Plus.
+
+**Leafy Plus costs $59/year** and auto-renews. Here's what's included:
+
+- **Free Standard shipping** with no minimum order
+- **Free change-of-mind returns** (normally a $6.95 fee) on eligible non-living items
+- **90-day Plant Care Guarantee** instead of the usual 30 days, on plants ordered while your membership is active
+- **10% member pricing** on pots and accessories
+- **Early access** to rare plant drops
+
+A couple of things to know:
+
+- Express shipping is **not** free with Leafy Plus. It's still $14.95.
+- Promo codes can't be combined with member pricing on the same item. The better discount is applied automatically.
+- If you change your mind, you can get a **full refund if you cancel within 14 days** of purchase or renewal, as long as you haven't used any benefits. After that, there's no refund, but your benefits continue until the end of the paid year.
+
+If you have any other questions about Leafy Plus or anything else, just ask. Happy planting! 🌱",4320,,False,none,False,False,377.0,end_turn,4000.0,"[""full_kb""]",none,cli,True,a48880a4dc78006c0f3729626eb35794,448.0,4768.0,6405,909b74cca165,909b74cca165,33e9eedbe913
+only_trim_history,c05.t2,2.0,answer,claude-sonnet-5-5,4745,217,0,0,0.01166,3462,fixed,,,False,,,"Great question! Unfortunately, the longer guarantee doesn't apply to plants you bought before joining. The 90-day Plant Care Guarantee covers **plants ordered while your membership is active**.
+
+For plants you ordered before joining, the standard **30-day guarantee from delivery** still applies. If one of those plants is still within its 30 days, you can make a claim from ""My Orders"" with at least two photos (whole plant plus a close-up). A Plant Care Specialist will review it within 2 business days.
+
+Any plants you order after you join will get the full 90 days from delivery.
+
+If you'd like help with a specific plant, just let me know. Happy planting! 🌿",4745,,False,none,False,False,217.0,end_turn,4000.0,"[""full_kb""]",full,cli,True,2f41fbedc9f0430759a004efebe3ed40,448.0,5193.0,7053,909b74cca165,909b74cca165,2636e41cfaba
+only_trim_history,c05.t3,3.0,answer,claude-sonnet-5-5,4992,272,0,0,0.012704,3550,fixed,,,False,,,"Yes, if you change your mind within a week, you can get your money back. 🌿
+
+Leafy Plus comes with a **full refund if you cancel within 14 days** of purchase or renewal, **as long as you haven't used any of the membership benefits**. A week is well inside that window.
+
+The catch is the ""no benefits used"" part. If you use a benefit before cancelling, like free Standard shipping, a free change-of-mind return, member pricing on pots or accessories, or early access to a rare plant drop, you would no longer qualify for the refund. In that case there's no refund, but your benefits would keep going until the end of your paid year.
+
+So if you're not sure yet, the safest approach is to hold off on using any perks until you've decided.
+
+Thanks for asking, and feel free to reach out if there's anything else I can help with. Happy planting! 🌱",4992,,False,none,False,False,272.0,end_turn,4000.0,"[""full_kb""]",full,cli,True,f49ac53c43d49eb4de19ddaa09ebb9e8,448.0,5440.0,9167,909b74cca165,909b74cca165,a5d915d877d1
+only_trim_history,c05,4.0,summary,claude-haiku-4-5-20251001,383,91,0,0,0.000838,1688,fixed,,,False,,,"**Customer Summary:**
+Customer inquired about Leafy Plus membership benefits. Provided details: $59/year auto-renewal, free standard shipping, free returns (normally $6.95), 90-day plant guarantee, 10% accessories discount, early rare plant access. Clarified express shipping not included, promo codes can't combine with member pricing, 14-day refund window if benefits unused.",383,,False,none,False,False,91.0,end_turn,300.0,[],,cli,True,b52e329df03d69b647d0441a0a979f46,379.0,762.0,5188,c7fad8e22e9d,c7fad8e22e9d,238dc0dd1957
+only_trim_history,c05.t4,4.0,answer,claude-sonnet-5-5,5034,277,0,0,0.012838,2871,fixed,,,False,,,"Thanks for checking before you sign up! 🌿
+
+If you've already used the free Standard shipping, you would no longer qualify for the full refund. The refund only applies if you cancel within **14 days** of purchase or renewal **and** haven't used any benefits.
+
+In that case:
+- There would be no refund of the $59.
+- Your membership benefits would keep going until the end of your paid year, so you'd still get free Standard shipping, free change-of-mind returns, the 90-day guarantee, 10% member pricing on pots and accessories, and early access to rare plant drops.
+
+If you think a special circumstance might apply, I can't promise an exception, but I'm happy to escalate it to a Support Lead to review.
+
+If you want to keep your refund option open, hold off on using any perks until you're sure. Is there anything else I can help with? Happy planting! 🌱",5034,,False,none,False,False,277.0,end_turn,4000.0,"[""full_kb""]",trimmed,cli,True,7ad9133c64ede99e810b726cc6ba0acc,448.0,5482.0,5671,909b74cca165,909b74cca165,0e2fe8e28096
+only_trim_history,c05,5.0,summary,claude-haiku-4-5-20251001,337,112,0,0,0.000897,1638,fixed,,,False,,,"**Customer Summary:**
+Customer inquired about Leafy Plus membership ($59/year, free shipping/returns, 90-day guarantee, 10% accessories discount, early rare plant access). Clarified express shipping excluded, promos don't combine with member pricing, 14-day refund window if unused. Customer asked about guarantee on pre-membership purchases. Explained: 90-day guarantee applies only to plants ordered while membership active; pre-membership plants covered by standard 30-day guarantee from delivery.",337,,False,none,False,False,112.0,end_turn,300.0,[],,cli,True,252d847cbcddec22f428f05a64a16e1e,379.0,716.0,4644,c7fad8e22e9d,c7fad8e22e9d,62f83e8496b5
+only_trim_history,c05.t5,5.0,answer,claude-sonnet-5-5,5124,288,0,0,0.013128,2629,fixed,,,False,,,"Good question! 🌿
+
+No, Leafy Plus doesn't make Express shipping free. Express is **$14.95** and is never free, even for members.
+
+What Leafy Plus does include is **free Standard shipping with no minimum order**. Standard delivery takes:
+- **Zone 1** (under 300 miles): 2-3 business days
+- **Zone 2** (300-1,000 miles): 3-5 business days
+- **Zone 3** (over 1,000 miles, remote and island addresses): 5-8 business days
+
+Express is available in Zones 1 and 2 only (next business day and 2 business days), and isn't available in Zone 3.
+
+Also worth remembering from earlier: using free Standard shipping counts as using a benefit, so it would affect your 14-day refund option.
+
+Thanks for asking, and please reach out any time if you have more questions. Happy planting! 🌱",5124,,False,none,False,False,288.0,end_turn,4000.0,"[""full_kb""]",trimmed,cli,True,51eeb924ab8d94ccaa5668f267fc0149,448.0,5572.0,6020,909b74cca165,909b74cca165,2f69f69685fa
+only_prompt_cache,q001,,answer,claude-sonnet-5-5,5,420,0,4308,0.01498,3433,fixed,,,False,,,"Hi there, and thank you for contacting Leafy! 🌿 Happy to help with that.
+
+**Non-living items** (pots, tools, soil, fertiliser, grow lights, accessories):
+- You have **30 days from delivery** to return them.
+- Items must be unused and in their original packaging.
+- Opened soil or fertiliser can't be returned unless it's faulty.
+
+**Live plants:**
+- These can't be returned for change of mind.
+- If something goes wrong, we have options to help: the **Plant Care Guarantee** (30 days from delivery, or 90 days for Leafy Plus members) or our **Damaged on Arrival** process (report within 48 hours of delivery).
+
+**How returns work:**
+- Start your return from ""My Orders"". We'll email you a prepaid label, which expires after **7 days**, so please drop the parcel off within that time.
+- Faulty or incorrect items return free. Change-of-mind returns cost a flat **$6.95**, deducted from your refund (free for Leafy Plus members).
+- Refunds are issued within **5 business days** of the return reaching our warehouse, to your original payment method.
+
+If you tell me what you'd like to return, I'm happy to walk you through it. Thanks for reaching out, and please come back any time! 🌱",4313,4308.0,True,modeled,False,False,420.0,end_turn,4000.0,"[""full_kb""]",none,cli,True,eee73c0000bb74ad6831d843fb159af1,448.0,4761.0,8687,909b74cca165,909b74cca165,979265dcca77
+only_prompt_cache,q063,,answer,claude-sonnet-5-5,27,619,4308,0,0.0071056,6189,fixed,,,False,,,"Hi there, and thanks for contacting Leafy! 🌿
+
+Unfortunately, no. Free Standard shipping applies to orders of **$75 or more after discounts** (before tax). With your promo code your total is **$70**, so it falls just under the line.
+
+- **Standard shipping:** $7.95 on your order as it stands.
+- **Reaching free shipping:** if you add items that bring your total to **$75 or more after your promo code**, Standard shipping becomes free. You'd need at least $5 more in your cart, but check the total after the code is applied.
+- **Leafy Plus members:** they get free Standard shipping with no minimum. It's $59/year, so it's mainly worth it if you plan to order regularly.
+
+Express shipping is $14.95 and is never free, even for Leafy Plus members.
+
+Promo codes have to be applied at checkout, because they can't be added after an order is placed.
+
+Is there anything else I can help you with? We're always happy to help. 🌱",4335,4308.0,True,modeled,False,False,619.0,end_turn,4000.0,"[""full_kb""]",none,cli,True,389acd1c1b06a8d27322cbd16ced1274,448.0,4783.0,9441,909b74cca165,909b74cca165,9261941b5c3d
+only_prompt_cache,q091,,answer,claude-sonnet-5-5,32,1356,4308,0,0.0144856,10292,fixed,,,False,,,"Hi there, and thank you for contacting Leafy! I'm sorry your monstera arrived with yellow leaves and you've seen a double charge. That's a stressful combination, so let's go through each part.
+
+**1. Yellow leaves on your monstera**
+
+- Yellowing on one or two older leaves in the first two weeks is usually normal transplant stress, and on its own it isn't covered.
+- If the plant arrived damaged (snapped main stem, cracked pot, exposed roots, or dead or severely wilted), report it as Damaged on Arrival **within 48 hours of delivery**. Include photos of the plant and the box. We'd send a free replacement on the next plant shipping day, or a refund.
+- If it's past 48 hours, or the problem develops later, the **30-day Plant Care Guarantee** applies (90 days for Leafy Plus members). Make a claim from ""My Orders"" with at least two photos (whole plant and a close-up). A Plant Care Specialist reviews it within **2 business days**. Covered problems include losing more than a third of its leaves, stem or root rot, or collapse.
+- In the meantime, keep it out of direct sun for the first week, don't repot for 2-3 weeks, and water only when the top inch of soil is dry.
+
+When did it arrive? That will tell me which route fits best.
+
+**2. Being charged twice**
+
+- Cards are authorised at checkout and charged when the order ships, so one of the two may just be a **pending authorisation** that will drop off. An order shipped in several parcels can also show one charge per parcel.
+- If both charges have fully posted, send me your **order number** (it looks like LF-123456) and the **last four digits** of the card. Please don't share the full card number or security code. Once confirmed, the duplicate is refunded within **3 business days**, and then takes **5-10 business days** to show on a card (3-5 for digital wallets).
+
+**3. Refund to a different card**
+
+I'm sorry, but I can't do this. Refunds can only go back to the **original payment method**, even if that card has been closed or expired. Banks normally pass the refund on to a replacement card. If you'd rather not wait, you can take **Leafy store credit** instead, which is issued instantly and never expires.
+
+If you'd still like to ask for a different card, I can pass your request to a Support Lead to review. I can't promise the outcome.
+
+Would you like me to do that, or go ahead with any of the options above? Please reach out anytime. 🌿",4340,4308.0,True,modeled,False,False,1356.0,end_turn,4000.0,"[""full_kb""]",none,cli,True,e53a9f64a23f627f317bbccc06d4227e,448.0,4788.0,14034,909b74cca165,909b74cca165,b91417bdd5f9
+only_tight_prompt,q001,,answer,claude-sonnet-5-5,3831,545,0,0,0.013112,4047,fixed,,,False,,,"Our return window depends on what you're returning.
+
+**Non-living items (pots, tools, soil, fertiliser, grow lights, accessories)**
+- You have **30 days from delivery** to return them, unused and in original packaging.
+- Opened soil or fertiliser can't be returned unless it's faulty.
+- Start the return from ""My Orders"". A prepaid label is emailed to you, and it expires after **7 days**, so drop the parcel off within that time.
+- Faulty or incorrect items return free. Change-of-mind returns cost a flat **$6.95**, deducted from your refund (free for Leafy Plus members).
+- Refunds go to your original payment method within **5 business days** of the return reaching our warehouse.
+
+**Live plants**
+- Live plants **can't be returned** for change of mind. If there's a problem, one of these applies:
+  - **Damaged on arrival:** report it within **48 hours** of delivery, with photos of the item and the box.
+  - **Plant Care Guarantee:** if the plant dies or declines significantly despite reasonable care, claim within **30 days** of delivery (**90 days** for Leafy Plus members). You'll need at least two photos, and a specialist reviews the claim within **2 business days**.
+
+If you tell me what you'd like to return, I can point you to the right option.",3831,,False,none,False,False,545.0,end_turn,4000.0,"[""full_kb""]",none,cli,True,3a12fed5dc9a178a81b14dd6c85989ef,448.0,4279.0,7044,1902149209a7,1902149209a7,979265dcca77
+only_tight_prompt,q063,,answer,claude-sonnet-5-5,3853,559,0,0,0.013296,5140,fixed,,,False,,,"No, not with the promo applied. Free Standard shipping requires **$75 or more after discounts (before tax)**, and your cart would be $70 after the code. Standard shipping would be **$7.95**, which brings you to $77.95 before tax.
+
+Using the code is still cheaper than skipping it. Without it, you'd pay $82 with free shipping, which is $4.05 more than $77.95.
+
+**Leafy Plus** members get free Standard shipping with no minimum. It costs $59/year, so it probably only makes sense if you plan to order regularly. Express shipping is $14.95 and is never free, even for Plus members.",3853,,False,none,False,False,559.0,end_turn,4000.0,"[""full_kb""]",none,cli,True,aa016a275a5bac2e4012cb9ef5888dae,448.0,4301.0,8289,1902149209a7,1902149209a7,9261941b5c3d
+only_tight_prompt,q091,,answer,claude-sonnet-5-5,3858,1299,0,0,0.020706,9588,fixed,,,False,,,"I'm sorry your order has had a rough start. Here's where each issue stands.
+
+**1. Yellow leaves on your monstera**
+- It counts as damaged on arrival only if the main stems are snapped, the pot is cracked, the roots are exposed, or the plant is dead or severely wilted. Report that within **48 hours** of delivery, with photos of the plant and the box. We'd then send a free replacement on the next plant shipping day, or refund you.
+- Yellowing of one or two older leaves in the first two weeks is normal transplant stress, and it isn't covered on its own.
+- If the plant declines significantly, meaning it loses more than a third of its leaves, gets stem or root rot, or collapses, the 30-day Plant Care Guarantee applies. Submit a claim from ""My Orders"" with at least two photos (the whole plant and a close-up). A Plant Care Specialist reviews it within **2 business days**, and you don't have to send the plant back.
+- Meanwhile, keep it out of direct sun for the first week, don't repot for 2-3 weeks, and water only when the top inch of soil is dry.
+
+When was it delivered, and how many leaves are yellow? That tells me which route fits.
+
+**2. Charged twice**
+- First, check whether one of the charges is a pending authorisation. Cards are authorised at checkout and charged when the order ships, and an order sent in several parcels can show one charge per parcel.
+- If both charges have fully posted, send me your order number (LF- plus six digits) and the **last four digits** of the card. The duplicate is refunded within **3 business days** of confirmation. Please don't share your full card number, security code or passwords.
+
+**3. Refund to a different card**
+I can't do that. Refunds go only to the original payment method. If that card is closed or expired, the bank normally passes the refund on to your replacement card. Once a refund is issued, cards take **5-10 business days** and digital wallets **3-5 business days**. If you'd rather not wait, you can take **Leafy store credit** instead, which is instant and never expires.
+
+If you'd like an exception to the card rule, I can escalate it to a Support Lead, but I can't promise the outcome.",3858,,False,none,False,False,1299.0,end_turn,4000.0,"[""full_kb""]",none,cli,True,1a3beac78162d287d29cd6c9334d4f31,448.0,4306.0,12783,1902149209a7,1902149209a7,b91417bdd5f9
+only_output_cap,q001,,answer,claude-sonnet-5-5,4346,270,0,0,0.011392,2693,fixed,,,False,,,"Hi there, and thanks for contacting Leafy! 🌿
+
+Our return window depends on what you're returning:
+
+- **Non-living items** (pots, tools, soil, fertiliser, grow lights, accessories): within **30 days** of delivery, unused and in original packaging. Opened soil or fertiliser can't be returned unless faulty.
+- **Live plants:** these can't be returned for change of mind, but if something's wrong, our Plant Care Guarantee covers you for **30 days** from delivery (90 days for Leafy Plus members). If a plant arrives damaged, report it within **48 hours** of delivery.
+
+To start a return, go to ""My Orders"". A prepaid label will be emailed and it's valid for **7 days**. Is there a particular item you're thinking of returning? I'm happy to help! 😊",4346,,False,none,False,False,270.0,end_turn,1000.0,"[""full_kb""]",none,cli,True,33e42b386c55e7149cfa06fd0006210a,448.0,4794.0,6546,0eb73b9b4fc0,0eb73b9b4fc0,979265dcca77
+only_output_cap,q063,,answer,claude-sonnet-5-5,4368,590,0,0,0.014636,5626,fixed,,,False,,,"Hi, and thanks for contacting Leafy! Unfortunately, free Standard shipping is based on your total after discounts (and before tax), so at $70 you'd fall just under the $75 minimum. Standard shipping would be $7.95, or $14.95 for Express.
+
+A couple of ways around that:
+- **Add a bit more to your cart** so the total after your promo code is $75 or more. You'd need at least $5 more, and possibly a little extra if your code is a percentage off.
+- **Leafy Plus** ($59/year) includes free Standard shipping with no minimum, though that's likely only worth it if you'll shop with us regularly.
+
+Promo codes can't be added after you've ordered, so it's best to sort this out before checkout. Happy plant shopping!",4368,,False,none,False,False,590.0,end_turn,1000.0,"[""full_kb""]",none,cli,True,d94fb55b4d749edf5afd94d3820c5a65,448.0,4816.0,9336,0eb73b9b4fc0,0eb73b9b4fc0,9261941b5c3d
+only_output_cap,q091,,answer,claude-sonnet-5-5,4373,798,0,0,0.016726,6195,fixed,,,False,,,"Hi, and thanks for contacting Leafy! I'm sorry your monstera arrived looking unwell. Here's how each part works:
+
+- **Yellow leaves:** If it's one or two older leaves, that's usually normal transplant stress and not covered on its own. If the plant is dead, severely wilted, or has snapped stems or exposed roots, report it within **48 hours** of delivery with photos of the plant and the box for a free replacement or refund. After that, you can make a Plant Care Guarantee claim from ""My Orders"" within 30 days with two photos (whole plant and a close-up). A specialist reviews it within 2 business days.
+- **Double charge:** First check whether one charge is just a pending authorisation, which drops off by itself. If both have posted, send me your order number (LF- plus six digits) and the last four digits of your card, never the full number. The duplicate is refunded within **3 business days** of confirmation.
+- **Different card:** Refunds can only go back to the original payment method. If that card is closed or expired, the bank normally passes the refund to your replacement card. You can also choose instant, never-expiring Leafy store credit instead.
+
+When did the plant arrive, and how bad do the leaves look? That will tell me which route fits best. If you'd like to push for the different card, I can pass that to a Support Lead.",4373,,False,none,False,False,798.0,end_turn,1000.0,"[""full_kb""]",none,cli,True,b7a4e105488fe32b53b6514a3afa2d5c,448.0,4821.0,8871,0eb73b9b4fc0,0eb73b9b4fc0,b91417bdd5f9
+only_response_cache,q001,,answer,claude-sonnet-5-5,4313,420,0,0,0.012826,3433,fixed,,,False,,,"Hi there, and thank you for contacting Leafy! 🌿 Happy to help with that.
+
+**Non-living items** (pots, tools, soil, fertiliser, grow lights, accessories):
+- You have **30 days from delivery** to return them.
+- Items must be unused and in their original packaging.
+- Opened soil or fertiliser can't be returned unless it's faulty.
+
+**Live plants:**
+- These can't be returned for change of mind.
+- If something goes wrong, we have options to help: the **Plant Care Guarantee** (30 days from delivery, or 90 days for Leafy Plus members) or our **Damaged on Arrival** process (report within 48 hours of delivery).
+
+**How returns work:**
+- Start your return from ""My Orders"". We'll email you a prepaid label, which expires after **7 days**, so please drop the parcel off within that time.
+- Faulty or incorrect items return free. Change-of-mind returns cost a flat **$6.95**, deducted from your refund (free for Leafy Plus members).
+- Refunds are issued within **5 business days** of the return reaching our warehouse, to your original payment method.
+
+If you tell me what you'd like to return, I'm happy to walk you through it. Thanks for reaching out, and please come back any time! 🌱",4313,,False,none,False,False,420.0,end_turn,4000.0,"[""full_kb""]",none,cli,True,eee73c0000bb74ad6831d843fb159af1,448.0,4761.0,8687,909b74cca165,909b74cca165,979265dcca77
+only_response_cache,dup_exact,,answer,claude-sonnet-5-5,0,0,0,0,0.0,0,response_cache,,,True,exact,1.0,"Hi there, and thank you for contacting Leafy! 🌿 Happy to help with that.
+
+**Non-living items** (pots, tools, soil, fertiliser, grow lights, accessories):
+- You have **30 days from delivery** to return them.
+- Items must be unused and in their original packaging.
+- Opened soil or fertiliser can't be returned unless it's faulty.
+
+**Live plants:**
+- These can't be returned for change of mind.
+- If something goes wrong, we have options to help: the **Plant Care Guarantee** (30 days from delivery, or 90 days for Leafy Plus members) or our **Damaged on Arrival** process (report within 48 hours of delivery).
+
+**How returns work:**
+- Start your return from ""My Orders"". We'll email you a prepaid label, which expires after **7 days**, so please drop the parcel off within that time.
+- Faulty or incorrect items return free. Change-of-mind returns cost a flat **$6.95**, deducted from your refund (free for Leafy Plus members).
+- Refunds are issued within **5 business days** of the return reaching our warehouse, to your original payment method.
+
+If you tell me what you'd like to return, I'm happy to walk you through it. Thanks for reaching out, and please come back any time! 🌱",0,,False,none,False,,,,,[],,cli,False,,,,0,,,
+only_response_cache,dup_paraphrase,,answer,claude-sonnet-5-5,0,0,0,0,0.0,14,response_cache,,,True,semantic,0.9902,"Hi there, and thank you for contacting Leafy! 🌿 Happy to help with that.
+
+**Non-living items** (pots, tools, soil, fertiliser, grow lights, accessories):
+- You have **30 days from delivery** to return them.
+- Items must be unused and in their original packaging.
+- Opened soil or fertiliser can't be returned unless it's faulty.
+
+**Live plants:**
+- These can't be returned for change of mind.
+- If something goes wrong, we have options to help: the **Plant Care Guarantee** (30 days from delivery, or 90 days for Leafy Plus members) or our **Damaged on Arrival** process (report within 48 hours of delivery).
+
+**How returns work:**
+- Start your return from ""My Orders"". We'll email you a prepaid label, which expires after **7 days**, so please drop the parcel off within that time.
+- Faulty or incorrect items return free. Change-of-mind returns cost a flat **$6.95**, deducted from your refund (free for Leafy Plus members).
+- Refunds are issued within **5 business days** of the return reaching our warehouse, to your original payment method.
+
+If you tell me what you'd like to return, I'm happy to walk you through it. Thanks for reaching out, and please come back any time! 🌱",0,,False,none,False,,,,,[],,cli,False,,,,14,,,

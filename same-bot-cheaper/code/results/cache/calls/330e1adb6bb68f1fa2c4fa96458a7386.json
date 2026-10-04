@@ -1,0 +1,49 @@
+{
+ "text": "I don't have details about Leafy Plus membership benefits in my policy excerpts. However, I can see that Leafy Plus members get an extended **90-day plant care guarantee** (instead of the standard 30 days) on plants ordered while their membership is active.\n\nFor a full breakdown of what's included with Leafy Plus, I'd be happy to escalate this to a Support Lead who can give you complete information.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1567,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 96,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1567,
+    "output_tokens": 96,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1567,
+ "output_tokens": 96,
+ "thinking_tokens": 0,
+ "latency_ms": 1761,
+ "wall_ms": 5373,
+ "overhead": 379,
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 400,
+ "recorded_at": 1790787093.8891332
+}

@@ -1,0 +1,50 @@
+{
+ "text": "Since you ordered 3 hours ago, you're past the 2-hour free change window, so none of these can be done online from \"My Orders.\" The order is now in the packing queue.\n\n- **Delivery address:** Support can try to intercept the order before it ships to change it, but that's not guaranteed. Once it ships, the address can't be changed and couriers won't accept redirection requests from Leafy.\n- **Adding a plant:** Our policy doesn't cover adding items to an existing order, so the safest route is placing a separate new order for the plant (shipping charges would apply to it separately).\n- **Promo code:** Our policy doesn't say whether a code can be applied after ordering, so I can't confirm that either way.\n\nI can escalate this to a Support Lead to try to intercept the order for the address change and check on the promo code. If you'd like that, please send your order number (LF-plus six digits) and the new address, and I'll pass it along. Please don't share any card details or passwords.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 454,
+  "cache_read_input_tokens": 1505,
+  "output_tokens": 311,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 454,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 311,
+    "cache_read_input_tokens": 1505,
+    "cache_creation_input_tokens": 454,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 454
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1961,
+ "output_tokens": 311,
+ "thinking_tokens": 0,
+ "latency_ms": 3038,
+ "wall_ms": 6611,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791007162.2461555
+}

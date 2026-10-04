@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! \ud83c\udf3f Happy to help with your planter question.\n\n**Yes, you can likely return it.** Pots are non-living items, which can be returned within **30 days of delivery**. At 3 weeks (about 21 days), you're still inside that window, as long as the planter is **unused and in its original packaging**.\n\n**How much you'd get back (change-of-mind return, non-Plus member):**\n- Planter price: $30.00\n- Flat return fee: **$6.95**, deducted from your refund\n- **Refund: $23.05**\n\nA couple of notes on the refund:\n- It goes back to your **original payment method** within **5 business days** of the parcel reaching our warehouse.\n- Original shipping isn't refunded for a change-of-mind return, since that only applies when the whole order is returned because of our error.\n\n**How to start:**\n- Go to \"My Orders\" and start the return.\n- A prepaid label will be emailed to you.\n- Drop the parcel off within **7 days**, because the label expires after that.\n\nIf the planter arrived cracked, smashed, or faulty, let me know. Faulty or incorrect items return free, so you'd get the full amount back. Just note that damage reports on arrival need to be made within 48 hours of delivery, so a faulty item at this point would go through the standard faulty-return route.\n\nAlso, Leafy doesn't offer direct exchanges. If you'd like a different planter, you'd return this one and place a new order.\n\nPlease reach out anytime if you have more questions. Happy planting! \ud83e\udeb4",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 454,
+  "cache_read_input_tokens": 1720,
+  "output_tokens": 507,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 454,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 507,
+    "cache_read_input_tokens": 1720,
+    "cache_creation_input_tokens": 454,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 454
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2176,
+ "output_tokens": 507,
+ "thinking_tokens": 0,
+ "latency_ms": 5717,
+ "wall_ms": 8782,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879865.7302463
+}

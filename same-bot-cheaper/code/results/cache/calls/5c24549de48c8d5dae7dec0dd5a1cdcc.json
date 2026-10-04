@@ -1,0 +1,50 @@
+{
+ "text": "Yes, you can skip July's box. Since July's box is charged on June 25th, you need to make the change **before June 25th** for it to affect that box. As of June 20th, you have a few days to do it.\n\n**How to skip:** Go to \"Account\" > \"Subscriptions\" and choose Skip. There's no cancellation fee or minimum term.\n\n- **Pause:** If you'll be away longer, you can pause for up to 3 months instead.\n- **Cutoff:** If the change is made on or after June 25th, it applies to August's box, and July's box will be charged and sent as usual.\n- **Refunds:** A box that has already been billed isn't refunded and is still sent, so don't leave it until the last minute.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1926,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 632,
+  "output_tokens_details": {
+   "thinking_tokens": 403
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1926,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 632,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1926,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1926
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1928,
+ "output_tokens": 632,
+ "thinking_tokens": 403,
+ "latency_ms": 6001,
+ "wall_ms": 9559,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004742.766222
+}

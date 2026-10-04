@@ -1,0 +1,50 @@
+{
+ "text": "No, you can pause for a maximum of **3 months**. You can manage this from \"Account\" > \"Subscriptions\" \u2014 pause, skip, change your plan, or cancel anytime with no fee or minimum term. If you need to pause longer than 3 months, you'd need to cancel and restart when you return, though you'd lose any membership benefits tied to an active subscription.\n\nWould you like help with anything else about your Plant Club?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1555,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 101,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1555,
+    "output_tokens": 101,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1555,
+ "output_tokens": 101,
+ "thinking_tokens": 0,
+ "latency_ms": 1923,
+ "wall_ms": 4931,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791101468.6286132
+}

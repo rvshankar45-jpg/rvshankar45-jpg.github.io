@@ -1,0 +1,49 @@
+{
+ "text": "# Hello! \ud83d\udc4b\n\nThanks so much for reaching out to Leafy!\n\nI'd be happy to help you with your refund question!\n\n**Refund timing depends on your payment method:**\n\n- **Credit or debit card:** 5\u201310 business days\n- **Digital wallet** (like Apple Pay or Google Pay): 3\u20135 business days\n- **Leafy store credit:** instant (and it never expires, so you can use it whenever you like!)\n\nA few things to keep in mind:\n\n- The refund goes to the original payment method you used to place the order\n- If your original card is closed or expired, your bank normally passes the refund to your replacement card automatically\n- Sometimes a pending authorisation can show on your account for a few days before it drops off\u2014this is different from an actual refund\n\n**Is there anything else I can help clarify?** If you think you might have a duplicate charge or need more specific details about your refund, I'm here to help! \ud83d\ude0a",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1768,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 228,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1768,
+    "output_tokens": 228,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1768,
+ "output_tokens": 228,
+ "thinking_tokens": 0,
+ "latency_ms": 3081,
+ "wall_ms": 5996,
+ "overhead": 379,
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1790879807.7008176
+}

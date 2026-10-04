@@ -1,0 +1,50 @@
+{
+ "text": "Sorry for the hassle with the closed card. Unfortunately, I can't send the refund to a different card. Refunds go only to the original payment method, even if that card is closed or expired.\n\n**Your options**\n- **Original card (ending 7712):** The refund is issued to that card, and the bank normally passes it on to the replacement card. Cards usually show the refund within **5-10 business days** of it being issued. Your bank can confirm how they handle refunds to closed cards.\n- **Leafy store credit:** This is issued instantly, never expires, and can be used on any future order. It's the quickest option if you'd like the money right away.\n\nEither way, the duplicate charge refund is issued within **3 business days** of it being confirmed.\n\nWhich would you prefer: the refund to the original card, or store credit? If you'd like store credit, just say so and I'll note it on your request.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1132,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 278,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1132,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 278,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 1132,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1132
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4990,
+ "output_tokens": 278,
+ "thinking_tokens": 0,
+ "latency_ms": 3319,
+ "wall_ms": 6105,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005880.6468477
+}

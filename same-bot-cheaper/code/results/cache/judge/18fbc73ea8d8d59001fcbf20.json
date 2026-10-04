@@ -1,0 +1,148 @@
+{
+ "items": [
+  {
+   "answer_id": "t008#1",
+   "correctness": 2,
+   "completeness": 2,
+   "policy": 3,
+   "tone": 3,
+   "score": 2,
+   "note": "Misses the no-direct-exchange rule (return and reorder). Says no policy, and adds irrelevant order-change and Plant Club info. It also assumes today's date relative to the 25th."
+  },
+  {
+   "answer_id": "t008#2",
+   "correctness": 2,
+   "completeness": 2,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Says there is no policy, but the KB says no direct exchanges. Suggests buying a bigger pot and repotting, and offers to escalate. It never gives the return-and-reorder route."
+  },
+  {
+   "answer_id": "t009#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Gives the 5 business days, original payment method, per-method timing and store credit option. All correct."
+  },
+  {
+   "answer_id": "t009#2",
+   "correctness": 4,
+   "completeness": 3,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Timings are correct, but it omits the 5 business day window for issuing the refund. A customer could read it as card refunds taking 5\u201310 days total."
+  },
+  {
+   "answer_id": "t010#1",
+   "correctness": 1,
+   "completeness": 1,
+   "policy": 2,
+   "tone": 3,
+   "score": 1,
+   "note": "Wrongly says there's no extra charge. The KB has a $20 XL handling fee and Standard-only shipping. This is an invented policy."
+  },
+  {
+   "answer_id": "t010#2",
+   "correctness": 2,
+   "completeness": 2,
+   "policy": 4,
+   "tone": 4,
+   "score": 2,
+   "note": "Says it doesn't know, but the KB covers the $20 XL fee. Honest and offers escalation, but misses the main fact."
+  },
+  {
+   "answer_id": "t011#1",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct: no international shipping. The 'domestic addresses' wording is fine."
+  },
+  {
+   "answer_id": "t011#2",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct that there is no international shipping. 'US only' is a mild inference, since the KB says only 'no international shipping'."
+  },
+  {
+   "answer_id": "t012#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Gives the investigation up to 5 business days, the replacement or refund choice, and asks for the order number. It also warns against sharing card details."
+  },
+  {
+   "answer_id": "t012#2",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 4,
+   "score": 4,
+   "note": "Facts are correct. Escalating to a Support Lead isn't required for this case, and the wording is slightly muddled about who opens the investigation."
+  },
+  {
+   "answer_id": "t013#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "t013#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, with useful claim details."
+  },
+  {
+   "answer_id": "t014#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct. 'If approved' is a fair caveat."
+  },
+  {
+   "answer_id": "t014#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and complete, including the replacement and store credit detail."
+  },
+  {
+   "answer_id": "t015#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct. Explains what would qualify as significant decline, how to claim, and care tips."
+  },
+  {
+   "answer_id": "t015#2",
+   "correctness": 4,
+   "completeness": 3,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct that it isn't covered on its own. It doesn't say that significant decline can still be claimed later."
+  }
+ ]
+}

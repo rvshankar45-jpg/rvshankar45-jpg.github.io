@@ -1,0 +1,49 @@
+{
+ "text": "Hey there! \ud83c\udf3f Great question\u2014your puppy's safety is what matters most!\n\n**Go with the parlour palm!** It's pet-safe, so no worries if your curious pup decides to nibble on it.\n\nThe snake plant, on the other hand, is **not pet-safe**, so it's best to skip that one with a puppy in the house.\n\nThe parlour palm is a beautiful, low-maintenance plant that'll be a safe addition to your home. Plus, it's forgiving with watering, which is perfect if you've got your hands full with a new pup! \ud83d\udc15\n\nIf you'd like any care tips once your palm arrives, or if you have other plant questions down the line, feel free to reach out. We're here to help you build a thriving (and puppy-friendly!) plant collection!",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1570,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 192,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1570,
+    "output_tokens": 192,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1570,
+ "output_tokens": 192,
+ "thinking_tokens": 0,
+ "latency_ms": 2872,
+ "wall_ms": 5999,
+ "overhead": 379,
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1790880026.2431996
+}

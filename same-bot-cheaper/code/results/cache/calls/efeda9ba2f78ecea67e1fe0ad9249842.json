@@ -1,0 +1,50 @@
+{
+ "text": "You need at least **two photos** for a Plant Care Guarantee claim: one of the whole plant and one close-up. Submit them from \"My Orders\" within your guarantee window (30 days from delivery, or 90 days for Leafy Plus members). A Plant Care Specialist will review your claim within **2 business days**, and you don't need to send the plant back.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 431,
+  "cache_read_input_tokens": 1354,
+  "output_tokens": 116,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 431,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 116,
+    "cache_read_input_tokens": 1354,
+    "cache_creation_input_tokens": 431,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 431
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1787,
+ "output_tokens": 116,
+ "thinking_tokens": 0,
+ "latency_ms": 2005,
+ "wall_ms": 4729,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791007074.3456414
+}

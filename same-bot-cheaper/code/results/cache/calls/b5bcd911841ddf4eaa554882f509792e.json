@@ -1,0 +1,50 @@
+{
+ "text": "You have **2 hours** to cancel an order for free.\n\nHere's how it works:\n\n- **Within 2 hours of ordering:** You can cancel or change your order for free from \"My Orders\" on the website or app.\n- **After 2 hours:** Your order enters the packing queue and can't be changed online. Our support team may be able to try to intercept it before it ships, but this is **not guaranteed**.\n- **After shipping:** Shipped orders cannot be cancelled.\n\nIf you need to cancel an order that's already in the packing queue, feel free to reach out to support and we'll do our best to help:\n- **Chat:** 8am\u20138pm Mon\u2013Sat (your local time)\n- **Email:** help@leafy.example (answered within 1 business day)\n\nIs there anything else I can help with?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 3176,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 197,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 3176,
+    "output_tokens": 197,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 3176,
+ "output_tokens": 197,
+ "thinking_tokens": 0,
+ "latency_ms": 12634,
+ "wall_ms": 15791,
+ "overhead": 379,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791005538.8682122
+}

@@ -1,0 +1,211 @@
+{
+ "items": [
+  {
+   "answer_id": "c08.t2#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate and complete."
+  },
+  {
+   "answer_id": "c08.t2#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate, concise."
+  },
+  {
+   "answer_id": "c08.t2#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct; a bit chirpy and long."
+  },
+  {
+   "answer_id": "c08.t2#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct; 'probably' slightly vague but fine."
+  },
+  {
+   "answer_id": "c08.t2#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct; slightly padded."
+  },
+  {
+   "answer_id": "c08.t3#1",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 3,
+   "tone": 4,
+   "score": 3,
+   "note": "Says label expired but tells to contact support instead of restarting from My Orders; offers unnecessary escalation."
+  },
+  {
+   "answer_id": "c08.t3#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct: restart return for a new label; drop within 7 days."
+  },
+  {
+   "answer_id": "c08.t3#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct; a bit emoji-heavy."
+  },
+  {
+   "answer_id": "c08.t3#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct, honest fallback; somewhat long."
+  },
+  {
+   "answer_id": "c08.t3#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "c08.t3#6",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct; 'after emailed' vs printed minor."
+  },
+  {
+   "answer_id": "c08.t4#1",
+   "correctness": 4,
+   "completeness": 3,
+   "policy": 5,
+   "tone": 4,
+   "score": 3,
+   "note": "Says no info on bank timing, but KB gives card 5-10 business days; incomplete."
+  },
+  {
+   "answer_id": "c08.t4#2",
+   "correctness": 4,
+   "completeness": 2,
+   "policy": 5,
+   "tone": 4,
+   "score": 3,
+   "note": "Omits card/wallet timing after issue."
+  },
+  {
+   "answer_id": "c08.t4#3",
+   "correctness": 3,
+   "completeness": 2,
+   "policy": 4,
+   "tone": 4,
+   "score": 2,
+   "note": "Wrongly claims no information on payout timing."
+  },
+  {
+   "answer_id": "c08.t4#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Covers both steps correctly; arithmetic fine."
+  },
+  {
+   "answer_id": "c08.t4#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, clear two-step timeline."
+  },
+  {
+   "answer_id": "c08.t4#6",
+   "correctness": 3,
+   "completeness": 2,
+   "policy": 4,
+   "tone": 4,
+   "score": 2,
+   "note": "Claims no timeframe for bank part despite KB."
+  },
+  {
+   "answer_id": "c08.t4#7",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct timeline."
+  },
+  {
+   "answer_id": "c09.t1#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate and concise."
+  },
+  {
+   "answer_id": "c09.t1#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate, safe, helpful weather-hold note."
+  },
+  {
+   "answer_id": "c09.t1#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate; goodwill up to $15 offered within policy."
+  },
+  {
+   "answer_id": "c09.t1#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct; a bit long."
+  },
+  {
+   "answer_id": "c09.t1#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct; proactively gives $15 goodwill, allowed but before investigation; fine."
+  }
+ ]
+}

@@ -1,0 +1,265 @@
+{
+ "items": [
+  {
+   "answer_id": "q065#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct; offers guarantee claim and optional escalation, honest about uncertainty."
+  },
+  {
+   "answer_id": "q065#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate, honest, offers escalation."
+  },
+  {
+   "answer_id": "q065#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct and complete; a bit wordy and filler."
+  },
+  {
+   "answer_id": "q065#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct; slightly long, fine."
+  },
+  {
+   "answer_id": "q065#5",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Says 'Yes you can get a replacement' and specialist will approve; overpromises."
+  },
+  {
+   "answer_id": "q065#6",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Concise, correct, no overpromise."
+  },
+  {
+   "answer_id": "q065#7",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Opens 'Yes you can' and claims snapped stems are covered by guarantee; overpromises."
+  },
+  {
+   "answer_id": "q065#8",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, honest, offers escalation."
+  },
+  {
+   "answer_id": "q066#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate and complete."
+  },
+  {
+   "answer_id": "q066#2",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct; 'anytime' for specialists is wrong (9-5 Mon-Fri) and 'hardy' claim unsupported."
+  },
+  {
+   "answer_id": "q066#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct; slightly long."
+  },
+  {
+   "answer_id": "q066#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate and helpful."
+  },
+  {
+   "answer_id": "q066#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Concise and correct."
+  },
+  {
+   "answer_id": "q066#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct; a little long."
+  },
+  {
+   "answer_id": "q067#1",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 3,
+   "score": 2,
+   "note": "Right conclusion but confusingly says 'following month's box, not next month's' and muddled explanation."
+  },
+  {
+   "answer_id": "q067#2",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct; assumes November/December from date, fine."
+  },
+  {
+   "answer_id": "q067#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "q067#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and clear."
+  },
+  {
+   "answer_id": "q067#5",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct; slight muddle on billing timing for Collector box."
+  },
+  {
+   "answer_id": "q067#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, offers escalation."
+  },
+  {
+   "answer_id": "q068#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and complete."
+  },
+  {
+   "answer_id": "q068#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q068#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, complete."
+  },
+  {
+   "answer_id": "q068#4",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and honest."
+  },
+  {
+   "answer_id": "q068#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "q068#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q068#7",
+   "correctness": 5,
+   "completeness": 3,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct but doesn't clearly say can cancel."
+  },
+  {
+   "answer_id": "q068#8",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q068#9",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and honest."
+  }
+ ]
+}

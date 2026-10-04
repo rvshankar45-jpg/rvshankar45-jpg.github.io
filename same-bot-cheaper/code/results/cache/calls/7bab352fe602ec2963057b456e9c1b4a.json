@@ -1,0 +1,50 @@
+{
+ "text": "I'd be happy to help. First, let me check: are both charges showing as **posted** to your account, or is one still showing as **pending**? \n\nPending authorisations can look like duplicate charges but drop off automatically in 3\u20137 business days depending on your bank\u2014Leafy can't release them faster.\n\nIf both have actually posted, please provide your **order number** (looks like `LF-` plus six digits) and the **last four digits of your card**, and I'll get a refund processed for the duplicate within 3 business days of confirmation.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1470,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 132,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1470,
+    "output_tokens": 132,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1470,
+ "output_tokens": 132,
+ "thinking_tokens": 0,
+ "latency_ms": 2752,
+ "wall_ms": 6865,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791100862.0232897
+}

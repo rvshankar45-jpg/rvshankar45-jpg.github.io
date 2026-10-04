@@ -1,0 +1,148 @@
+{
+ "items": [
+  {
+   "answer_id": "t048#1",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct on main point. Says it lacks Plant Care Guarantee details, though the KB covers them, so slightly unhelpful. The DOA details are correct."
+  },
+  {
+   "answer_id": "t048#2",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise. Points to the guarantee and DOA routes and asks about the problem. 'Disease' is a slight stretch but harmless."
+  },
+  {
+   "answer_id": "t049#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "All facts correct: 30 days, label expiry, $6.95 fee, refund timing, and the DOA window."
+  },
+  {
+   "answer_id": "t049#2",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise. Gives the window and how to start a return."
+  },
+  {
+   "answer_id": "t050#1",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 2,
+   "tone": 4,
+   "score": 2,
+   "note": "Asserts that a new label can be requested from My Orders and promises one 'right away'. The KB doesn't say this, so it invents a policy and a promise."
+  },
+  {
+   "answer_id": "t050#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Honest that the KB is silent on reissuing labels. Offers escalation and asks for the order number. Matches the reference."
+  },
+  {
+   "answer_id": "t051#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct. Adds useful scope detail on eligible items."
+  },
+  {
+   "answer_id": "t051#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, with the Plus exception and the live plant note."
+  },
+  {
+   "answer_id": "t052#1",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Misses the KB rule of no direct exchanges: return the item and place a new order. Says the policies don't cover it, which is wrong, though the escalation offer is cautious."
+  },
+  {
+   "answer_id": "t052#2",
+   "correctness": 2,
+   "completeness": 2,
+   "policy": 4,
+   "tone": 4,
+   "score": 2,
+   "note": "Says there is no exchange policy, but the KB says there are no direct exchanges (return and reorder). Adds irrelevant detail and escalates unnecessarily."
+  },
+  {
+   "answer_id": "t053#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct prices and zones. Slightly long, and the sentence implying cost depends on zone is a minor wrinkle."
+  },
+  {
+   "answer_id": "t053#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise, with the XL fee and Zone 3 note."
+  },
+  {
+   "answer_id": "t054#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and direct."
+  },
+  {
+   "answer_id": "t054#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise, with the Zone 3 note."
+  },
+  {
+   "answer_id": "t055#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct. The weather hold detail is relevant."
+  },
+  {
+   "answer_id": "t055#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  }
+ ]
+}

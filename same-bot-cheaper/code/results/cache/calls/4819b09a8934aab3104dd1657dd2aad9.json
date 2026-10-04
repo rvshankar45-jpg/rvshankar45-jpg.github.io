@@ -1,0 +1,50 @@
+{
+ "text": "Yes. XL plants (usually those over 4 ft) add a **$20** handling fee on top of normal shipping. They ship via Standard only, so Express isn't available for them.\n\nStandard shipping is $7.95, or free on orders of $75+ (after discounts, before tax). The $20 XL handling fee still applies either way, and live plants ship Monday to Wednesday only.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 424,
+  "cache_read_input_tokens": 1588,
+  "output_tokens": 125,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 424,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 125,
+    "cache_read_input_tokens": 1588,
+    "cache_creation_input_tokens": 424,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 424
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2014,
+ "output_tokens": 125,
+ "thinking_tokens": 0,
+ "latency_ms": 2039,
+ "wall_ms": 5426,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100261.8823802
+}

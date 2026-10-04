@@ -1,0 +1,49 @@
+{
+ "text": "Hi again! \ud83c\udf3f Yes, the duplicate-avoidance option is part of Plant Club, so it's available on the Collector plan too. You can list **up to 3 plants you already own**, and we'll try to avoid sending you those.\n\nI can't confirm from my information whether the list you already have on the Starter plan carries over automatically when you upgrade. To be safe, check your list after you switch plans. If it's missing or you're not sure, I can escalate this to a Support Lead to confirm.\n\nSince you're upgrading before the 25th, your Collector box is the next one, so it's worth checking sooner rather than later. \ud83e\udeb4\n\nIs there anything else I can help with? Enjoy your new plant! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 3509,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 809,
+  "output_tokens_details": {
+   "thinking_tokens": 578
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 3509,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 809,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 3509,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 3509
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 3511,
+ "output_tokens": 809,
+ "thinking_tokens": 578,
+ "latency_ms": 7311,
+ "wall_ms": 10513,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880151.474133
+}

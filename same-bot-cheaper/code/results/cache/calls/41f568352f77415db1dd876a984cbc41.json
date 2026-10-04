@@ -1,0 +1,50 @@
+{
+ "text": "Our support email is **help@leafy.example** \u2013 we'll answer within 1 business day.\n\nYou can also reach us via **chat 8am\u20138pm Mon\u2013Sat** (your local time), or speak with a Plant Care Specialist in chat **9am\u20135pm Mon\u2013Fri**. We don't have phone support.\n\nHow can I help you today?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1346,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 88,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1346,
+    "output_tokens": 88,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1346,
+ "output_tokens": 88,
+ "thinking_tokens": 0,
+ "latency_ms": 1577,
+ "wall_ms": 4980,
+ "overhead": 379,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791006040.265195
+}

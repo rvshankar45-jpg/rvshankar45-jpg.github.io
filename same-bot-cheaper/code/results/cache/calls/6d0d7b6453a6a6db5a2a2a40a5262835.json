@@ -1,0 +1,50 @@
+{
+ "text": "Not necessarily\u2014that's likely a **pending authorisation**, not a charged amount. Here's what's happening:\n\nWhen you place an order, your card is authorised at checkout but not charged until the order ships. Since you cancelled within an hour, the charge never posted, but the authorisation can still appear on your account for **3\u20137 business days** depending on your bank before it drops off automatically.\n\n**If both a pending authorisation *and* a posted charge appear**, that would be a duplicate. In that case, reply with your order number and the last four digits of your card, and we'll refund the duplicate within 3 business days of confirmation.\n\nCheck your statement in a few days\u2014the pending should disappear on its own. If it doesn't or if you see two actual charges post, let me know and we'll sort it.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1689,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 185,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1689,
+    "output_tokens": 185,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1689,
+ "output_tokens": 185,
+ "thinking_tokens": 0,
+ "latency_ms": 2844,
+ "wall_ms": 6465,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791100541.9697552
+}

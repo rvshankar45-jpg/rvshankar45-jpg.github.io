@@ -1,0 +1,50 @@
+{
+ "text": "Sorry about the double charge, that's frustrating. Since both have posted, please reply with the order number (LF-204518, which I already have) and the **last four digits** of the card that was charged. Please don't send your full card number, security code or any passwords.\n\nOnce the duplicate is confirmed, it will be refunded within **3 business days**. After that, the refund reaches your bank in 5-10 business days for cards, or 3-5 business days for digital wallets.\n\nOne thing to check first: if your order shipped in several parcels, you can see one charge per parcel, which would be expected rather than a duplicate.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 441,
+  "cache_read_input_tokens": 1496,
+  "output_tokens": 191,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 441,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 191,
+    "cache_read_input_tokens": 1496,
+    "cache_creation_input_tokens": 441,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 441
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1939,
+ "output_tokens": 191,
+ "thinking_tokens": 0,
+ "latency_ms": 2433,
+ "wall_ms": 6529,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100541.1494303
+}

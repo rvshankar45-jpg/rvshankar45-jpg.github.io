@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thanks for reaching out to Leafy! \ud83c\udf3f\n\nPlant Club boxes ship in the **first full week of each month**.\n\nA few helpful details to go with that:\n\n- **Billing:** You're charged on the **25th** of the month before your box ships.\n- **Changes:** If you skip, pause, change plan or cancel before the 25th, it affects your next box. On or after the 25th, the change applies to the following month's box. You can do any of this under \"Account\" > \"Subscriptions\".\n- **Already billed boxes:** If you cancel after being billed, that box isn't refunded, but it will still be sent to you.\n\nSince today is September 30th, this month's billing date (the 25th) has already passed. That means your October box has been billed and will ship in the first full week of October.\n\nIf you have any other questions about your Plant Club subscription, I'm happy to help. Happy planting! \ud83e\udeb4",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 426,
+  "cache_read_input_tokens": 4679,
+  "output_tokens": 288,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 426,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 288,
+    "cache_read_input_tokens": 4679,
+    "cache_creation_input_tokens": 426,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 426
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 5107,
+ "output_tokens": 288,
+ "thinking_tokens": 0,
+ "latency_ms": 2921,
+ "wall_ms": 6179,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790786986.3807507
+}

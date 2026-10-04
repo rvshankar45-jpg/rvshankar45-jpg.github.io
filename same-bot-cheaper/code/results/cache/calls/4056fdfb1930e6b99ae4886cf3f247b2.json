@@ -1,0 +1,49 @@
+{
+ "text": "With **Leafy Plus** ($59/year, auto-renews), you get:\n\n- **Free Standard shipping** with no minimum order\n- **Free change-of-mind returns**\n- **90-day guarantee** on plants\n- **10% member pricing** on pots and accessories\n- **Early access** to rare plant drops\n\nNote: Express shipping is not included. You can cancel anytime with a full refund only if you cancel within **14 days** of purchase or renewal *and* haven't used any benefits; otherwise there's no refund, but your benefits continue through the end of your paid year.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1517,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 139,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1517,
+    "output_tokens": 139,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1517,
+ "output_tokens": 139,
+ "thinking_tokens": 0,
+ "latency_ms": 2016,
+ "wall_ms": 5547,
+ "overhead": 379,
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1790868764.8570595
+}

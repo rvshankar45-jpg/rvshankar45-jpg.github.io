@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry about this, I know it's frustrating. Plant Club is charged on the 25th for the following month's box, so your $49 was billed the day before you cancelled. Cancellations on or after the 25th apply to the following month's box, and an already-billed box isn't refunded on cancellation and is still sent. Your cancellation did go through, so you won't be charged again.\n\nYour box ships in the first full week of this month. Live plants can't be returned for change of mind, but if it arrives damaged, report it within 48 hours of delivery with photos of the plant and the box, and we'll replace or refund it.\n\nI can't offer a refund under this policy, but if you'd like someone to review your case, I can escalate it to a Support Lead.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 452,
+  "cache_read_input_tokens": 1272,
+  "output_tokens": 575,
+  "output_tokens_details": {
+   "thinking_tokens": 339
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 452,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 575,
+    "cache_read_input_tokens": 1272,
+    "cache_creation_input_tokens": 452,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 452
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1726,
+ "output_tokens": 575,
+ "thinking_tokens": 339,
+ "latency_ms": 5187,
+ "wall_ms": 8263,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791007504.8778536
+}

@@ -1,0 +1,148 @@
+{
+ "items": [
+  {
+   "answer_id": "t096#1",
+   "correctness": 2,
+   "completeness": 2,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Misses the policy: wrong live plant can be kept free and correct item ships free by Express. Says no access, vague referral."
+  },
+  {
+   "answer_id": "t096#2",
+   "correctness": 1,
+   "completeness": 2,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Wrongly claims policy doesn't cover wrong items; the KB does. Escalation offered but main facts missed."
+  },
+  {
+   "answer_id": "t097#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, covers Plus case and asks clarifying question."
+  },
+  {
+   "answer_id": "t097#2",
+   "correctness": 4,
+   "completeness": 3,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Says no flatly although a Plus member may be covered; it mentions 90 days but doesn't ask or direct a Plus path."
+  },
+  {
+   "answer_id": "t098#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct with the condition on active membership and exclusions."
+  },
+  {
+   "answer_id": "t098#2",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct but omits the 'ordered while membership active' condition and overpromises approval."
+  },
+  {
+   "answer_id": "t099#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct exclusion, offers escalation and care advice."
+  },
+  {
+   "answer_id": "t099#2",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct and offers escalation; brief."
+  },
+  {
+   "answer_id": "t100#1",
+   "correctness": 1,
+   "completeness": 2,
+   "policy": 3,
+   "tone": 3,
+   "score": 1,
+   "note": "Wrong: the replacement can be replaced once more; confuses which plant lacks the guarantee."
+  },
+  {
+   "answer_id": "t100#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Fully correct, including no guarantee on the second replacement."
+  },
+  {
+   "answer_id": "t101#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate and complete."
+  },
+  {
+   "answer_id": "t101#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate and complete."
+  },
+  {
+   "answer_id": "t102#1",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct; offers escalation."
+  },
+  {
+   "answer_id": "t102#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, empathetic, offers next steps."
+  },
+  {
+   "answer_id": "t103#1",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct auto-refund and timings; offers store credit instead, which is a plausible but unconfirmed option, and asks for order number."
+  },
+  {
+   "answer_id": "t103#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct, with honest hedging on store credit and escalation offered; slightly awkward phrasing."
+  }
+ ]
+}

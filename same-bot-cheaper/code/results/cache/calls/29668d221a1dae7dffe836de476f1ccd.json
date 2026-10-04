@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! I'm sorry your fiddle leaf fig is struggling. That's stressful, especially with a new plant.\n\nUnfortunately, this isn't covered by our Plant Care Guarantee. Repotting into non-Leafy soil within the first 14 days after delivery is one of the situations the guarantee doesn't cover, so I can't offer a free replacement for it.\n\nThere are still a few things that can help:\n\n- **Free care advice:** A Plant Care Specialist can help you try to save your plant, by chat or email, at no cost. Fiddle leaf figs can bounce back from a rough start, especially if the issue is soil or watering.\n- **Quick watering check:** Overwatering is the most common cause of early problems. Water only when the top inch of soil is dry.\n- **Damaged on arrival:** If the plant arrived with snapped stems, exposed roots or a cracked pot, that's handled separately. It needs to be reported within 48 hours of delivery, with photos of the plant and the box.\n\nIf you think your situation deserves a second look, just let me know and I can pass it to a Support Lead to review.\n\nThanks for giving your plant a loving home. I hope it perks up soon, and please reach out any time!",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 454,
+  "cache_read_input_tokens": 1553,
+  "output_tokens": 868,
+  "output_tokens_details": {
+   "thinking_tokens": 458
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 454,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 868,
+    "cache_read_input_tokens": 1553,
+    "cache_creation_input_tokens": 454,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 454
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2009,
+ "output_tokens": 868,
+ "thinking_tokens": 458,
+ "latency_ms": 7441,
+ "wall_ms": 10079,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879997.6578345
+}

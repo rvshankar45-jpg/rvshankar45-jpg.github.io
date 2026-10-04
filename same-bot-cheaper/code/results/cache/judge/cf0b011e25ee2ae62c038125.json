@@ -1,0 +1,229 @@
+{
+ "items": [
+  {
+   "answer_id": "c02.t1#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate and concise."
+  },
+  {
+   "answer_id": "c02.t1#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Accurate, with extra correct detail. Slightly long."
+  },
+  {
+   "answer_id": "c02.t1#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate and brief."
+  },
+  {
+   "answer_id": "c02.t1#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct, with a little extra detail."
+  },
+  {
+   "answer_id": "c02.t1#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "c02.t1#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct, with extra detail that is all accurate."
+  },
+  {
+   "answer_id": "c02.t2#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct timing and price. Notes the consequence of waiting."
+  },
+  {
+   "answer_id": "c02.t2#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "c02.t2#3",
+   "correctness": 2,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 3,
+   "score": 2,
+   "note": "The upgrade timing is right. It then wrongly retracts the 30-day guarantee, which the KB confirms, and suggests escalating something that doesn't need it."
+  },
+  {
+   "answer_id": "c02.t2#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and clear."
+  },
+  {
+   "answer_id": "c02.t2#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, including the 24th cutoff."
+  },
+  {
+   "answer_id": "c02.t2#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "c02.t3#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "c02.t3#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, with a clear comparison of the two dates."
+  },
+  {
+   "answer_id": "c02.t3#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, and notes that an already-billed box is not refunded."
+  },
+  {
+   "answer_id": "c02.t3#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "c02.t3#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 3,
+   "score": 3,
+   "note": "The main answer is correct. It refers to a retraction in a 'last message' that isn't in the conversation, which is confusing, though the guarantee facts it states are right."
+  },
+  {
+   "answer_id": "c02.t3#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "c02.t4#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Says it works on both plans and is honest about what is unknown. Offers escalation. A bit wordy."
+  },
+  {
+   "answer_id": "c02.t4#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and honest about the gap in the KB."
+  },
+  {
+   "answer_id": "c02.t4#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct. Gives a sensible next step through email."
+  },
+  {
+   "answer_id": "c02.t4#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "c02.t4#5",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct overall. It names a location for the list under Account > Subscriptions, which the KB doesn't state."
+  },
+  {
+   "answer_id": "c02.t4#6",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct overall. It doesn't say 'yes' directly and assumes where the list is edited."
+  },
+  {
+   "answer_id": "c02.t4#7",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and honest."
+  }
+ ]
+}

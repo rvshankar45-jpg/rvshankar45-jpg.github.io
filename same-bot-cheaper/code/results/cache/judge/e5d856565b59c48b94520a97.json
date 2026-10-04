@@ -1,0 +1,148 @@
+{
+ "items": [
+  {
+   "answer_id": "t088#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, adds accurate zone detail."
+  },
+  {
+   "answer_id": "t088#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "t089#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct: Standard only, $20 fee, shipping cost."
+  },
+  {
+   "answer_id": "t089#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct and thorough; honest about price unknown. Slightly long."
+  },
+  {
+   "answer_id": "t090#1",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Right conclusion but says only unopened soil is returnable, and offers to escalate a fault claim; mostly fine, slightly imprecise."
+  },
+  {
+   "answer_id": "t090#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate and empathetic."
+  },
+  {
+   "answer_id": "t091#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "All facts correct including refund timing and label expiry."
+  },
+  {
+   "answer_id": "t091#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and complete, Plus exemption omitted but fine."
+  },
+  {
+   "answer_id": "t092#1",
+   "correctness": 2,
+   "completeness": 2,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Says it doesn't know if a new label can be issued, but KB implies starting new return from My Orders; unnecessary escalation and no clear next step."
+  },
+  {
+   "answer_id": "t092#2",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct; start a new return. Doesn't mention the 30-day window check, minor."
+  },
+  {
+   "answer_id": "t093#1",
+   "correctness": 2,
+   "completeness": 3,
+   "policy": 2,
+   "tone": 3,
+   "score": 2,
+   "note": "Contradictory; says it qualifies for DOA replacement and promises exception via escalation, not the Guarantee claim route. Invents exception."
+  },
+  {
+   "answer_id": "t093#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct routing to Plant Care Guarantee with photos, timing, no return needed."
+  },
+  {
+   "answer_id": "t094#1",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct; lacks how to report (My Orders) but fine."
+  },
+  {
+   "answer_id": "t094#2",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct and actionable; 'don't need to send back' not stated in KB, minor unsupported claim."
+  },
+  {
+   "answer_id": "t095#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct; says usually no return, 48h, photos. Escalation offer for late is reasonable."
+  },
+  {
+   "answer_id": "t095#2",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 4,
+   "score": 3,
+   "note": "Overstates: 'usually' not definite; says keep with no charge and 'no' flatly."
+  }
+ ]
+}

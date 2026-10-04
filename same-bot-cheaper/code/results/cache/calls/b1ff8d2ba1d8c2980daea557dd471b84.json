@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thanks so much for contacting Leafy! \ud83c\udf3f Happy to help.\n\nHere's how long the Plant Care Guarantee lasts:\n\n- **30 days** from the delivery date for all live plants.\n- **90 days** for Leafy Plus members, on plants ordered while the membership is active.\n\nIf your plant dies or declines significantly despite reasonable care, we'll send **one** free replacement of the same plant (or store credit if it's out of stock). That replacement gets its own new 30-day guarantee.\n\nTo make a claim within your window:\n\n- Go to \"My Orders\" and submit your claim along with at least **two photos** (the whole plant plus a close-up).\n- A Plant Care Specialist will review it within **2 business days**.\n- You don't need to send the plant back.\n\nIf you'd like help with a specific plant, just let me know. Our Plant Care Specialists also offer free care advice by chat or email anytime.\n\nHappy planting, and please reach out again whenever you need us! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1981,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 326,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1981,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 326,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1981,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1981
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1983,
+ "output_tokens": 326,
+ "thinking_tokens": 0,
+ "latency_ms": 3166,
+ "wall_ms": 8074,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879769.7650816
+}

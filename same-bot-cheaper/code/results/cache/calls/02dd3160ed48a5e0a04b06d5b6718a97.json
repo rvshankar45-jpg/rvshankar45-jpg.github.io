@@ -1,0 +1,50 @@
+{
+ "text": "# Leafy Shipping Costs\n\n**Standard Shipping:** $7.95 (free on orders $75+ after discounts, before tax)  \n**Express Shipping:** $14.95 (never free)\n\nCosts depend on your zone (based on distance from our nearest greenhouse):\n- **Zone 1** (under 300 miles): 2\u20133 days Standard / next business day Express\n- **Zone 2** (300\u20131,000 miles): 3\u20135 days Standard / 2 days Express  \n- **Zone 3** (1,000+ miles, remote/island): 5\u20138 days Standard only (Express unavailable)\n\n**Extra charges:** XL plants (usually 4+ ft) add a $20 handling fee and ship Standard only.\n\nWhat's your location? I can give you a more specific timeframe.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1457,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 198,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1457,
+    "output_tokens": 198,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1457,
+ "output_tokens": 198,
+ "thinking_tokens": 0,
+ "latency_ms": 2405,
+ "wall_ms": 5796,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791100246.5124443
+}

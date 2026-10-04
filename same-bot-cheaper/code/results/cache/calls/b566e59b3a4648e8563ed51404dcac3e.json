@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! I'm so sorry your replacement plant didn't make it. That's really disappointing, and I'd love to help get this sorted.\n\n**Yes, you may be able to get another one.** A replacement plant comes with its own new 30-day guarantee, so it can be replaced once more if it fails.\n\n**To make a claim:**\n- Go to \"My Orders\" and start a Plant Care Guarantee claim for the replacement plant. You need to do this within 30 days of the replacement's delivery.\n- Upload at least **two photos**: one of the whole plant and one close-up.\n- A Plant Care Specialist will review your claim within **2 business days**.\n- You don't need to send the plant back.\n\n**Good to know:**\n- The second replacement is the last one, and it **doesn't come with a guarantee**. That's why I'd suggest a quick chat with our Plant Care Specialists first.\n- The claim needs to meet the guarantee terms. The plant must have died or declined significantly (for example, losing more than a third of its leaves, stem or root rot, or collapse) despite reasonable care.\n- If the plant is out of stock, you'd receive store credit instead.\n\nPlant Care Specialists are available by chat **9am-5pm Mon-Fri** (your local time), or by email at help@leafy.example, which is answered within 1 business day. They can look at what went wrong, such as watering or light, so your next plant thrives. This advice is free.\n\nPlease reach out any time if you have questions about your claim. We're rooting for your next plant! \ud83c\udf3f",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 443,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 940,
+  "output_tokens_details": {
+   "thinking_tokens": 427
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 443,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 940,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 443,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 443
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4783,
+ "output_tokens": 940,
+ "thinking_tokens": 427,
+ "latency_ms": 8244,
+ "wall_ms": 11112,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879320.663061
+}

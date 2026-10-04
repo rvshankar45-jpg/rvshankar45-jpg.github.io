@@ -1,0 +1,50 @@
+{
+ "text": "No, you can't pick the specific plant in your Plant Club box. Here's how it works:\n\n**Plant Club** delivers one surprise plant each month based on your light level\u2014you don't choose which one. However, you *can* help avoid duplicates by listing **up to 3 plants you already own** in your subscription settings, and we'll steer clear of those.\n\n**Plan options:**\n- **Starter:** $29/month (small plant, 4-inch pot)\n- **Collector:** $49/month (medium or rare plant, 6-inch pot)\n\nBoxes ship in the first full week of the month and are charged on the 25th of the previous month. Your Plant Club plants come with the standard guarantee too.\n\nIf you want to skip a month, pause, change your plan, or cancel, you can do that anytime from \"Account\" > \"Subscriptions\" with no fee or minimum term.\n\nIs there anything else about Plant Club I can help with?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 3179,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 222,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 3179,
+    "output_tokens": 222,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 3179,
+ "output_tokens": 222,
+ "thinking_tokens": 0,
+ "latency_ms": 3748,
+ "wall_ms": 7576,
+ "overhead": 379,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791005631.478344
+}

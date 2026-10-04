@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! \ud83c\udf3f Great question.\n\n**Plant Club boxes ship in the first full week of each month.**\n\nA few helpful details about the timing:\n- **Billing:** You're charged on the **25th of the previous month**. So the box that ships in the first full week of November is billed on October 25th.\n- **Changing your plan:** If you skip, pause (up to 3 months), change plan or cancel before the 25th, it affects your next box. On or after the 25th, the change applies to the following month's box.\n- **Where to manage it:** \"Account\" > \"Subscriptions.\"\n\nI don't have an exact delivery date for each box in my knowledge base, so I can't promise a specific day within that week. Once your box ships, you'll get tracking by email, and it can take up to 24 hours to update.\n\nIf you'd like help with anything else, like your plan options or avoiding duplicate plants, just let me know. Happy growing! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 426,
+  "cache_read_input_tokens": 2037,
+  "output_tokens": 310,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 426,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 310,
+    "cache_read_input_tokens": 2037,
+    "cache_creation_input_tokens": 426,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 426
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2465,
+ "output_tokens": 310,
+ "thinking_tokens": 0,
+ "latency_ms": 3321,
+ "wall_ms": 6745,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879951.5270536
+}

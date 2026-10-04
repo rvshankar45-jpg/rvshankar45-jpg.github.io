@@ -1,0 +1,50 @@
+{
+ "text": "**Non-living items** (pots, tools, soil, fertiliser, grow lights, accessories) can be returned within **30 days** of delivery if unused and in original packaging. Opened soil or fertiliser can't be returned unless faulty. Once you start a return from \"My Orders\", the prepaid label expires after **7 days**.\n\n**Live plants** can't be returned for change of mind. If there's a problem, you have two options:\n- **Damaged on arrival:** report within **48 hours** of delivery.\n- **Plant Care Guarantee:** claim within **30 days** of delivery (**90 days** for Leafy Plus members).\n\nLet me know if you'd like more detail on fees or refunds.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 421,
+  "cache_read_input_tokens": 1271,
+  "output_tokens": 362,
+  "output_tokens_details": {
+   "thinking_tokens": 134
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 421,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 362,
+    "cache_read_input_tokens": 1271,
+    "cache_creation_input_tokens": 421,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 421
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1694,
+ "output_tokens": 362,
+ "thinking_tokens": 134,
+ "latency_ms": 3875,
+ "wall_ms": 10124,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791007330.5206783
+}

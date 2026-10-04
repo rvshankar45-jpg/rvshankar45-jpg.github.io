@@ -1,0 +1,129 @@
+{
+ "items": [
+  {
+   "id": "q026",
+   "label": "simple",
+   "reason": "Single policy lookup about whether exchanges are offered."
+  },
+  {
+   "id": "q027",
+   "label": "simple",
+   "reason": "Single fact: billing date for plant club."
+  },
+  {
+   "id": "q028",
+   "label": "simple",
+   "reason": "Single policy lookup on subscription pausing."
+  },
+  {
+   "id": "q029",
+   "label": "complex",
+   "reason": "Requires applying the shipping threshold to a computed total after discount and possibly excluding pots or other rules."
+  },
+  {
+   "id": "q030",
+   "label": "simple",
+   "reason": "Single fact lookup of the XL plant fee."
+  },
+  {
+   "id": "q031",
+   "label": "simple",
+   "reason": "Single fact about payment options."
+  },
+  {
+   "id": "q032",
+   "label": "simple",
+   "reason": "Single fact: claim review time."
+  },
+  {
+   "id": "q033",
+   "label": "simple",
+   "reason": "Single fact: number of photos required."
+  },
+  {
+   "id": "q034",
+   "label": "complex",
+   "reason": "Applies return window, non-member fees or restocking rules to specific item, date, and amount to compute refund."
+  },
+  {
+   "id": "q035",
+   "label": "simple",
+   "reason": "Single fact about plant packaging or pots."
+  },
+  {
+   "id": "q036",
+   "label": "simple",
+   "reason": "Single fact: tracking update timeframe."
+  },
+  {
+   "id": "q037",
+   "label": "complex",
+   "reason": "Applies membership cancellation refund rules to specific timing, usage, and amount."
+  },
+  {
+   "id": "q038",
+   "label": "simple",
+   "reason": "Single fact: store credit timing."
+  },
+  {
+   "id": "q039",
+   "label": "simple",
+   "reason": "Single fact: return label validity period."
+  },
+  {
+   "id": "q040",
+   "label": "simple",
+   "reason": "Single fact: order number format."
+  },
+  {
+   "id": "q041",
+   "label": "simple",
+   "reason": "Single fact about Plus shipping benefits."
+  },
+  {
+   "id": "q042",
+   "label": "simple",
+   "reason": "Single fact about accepted payment methods."
+  },
+  {
+   "id": "q043",
+   "label": "simple",
+   "reason": "Single fact: specialist hours."
+  },
+  {
+   "id": "q044",
+   "label": "simple",
+   "reason": "Single policy lookup on whether account email changes are allowed over chat."
+  },
+  {
+   "id": "q045",
+   "label": "simple",
+   "reason": "Single fact: account deletion processing time."
+  },
+  {
+   "id": "q046",
+   "label": "simple",
+   "reason": "Likely a single lookup of plant toxicity information."
+  },
+  {
+   "id": "q047",
+   "label": "simple",
+   "reason": "Single fact: minimum age."
+  },
+  {
+   "id": "q048",
+   "label": "simple",
+   "reason": "Single fact: guarantee length for Plus members."
+  },
+  {
+   "id": "q049",
+   "label": "simple",
+   "reason": "Single fact: gift card denominations."
+  },
+  {
+   "id": "q050",
+   "label": "complex",
+   "reason": "Combines PO box delivery restrictions with express shipping and possible plant-specific rules."
+  }
+ ]
+}

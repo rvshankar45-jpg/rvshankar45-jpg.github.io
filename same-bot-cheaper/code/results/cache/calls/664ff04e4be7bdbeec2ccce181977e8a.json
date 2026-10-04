@@ -1,0 +1,49 @@
+{
+ "text": "Hey there! \ud83d\udc4b\n\nGreat question! **XL plants (usually over 4 feet tall) have a $20 handling fee** added to your order.\n\nA couple of other things to know about XL plants:\n- They **ship Standard only** \u2014 Express shipping isn't available for them\n- Standard shipping is $7.95 (or free on orders of $75+)\n\nSo the $20 fee covers the extra care needed to pack and ship these bigger beauties safely.\n\nIs there anything else you'd like to know about ordering plants from Leafy? \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1812,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 132,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1812,
+    "output_tokens": 132,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1812,
+ "output_tokens": 132,
+ "thinking_tokens": 0,
+ "latency_ms": 2320,
+ "wall_ms": 7129,
+ "overhead": 379,
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1790879851.5628574
+}

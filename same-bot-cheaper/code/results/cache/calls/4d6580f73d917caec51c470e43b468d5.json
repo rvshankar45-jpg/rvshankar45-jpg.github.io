@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! That's a smart thing to ask before your plant ships. Here's how we handle freezing weather:\n\n**Weather holds**\n- If the transit forecast is **below 35\u00b0F** (or above 95\u00b0F), we may hold your live plant for **up to 7 days** so it doesn't travel in the cold.\n- We'll email you when a hold is placed.\n\n**Your options**\n- **Let the hold happen:** your plant ships once the forecast improves, and the Plant Care Guarantee applies as normal.\n- **Waive the hold:** you can reply to the email and ask us to ship anyway. The Plant Care Guarantee still applies, **except** for cold or heat damage in transit. Damaged on Arrival claims for cold or heat damage also won't be accepted if you waive the hold.\n\n**Extra protection**\n- In winter, you can add a **free heat pack** at checkout.\n\n**Good to know**\n- Live plants ship **Monday to Wednesday only**, so a hold can also affect which day your plant goes out.\n- Once your order ships, you'll get a tracking email, which can take up to 24 hours to update.\n\nIf you'd like help with a specific order, send me the order number (it looks like LF- plus six digits) and I'll point you in the right direction. Happy to help any time, and enjoy your new plant!",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 433,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 439,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 433,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 439,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 433,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 433
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4773,
+ "output_tokens": 439,
+ "thinking_tokens": 0,
+ "latency_ms": 4120,
+ "wall_ms": 6900,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879259.6509511
+}

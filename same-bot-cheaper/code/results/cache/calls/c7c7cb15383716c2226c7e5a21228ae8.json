@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thanks for contacting Leafy! \ud83c\udf3f\n\nGreat question. Your prepaid return label is good for **7 days** from when it's emailed to you. Just be sure to drop the parcel off within those 7 days.\n\nA few helpful things to know:\n- You can start a return anytime from \"My Orders\", and the label will be emailed to you.\n- Once your return reaches our warehouse, your refund is issued within **5 business days** to your original payment method.\n\nIf your label does expire, let me know and I'll be happy to point you in the right direction.\n\nIs there anything else I can help you with? Please reach out anytime. Happy planting! \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 423,
+  "cache_read_input_tokens": 1720,
+  "output_tokens": 207,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 423,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 207,
+    "cache_read_input_tokens": 1720,
+    "cache_creation_input_tokens": 423,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 423
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2145,
+ "output_tokens": 207,
+ "thinking_tokens": 0,
+ "latency_ms": 2516,
+ "wall_ms": 5978,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879879.9290683
+}

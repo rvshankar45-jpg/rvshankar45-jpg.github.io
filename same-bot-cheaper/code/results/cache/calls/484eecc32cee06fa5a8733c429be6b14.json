@@ -1,0 +1,50 @@
+{
+ "text": "I understand your frustration\u2014a delayed refund after following up twice is annoying.\n\nTo help, I need a bit more detail: **When did your return reach our warehouse?** (You can check your return tracking or the email with the prepaid label.) According to policy, refunds post **5 business days** after arrival, then take an additional **5\u201310 business days** to show on your card depending on your bank.\n\nIf it's been longer than 5 business days since warehouse arrival, or if you'd like me to look into the specific delay given your follow-ups, **I'll escalate this to a Support Lead** who can check your account directly and expedite if needed. Just confirm the warehouse arrival date and I'll get this sorted.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1512,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 166,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1512,
+    "output_tokens": 166,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1512,
+ "output_tokens": 166,
+ "thinking_tokens": 0,
+ "latency_ms": 2990,
+ "wall_ms": 6733,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791101274.3560226
+}

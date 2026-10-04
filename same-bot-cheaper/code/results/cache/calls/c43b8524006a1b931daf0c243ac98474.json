@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry, having to chase this three times is frustrating. Since this is your third contact about the same issue, I'm escalating it to a human Support Lead now.\n\nFor reference, refunds are due within 5 business days of your return reaching our warehouse, going back to your original payment method. To help the Lead resolve it quickly, please reply with your order number and the date you dropped off the return. I can't promise a specific response time from the Lead, but I'll make sure the case notes show this is your third request.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 444,
+  "cache_read_input_tokens": 1467,
+  "output_tokens": 328,
+  "output_tokens_details": {
+   "thinking_tokens": 172
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 444,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 328,
+    "cache_read_input_tokens": 1467,
+    "cache_creation_input_tokens": 444,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 444
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1913,
+ "output_tokens": 328,
+ "thinking_tokens": 172,
+ "latency_ms": 3486,
+ "wall_ms": 6551,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791101522.0256855
+}

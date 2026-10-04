@@ -1,0 +1,49 @@
+{
+ "text": "No, Leafy Plus does not include free Express shipping. Express is always $14.95, including for Leafy Plus members.\n\nWhat Leafy Plus does include for shipping is free Standard shipping with no minimum order. Standard delivery takes 2\u20133 business days in Zone 1, 3\u20135 in Zone 2, and 5\u20138 in Zone 3. Express is available in Zones 1 and 2 only (next business day and 2 business days respectively), and isn't available in Zone 3.\n\nOne more thing: XL plants (usually over 4 ft) add a $20 handling fee and ship Standard only, so that fee still applies to them.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 431,
+  "cache_read_input_tokens": 1555,
+  "output_tokens": 207,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 431,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 207,
+    "cache_read_input_tokens": 1555,
+    "cache_creation_input_tokens": 431,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 431
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1988,
+ "output_tokens": 207,
+ "thinking_tokens": 0,
+ "latency_ms": 2662,
+ "wall_ms": 6037,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880502.5482445
+}

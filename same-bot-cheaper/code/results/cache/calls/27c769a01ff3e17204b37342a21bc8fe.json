@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry, but I don't have a policy on changing or cancelling an order after it's placed, so I can't confirm whether yours can still be changed. I can escalate this to a Support Lead to check, so tell me what you'd like to change (items, address, or cancelling) and I'll pass it along.\n\nIf you'd rather wait until it arrives, non-living items can be returned within 30 days of delivery, and there are no direct exchanges (you return the item and place a new order). Live plants can't be returned for change of mind.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1835,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 320,
+  "output_tokens_details": {
+   "thinking_tokens": 154
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1835,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 320,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1835,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1835
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1837,
+ "output_tokens": 320,
+ "thinking_tokens": 154,
+ "latency_ms": 3164,
+ "wall_ms": 6313,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100178.9870398
+}

@@ -1,0 +1,50 @@
+{
+ "text": "Yes, you can return an opened bag of soil, but **only if it's faulty**. \n\nHere are the details:\n\n- **Non-living items** like soil can normally be returned within **30 days** of delivery if they're unused and in original packaging\n- **However**, opened soil specifically **cannot be returned unless it's faulty**\n\nSo if your soil bag has a defect (e.g., contamination, wrong product, damaged packaging that compromised the contents), we can process that return. If it's just opened and you've changed your mind, unfortunately it's not returnable.\n\n**Is there an issue with the soil itself?** If so, let me know what the problem is and I can help you with a return or replacement. If you'd like to discuss other options, I'm happy to escalate to a Support Lead.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 3174,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 186,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 3174,
+    "output_tokens": 186,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 3174,
+ "output_tokens": 186,
+ "thinking_tokens": 0,
+ "latency_ms": 2798,
+ "wall_ms": 6205,
+ "overhead": 379,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791005655.627182
+}

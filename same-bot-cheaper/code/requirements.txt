@@ -1,0 +1,16 @@
+# Python 3.12. For Laya on a GPU, install a CUDA build of torch first (see README).
+anthropic==1.9.0
+python-dotenv==1.2.3
+PyYAML==6.0.3
+pandas==3.0.6
+numpy==2.5.3
+rank-bm25==0.2.2
+sentence-transformers==6.1.0
+laya==0.3.22
+scikit-learn==1.9.1
+matplotlib==3.11.2
+Markdown==3.11
+pillow==12.3.0
+nbformat==5.11.1
+nbclient==0.11.0
+ipykernel==7.4.0

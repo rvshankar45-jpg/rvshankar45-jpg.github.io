@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry, this is your third message about this and it's been a week with no movement. That's frustrating, and I'm escalating your case to a Support Lead now because the same issue has been raised three or more times.\n\nPolicy says that when tracking hasn't moved for 4 business days, we open a courier investigation, which takes up to 5 business days. If the parcel turns out to be lost, you can choose either a free replacement or a full refund.\n\nI can't promise a faster outcome than that myself, but the Support Lead can review your case. Could you send me your order number so it's attached to the escalation?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 2084,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 185,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 2084,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 185,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 2084,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 2084
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2086,
+ "output_tokens": 185,
+ "thinking_tokens": 0,
+ "latency_ms": 2507,
+ "wall_ms": 5571,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100979.506151
+}

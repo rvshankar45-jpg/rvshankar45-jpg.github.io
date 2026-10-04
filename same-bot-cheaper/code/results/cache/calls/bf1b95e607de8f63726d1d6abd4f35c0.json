@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry, that's frustrating. For a wrong item, we ship the correct plant free by Express (where your delivery zone allows) and you can keep the wrong plant at no charge, so no return is needed. If the wrong item wasn't a live plant, we'd send a free return label instead.\n\nCould you tell me your order number, the plant you ordered, and the one that arrived? I don't have a specific Express delivery timeframe in my policy information. If your zone doesn't allow Express, I can escalate to a Support Lead to sort out the best option.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 424,
+  "cache_read_input_tokens": 1104,
+  "output_tokens": 474,
+  "output_tokens_details": {
+   "thinking_tokens": 297
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 424,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 474,
+    "cache_read_input_tokens": 1104,
+    "cache_creation_input_tokens": 424,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 424
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1530,
+ "output_tokens": 474,
+ "thinking_tokens": 297,
+ "latency_ms": 4197,
+ "wall_ms": 7402,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100343.150759
+}

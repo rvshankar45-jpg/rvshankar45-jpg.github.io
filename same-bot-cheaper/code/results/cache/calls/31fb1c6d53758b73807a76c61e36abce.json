@@ -1,0 +1,50 @@
+{
+ "text": "No, monstera is **not pet-safe** according to our plant safety guide. If you have cats, dogs, or other pets that might chew on plants, it's best to keep a monstera out of their reach or choose a pet-safe alternative.\n\nPet-safe plants we carry include:\n- Calathea\n- Spider plant\n- Parlour palm\n- Boston fern\n- Peperomia\n\n**Important:** If your pet may have eaten any part of a monstera, contact your vet or local poison control immediately. Once you've done that, let me know and I can escalate to a Support Lead.\n\nIf you'd like care advice or help choosing a pet-friendly plant, a Plant Care Specialist is available by chat 9am-5pm Mon-Fri (your local time), or by email at help@leafy.example (answered within 1 business day).",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 424,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 265,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 424,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 265,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 424,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 424
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4282,
+ "output_tokens": 265,
+ "thinking_tokens": 0,
+ "latency_ms": 2731,
+ "wall_ms": 5440,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005512.193195
+}

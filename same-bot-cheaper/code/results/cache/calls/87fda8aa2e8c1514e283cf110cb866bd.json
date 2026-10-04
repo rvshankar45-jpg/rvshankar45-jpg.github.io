@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry, that's frustrating, especially when you've followed the care card. Losing almost half its leaves does meet our definition of significant decline (more than a third of its leaves), so you can make a claim under the Plant Care Guarantee.\n\n**How to claim**\n1. Go to \"My Orders\" and start a claim for the bird of paradise.\n2. Upload at least **two photos**: one of the whole plant and one close-up of the affected leaves or stems.\n3. A Plant Care Specialist will review it within **2 business days**. You don't need to send the plant back.\n\n**Timing:** The guarantee runs **30 days from delivery** (90 days if you're a Leafy Plus member and ordered while your membership was active). At 3 weeks you should still be inside the standard window, but I'd submit soon and check your delivery date in My Orders.\n\n**If it's approved:** We send **one** free replacement of the same plant, or store credit if it's out of stock. The replacement gets its own new 30-day guarantee.\n\n**What could affect the claim:** The guarantee doesn't cover repotting into non-Leafy soil in the first 14 days, pests introduced after delivery, pets, or deliberate neglect. If any of those apply, tell the specialist when you submit.\n\n**Care advice:** A Plant Care Specialist can look at your photos and help work out the cause, free, by chat or email. Our general guidance is that most early problems come from overwatering, so water only when the top inch of soil is dry. Keep the plant out of direct sun during its first week and don't repot for 2-3 weeks after arrival.\n\nI don't have anything in my policy information specific to bird of paradise care beyond that. If you'd like a specialist to look at this directly, I can escalate it.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 450,
+  "cache_read_input_tokens": 1071,
+  "output_tokens": 960,
+  "output_tokens_details": {
+   "thinking_tokens": 392
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 450,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 960,
+    "cache_read_input_tokens": 1071,
+    "cache_creation_input_tokens": 450,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 450
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1523,
+ "output_tokens": 960,
+ "thinking_tokens": 392,
+ "latency_ms": 8109,
+ "wall_ms": 10956,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004991.9347646
+}

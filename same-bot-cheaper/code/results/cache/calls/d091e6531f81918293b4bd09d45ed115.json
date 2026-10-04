@@ -1,0 +1,50 @@
+{
+ "text": "No, promo codes can't be added after an order is placed\u2014they need to be applied at checkout.\n\nHowever, if your order hasn't shipped yet, you have two options:\n1. **Cancel and reorder** (free within 2 hours of placing the original order if you're still within that window).\n2. **Contact support** to see if we can help, though I can't guarantee a workaround.\n\nWhat's your order number? That'll help me check the status.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1648,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 110,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1648,
+    "output_tokens": 110,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1648,
+ "output_tokens": 110,
+ "thinking_tokens": 0,
+ "latency_ms": 2011,
+ "wall_ms": 5025,
+ "overhead": 379,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791006679.7844765
+}

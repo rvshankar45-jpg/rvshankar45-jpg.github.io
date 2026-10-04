@@ -1,0 +1,49 @@
+{
+ "text": "Oh no, I can see why you're worried! Unfortunately, the prepaid label **expires after 7 days**, so if you printed it 9 days ago, it's no longer valid. \ud83d\ude1f\n\nBut don't worry\u2014this is fixable! Here's what to do:\n\n- Go back to **\"My Orders\"** and start a new return for the watering can.\n- A fresh prepaid label will be emailed to you.\n- This time, make sure to drop the parcel off **within 7 days** so the label doesn't expire again.\n\nYou'll be back on track, and everything else stays the same\u2014the $6.95 change-of-mind fee (or free if you're a Leafy Plus member) and the **5 business day** refund timeframe.\n\nI know it's a bit of a hassle, but you've got this! If you have any other questions or run into trouble, just reach out. I'm here to help. \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2292,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 225,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2292,
+    "output_tokens": 225,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2292,
+ "output_tokens": 225,
+ "thinking_tokens": 0,
+ "latency_ms": 2935,
+ "wall_ms": 6766,
+ "overhead": 379,
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1790880244.3498728
+}

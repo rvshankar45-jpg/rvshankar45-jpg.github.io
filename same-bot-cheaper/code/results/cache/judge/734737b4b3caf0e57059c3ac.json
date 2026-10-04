@@ -1,0 +1,229 @@
+{
+ "items": [
+  {
+   "answer_id": "c05.t1#1",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 4,
+   "note": "Accurate. Says 'cancel anytime' loosely, but no fee/min term is a Plant Club statement; minor. Doesn't specify non-living returns."
+  },
+  {
+   "answer_id": "c05.t1#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "All correct, includes non-living clarification."
+  },
+  {
+   "answer_id": "c05.t1#3",
+   "correctness": 3,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Claims 'cancel anytime with no fee or minimum term' for Leafy Plus, which is a Plant Club rule; invented."
+  },
+  {
+   "answer_id": "c05.t1#4",
+   "correctness": 3,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 5,
+   "score": 2,
+   "note": "Says returns apply to plants (live plants can't be returned) and 'no minimum term' cancel anytime; errors."
+  },
+  {
+   "answer_id": "c05.t1#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate and complete."
+  },
+  {
+   "answer_id": "c05.t1#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 4,
+   "note": "Accurate; cancellation path 'Account > Subscriptions' is reasonable. Slightly extra."
+  },
+  {
+   "answer_id": "c05.t2#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct, and corrects earlier return misstatement properly."
+  },
+  {
+   "answer_id": "c05.t2#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "c05.t2#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct; valid correction of earlier Plant Club confusion."
+  },
+  {
+   "answer_id": "c05.t2#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "c05.t2#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct with valid correction."
+  },
+  {
+   "answer_id": "c05.t2#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "c05.t3#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "c05.t3#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, honest about gaps."
+  },
+  {
+   "answer_id": "c05.t3#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct; cancel path plausible."
+  },
+  {
+   "answer_id": "c05.t3#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and helpful."
+  },
+  {
+   "answer_id": "c05.t3#5",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct; guarantee claim as 'benefit' is speculative, and says KB lacks cancel method though it exists."
+  },
+  {
+   "answer_id": "c05.t3#6",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct; says cancel method unknown though KB has Account > Subscriptions."
+  },
+  {
+   "answer_id": "c05.t4#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and complete."
+  },
+  {
+   "answer_id": "c05.t4#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "c05.t4#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "c05.t4#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct main point."
+  },
+  {
+   "answer_id": "c05.t4#5",
+   "correctness": 2,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 2,
+   "note": "Main point right, but wrongly retracts correct 30/90-day guarantee info, misleading."
+  },
+  {
+   "answer_id": "c05.t4#6",
+   "correctness": 2,
+   "completeness": 4,
+   "policy": 4,
+   "tone": 4,
+   "score": 2,
+   "note": "Main point right, but wrongly retracts the correct 30-day figure."
+  },
+  {
+   "answer_id": "c05.t4#7",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, honest."
+  }
+ ]
+}

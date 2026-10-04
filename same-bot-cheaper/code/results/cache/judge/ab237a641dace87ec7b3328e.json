@@ -1,0 +1,148 @@
+{
+ "items": [
+  {
+   "answer_id": "t064#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct: two photos, My Orders, 2 business days."
+  },
+  {
+   "answer_id": "t064#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct and adds accurate DOA note; slightly extra."
+  },
+  {
+   "answer_id": "t065#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct: no need to return the plant."
+  },
+  {
+   "answer_id": "t065#2",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct main point. The claim that DOA plants don't need to be returned is inferred, since the KB only says that for the guarantee and for non-living items under $40."
+  },
+  {
+   "answer_id": "t066#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurately covers the new 30-day guarantee and the unguaranteed second replacement."
+  },
+  {
+   "answer_id": "t066#2",
+   "correctness": 3,
+   "completeness": 2,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Says the replacement has its own guarantee, but omits that the second replacement has no guarantee. Its follow-up question about the original plant is unnecessary and confusing."
+  },
+  {
+   "answer_id": "t067#1",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct exclusion. Asks about DOA and the delivery date, which is reasonable, though day 5 means the 48-hour window has likely passed."
+  },
+  {
+   "answer_id": "t067#2",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct. Offers escalation and care advice. Assumes the DOA window is closed, which is reasonable given day 5."
+  },
+  {
+   "answer_id": "t068#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 5,
+   "score": 5,
+   "note": "Complete and accurate. Only the 'no need to send back' point is a minor inference."
+  },
+  {
+   "answer_id": "t068#2",
+   "correctness": 4,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct, but promises 'two photos' and the order number, and does not mention the guarantee fallback. Fine overall."
+  },
+  {
+   "answer_id": "t069#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correctly says the window has passed and does not guess about non-living items. Offers escalation."
+  },
+  {
+   "answer_id": "t069#2",
+   "correctness": 1,
+   "completeness": 2,
+   "policy": 3,
+   "tone": 3,
+   "score": 1,
+   "note": "Self-contradictory: says 'not too late' and 'still within that window' while admitting 72 hours is past 48. Misleading."
+  },
+  {
+   "answer_id": "t070#1",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct: keep the wrong plant and get the correct one free by Express. Escalation if the zone doesn't allow Express is reasonable."
+  },
+  {
+   "answer_id": "t070#2",
+   "correctness": 3,
+   "completeness": 3,
+   "policy": 4,
+   "tone": 4,
+   "score": 3,
+   "note": "Gives Express and a return label but omits that a wrong live plant can be kept. Asks for photos, which the KB doesn't require for wrong items."
+  },
+  {
+   "answer_id": "t071#1",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "t071#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, with accurate extra detail on what counts as damage and the next steps."
+  }
+ ]
+}

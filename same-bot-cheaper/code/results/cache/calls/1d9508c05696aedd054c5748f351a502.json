@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! I'm so sorry your order is late and the tracking has stalled. That's worrying, especially if there are plants inside.\n\nTracking that hasn't moved for 4 business days is exactly when we open a courier investigation, and your order qualifies.\n\n**What happens next**\n- I need your order number (it looks like LF- followed by six digits) so we can start the investigation.\n- The courier investigation takes up to **5 business days**.\n- If the parcel turns out to be lost, you choose between a **free replacement** or a **full refund**.\n\nI'd also like to offer you a one-time **$15 store credit** for the late delivery. It's issued instantly and never expires.\n\n**Two quick checks**\n- Look for an email from us about a weather hold. If forecasts for transit are below 35\u00b0F or above 95\u00b0F, live plants can be held up to 7 days, and we email you when that happens.\n- If tracking says \"delivered\" but nothing has arrived, let me know. That goes through the same investigation.\n\nPlease don't share your full card number or any passwords. The order number is all I need.\n\nIf you send your order number, I'll get things moving. Thanks for your patience, and please reach out any time you need us!",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 442,
+  "cache_read_input_tokens": 4338,
+  "output_tokens": 1047,
+  "output_tokens_details": {
+   "thinking_tokens": 655
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 442,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1047,
+    "cache_read_input_tokens": 4338,
+    "cache_creation_input_tokens": 442,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 442
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4782,
+ "output_tokens": 1047,
+ "thinking_tokens": 655,
+ "latency_ms": 8990,
+ "wall_ms": 11653,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879540.710367
+}

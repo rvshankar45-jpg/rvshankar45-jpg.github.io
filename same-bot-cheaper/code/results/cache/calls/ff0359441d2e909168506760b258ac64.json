@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry, but the price-drop policy doesn't cover this. Our price drop adjustment (the difference as store credit, available within 7 days of purchase) specifically excludes flash sales and clearance items. Since your snake plant is cheaper because of a flash sale, I can't offer the difference, even though you're within the 7-day window.\n\nIf you feel this should be an exception, I can escalate your request to a Support Lead for review, though I can't promise the outcome. Would you like me to do that?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 450,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 160,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 450,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 160,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 450,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 450
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4308,
+ "output_tokens": 160,
+ "thinking_tokens": 0,
+ "latency_ms": 2671,
+ "wall_ms": 8289,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005718.6775098
+}

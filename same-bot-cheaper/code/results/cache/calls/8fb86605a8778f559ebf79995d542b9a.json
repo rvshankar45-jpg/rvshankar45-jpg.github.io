@@ -1,0 +1,50 @@
+{
+ "text": "I'll help with all three issues:\n\n**Yellow leaves on arrival:** If the plant arrived with yellowing as part of damage (like severe wilting or exposed roots), report it within **48 hours** of delivery with photos of the plant and box for a free replacement or refund through our Damaged on Arrival process. If it's just a few yellow leaves, that's normal and covered by our Plant Care Guarantee instead\u2014no refund, but we'll help you care for it.\n\n**Duplicate charge:** First, check your bank to confirm both charges have posted (one might be a pending authorization that will drop off in **3\u20137 business days**). If both have posted, reply with your order number and the last four digits of the card, and we'll refund the duplicate within **3 business days**.\n\n**Refund to a different card:** Our refunds go only to the original payment method; your bank normally forwards it to your replacement card if the original is closed. Alternatively, I can issue the refund as **Leafy store credit instantly**\u2014it never expires. Which would you prefer?\n\nTo get started, please confirm whether the yellow leaves look like damage (wilting, exposed roots) or just discoloration, and share your order number.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1407,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 274,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1407,
+    "output_tokens": 274,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1407,
+ "output_tokens": 274,
+ "thinking_tokens": 0,
+ "latency_ms": 3644,
+ "wall_ms": 6663,
+ "overhead": 379,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791007003.624753
+}

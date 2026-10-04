@@ -1,0 +1,50 @@
+{
+ "text": "If you wait until tonight, about 5 hours after you ordered, you'll be past the **2-hour** free-change window. The order will be in the packing queue and you won't be able to change it online.\n\n- **Contact support:** Support can try to intercept the order before it ships, but this isn't guaranteed. The policy doesn't say whether adding an item is something support can do at that stage, so I can't promise it.\n- **Separate order:** You could place a new order for the pot instead. It would be its own order, so Standard shipping would be $7.95 unless that order is $75 or more after discounts.\n- **Best option:** Add the pot within the next 1 hour 40 minutes or so, while it's still free and self-service in \"My Orders\".\n\nIf you can't get to it in time, I can escalate to a Support Lead to ask about an intercept. Would you like me to do that?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 813,
+  "cache_read_input_tokens": 1555,
+  "output_tokens": 973,
+  "output_tokens_details": {
+   "thinking_tokens": 700
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 813,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 973,
+    "cache_read_input_tokens": 1555,
+    "cache_creation_input_tokens": 813,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 813
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2370,
+ "output_tokens": 973,
+ "thinking_tokens": 700,
+ "latency_ms": 8966,
+ "wall_ms": 13274,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004926.0238242
+}

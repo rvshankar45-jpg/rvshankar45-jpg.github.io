@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry to hear that\u2014that's concerning. Here's what you need to do right away:\n\n1. **Reset your password immediately** from the login page (don't use \"Forgot password\"\u2014log in if you can and change it from Account settings).\n2. **Check \"My Orders\"** to see what was ordered and their status. If orders haven't shipped yet, you may be able to cancel them free within 2 hours of ordering.\n3. **Contact us** at **help@leafy.example** or chat **8am\u20138pm Mon\u2013Sat** (your local time) with your order numbers\u2014we'll escalate this as a security issue and can help stop shipments or process refunds.\n\nDo you need help with anything else, like cancelling a specific order?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1566,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 176,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1566,
+    "output_tokens": 176,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1566,
+ "output_tokens": 176,
+ "thinking_tokens": 0,
+ "latency_ms": 2957,
+ "wall_ms": 5921,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791101106.2353156
+}

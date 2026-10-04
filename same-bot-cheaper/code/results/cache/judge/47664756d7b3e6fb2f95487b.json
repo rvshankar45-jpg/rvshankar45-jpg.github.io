@@ -1,0 +1,346 @@
+{
+ "items": [
+  {
+   "answer_id": "q077#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct 3-day auto refund; honest about unknowns; escalation offered."
+  },
+  {
+   "answer_id": "q077#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct and concise; original method stated."
+  },
+  {
+   "answer_id": "q077#3",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct; refund timing by method is accurate. Slight implication that store credit could still be chosen after refund triggered."
+  },
+  {
+   "answer_id": "q077#4",
+   "correctness": 2,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Invents 5 business days from processing; wrong timeframe (cards 5-10, wallets 3-5)."
+  },
+  {
+   "answer_id": "q077#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and honest."
+  },
+  {
+   "answer_id": "q077#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, clear, safe."
+  },
+  {
+   "answer_id": "q077#7",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "q077#8",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Accurate timings; slightly speculative about alternatives but hedged."
+  },
+  {
+   "answer_id": "q077#9",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct and concise."
+  },
+  {
+   "answer_id": "q078#1",
+   "correctness": 2,
+   "completeness": 2,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Says KB doesn't cover wrong items; it does. Misses the Express correct plant and keep the pothos."
+  },
+  {
+   "answer_id": "q078#2",
+   "correctness": 2,
+   "completeness": 2,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Wrongly claims no wrong-item policy."
+  },
+  {
+   "answer_id": "q078#3",
+   "correctness": 2,
+   "completeness": 2,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Wrongly claims no wrong-item policy."
+  },
+  {
+   "answer_id": "q078#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Matches the policy: Express where zone allows, keep the pothos, 48h with photos, pet note."
+  },
+  {
+   "answer_id": "q078#5",
+   "correctness": 3,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 5,
+   "score": 3,
+   "note": "Core right but invents Standard fallback for Zone 3 and an optional return of the pothos."
+  },
+  {
+   "answer_id": "q078#6",
+   "correctness": 2,
+   "completeness": 2,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Wrongly claims no wrong-item policy."
+  },
+  {
+   "answer_id": "q078#7",
+   "correctness": 2,
+   "completeness": 2,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Wrongly claims no wrong-item policy."
+  },
+  {
+   "answer_id": "q078#8",
+   "correctness": 2,
+   "completeness": 2,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Wrongly claims no wrong-item policy."
+  },
+  {
+   "answer_id": "q078#9",
+   "correctness": 2,
+   "completeness": 2,
+   "policy": 2,
+   "tone": 3,
+   "score": 2,
+   "note": "Offers a replacement or refund, which is not the policy. Misses Express and keeping the plant."
+  },
+  {
+   "answer_id": "q078#10",
+   "correctness": 2,
+   "completeness": 2,
+   "policy": 2,
+   "tone": 3,
+   "score": 2,
+   "note": "Promises a refund option and ignores the actual policy."
+  },
+  {
+   "answer_id": "q078#11",
+   "correctness": 2,
+   "completeness": 2,
+   "policy": 3,
+   "tone": 3,
+   "score": 2,
+   "note": "Wrongly claims no wrong-item policy; wordy."
+  },
+  {
+   "answer_id": "q079#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate and concise."
+  },
+  {
+   "answer_id": "q079#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate and hedges 'usually'."
+  },
+  {
+   "answer_id": "q079#3",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Accurate; 'good news you don't need to send it back' slightly overstates 'usually'."
+  },
+  {
+   "answer_id": "q079#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate."
+  },
+  {
+   "answer_id": "q079#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate with refund timings."
+  },
+  {
+   "answer_id": "q079#6",
+   "correctness": 5,
+   "completeness": 4,
+   "policy": 5,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct; slightly awkward replacement sentence."
+  },
+  {
+   "answer_id": "q079#7",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct; slight overstatement of no-return."
+  },
+  {
+   "answer_id": "q079#8",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Accurate."
+  },
+  {
+   "answer_id": "q079#9",
+   "correctness": 4,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 4,
+   "score": 4,
+   "note": "Correct; 'My Orders' reporting not in KB and 'free' shipping asserted, minor."
+  },
+  {
+   "answer_id": "q079#10",
+   "correctness": 2,
+   "completeness": 4,
+   "policy": 3,
+   "tone": 4,
+   "score": 2,
+   "note": "Says it can keep the pot and no return, overstated; 'usually' omitted, and it wrongly implies a guaranteed outcome."
+  },
+  {
+   "answer_id": "q079#11",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Accurate and hedged."
+  },
+  {
+   "answer_id": "q080#1",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct."
+  },
+  {
+   "answer_id": "q080#2",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, lists other safe options."
+  },
+  {
+   "answer_id": "q080#3",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct with accurate contact details."
+  },
+  {
+   "answer_id": "q080#4",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 5,
+   "score": 5,
+   "note": "Correct, concise."
+  },
+  {
+   "answer_id": "q080#5",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct; 'forgiving with watering' is unsupported detail."
+  },
+  {
+   "answer_id": "q080#6",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 4,
+   "tone": 5,
+   "score": 4,
+   "note": "Correct; minor unsupported claims about toxicity and ease."
+  },
+  {
+   "answer_id": "q080#7",
+   "correctness": 5,
+   "completeness": 5,
+   "policy": 5,
+   "tone": 4,
+   "score": 5,
+   "note": "Correct and concise."
+  }
+ ]
+}

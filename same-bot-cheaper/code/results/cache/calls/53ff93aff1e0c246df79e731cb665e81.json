@@ -1,0 +1,50 @@
+{
+ "text": "**Please contact your doctor or your local poison control center right away.** Peace lily is not pet-safe, and your toddler chewed a leaf. Don't wait on anything else below. If your child has trouble breathing or swallowing, or is showing severe symptoms, call your local emergency number. Where you can, take the plant with you or keep it handy so you can tell them exactly what was eaten.\n\nI'm also escalating this to a Support Lead now, since it's a safety issue. I'm sorry this happened, especially on top of a damaged delivery.\n\n**Smashed pot (Damaged on Arrival):**\n- A smashed pot counts as DOA. You need to report it **within 48 hours of delivery** with photos of the plant and the box. Since it arrived today, you're well within that window.\n- For a DOA plant, you can choose a **free replacement on the next plant shipping day** (plants ship Monday to Wednesday only) or a **refund**.\n- Please keep the box and take photos of the plant, the broken pot and the packaging. Once your child is safe, you can start the report from \"My Orders\".\n\nI'd suggest keeping the damaged plant well out of your child's reach in the meantime. If you choose a replacement, we can't say whether a peace lily is right for your home. I can only say it's not on our pet-safe list, so you may prefer a refund.\n\nThe Support Lead will follow up on the safety side. Please put your child's health first, and let me know if you'd like help with the DOA report.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 452,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 480,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 452,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 480,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 452,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 452
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4310,
+ "output_tokens": 480,
+ "thinking_tokens": 0,
+ "latency_ms": 4807,
+ "wall_ms": 8215,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005807.5521245
+}

@@ -1,0 +1,49 @@
+{
+ "text": "# Express Shipping Cost\n\nGreat question! **Express shipping costs $14.95**, and it's never free\u2014even for Leafy Plus members.\n\nHere's what you get with Express:\n\n| Zone | Delivery Time |\n|---|---|\n| **Zone 1** (under 300 miles) | Next business day |\n| **Zone 2** (300\u20131,000 miles) | 2 business days |\n| **Zone 3** (over 1,000 miles, remote/island) | Not available |\n\n**Note:** Express is only available for non-living items (pots, tools, soil, etc.) and non-XL plants. XL plants (usually over 4 ft) ship Standard only with a $20 handling fee.\n\nIf you have a specific order in mind or want to know what zone you're in, I'm happy to help! \ud83c\udf3f",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 3506,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 203,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 3506,
+    "output_tokens": 203,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 3506,
+ "output_tokens": 203,
+ "thinking_tokens": 0,
+ "latency_ms": 2953,
+ "wall_ms": 6468,
+ "overhead": 379,
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1790879605.2442985
+}

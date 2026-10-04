@@ -1,0 +1,50 @@
+{
+ "text": "Unfortunately, no. Return labels expire after 7 days, so a label issued 9 days ago is no longer valid, and please don't drop the parcel off with it.\n\nThe policy I have doesn't say how to get a replacement label, so I can't promise one. I can escalate this to a Support Lead to ask. Grow light returns must also be made within 30 days of delivery, unused and in the original packaging, so it's worth acting soon. Would you like me to escalate?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 449,
+  "cache_read_input_tokens": 1272,
+  "output_tokens": 259,
+  "output_tokens_details": {
+   "thinking_tokens": 109
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 449,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 259,
+    "cache_read_input_tokens": 1272,
+    "cache_creation_input_tokens": 449,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 449
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1723,
+ "output_tokens": 259,
+ "thinking_tokens": 109,
+ "latency_ms": 2734,
+ "wall_ms": 6393,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100725.7786102
+}

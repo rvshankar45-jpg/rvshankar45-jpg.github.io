@@ -1,0 +1,50 @@
+{
+ "text": "I'm sorry, but the policy I have doesn't say where DOA photos should be sent, so I don't want to guess at a form, email address, or link. The only submission route it describes is for Plant Care Guarantee claims, which go through \"My Orders\", and that isn't the same as a DOA report.\n\nHere's what I can do:\n\n- **Escalate it for you:** I can pass your report to the team so it's logged and they can tell you exactly where to send the photos. That keeps you inside the **48-hour** window from this morning's delivery.\n- **Photos to have ready:** The rubber plant and the cracked pot, plus the box it arrived in.\n\nWould you like me to escalate this? If so, please also tell me whether you'd prefer a **replacement** (shipped on the next plant shipping day) or a **refund**, so it's included in the report. Please don't share any card numbers or passwords here.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 770,
+  "cache_read_input_tokens": 1071,
+  "output_tokens": 285,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 770,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 285,
+    "cache_read_input_tokens": 1071,
+    "cache_creation_input_tokens": 770,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 770
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1843,
+ "output_tokens": 285,
+ "thinking_tokens": 0,
+ "latency_ms": 3484,
+ "wall_ms": 6613,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791004850.28327
+}

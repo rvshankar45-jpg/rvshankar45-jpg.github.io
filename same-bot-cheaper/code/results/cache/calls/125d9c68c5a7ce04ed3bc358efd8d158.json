@@ -1,0 +1,50 @@
+{
+ "text": "Live plants can't be shipped to PO boxes, so the plant will need a street address, such as a home, work or a friend's address. The $20 pot is a non-living item, so it can go to your PO box, but only as a separate order. A mixed order ships together, and that would include the plant.\n\nStandard shipping is $7.95, free on orders of $75 or more after discounts, so a $20 pot ordered alone would pay that fee. Non-living items ship Monday-Friday, and delivery takes 2-8 business days depending on your zone.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1950,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 477,
+  "output_tokens_details": {
+   "thinking_tokens": 305
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1950,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 477,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1950,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1950
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1952,
+ "output_tokens": 477,
+ "thinking_tokens": 305,
+ "latency_ms": 4718,
+ "wall_ms": 7870,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100661.7794366
+}

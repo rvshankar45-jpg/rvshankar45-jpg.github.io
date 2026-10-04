@@ -1,0 +1,50 @@
+{
+ "text": "That pending charge is most likely an authorisation, not an actual charge. We authorise your card at checkout and only charge it when the order ships. Since you cancelled within the 2-hour window, you won't be charged.\n\nThe authorisation should drop off on its own within **3-7 business days**, depending on your bank. Leafy can't release it faster, but your bank may be able to tell you more about their timing.\n\nIf it's still showing after 7 business days, or if it has posted as a completed charge, send me your order number (LF- plus six digits) and the last four digits of your card, and I can escalate it. Please don't share your full card number or security code.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 444,
+  "cache_read_input_tokens": 1579,
+  "output_tokens": 356,
+  "output_tokens_details": {
+   "thinking_tokens": 157
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 444,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 356,
+    "cache_read_input_tokens": 1579,
+    "cache_creation_input_tokens": 444,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 444
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2025,
+ "output_tokens": 356,
+ "thinking_tokens": 157,
+ "latency_ms": 4252,
+ "wall_ms": 7358,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791007446.0239532
+}

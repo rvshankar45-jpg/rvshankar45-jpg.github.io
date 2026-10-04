@@ -1,0 +1,50 @@
+{
+ "text": "Express shipping isn't available to Zone 3 (addresses over 1,000 miles from our nearest greenhouse, plus remote and island addresses). Standard shipping is available there and takes 5-8 business days. It costs $7.95, or is free on orders of $75 or more after discounts and before tax.\n\nLive plants ship Monday to Wednesday only, so orders placed after 12 noon Wednesday ship the following Monday.\n\nIf you tell me your location or order details, I can help you work out which zone applies.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 424,
+  "cache_read_input_tokens": 1797,
+  "output_tokens": 257,
+  "output_tokens_details": {
+   "thinking_tokens": 91
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 424,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 257,
+    "cache_read_input_tokens": 1797,
+    "cache_creation_input_tokens": 424,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 424
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2223,
+ "output_tokens": 257,
+ "thinking_tokens": 91,
+ "latency_ms": 3365,
+ "wall_ms": 6141,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791100272.4062717
+}

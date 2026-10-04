@@ -1,0 +1,50 @@
+{
+ "text": "Likely yes. As a Leafy Plus member, your plants have a **90-day** Plant Care Guarantee from delivery, so a plant 60 days after delivery is still inside the window. This only applies if you ordered the plant while your membership was active.\n\n**What's covered:** If the plant dies or declines significantly despite reasonable care, we send **one free replacement** of the same plant. If it's out of stock, you get store credit instead. Significant decline means:\n- losing more than a third of its leaves,\n- stem or root rot, or\n- collapse.\n\n**How to claim:**\n1. Go to \"My Orders\" and start a claim before the 90 days are up.\n2. Attach at least **two photos**: one of the whole plant and one close-up of the problem.\n3. A Plant Care Specialist will review it within **2 business days**. You don't need to send the plant back.\n\n**What's not covered:** Damage from pests introduced after delivery, deliberate neglect, or repotting into non-Leafy soil in the first 14 days.\n\nI can't confirm approval myself, because the Specialist decides based on your photos. If you'd like advice on saving the plant in the meantime, a Plant Care Specialist can help by chat (9am-5pm Mon-Fri, your local time) or email, and you don't need a claim for that.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 446,
+  "cache_read_input_tokens": 3856,
+  "output_tokens": 879,
+  "output_tokens_details": {
+   "thinking_tokens": 456
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 446,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 879,
+    "cache_read_input_tokens": 3856,
+    "cache_creation_input_tokens": 446,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 446
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 4304,
+ "output_tokens": 879,
+ "thinking_tokens": 456,
+ "latency_ms": 7705,
+ "wall_ms": 10877,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791005786.4165936
+}

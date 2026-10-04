@@ -1,0 +1,49 @@
+{
+ "text": "Oh no, I'm so sorry, that must be really scary! Let's take this one step at a time. \ud83d\udc9a\n\n**Please contact your vet or a pet poison control service right now.** Don't wait for symptoms to appear. Tell them:\n- Your cat chewed a leaf of a **pothos**\n- Roughly how much was eaten, and when\n- Any symptoms you notice, such as drooling, pawing at the mouth, vomiting, or not wanting to eat\n\nIf you can, take a photo of the plant or keep the care card handy so you can describe it accurately.\n\n**What happens next on our side:** I'm escalating this to a Support Lead now, since it involves a pet's safety. They will follow up with you using the email on your account (rvshankar45@gmail.com). Please don't let that delay calling your vet. That call is the most important step.\n\nI don't have specific details in our knowledge base about how a pothos affects cats, so your vet or poison control is the right source for guidance on what to expect and what to do.\n\nWishing your kitty a quick and smooth recovery. Please reach out any time if you need anything else from us. \ud83c\udf3f",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 732,
+  "cache_read_input_tokens": 1553,
+  "output_tokens": 361,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 732,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 361,
+    "cache_read_input_tokens": 1553,
+    "cache_creation_input_tokens": 732,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 732
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2287,
+ "output_tokens": 361,
+ "thinking_tokens": 0,
+ "latency_ms": 4043,
+ "wall_ms": 7057,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880218.0899956
+}

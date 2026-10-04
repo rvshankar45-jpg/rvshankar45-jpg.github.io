@@ -1,0 +1,49 @@
+{
+ "text": "No, monstera is **not pet-safe** according to our plant safety guidance. If you have pets, it's best to keep it out of their reach.\n\nIf you'd like a pet-safe alternative, these are on our pet-safe list:\n- Calathea\n- Spider plant\n- Parlour palm\n- Boston fern\n- Peperomia\n\n**If your pet may have chewed or eaten any part of a monstera**, please contact a vet or pet poison control right away, before anything else.\n\nI can also pass you to a Plant Care Specialist for free advice on choosing or placing plants if you'd like.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 424,
+  "cache_read_input_tokens": 1071,
+  "output_tokens": 189,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 424,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 189,
+    "cache_read_input_tokens": 1071,
+    "cache_creation_input_tokens": 424,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 424
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1497,
+ "output_tokens": 189,
+ "thinking_tokens": 0,
+ "latency_ms": 2539,
+ "wall_ms": 5514,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880421.3717823
+}

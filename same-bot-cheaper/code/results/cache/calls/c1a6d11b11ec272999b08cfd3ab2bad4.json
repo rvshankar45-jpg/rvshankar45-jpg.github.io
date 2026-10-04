@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! I'm so sorry your calathea has had such a rough start. That's upsetting, especially when you're trying to do right by a new plant. Let's get this sorted.\n\n**The calathea: you're covered**\n\nLosing about half its leaves counts as significant decline (more than a third), and you're at day 10, well inside the 30-day Plant Care Guarantee. Leafy Plus members get 90 days. To claim:\n\n- Go to \"My Orders\" and start a claim for the calathea.\n- Include at least two photos: one of the whole plant and one close-up of the damage.\n- A Plant Care Specialist will review it within 2 business days.\n- If approved, we send one free replacement of the same plant, or store credit if it's out of stock.\n- You don't need to send the plant back.\n\nThe guarantee doesn't cover plants repotted into non-Leafy soil in the first 14 days, or problems from pests introduced after delivery or deliberate neglect. If you repotted it, mention that in your claim.\n\nYour replacement would also come with its own new 30-day guarantee.\n\n**The cracked pot**\n\nDamage on arrival needs to be reported within 48 hours of delivery, so the standard DOA process is no longer available for the pot. I can't promise a replacement or refund for it, and the knowledge base doesn't cover what happens for late pot reports. I'd suggest mentioning the cracked pot (with a photo if you have one) in your claim. If you'd like, I can also escalate it to a Support Lead to see whether anything can be done.\n\n**Extra help**\n\nA Plant Care Specialist can give you free care advice by chat or email, which is handy for keeping your replacement happy. Calatheas can be fussy!\n\nWould you like me to escalate the pot question? And please reach out anytime if you need more help.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 461,
+  "cache_read_input_tokens": 1803,
+  "output_tokens": 1081,
+  "output_tokens_details": {
+   "thinking_tokens": 485
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 461,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1081,
+    "cache_read_input_tokens": 1803,
+    "cache_creation_input_tokens": 461,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 461
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2266,
+ "output_tokens": 1081,
+ "thinking_tokens": 485,
+ "latency_ms": 9259,
+ "wall_ms": 13299,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790879944.0178285
+}

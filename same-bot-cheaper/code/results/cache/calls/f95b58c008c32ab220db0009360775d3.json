@@ -1,0 +1,50 @@
+{
+ "text": "Unfortunately not. Live plants can't be shipped to PO boxes, which are for non-living items only. You'd need to use a street address where someone can receive the plant, such as your home, work, or a friend's place.\n\nWith a street address, Express is $14.95 (never free, even for Leafy Plus). It's next business day in Zone 1 and 2 business days in Zone 2, and isn't available in Zone 3. Live plants ship Monday-Wednesday only, and Express isn't available for XL plants (usually over 4 ft), which ship Standard only.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 434,
+  "cache_read_input_tokens": 1455,
+  "output_tokens": 344,
+  "output_tokens_details": {
+   "thinking_tokens": 163
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 434,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 344,
+    "cache_read_input_tokens": 1455,
+    "cache_creation_input_tokens": 434,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 434
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1891,
+ "output_tokens": 344,
+ "thinking_tokens": 163,
+ "latency_ms": 4346,
+ "wall_ms": 7162,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791007418.8542068
+}

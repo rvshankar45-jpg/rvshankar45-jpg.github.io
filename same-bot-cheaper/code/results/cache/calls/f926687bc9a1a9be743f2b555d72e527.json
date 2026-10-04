@@ -1,0 +1,50 @@
+{
+ "text": "I can't change your email or reset your password directly from this support chat\u2014those are account security functions that need to go through our website or app for your protection.\n\nHere's what to do:\n\n1. **To reset your password:** Go to the login page and click \"Forgot password?\" \u2014 you'll get a reset link emailed to your current address.\n2. **To change your email:** Log in with your reset password, then go to \"Account\" settings to update it there.\n\nIf you can't access your current email account either, I'll need to escalate this to our Support Lead who can verify your identity and help further. Would you like me to do that?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1351,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 147,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1351,
+    "output_tokens": 147,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1351,
+ "output_tokens": 147,
+ "thinking_tokens": 0,
+ "latency_ms": 2411,
+ "wall_ms": 5283,
+ "overhead": 379,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1791101095.5038695
+}

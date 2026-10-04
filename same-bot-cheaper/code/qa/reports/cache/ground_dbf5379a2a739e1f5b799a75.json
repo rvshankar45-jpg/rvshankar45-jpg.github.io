@@ -1,0 +1,94 @@
+{
+ "items": [
+  {
+   "id": "c07.t2",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "c07.t3",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "c08.t1",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "c08.t2",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "c08.t3",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "c08.t4",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "c09.t1",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "c09.t2",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "c09.t3",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "c09.t4",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "c09.t5",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "c10.t1",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "c10.t2",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "c10.t3",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  },
+  {
+   "id": "c10.t4",
+   "supported": true,
+   "answers_question": true,
+   "unsupported_claims": []
+  }
+ ]
+}

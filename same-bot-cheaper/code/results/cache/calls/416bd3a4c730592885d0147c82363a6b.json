@@ -1,0 +1,50 @@
+{
+ "text": "Sorry for the frustration, I know it's annoying to wait. This is expected, though: live plants ship only Monday to Wednesday, and orders placed after 12 noon Wednesday ship the following Monday. Your calathea should go out then, and you'll get a tracking email when it does. Tracking can take up to 24 hours to update.\n\nCalathea is on our pet-safe list, so it's fine around your cat.\n\nIf it hasn't shipped by Monday's end, let me know and I can escalate it.",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1852,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 385,
+  "output_tokens_details": {
+   "thinking_tokens": 222
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1852,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 385,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1852,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1852
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1854,
+ "output_tokens": 385,
+ "thinking_tokens": 222,
+ "latency_ms": 4513,
+ "wall_ms": 7725,
+ "overhead": 448,
+ "cli_version": "2.1.289 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791101052.31762
+}

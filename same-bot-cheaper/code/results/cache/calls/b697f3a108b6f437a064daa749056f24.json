@@ -1,0 +1,49 @@
+{
+ "text": "# Hi there! \ud83d\udc4b\n\nThanks for reaching out to Leafy! I'm happy to help with shipping costs.\n\n**Standard shipping is $7.95** \u2014 but here's the good news: it's **free on orders of $75 or more** (after any discounts, before tax).\n\nStandard delivery times depend on how far you are from our nearest greenhouse:\n\n- **Zone 1** (under 300 miles): 2\u20133 business days\n- **Zone 2** (300\u20131,000 miles): 3\u20135 business days  \n- **Zone 3** (over 1,000 miles, remote/island addresses): 5\u20138 business days\n\nPlus, live plants ship **Monday\u2013Wednesday only**, so the timing depends on when you order too.\n\nIs there anything else I can help you with? \ud83c\udf31",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 3505,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 194,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 3505,
+    "output_tokens": 194,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 3505,
+ "output_tokens": 194,
+ "thinking_tokens": 0,
+ "latency_ms": 3159,
+ "wall_ms": 6645,
+ "overhead": 379,
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1790879605.0408866
+}

@@ -1,0 +1,49 @@
+{
+ "text": "Hi there, and thank you for contacting Leafy! I'm so sorry this happened. That's really stressful, and I'm glad you reached out right away.\n\n**Do this first:**\n- **Reset your password right now.** Use a new one you don't use anywhere else.\n- **Check your account email** after logging in. If it was changed, update it yourself under your account settings, since support can't change an account email over chat.\n\n**Cancel the order if you can:**\n- If the order was placed **within the last 2 hours**, go to \"My Orders\" and cancel it for free.\n- If it's been longer, it's in the packing queue and can't be changed online. Our team can try to intercept it before it ships, but I can't guarantee that.\n- Once an order has shipped, it can't be cancelled.\n\n**About the charge:**\n- Cards are charged when an order ships, so the charge may still be a pending authorization.\n- If the order is cancelled, a pending authorization drops off in **3-7 business days**, depending on your bank. Leafy can't release it faster.\n\n**What happens next:** Because this involves possible unauthorized access and suspected fraud, I'm escalating it to a human Support Lead, who will review your account and the order.\n\nTo help them move quickly, please send:\n- The **order number** (it looks like LF-123456) for the order you don't recognize\n- The **last four digits** of the card, if you'd like to include them\n\nPlease don't send your full card number, security code, or password. I'll never ask for those.\n\nIf you'd rather follow up by email, you can reach us at help@leafy.example. We answer within 1 business day. Chat is open 8am-8pm Mon-Sat.\n\nThanks for acting so fast. We'll help you get this sorted out! \ud83c\udf3f",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 442,
+  "cache_read_input_tokens": 2091,
+  "output_tokens": 1207,
+  "output_tokens_details": {
+   "thinking_tokens": 651
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 442,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1207,
+    "cache_read_input_tokens": 2091,
+    "cache_creation_input_tokens": 442,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 442
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 2535,
+ "output_tokens": 1207,
+ "thinking_tokens": 651,
+ "latency_ms": 10236,
+ "wall_ms": 13297,
+ "overhead": 448,
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1790880112.9995873
+}

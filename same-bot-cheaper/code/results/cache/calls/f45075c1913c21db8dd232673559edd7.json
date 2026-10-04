@@ -1,0 +1,49 @@
+{
+ "text": "Hey there! \ud83d\udc4b Thanks for asking about Leafy Plus!\n\n**Leafy Plus costs $59 per year** and it's a great value if you're a regular plant parent. Here's what you get:\n\n- **Free Standard shipping** with no minimum order amount\n- **Free change-of-mind returns** \n- **90-day guarantee** on plants (instead of the standard 30 days)\n- **10% member pricing** on pots and accessories\n- **Early access** to rare plant drops\n\nThe subscription auto-renews each year, but you can cancel anytime. If you change your mind within **14 days** of purchase or renewal and haven't used any of the benefits yet, you'll get a full refund\u2014otherwise the membership continues through to the end of your paid year.\n\nWould you like to know anything else about Leafy Plus, or do you have questions about any other Leafy services? I'm here to help! \ud83c\udf3f",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 1826,
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 219,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 1826,
+    "output_tokens": 219,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1826,
+ "output_tokens": 219,
+ "thinking_tokens": 0,
+ "latency_ms": 2568,
+ "wall_ms": 6968,
+ "overhead": 379,
+ "backend": "cli",
+ "model": "claude-haiku-4-5-20251001",
+ "max_tokens": 4000,
+ "recorded_at": 1790879776.762564
+}

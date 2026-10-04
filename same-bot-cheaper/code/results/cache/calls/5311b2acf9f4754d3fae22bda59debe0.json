@@ -1,0 +1,50 @@
+{
+ "text": "Unfortunately, no. Live plants can't be returned for change of mind, so a plant you simply don't like the look of isn't eligible for return.\n\nThere are two exceptions. If the plant arrived damaged (snapped main stem, cracked or smashed pot, exposed roots, or dead or severely wilted), report it within **48 hours** of delivery with photos of the plant and the box, and we'll send a free replacement or a refund. If the plant develops problems after those 48 hours, the Plant Care Guarantee is the route to take.\n\nI don't have the Plant Care Guarantee details here, so I can escalate to a Support Lead if you'd like help with that. Is the plant damaged, or is it a matter of appearance?",
+ "capped": false,
+ "stop_reason": "end_turn",
+ "raw_usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1647,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 234,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1647,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 234,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1647,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1647
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "total_input_tokens": 1649,
+ "output_tokens": 234,
+ "thinking_tokens": 0,
+ "latency_ms": 3152,
+ "wall_ms": 6126,
+ "overhead": 448,
+ "cli_version": "2.1.287 (Claude Code)",
+ "backend": "cli",
+ "model": "claude-sonnet-5-5",
+ "max_tokens": 4000,
+ "recorded_at": 1791006061.2181664
+}
