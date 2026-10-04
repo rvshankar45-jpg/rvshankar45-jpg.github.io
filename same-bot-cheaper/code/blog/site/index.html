@@ -97,6 +97,14 @@
   .approach p strong{ color:var(--ink); }
   section p a, section li a{ color:var(--flag); text-underline-offset:3px; }
   .hero{ max-width:900px; margin:30px auto 0; } .hero img{ display:block; width:100%; height:auto; border-radius:4px; }
+  .tablewrap{ overflow-x:auto; -webkit-overflow-scrolling:touch; margin:18px 0 22px; box-shadow:var(--shadow); }
+  .tablewrap table{ margin:0; box-shadow:none; }
+  .swipe{ display:none; font-family:var(--mono); font-size:11px; color:var(--ink3); margin:-14px 0 20px; }
+  @media (max-width:520px){
+    th,td{ padding:8px 8px; } td:nth-child(n+2){ font-size:13px; } th{ font-size:10px; }
+    .bar .vv small{ display:block; }
+    .swipe{ display:block !important; }
+  }
   table.words td{ font-family:var(--body); font-size:15.5px; white-space:normal; }
   table.words td:first-child{ width:38%; color:var(--ink2); }
   .takes{ display:grid; gap:2px; background:var(--rule); }
@@ -130,7 +138,7 @@
     <div class="byline"><span>Leafy, a fictional plant shop</span><span>Claude Sonnet 5.5 · Haiku 4.5 · Laya</span>
       <span>October 2026</span><span>open code &amp; data</span></div>
   </header>
-  <div class="hero"><img src="hero.png" width="1600" height="780" alt="Two receipts for the same 140 answers: version 1 totals $1.95; version 2 itemises the savings from routing, retrieval, history trimming, a short prompt and concise answers, totalling $0.69, under a stamp reading 64% cheaper, with a badge reading Routing by Laya AI."></div>
+  <div class="hero"><picture><source media="(max-width:600px)" srcset="hero_mobile.png" width="640" height="1080"><img src="hero.png" width="1600" height="780" alt="Two receipts for the same 140 answers: version 1 totals $1.95; version 2 itemises the savings from routing, retrieval, history trimming, a short prompt and concise answers, totalling $0.69, under a stamp reading 64% cheaper, with a badge reading Routing by Laya AI."></picture></div>
   <section class="col" style="margin-top:30px"><div class="approach"><span class="lbl">How this works, in one minute</span><p><strong>The app.</strong> A customer-support chatbot for Leafy, a made-up online plant shop. A customer asks something like "What's your return window?" and the bot answers from Leafy's <a href="https://github.com/rvshankar45-jpg/Laya-model-router/blob/main/data/kb.md">policy manual</a>, a document of about 3,600 tokens in 9 sections. It runs on Claude models; all data is invented.</p><p><strong>Two versions.</strong> Version 1 is built the quick way: every question goes to the strongest, most expensive model (Sonnet 5.5), with the whole manual and the whole chat attached. Version 2 adds six cost-saving fixes, one at a time.</p><p><strong>The test.</strong> Both versions answer the same 100 customer questions (62 simple, 38 complex) and 10 back-and-forth conversations: 140 answers each.</p><p><strong>Counting tokens and cost.</strong> AI models bill per token (about three-quarters of a word), for text sent and text written back. For every answer I recorded the token counts reported by the model provider, not estimates, and multiplied them by the published prices: Sonnet 5.5 costs $2 per million tokens sent and $10 per million written; the cheaper Haiku 4.5 costs $1 and $5.</p><p><strong>Checking quality.</strong> A separate AI grader scored every answer from 1 to 5 against a reference answer written from the manual: 5 means send it as is, 3 means acceptable but flawed.</p></div></section>
   <section class="col"></section>
   <div class="col"><div class="thesis"><div class="big">64%</div><div class="say"><b>Cheaper, for the same 140 answers.</b>
@@ -141,7 +149,7 @@
 <div class="stat"><div class="v num">20%</div><div class="k">trained router saving</div></div></div></div>
   <section class="col"><div class="exec"><h2><span class="rule"></span>The short version</h2><div class="sub">five findings in plain words</div><div class="takes"><div class="take"><div class="n">1</div><div><div class="hd">It cost 64% less to run, with answers almost as good.</div><div class="tx">The optimised chatbot answered the same 140 customer questions for $0.69 instead of $1.95. A grader scored its answers 4.49 out of 5, against 4.63 for the original.</div></div></div><div class="take"><div class="n">2</div><div><div class="hd">The biggest saving came from sending the AI less text.</div><div class="tx">Instead of pasting the whole policy manual into every request, the bot looked up the 3 most relevant sections and sent only those (a technique called RAG). That alone delivered half of the saving, but it also caused most of the drop in quality, because it sometimes picked the wrong sections.</div></div></div><div class="take"><div class="n">3</div><div><div class="hd">The best version sent the whole manual, but stored it.</div><div class="tx">AI providers let you store text you send over and over, and charge a tenth of the price to reuse it. Sending the full manual this way was 62% cheaper than the original and gave the best answers of all: 4.80.</div></div></div><div class="take"><div class="n">4</div><div><div class="hd">Sending easy questions to a cheaper AI saved less than expected.</div><div class="tx">A small "router" model decides which questions the cheaper AI can handle. Off the shelf it saved 12%; trained on 270 examples, 20%.</div></div></div><div class="take"><div class="n">5</div><div><div class="hd">Letting the AI think longer cost more and didn&#x27;t help.</div><div class="tx">Newer models can reason privately before answering, and you pay for that hidden reasoning. A little thinking was the cheapest setting; the most thinking cost 28% more with no better answers.</div></div></div></div></div></section>
   <section class="col"><h2><span class="rule"></span>Why teams ship the expensive version</h2><p>The first version of most AI features is built to ship fast: the best model, the whole manual, the whole chat. It works, so nobody touches it. Shipping beats tuning, a quality drop nobody can measure feels risky, and nobody owns cost per answer. But token cost is a product decision, not an infra bill.</p></section><section class="col"><h2><span class="rule"></span>The six fixes, explained</h2><p>Each fix targets one way tokens leak:</p>
-<table class="words">
+<div class="tablewrap"><table class="words">
 <thead>
 <tr>
 <th>Where tokens leak</th>
@@ -174,7 +182,7 @@
 <td><strong>Concise answers + answer cache:</strong> a "be concise" instruction and length cap, and reuse of answers to repeated questions</td>
 </tr>
 </tbody>
-</table>
+</table></div>
 <div class="flat"><svg viewBox="0 0 640 230" role="img" aria-label="Architecture: a customer message first checks the answer cache; new questions go to the Laya router, which sends easy ones to Haiku and hard ones to Sonnet; both receive a short prompt with the top 3 manual sections and trimmed history.">
 <g font-family="JetBrains Mono, monospace" font-size="11" fill="currentColor">
 <rect x="6" y="92" width="104" height="44" rx="4" fill="none" stroke="currentColor" stroke-opacity=".35"/><text x="58" y="112" text-anchor="middle">Customer</text><text x="58" y="126" text-anchor="middle">message</text>
@@ -191,7 +199,7 @@
 </g>
 <g font-family="JetBrains Mono, monospace" font-size="10" fill="currentColor" opacity=".6"><text x="330" y="86">easy</text><text x="330" y="152">hard</text><text x="300" y="14">repeat question: cached answer, no model call</text></g>
 </svg></div></section><section class="col"><h2><span class="rule"></span>What each fix saved</h2><p>Each row adds one fix and re-runs the whole test:</p>
-<table>
+<div class="tablewrap"><table>
 <thead>
 <tr>
 <th>Step</th>
@@ -231,14 +239,14 @@
 <td>4.49</td>
 </tr>
 </tbody>
-</table>
+</table></div>
 <p><strong>Retrieval (RAG) gave the biggest saving, and the biggest quality drop.</strong></p>
 <p><em>How it works.</em> Version 1 pasted all 9 sections of the manual into every request. With retrieval, the bot first searches the manual and sends only the 3 sections that best match the question. It scores each section twice, once for shared words and once for similar meaning, and keeps the top 3.</p>
 <p><em>The saving.</em> Sending a third of the manual means far fewer tokens on every call. That one change cut $0.63, half of the $1.26 saved in total.</p>
 <p><em>The catch.</em> If the search picks the wrong sections, the model never sees the answer. Asked "What's your price adjustment policy?", the bot was sent the Orders, Returns and Contact sections, not Payments and Refunds, where the policy lives. It replied that no such policy existed, and its grade fell from 5 to 1. When retrieval was switched on, 14 of the 140 answers lost two or more points.</p>
 <p><strong>Some fixes barely mattered.</strong> Trimming history saved 0.5% of version 1's cost. The prompt cache saved nothing: the short prompt left only 203 repeatable tokens, under the 512 it needs. No test question repeated, so the answer cache never fired; shorter answers drove the last step.</p>
 <p><strong>The surprise was a build I added myself:</strong> the short prompt plus the <em>whole</em> manual, cached. It scored 4.80, against version 1's 4.63, at 62% below version 1's cost. Compared with the same setup using RAG, it was cheaper and better:</p>
-<table>
+<div class="tablewrap"><table>
 <thead>
 <tr>
 <th>Same setup, except</th>
@@ -258,7 +266,7 @@
 <td>4.80</td>
 </tr>
 </tbody>
-</table>
+</table></div>
 <p>Retrieved sections change with every question, so they're billed at full price every time. The whole manual is identical on every call, so after the first one it's billed at a tenth of the price. Caching was 17% cheaper, fixed 20 answers by two points or more and made none worse.</p>
 <p><strong>That doesn't make caching better than RAG in general.</strong> Caching the whole document costs about the same as sending a tenth of it. Retrieval sent a third, so caching won here; RAG wins when the passages you retrieve are under a tenth of the document, or when the document is too big to send. A cache also lasts only about 5 minutes, so with quiet traffic it keeps expiring and is rewritten at a premium. For a small manual and steady traffic, cache it; for a large knowledge base or quiet traffic, use RAG; measure both on your own data.</p><div class="chart"><div class="cap">Cost of the same 140 answers after each fix</div><div class="sub">US$ at the provider's list prices · q = average grade out of 5</div>
 <div class="bar"><div class="nm">Version 1</div><div class="track"><div class="fill" style="width:100.0%;background:var(--v1)"></div></div><div class="vv">$1.95 <small>q 4.63</small></div></div>
@@ -277,7 +285,7 @@
 <li><strong>Send the top 3</strong>, in the order they appear in the manual. In conversations, the customer's previous message joins the search, so follow-ups still find the right section.</li>
 </ol>
 <p><strong>Why 3?</strong> The number came from the project brief, and the data backs it. Using as a stand-in the section that best matches each question's reference answer:</p>
-<table>
+<div class="tablewrap"><table>
 <thead>
 <tr>
 <th>Sections sent</th>
@@ -312,10 +320,10 @@
 <td>56%</td>
 </tr>
 </tbody>
-</table>
+</table></div>
 <p>Going from 2 to 3 sections finds the right one far more often; beyond 3, each extra section adds about a point while sending another ninth of the manual on every call.</p>
 <p><strong>Why the price-adjustment question failed:</strong></p>
-<table class="words">
+<div class="tablewrap"><table class="words">
 <thead>
 <tr>
 <th>Section</th>
@@ -362,7 +370,7 @@
 <td>6</td>
 </tr>
 </tbody>
-</table>
+</table></div>
 <p>The manual calls it a "price drop", not a "price adjustment", so "adjustment" matched nothing, while "policy" pulled in the Contact section. Keywords still put Payments 2nd, but the meaning model ranked it 7th, so it finished 6th and was never sent. Smaller chunks (one per policy), synonyms in the headings, or a stronger meaning model would likely catch it; I haven't tested those yet.</p></section><section class="col"><h2><span class="rule"></span>Does a smarter router help?</h2><p>Laya is a small open-weights decision model. It scores each question for difficulty; above a cut-off, the question goes to the expensive model.</p>
 <p><strong>Why Laya?</strong> It decides in one pass instead of writing text, so it runs on a laptop GPU in a fraction of a second and costs no API tokens. It returns a probability, so the cut-off is mine to set. And it can be retrained on my own data.</p>
 <p>Out of the box, it saved <strong>12%</strong> against always using the expensive model, at the same quality (4.60 vs 4.63): about a sixth of the total saving. It still sent 45 of the 62 simple questions to the expensive model.</p>
@@ -376,7 +384,7 @@
 <li><strong>A fair test.</strong> The cut-off was set on the training questions, then the router was scored once on the 100 test questions.</li>
 </ol>
 <p>How to read the table: <em>saving vs always-expensive</em> is how much cheaper the bill was than sending every question to the expensive model; <em>quality</em> is the average grade out of 5; <em>sent to cheap model</em> is the share of the 100 test questions the router handed to the cheap model. More sent to the cheap model means more saving, as long as quality holds.</p>
-<table class="words">
+<div class="tablewrap"><table class="words">
 <thead>
 <tr>
 <th>Router</th>
@@ -417,7 +425,7 @@
 <td>60%</td>
 </tr>
 </tbody>
-</table>
+</table></div>
 <p><strong>What the 20% means.</strong> On the 100 test questions, sending everything to the expensive model cost $0.517. With the trained decider choosing, the same questions cost $0.415: 20% less. It saved more than off-the-shelf Laya because it sent 36% of questions to the cheap model instead of 20%, and quality dipped only from 4.63 to 4.54. Note the baseline: this is against always using the expensive model, not against version 1.</p>
 <p><strong>What "perfect hindsight" means.</strong> Because the grader scored both models' answers to every question, we know afterwards exactly where the cheap model's answer was as good. A perfect router would send only those questions to the cheap model: 60% of them, saving 38% and even raising quality to 4.68. No real router can do this, since it would need both answers before choosing; it's the ceiling for how much routing could ever save here.</p>
 <p>The trained Laya's separation score rose from 0.63 to 0.75. Across 2,000 resamples of the test questions, the extra saving was positive in 1,991, between 2 and 15 points; the quality change stayed within noise. A word-count rule separated almost as well (0.76), because my hard questions are longer, but saved only 13%.</p>
@@ -428,7 +436,7 @@
 <div class="bar win"><div class="nm">Laya + trained head</div><div class="track"><div class="fill" style="width:51.6%;background:var(--v2)"></div></div><div class="vv">20% <small>q 4.54</small></div></div>
 <div class="bar"><div class="nm">Perfect hindsight</div><div class="track"><div class="fill" style="width:100.0%;background:var(--good)"></div></div><div class="vv">38% <small>q 4.68</small></div></div>
 <div class="axisnote">Trained heads learn one thing: will the cheap model's answer hold up? The hindsight bar uses the answers' grades, so it can't be built.</div></div></section><section class="col"><h2><span class="rule"></span>Should the expensive model think harder?</h2><p>You choose how much the model reasons with an "effort" setting, and pay for that hidden thinking as output tokens. <strong>Low, medium and high are settings of the expensive model, Sonnet 5.5;</strong> the cheap model, Haiku 4.5, ran with thinking off throughout. I ran Sonnet at each setting on 50 of the questions (30 simple, 20 complex):</p>
-<table>
+<div class="tablewrap"><table>
 <thead>
 <tr>
 <th>Sonnet 5.5 thinking setting</th>
@@ -473,7 +481,7 @@
 <td>3.5 s</td>
 </tr>
 </tbody>
-</table>
+</table></div><div class="swipe">Swipe the table sideways for more columns →</div>
 <p><strong>Low effort was the cheapest and fastest setting</strong>, 9% below thinking off at the same quality, because its visible answers were shorter. High effort used five times the hidden tokens of low and cost 28% more for no measurable gain.</p>
 <p>Combined with the trained Laya router, low-effort thinking saved 26% at equal quality.</p><div class="chart"><div class="cap">Cost by thinking setting (expensive model)</div><div class="sub">50 questions · same prompts · q = average grade</div>
 <div class="bar"><div class="nm">Thinking off</div><div class="track"><div class="fill" style="width:85.9%;background:var(--mute)"></div></div><div class="vv">$0.264 <small>q 4.62</small></div></div>

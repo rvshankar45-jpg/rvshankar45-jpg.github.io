@@ -266,6 +266,12 @@ hits = sorted({m.lower() for m in re.findall(deny, blog + li, flags=re.I)} | set
 ph = re.findall(r"\[RAVI:[^\]]*\]", blog + li)
 check("no real employer/customer/brand names; placeholders listed", not hits, f"denylist hits={hits}; {len(ph)} placeholders: {ph}")
 
+# the page must show everything the markdown has: every table rendered, no control characters from a bad substitution
+_md_tables = len(re.findall(r"^\|[-| ]+\|$", blog, flags=re.M))
+_pg_tables = _page.count("<table")
+_ctrl = [c for c in _page if ord(c) < 32 and c not in (chr(9), chr(10), chr(13))]
+check("web page renders every table and has no stray control characters", _md_tables == _pg_tables and not _ctrl,
+      f"tables in markdown={_md_tables}, tables on page={_pg_tables}; control characters on page={len(_ctrl)}")
 passed = sum(ok for _, ok, _ in results)
 summary = f"{passed}/{len(results)} checks passed."
 print("\n" + summary)

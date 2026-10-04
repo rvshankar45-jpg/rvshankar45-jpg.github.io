@@ -101,7 +101,22 @@ def main():
     out = ROOT / "blog" / "site"
     out.mkdir(parents=True, exist_ok=True)
     base.convert("RGB").save(out / "hero.png", optimize=True)
-    print("hero.png written")
+
+    # phone version (portrait): headline, Laya badge, the version 2 receipt (which starts from v1's bill) and the stamp.
+    # Shown at ~375 CSS px, so this 640 px canvas keeps the receipt text around 14 px on screen.
+    mob = Image.new("RGBA", (640, 1080), PAPER)
+    gm = ImageDraw.Draw(mob)
+    gm.text((40, 34), "Same chatbot.", font=BOLD(44), fill=INK)
+    gm.text((40, 90), "Same questions.", font=BOLD(44), fill=INK)
+    gm.text((40, 146), "Smaller bill.", font=BOLD(44), fill=RED)
+    mpw = gm.textlength(pill, font=BLACK(30)) + 52
+    gm.rounded_rectangle([40, 216, 40 + mpw, 272], radius=28, fill=FLAG)
+    gm.text((66, 222), pill, font=BLACK(30), fill="white")
+    paste_with_shadow(mob, r2, (40, 300), -2)
+    small = st.resize((300, 300), Image.LANCZOS)
+    mob.alpha_composite(small, (320, 770))
+    mob.convert("RGB").save(out / "hero_mobile.png", optimize=True)
+    print("hero.png and hero_mobile.png written")
 
 
 if __name__ == "__main__":

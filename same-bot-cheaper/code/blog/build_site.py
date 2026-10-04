@@ -98,6 +98,14 @@ CSS = """
   .approach p strong{ color:var(--ink); }
   section p a, section li a{ color:var(--flag); text-underline-offset:3px; }
   .hero{ max-width:900px; margin:30px auto 0; } .hero img{ display:block; width:100%; height:auto; border-radius:4px; }
+  .tablewrap{ overflow-x:auto; -webkit-overflow-scrolling:touch; margin:18px 0 22px; box-shadow:var(--shadow); }
+  .tablewrap table{ margin:0; box-shadow:none; }
+  .swipe{ display:none; font-family:var(--mono); font-size:11px; color:var(--ink3); margin:-14px 0 20px; }
+  @media (max-width:520px){
+    th,td{ padding:8px 8px; } td:nth-child(n+2){ font-size:13px; } th{ font-size:10px; }
+    .bar .vv small{ display:block; }
+    .swipe{ display:block !important; }
+  }
   table.words td{ font-family:var(--body); font-size:15.5px; white-space:normal; }
   table.words td:first-child{ width:38%; color:var(--ink2); }
   .takes{ display:grid; gap:2px; background:var(--rule); }
@@ -175,6 +183,7 @@ def main():
         h = markdown.markdown(text, extensions=["tables"])
         # tables of words (not figures) wrap normally, with the leak column narrow and the fix column wide
         h = re.sub(r"<table>(?=(?:(?!</table>).)*<td><strong>)", '<table class="words">', h, flags=re.S)
+        h = re.sub(r"<table.*?</table>", lambda m: f'<div class="tablewrap">{m.group(0)}</div>' + ('<div class="swipe">Swipe the table sideways for more columns →</div>' if len(re.findall(r'<th[ >]', m.group(0))) >= 5 else ''), h, flags=re.S)
         h = re.sub(r"\[RAVI:([^\]]*)\]", lambda m: f'<span class="ravi">[RAVI:{m.group(1)}]</span>', h)
         return h.replace("<p>@@ARCH@@</p>", ARCH)
 
@@ -266,7 +275,7 @@ def main():
     <div class="byline"><span>Leafy, a fictional plant shop</span><span>Claude Sonnet 5.5 · Haiku 4.5 · Laya</span>
       <span>{date.today():%B %Y}</span><span>open code &amp; data</span></div>
   </header>
-  <div class="hero"><img src="hero.png" width="1600" height="780" alt="Two receipts for the same 140 answers: version 1 totals ${v1:.2f}; version 2 itemises the savings from routing, retrieval, history trimming, a short prompt and concise answers, totalling ${v2:.2f}, under a stamp reading {pct(1 - v2 / v1)} cheaper, with a badge reading Routing by Laya AI."></div>
+  <div class="hero"><picture><source media="(max-width:600px)" srcset="hero_mobile.png" width="640" height="1080"><img src="hero.png" width="1600" height="780" alt="Two receipts for the same 140 answers: version 1 totals ${v1:.2f}; version 2 itemises the savings from routing, retrieval, history trimming, a short prompt and concise answers, totalling ${v2:.2f}, under a stamp reading {pct(1 - v2 / v1)} cheaper, with a badge reading Routing by Laya AI."></picture></div>
   {approach_html}
   <section class="col">{"".join(render(p) for p in intro_paras[1:])}</section>
   <div class="col"><div class="thesis"><div class="big">{pct(1 - v2 / v1)}</div><div class="say"><b>Cheaper, for the same {n} answers.</b>
