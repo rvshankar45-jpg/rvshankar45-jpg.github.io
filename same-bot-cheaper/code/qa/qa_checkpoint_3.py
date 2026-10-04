@@ -129,6 +129,11 @@ reg("5", "quality scale top (rubric)")
 reg("5.5", "model name: Claude Sonnet 5.5")
 reg("4.5", "model name: Claude Haiku 4.5")
 reg("50", "effort sample size (config effort_eval.sample)")
+for m in [CFG["models"]["strong"], CFG["models"]["cheap"]]:
+    reg(f"${CFG['pricing'][m]['input']:.0f}", f"config pricing {m} input per MTok")
+    reg(f"${CFG['pricing'][m]['output']:.0f}", f"config pricing {m} output per MTok")
+_kb = int(re.search(r"(\d+) tokens on claude-sonnet", (ROOT / "qa" / "reports" / "qa_checkpoint_1.md").read_text(encoding="utf-8")).group(1))
+reg(f"{round(_kb, -2):,}", f"kb.md tokens on strong model = {_kb} (QA gate 1), rounded to 100")
 for v in ["plus_route", "plus_retrieve", "plus_trim", "plus_tight_cache"]:
     reg(f"${s.loc[v, 'total_cost_usd']:.2f}", f"summary.csv {v} total_cost_usd")
     reg(f"{s.loc[v, 'mean_quality']:.2f}", f"summary.csv {v} mean_quality")
@@ -172,9 +177,12 @@ check("every number traces to results/ (or a stated design constant)", not unsou
 
 blog = FILES["blog"].read_text(encoding="utf-8")
 li = FILES["linkedin"].read_text(encoding="utf-8")
-words = lambda t: len(re.findall(r"[A-Za-z0-9$%][\w$%.,'-]*", re.sub(r"\|.*\|\n", "", re.sub(r"\[RAVI:[^\]]*\]", "", t))))  # noqa: E731
+def words(t):  # prose only: tables, diagram code and placeholders are not counted
+    t = re.sub(r"```.*?```", "", t, flags=re.S)
+    t = re.sub(r"\|.*\|\n", "", re.sub(r"\[RAVI:[^\]]*\]", "", t))
+    return len(re.findall(r"[A-Za-z0-9$%][\w$%.,'-]*", t))
 wb, wl = words(blog), words(li)
-check("word counts", 900 <= wb <= 1200 and 150 <= wl <= 200, f"blog {wb} words (900-1,200, tables and placeholders excluded); LinkedIn {wl} (150-200)")
+check("word counts", 900 <= wb <= 1200 and 150 <= wl <= 200, f"blog {wb} words (900-1,200; tables, diagram code and placeholders excluded); LinkedIn {wl} (150-200)")
 
 laya_ok = "saves cost, not tokens" in blog.lower() and "off the shelf" in blog.lower() and "scores bunch together" in blog
 check("Laya described accurately (cost not tokens; limits stated)", laya_ok,

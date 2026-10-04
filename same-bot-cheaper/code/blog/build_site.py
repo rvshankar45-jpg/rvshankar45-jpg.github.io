@@ -90,6 +90,12 @@ CSS = """
   ul,ol{ margin:0 0 1.1em; padding-left:1.2em; } li{ margin-bottom:.5em; }
   .flat{ background:var(--surface); border:1px solid var(--rule); border-radius:3px; padding:18px 18px; box-shadow:var(--shadow); margin:22px 0; }
   .flat svg{ display:block; width:100%; height:auto; }
+  .approach{ background:var(--surface); border:1px solid var(--rule2); border-left:4px solid var(--flag); border-radius:3px;
+             padding:22px 24px 14px; box-shadow:var(--shadow); margin-bottom:22px; }
+  .approach .lbl{ font-family:var(--mono); font-size:10.5px; letter-spacing:.12em; text-transform:uppercase; color:var(--flag);
+                  font-weight:700; display:block; margin-bottom:12px; }
+  .approach p{ font-size:16px; line-height:1.58; margin:0 0 .8em; color:var(--ink2); }
+  .approach p strong{ color:var(--ink); }
   .ravi{ background:#FFF1B8; color:#5A4500; font-family:var(--mono); font-size:13px; padding:2px 6px; border-radius:3px; }
   footer{ margin-top:64px; padding-top:20px; border-top:1px solid var(--rule); font-family:var(--mono); font-size:11.5px; color:var(--ink3); line-height:1.7; }
   .backlink{ display:inline-block; font-family:var(--mono); font-size:12px; letter-spacing:.06em; color:var(--ink3); text-decoration:none; padding-block:26px 0; }
@@ -155,12 +161,20 @@ def main():
         h = re.sub(r"\[RAVI:([^\]]*)\]", lambda m: f'<span class="ravi">[RAVI:{m.group(1)}]</span>', h)
         return h.replace("<p>@@ARCH@@</p>", ARCH)
 
-    body = []
+    body, approach_html = [], ""
     for sec in sections:
         sec = sec.lstrip("# ")
         title, txt = sec.split("\n", 1)
+        if title.startswith("How this works"):  # the method box under the headline, as in the previous post
+            paras = [p for p in txt.strip().split("\n\n") if p.strip()]
+            inside = [p for p in paras if not p.startswith("**The result.**")]
+            after = [p for p in paras if p.startswith("**The result.**")]
+            approach_html = (f'<section class="col" style="margin-top:30px"><div class="approach"><span class="lbl">{html.escape(title)}</span>'
+                             + "".join(render(p) for p in inside) + "</div>"
+                             + "".join(render(p) for p in after) + "</section>")
+            continue
         h = f'<h2><span class="rule"></span>{html.escape(title)}</h2>' + render(txt)
-        if title.startswith("What I built"):
+        if title.startswith("The fixes"):
             steps = ["v1_naive", "plus_route", "plus_retrieve", "plus_trim", "plus_tight_cache", "v2_full", "cache_full_kb"]
             lbl = ["v1 naive", "+ routing", "+ retrieval", "+ trim history", "+ short prompt", "v2 (+ concise)", "whole manual, cached"]
             rows = [(lbl[i], s.loc[k, "total_cost_usd"], f"${s.loc[k, 'total_cost_usd']:.2f} <small>q {s.loc[k, 'mean_quality']:.2f}</small>",
@@ -232,7 +246,8 @@ def main():
     <div class="byline"><span>Leafy, a fictional plant shop</span><span>Claude Sonnet 5.5 · Haiku 4.5 · Laya</span>
       <span>{date.today():%B %Y}</span><span>open code &amp; data</span></div>
   </header>
-  <section class="col" style="margin-top:28px">{"".join(render(p) for p in intro_paras[1:])}</section>
+  {approach_html}
+  <section class="col">{"".join(render(p) for p in intro_paras[1:])}</section>
   <div class="col"><div class="thesis"><div class="big">{pct(1 - v2 / v1)}</div><div class="say"><b>Cheaper, for the same {n} answers.</b>
     ${v1:.2f} became ${v2:.2f}, with {pct(1 - tok['v2_full'] / tok['v1_naive'])} fewer tokens. Half of it came from sending less context; about a sixth from the model router everyone talks about.</div></div></div>
   <div class="col"><div class="stats">{stat_html}</div></div>
