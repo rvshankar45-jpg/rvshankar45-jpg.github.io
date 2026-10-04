@@ -206,15 +206,16 @@ wb, wl = words(blog), words(li)
 # Brief said 900-1,200; on 2026-10-04 the author asked for the fixes, the method and the thinking results to be
 # explained for any reader, so the limit was raised to 1,500 at their request.
 # 2026-10-04 (later): the author asked for a dedicated Laya fine-tuning section; limit raised to 1,700 at their request.
-check("word counts", 900 <= wb <= 1700 and 150 <= wl <= 200,
-      f"blog {wb} words (900-1,700, raised from 1,200 at the author's request; tables, diagram code and placeholders excluded); LinkedIn {wl} (150-200)")
+# 2026-10-04 (later): author asked for the RAG paragraph to be explained step by step; limit raised to 1,800 at their request.
+check("word counts", 900 <= wb <= 1800 and 150 <= wl <= 200,
+      f"blog {wb} words (900-1,800, raised from 1,200 at the author's request; tables, diagram code and placeholders excluded); LinkedIn {wl} (150-200)")
 
 laya_ok = "saves cost, not tokens" in blog.lower() and "off the shelf" in blog.lower() and "not a finished router" in blog
 check("Laya described accurately (cost not tokens; limits stated)", laya_ok,
       "states 'Laya saves cost, not tokens', reports zero-shot vs trained honestly, and lists its new-domain limitation")
 route_share = (v1 - s.loc["plus_route", "total_cost_usd"]) / (v1 - v2)
 dirn = [("v2 quality below v1", s.loc["v2_full", "mean_quality"] < s.loc["v1_naive", "mean_quality"], "4.49 out of 5, against 4.63"),
-        ("retrieval cost quality", s.loc["plus_retrieve", "mean_quality"] < s.loc["plus_route", "mean_quality"], "most of the drop in quality"),
+        ("retrieval cost quality", s.loc["plus_retrieve", "mean_quality"] < s.loc["plus_route", "mean_quality"], "the biggest quality drop"),
         ("cache_full_kb above v1 (stated with caveat)", s.loc["cache_full_kb", "mean_quality"] > s.loc["v1_naive", "mean_quality"],
          "at least as good as version 1"),
         ("routing ~ a sixth of the saving", 1 / 7 < route_share < 1 / 5, "a sixth"),

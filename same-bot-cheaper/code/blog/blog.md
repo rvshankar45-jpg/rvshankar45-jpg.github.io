@@ -66,7 +66,13 @@ Each row adds one fix and re-runs the whole test:
 | + short prompt and prompt cache | $0.91 | 4.40 |
 | + concise answers and answer cache = version 2 | $0.69 | 4.49 |
 
-**Retrieval (RAG) did half the work.** To pick sections, the manual was split at its 9 headings and each section scored against the question twice, for shared keywords and for meaning; the top 3 were sent. Sending three sections instead of all nine saved $0.63 of the $1.26. It also cost the most quality: 14 answers dropped two points or more, usually because the right section was missed and the model honestly said it didn't know.
+**Retrieval (RAG) gave the biggest saving, and the biggest quality drop.**
+
+*How it works.* Version 1 pasted all 9 sections of the manual into every request. With retrieval, the bot first searches the manual and sends only the 3 sections that best match the question. It scores each section twice, once for shared words and once for similar meaning, and keeps the top 3.
+
+*The saving.* Sending a third of the manual means far fewer tokens on every call. That one change cut $0.63, half of the $1.26 saved in total.
+
+*The catch.* If the search picks the wrong sections, the model never sees the answer. Asked "What's your price adjustment policy?", the bot was sent the Orders, Returns and Contact sections, not Payments and Refunds, where the policy lives. It replied that no such policy existed, and its grade fell from 5 to 1. When retrieval was switched on, 14 of the 140 answers lost two or more points.
 
 **Some fixes barely mattered.** Trimming history saved 0.5% of version 1's cost. The prompt cache saved nothing: the short prompt left only 203 repeatable tokens, under the 512 it needs. No test question repeated, so the answer cache never fired; shorter answers drove the last step.
 
