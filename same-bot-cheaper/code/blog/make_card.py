@@ -80,7 +80,7 @@ def main():
     g.text((X + 42, 952), f"Caching the whole manual scored best: {qc:.2f} vs v1's {q1:.2f}.", font=REG(29), fill=INK2)
 
     g.text((X, 1052), f"rvshankar45-jpg.github.io/{SLUG}", font=BOLD(27), fill=INK2)
-    pill = "Token cost is a product decision"
+    pill = "Routing by Laya AI · runs on a laptop"
     pw = g.textlength(pill, font=BOLD(22)) + 56
     g.rounded_rectangle([1120 - pw, 1040, 1120, 1094], radius=27, fill=FLAG)
     g.text((1120 - pw + 28, 1052), pill, font=BOLD(22), fill="white")

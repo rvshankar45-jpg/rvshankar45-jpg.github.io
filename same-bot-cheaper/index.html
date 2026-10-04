@@ -242,15 +242,16 @@
 <div class="bar"><div class="nm">+ short prompt</div><div class="track"><div class="fill" style="width:46.4%;background:var(--v2)"></div></div><div class="vv">$0.91 <small>q 4.40</small></div></div>
 <div class="bar win"><div class="nm">Version 2</div><div class="track"><div class="fill" style="width:35.6%;background:var(--v2)"></div></div><div class="vv">$0.69 <small>q 4.49</small></div></div>
 <div class="bar win"><div class="nm">Whole manual, cached</div><div class="track"><div class="fill" style="width:38.5%;background:var(--good)"></div></div><div class="vv">$0.75 <small>q 4.80</small></div></div>
-<div class="axisnote">All bars share one scale. The green bar is the extra build: short prompt plus the whole manual, cached.</div></div></section><section class="col"><h2><span class="rule"></span>Does a smarter router help?</h2><p>Laya is a small open-source model that runs on a laptop GPU. It scores each question for difficulty; above a cut-off, the question goes to the expensive model.</p>
+<div class="axisnote">All bars share one scale. The green bar is the extra build: short prompt plus the whole manual, cached.</div></div></section><section class="col"><h2><span class="rule"></span>Does a smarter router help?</h2><p>Laya is a small open-weights decision model. It scores each question for difficulty; above a cut-off, the question goes to the expensive model.</p>
+<p><strong>Why Laya?</strong> It decides in one pass instead of writing text, so it runs on a laptop GPU in a fraction of a second and costs no API tokens. It returns a probability, so the cut-off is mine to set. And it can be retrained on my own data.</p>
 <p>Out of the box, it saved <strong>12%</strong> against always using the expensive model, at the same quality (4.60 vs 4.63): about a sixth of the total saving. It still sent 45 of the 62 simple questions to the expensive model.</p>
-<p>It beat asking the cheap model to classify each question first (136 extra tokens and 1,176 ms per question; Laya took 194 ms and no API tokens). Laya saves cost, not tokens: the same prompt goes to a cheaper model.</p>
+<p>Asking the cheap model to classify each question instead cost 136 extra tokens and 1,176 ms per question; Laya took 194 ms and none. Laya saves cost, not tokens: the same prompt goes to a cheaper model.</p>
 <p>The cut-off is a product call. I fixed the rule before looking: the cheapest setting where quality on complex questions stays within 0.2 of always-expensive. That picked 0.50. One notch higher, complex quality fell from 4.32 to 4.00.</p></section><section class="col"><h2><span class="rule"></span>Teaching Laya: the fine-tuning experiment</h2><p>Off the shelf, Laya judged whether a message <em>looks</em> complex, not whether the cheap model would cope. Its separation score, how well it tells those two apart, was 0.63, where 0.5 is guessing and 1 is perfect.</p>
-<p>So I taught it what mattered, in four steps:</p>
+<p>So I taught it, in four steps:</p>
 <ol>
-<li><strong>New questions.</strong> An AI wrote 270 fresh questions from the manual; any resembling a test question were dropped.</li>
+<li><strong>New questions.</strong> An AI wrote 270 fresh questions; any resembling a test question were dropped.</li>
 <li><strong>Real labels.</strong> Both models answered each one and the grader scored both. The label: did the cheap model do as well? It did on 37%.</li>
-<li><strong>Train only the decider.</strong> Laya has a large "reader" that turns a message into numbers and a small "decider" on top. I froze the reader and trained a new decider, which takes minutes on a laptop GPU.</li>
+<li><strong>Train only the decider.</strong> Laya has a large "reader" that turns a message into numbers and a small "decider" on top. I froze the reader and trained a new decider in minutes.</li>
 <li><strong>A fair test.</strong> The cut-off was set on the training questions, then the router was scored once on the 100 test questions.</li>
 </ol>
 <table class="words">
@@ -295,8 +296,8 @@
 </tr>
 </tbody>
 </table>
-<p>The trained Laya saved 20% instead of 12%, and its separation score rose from 0.63 to 0.75. Resampling the test questions 2,000 times, the extra saving was positive in 1,991 of them, between 2 and 15 points, while the quality change stayed within noise. A word-count rule separated almost as well (0.76), because my hard questions are longer, but saved only 13%.</p>
-<p>The lesson: "simple" to a human isn't "safe for the cheap model". The cheap model scored 4.42 on simple questions against the expensive model's 4.79. Laya is a strong base, not a finished router: a few hundred examples of your own cheap model's failures nearly doubled its savings, and real tickets plus the full fine-tuning recipe (<a href="https://huggingface.co/convaiinnovations/laya">Laya model card</a>) should push it towards the 38% ceiling.</p><div class="chart"><div class="cap">How much each router saved</div><div class="sub">100 test questions · saving vs always using the expensive model · q = average grade</div>
+<p>The trained Laya saved 20% instead of 12%, and its separation score rose from 0.63 to 0.75. Across 2,000 resamples of the test questions, the extra saving was positive in 1,991, between 2 and 15 points; the quality change stayed within noise. A word-count rule separated almost as well (0.76), because my hard questions are longer, but saved only 13%.</p>
+<p>The lesson: "simple" to a human isn't "safe for the cheap model" (the cheap model scored 4.42 on simple questions, the expensive one 4.79). Laya is a strong base, not a finished router: a few hundred labelled examples nearly doubled its savings, and real tickets plus the full fine-tuning recipe (<a href="https://huggingface.co/convaiinnovations/laya">Laya model card</a>) should push it towards the 38% ceiling.</p><div class="chart"><div class="cap">How much each router saved</div><div class="sub">100 test questions · saving vs always using the expensive model · q = average grade</div>
 <div class="bar"><div class="nm">Laya off the shelf</div><div class="track"><div class="fill" style="width:30.8%;background:var(--mute)"></div></div><div class="vv">12% <small>q 4.60</small></div></div>
 <div class="bar"><div class="nm">Message-length rule</div><div class="track"><div class="fill" style="width:32.9%;background:var(--mute)"></div></div><div class="vv">13% <small>q 4.59</small></div></div>
 <div class="bar"><div class="nm">Small model + trained head</div><div class="track"><div class="fill" style="width:38.5%;background:var(--mute)"></div></div><div class="vv">15% <small>q 4.58</small></div></div>
@@ -349,7 +350,7 @@
 </tr>
 </tbody>
 </table>
-<p><strong>Low effort was the cheapest and fastest setting</strong>, 9% below thinking off at the same quality, because its visible answers were shorter. High effort used five times the hidden tokens of low and cost 28% more for no measurable gain; its edge on complex questions is within noise.</p>
+<p><strong>Low effort was the cheapest and fastest setting</strong>, 9% below thinking off at the same quality, because its visible answers were shorter. High effort used five times the hidden tokens of low and cost 28% more for no measurable gain.</p>
 <p>Combined with the trained Laya router, low-effort thinking saved 26% at equal quality.</p><div class="chart"><div class="cap">Cost by thinking setting (expensive model)</div><div class="sub">50 questions · same prompts · q = average grade</div>
 <div class="bar"><div class="nm">Thinking off</div><div class="track"><div class="fill" style="width:85.9%;background:var(--mute)"></div></div><div class="vv">$0.264 <small>q 4.62</small></div></div>
 <div class="bar win"><div class="nm">Low effort</div><div class="track"><div class="fill" style="width:78.4%;background:var(--v2)"></div></div><div class="vv">$0.241 <small>q 4.66</small></div></div>
@@ -358,7 +359,6 @@
 <div class="axisnote">Hidden thinking tokens: low 1,683, high 8,335.</div></div></section><section class="col"><h2><span class="rule"></span>What I&#x27;d ship</h2><p>I'd ship the cached whole-manual build, and test it with low-effort thinking, a pairing I haven't measured yet. It cost 8% more than version 2 and scored best, though on 140 synthetic answers read that as "at least as good as version 1". At a million answers a month: about $5,368 against version 1's $13,946.</p>
 <ul>
 <li><strong>A quality guardrail</strong>: score a sample of real answers every week.</li>
-<li><strong>Escalation</strong>: when the router is unsure, pay for the expensive model.</li>
 <li><strong>Per-intent rules</strong>: billing disputes and safety questions never go to the cheap model.</li>
 <li><strong>Cost per resolved ticket</strong> as the north-star metric, not cost per call.</li>
 </ul>
@@ -367,7 +367,7 @@
 <li><strong>Does this need the smartest model?</strong> Measure it; "simple" fooled me.</li>
 <li><strong>Does it need all this context?</strong> Cutting it was the biggest saving and the biggest risk.</li>
 <li><strong>Have we answered this before?</strong> Cache the repeated part, prompt or answer.</li>
-</ol></section><section class="col"><h2><span class="rule"></span>Limitations</h2><p>The data is synthetic, and one AI wrote both test and training questions, which flatters the trained router. An AI judge scored quality: re-scoring the same answers gave the identical score 78% of the time, and I agreed with 17 of 20 hand-checked scores. With 100 questions, gaps under 0.1 in average quality are noise. Million-answer figures scale up 140 synthetic answers. I ran the models through Claude Code's command line and subtracted the fixed overhead it adds to every call.</p></section><section class="col"><h2><span class="rule"></span>Try it</h2><p>Code, data and every result: <a href="https://github.com/rvshankar45-jpg/Laya-model-router">rvshankar45-jpg/Laya-model-router</a>.</p>
+</ol></section><section class="col"><h2><span class="rule"></span>Limitations</h2><p>The data is synthetic, and one AI wrote both test and training questions, which flatters the trained router. An AI judge scored quality: re-scoring the same answers gave the identical score 78% of the time, and I agreed with 17 of 20 hand-checked scores. With 100 questions, gaps under 0.1 in average quality are noise. Million-answer figures scale up 140 synthetic answers. Models ran through Claude Code's command line, with its fixed per-call overhead subtracted.</p></section><section class="col"><h2><span class="rule"></span>Try it</h2><p>Code, data and every result: <a href="https://github.com/rvshankar45-jpg/Laya-model-router">rvshankar45-jpg/Laya-model-router</a>.</p>
 <p>What's your team's cost per answer? If you don't know, that's the first number to find.</p></section><section class="col more"><span hidden>MORE-WRITING-START</span><h2><span class="rule"></span>More writing</h2><a class="post" href="/nothing-got-fixed/"><h3>They answered 99% of the angry reviews. Nothing got fixed.</h3><p>Do delivery apps fix what users complain about in their reviews?</p><span class="go">Read →</span></a><a class="post" href="/listing-ready-photos/"><h3>Better listing photos, without asking sellers for more.</h3><p>Can open image models clean up second-hand listing photos as well as GPT?</p><span class="go">Read →</span></a></section>
   <footer class="col">
     140 answers · 100 test questions + 10 conversations · 270 separate training questions for the router.
