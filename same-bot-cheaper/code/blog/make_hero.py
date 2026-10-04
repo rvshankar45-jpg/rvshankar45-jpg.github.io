@@ -94,6 +94,10 @@ def main():
     g.text((1170, 110), "Same chatbot.", font=BOLD(46), fill=INK)
     g.text((1170, 168), "Same questions.", font=BOLD(46), fill=INK)
     g.text((1170, 226), "Smaller bill.", font=BOLD(46), fill=RED)
+    pill, pf = "Routing by Laya AI", BOLD(30)
+    pw = g.textlength(pill, font=pf) + 56
+    g.rounded_rectangle([1170, 298, 1170 + pw, 352], radius=27, fill=FLAG)
+    g.text((1198, 305), pill, font=pf, fill="white")
     out = ROOT / "blog" / "site"
     out.mkdir(parents=True, exist_ok=True)
     base.convert("RGB").save(out / "hero.png", optimize=True)
