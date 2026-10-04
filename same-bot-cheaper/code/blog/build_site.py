@@ -96,6 +96,20 @@ CSS = """
                   font-weight:700; display:block; margin-bottom:12px; }
   .approach p{ font-size:16px; line-height:1.58; margin:0 0 .8em; color:var(--ink2); }
   .approach p strong{ color:var(--ink); }
+  section p a, section li a{ color:var(--flag); text-underline-offset:3px; }
+  table.words td{ font-family:var(--body); font-size:15.5px; white-space:normal; }
+  table.words td:first-child{ width:38%; color:var(--ink2); }
+  .takes{ display:grid; gap:2px; background:var(--rule); }
+  .take{ background:var(--surface); display:grid; grid-template-columns:34px 1fr; gap:14px; padding:16px 2px; align-items:start; }
+  .take .n{ font-family:var(--mono); font-size:12px; font-weight:700; color:var(--flag); border:1.5px solid var(--flag);
+            border-radius:50%; width:26px; height:26px; display:grid; place-items:center; margin-top:2px; }
+  .take .hd{ font-family:var(--display); font-weight:700; font-size:19px; letter-spacing:-.01em; line-height:1.25; }
+  .take .tx{ font-size:16.5px; line-height:1.55; color:var(--ink2); margin-top:4px; }
+  .more .post{ display:block; background:var(--surface); border:1px solid var(--rule); border-radius:3px; padding:18px 20px;
+               margin-bottom:12px; text-decoration:none; color:var(--ink); box-shadow:var(--shadow); }
+  .more .post h3{ font-size:19px; margin:0 0 6px; } .more .post p{ font-size:15.5px; color:var(--ink2); margin:0 0 8px; }
+  .more .post .go{ font-family:var(--mono); font-size:12px; color:var(--flag); }
+  .more .post:hover h3{ color:var(--flag); }
   .ravi{ background:#FFF1B8; color:#5A4500; font-family:var(--mono); font-size:13px; padding:2px 6px; border-radius:3px; }
   footer{ margin-top:64px; padding-top:20px; border-top:1px solid var(--rule); font-family:var(--mono); font-size:11.5px; color:var(--ink3); line-height:1.7; }
   .backlink{ display:inline-block; font-family:var(--mono); font-size:12px; letter-spacing:.06em; color:var(--ink3); text-decoration:none; padding-block:26px 0; }
@@ -158,57 +172,62 @@ def main():
 
     def render(text):
         h = markdown.markdown(text, extensions=["tables"])
+        # tables of words (not figures) wrap normally, with the leak column narrow and the fix column wide
+        h = re.sub(r"<table>(?=(?:(?!</table>).)*<td><strong>)", '<table class="words">', h, flags=re.S)
         h = re.sub(r"\[RAVI:([^\]]*)\]", lambda m: f'<span class="ravi">[RAVI:{m.group(1)}]</span>', h)
         return h.replace("<p>@@ARCH@@</p>", ARCH)
 
-    body, approach_html = [], ""
+    body, approach_html, short_html = [], "", ""
     for sec in sections:
         sec = sec.lstrip("# ")
         title, txt = sec.split("\n", 1)
         if title.startswith("How this works"):  # the method box under the headline, as in the previous post
             paras = [p for p in txt.strip().split("\n\n") if p.strip()]
-            inside = [p for p in paras if not p.startswith("**The result.**")]
-            after = [p for p in paras if p.startswith("**The result.**")]
             approach_html = (f'<section class="col" style="margin-top:30px"><div class="approach"><span class="lbl">{html.escape(title)}</span>'
-                             + "".join(render(p) for p in inside) + "</div>"
-                             + "".join(render(p) for p in after) + "</section>")
+                             + "".join(render(p) for p in paras) + "</div></section>")
+            continue
+        if title.startswith("The short version"):  # one plain sentence per finding, numbered
+            items = re.findall(r"^\d+\.\s+\*\*(.+?)\*\*\s*(.+)$", txt, flags=re.M)
+            rows = "".join(f'<div class="take"><div class="n">{i}</div><div><div class="hd">{html.escape(a)}</div>'
+                           f'<div class="tx">{render(b)[3:-4]}</div></div></div>' for i, (a, b) in enumerate(items, 1))
+            short_html = (f'<section class="col"><div class="exec"><h2><span class="rule"></span>{html.escape(title)}</h2>'
+                          f'<div class="sub">five findings in plain words</div><div class="takes">{rows}</div></div></section>')
+            continue
+        if title.startswith("More writing"):
+            links = re.findall(r"^- \[(.+?)\]\((.+?)\)\s*(.*)$", txt, flags=re.M)
+            cards = "".join(f'<a class="post" href="{u.replace("https://rvshankar45-jpg.github.io", "")}"><h3>{html.escape(t)}</h3>'
+                            f'<p>{html.escape(d)}</p><span class="go">Read →</span></a>' for t, u, d in links)
+            body.append(f'<section class="col more"><span hidden>MORE-WRITING-START</span>'
+                        f'<h2><span class="rule"></span>{html.escape(title)}</h2>{cards}</section>')
             continue
         h = f'<h2><span class="rule"></span>{html.escape(title)}</h2>' + render(txt)
-        if title.startswith("The fixes"):
+        if title.startswith("What each fix saved"):
             steps = ["v1_naive", "plus_route", "plus_retrieve", "plus_trim", "plus_tight_cache", "v2_full", "cache_full_kb"]
-            lbl = ["v1 naive", "+ routing", "+ retrieval", "+ trim history", "+ short prompt", "v2 (+ concise)", "whole manual, cached"]
+            lbl = ["Version 1", "+ routing", "+ retrieval", "+ history trim", "+ short prompt", "Version 2", "Whole manual, cached"]
             rows = [(lbl[i], s.loc[k, "total_cost_usd"], f"${s.loc[k, 'total_cost_usd']:.2f} <small>q {s.loc[k, 'mean_quality']:.2f}</small>",
                      "v1" if k == "v1_naive" else ("good" if k == "cache_full_kb" else "v2"), k in ("v2_full", "cache_full_kb"))
                     for i, k in enumerate(steps)]
-            h += bars(rows, v1, "Cost of the same answers after each step",
-                      f"{n} answers · US$ at list API prices · q = average judge score out of 5",
-                      "All bars share one scale. The last bar is the extra build: short prompt plus the whole manual, cached.")
-        if title.startswith("Did Laya"):
+            h += bars(rows, v1, "Cost of the same 140 answers after each fix",
+                      "US$ at the provider's list prices · q = average grade out of 5",
+                      "All bars share one scale. The green bar is the extra build: short prompt plus the whole manual, cached.")
+        if title.startswith("Does a smarter router"):
             order = [("Laya off the shelf", "laya_zero_shot@0.50"), ("Message-length rule", "length_rule"),
                      ("Small model + trained head", "minilm_head"), ("Laya + trained head", "laya_head"),
                      ("Perfect hindsight", "hindsight_ceiling")]
             rows = [(nm, rh.loc[k, "saving_vs_always_sonnet"], f"{pct(rh.loc[k, 'saving_vs_always_sonnet'])} <small>q {rh.loc[k, 'quality']:.2f}</small>",
                      "v2" if k == "laya_head" else ("good" if k == "hindsight_ceiling" else "mute"), k == "laya_head") for nm, k in order]
             h += bars(rows, rh.loc["hindsight_ceiling", "saving_vs_always_sonnet"], "How much each router saved",
-                      "100 held-out questions · saving vs always using the strong model · q = average quality",
-                      "Trained heads learn one thing: will the cheap model's answer hold up? The hindsight bar uses the answers' scores, so it can't be built.")
-        if title.startswith("The trade-off"):
-            order = [("Reasoning off", "always_strong"), ("Low effort", "sonnet_low"), ("Medium effort", "sonnet_medium"), ("High effort", "sonnet_high")]
+                      "100 test questions · saving vs always using the expensive model · q = average grade",
+                      "Trained heads learn one thing: will the cheap model's answer hold up? The hindsight bar uses the answers' grades, so it can't be built.")
+        if title.startswith("Should the expensive model"):
+            order = [("Thinking off", "always_strong"), ("Low effort", "sonnet_low"), ("Medium effort", "sonnet_medium"), ("High effort", "sonnet_high")]
             rows = [(nm, eff.loc[k, "total_cost_usd"], f"${eff.loc[k, 'total_cost_usd']:.3f} <small>q {eff.loc[k, 'mean_quality']:.2f}</small>",
                      "v2" if k == "sonnet_low" else "mute", k == "sonnet_low") for nm, k in order]
-            h += bars(rows, eff.total_cost_usd.loc[[k for _, k in order]].max(), "Cost by reasoning effort (strong model)",
-                      f"{int(eff.loc['sonnet_low', 'n'])} questions · same prompts · q = average quality",
-                      f"Hidden reasoning tokens: low {int(eff.loc['sonnet_low', 'thinking_tokens']):,}, high {int(eff.loc['sonnet_high', 'thinking_tokens']):,}.")
+            h += bars(rows, eff.total_cost_usd.loc[[k for _, k in order]].max(), "Cost by thinking setting (expensive model)",
+                      f"{int(eff.loc['sonnet_low', 'n'])} questions · same prompts · q = average grade",
+                      f"Hidden thinking tokens: low {int(eff.loc['sonnet_low', 'thinking_tokens']):,}, high {int(eff.loc['sonnet_high', 'thinking_tokens']):,}.")
         body.append(f'<section class="col">{h}</section>')
 
-    finds = [
-        (pct(retr_share), "of the saving", f"came from <b>retrieval</b>: sending three manual sections instead of all of it. It also caused most of the quality loss."),
-        (f"{s.loc['cache_full_kb', 'mean_quality']:.2f}", "best quality", f"came from the build I added: <b>the whole manual, cached</b>, against v1's {s.loc['v1_naive', 'mean_quality']:.2f}, at {pct(1 - s.loc['cache_full_kb', 'total_cost_usd'] / v1)} below v1's cost."),
-        (f"{pct(zs)} → {pct(tr)}", "router saving", f"<b>Laya</b> off the shelf, then trained on {len(pd.read_csv(ROOT / 'data' / 'router_train.csv'))} labelled questions. Perfect hindsight would save {pct(rh.loc['hindsight_ceiling', 'saving_vs_always_sonnet'])}."),
-        (f"{rs.loc['always_cheap', 'quality_simple']:.2f}", "cheap model, simple Qs", f"against the strong model's {rs.loc['always_strong', 'quality_simple']:.2f}. <b>“Simple” to a human isn't “safe for the cheap model”.</b>"),
-        (f"−{pct(low_save)}", "low effort", "Turning the strong model's reasoning <b>down</b> cost less than switching it off, with no measurable quality difference."),
-    ]
-    find_html = "\n".join(f'<div class="find"><div class="fig">{a}<small>{b}</small></div><div class="txt">{c}</div></div>' for a, b, c in finds)
     stats = [(f"${v2:.2f}", f"cost of {n} answers · v1 ${v1:.2f}"), (pct(1 - tok["v2_full"] / tok["v1_naive"]), "fewer tokens"),
              (f"{s.loc['v2_full', 'mean_quality']:.2f}", f"average quality / 5 · v1 {s.loc['v1_naive', 'mean_quality']:.2f}"),
              (pct(tr), "trained router saving")]
@@ -251,8 +270,7 @@ def main():
   <div class="col"><div class="thesis"><div class="big">{pct(1 - v2 / v1)}</div><div class="say"><b>Cheaper, for the same {n} answers.</b>
     ${v1:.2f} became ${v2:.2f}, with {pct(1 - tok['v2_full'] / tok['v1_naive'])} fewer tokens. Half of it came from sending less context; about a sixth from the model router everyone talks about.</div></div></div>
   <div class="col"><div class="stats">{stat_html}</div></div>
-  <section class="col"><div class="exec"><h2><span class="rule"></span>The short version</h2><div class="sub">five findings · no statistics required</div>
-    <div class="finds">{find_html}</div></div></section>
+  {short_html}
   {"".join(body)}
   <footer class="col">
     {n} answers · 100 test questions + 10 conversations · 270 separate training questions for the router.

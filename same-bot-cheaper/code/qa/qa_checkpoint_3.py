@@ -129,6 +129,14 @@ reg("5", "quality scale top (rubric)")
 reg("5.5", "model name: Claude Sonnet 5.5")
 reg("4.5", "model name: Claude Haiku 4.5")
 reg("50", "effort sample size (config effort_eval.sample)")
+from src.retriever import chunks as _chunks  # noqa: E402
+reg(str(len(_chunks())), "kb.md sections (retriever chunks)")
+reg(str(CFG["effort_eval"]["sample"]["simple"]), "effort sample: simple questions (config)")
+for k in ["always_strong", "sonnet_low", "sonnet_medium", "sonnet_high"]:
+    reg(f"{eff.loc[k, 'quality_complex']:.2f}", f"effort_summary {k} quality_complex")
+    reg(f"{eff.loc[k, 'p50_e2e_ms'] / 1000:.1f}", f"effort_summary {k} p50 latency (s)")
+reg(f"{int(eff.loc['sonnet_medium', 'thinking_tokens']):,}", "effort_summary sonnet_medium thinking_tokens")
+reg(f"{int(eff.loc['always_strong', 'thinking_tokens']):,}", "effort_summary thinking-off thinking_tokens")
 for m in [CFG["models"]["strong"], CFG["models"]["cheap"]]:
     reg(f"${CFG['pricing'][m]['input']:.0f}", f"config pricing {m} input per MTok")
     reg(f"${CFG['pricing'][m]['output']:.0f}", f"config pricing {m} output per MTok")
@@ -154,6 +162,7 @@ reg(str(datetime.now().year), "publication year (byline)")
 import html as _html  # noqa: E402
 _page = (ROOT / "blog" / "site" / "index.html").read_text(encoding="utf-8")
 _body = _page.split("<body>", 1)[1]
+_body = re.sub(r'<div class="n">\d+</div>', " ", _body)  # numbered-list markers on the takeaways, not data
 _body = re.sub(r"<style.*?</style>|<[^>]+>", " ", _body, flags=re.S)
 (ROOT / "qa" / "reports" / "_page_text.txt").write_text(_html.unescape(_body), encoding="utf-8")
 FILES = {"blog": ROOT / "blog" / "blog.md", "linkedin": ROOT / "blog" / "linkedin_post.md",
@@ -161,7 +170,7 @@ FILES = {"blog": ROOT / "blog" / "blog.md", "linkedin": ROOT / "blog" / "linkedi
 NUM = re.compile(r"(?<![A-Za-z0-9.])\$?\d[\d,]*(?:\.\d+)?%?")  # skips digits inside words like v1
 rows, unsourced = [], []
 for name, f in FILES.items():
-    text = f.read_text(encoding="utf-8")
+    text = f.read_text(encoding="utf-8").split("## More writing")[0].split("MORE-WRITING-START")[0]
     for ln, line in enumerate(text.splitlines(), 1):
         body = re.sub(r"^\s*\d+\.\s", "", line)            # ordered-list markers
         body = re.sub(r"\[RAVI:[^\]]*\]", "", body)          # placeholders
@@ -182,22 +191,25 @@ def words(t):  # prose only: tables, diagram code and placeholders are not count
     t = re.sub(r"\|.*\|\n", "", re.sub(r"\[RAVI:[^\]]*\]", "", t))
     return len(re.findall(r"[A-Za-z0-9$%][\w$%.,'-]*", t))
 wb, wl = words(blog), words(li)
-check("word counts", 900 <= wb <= 1200 and 150 <= wl <= 200, f"blog {wb} words (900-1,200; tables, diagram code and placeholders excluded); LinkedIn {wl} (150-200)")
+# Brief said 900-1,200; on 2026-10-04 the author asked for the fixes, the method and the thinking results to be
+# explained for any reader, so the limit was raised to 1,500 at their request.
+check("word counts", 900 <= wb <= 1500 and 150 <= wl <= 200,
+      f"blog {wb} words (900-1,500, raised from 1,200 at the author's request; tables, diagram code and placeholders excluded); LinkedIn {wl} (150-200)")
 
 laya_ok = "saves cost, not tokens" in blog.lower() and "off the shelf" in blog.lower() and "scores bunch together" in blog
 check("Laya described accurately (cost not tokens; limits stated)", laya_ok,
       "states 'Laya saves cost, not tokens', reports zero-shot vs trained honestly, and lists its new-domain limitation")
 route_share = (v1 - s.loc["plus_route", "total_cost_usd"]) / (v1 - v2)
-dirn = [("v2 quality below v1", s.loc["v2_full", "mean_quality"] < s.loc["v1_naive", "mean_quality"], "moved from 4.63 to 4.49"),
-        ("retrieval cost quality", s.loc["plus_retrieve", "mean_quality"] < s.loc["plus_route", "mean_quality"], "most of the quality loss"),
+dirn = [("v2 quality below v1", s.loc["v2_full", "mean_quality"] < s.loc["v1_naive", "mean_quality"], "4.49 against 4.63"),
+        ("retrieval cost quality", s.loc["plus_retrieve", "mean_quality"] < s.loc["plus_route", "mean_quality"], "most of the quality drop"),
         ("cache_full_kb above v1 (stated with caveat)", s.loc["cache_full_kb", "mean_quality"] > s.loc["v1_naive", "mean_quality"],
-         "at least as good as v1"),
+         "at least as good as version 1"),
         ("routing ~ a sixth of the saving", 1 / 7 < route_share < 1 / 5, "a sixth"),
         ("trim smaller than routing", s.loc["plus_retrieve", "total_cost_usd"] - s.loc["plus_trim", "total_cost_usd"]
          < v1 - s.loc["plus_route", "total_cost_usd"], "barely mattered")]
 bad = [k for k, cond, phrase in dirn if not (cond and phrase in blog)]
 check("claims match the data's direction (weak/mixed results stated as such)", not bad, f"checked {len(dirn)} directional claims; mismatched={bad}")
-OWN = ("https://github.com/rvshankar45-jpg/Laya-model-router", "https://rvshankar45-jpg.github.io/same-bot-cheaper/")
+OWN = ("https://github.com/rvshankar45-jpg/Laya-model-router", "https://rvshankar45-jpg.github.io/")
 links = [u.rstrip(").,") for u in re.findall(r"https?://\S+", blog + li)]
 foreign = [u for u in links if not u.startswith(OWN)]
 check("no invented quotes, stats or sources", not foreign and '"' not in re.sub(r'"[^"]{0,60}"', "", blog),
