@@ -1,0 +1,15 @@
+{
+ "resamples": 2000,
+ "seed": 0,
+ "extra_saving_points_median": 8.018398917653936,
+ "extra_saving_points_ci95": [
+  2.016243954517664,
+  14.721126850593063
+ ],
+ "share_resamples_extra_saving_positive": 0.9955,
+ "quality_change_median": -0.05999999999999961,
+ "quality_change_ci95": [
+  -0.1502500000000003,
+  0.040000000000000036
+ ]
+}

@@ -8,7 +8,7 @@
 | blog | 9 | `9` | kb.md sections (retriever chunks) |
 | blog | 11 | `1` | quality scale bottom (rubric) |
 | blog | 11 | `5.5` | model name: Claude Sonnet 5.5 |
-| blog | 11 | `2` | config history.keep_last_turns |
+| blog | 11 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points) |
 | blog | 13 | `100` | test_queries.csv rows |
 | blog | 13 | `62` | test_queries.csv label=simple |
 | blog | 13 | `38` | test_queries.csv label=complex |
@@ -36,18 +36,18 @@
 | blog | 23 | `4.80` | summary.csv cache_full_kb mean_quality |
 | blog | 24 | `12%` | routing_summary laya vs always_strong cost; router_head_summary zero-shot saving |
 | blog | 24 | `270` | data/router_train.csv rows |
-| blog | 24 | `20%` | router_head_summary laya_head saving |
+| blog | 24 | `20%` | router_head_summary laya_head saving; router_head_summary laya_zero_shot@0.50 share_to_haiku |
 | blog | 25 | `28%` | effort: high vs low cost |
-| blog | 35 | `2` | config history.keep_last_turns |
+| blog | 35 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points) |
 | blog | 38 | `3` | config retrieval.top_k |
-| blog | 39 | `2` | config history.keep_last_turns |
+| blog | 39 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points) |
 | blog | 40 | `650` | persona tokens on strong model = 652 (rounded to 10) |
 | blog | 40 | `170` | tight prompt tokens on strong model = 170 (rounded to 10) |
 | blog | 40 | `170` | tight prompt tokens on strong model = 170 (rounded to 10) |
 | blog | 49 | `4.5` | model name: Claude Haiku 4.5 |
 | blog | 50 | `5.5` | model name: Claude Sonnet 5.5 |
 | blog | 51 | `3` | config retrieval.top_k |
-| blog | 51 | `2` | config history.keep_last_turns |
+| blog | 51 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points) |
 | blog | 60 | `140` | 100 queries + conversation turns (data files) |
 | blog | 62 | `1` | quality scale bottom (rubric) |
 | blog | 62 | `$1.95` | summary.csv v1_naive total_cost_usd |
@@ -60,7 +60,7 @@
 | blog | 65 | `4.39` | summary.csv plus_trim mean_quality |
 | blog | 66 | `$0.91` | summary.csv plus_tight_cache total_cost_usd |
 | blog | 66 | `4.40` | summary.csv plus_tight_cache mean_quality |
-| blog | 67 | `2` | config history.keep_last_turns |
+| blog | 67 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points) |
 | blog | 67 | `$0.69` | summary.csv v2_full total_cost_usd |
 | blog | 67 | `4.49` | summary.csv v2_full mean_quality |
 | blog | 69 | `9` | kb.md sections (retriever chunks) |
@@ -86,57 +86,84 @@
 | blog | 81 | `136` | llm_router tokens per query |
 | blog | 81 | `1,176` | routing_summary llm_router p50_router_ms |
 | blog | 81 | `194` | routing_summary laya p50_router_ms |
-| blog | 83 | `270` | data/router_train.csv rows |
-| blog | 83 | `12%` | routing_summary laya vs always_strong cost; router_head_summary zero-shot saving |
-| blog | 83 | `20%` | router_head_summary laya_head saving |
-| blog | 83 | `4.54` | router_head_summary laya_head quality |
-| blog | 83 | `38%` | router_head_summary hindsight ceiling saving; router_head_summary hindsight_ceiling saving |
-| blog | 85 | `4.42` | routing_summary always_cheap quality_simple |
-| blog | 85 | `4.79` | routing_summary always_strong quality_simple |
-| blog | 87 | `0.2` | rule fixed in eval/run_routing_eval.py (complex gap <= 0.2) |
-| blog | 87 | `0.50` | threshold_sweep recommended |
-| blog | 87 | `4.32` | threshold_sweep quality_complex at recommended |
-| blog | 87 | `4.00` | threshold_sweep quality_complex at next threshold |
-| blog | 91 | `50` | effort_summary sample size; effort sample size (config effort_eval.sample) |
-| blog | 91 | `30` | effort sample: simple questions (config) |
-| blog | 91 | `20` | per_answer_eval: answers improving >=2 v2_full -> cache_full_kb; judge_handcheck.md answers checked |
-| blog | 93 | `50` | effort_summary sample size; effort sample size (config effort_eval.sample) |
-| blog | 95 | `$0.264` | effort_summary always_strong total_cost_usd |
-| blog | 95 | `0` | effort_summary thinking-off thinking_tokens |
-| blog | 95 | `4.62` | effort_summary always_strong mean_quality; effort_summary sonnet_medium mean_quality |
-| blog | 95 | `4.45` | effort_summary always_strong quality_complex |
-| blog | 95 | `2.5` | effort_summary always_strong p50 latency (s) |
-| blog | 96 | `$0.241` | effort_summary sonnet_low total_cost_usd |
-| blog | 96 | `1,683` | effort_summary sonnet_low thinking_tokens |
-| blog | 96 | `4.66` | effort_summary sonnet_low mean_quality; effort_summary sonnet_high mean_quality |
-| blog | 96 | `4.60` | routing_summary laya mean_quality; effort_summary sonnet_low quality_complex |
-| blog | 96 | `2.3` | effort_summary sonnet_low p50 latency (s) |
-| blog | 97 | `$0.259` | effort_summary sonnet_medium total_cost_usd |
-| blog | 97 | `3,433` | effort_summary sonnet_medium thinking_tokens |
-| blog | 97 | `4.62` | effort_summary always_strong mean_quality; effort_summary sonnet_medium mean_quality |
-| blog | 97 | `4.50` | effort_summary sonnet_medium quality_complex |
-| blog | 97 | `2.6` | effort_summary sonnet_medium p50 latency (s) |
-| blog | 98 | `$0.307` | effort_summary sonnet_high total_cost_usd |
-| blog | 98 | `8,335` | effort_summary sonnet_high thinking_tokens |
-| blog | 98 | `4.66` | effort_summary sonnet_low mean_quality; effort_summary sonnet_high mean_quality |
-| blog | 98 | `4.65` | effort_summary sonnet_high quality_complex |
-| blog | 98 | `3.5` | effort_summary sonnet_high p50 latency (s) |
-| blog | 100 | `9%` | effort: low vs thinking off |
-| blog | 100 | `28%` | effort: high vs low cost |
-| blog | 102 | `26%` | effort_combo laya_head + sonnet_low saving |
-| blog | 106 | `8%` | cache_full_kb vs v2_full cost |
-| blog | 106 | `2` | config history.keep_last_turns |
-| blog | 106 | `140` | 100 queries + conversation turns (data files) |
-| blog | 106 | `1` | quality scale bottom (rubric) |
-| blog | 106 | `$5,368` | cache_full_kb cost per answer x 1M |
-| blog | 106 | `1` | quality scale bottom (rubric) |
-| blog | 106 | `$13,946` | v1 cost per answer x 1M |
-| blog | 125 | `78%` | variance.csv judge re-score identical share |
-| blog | 125 | `17` | judge_handcheck.md AGREE count |
-| blog | 125 | `20` | per_answer_eval: answers improving >=2 v2_full -> cache_full_kb; judge_handcheck.md answers checked |
-| blog | 125 | `100` | test_queries.csv rows |
-| blog | 125 | `0.1` | noise floor stated from judge variance (mean |diff| 0.23 per answer) |
+| blog | 83 | `0.2` | rule fixed in eval/run_routing_eval.py (complex gap <= 0.2) |
+| blog | 83 | `0.50` | threshold_sweep recommended |
+| blog | 83 | `4.32` | threshold_sweep quality_complex at recommended |
+| blog | 83 | `4.00` | threshold_sweep quality_complex at next threshold |
+| blog | 87 | `0.63` | router_head_summary laya_zero_shot@0.50 auc_haiku_ok |
+| blog | 87 | `0.5` | AUC of a coin flip (definition) |
+| blog | 87 | `1` | quality scale bottom (rubric) |
+| blog | 91 | `270` | data/router_train.csv rows |
+| blog | 92 | `37%` | router_head_qa train_haiku_ok_rate |
+| blog | 94 | `100` | test_queries.csv rows |
+| blog | 98 | `12%` | routing_summary laya vs always_strong cost; router_head_summary zero-shot saving |
+| blog | 98 | `4.60` | routing_summary laya mean_quality; effort_summary sonnet_low quality_complex |
+| blog | 98 | `20%` | router_head_summary laya_head saving; router_head_summary laya_zero_shot@0.50 share_to_haiku |
+| blog | 99 | `13%` | router_head_summary length_rule saving |
+| blog | 99 | `4.59` | router_head_summary length_rule quality |
+| blog | 99 | `23%` | router_head_summary length_rule share_to_haiku |
+| blog | 100 | `15%` | router_head_summary minilm_head saving |
+| blog | 100 | `4.58` | router_head_summary minilm_head quality |
+| blog | 100 | `27%` | router_head_summary minilm_head share_to_haiku |
+| blog | 101 | `20%` | router_head_summary laya_head saving; router_head_summary laya_zero_shot@0.50 share_to_haiku |
+| blog | 101 | `4.54` | router_head_summary laya_head quality |
+| blog | 101 | `36%` | router_head_summary laya_head share_to_haiku |
+| blog | 102 | `38%` | router_head_summary hindsight ceiling saving; router_head_summary hindsight_ceiling saving |
+| blog | 102 | `4.68` | router_head_summary hindsight_ceiling quality |
+| blog | 102 | `60%` | router_head_summary hindsight_ceiling share_to_haiku |
+| blog | 104 | `20%` | router_head_summary laya_head saving; router_head_summary laya_zero_shot@0.50 share_to_haiku |
+| blog | 104 | `12%` | routing_summary laya vs always_strong cost; router_head_summary zero-shot saving |
+| blog | 104 | `0.63` | router_head_summary laya_zero_shot@0.50 auc_haiku_ok |
+| blog | 104 | `0.75` | router_head_summary laya_head auc_haiku_ok |
+| blog | 104 | `2,000` | router_head_bootstrap resamples |
+| blog | 104 | `1,991` | router_head_bootstrap resamples with extra saving > 0 |
+| blog | 104 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points) |
+| blog | 104 | `15` | router_head_bootstrap extra saving 95% CI high (points) |
+| blog | 104 | `0.76` | router_head_summary length_rule auc_haiku_ok |
+| blog | 104 | `13%` | router_head_summary length_rule saving |
+| blog | 106 | `4.42` | routing_summary always_cheap quality_simple |
+| blog | 106 | `4.79` | routing_summary always_strong quality_simple |
+| blog | 106 | `38%` | router_head_summary hindsight ceiling saving; router_head_summary hindsight_ceiling saving |
+| blog | 110 | `50` | effort_summary sample size; effort sample size (config effort_eval.sample) |
+| blog | 110 | `30` | effort sample: simple questions (config) |
+| blog | 110 | `20` | per_answer_eval: answers improving >=2 v2_full -> cache_full_kb; judge_handcheck.md answers checked |
+| blog | 112 | `50` | effort_summary sample size; effort sample size (config effort_eval.sample) |
+| blog | 114 | `$0.264` | effort_summary always_strong total_cost_usd |
+| blog | 114 | `0` | effort_summary thinking-off thinking_tokens |
+| blog | 114 | `4.62` | effort_summary always_strong mean_quality; effort_summary sonnet_medium mean_quality |
+| blog | 114 | `4.45` | effort_summary always_strong quality_complex |
+| blog | 114 | `2.5` | effort_summary always_strong p50 latency (s) |
+| blog | 115 | `$0.241` | effort_summary sonnet_low total_cost_usd |
+| blog | 115 | `1,683` | effort_summary sonnet_low thinking_tokens |
+| blog | 115 | `4.66` | effort_summary sonnet_low mean_quality; effort_summary sonnet_high mean_quality |
+| blog | 115 | `4.60` | routing_summary laya mean_quality; effort_summary sonnet_low quality_complex |
+| blog | 115 | `2.3` | effort_summary sonnet_low p50 latency (s) |
+| blog | 116 | `$0.259` | effort_summary sonnet_medium total_cost_usd |
+| blog | 116 | `3,433` | effort_summary sonnet_medium thinking_tokens |
+| blog | 116 | `4.62` | effort_summary always_strong mean_quality; effort_summary sonnet_medium mean_quality |
+| blog | 116 | `4.50` | effort_summary sonnet_medium quality_complex |
+| blog | 116 | `2.6` | effort_summary sonnet_medium p50 latency (s) |
+| blog | 117 | `$0.307` | effort_summary sonnet_high total_cost_usd |
+| blog | 117 | `8,335` | effort_summary sonnet_high thinking_tokens |
+| blog | 117 | `4.66` | effort_summary sonnet_low mean_quality; effort_summary sonnet_high mean_quality |
+| blog | 117 | `4.65` | effort_summary sonnet_high quality_complex |
+| blog | 117 | `3.5` | effort_summary sonnet_high p50 latency (s) |
+| blog | 119 | `9%` | effort: low vs thinking off |
+| blog | 119 | `28%` | effort: high vs low cost |
+| blog | 121 | `26%` | effort_combo laya_head + sonnet_low saving |
+| blog | 125 | `8%` | cache_full_kb vs v2_full cost |
+| blog | 125 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points) |
 | blog | 125 | `140` | 100 queries + conversation turns (data files) |
+| blog | 125 | `1` | quality scale bottom (rubric) |
+| blog | 125 | `$5,368` | cache_full_kb cost per answer x 1M |
+| blog | 125 | `1` | quality scale bottom (rubric) |
+| blog | 125 | `$13,946` | v1 cost per answer x 1M |
+| blog | 144 | `78%` | variance.csv judge re-score identical share |
+| blog | 144 | `17` | judge_handcheck.md AGREE count |
+| blog | 144 | `20` | per_answer_eval: answers improving >=2 v2_full -> cache_full_kb; judge_handcheck.md answers checked |
+| blog | 144 | `100` | test_queries.csv rows |
+| blog | 144 | `0.1` | noise floor stated from judge variance (mean |diff| 0.23 per answer) |
+| blog | 144 | `140` | 100 queries + conversation turns (data files) |
 | linkedin | 1 | `64%` | 1 - v2_full/v1_naive total_cost_usd |
 | linkedin | 3 | `140` | 100 queries + conversation turns (data files) |
 | linkedin | 7 | `$1.95` | summary.csv v1_naive total_cost_usd |
@@ -147,7 +174,7 @@
 | linkedin | 7 | `5` | quality scale top (rubric) |
 | linkedin | 9 | `12%` | routing_summary laya vs always_strong cost; router_head_summary zero-shot saving |
 | linkedin | 9 | `270` | data/router_train.csv rows |
-| linkedin | 9 | `20%` | router_head_summary laya_head saving |
+| linkedin | 9 | `20%` | router_head_summary laya_head saving; router_head_summary laya_zero_shot@0.50 share_to_haiku |
 | linkedin | 11 | `4.42` | routing_summary always_cheap quality_simple |
 | linkedin | 11 | `4.79` | routing_summary always_strong quality_simple |
 | linkedin | 13 | `4.80` | summary.csv cache_full_kb mean_quality |
@@ -161,7 +188,7 @@
 | web page | 12 | `9` | kb.md sections (retriever chunks) |
 | web page | 12 | `1` | quality scale bottom (rubric) |
 | web page | 12 | `5.5` | model name: Claude Sonnet 5.5 |
-| web page | 12 | `2` | config history.keep_last_turns |
+| web page | 12 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points) |
 | web page | 12 | `100` | test_queries.csv rows |
 | web page | 12 | `62` | test_queries.csv label=simple |
 | web page | 12 | `38` | test_queries.csv label=complex |
@@ -189,7 +216,7 @@
 | web page | 18 | `4.49` | summary.csv v2_full mean_quality |
 | web page | 18 | `5` | quality scale top (rubric) |
 | web page | 18 | `4.63` | summary.csv v1_naive mean_quality; routing_summary always_strong mean_quality |
-| web page | 19 | `20%` | router_head_summary laya_head saving |
+| web page | 19 | `20%` | router_head_summary laya_head saving; router_head_summary laya_zero_shot@0.50 share_to_haiku |
 | web page | 20 | `64%` | 1 - v2_full/v1_naive total_cost_usd |
 | web page | 20 | `140` | 100 queries + conversation turns (data files) |
 | web page | 20 | `$0.69` | summary.csv v2_full total_cost_usd |
@@ -202,18 +229,18 @@
 | web page | 20 | `4.80` | summary.csv cache_full_kb mean_quality |
 | web page | 20 | `12%` | routing_summary laya vs always_strong cost; router_head_summary zero-shot saving |
 | web page | 20 | `270` | data/router_train.csv rows |
-| web page | 20 | `20%` | router_head_summary laya_head saving |
+| web page | 20 | `20%` | router_head_summary laya_head saving; router_head_summary laya_zero_shot@0.50 share_to_haiku |
 | web page | 20 | `28%` | effort: high vs low cost |
-| web page | 26 | `2` | config history.keep_last_turns |
+| web page | 26 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points) |
 | web page | 36 | `3` | config retrieval.top_k |
-| web page | 40 | `2` | config history.keep_last_turns |
+| web page | 40 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points) |
 | web page | 43 | `650` | persona tokens on strong model = 652 (rounded to 10) |
 | web page | 43 | `170` | tight prompt tokens on strong model = 170 (rounded to 10) |
 | web page | 44 | `170` | tight prompt tokens on strong model = 170 (rounded to 10) |
 | web page | 61 | `4.5` | model name: Claude Haiku 4.5 |
 | web page | 62 | `5.5` | model name: Claude Sonnet 5.5 |
 | web page | 64 | `3` | config retrieval.top_k |
-| web page | 64 | `2` | config history.keep_last_turns |
+| web page | 64 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points) |
 | web page | 76 | `140` | 100 queries + conversation turns (data files) |
 | web page | 82 | `1` | quality scale bottom (rubric) |
 | web page | 83 | `$1.95` | summary.csv v1_naive total_cost_usd |
@@ -226,7 +253,7 @@
 | web page | 99 | `4.39` | summary.csv plus_trim mean_quality |
 | web page | 103 | `$0.91` | summary.csv plus_tight_cache total_cost_usd |
 | web page | 104 | `4.40` | summary.csv plus_tight_cache mean_quality |
-| web page | 107 | `2` | config history.keep_last_turns |
+| web page | 107 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points) |
 | web page | 108 | `$0.69` | summary.csv v2_full total_cost_usd |
 | web page | 109 | `4.49` | summary.csv v2_full mean_quality |
 | web page | 113 | `9` | kb.md sections (retriever chunks) |
@@ -257,7 +284,7 @@
 | web page | 119 | `4.39` | summary.csv plus_trim mean_quality |
 | web page | 120 | `$0.91` | summary.csv plus_tight_cache total_cost_usd |
 | web page | 120 | `4.40` | summary.csv plus_tight_cache mean_quality |
-| web page | 121 | `2` | config history.keep_last_turns |
+| web page | 121 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points) |
 | web page | 121 | `$0.69` | summary.csv v2_full total_cost_usd |
 | web page | 121 | `4.49` | summary.csv v2_full mean_quality |
 | web page | 122 | `$0.75` | summary.csv cache_full_kb total_cost_usd |
@@ -270,76 +297,103 @@
 | web page | 125 | `136` | llm_router tokens per query |
 | web page | 125 | `1,176` | routing_summary llm_router p50_router_ms |
 | web page | 125 | `194` | routing_summary laya p50_router_ms |
-| web page | 126 | `270` | data/router_train.csv rows |
-| web page | 126 | `12%` | routing_summary laya vs always_strong cost; router_head_summary zero-shot saving |
-| web page | 126 | `20%` | router_head_summary laya_head saving |
-| web page | 126 | `4.54` | router_head_summary laya_head quality |
-| web page | 126 | `38%` | router_head_summary hindsight ceiling saving; router_head_summary hindsight_ceiling saving |
-| web page | 127 | `4.42` | routing_summary always_cheap quality_simple |
-| web page | 127 | `4.79` | routing_summary always_strong quality_simple |
-| web page | 128 | `0.2` | rule fixed in eval/run_routing_eval.py (complex gap <= 0.2) |
-| web page | 128 | `0.50` | threshold_sweep recommended |
-| web page | 128 | `4.32` | threshold_sweep quality_complex at recommended |
-| web page | 128 | `4.00` | threshold_sweep quality_complex at next threshold |
-| web page | 128 | `100` | test_queries.csv rows |
-| web page | 129 | `12%` | routing_summary laya vs always_strong cost; router_head_summary zero-shot saving |
-| web page | 129 | `4.60` | routing_summary laya mean_quality; effort_summary sonnet_low quality_complex |
-| web page | 130 | `13%` | router_head_summary length_rule saving |
-| web page | 130 | `4.59` | router_head_summary length_rule quality |
-| web page | 131 | `15%` | router_head_summary minilm_head saving |
-| web page | 131 | `4.58` | router_head_summary minilm_head quality |
-| web page | 132 | `20%` | router_head_summary laya_head saving |
-| web page | 132 | `4.54` | router_head_summary laya_head quality |
-| web page | 133 | `38%` | router_head_summary hindsight ceiling saving; router_head_summary hindsight_ceiling saving |
-| web page | 133 | `4.68` | router_head_summary hindsight_ceiling quality |
-| web page | 134 | `50` | effort_summary sample size; effort sample size (config effort_eval.sample) |
-| web page | 134 | `30` | effort sample: simple questions (config) |
-| web page | 134 | `20` | per_answer_eval: answers improving >=2 v2_full -> cache_full_kb; judge_handcheck.md answers checked |
-| web page | 139 | `50` | effort_summary sample size; effort sample size (config effort_eval.sample) |
-| web page | 149 | `$0.264` | effort_summary always_strong total_cost_usd |
-| web page | 150 | `0` | effort_summary thinking-off thinking_tokens |
-| web page | 151 | `4.62` | effort_summary always_strong mean_quality; effort_summary sonnet_medium mean_quality |
-| web page | 152 | `4.45` | effort_summary always_strong quality_complex |
-| web page | 153 | `2.5` | effort_summary always_strong p50 latency (s) |
-| web page | 157 | `$0.241` | effort_summary sonnet_low total_cost_usd |
-| web page | 158 | `1,683` | effort_summary sonnet_low thinking_tokens |
-| web page | 159 | `4.66` | effort_summary sonnet_low mean_quality; effort_summary sonnet_high mean_quality |
-| web page | 160 | `4.60` | routing_summary laya mean_quality; effort_summary sonnet_low quality_complex |
-| web page | 161 | `2.3` | effort_summary sonnet_low p50 latency (s) |
-| web page | 165 | `$0.259` | effort_summary sonnet_medium total_cost_usd |
-| web page | 166 | `3,433` | effort_summary sonnet_medium thinking_tokens |
-| web page | 167 | `4.62` | effort_summary always_strong mean_quality; effort_summary sonnet_medium mean_quality |
-| web page | 168 | `4.50` | effort_summary sonnet_medium quality_complex |
-| web page | 169 | `2.6` | effort_summary sonnet_medium p50 latency (s) |
-| web page | 173 | `$0.307` | effort_summary sonnet_high total_cost_usd |
-| web page | 174 | `8,335` | effort_summary sonnet_high thinking_tokens |
-| web page | 175 | `4.66` | effort_summary sonnet_low mean_quality; effort_summary sonnet_high mean_quality |
-| web page | 176 | `4.65` | effort_summary sonnet_high quality_complex |
-| web page | 177 | `3.5` | effort_summary sonnet_high p50 latency (s) |
-| web page | 181 | `9%` | effort: low vs thinking off |
-| web page | 181 | `28%` | effort: high vs low cost |
-| web page | 182 | `26%` | effort_combo laya_head + sonnet_low saving |
-| web page | 182 | `50` | effort_summary sample size; effort sample size (config effort_eval.sample) |
-| web page | 183 | `$0.264` | effort_summary always_strong total_cost_usd |
-| web page | 183 | `4.62` | effort_summary always_strong mean_quality; effort_summary sonnet_medium mean_quality |
-| web page | 184 | `$0.241` | effort_summary sonnet_low total_cost_usd |
-| web page | 184 | `4.66` | effort_summary sonnet_low mean_quality; effort_summary sonnet_high mean_quality |
-| web page | 185 | `$0.259` | effort_summary sonnet_medium total_cost_usd |
-| web page | 185 | `4.62` | effort_summary always_strong mean_quality; effort_summary sonnet_medium mean_quality |
-| web page | 186 | `$0.307` | effort_summary sonnet_high total_cost_usd |
-| web page | 186 | `4.66` | effort_summary sonnet_low mean_quality; effort_summary sonnet_high mean_quality |
-| web page | 187 | `1,683` | effort_summary sonnet_low thinking_tokens |
-| web page | 187 | `8,335` | effort_summary sonnet_high thinking_tokens |
-| web page | 187 | `8%` | cache_full_kb vs v2_full cost |
-| web page | 187 | `2` | config history.keep_last_turns |
-| web page | 187 | `140` | 100 queries + conversation turns (data files) |
-| web page | 187 | `1` | quality scale bottom (rubric) |
-| web page | 187 | `$5,368` | cache_full_kb cost per answer x 1M |
-| web page | 187 | `1` | quality scale bottom (rubric) |
-| web page | 187 | `$13,946` | v1 cost per answer x 1M |
-| web page | 199 | `78%` | variance.csv judge re-score identical share |
-| web page | 199 | `17` | judge_handcheck.md AGREE count |
-| web page | 199 | `20` | per_answer_eval: answers improving >=2 v2_full -> cache_full_kb; judge_handcheck.md answers checked |
-| web page | 199 | `100` | test_queries.csv rows |
-| web page | 199 | `0.1` | noise floor stated from judge variance (mean |diff| 0.23 per answer) |
-| web page | 199 | `140` | 100 queries + conversation turns (data files) |
+| web page | 126 | `0.2` | rule fixed in eval/run_routing_eval.py (complex gap <= 0.2) |
+| web page | 126 | `0.50` | threshold_sweep recommended |
+| web page | 126 | `4.32` | threshold_sweep quality_complex at recommended |
+| web page | 126 | `4.00` | threshold_sweep quality_complex at next threshold |
+| web page | 126 | `0.63` | router_head_summary laya_zero_shot@0.50 auc_haiku_ok |
+| web page | 126 | `0.5` | AUC of a coin flip (definition) |
+| web page | 126 | `1` | quality scale bottom (rubric) |
+| web page | 129 | `270` | data/router_train.csv rows |
+| web page | 130 | `37%` | router_head_qa train_haiku_ok_rate |
+| web page | 132 | `100` | test_queries.csv rows |
+| web page | 146 | `12%` | routing_summary laya vs always_strong cost; router_head_summary zero-shot saving |
+| web page | 147 | `4.60` | routing_summary laya mean_quality; effort_summary sonnet_low quality_complex |
+| web page | 148 | `20%` | router_head_summary laya_head saving; router_head_summary laya_zero_shot@0.50 share_to_haiku |
+| web page | 152 | `13%` | router_head_summary length_rule saving |
+| web page | 153 | `4.59` | router_head_summary length_rule quality |
+| web page | 154 | `23%` | router_head_summary length_rule share_to_haiku |
+| web page | 158 | `15%` | router_head_summary minilm_head saving |
+| web page | 159 | `4.58` | router_head_summary minilm_head quality |
+| web page | 160 | `27%` | router_head_summary minilm_head share_to_haiku |
+| web page | 164 | `20%` | router_head_summary laya_head saving; router_head_summary laya_zero_shot@0.50 share_to_haiku |
+| web page | 165 | `4.54` | router_head_summary laya_head quality |
+| web page | 166 | `36%` | router_head_summary laya_head share_to_haiku |
+| web page | 170 | `38%` | router_head_summary hindsight ceiling saving; router_head_summary hindsight_ceiling saving |
+| web page | 171 | `4.68` | router_head_summary hindsight_ceiling quality |
+| web page | 172 | `60%` | router_head_summary hindsight_ceiling share_to_haiku |
+| web page | 176 | `20%` | router_head_summary laya_head saving; router_head_summary laya_zero_shot@0.50 share_to_haiku |
+| web page | 176 | `12%` | routing_summary laya vs always_strong cost; router_head_summary zero-shot saving |
+| web page | 176 | `0.63` | router_head_summary laya_zero_shot@0.50 auc_haiku_ok |
+| web page | 176 | `0.75` | router_head_summary laya_head auc_haiku_ok |
+| web page | 176 | `2,000` | router_head_bootstrap resamples |
+| web page | 176 | `1,991` | router_head_bootstrap resamples with extra saving > 0 |
+| web page | 176 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points) |
+| web page | 176 | `15` | router_head_bootstrap extra saving 95% CI high (points) |
+| web page | 176 | `0.76` | router_head_summary length_rule auc_haiku_ok |
+| web page | 176 | `13%` | router_head_summary length_rule saving |
+| web page | 177 | `4.42` | routing_summary always_cheap quality_simple |
+| web page | 177 | `4.79` | routing_summary always_strong quality_simple |
+| web page | 177 | `38%` | router_head_summary hindsight ceiling saving; router_head_summary hindsight_ceiling saving |
+| web page | 177 | `100` | test_queries.csv rows |
+| web page | 178 | `12%` | routing_summary laya vs always_strong cost; router_head_summary zero-shot saving |
+| web page | 178 | `4.60` | routing_summary laya mean_quality; effort_summary sonnet_low quality_complex |
+| web page | 179 | `13%` | router_head_summary length_rule saving |
+| web page | 179 | `4.59` | router_head_summary length_rule quality |
+| web page | 180 | `15%` | router_head_summary minilm_head saving |
+| web page | 180 | `4.58` | router_head_summary minilm_head quality |
+| web page | 181 | `20%` | router_head_summary laya_head saving; router_head_summary laya_zero_shot@0.50 share_to_haiku |
+| web page | 181 | `4.54` | router_head_summary laya_head quality |
+| web page | 182 | `38%` | router_head_summary hindsight ceiling saving; router_head_summary hindsight_ceiling saving |
+| web page | 182 | `4.68` | router_head_summary hindsight_ceiling quality |
+| web page | 183 | `50` | effort_summary sample size; effort sample size (config effort_eval.sample) |
+| web page | 183 | `30` | effort sample: simple questions (config) |
+| web page | 183 | `20` | per_answer_eval: answers improving >=2 v2_full -> cache_full_kb; judge_handcheck.md answers checked |
+| web page | 188 | `50` | effort_summary sample size; effort sample size (config effort_eval.sample) |
+| web page | 198 | `$0.264` | effort_summary always_strong total_cost_usd |
+| web page | 199 | `0` | effort_summary thinking-off thinking_tokens |
+| web page | 200 | `4.62` | effort_summary always_strong mean_quality; effort_summary sonnet_medium mean_quality |
+| web page | 201 | `4.45` | effort_summary always_strong quality_complex |
+| web page | 202 | `2.5` | effort_summary always_strong p50 latency (s) |
+| web page | 206 | `$0.241` | effort_summary sonnet_low total_cost_usd |
+| web page | 207 | `1,683` | effort_summary sonnet_low thinking_tokens |
+| web page | 208 | `4.66` | effort_summary sonnet_low mean_quality; effort_summary sonnet_high mean_quality |
+| web page | 209 | `4.60` | routing_summary laya mean_quality; effort_summary sonnet_low quality_complex |
+| web page | 210 | `2.3` | effort_summary sonnet_low p50 latency (s) |
+| web page | 214 | `$0.259` | effort_summary sonnet_medium total_cost_usd |
+| web page | 215 | `3,433` | effort_summary sonnet_medium thinking_tokens |
+| web page | 216 | `4.62` | effort_summary always_strong mean_quality; effort_summary sonnet_medium mean_quality |
+| web page | 217 | `4.50` | effort_summary sonnet_medium quality_complex |
+| web page | 218 | `2.6` | effort_summary sonnet_medium p50 latency (s) |
+| web page | 222 | `$0.307` | effort_summary sonnet_high total_cost_usd |
+| web page | 223 | `8,335` | effort_summary sonnet_high thinking_tokens |
+| web page | 224 | `4.66` | effort_summary sonnet_low mean_quality; effort_summary sonnet_high mean_quality |
+| web page | 225 | `4.65` | effort_summary sonnet_high quality_complex |
+| web page | 226 | `3.5` | effort_summary sonnet_high p50 latency (s) |
+| web page | 230 | `9%` | effort: low vs thinking off |
+| web page | 230 | `28%` | effort: high vs low cost |
+| web page | 231 | `26%` | effort_combo laya_head + sonnet_low saving |
+| web page | 231 | `50` | effort_summary sample size; effort sample size (config effort_eval.sample) |
+| web page | 232 | `$0.264` | effort_summary always_strong total_cost_usd |
+| web page | 232 | `4.62` | effort_summary always_strong mean_quality; effort_summary sonnet_medium mean_quality |
+| web page | 233 | `$0.241` | effort_summary sonnet_low total_cost_usd |
+| web page | 233 | `4.66` | effort_summary sonnet_low mean_quality; effort_summary sonnet_high mean_quality |
+| web page | 234 | `$0.259` | effort_summary sonnet_medium total_cost_usd |
+| web page | 234 | `4.62` | effort_summary always_strong mean_quality; effort_summary sonnet_medium mean_quality |
+| web page | 235 | `$0.307` | effort_summary sonnet_high total_cost_usd |
+| web page | 235 | `4.66` | effort_summary sonnet_low mean_quality; effort_summary sonnet_high mean_quality |
+| web page | 236 | `1,683` | effort_summary sonnet_low thinking_tokens |
+| web page | 236 | `8,335` | effort_summary sonnet_high thinking_tokens |
+| web page | 236 | `8%` | cache_full_kb vs v2_full cost |
+| web page | 236 | `2` | config history.keep_last_turns; router_head_bootstrap extra saving 95% CI low (points) |
+| web page | 236 | `140` | 100 queries + conversation turns (data files) |
+| web page | 236 | `1` | quality scale bottom (rubric) |
+| web page | 236 | `$5,368` | cache_full_kb cost per answer x 1M |
+| web page | 236 | `1` | quality scale bottom (rubric) |
+| web page | 236 | `$13,946` | v1 cost per answer x 1M |
+| web page | 248 | `78%` | variance.csv judge re-score identical share |
+| web page | 248 | `17` | judge_handcheck.md AGREE count |
+| web page | 248 | `20` | per_answer_eval: answers improving >=2 v2_full -> cache_full_kb; judge_handcheck.md answers checked |
+| web page | 248 | `100` | test_queries.csv rows |
+| web page | 248 | `0.1` | noise floor stated from judge variance (mean |diff| 0.23 per answer) |
+| web page | 248 | `140` | 100 queries + conversation turns (data files) |

@@ -129,6 +129,18 @@ reg("5", "quality scale top (rubric)")
 reg("5.5", "model name: Claude Sonnet 5.5")
 reg("4.5", "model name: Claude Haiku 4.5")
 reg("50", "effort sample size (config effort_eval.sample)")
+_bs = json.loads((R / "router_head_bootstrap.json").read_text())
+_hq = json.loads((R / "router_head_qa.json").read_text())
+reg(f"{_bs['resamples']:,}", "router_head_bootstrap resamples")
+reg(f"{round(_bs['share_resamples_extra_saving_positive'] * _bs['resamples']):,}", "router_head_bootstrap resamples with extra saving > 0")
+reg(str(round(_bs["extra_saving_points_ci95"][0])), "router_head_bootstrap extra saving 95% CI low (points)")
+reg(str(round(_bs["extra_saving_points_ci95"][1])), "router_head_bootstrap extra saving 95% CI high (points)")
+reg(pct(_hq["train_haiku_ok_rate"]), "router_head_qa train_haiku_ok_rate")
+for k in ["laya_zero_shot@0.50", "laya_head", "length_rule"]:
+    reg(f"{rh.loc[k, 'auc_haiku_ok']:.2f}", f"router_head_summary {k} auc_haiku_ok")
+for k in ["laya_zero_shot@0.50", "length_rule", "minilm_head", "laya_head", "hindsight_ceiling"]:
+    reg(pct(rh.loc[k, "share_to_haiku"]), f"router_head_summary {k} share_to_haiku")
+reg("0.5", "AUC of a coin flip (definition)")
 from src.retriever import chunks as _chunks  # noqa: E402
 reg(str(len(_chunks())), "kb.md sections (retriever chunks)")
 reg(str(CFG["effort_eval"]["sample"]["simple"]), "effort sample: simple questions (config)")
@@ -193,10 +205,11 @@ def words(t):  # prose only: tables, diagram code and placeholders are not count
 wb, wl = words(blog), words(li)
 # Brief said 900-1,200; on 2026-10-04 the author asked for the fixes, the method and the thinking results to be
 # explained for any reader, so the limit was raised to 1,500 at their request.
-check("word counts", 900 <= wb <= 1500 and 150 <= wl <= 200,
-      f"blog {wb} words (900-1,500, raised from 1,200 at the author's request; tables, diagram code and placeholders excluded); LinkedIn {wl} (150-200)")
+# 2026-10-04 (later): the author asked for a dedicated Laya fine-tuning section; limit raised to 1,700 at their request.
+check("word counts", 900 <= wb <= 1700 and 150 <= wl <= 200,
+      f"blog {wb} words (900-1,700, raised from 1,200 at the author's request; tables, diagram code and placeholders excluded); LinkedIn {wl} (150-200)")
 
-laya_ok = "saves cost, not tokens" in blog.lower() and "off the shelf" in blog.lower() and "scores bunch together" in blog
+laya_ok = "saves cost, not tokens" in blog.lower() and "off the shelf" in blog.lower() and "not a finished router" in blog
 check("Laya described accurately (cost not tokens; limits stated)", laya_ok,
       "states 'Laya saves cost, not tokens', reports zero-shot vs trained honestly, and lists its new-domain limitation")
 route_share = (v1 - s.loc["plus_route", "total_cost_usd"]) / (v1 - v2)
@@ -212,7 +225,8 @@ dirn = [("v2 quality below v1", s.loc["v2_full", "mean_quality"] < s.loc["v1_nai
          < v1 - s.loc["plus_route", "total_cost_usd"], "barely mattered")]
 bad = [k for k, cond, phrase in dirn if not (cond and phrase in blog)]
 check("claims match the data's direction (weak/mixed results stated as such)", not bad, f"checked {len(dirn)} directional claims; mismatched={bad}")
-OWN = ("https://github.com/rvshankar45-jpg/Laya-model-router", "https://rvshankar45-jpg.github.io/")
+OWN = ("https://github.com/rvshankar45-jpg/Laya-model-router", "https://rvshankar45-jpg.github.io/",
+       "https://huggingface.co/convaiinnovations/laya")  # own work + the cited Laya model card
 links = [u.rstrip(").,") for u in re.findall(r"https?://\S+", blog + li)]
 foreign = [u for u in links if not u.startswith(OWN)]
 check("no invented quotes, stats or sources", not foreign and '"' not in re.sub(r'"[^"]{0,60}"', "", blog),

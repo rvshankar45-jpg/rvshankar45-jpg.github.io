@@ -211,7 +211,7 @@ def main():
             h += bars(rows, v1, "Cost of the same 140 answers after each fix",
                       "US$ at the provider's list prices · q = average grade out of 5",
                       "All bars share one scale. The green bar is the extra build: short prompt plus the whole manual, cached.")
-        if title.startswith("Does a smarter router"):
+        if title.startswith("Teaching Laya"):
             order = [("Laya off the shelf", "laya_zero_shot@0.50"), ("Message-length rule", "length_rule"),
                      ("Small model + trained head", "minilm_head"), ("Laya + trained head", "laya_head"),
                      ("Perfect hindsight", "hindsight_ceiling")]

@@ -80,11 +80,30 @@ Out of the box, it saved **12%** against always using the expensive model, at th
 
 It beat asking the cheap model to classify each question first (136 extra tokens and 1,176 ms per question; Laya took 194 ms and no API tokens). Laya saves cost, not tokens: the same prompt goes to a cheaper model.
 
-Then I trained it on 270 new questions, each labelled by whether the cheap model's answer held up. Its saving rose from **12% to 20%** at 4.54 quality. A router with perfect hindsight would save 38%.
-
-The lesson: "simple" to a human isn't "safe for the cheap model". The cheap model scored 4.42 on simple questions where the expensive model scored 4.79. A router is only as good as the outcome it learned to predict.
-
 The cut-off is a product call. I fixed the rule before looking: the cheapest setting where quality on complex questions stays within 0.2 of always-expensive. That picked 0.50. One notch higher, complex quality fell from 4.32 to 4.00.
+
+## Teaching Laya: the fine-tuning experiment
+
+Off the shelf, Laya judged whether a message *looks* complex, not whether the cheap model would cope. Its separation score, how well it tells those two apart, was 0.63, where 0.5 is guessing and 1 is perfect.
+
+So I taught it what mattered, in four steps:
+
+1. **New questions.** An AI wrote 270 fresh questions from the manual; any resembling a test question were dropped.
+2. **Real labels.** Both models answered each one and the grader scored both. The label: did the cheap model do as well? It did on 37%.
+3. **Train only the decider.** Laya has a large "reader" that turns a message into numbers and a small "decider" on top. I froze the reader and trained a new decider, which takes minutes on a laptop GPU.
+4. **A fair test.** The cut-off was set on the training questions, then the router was scored once on the 100 test questions.
+
+| Router | Saving vs always-expensive | Quality | Sent to cheap model |
+|---|---|---|---|
+| Laya off the shelf | 12% | 4.60 | 20% |
+| Message-length rule | 13% | 4.59 | 23% |
+| Small free model + trained decider | 15% | 4.58 | 27% |
+| **Laya + trained decider** | **20%** | 4.54 | 36% |
+| Perfect hindsight | 38% | 4.68 | 60% |
+
+The trained Laya saved 20% instead of 12%, and its separation score rose from 0.63 to 0.75. Resampling the test questions 2,000 times, the extra saving was positive in 1,991 of them, between 2 and 15 points, while the quality change stayed within noise. A word-count rule separated almost as well (0.76), because my hard questions are longer, but saved only 13%.
+
+The lesson: "simple" to a human isn't "safe for the cheap model". The cheap model scored 4.42 on simple questions against the expensive model's 4.79. Laya is a strong base, not a finished router: a few hundred examples of your own cheap model's failures nearly doubled its savings, and real tickets plus the full fine-tuning recipe ([Laya model card](https://huggingface.co/convaiinnovations/laya)) should push it towards the 38% ceiling.
 
 ## Should the expensive model think harder?
 
@@ -122,7 +141,7 @@ Before any LLM call, ask:
 
 ## Limitations
 
-The data is synthetic, and one AI wrote both test and training questions, which flatters the trained router. An AI judge scored quality: re-scoring the same answers gave the identical score 78% of the time, and I agreed with 17 of 20 hand-checked scores. With 100 questions, gaps under 0.1 in average quality are noise. Laya ran off the shelf on a new domain, where its scores bunch together. Million-answer figures scale up 140 synthetic answers. I ran the models through Claude Code's command line and subtracted the fixed overhead it adds to every call.
+The data is synthetic, and one AI wrote both test and training questions, which flatters the trained router. An AI judge scored quality: re-scoring the same answers gave the identical score 78% of the time, and I agreed with 17 of 20 hand-checked scores. With 100 questions, gaps under 0.1 in average quality are noise. Million-answer figures scale up 140 synthetic answers. I ran the models through Claude Code's command line and subtracted the fixed overhead it adds to every call.
 
 ## Try it
 
