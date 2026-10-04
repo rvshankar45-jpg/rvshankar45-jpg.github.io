@@ -76,7 +76,16 @@ Each row adds one fix and re-runs the whole test:
 
 **Some fixes barely mattered.** Trimming history saved 0.5% of version 1's cost. The prompt cache saved nothing: the short prompt left only 203 repeatable tokens, under the 512 it needs. No test question repeated, so the answer cache never fired; shorter answers drove the last step.
 
-**The surprise was a build I added myself:** the short prompt plus the *whole* manual, cached. It scored 4.80, against version 1's 4.63, at 62% below version 1's cost. It fixed 20 answers by two points or more and made none worse. The rule of thumb: a cached token costs a tenth of a normal one, so caching the whole document costs about the same as sending a tenth of it. Retrieval sent a third, so caching won. RAG pays off when the document is too big to send, or when the passages you retrieve are under a tenth of it.
+**The surprise was a build I added myself:** the short prompt plus the *whole* manual, cached. It scored 4.80, against version 1's 4.63, at 62% below version 1's cost. Compared with the same setup using RAG, it was cheaper and better:
+
+| Same setup, except | Cost (140 answers) | Quality |
+|---|---|---|
+| RAG: 3 sections per question | $0.91 | 4.40 |
+| Whole manual, cached | $0.75 | 4.80 |
+
+Retrieved sections change with every question, so they're billed at full price every time. The whole manual is identical on every call, so after the first one it's billed at a tenth of the price. Caching was 17% cheaper, fixed 20 answers by two points or more and made none worse.
+
+**That doesn't make caching better than RAG in general.** Caching the whole document costs about the same as sending a tenth of it. Retrieval sent a third, so caching won here; RAG wins when the passages you retrieve are under a tenth of the document, or when the document is too big to send. A cache also lasts only about 5 minutes, so with quiet traffic it keeps expiring and is rewritten at a premium. For a small manual and steady traffic, cache it; for a large knowledge base or quiet traffic, use RAG; measure both on your own data.
 
 ## How the search picks sections
 
@@ -146,7 +155,11 @@ How to read the table: *saving vs always-expensive* is how much cheaper the bill
 | **Laya + trained decider** | **20%** | 4.54 | 36% |
 | Perfect hindsight | 38% | 4.68 | 60% |
 
-The trained Laya saved 20% instead of 12%, and its separation score rose from 0.63 to 0.75. Across 2,000 resamples of the test questions, the extra saving was positive in 1,991, between 2 and 15 points; the quality change stayed within noise. A word-count rule separated almost as well (0.76), because my hard questions are longer, but saved only 13%.
+**What the 20% means.** On the 100 test questions, sending everything to the expensive model cost $0.517. With the trained decider choosing, the same questions cost $0.415: 20% less. It saved more than off-the-shelf Laya because it sent 36% of questions to the cheap model instead of 20%, and quality dipped only from 4.63 to 4.54. Note the baseline: this is against always using the expensive model, not against version 1.
+
+**What "perfect hindsight" means.** Because the grader scored both models' answers to every question, we know afterwards exactly where the cheap model's answer was as good. A perfect router would send only those questions to the cheap model: 60% of them, saving 38% and even raising quality to 4.68. No real router can do this, since it would need both answers before choosing; it's the ceiling for how much routing could ever save here.
+
+The trained Laya's separation score rose from 0.63 to 0.75. Across 2,000 resamples of the test questions, the extra saving was positive in 1,991, between 2 and 15 points; the quality change stayed within noise. A word-count rule separated almost as well (0.76), because my hard questions are longer, but saved only 13%.
 
 The lesson: "simple" to a human isn't "safe for the cheap model" (the cheap model scored 4.42 on simple questions, the expensive one 4.79). Laya is a strong base, not a finished router: a few hundred labelled examples nearly doubled its savings, and real tickets plus the full fine-tuning recipe ([Laya model card](https://huggingface.co/convaiinnovations/laya)) should push it towards the 38% ceiling.
 

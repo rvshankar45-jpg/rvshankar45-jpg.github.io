@@ -141,6 +141,10 @@ for k in ["laya_zero_shot@0.50", "laya_head", "length_rule"]:
 for k in ["laya_zero_shot@0.50", "length_rule", "minilm_head", "laya_head", "hindsight_ceiling"]:
     reg(pct(rh.loc[k, "share_to_haiku"]), f"router_head_summary {k} share_to_haiku")
 reg("0.5", "AUC of a coin flip (definition)")
+for _k in ["always_sonnet", "laya_head"]:
+    reg(f"${rh.loc[_k, 'cost_usd']:.3f}", f"router_head_summary {_k} cost_usd (100 test questions)")
+reg(pct(1 - s.loc["cache_full_kb", "total_cost_usd"] / s.loc["plus_tight_cache", "total_cost_usd"]), "cache_full_kb vs plus_tight_cache cost (same setup, RAG vs cache)")
+reg(str(CFG["cache"]["ttl_seconds"] // 60), "config cache.ttl_seconds in minutes")
 _rr = pd.read_csv(R / "retrieval_recall.csv")
 for _r in _rr.itertuples():
     reg(str(int(_r.k)), "retrieval_recall k")
@@ -221,8 +225,9 @@ wb, wl = words(blog), words(li)
 # 2026-10-04 (later): author asked for the RAG paragraph to be explained step by step; limit raised to 1,800 at their request.
 # 2026-10-04 (later): author asked for a section on how the search picks sections, with no trims elsewhere;
 # limit raised to 2,200 at their request.
-check("word counts", 900 <= wb <= 2200 and 150 <= wl <= 200,
-      f"blog {wb} words (900-2,200, raised from 1,200 at the author's request; tables, diagram code and placeholders excluded); LinkedIn {wl} (150-200)")
+# 2026-10-04 (later): author asked for the 20% saving, perfect hindsight and cache-vs-RAG to be explained, no trims; limit 2,400.
+check("word counts", 900 <= wb <= 2400 and 150 <= wl <= 200,
+      f"blog {wb} words (900-2,400, raised from 1,200 at the author's request; tables, diagram code and placeholders excluded); LinkedIn {wl} (150-200)")
 
 laya_ok = "saves cost, not tokens" in blog.lower() and "off the shelf" in blog.lower() and "not a finished router" in blog
 check("Laya described accurately (cost not tokens; limits stated)", laya_ok,
@@ -234,8 +239,12 @@ dirn = [("v2 quality below v1", s.loc["v2_full", "mean_quality"] < s.loc["v1_nai
          "at least as good as version 1"),
         ("routing ~ a sixth of the saving", 1 / 7 < route_share < 1 / 5, "a sixth"),
         ("cached token costs a tenth (both models)", all(abs(CFG["pricing"][m]["cache_read"] / CFG["pricing"][m]["input"] - 0.1) < 1e-9
-                                                       for m in (CFG["models"]["strong"], CFG["models"]["cheap"])), "costs a tenth of a normal one"),
+                                                       for m in (CFG["models"]["strong"], CFG["models"]["cheap"])), "billed at a tenth of the price"),
         ("retrieval sent a third of the manual", abs(CFG["retrieval"]["top_k"] / len(_chunks()) - 1 / 3) < 1e-9, "Retrieval sent a third"),
+        ("cache beat same-setup RAG on cost and quality", s.loc["cache_full_kb", "total_cost_usd"] < s.loc["plus_tight_cache", "total_cost_usd"]
+         and s.loc["cache_full_kb", "mean_quality"] > s.loc["plus_tight_cache", "mean_quality"], "it was cheaper and better"),
+        ("hindsight ceiling above trained Laya", rh.loc["hindsight_ceiling", "saving_vs_always_sonnet"] > rh.loc["laya_head", "saving_vs_always_sonnet"],
+         "it's the ceiling"),
         ("trim smaller than routing", s.loc["plus_retrieve", "total_cost_usd"] - s.loc["plus_trim", "total_cost_usd"]
          < v1 - s.loc["plus_route", "total_cost_usd"], "barely mattered")]
 bad = [k for k, cond, phrase in dirn if not (cond and phrase in blog)]
