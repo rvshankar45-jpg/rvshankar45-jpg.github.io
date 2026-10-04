@@ -119,6 +119,19 @@
   .more .post .go{ font-family:var(--mono); font-size:12px; color:var(--flag); }
   .more .post:hover h3{ color:var(--flag); }
   .ravi{ background:#FFF1B8; color:#5A4500; font-family:var(--mono); font-size:13px; padding:2px 6px; border-radius:3px; }
+  .author{ display:flex; align-items:center; gap:12px; margin-top:22px; }
+  .av{ flex:none; width:40px; height:40px; border-radius:50%; background:var(--flag); color:#fff; display:grid; place-items:center;
+       font-family:var(--mono); font-weight:700; font-size:14px; letter-spacing:.04em; }
+  .author b{ display:block; font-family:var(--display); font-size:16px; color:var(--ink); }
+  .author small{ display:block; font-size:14px; color:var(--ink2); line-height:1.45; }
+  .aboutme{ margin-top:56px; display:flex; gap:16px; align-items:flex-start; background:var(--surface); border:1px solid var(--rule);
+            border-radius:3px; padding:22px 24px; box-shadow:var(--shadow); }
+  .aboutme .av{ width:52px; height:52px; font-size:17px; }
+  .aboutme .lbl{ font-family:var(--mono); font-size:11.5px; letter-spacing:.14em; text-transform:uppercase; color:var(--flag); font-weight:700; }
+  .aboutme h3{ font-family:var(--display); font-size:20px; margin:4px 0 6px; }
+  .aboutme p{ font-size:16px; color:var(--ink2); margin:0 0 10px; }
+  .aboutme .links{ font-family:var(--mono); font-size:12.5px; display:flex; flex-wrap:wrap; gap:6px 18px; }
+  .aboutme .links a{ color:var(--flag); }
   footer{ margin-top:64px; padding-top:20px; border-top:1px solid var(--rule); font-family:var(--mono); font-size:11.5px; color:var(--ink3); line-height:1.7; }
   .backlink{ display:inline-block; font-family:var(--mono); font-size:12px; letter-spacing:.06em; color:var(--ink3); text-decoration:none; padding-block:26px 0; }
   .backlink:hover, .backlink:focus-visible{ color:var(--flag); }
@@ -135,6 +148,7 @@
     <div class="kicker">140 answers · two builds · every token counted</div>
     <h1>I cut an AI support bot&#x27;s cost by 64%. <span class="hit">The famous router did a sixth of it.</span></h1>
     <div class="standfirst">Token cost is one of the biggest brakes on LLM adoption. Before accepting it as the price of AI, I wanted to see how much of it can be engineered away. So I built one small AI app twice, a quick version and a careful one, and measured what each costs to run.</div>
+    <div class="author"><span class="av" aria-hidden="true">RR</span><span><b>Ravishankar R</b><small>Product leader in Bengaluru, dabbling with AI: real experiments, measured end to end.</small></span></div>
     <div class="byline"><span>Leafy, a fictional plant shop</span><span>Claude Sonnet 5.5 · Haiku 4.5 · Laya</span>
       <span>October 2026</span><span>open code &amp; data</span></div>
   </header>
@@ -501,6 +515,7 @@
 <li><strong>Have we answered this before?</strong> Cache the repeated part, prompt or answer.</li>
 </ol></section><section class="col"><h2><span class="rule"></span>Limitations</h2><p>The data is synthetic, and one AI wrote both test and training questions, which flatters the trained router. An AI judge scored quality: re-scoring the same answers gave the identical score 78% of the time, and I agreed with 17 of 20 hand-checked scores. With 100 questions, gaps under 0.1 in average quality are noise. Million-answer figures scale up 140 synthetic answers. Models ran through Claude Code's command line, with its fixed per-call overhead subtracted.</p></section><section class="col"><h2><span class="rule"></span>Try it</h2><p>Code, data and every result: <a href="https://github.com/rvshankar45-jpg/Laya-model-router">rvshankar45-jpg/Laya-model-router</a>.</p>
 <p>What's your team's cost per answer? If you don't know, that's the first number to find.</p></section><section class="col more"><span hidden>MORE-WRITING-START</span><h2><span class="rule"></span>More writing</h2><a class="post" href="/nothing-got-fixed/"><h3>They answered 99% of the angry reviews. Nothing got fixed.</h3><p>Do delivery apps fix what users complain about in their reviews?</p><span class="go">Read →</span></a><a class="post" href="/listing-ready-photos/"><h3>Better listing photos, without asking sellers for more.</h3><p>Can open image models clean up second-hand listing photos as well as GPT?</p><span class="go">Read →</span></a></section>
+  <div class="col"><aside class="aboutme" id="about" aria-label="About the author"><span class="av" aria-hidden="true">RR</span><div><div class="lbl">About me</div><h3>Ravishankar R</h3><p>I'm a product leader based in Bengaluru, India. I dabble with AI: I pick a question a product team actually faces, build the experiment end to end, measure what it costs and how well it works, and write it up with the mistakes left in.</p><div class="links"><a href="https://github.com/rvshankar45-jpg">GitHub</a><a href="mailto:rvshankar45@gmail.com">Email</a><a href="/">More writing</a></div></div></aside></div>
   <footer class="col">
     140 answers · 100 test questions + 10 conversations · 270 separate training questions for the router.
     All data is synthetic; no real customer or company appears. Every figure on this page is generated from the analysis output at build time rather than typed by hand.

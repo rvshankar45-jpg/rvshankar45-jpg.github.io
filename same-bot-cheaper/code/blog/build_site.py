@@ -120,6 +120,19 @@ CSS = """
   .more .post .go{ font-family:var(--mono); font-size:12px; color:var(--flag); }
   .more .post:hover h3{ color:var(--flag); }
   .ravi{ background:#FFF1B8; color:#5A4500; font-family:var(--mono); font-size:13px; padding:2px 6px; border-radius:3px; }
+  .author{ display:flex; align-items:center; gap:12px; margin-top:22px; }
+  .av{ flex:none; width:40px; height:40px; border-radius:50%; background:var(--flag); color:#fff; display:grid; place-items:center;
+       font-family:var(--mono); font-weight:700; font-size:14px; letter-spacing:.04em; }
+  .author b{ display:block; font-family:var(--display); font-size:16px; color:var(--ink); }
+  .author small{ display:block; font-size:14px; color:var(--ink2); line-height:1.45; }
+  .aboutme{ margin-top:56px; display:flex; gap:16px; align-items:flex-start; background:var(--surface); border:1px solid var(--rule);
+            border-radius:3px; padding:22px 24px; box-shadow:var(--shadow); }
+  .aboutme .av{ width:52px; height:52px; font-size:17px; }
+  .aboutme .lbl{ font-family:var(--mono); font-size:11.5px; letter-spacing:.14em; text-transform:uppercase; color:var(--flag); font-weight:700; }
+  .aboutme h3{ font-family:var(--display); font-size:20px; margin:4px 0 6px; }
+  .aboutme p{ font-size:16px; color:var(--ink2); margin:0 0 10px; }
+  .aboutme .links{ font-family:var(--mono); font-size:12.5px; display:flex; flex-wrap:wrap; gap:6px 18px; }
+  .aboutme .links a{ color:var(--flag); }
   footer{ margin-top:64px; padding-top:20px; border-top:1px solid var(--rule); font-family:var(--mono); font-size:11.5px; color:var(--ink3); line-height:1.7; }
   .backlink{ display:inline-block; font-family:var(--mono); font-size:12px; letter-spacing:.06em; color:var(--ink3); text-decoration:none; padding-block:26px 0; }
   .backlink:hover, .backlink:focus-visible{ color:var(--flag); }
@@ -272,6 +285,7 @@ def main():
     <div class="kicker">{n} answers · two builds · every token counted</div>
     <h1>{html.escape(head_hit[0])}. <span class="hit">{html.escape(head_hit[1])}</span></h1>
     <div class="standfirst">{render(intro_paras[0])[3:-4]}</div>
+    <div class="author"><span class="av" aria-hidden="true">RR</span><span><b>Ravishankar R</b><small>Product leader in Bengaluru, dabbling with AI: real experiments, measured end to end.</small></span></div>
     <div class="byline"><span>Leafy, a fictional plant shop</span><span>Claude Sonnet 5.5 · Haiku 4.5 · Laya</span>
       <span>{date.today():%B %Y}</span><span>open code &amp; data</span></div>
   </header>
@@ -283,6 +297,7 @@ def main():
   <div class="col"><div class="stats">{stat_html}</div></div>
   {short_html}
   {"".join(body)}
+  <div class="col"><aside class="aboutme" id="about" aria-label="About the author"><span class="av" aria-hidden="true">RR</span><div><div class="lbl">About me</div><h3>Ravishankar R</h3><p>I'm a product leader based in Bengaluru, India. I dabble with AI: I pick a question a product team actually faces, build the experiment end to end, measure what it costs and how well it works, and write it up with the mistakes left in.</p><div class="links"><a href="https://github.com/rvshankar45-jpg">GitHub</a><a href="mailto:rvshankar45@gmail.com">Email</a><a href="/">More writing</a></div></div></aside></div>
   <footer class="col">
     {n} answers · 100 test questions + 10 conversations · 270 separate training questions for the router.
     All data is synthetic; no real customer or company appears. Every figure on this page is generated from the analysis output at build time rather than typed by hand.
