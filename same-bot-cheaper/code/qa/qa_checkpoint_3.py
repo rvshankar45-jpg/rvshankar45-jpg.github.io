@@ -141,6 +141,18 @@ for k in ["laya_zero_shot@0.50", "laya_head", "length_rule"]:
 for k in ["laya_zero_shot@0.50", "length_rule", "minilm_head", "laya_head", "hindsight_ceiling"]:
     reg(pct(rh.loc[k, "share_to_haiku"]), f"router_head_summary {k} share_to_haiku")
 reg("0.5", "AUC of a coin flip (definition)")
+_rr = pd.read_csv(R / "retrieval_recall.csv")
+for _r in _rr.itertuples():
+    reg(str(int(_r.k)), "retrieval_recall k")
+    reg(pct(_r.right_section_found), f"retrieval_recall right section found at k={int(_r.k)}")
+    reg(pct(_r.share_of_manual_sent), f"retrieval_recall share of manual sent at k={int(_r.k)}")
+_ex = pd.read_csv(R / "retrieval_example.csv")
+for _c in ["keyword_rank", "meaning_rank", "combined_rank"]:
+    for _v in _ex[_c]:
+        reg(str(int(_v)), f"retrieval_example {_c}")
+reg(str(CFG["retrieval"].get("rrf_k", 60)), "config retrieval.rrf_k (fusion constant)")
+from src.cache import _embedder as _emb  # noqa: E402
+reg(str(_emb().get_sentence_embedding_dimension()), "MiniLM embedding dimensions")
 from src.retriever import chunks as _chunks  # noqa: E402
 reg(str(len(_chunks())), "kb.md sections (retriever chunks)")
 reg(str(CFG["effort_eval"]["sample"]["simple"]), "effort sample: simple questions (config)")
@@ -207,8 +219,10 @@ wb, wl = words(blog), words(li)
 # explained for any reader, so the limit was raised to 1,500 at their request.
 # 2026-10-04 (later): the author asked for a dedicated Laya fine-tuning section; limit raised to 1,700 at their request.
 # 2026-10-04 (later): author asked for the RAG paragraph to be explained step by step; limit raised to 1,800 at their request.
-check("word counts", 900 <= wb <= 1800 and 150 <= wl <= 200,
-      f"blog {wb} words (900-1,800, raised from 1,200 at the author's request; tables, diagram code and placeholders excluded); LinkedIn {wl} (150-200)")
+# 2026-10-04 (later): author asked for a section on how the search picks sections, with no trims elsewhere;
+# limit raised to 2,200 at their request.
+check("word counts", 900 <= wb <= 2200 and 150 <= wl <= 200,
+      f"blog {wb} words (900-2,200, raised from 1,200 at the author's request; tables, diagram code and placeholders excluded); LinkedIn {wl} (150-200)")
 
 laya_ok = "saves cost, not tokens" in blog.lower() and "off the shelf" in blog.lower() and "not a finished router" in blog
 check("Laya described accurately (cost not tokens; limits stated)", laya_ok,
@@ -232,8 +246,9 @@ links = [u.rstrip(").,") for u in re.findall(r"https?://\S+", blog + li)]
 foreign = [u for u in links if not u.startswith(OWN)]
 check("no invented quotes, stats or sources", not foreign and '"' not in re.sub(r'"[^"]{0,60}"', "", blog),
       f"links={links} (only the author's own repo and post); all statistics come from this repo's results")
-deny = r"\b(amazon|walmart|ikea|paypal|klarna|visa|mastercard|fedex|ups|usps|dhl|google|meta|openai|microsoft|swiggy|zomato|blinkit|zepto)\b"
-hits = sorted({m.lower() for m in re.findall(deny, blog + li, flags=re.I)})
+deny = r"\b(amazon|walmart|ikea|paypal|klarna|mastercard|fedex|usps|dhl|google|openai|microsoft|swiggy|zomato|blinkit|zepto)\b"
+deny_cs = r"\b(UPS|Visa|Meta)\b"  # also ordinary words ("follow-ups", "visa", "meta"): match the brand spelling only
+hits = sorted({m.lower() for m in re.findall(deny, blog + li, flags=re.I)} | set(re.findall(deny_cs, blog + li)))
 ph = re.findall(r"\[RAVI:[^\]]*\]", blog + li)
 check("no real employer/customer/brand names; placeholders listed", not hits, f"denylist hits={hits}; {len(ph)} placeholders: {ph}")
 

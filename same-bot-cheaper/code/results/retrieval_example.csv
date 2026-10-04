@@ -1,0 +1,10 @@
+section_id,section,keyword_score,keyword_rank,meaning_score,meaning_rank,combined_score,combined_rank,sent
+s8,Contact and Escalation,2.359227981928928,1,0.24176691,4,0.032018442622950824,1,True
+s2,Returns,0.0,4,0.29050684,2,0.031754032258064516,2,True
+s1,Orders,0.0,3,0.23161438,5,0.03125763125763126,3,True
+s3,Shipping,0.0,5,0.26494563,3,0.03125763125763126,4,False
+s7,Subscriptions and Membership,0.0,8,0.32296348,1,0.031099324975891997,5,False
+s6,Payments and Refunds,1.4331264940992718,2,0.20183292,7,0.031054405392392875,6,False
+s4,Plant Care Guarantee,0.0,6,0.21815377,6,0.030303030303030304,7,False
+s5,Damaged or Wrong Items on Arrival (DOA),0.0,7,0.15137151,8,0.029631255487269532,8,False
+s9,Plant Safety and Care,0.0,9,0.09479566,9,0.028985507246376812,9,False

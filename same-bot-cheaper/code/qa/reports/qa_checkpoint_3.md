@@ -1,9 +1,9 @@
-# QA gate 3 (blog) - 2026-10-04 19:17
+# QA gate 3 (blog) - 2026-10-04 19:26
 
 6/6 checks passed.
 
-- **PASS** every number traces to results/ (or a stated design constant): 405 numbers across blog + LinkedIn post; unsourced=[]
-- **PASS** word counts: blog 1782 words (900-1,800, raised from 1,200 at the author's request; tables, diagram code and placeholders excluded); LinkedIn 179 (150-200)
+- **PASS** every number traces to results/ (or a stated design constant): 505 numbers across blog + LinkedIn post; unsourced=[]
+- **PASS** word counts: blog 2137 words (900-2,200, raised from 1,200 at the author's request; tables, diagram code and placeholders excluded); LinkedIn 179 (150-200)
 - **PASS** Laya described accurately (cost not tokens; limits stated): states 'Laya saves cost, not tokens', reports zero-shot vs trained honestly, and lists its new-domain limitation
 - **PASS** claims match the data's direction (weak/mixed results stated as such): checked 7 directional claims; mismatched=[]
 - **PASS** no invented quotes, stats or sources: links=['https://huggingface.co/convaiinnovations/laya', 'https://github.com/rvshankar45-jpg/Laya-model-router', 'https://rvshankar45-jpg.github.io/nothing-got-fixed/', 'https://rvshankar45-jpg.github.io/listing-ready-photos/', 'https://rvshankar45-jpg.github.io/same-bot-cheaper/'] (only the author's own repo and post); all statistics come from this repo's results

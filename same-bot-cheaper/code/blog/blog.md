@@ -78,6 +78,41 @@ Each row adds one fix and re-runs the whole test:
 
 **The surprise was a build I added myself:** the short prompt plus the *whole* manual, cached. It scored 4.80, against version 1's 4.63, at 62% below version 1's cost. It fixed 20 answers by two points or more and made none worse. The rule of thumb: a cached token costs a tenth of a normal one, so caching the whole document costs about the same as sending a tenth of it. Retrieval sent a third, so caching won. RAG pays off when the document is too big to send, or when the passages you retrieve are under a tenth of it.
 
+## How the search picks sections
+
+Retrieval is plain search, with no AI writing involved. Five steps:
+
+1. **Split.** The manual is cut at its 9 headings, one searchable chunk per section.
+2. **Keyword score.** Each section scores higher the more of the question's words it contains. Rare words count more, and long sections aren't favoured just for being long (a standard search formula called BM25).
+3. **Meaning score.** A small free model turns the question and each section into a list of 384 numbers that capture meaning, so "can I send it back?" lands near Returns even without a shared word.
+4. **Combine.** Each method ranks the 9 sections. A section's final score is 1/(60 + keyword rank) + 1/(60 + meaning rank), so sections that do well on both rise to the top.
+5. **Send the top 3**, in the order they appear in the manual. In conversations, the customer's previous message joins the search, so follow-ups still find the right section.
+
+**Why 3?** The number came from the project brief, and the data backs it. Using as a stand-in the section that best matches each question's reference answer:
+
+| Sections sent | Right section found | Share of manual sent |
+|---|---|---|
+| 1 | 74% | 11% |
+| 2 | 89% | 22% |
+| 3 | 95% | 33% |
+| 4 | 96% | 44% |
+| 5 | 97% | 56% |
+
+Going from 2 to 3 sections finds the right one far more often; beyond 3, each extra section adds about a point while sending another ninth of the manual on every call.
+
+**Why the price-adjustment question failed:**
+
+| Section | Keyword rank | Meaning rank | Final rank |
+|---|---|---|---|
+| Contact and Escalation | 1 | 4 | 1, sent |
+| Returns | 4 | 2 | 2, sent |
+| Orders | 3 | 5 | 3, sent |
+| Shipping | 5 | 3 | 4 |
+| Subscriptions and Membership | 8 | 1 | 5 |
+| **Payments and Refunds** (the right one) | 2 | 7 | 6 |
+
+The manual calls it a "price drop", not a "price adjustment", so "adjustment" matched nothing, while "policy" pulled in the Contact section. Keywords still put Payments 2nd, but the meaning model ranked it 7th, so it finished 6th and was never sent. Smaller chunks (one per policy), synonyms in the headings, or a stronger meaning model would likely catch it; I haven't tested those yet.
+
 ## Does a smarter router help?
 
 Laya is a small open-weights decision model. It scores each question for difficulty; above a cut-off, the question goes to the expensive model.
@@ -100,6 +135,8 @@ So I taught it, in four steps:
 2. **Real labels.** Both models answered each one and the grader scored both. The label: did the cheap model do as well? It did on 37%.
 3. **Train only the decider.** Laya has a large "reader" that turns a message into numbers and a small "decider" on top. I froze the reader and trained a new decider in minutes.
 4. **A fair test.** The cut-off was set on the training questions, then the router was scored once on the 100 test questions.
+
+How to read the table: *saving vs always-expensive* is how much cheaper the bill was than sending every question to the expensive model; *quality* is the average grade out of 5; *sent to cheap model* is the share of the 100 test questions the router handed to the cheap model. More sent to the cheap model means more saving, as long as quality holds.
 
 | Router | Saving vs always-expensive | Quality | Sent to cheap model |
 |---|---|---|---|

@@ -245,7 +245,102 @@
 <div class="bar"><div class="nm">+ short prompt</div><div class="track"><div class="fill" style="width:46.4%;background:var(--v2)"></div></div><div class="vv">$0.91 <small>q 4.40</small></div></div>
 <div class="bar win"><div class="nm">Version 2</div><div class="track"><div class="fill" style="width:35.6%;background:var(--v2)"></div></div><div class="vv">$0.69 <small>q 4.49</small></div></div>
 <div class="bar win"><div class="nm">Whole manual, cached</div><div class="track"><div class="fill" style="width:38.5%;background:var(--good)"></div></div><div class="vv">$0.75 <small>q 4.80</small></div></div>
-<div class="axisnote">All bars share one scale. The green bar is the extra build: short prompt plus the whole manual, cached.</div></div></section><section class="col"><h2><span class="rule"></span>Does a smarter router help?</h2><p>Laya is a small open-weights decision model. It scores each question for difficulty; above a cut-off, the question goes to the expensive model.</p>
+<div class="axisnote">All bars share one scale. The green bar is the extra build: short prompt plus the whole manual, cached.</div></div></section><section class="col"><h2><span class="rule"></span>How the search picks sections</h2><p>Retrieval is plain search, with no AI writing involved. Five steps:</p>
+<ol>
+<li><strong>Split.</strong> The manual is cut at its 9 headings, one searchable chunk per section.</li>
+<li><strong>Keyword score.</strong> Each section scores higher the more of the question's words it contains. Rare words count more, and long sections aren't favoured just for being long (a standard search formula called BM25).</li>
+<li><strong>Meaning score.</strong> A small free model turns the question and each section into a list of 384 numbers that capture meaning, so "can I send it back?" lands near Returns even without a shared word.</li>
+<li><strong>Combine.</strong> Each method ranks the 9 sections. A section's final score is 1/(60 + keyword rank) + 1/(60 + meaning rank), so sections that do well on both rise to the top.</li>
+<li><strong>Send the top 3</strong>, in the order they appear in the manual. In conversations, the customer's previous message joins the search, so follow-ups still find the right section.</li>
+</ol>
+<p><strong>Why 3?</strong> The number came from the project brief, and the data backs it. Using as a stand-in the section that best matches each question's reference answer:</p>
+<table>
+<thead>
+<tr>
+<th>Sections sent</th>
+<th>Right section found</th>
+<th>Share of manual sent</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>74%</td>
+<td>11%</td>
+</tr>
+<tr>
+<td>2</td>
+<td>89%</td>
+<td>22%</td>
+</tr>
+<tr>
+<td>3</td>
+<td>95%</td>
+<td>33%</td>
+</tr>
+<tr>
+<td>4</td>
+<td>96%</td>
+<td>44%</td>
+</tr>
+<tr>
+<td>5</td>
+<td>97%</td>
+<td>56%</td>
+</tr>
+</tbody>
+</table>
+<p>Going from 2 to 3 sections finds the right one far more often; beyond 3, each extra section adds about a point while sending another ninth of the manual on every call.</p>
+<p><strong>Why the price-adjustment question failed:</strong></p>
+<table class="words">
+<thead>
+<tr>
+<th>Section</th>
+<th>Keyword rank</th>
+<th>Meaning rank</th>
+<th>Final rank</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Contact and Escalation</td>
+<td>1</td>
+<td>4</td>
+<td>1, sent</td>
+</tr>
+<tr>
+<td>Returns</td>
+<td>4</td>
+<td>2</td>
+<td>2, sent</td>
+</tr>
+<tr>
+<td>Orders</td>
+<td>3</td>
+<td>5</td>
+<td>3, sent</td>
+</tr>
+<tr>
+<td>Shipping</td>
+<td>5</td>
+<td>3</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Subscriptions and Membership</td>
+<td>8</td>
+<td>1</td>
+<td>5</td>
+</tr>
+<tr>
+<td><strong>Payments and Refunds</strong> (the right one)</td>
+<td>2</td>
+<td>7</td>
+<td>6</td>
+</tr>
+</tbody>
+</table>
+<p>The manual calls it a "price drop", not a "price adjustment", so "adjustment" matched nothing, while "policy" pulled in the Contact section. Keywords still put Payments 2nd, but the meaning model ranked it 7th, so it finished 6th and was never sent. Smaller chunks (one per policy), synonyms in the headings, or a stronger meaning model would likely catch it; I haven't tested those yet.</p></section><section class="col"><h2><span class="rule"></span>Does a smarter router help?</h2><p>Laya is a small open-weights decision model. It scores each question for difficulty; above a cut-off, the question goes to the expensive model.</p>
 <p><strong>Why Laya?</strong> It decides in one pass instead of writing text, so it runs on a laptop GPU in a fraction of a second and costs no API tokens. It returns a probability, so the cut-off is mine to set. And it can be retrained on my own data.</p>
 <p>Out of the box, it saved <strong>12%</strong> against always using the expensive model, at the same quality (4.60 vs 4.63): about a sixth of the total saving. It still sent 45 of the 62 simple questions to the expensive model.</p>
 <p>Asking the cheap model to classify each question instead cost 136 extra tokens and 1,176 ms per question; Laya took 194 ms and none. Laya saves cost, not tokens: the same prompt goes to a cheaper model.</p>
@@ -257,6 +352,7 @@
 <li><strong>Train only the decider.</strong> Laya has a large "reader" that turns a message into numbers and a small "decider" on top. I froze the reader and trained a new decider in minutes.</li>
 <li><strong>A fair test.</strong> The cut-off was set on the training questions, then the router was scored once on the 100 test questions.</li>
 </ol>
+<p>How to read the table: <em>saving vs always-expensive</em> is how much cheaper the bill was than sending every question to the expensive model; <em>quality</em> is the average grade out of 5; <em>sent to cheap model</em> is the share of the 100 test questions the router handed to the cheap model. More sent to the cheap model means more saving, as long as quality holds.</p>
 <table class="words">
 <thead>
 <tr>
