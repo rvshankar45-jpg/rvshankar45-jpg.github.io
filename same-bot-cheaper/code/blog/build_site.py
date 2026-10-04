@@ -275,7 +275,7 @@ def main():
     <div class="byline"><span>Leafy, a fictional plant shop</span><span>Claude Sonnet 5.5 · Haiku 4.5 · Laya</span>
       <span>{date.today():%B %Y}</span><span>open code &amp; data</span></div>
   </header>
-  <div class="hero"><picture><source media="(max-width:600px)" srcset="hero_mobile.png" width="640" height="1080"><img src="hero.png" width="1600" height="780" alt="Two receipts for the same 140 answers: version 1 totals ${v1:.2f}; version 2 itemises the savings from routing, retrieval, history trimming, a short prompt and concise answers, totalling ${v2:.2f}, under a stamp reading {pct(1 - v2 / v1)} cheaper, with a badge reading Routing by Laya AI."></picture></div>
+  <div class="hero"><picture><source media="(max-width:600px)" srcset="hero_mobile.png" width="640" height="1600"><img src="hero.png" width="1600" height="780" alt="Two receipts for the same 140 answers: version 1 totals ${v1:.2f}; version 2 itemises the savings from routing, retrieval, history trimming, a short prompt and concise answers, totalling ${v2:.2f}, under a stamp reading {pct(1 - v2 / v1)} cheaper, with a badge reading Routing by Laya AI."></picture></div>
   {approach_html}
   <section class="col">{"".join(render(p) for p in intro_paras[1:])}</section>
   <div class="col"><div class="thesis"><div class="big">{pct(1 - v2 / v1)}</div><div class="say"><b>Cheaper, for the same {n} answers.</b>

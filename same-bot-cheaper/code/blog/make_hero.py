@@ -102,9 +102,9 @@ def main():
     out.mkdir(parents=True, exist_ok=True)
     base.convert("RGB").save(out / "hero.png", optimize=True)
 
-    # phone version (portrait): headline, Laya badge, the version 2 receipt (which starts from v1's bill) and the stamp.
+    # phone version (portrait): headline, Laya badge, both receipts stacked (version 1, then version 2) and the stamp.
     # Shown at ~375 CSS px, so this 640 px canvas keeps the receipt text around 14 px on screen.
-    mob = Image.new("RGBA", (640, 1080), PAPER)
+    mob = Image.new("RGBA", (640, 1600), PAPER)
     gm = ImageDraw.Draw(mob)
     gm.text((40, 34), "Same chatbot.", font=BOLD(44), fill=INK)
     gm.text((40, 90), "Same questions.", font=BOLD(44), fill=INK)
@@ -112,9 +112,10 @@ def main():
     mpw = gm.textlength(pill, font=BLACK(30)) + 52
     gm.rounded_rectangle([40, 216, 40 + mpw, 272], radius=28, fill=FLAG)
     gm.text((66, 222), pill, font=BLACK(30), fill="white")
-    paste_with_shadow(mob, r2, (40, 300), -2)
+    paste_with_shadow(mob, r1, (30, 300), 2)    # version 1 first, its total left uncovered
+    paste_with_shadow(mob, r2, (80, 790), -2)   # version 2 below, overlapping only v1's torn edge
     small = st.resize((300, 300), Image.LANCZOS)
-    mob.alpha_composite(small, (320, 770))
+    mob.alpha_composite(small, (330, 1280))   # below v2's total, never over it
     mob.convert("RGB").save(out / "hero_mobile.png", optimize=True)
     print("hero.png and hero_mobile.png written")
 
