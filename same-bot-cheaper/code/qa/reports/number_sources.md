@@ -241,21 +241,20 @@
 | blog | 201 | `100` | test_queries.csv rows |
 | blog | 201 | `0.1` | noise floor stated from judge variance (mean |diff| 0.23 per answer) |
 | blog | 201 | `140` | 100 queries + conversation turns (data files) |
-| linkedin | 1 | `64%` | 1 - v2_full/v1_naive total_cost_usd |
-| linkedin | 3 | `140` | 100 queries + conversation turns (data files) |
-| linkedin | 7 | `$1.95` | summary.csv v1_naive total_cost_usd |
-| linkedin | 7 | `$0.69` | summary.csv v2_full total_cost_usd |
-| linkedin | 7 | `140` | 100 queries + conversation turns (data files) |
-| linkedin | 7 | `4.63` | summary.csv v1_naive mean_quality; routing_summary always_strong mean_quality |
-| linkedin | 7 | `4.49` | summary.csv v2_full mean_quality |
-| linkedin | 7 | `5` | quality scale top (rubric); config cache.ttl_seconds in minutes; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
-| linkedin | 9 | `12%` | routing_summary laya vs always_strong cost; router_head_summary zero-shot saving |
-| linkedin | 9 | `270` | data/router_train.csv rows |
-| linkedin | 9 | `20%` | router_head_summary laya_head saving; router_head_summary laya_zero_shot@0.50 share_to_haiku |
-| linkedin | 11 | `4.42` | routing_summary always_cheap quality_simple |
-| linkedin | 11 | `4.79` | routing_summary always_strong quality_simple |
-| linkedin | 13 | `4.80` | summary.csv cache_full_kb mean_quality |
-| linkedin | 13 | `62%` | 1 - cache_full_kb/v1 cost |
+| linkedin | 5 | `140` | 100 queries + conversation turns (data files) |
+| linkedin | 9 | `$1.95` | summary.csv v1_naive total_cost_usd |
+| linkedin | 9 | `$0.69` | summary.csv v2_full total_cost_usd |
+| linkedin | 9 | `64%` | 1 - v2_full/v1_naive total_cost_usd |
+| linkedin | 9 | `4.63` | summary.csv v1_naive mean_quality; routing_summary always_strong mean_quality |
+| linkedin | 9 | `4.49` | summary.csv v2_full mean_quality |
+| linkedin | 9 | `5` | quality scale top (rubric); config cache.ttl_seconds in minutes; retrieval_recall k; retrieval_example keyword_rank; retrieval_example meaning_rank; retrieval_example combined_rank |
+| linkedin | 11 | `12%` | routing_summary laya vs always_strong cost; router_head_summary zero-shot saving |
+| linkedin | 11 | `270` | data/router_train.csv rows |
+| linkedin | 11 | `20%` | router_head_summary laya_head saving; router_head_summary laya_zero_shot@0.50 share_to_haiku |
+| linkedin | 13 | `4.42` | routing_summary always_cheap quality_simple |
+| linkedin | 13 | `4.79` | routing_summary always_strong quality_simple |
+| linkedin | 15 | `4.80` | summary.csv cache_full_kb mean_quality |
+| linkedin | 15 | `62%` | 1 - cache_full_kb/v1 cost |
 | web page | 5 | `140` | 100 queries + conversation turns (data files) |
 | web page | 6 | `64%` | 1 - v2_full/v1_naive total_cost_usd |
 | web page | 9 | `5.5` | model name: Claude Sonnet 5.5 |
