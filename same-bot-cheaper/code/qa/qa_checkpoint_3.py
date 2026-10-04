@@ -245,12 +245,14 @@ dirn = [("v2 quality below v1", s.loc["v2_full", "mean_quality"] < s.loc["v1_nai
          and s.loc["cache_full_kb", "mean_quality"] > s.loc["plus_tight_cache", "mean_quality"], "it was cheaper and better"),
         ("hindsight ceiling above trained Laya", rh.loc["hindsight_ceiling", "saving_vs_always_sonnet"] > rh.loc["laya_head", "saving_vs_always_sonnet"],
          "it's the ceiling"),
+        ("meaning model named = model used", CFG["qa"]["embedding_model"] == "sentence-transformers/all-MiniLM-L6-v2", "all-MiniLM-L6-v2"),
         ("trim smaller than routing", s.loc["plus_retrieve", "total_cost_usd"] - s.loc["plus_trim", "total_cost_usd"]
          < v1 - s.loc["plus_route", "total_cost_usd"], "barely mattered")]
 bad = [k for k, cond, phrase in dirn if not (cond and phrase in blog)]
 check("claims match the data's direction (weak/mixed results stated as such)", not bad, f"checked {len(dirn)} directional claims; mismatched={bad}")
 OWN = ("https://github.com/rvshankar45-jpg/Laya-model-router", "https://rvshankar45-jpg.github.io/",
-       "https://huggingface.co/convaiinnovations/laya")  # own work + the cited Laya model card
+       "https://huggingface.co/convaiinnovations/laya",
+       "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2")  # own work + cited model cards (Laya, MiniLM)
 links = [u.rstrip(").,") for u in re.findall(r"https?://\S+", blog + li)]
 foreign = [u for u in links if not u.startswith(OWN)]
 check("no invented quotes, stats or sources", not foreign and '"' not in re.sub(r'"[^"]{0,60}"', "", blog),

@@ -6,7 +6,7 @@ Token cost is one of the biggest brakes on LLM adoption. Before accepting it as 
 
 ## How this works, in one minute
 
-**The app.** A customer-support chatbot for Leafy, a made-up online plant shop. A customer asks something like "What's your return window?" and the bot answers from Leafy's policy manual, a document of about 3,600 tokens in 9 sections. It runs on Claude models; all data is invented.
+**The app.** A customer-support chatbot for Leafy, a made-up online plant shop. A customer asks something like "What's your return window?" and the bot answers from Leafy's [policy manual](https://github.com/rvshankar45-jpg/Laya-model-router/blob/main/data/kb.md), a document of about 3,600 tokens in 9 sections. It runs on Claude models; all data is invented.
 
 **Two versions.** Version 1 is built the quick way: every question goes to the strongest, most expensive model (Sonnet 5.5), with the whole manual and the whole chat attached. Version 2 adds six cost-saving fixes, one at a time.
 
@@ -91,9 +91,9 @@ Retrieved sections change with every question, so they're billed at full price e
 
 Retrieval is plain search, with no AI writing involved. Five steps:
 
-1. **Split.** The manual is cut at its 9 headings, one searchable chunk per section.
+1. **Split.** The [manual](https://github.com/rvshankar45-jpg/Laya-model-router/blob/main/data/kb.md) is cut at its 9 headings, one searchable chunk per section.
 2. **Keyword score.** Each section scores higher the more of the question's words it contains. Rare words count more, and long sections aren't favoured just for being long (a standard search formula called BM25).
-3. **Meaning score.** A small free model turns the question and each section into a list of 384 numbers that capture meaning, so "can I send it back?" lands near Returns even without a shared word.
+3. **Meaning score.** A small free open-source model, [all-MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2), turns the question and each section into a list of 384 numbers that capture meaning, so "can I send it back?" lands near Returns even without a shared word.
 4. **Combine.** Each method ranks the 9 sections. A section's final score is 1/(60 + keyword rank) + 1/(60 + meaning rank), so sections that do well on both rise to the top.
 5. **Send the top 3**, in the order they appear in the manual. In conversations, the customer's previous message joins the search, so follow-ups still find the right section.
 
